@@ -11,6 +11,28 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
+**Phase 2 — extraction.** Sixteen datasets built from the two highest-value
+Libyan sources, with a validation suite. See
+[`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
+
+| Dataset | Coverage | Rows |
+|---|---|---|
+| CBL money supply, and its counterparts | 2004-01 – 2026-04, monthly | 268 each |
+| CBL monetary base, and its counterparts | 2004-01 – 2026-04, monthly | 268 each |
+| CBL required reserves | 2004-01 – 2026-04, monthly | 268 |
+| CBL monetary series, stacked long | 2004-01 – 2026-04 | 8,844 |
+| CBL capital adequacy | 2004 – 2026, annual | 23 |
+| CBL foreign exchange by bank | 12 releases, 2025-06 – 2026-07 | 544 |
+| CBL foreign exchange by bank and purpose | 10 releases | 1,840 |
+| CBL letters of credit by beneficiary firm | 11 releases, ~3,000 firms each | 22,830 |
+| CBL letters of credit by goods, origin, beneficiary country | 12 releases | 5,265 |
+| BSC consumer price index by COICOP division | 2015-01 – 2026-04, monthly | 1,175 |
+| BSC publication catalogue | all four statistical domains | 248 |
+
+Everything is reproducible from source: `scripts/` downloads the PDFs, extracts
+the tables and records the SHA-256 of every file read. `python3
+scripts/validate.py` re-checks the results.
+
 **Phase 1 — source identification.** Complete for Libyan-domiciled sources.
 
 40 Libyan institutions inventoried and probed on 2026-09-09:
@@ -22,6 +44,38 @@ release it in tidy, analysis-ready form.
   confirmed holdings of each major source and an assessment of coverage by research domain.
 - [`sources/access_notes.md`](sources/access_notes.md) — what is blocked, what is broken, what is
   compromised, and how to reproduce the reachability check.
+
+## What the data shows
+
+Every one of the ten accounting identities inside the Central Bank's monetary
+tables holds exactly across all 268 months, and the foreign exchange tables
+reconcile to within \$5 of the totals the CBL states in its own text. December
+2023 consumer prices extract as 296.9, the figure the BSC publishes itself.
+These are not incidental checks: they are the evidence that the column mapping
+is right, and `scripts/validate.py` re-runs them.
+
+Three findings came out of building it.
+
+**The Central Bank's own tables disagree with each other.** Central bank net
+foreign assets differ between the two factor tables in 21 of 268 months,
+including a constant 2,004.2m LYD gap running through every month of 2018.
+Currency in circulation differs between the money supply and monetary base
+tables in 4 months. These are publication vintages that were never reconciled.
+Both versions are kept, and the disagreements are listed rather than averaged.
+
+**The consumer price index breaks in January 2025.** The BSC rebased from
+2008=100 to 2024=100 and changed the basket weights. The two are separate series
+and the dataset keeps them apart with a `base_year` column. Most monthly reports
+never state their base at all, so the extraction establishes it by matching
+figures against documents that do, records which route was taken, and leaves the
+base empty where no match exists rather than guessing.
+
+**The foreign exchange appendices name names.** Every accepted letter-of-credit
+coverage request is published with the beneficiary firm and the dollar amount,
+roughly 3,000 companies per release. That is firm-level access to hard currency
+at the official rate, in a country where the gap between the official and
+parallel rate is the central distributive question. No international dataset on
+Libya contains it.
 
 ## Headline findings from Phase 1
 
@@ -47,8 +101,9 @@ access notes.
 
 See [`docs/roadmap.md`](docs/roadmap.md).
 
-Next: extend the inventory to international and multilateral sources on Libya, then begin
-extraction, starting with the CBL monetary series and the BSC census.
+Next: the 2006 census by municipality, which needs an Arabic presentation-forms
+decoder before its 22 volumes can be read; the geographic concordance table
+that everything subnational depends on; and the international source inventory.
 
 ## Scope
 
