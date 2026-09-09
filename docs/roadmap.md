@@ -27,19 +27,31 @@ citation and stability problems. This needs an explicit decision rather than a d
 
 ## Phase 3 — Extraction
 
-Ordered by value over effort.
+Done, with a validation suite in `scripts/validate.py`:
 
-1. **CBL monetary series, 2004–present.** Money supply, monetary base, required reserves,
-   consolidated commercial bank balance sheet, capital adequacy, currency issued. Consistent PDF
-   table layouts across a twenty-year run. The single highest-return task in the project.
-2. **BSC 2006 census by municipality.** Establishes the subnational baseline everything else joins to.
-3. **BSC CPI monthly series.** With the Ministry of Economy daily commodity rates as an independent
-   cross-check on the gap years.
-4. **BSC foreign trade, 2005–2016**, reconciled against the CBL foreign trade reports.
-5. **HNEC electoral results, 2012–2026**, contingent on solving the access problem.
-6. **Audit Bureau annual reports** — spending by ministry and state company. Manual retrieval,
+1. **CBL monetary series, 2004–2026.** Money supply, monetary base, required reserves and both
+   counterpart decompositions, monthly with no gaps and every accounting identity holding exactly.
+   Plus annual capital adequacy.
+2. **CBL uses of foreign exchange.** By bank, by purpose, and the full appendix set down to named
+   beneficiary firms. Reconciles to within $5 of the CBL's own published totals.
+3. **BSC consumer price index**, 2015–2026 by COICOP division, separated by base year.
+4. **BSC publication catalogue**, 248 documents enumerated through the sitemaps.
+
+Remaining, in order of value over effort:
+
+5. **BSC 2006 census by municipality.** The 22 volumes are typeset in Arabic presentation forms
+   with reversed character order, so they need a de-shaping and re-ordering pass before any table
+   can be read. Establishes the subnational baseline everything else joins to.
+6. **BSC foreign trade, 2005–2016**, reconciled against the CBL foreign trade reports. Also the
+   Ministry of Economy daily commodity rates, as an independent price series covering the CPI gap
+   years.
+7. **CBL assets and liabilities, and the consolidated commercial bank balance sheet.** Both are
+   bilingual right-to-left layouts with figures in reverse column order; the column mapping needs
+   validating against known totals before the data can be trusted.
+8. **HNEC electoral results, 2012–2026**, contingent on solving the access problem.
+9. **Audit Bureau annual reports** — spending by ministry and state company. Manual retrieval,
    heavy extraction, high payoff for political economy work.
-7. **LANA newswire corpus** via sequential ID enumeration, as a text corpus rather than a table.
+10. **LANA newswire corpus** via sequential ID enumeration, as a text corpus rather than a table.
 
 ## Phase 4 — Harmonization
 
