@@ -36,12 +36,12 @@ Done, with a validation suite in `scripts/validate.py`:
    beneficiary firms. Reconciles to within $5 of the CBL's own published totals.
 3. **BSC consumer price index**, 2015–2026 by COICOP division, separated by base year.
 4. **BSC publication catalogue**, 248 documents enumerated through the sitemaps.
+5. **BSC 2006 census by mahalla**, 667 localities across all 22 shabiyat, plus shabiya area and
+   density. Reconciles exactly to the published national population and area. This is the
+   subnational baseline everything else joins to.
 
 Remaining, in order of value over effort:
 
-5. **BSC 2006 census by municipality.** The 22 volumes are typeset in Arabic presentation forms
-   with reversed character order, so they need a de-shaping and re-ordering pass before any table
-   can be read. Establishes the subnational baseline everything else joins to.
 6. **BSC foreign trade, 2005–2016**, reconciled against the CBL foreign trade reports. Also the
    Ministry of Economy daily commodity rates, as an independent price series covering the CPI gap
    years.
@@ -58,10 +58,11 @@ Remaining, in order of value over effort:
 The part that makes this a repository rather than a folder of scraped PDFs.
 
 - **Geographic concordance.** Libyan administrative units have been reorganised repeatedly —
-  muhafazat, then 22 shabiyat, then the current municipality (baladiya) system, with boundary and
-  name changes throughout. A crosswalk table mapping every unit appearing in any source to a stable
-  internal identifier, with validity dates, is a prerequisite for joining anything subnational.
-  Nothing else in Phase 4 can proceed without it.
+  muhafazat, then the 22 shabiyat the 2006 census uses, then the current municipality (baladiya)
+  system, with boundary and name changes throughout. A crosswalk mapping every unit appearing in
+  any source to a stable internal identifier, with validity dates, is a prerequisite for joining
+  anything subnational, and nothing else in Phase 4 can proceed without it. The census extraction
+  supplies one side of it already: 22 shabiyat and 667 mahallas with stable keys.
 - **Transliteration standard.** Arabic place and institution names arrive in several romanisations
   across sources. Pick one, apply it consistently, and keep the Arabic original in a parallel column.
 - **Temporal alignment.** Fiscal, Gregorian and Hijri years all appear. Store the original and a
