@@ -121,6 +121,53 @@ disputed = int(cpi.has_conflict.sum())
 print(f"  [note] {disputed} observations flagged has_conflict "
       f"({int(gen.has_conflict.sum())} in the general index)")
 
+print("\n2006 population census")
+mah = pd.read_csv(OUT / "bsc_census_2006_mahalla.csv")
+shb = pd.read_csv(OUT / "bsc_census_2006_shabiya.csv")
+PUBLISHED_POPULATION = 5_657_692
+PUBLISHED_AREA = 1_676_198
+
+for total, parts in [
+        ("libyan_hh_persons", ["libyan_hh_libyans", "libyan_hh_non_libyans"]),
+        ("non_libyan_hh_persons", ["non_libyan_hh_libyans", "non_libyan_hh_non_libyans"]),
+        ("households", ["libyan_hh_households", "non_libyan_hh_households"]),
+        ("libyans", ["libyan_hh_libyans", "non_libyan_hh_libyans"]),
+        ("non_libyans", ["libyan_hh_non_libyans", "non_libyan_hh_non_libyans"]),
+        ("persons", ["libyan_hh_persons", "non_libyan_hh_persons"])]:
+    residual = mah[total] - mah[parts].sum(axis=1)
+    breaches = int((residual != 0).sum())
+    # One row carries a misprint in the source; see the codebook.
+    status = "ok " if breaches <= 1 else "FAIL"
+    print(f"  [{status}] mahalla identity {total:26s} breaches {breaches}/{len(mah)}")
+    if breaches > 1:
+        failures.append(f"census identity {total}: {breaches} breaches")
+
+if shb.persons.sum() == PUBLISHED_POPULATION:
+    print(f"  [ok ] shabiya totals sum to {PUBLISHED_POPULATION:,}, "
+          f"the published 2006 census population")
+else:
+    failures.append(f"census: shabiya totals sum to {shb.persons.sum():,}, "
+                    f"not {PUBLISHED_POPULATION:,}")
+    print(f"  [FAIL] shabiya totals sum to {shb.persons.sum():,}")
+
+if shb.area_km2.sum() == PUBLISHED_AREA:
+    print(f"  [ok ] shabiya areas sum to {PUBLISHED_AREA:,} km2, as printed")
+else:
+    failures.append(f"census: areas sum to {shb.area_km2.sum():,}, not {PUBLISHED_AREA:,}")
+    print(f"  [FAIL] shabiya areas sum to {shb.area_km2.sum():,} km2")
+
+if len(shb) == 22 and mah.mahalla_id.nunique() == len(mah):
+    print(f"  [ok ] {len(mah)} mahallas across {len(shb)} shabiyat, keys unique")
+else:
+    failures.append("census: shabiya count or mahalla key uniqueness is wrong")
+    print(f"  [FAIL] {len(mah)} mahallas, {len(shb)} shabiyat, "
+          f"{mah.mahalla_id.nunique()} unique keys")
+
+gap = shb.persons.sum() - mah.persons.sum()
+print(f"  [note] mahalla sum is {gap:,} below the shabiya totals, "
+      f"accounted for by one misprinted figure in the source")
+notes.append(f"census: mahalla sum {gap:,} below shabiya totals (source misprint)")
+
 print()
 for n in notes:
     print(f"note: {n}")

@@ -14,6 +14,7 @@ python3 scripts/extract_cbl_fx.py
 python3 scripts/harvest_bsc_catalogue.py
 python3 scripts/download_bsc_pdfs.py
 python3 scripts/extract_bsc_cpi.py
+python3 scripts/extract_bsc_census.py
 
 python3 scripts/validate.py
 ```
@@ -216,6 +217,67 @@ and reports the disagreement rather than silently choosing.
 
 ---
 
+## Bureau of Statistics and Census — 2006 population census
+
+Source: <https://bsc.ly/demog_statist/>, 22 volumes, one per shabiya.
+
+The 2006 general census is Libya's last full enumeration. Table 1 of each volume
+gives, for every mahalla (locality), households and resident population split by
+the nationality of the household and the nationality of the individual. Table 3,
+reprinted in every volume, gives each shabiya's area, population and density.
+
+### `bsc_census_2006_mahalla.csv` — 667 mahallas
+
+| Column | Meaning |
+|---|---|
+| `mahalla_id` | stable key, `<shabiya>-<printed order>`. **Use this, not the name**: three mahalla names repeat within their own shabiya |
+| `shabiya_ar`, `shabiya_en` | first-level unit, Arabic authoritative |
+| `mahalla_ar` | locality name as printed, in logical order |
+| `libyan_hh_households` | households headed by Libyans |
+| `libyan_hh_libyans`, `libyan_hh_non_libyans`, `libyan_hh_persons` | people resident in those households, by their own nationality, and the total |
+| `non_libyan_hh_*` | the same four figures for non-Libyan households |
+| `households`, `libyans`, `non_libyans`, `persons` | all households, and all residents |
+| `identity_failures` | count of the six accounting identities the printed row breaks |
+| `imputed_cells` | count of cells the source left blank that its own arithmetic determines uniquely |
+| `page` | page of the source PDF |
+| `source_document`, `source_sha256` | the volume the row came from |
+
+### `bsc_census_2006_shabiya.csv` — 22 shabiyat
+
+The total row printed in each volume, plus `area_km2` and `density_per_km2` from
+Table 3, and `volume_title_ar` because four volume titles differ from the formal
+shabiya name (the volume titled المنطقة الغربية is النقاط الخمس; طبرق is البطنان;
+الشاطئ is وادي الشاطئ; مصراتة is printed مصراته in Table 3).
+
+### `bsc_census_2006_checks.csv`
+
+Every identity failure and every reconciliation, passing or failing.
+
+### How the figures were validated
+
+Nothing here rests on trusting a page number or a caption. Each row carries six
+accounting identities, and those identities are what *locate* Table 1 in the
+first place, since its page and caption differ between volumes.
+
+- All six identities hold on 666 of 667 mahallas.
+- 21 of 22 volumes: the mahallas sum exactly to the volume's own printed total.
+- All 22 volumes: the printed total matches that shabiya's row in Table 3.
+- All 22 copies of Table 3 extract identically.
+- The 22 shabiya totals sum to **5,657,692**, Libya's published 2006 census
+  population, and the areas to **1,676,198 km²**, both exactly.
+
+### Reading the Arabic
+
+The volumes are typeset in Arabic presentation forms in visual order, so text
+must be converted before use; `scripts/arabic_text.py` does this. The order of
+operations matters: a lam-alef ligature is one glyph standing for two letters and
+must be reversed *before* being expanded. Expanding first silently swaps the two
+letters — الجلاء becomes الجالء — and the result still reads as plausible Arabic,
+so the corruption is invisible on inspection. Every place name containing
+lam-alef would be wrong.
+
+---
+
 ## Source inventory
 
 ### `data/raw/bsc/bsc_catalogue.csv`
@@ -241,4 +303,6 @@ Recorded rather than corrected, except where noted.
 | CBL FX appendices, Aug/Sep/Oct 2025 releases | The heading "According to Country of Origin - Private Sector" appears twice over two different tables; comparison with releases that label the sections properly indicates the second is the beneficiary-country table | Not reassigned. Tagged `section_seq=2` with the verbatim heading so the ambiguity is visible |
 | BSC CPI | Base year printed four different ways across documents, and often not at all | All four patterns are read; documents that state none are resolved by matching, or left with an empty base year |
 | BSC CPI, 9 months in 2018, 2019, 2022, 2023 | Two BSC documents print different figures for the same month, group and base — largest gap 560.6 index points, in tobacco | Both kept. The first is written to the dataset with `has_conflict = 1`, the alternative and both document names to `bsc_cpi_source_conflicts.csv` |
+| 2006 census, المرقب, الفاسي | Total persons printed as 50; the row's own components give 2,910, and the shabiya total confirms it | Left as printed, flagged in `identity_failures` and named in the checks file. This single misprint is the entire 2,860 gap between the mahalla sum and the shabiya totals |
+| 2006 census, three cells | Cells left blank where the value is zero, in النقاط الخمس and المرقب | Filled from the identities that determine them uniquely, counted in `imputed_cells` |
 | BSC CPI, 2026 | Only March and April 2026 are published, with no overlap onto the 2024-base series, so their base cannot be established. The level (113.9, 116.0) is far above December 2025 (102.8) | Kept with an empty `base_year`. Do not splice onto the 2024 base without confirming with the BSC |
