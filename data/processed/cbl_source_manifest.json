@@ -1,0 +1,28 @@
+[
+  {
+    "file": "cbl_mb_4.pdf",
+    "sha256": "847bf3916ff66f27ade5df050fc9566c8018fd637d73804baa120498774267fb",
+    "bytes": 315712,
+    "tables": [
+      "REQUIRED RESERVES FOR COMMERCIAL BANKS"
+    ]
+  },
+  {
+    "file": "cbl_mb_5.pdf",
+    "sha256": "696ed78d769e49c8caf49446f5d474fb84fb1167ea355f408705e6c8e2a0953a",
+    "bytes": 740211,
+    "tables": [
+      "FACTORS AFFECTING MONETARY BASE",
+      "MONETARY BASE"
+    ]
+  },
+  {
+    "file": "cbl_mb_7.pdf",
+    "sha256": "63da0411399151d59cf204e7b2939007e56b8f66195202fd84e3d03070db7746",
+    "bytes": 791005,
+    "tables": [
+      "FACTORS AFFECTING MONEY SUPPLY",
+      "MONEY SUPPLY"
+    ]
+  }
+]

@@ -1,0 +1,769 @@
+period_end,rank,country,value_usd,sector,section_seq,source_section_label
+2026-02-28,1,Switzerland,82409913.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,2,Türkiye,58432931.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,3,United Arab Emirates,53704169.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,4,Italy,28228732.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,5,United Kingdom,26142400.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,6,Tunisia,20337367.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,7,Canada,18673397.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,8,China,15006337.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,9,Bahrain,14395000.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,10,Austria,13150662.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,11,Netherlands,11415541.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,12,Thailand,11221815.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,13,Saudi Arabia,10784634.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,14,Egypt,10691108.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,15,Germany,9036727.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,16,India,8268011.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,17,Belgium,7006184.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,18,Japan,5873913.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,19,Spain,4673809.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,20,France,4616282.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,21,Cyprus,4175717.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,22,Singapore,3801000.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,23,Hong Kong S.A.R.,3632255.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,24,Malta,3342564.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,25,Morocco,3312802.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,26,Uruguay,3035359.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,27,Indonesia,2943531.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,28,Luxembourg,2753083.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,29,Ireland,2386553.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,30,United States,2209933.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,31,South Korea,2207973.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,32,Slovenia,1871313.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,33,Lebanon,1830400.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,34,Algeria,732097.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,35,Oman,451500.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,36,Jordan,398440.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,37,Brazil,384000.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,38,Sweden,316800.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,39,South Africa,182028.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,40,Sri Lanka,148594.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,41,Turkmenistan,89738.0,unspecified,1,According to Country of Beneficiary
+2026-02-28,42,Greece,25099.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,1,United Arab Emirates,853463206.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,2,Türkiye,506668596.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,3,Egypt,359934558.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,4,Switzerland,335642937.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,5,Italy,187880015.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,6,China,187645274.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,7,Spain,105136496.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,8,Tunisia,98771024.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,9,Britain (United Kingdom),98154020.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,10,Hong Kong S.A.R.,72006413.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,11,Austria,63525458.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,12,Netherlands,57271929.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,13,Thailand,53286791.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,14,Lebanon,51251460.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,15,Canada,50983252.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,16,Germany,41007535.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,17,Saudi Arabia,34696474.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,18,Bahrain,33268329.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,19,Singapore,31677279.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,20,Cyprus,29762265.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,21,France,27095260.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,22,India,26976259.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,23,Belgium,22723760.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,24,Jordan,20345394.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,25,Japan,19815604.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,26,South Korea,19005164.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,27,Brazil,18239903.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,28,Indonesia,16726482.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,29,United States,13119665.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,30,Ireland,10835765.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,31,Malta,9506335.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,32,Morocco,8752244.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,33,Algeria,8712962.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,34,Uruguay,8570238.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,35,Mauritius,8053685.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,36,Sri Lanka,7911173.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,37,Hungary,6796433.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,38,Ukraine,6743970.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,39,Sweden,6615834.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,40,Greece,4900645.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,41,Poland,4693135.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,42,Bahamas,4361201.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,43,Slovenia,4197193.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,44,Denmark,3819260.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,45,Australia,3456460.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,46,New Zealand,3353434.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,47,Oman,3151000.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,48,Luxembourg,3051986.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,49,Lithuania,2900676.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,50,Portugal,2867054.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,51,Romania,2728377.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,52,Vietnam,1892198.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,53,Finland,1581795.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,54,Monaco,1575624.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,55,Qatar,1399600.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,56,South Africa,1203253.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,57,Bulgaria,1046390.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,58,Slovakia,975279.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,59,Colombia,967725.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,60,Argentina,929280.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,61,Malaysia,568433.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,62,Former Yugoslav Republic of Macedonia,568179.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,63,Pakistan,406125.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,64,Croatia,311744.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,65,Bangladesh,300000.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,66,Sant Marino,223938.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,67,Maldives,212525.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,68,Serbia,174706.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,69,Mexico,118431.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,70,Taiwan,93600.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,71,Turkmenistan,89738.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,72,Kenya,8000.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,73,Senegal,2101.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,74,Ivory Coast,2101.0,unspecified,1,According to Country of Beneficiary
+2026-04-30,75,Sierra Leone,1198.0,unspecified,1,According to Country of Beneficiary
+2026-07-31,1,United Arab Emirates,2096193757.0,unspecified,1,According to the beneficiary country
+2026-07-31,2,Türkiye,1740311093.0,unspecified,1,According to the beneficiary country
+2026-07-31,3,Egypt,920226276.0,unspecified,1,According to the beneficiary country
+2026-07-31,4,China,683300889.0,unspecified,1,According to the beneficiary country
+2026-07-31,5,Switzerland,641031012.0,unspecified,1,According to the beneficiary country
+2026-07-31,6,Italy,457658319.0,unspecified,1,According to the beneficiary country
+2026-07-31,7,Tunisia,319507052.0,unspecified,1,According to the beneficiary country
+2026-07-31,8,United Kingdom,211135822.0,unspecified,1,According to the beneficiary country
+2026-07-31,9,Spain,167922334.0,unspecified,1,According to the beneficiary country
+2026-07-31,10,Hong Kong S.A.R.,163323416.0,unspecified,1,According to the beneficiary country
+2026-07-31,11,Thailand,139101102.0,unspecified,1,According to the beneficiary country
+2026-07-31,12,Austria,122241695.0,unspecified,1,According to the beneficiary country
+2026-07-31,13,Netherlands,122193592.0,unspecified,1,According to the beneficiary country
+2026-07-31,14,Germany,103279015.0,unspecified,1,According to the beneficiary country
+2026-07-31,15,Canada,85783687.0,unspecified,1,According to the beneficiary country
+2026-07-31,16,France,79872787.0,unspecified,1,According to the beneficiary country
+2026-07-31,17,Jordan,79612105.0,unspecified,1,According to the beneficiary country
+2026-07-31,18,India,79609601.0,unspecified,1,According to the beneficiary country
+2026-07-31,19,Bahrain,78697837.0,unspecified,1,According to the beneficiary country
+2026-07-31,20,Cyprus,76246344.0,unspecified,1,According to the beneficiary country
+2026-07-31,21,South Korea,72852639.0,unspecified,1,According to the beneficiary country
+2026-07-31,22,Saudi Arabia,64781311.0,unspecified,1,According to the beneficiary country
+2026-07-31,23,Lebanon,64331065.0,unspecified,1,According to the beneficiary country
+2026-07-31,24,Oman,62471178.0,unspecified,1,According to the beneficiary country
+2026-07-31,25,Singapore,60868784.0,unspecified,1,According to the beneficiary country
+2026-07-31,26,Japan,58820423.0,unspecified,1,According to the beneficiary country
+2026-07-31,27,Belgium,49230373.0,unspecified,1,According to the beneficiary country
+2026-07-31,28,Brazil,42705047.0,unspecified,1,According to the beneficiary country
+2026-07-31,29,Algeria,39128680.0,unspecified,1,According to the beneficiary country
+2026-07-31,30,Indonesia,37680570.0,unspecified,1,According to the beneficiary country
+2026-07-31,31,Slovakia,35282331.0,unspecified,1,According to the beneficiary country
+2026-07-31,32,New Zealand,34009060.0,unspecified,1,According to the beneficiary country
+2026-07-31,33,United States,33531466.0,unspecified,1,According to the beneficiary country
+2026-07-31,34,Ireland,32763037.0,unspecified,1,According to the beneficiary country
+2026-07-31,35,Sweden,26987091.0,unspecified,1,According to the beneficiary country
+2026-07-31,36,Denmark,25653310.0,unspecified,1,According to the beneficiary country
+2026-07-31,37,Ukraine,21923571.0,unspecified,1,According to the beneficiary country
+2026-07-31,38,Morocco,21667660.0,unspecified,1,According to the beneficiary country
+2026-07-31,39,Sri Lanka,20865753.0,unspecified,1,According to the beneficiary country
+2026-07-31,40,Malta,20688685.0,unspecified,1,According to the beneficiary country
+2026-07-31,41,Uruguay,18357028.0,unspecified,1,According to the beneficiary country
+2026-07-31,42,Poland,17883274.0,unspecified,1,According to the beneficiary country
+2026-07-31,43,Slovenia,13333158.0,unspecified,1,According to the beneficiary country
+2026-07-31,44,Hungary,12793720.0,unspecified,1,According to the beneficiary country
+2026-07-31,45,Greece,12494542.0,unspecified,1,According to the beneficiary country
+2026-07-31,46,Mauritius,12130207.0,unspecified,1,According to the beneficiary country
+2026-07-31,47,Luxembourg,9016739.0,unspecified,1,According to the beneficiary country
+2026-07-31,48,Vietnam,8634086.0,unspecified,1,According to the beneficiary country
+2026-07-31,49,Australia,8512020.0,unspecified,1,According to the beneficiary country
+2026-07-31,50,Bahamas,7186168.0,unspecified,1,According to the beneficiary country
+2026-07-31,51,Estonia,6810818.0,unspecified,1,According to the beneficiary country
+2026-07-31,52,Portugal,6733281.0,unspecified,1,According to the beneficiary country
+2026-07-31,53,Lithuania,6408732.0,unspecified,1,According to the beneficiary country
+2026-07-31,54,Malaysia,3409294.0,unspecified,1,According to the beneficiary country
+2026-07-31,55,Romania,3403334.0,unspecified,1,According to the beneficiary country
+2026-07-31,56,Bulgaria,3175719.0,unspecified,1,According to the beneficiary country
+2026-07-31,57,Monaco,2909671.0,unspecified,1,According to the beneficiary country
+2026-07-31,58,Finland,2831744.0,unspecified,1,According to the beneficiary country
+2026-07-31,59,Pakistan,2130179.0,unspecified,1,According to the beneficiary country
+2026-07-31,60,Argentina,2006680.0,unspecified,1,According to the beneficiary country
+2026-07-31,61,Qatar,1941100.0,unspecified,1,According to the beneficiary country
+2026-07-31,62,Colombia,1935450.0,unspecified,1,According to the beneficiary country
+2026-07-31,63,Sant Marino,1683508.0,unspecified,1,According to the beneficiary country
+2026-07-31,64,Serbia,1429514.0,unspecified,1,According to the beneficiary country
+2026-07-31,65,South Africa,1327295.0,unspecified,1,According to the beneficiary country
+2026-07-31,66,Bosnia and Herzegovina,1136542.0,unspecified,1,According to the beneficiary country
+2026-07-31,67,Croatia,840714.0,unspecified,1,According to the beneficiary country
+2026-07-31,68,Macao,735096.0,unspecified,1,According to the beneficiary country
+2026-07-31,69,Taiwan,664149.0,unspecified,1,According to the beneficiary country
+2026-07-31,70,Former Yugoslav Republic of Macedonia,566705.0,unspecified,1,According to the beneficiary country
+2026-07-31,71,Bangladesh,439252.0,unspecified,1,According to the beneficiary country
+2026-07-31,72,Czech Republic,320040.0,unspecified,1,According to the beneficiary country
+2026-07-31,73,Nigeria,288533.0,unspecified,1,According to the beneficiary country
+2026-07-31,74,Guatemala,265000.0,unspecified,1,According to the beneficiary country
+2026-07-31,75,Maldives,212525.0,unspecified,1,According to the beneficiary country
+2026-07-31,76,Chad,197908.0,unspecified,1,According to the beneficiary country
+2026-07-31,77,Tanzania,163800.0,unspecified,1,According to the beneficiary country
+2026-07-31,78,Azerbaijan,128800.0,unspecified,1,According to the beneficiary country
+2026-07-31,79,Mexico,118431.0,unspecified,1,According to the beneficiary country
+2026-07-31,80,Turkmenistan,89738.0,unspecified,1,According to the beneficiary country
+2026-07-31,81,Latvia,82867.0,unspecified,1,According to the beneficiary country
+2026-07-31,82,Ecuador,55460.0,unspecified,1,According to the beneficiary country
+2026-07-31,83,Sierra Leone,34979.0,unspecified,1,According to the beneficiary country
+2026-07-31,84,South Pole,30750.0,unspecified,1,According to the beneficiary country
+2026-07-31,85,Kenya,8000.0,unspecified,1,According to the beneficiary country
+2026-07-31,86,Ivory Coast,2101.0,unspecified,1,According to the beneficiary country
+2026-07-31,87,Senegal,2101.0,unspecified,1,According to the beneficiary country
+2025-06-30,1,United Arab Emirates,2104946475.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,2,Türkiye,1661560144.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,3,Egypt,885621755.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,4,Switzerland,384758556.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,5,United Kingdom,319176704.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,6,China,305735311.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,7,Italy,224878731.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,8,Tunisia,218911647.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,9,Spain,132898739.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,10,Austria,122271394.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,11,Thailand,114262177.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,12,Japan,105698451.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,13,Netherlands,79888041.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,14,Jordan,67038980.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,15,France,63721139.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,16,Slovakia,59124616.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,17,Germany,55310169.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,18,South Korea,52038246.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,19,Singapore,51702692.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,20,Canada,41928409.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,21,Saudi Arabia,41386000.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,22,Belgium,39311682.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,23,Oman,34791231.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,24,Ukraine,32782966.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,25,Sri Lanka,32299890.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,26,Hong Kong S.A.R.,30797197.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,27,Indonesia,29802728.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,28,New Zealand,27859942.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,29,Malta,26973168.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,30,United States,25510517.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,31,India,25210375.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,32,Brazil,24805502.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,33,Bahrain,20343153.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,34,Algeria,19304147.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,35,Sweden,19136987.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,36,Morocco,17721743.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,37,Ireland,14767866.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,38,Greece,12654601.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,39,Slovenia,11460776.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,40,Poland,10584579.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,41,Hungary,10154705.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,42,Denmark,7343106.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,43,Ecuador,6692712.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,44,Australia,6675960.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,45,Cyprus,6297819.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,46,Portugal,5682392.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,47,Luxembourg,4814832.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,48,Mauritius,4618275.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,49,Viet Nam,4013465.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,50,Russian Federation,3570000.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,51,Romania,3367701.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,52,Bulgaria,3268170.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,53,Lithuania,3046752.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,54,Finland,2595620.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,55,"Korea, North",2423380.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,56,Pakistan,2169574.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,57,Botswana,1651500.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,58,Georgia,1207125.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,59,Serbia,1161039.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,60,Qatar,1114000.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,61,Liechtenstein,1070493.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,62,Malaysia,1023350.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,63,Croatia,997500.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,64,Lebanon,904671.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,65,South Africa,814464.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,66,Europe,581673.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,67,Kenya,523919.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,68,Argentina,359424.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,69,Taiwan,354827.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,70,Czech Republic,353651.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,71,Sant Marino,310355.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,72,Monaco,243440.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,73,Nigeria,235480.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,74,Libya,227533.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,75,Colombia,187488.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,76,Bosnia and Herzegovina,153585.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,77,Kuwait,152240.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,78,Gabon,110063.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,79,Saint Helena,100000.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,80,American Samoa,54939.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,81,Sierra Leone,24639.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,82,Estonia,13461.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,83,Kazakhstan,4400.0,private,1,According to Beneficiary Country - Private Sectors
+2025-06-30,1,United Arab Emirates,182543482.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,2,Switzerland,139125488.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,3,Brazil,76998483.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,4,United Kingdom,45364648.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,5,China,39042350.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,6,Bahrain,29092861.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,7,Jordan,20835979.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,8,Qatar,20607434.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,9,Germany,17751171.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,10,Angola,16095000.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,11,Greece,15046980.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,12,Netherlands,14926828.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,13,France,12340462.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,14,Italy,11389108.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,15,Tunisia,6384633.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,16,United States,5799068.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,17,Spain,5596321.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,18,Türkiye,5521803.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,19,Egypt,3312761.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,20,Austria,3153375.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,21,Argentina,2048068.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,22,India,1784251.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,23,Finland,1777843.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,24,Hong Kong S.A.R.,1646648.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,25,Saudi Arabia,819873.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,26,Sweden,583944.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,27,Malta,434154.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,28,Belgium,399087.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,29,Portugal,287543.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,30,Luxembourg,231500.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,31,Canada,95894.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,32,Bulgaria,71153.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,33,Lithuania,68136.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,34,Mauritania,40436.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,35,Lebanon,13186.0,public,1,According to Beneficiary Country - Public Sector
+2025-06-30,36,Denmark,10508.0,public,1,According to Beneficiary Country - Public Sector
+2026-06-30,1,United Arab Emirates,1762062824.0,unspecified,1,According to the beneficiary country
+2026-06-30,2,Türkiye,1399883080.0,unspecified,1,According to the beneficiary country
+2026-06-30,3,Egypt,768557441.0,unspecified,1,According to the beneficiary country
+2026-06-30,4,Switzerland,599117552.0,unspecified,1,According to the beneficiary country
+2026-06-30,5,China,569597114.0,unspecified,1,According to the beneficiary country
+2026-06-30,6,Italy,404507792.0,unspecified,1,According to the beneficiary country
+2026-06-30,7,Tunisia,271583476.0,unspecified,1,According to the beneficiary country
+2026-06-30,8,United Kingdom,179439068.0,unspecified,1,According to the beneficiary country
+2026-06-30,9,Spain,155976817.0,unspecified,1,According to the beneficiary country
+2026-06-30,10,Hong Kong S.A.R.,132227769.0,unspecified,1,According to the beneficiary country
+2026-06-30,11,Thailand,124492758.0,unspecified,1,According to the beneficiary country
+2026-06-30,12,Austria,111428723.0,unspecified,1,According to the beneficiary country
+2026-06-30,13,Netherlands,107269749.0,unspecified,1,According to the beneficiary country
+2026-06-30,14,Germany,92107050.0,unspecified,1,According to the beneficiary country
+2026-06-30,15,Canada,82922083.0,unspecified,1,According to the beneficiary country
+2026-06-30,16,Bahrain,76384437.0,unspecified,1,According to the beneficiary country
+2026-06-30,17,Jordan,69484743.0,unspecified,1,According to the beneficiary country
+2026-06-30,18,India,69470120.0,unspecified,1,According to the beneficiary country
+2026-06-30,19,Saudi Arabia,63338922.0,unspecified,1,According to the beneficiary country
+2026-06-30,20,Cyprus,61210316.0,unspecified,1,According to the beneficiary country
+2026-06-30,21,Lebanon,59171863.0,unspecified,1,According to the beneficiary country
+2026-06-30,22,Singapore,58131509.0,unspecified,1,According to the beneficiary country
+2026-06-30,23,South Korea,57193387.0,unspecified,1,According to the beneficiary country
+2026-06-30,24,France,56966816.0,unspecified,1,According to the beneficiary country
+2026-06-30,25,Japan,52412814.0,unspecified,1,According to the beneficiary country
+2026-06-30,26,Belgium,46554547.0,unspecified,1,According to the beneficiary country
+2026-06-30,27,Brazil,39699344.0,unspecified,1,According to the beneficiary country
+2026-06-30,28,Indonesia,37680570.0,unspecified,1,According to the beneficiary country
+2026-06-30,29,Oman,35909309.0,unspecified,1,According to the beneficiary country
+2026-06-30,30,Ireland,32551828.0,unspecified,1,According to the beneficiary country
+2026-06-30,31,Algeria,31555765.0,unspecified,1,According to the beneficiary country
+2026-06-30,32,United States,30571143.0,unspecified,1,According to the beneficiary country
+2026-06-30,33,Slovakia,29257285.0,unspecified,1,According to the beneficiary country
+2026-06-30,34,New Zealand,25877348.0,unspecified,1,According to the beneficiary country
+2026-06-30,35,Denmark,24820744.0,unspecified,1,According to the beneficiary country
+2026-06-30,36,Sweden,23332407.0,unspecified,1,According to the beneficiary country
+2026-06-30,37,Sri Lanka,20593503.0,unspecified,1,According to the beneficiary country
+2026-06-30,38,Ukraine,20589820.0,unspecified,1,According to the beneficiary country
+2026-06-30,39,Malta,20251778.0,unspecified,1,According to the beneficiary country
+2026-06-30,40,Morocco,19758641.0,unspecified,1,According to the beneficiary country
+2026-06-30,41,Uruguay,18357028.0,unspecified,1,According to the beneficiary country
+2026-06-30,42,Poland,14507688.0,unspecified,1,According to the beneficiary country
+2026-06-30,43,Hungary,12793720.0,unspecified,1,According to the beneficiary country
+2026-06-30,44,Mauritius,12130207.0,unspecified,1,According to the beneficiary country
+2026-06-30,45,Slovenia,11969583.0,unspecified,1,According to the beneficiary country
+2026-06-30,46,Greece,10688288.0,unspecified,1,According to the beneficiary country
+2026-06-30,47,Australia,8512020.0,unspecified,1,According to the beneficiary country
+2026-06-30,48,Vietnam,7916696.0,unspecified,1,According to the beneficiary country
+2026-06-30,49,Portugal,6401671.0,unspecified,1,According to the beneficiary country
+2026-06-30,50,Luxembourg,6015709.0,unspecified,1,According to the beneficiary country
+2026-06-30,51,Lithuania,5624750.0,unspecified,1,According to the beneficiary country
+2026-06-30,52,Bahamas,4361201.0,unspecified,1,According to the beneficiary country
+2026-06-30,53,Romania,3403334.0,unspecified,1,According to the beneficiary country
+2026-06-30,54,Malaysia,3178149.0,unspecified,1,According to the beneficiary country
+2026-06-30,55,Bulgaria,2948263.0,unspecified,1,According to the beneficiary country
+2026-06-30,56,Monaco,2909671.0,unspecified,1,According to the beneficiary country
+2026-06-30,57,Finland,2831744.0,unspecified,1,According to the beneficiary country
+2026-06-30,58,Qatar,1941100.0,unspecified,1,According to the beneficiary country
+2026-06-30,59,Pakistan,1931929.0,unspecified,1,According to the beneficiary country
+2026-06-30,60,Sant Marino,1683508.0,unspecified,1,According to the beneficiary country
+2026-06-30,61,South Africa,1327295.0,unspecified,1,According to the beneficiary country
+2026-06-30,62,Bosnia and Herzegovina,1079361.0,unspecified,1,According to the beneficiary country
+2026-06-30,63,Argentina,1077400.0,unspecified,1,According to the beneficiary country
+2026-06-30,64,Colombia,967725.0,unspecified,1,According to the beneficiary country
+2026-06-30,65,Serbia,923569.0,unspecified,1,According to the beneficiary country
+2026-06-30,66,Macao,735096.0,unspecified,1,According to the beneficiary country
+2026-06-30,67,Croatia,722129.0,unspecified,1,According to the beneficiary country
+2026-06-30,68,Former Yugoslav Republic of Macedonia,566705.0,unspecified,1,According to the beneficiary country
+2026-06-30,69,Taiwan,561711.0,unspecified,1,According to the beneficiary country
+2026-06-30,70,Bangladesh,439252.0,unspecified,1,According to the beneficiary country
+2026-06-30,71,Czech Republic,320040.0,unspecified,1,According to the beneficiary country
+2026-06-30,72,Nigeria,288533.0,unspecified,1,According to the beneficiary country
+2026-06-30,73,Guatemala,265000.0,unspecified,1,According to the beneficiary country
+2026-06-30,74,Maldives,212525.0,unspecified,1,According to the beneficiary country
+2026-06-30,75,Estonia,210818.0,unspecified,1,According to the beneficiary country
+2026-06-30,76,Tanzania,163800.0,unspecified,1,According to the beneficiary country
+2026-06-30,77,Mexico,118431.0,unspecified,1,According to the beneficiary country
+2026-06-30,78,Turkmenistan,89738.0,unspecified,1,According to the beneficiary country
+2026-06-30,79,Latvia,82867.0,unspecified,1,According to the beneficiary country
+2026-06-30,80,Chad,76488.0,unspecified,1,According to the beneficiary country
+2026-06-30,81,Ecuador,36000.0,unspecified,1,According to the beneficiary country
+2026-06-30,82,Sierra Leone,34979.0,unspecified,1,According to the beneficiary country
+2026-06-30,83,South Pole,30750.0,unspecified,1,According to the beneficiary country
+2026-06-30,84,Kenya,8000.0,unspecified,1,According to the beneficiary country
+2026-06-30,85,Ivory Coast,2101.0,unspecified,1,According to the beneficiary country
+2026-06-30,86,Senegal,2101.0,unspecified,1,According to the beneficiary country
+2025-11-30,1,United Arab Emirates,4114510583.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,2,Türkiye,3544946257.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,3,Egypt,1542597749.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,4,China,743491633.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,5,Switzerland,654955106.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,6,United Kingdom,573265721.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,7,Italy,487198203.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,8,Tunisia,442983725.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,9,Spain,260765628.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,10,Austria,200886760.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,11,Thailand,196495688.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,12,Japan,174962036.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,13,Netherlands,157602987.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,14,Singapore,138693870.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,15,Slovakia,130352001.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,16,Germany,124114182.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,17,France,116559838.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,18,South Korea,112904229.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,19,Jordan,111235680.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,20,Saudi Arabia,83126646.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,21,Canada,77660227.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,22,Hong Kong S.A.R.,70371426.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,23,Oman,67704526.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,24,India,67512291.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,25,Belgium,61351486.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,26,Indonesia,57773212.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,27,United States,54863335.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,28,New Zealand,53747918.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,29,Bahrain,50518149.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,30,Malta,50317314.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,31,Sweden,46485906.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,32,Sri Lanka,46029592.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,33,Ukraine,45500243.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,34,Brazil,42445557.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,35,Cyprus,37545896.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,36,Algeria,37488954.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,37,Morocco,35558444.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,38,Denmark,27298874.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,39,Slovenia,26038945.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,40,Mauritius,25045639.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,41,Ireland,24278672.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,42,Greece,23235984.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,43,Poland,22642111.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,44,Hungary,20891892.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,45,Luxembourg,19413982.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,46,Portugal,15763764.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,47,Ecuador,12512634.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,48,Australia,10835960.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,49,Viet Nam,10277442.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,50,Lithuania,8980567.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,51,Romania,8594252.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,52,Bulgaria,5913949.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,53,Russian Federation,5822500.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,54,Pakistan,4815160.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,55,Finland,3898971.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,56,Qatar,3177500.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,57,Malaysia,3102321.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,58,Lebanon,3077062.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,59,Marshall Islands,2426460.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,60,"Korea, North",2423380.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,61,Serbia,1795969.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,62,Botswana,1651500.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,63,South Africa,1538918.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,64,Argentina,1454424.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,65,Former Yugoslav Republic of Macedonia,1340898.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,66,Croatia,1273989.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,67,Georgia,1207125.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,68,Europe,1115039.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,69,Liechtenstein,1070493.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,70,Bosnia and Herzegovina,975304.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,71,Andorra,970084.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,72,Taiwan,967419.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,73,Europe,732274.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,74,Kenya,693777.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,75,Albania,593539.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,76,Colombia,582768.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,77,Monaco,508516.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,78,Nigeria,462409.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,79,Czech Republic,451451.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,80,Laos,407600.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,81,Niger,315000.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,82,Sant Marino,310355.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,83,Mongolia,232980.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,84,Iraq,210004.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,85,Tanzania,201593.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,86,Bangladesh,195946.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,87,Kuwait,152240.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,88,Turkmenistan,125250.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,89,Gabon,110063.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,90,Estonia,105571.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,91,Saint Helena,100000.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,92,Uzbekistan,89280.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,93,Sierra Leone,65928.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,94,Azerbaijan,56194.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,95,American Samoa,54939.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,96,Moldova,40933.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,97,Netherlands Antilles,15819.0,unspecified,1,According to Country of Beneficiary
+2025-11-30,98,Kazakhstan,4400.0,unspecified,1,According to Country of Beneficiary
+2025-08-31,1,United Arab Emirates,238829770.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,2,Switzerland,161610953.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,3,Brazil,100403708.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,4,Tunisia,78256492.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,5,Bahrain,54955598.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,6,United Kingdom,46048052.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,7,China,40610092.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,8,Jordan,36106220.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,9,Greece,29169980.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,10,Qatar,20607434.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,11,Germany,19137675.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,12,Angola,16095000.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,13,Netherlands,15469058.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,14,Italy,13866325.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,15,France,12551958.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,16,Türkiye,11366648.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,17,Spain,7146133.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,18,United States,6100514.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,19,India,4805442.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,20,Egypt,4142373.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,21,Austria,3153375.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,22,Argentina,2048068.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,23,Finland,1777843.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,24,Hong Kong S.A.R.,1646648.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,25,Saudi Arabia,1211711.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,26,Belgium,664118.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,27,Sweden,583944.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,28,Malta,434154.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,29,Luxembourg,345900.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,30,Portugal,312756.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,31,Canada,245894.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,32,Denmark,201416.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,33,Bulgaria,107207.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,34,Lithuania,68136.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,35,Mauritania,40436.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,36,Lebanon,13186.0,public,1,According to Beneficiary Country - Public Sector
+2025-08-31,37,Sierra Leone,3949.0,public,1,According to Beneficiary Country - Public Sector
+2025-12-31,1,United Arab Emirates,4280594647.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,2,Türkiye,3752207869.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,3,Egypt,1586908088.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,4,China,826404131.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,5,Switzerland,765382752.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,6,United Kingdom,595433939.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,7,Italy,547992483.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,8,Tunisia,486360611.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,9,Spain,268448696.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,10,Austria,216136511.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,11,Thailand,204130912.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,12,Japan,196976536.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,13,Netherlands,167495052.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,14,Singapore,144143011.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,15,Germany,138795851.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,16,Slovakia,131049381.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,17,France,127616231.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,18,South Korea,118095589.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,19,Jordan,115938134.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,20,Saudi Arabia,88933121.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,21,Canada,79249982.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,22,Belgium,78175125.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,23,India,76540696.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,24,Hong Kong S.A.R.,74371575.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,25,Oman,70689725.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,26,Indonesia,62437915.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,27,United States,60777385.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,28,Malta,56720336.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,29,New Zealand,53747918.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,30,Bahrain,50638104.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,31,Sri Lanka,49493433.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,32,Sweden,49366855.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,33,Brazil,48760323.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,34,Ukraine,47774627.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,35,Cyprus,45529809.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,36,Algeria,39228893.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,37,Morocco,37546397.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,38,Denmark,28397853.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,39,Ireland,28390557.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,40,Slovenia,27225502.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,41,Greece,25455248.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,42,Mauritius,25045639.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,43,Poland,23637624.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,44,Hungary,23499282.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,45,Luxembourg,19413982.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,46,Portugal,16349020.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,47,Lebanon,14818194.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,48,Australia,12655879.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,49,Ecuador,12539958.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,50,Viet Nam,11499766.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,51,Lithuania,9873733.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,52,Romania,8594252.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,53,Bulgaria,6045790.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,54,Russian Federation,5822500.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,55,Pakistan,4944608.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,56,Uruguay,4919040.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,57,Finland,4137177.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,58,Qatar,3856046.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,59,Malaysia,3264841.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,60,Marshall Islands,2426460.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,61,"Korea, North",2423380.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,62,Serbia,1795969.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,63,Botswana,1651500.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,64,South Africa,1538918.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,65,Argentina,1454424.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,66,Former Yugoslav Republic of Macedonia,1340898.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,67,Croatia,1273989.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,68,Georgia,1207125.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,69,Bosnia and Herzegovina,1192094.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,70,Taiwan,1179915.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,71,Panama,1166372.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,72,Europe,1115039.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,73,Liechtenstein,1070493.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,74,Andorra,970084.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,75,Nigeria,799353.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,76,Europe,732274.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,77,Kenya,716977.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,78,Albania,593539.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,79,Colombia,582768.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,80,Bangladesh,558651.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,81,Monaco,508516.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,82,Czech Republic,451451.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,83,Laos,407600.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,84,Niger,315000.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,85,Sant Marino,310355.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,86,Estonia,238026.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,87,Mongolia,232980.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,88,Iraq,210004.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,89,Tanzania,201593.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,90,Kuwait,152240.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,91,Turkmenistan,125250.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,92,Gabon,110063.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,93,Saint Helena,100000.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,94,Uzbekistan,89280.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,95,Sierra Leone,65928.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,96,Azerbaijan,56194.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,97,American Samoa,54939.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,98,Latvia,43752.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,99,Moldova,40933.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,100,Chile,26339.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,101,Netherlands Antilles,15819.0,unspecified,1,According to Country of Beneficiary
+2025-12-31,102,Kazakhstan,4400.0,unspecified,1,According to Country of Beneficiary
+2025-07-31,1,United Arab Emirates,2708301612.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,2,Türkiye,2040787776.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,3,Egypt,994889389.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,4,Switzerland,443547859.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,5,China,365376313.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,6,United Kingdom,348434134.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,7,Italy,266754291.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,8,Tunisia,263379636.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,9,Spain,170980849.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,10,Austria,127638094.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,11,Thailand,125803456.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,12,Japan,116290258.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,13,Netherlands,93098669.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,14,Slovakia,78688816.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,15,France,78041072.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,16,Jordan,72937732.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,17,Singapore,71752008.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,18,Germany,63609411.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,19,South Korea,62313365.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,20,Saudi Arabia,48070982.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,21,Belgium,44048725.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,22,Canada,42198993.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,23,Oman,40099972.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,24,Hong Kong S.A.R.,36918915.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,25,Sri Lanka,35432305.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,26,Ukraine,34392598.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,27,India,33785601.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,28,Indonesia,32561107.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,29,New Zealand,31910862.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,30,Bahrain,31021878.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,31,Malta,30003606.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,32,Brazil,28963502.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,33,United States,28568960.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,34,Sweden,22463584.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,35,Algeria,20601167.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,36,Ireland,19241715.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,37,Morocco,18314308.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,38,Greece,14186105.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,39,Hungary,13497082.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,40,Denmark,12379699.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,41,Slovenia,11781431.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,42,Poland,11102339.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,43,Mauritius,10473755.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,44,Portugal,9663195.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,45,Romania,8364451.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,46,Ecuador,8094498.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,47,Cyprus,7305262.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,48,Australia,6675960.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,49,Luxembourg,6556953.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,50,Bulgaria,4584338.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,51,Viet Nam,4119165.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,52,Russian Federation,3570000.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,53,Lithuania,3516871.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,54,Pakistan,2608544.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,55,Finland,2595620.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,56,"Korea, North",2423380.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,57,Botswana,1651500.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,58,Georgia,1207125.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,59,Serbia,1161039.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,60,Qatar,1114000.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,61,South Africa,1080578.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,62,Malaysia,1072193.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,63,Liechtenstein,1070493.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,64,Croatia,997500.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,65,Andorra,970084.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,66,Lebanon,904671.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,67,Europe,732274.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,68,Taiwan,610383.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,69,Kenya,523919.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,70,Argentina,359424.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,71,Czech Republic,353651.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,72,Saint Marino,310355.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,73,Monaco,243440.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,74,Nigeria,235480.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,75,Sudan,227533.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,76,Albania,188303.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,77,Colombia,187488.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,78,Bosnia and Herzegovina,153585.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,79,Kuwait,152240.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,80,Gabon,110063.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,81,Estonia,105571.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,82,St. Helena,100000.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,83,American Samoa,54939.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,84,Sierra Leone,46177.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,85,Kazakhstan,4400.0,private,1,According to Beneficiary Country - Private Sectors
+2025-07-31,1,United Arab Emirates,236200710.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,2,Switzerland,161610953.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,3,Brazil,100403708.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,4,Tunisia,77503165.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,5,Bahrain,54955598.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,6,United Kingdom,46048052.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,7,China,40610092.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,8,Jordan,36024513.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,9,Greece,29169980.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,10,Qatar,20607434.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,11,Germany,18468238.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,12,Angola,16095000.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,13,Netherlands,14995041.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,14,Italy,13713299.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,15,France,12340462.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,16,Türkiye,7273190.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,17,Spain,6996586.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,18,United States,5948118.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,19,India,4805442.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,20,Egypt,4142373.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,21,Austria,3153375.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,22,Argentina,2048068.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,23,Finland,1777843.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,24,Hong Kong S.A.R.,1646648.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,25,Saudi Arabia,819873.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,26,Belgium,591154.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,27,Sweden,583944.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,28,Malta,434154.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,29,Portugal,312756.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,30,Canada,245894.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,31,Luxembourg,231500.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,32,Bulgaria,71153.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,33,Lithuania,68136.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,34,Mauritania,40436.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,35,Lebanon,13186.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,36,Denmark,10508.0,public,1,According to Beneficiary Country - Public Sector
+2025-07-31,37,Sierra Leone,3949.0,public,1,According to Beneficiary Country - Public Sector

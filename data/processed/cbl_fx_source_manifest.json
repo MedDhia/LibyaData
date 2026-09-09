@@ -1,0 +1,74 @@
+[
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-28-Feb-2026.pdf",
+    "sha256": "b9ca83aec67ee5977255215b850f79977ac94be36924d0c78ec0ba07bdaf2bc6",
+    "bytes": 637851,
+    "period_end": "2026-02-28"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-30-Apr-2026.pdf",
+    "sha256": "f5ddd603c9b41c2de7437a692e3a4b7637ffb966ae908145702ec6803bfae1b8",
+    "bytes": 816572,
+    "period_end": "2026-04-30"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-30-Jul-2026-1.pdf",
+    "sha256": "8ea37eed4cca736f8d8dd4c8465a0e2ac050fad1d6742a0ae578f472469f99c4",
+    "bytes": 1251285,
+    "period_end": "2026-07-31"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-30-Jun-2025.pdf",
+    "sha256": "3a35357441ec8797c00bc5196eb4856c9a5e20a70b30388e30f84f4b0e6c32e5",
+    "bytes": 1284014,
+    "period_end": "2025-06-30"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-30-Jun-2026.pdf",
+    "sha256": "5d2516b99ed3c33e76a4de369bef70f61f7589a9c47066088bc859409ba1b17f",
+    "bytes": 1133135,
+    "period_end": "2026-06-30"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-30-May-2026-1.pdf",
+    "sha256": "18963a09700f81155b159e0b33ea0d4b85139af8be42f009a6444082c4a87648",
+    "bytes": 1050672,
+    "period_end": "2026-05-31"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-30-November-2025-1.pdf",
+    "sha256": "bdf87a1a43b1b0fee2a49669870eeadc147583e97514506b2d10a206fbf86cf3",
+    "bytes": 1184103,
+    "period_end": "2025-11-30"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-30-September-2025.pdf",
+    "sha256": "55d42d09e41e9897478417cb56134aba6ded1fca044175f44c0bc68e7ab135a6",
+    "bytes": 1164272,
+    "period_end": "2025-09-30"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-31-August-2025-2.pdf",
+    "sha256": "373c3261034bb6e77bb1c139ca40fa2e68831a2ee7e0594c18afbd08be94a490",
+    "bytes": 1306913,
+    "period_end": "2025-08-31"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-31-December-2025.pdf",
+    "sha256": "d6b1430e304f06ed0e8632f39ca8bab82857550e8cead0a4bac0d3776d1bb66a",
+    "bytes": 1239857,
+    "period_end": "2025-12-31"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-31-July-2025-1.pdf",
+    "sha256": "88530e07d7f728bc574a330ae11b82e98db3e651de077611aac6f83ccfa74ee4",
+    "bytes": 1216521,
+    "period_end": "2025-07-31"
+  },
+  {
+    "file": "Uses-of-Fx-from-1-Jan-to-31-October-2025.pdf",
+    "sha256": "4769d368b757ca966a5f07a826cf8d9fa4966f1db9dbb8943f69b65496b49fb5",
+    "bytes": 1220783,
+    "period_end": "2025-10-31"
+  }
+]

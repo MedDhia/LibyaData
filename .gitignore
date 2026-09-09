@@ -4,4 +4,10 @@
 __pycache__/
 *.pyc
 .DS_Store
-data/raw/
+
+# Source documents are mirrored locally, not committed: roughly 1 GB of PDFs.
+# Rebuild with the download scripts; checksums of every file read are recorded
+# in data/processed/*_source_manifest.json and data/raw/bsc/bsc_pdf_manifest.json.
+data/raw/cbl/
+data/raw/cbl_fx/
+data/raw/bsc/pdf/
