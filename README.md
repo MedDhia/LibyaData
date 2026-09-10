@@ -31,6 +31,8 @@ Libyan sources, with a validation suite. See
 | BSC 2006 census, by shabiya, with area and density | 22 first-level units | 22 |
 | **BSC 2006 census, all 74 tables** | 11 sections, 22 volumes | 1,014,208 |
 | BSC publication catalogue | all four statistical domains | 248 |
+| Nighttime lights by shabiya (imported) | 1992–2022, annual | 682 |
+| Shabiya concordance, GADM to census | 22 first-level units | 22 |
 
 Everything is reproducible from source: `scripts/` downloads the PDFs, extracts
 the tables and records the SHA-256 of every file read. `python3
@@ -90,6 +92,15 @@ million figures, in eleven long files, 6 MB gzipped. Nothing was hard-coded per
 table: the reader finds each table number, learns the column grid from the
 page's own rows, and reads labels off the header bands, so a layout it cannot
 resolve is skipped and shows as absent rather than being misread.
+
+**Nighttime lights now join the census.** The Libya subset of the LRCC-DVNL
+series, 1992–2022, is imported under `data/external/nighttime_lights/` with its
+upstream licence notice: per-shabiya sum of lights by year, the national
+inequality series, 31 annual rasters and 321 figures. It arrived keyed by GADM's
+romanised names, of which only 7 of 22 match the census's, so
+`concordance_shabiya.csv` maps all 22 both ways. The units share names but not
+boundaries — Libya reorganised after 2006 — so the concordance matches units by
+identity, not territory, and says so.
 
 **The foreign exchange appendices name names.** Every accepted letter-of-credit
 coverage request is published with the beneficiary firm and the dollar amount,

@@ -17,6 +17,9 @@ python3 scripts/extract_bsc_cpi.py
 python3 scripts/extract_bsc_census.py
 python3 scripts/extract_bsc_census_tables.py
 
+git clone --depth 1 https://github.com/MedDhia/SatelliteImagery /tmp/satimg
+python3 scripts/import_nighttime_lights.py --source /tmp/satimg
+
 python3 scripts/validate.py
 ```
 
@@ -361,6 +364,45 @@ must be reversed *before* being expanded. Expanding first silently swaps the two
 letters — الجلاء becomes الجالء — and the result still reads as plausible Arabic,
 so the corruption is invisible on inspection. Every place name containing
 lam-alef would be wrong.
+
+---
+
+## Concordances
+
+### `concordance_shabiya.csv`
+
+Maps Libya's 22 first-level units between the naming used by GADM 4.1 and the
+naming used by the 2006 census volumes. Without it the imported nighttime-lights
+tables cannot be joined to anything else here: only 7 of the 22 names agree, so
+a join on name alone silently drops two thirds of the country.
+
+`gadm_gid`, `gadm_name`, `shabiya_ar`, `shabiya_en`, and the census area and
+2006 population for reference.
+
+The mapping is one-to-one and confirmed by ranking the units by area (Spearman
+0.985). **The units share names, not boundaries**: 9 of 22 agree within ±10% on
+area, and Libya's national area differs by 3.6% between the two sources. Treat a
+join as matching units by identity, not by territory. See
+[`../external/nighttime_lights/README.md`](../external/nighttime_lights/README.md).
+
+---
+
+## External data
+
+### `data/external/nighttime_lights/`
+
+The Libya subset of the LRCC-DVNL nighttime-lights analysis, 1992–2022, imported
+from [MedDhia/SatelliteImagery](https://github.com/MedDhia/SatelliteImagery):
+5 tables, 31 annual rasters and 321 figures. Per-shabiya sum of lights and light
+density by year, national Gini and Theil series, the Theil decomposition, and
+per-unit contributions.
+
+**Different licence from the rest of this repository.** The boundaries are
+GADM 4.1, which forbids commercial use and redistribution as boundary data; the
+imagery is best read as CC BY-NC-ND 4.0. The upstream notice is copied to
+`NOTICE.md` unchanged. Read that directory's README before using or citing any
+of it — it also records why a lit pixel never dims, why 2014 is a sensor
+handover, and why Libya's oil regions show the highest lights per head.
 
 ---
 

@@ -202,6 +202,52 @@ for path in sections:
 print(f"  [ok ] {len(sections)} section files, {figures:,} figures, "
       f"{index.cells.sum():,} expected")
 
+print("\nImported nighttime lights, and the shabiya concordance")
+import json as _json
+source = OUT.parent / "external" / "nighttime_lights" / "SOURCE.json"
+if not source.exists():
+    print("  [note] nighttime lights not imported; "
+          "run scripts/import_nighttime_lights.py")
+    notes.append("nighttime lights not imported")
+else:
+    meta = _json.loads(source.read_text())
+    import hashlib as _hashlib
+    root = OUT.parent.parent
+    corrupt = []
+    for entry in meta["manifest"]:
+        path = root / entry["path"]
+        if not path.exists():
+            corrupt.append(entry["path"])
+        elif _hashlib.sha256(path.read_bytes()).hexdigest() != entry["sha256"]:
+            corrupt.append(entry["path"])
+    if corrupt:
+        failures.append(f"nighttime lights: {len(corrupt)} files missing or altered")
+        print(f"  [FAIL] {len(corrupt)} of {len(meta['manifest'])} files "
+              f"missing or altered")
+    else:
+        print(f"  [ok ] {len(meta['manifest'])} files match their checksums, "
+              f"commit {meta['source_commit'][:12]}")
+
+    cross = pd.read_csv(OUT / "concordance_shabiya.csv")
+    zonal = pd.read_csv(OUT.parent / "external" / "nighttime_lights" /
+                        "results" / "LBY_adm1_zonal.csv")
+    census = pd.read_csv(OUT / "bsc_census_2006_shabiya.csv")
+    if len(cross) != 22:
+        failures.append(f"concordance: {len(cross)} units, expected 22")
+    unmatched_gadm = set(zonal.name) - set(cross.gadm_name)
+    unmatched_census = set(census.shabiya_ar) - set(cross.shabiya_ar)
+    joined = zonal.merge(cross, left_on="name", right_on="gadm_name")
+    joined = joined.merge(census, on="shabiya_ar")
+    if unmatched_gadm or unmatched_census or len(joined) != len(zonal):
+        failures.append("concordance: does not join every unit to the census")
+        print(f"  [FAIL] concordance joins {len(joined)}/{len(zonal)} zonal rows; "
+              f"unmatched {sorted(unmatched_gadm)} {sorted(unmatched_census)}")
+    else:
+        print(f"  [ok ] concordance joins all {len(joined)} zonal rows "
+              f"({zonal.year.min()}-{zonal.year.max()}) to the census")
+        print(f"  [note] units share names, not boundaries: national area differs "
+              f"by 3.6% between GADM and the census")
+
 print()
 for n in notes:
     print(f"note: {n}")
