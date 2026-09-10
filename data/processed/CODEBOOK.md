@@ -23,6 +23,7 @@ python3 scripts/import_nighttime_lights.py --source /tmp/satimg
 scripts/download_hdx_codab.sh
 python3 scripts/download_hnec.py
 python3 scripts/extract_hnec_polling_centres.py
+python3 scripts/extract_hnec_municipal_baladiyat.py
 python3 scripts/build_concordance.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
@@ -410,9 +411,9 @@ identity, not territory.
 | `name_unique_nationally`, `name_unique_in_shabiya` | 86 mahalla names recur somewhere in the country, 6 within their own shabiya |
 | `codab_place_pcode`, `codab_place_en`, `codab_place_ar` | link to the COD-AB gazetteer, where one exists |
 | `match_method` | `codab_gazetteer_same_shabiya` or `unmatched` |
-| `baladiya_ar` | today's municipality, for the 304 mahallas where it could be established |
-| `baladiya_source` | `hnec_polling_centres_2021`, `ambiguous`, or `not_established` |
-| `baladiya_candidates` | every municipality whose register names this locality, before the shabiya constraint |
+| `baladiya_ar` | today's municipality, for the 402 mahallas where it could be established |
+| `baladiya_source` | which route established it, or `ambiguous` or `not_established` — see below |
+| `baladiya_candidates` | every municipality any route offers for this locality, before the shabiya constraint |
 | `census_persons_2006`, `census_households_2006` | identifying attributes |
 
 **Only 17 of the 667 carry an external link.** The COD-AB gazetteer holds 78
@@ -424,7 +425,7 @@ Wadi al Shatii.
 
 ### Mahalla to baladiya, and how it was established
 
-**304 of 667 mahallas are mapped to a municipality, 10 are ambiguous, and 353
+**402 of 667 mahallas are mapped to a municipality, 5 are ambiguous, and 260
 could not be established.** The census predates the 2013 reorganisation and no
 published crosswalk relates its mahallat to today's baladiyat, so the mapping
 comes from HNEC's polling-centre register instead, which lists every centre with
@@ -438,24 +439,66 @@ HNEC does not state the shabiya, so it is inferred first — see
 whose inferred shabiya is its own. A mahalla still matching more than one is
 recorded `ambiguous` with its candidates listed rather than resolved to a guess.
 
-Coverage is uneven and highest where settlement names are stable: Sabha 90%,
-Jufra 86%, Kufra 83%, against Benghazi 22% and Al Wahat 15%. Urban mahallat in
-the big cities were most often renamed or re-cut, so they are the least covered.
+`baladiya_source` says which route established each link, strongest first, so a
+user who wants only the direct evidence can keep it and drop the rest:
+
+| `baladiya_source` | Mahallas | What it means |
+|---|---|---|
+| `hnec_polling_centres_2021` | 305 | the 2021 register names this locality outright |
+| `hnec_near_match` | 47 | the register names it one character away |
+| `hnec_name_variant` | 42 | the register names the settlement the census name qualifies or is part of |
+| `hnec_municipal_2024_2025` | 5 | only a 2024 or 2025 document names one of its polling centres |
+| `hnec_city_2021` | 3 | the register names it as a city rather than a locality |
+| `ambiguous` | 5 | more than one municipality survives the shabiya constraint |
+| `not_established` | 260 | no route reaches it |
+
+`hnec_name_variant` follows the census's own naming. A compound name is a part
+of the place after the separator, so الشمالية / زوارة is in زوارة and الوسط \
+جادو is in جادو; a name that is a settlement plus a direction is that
+settlement, so قمينس الشرقية and قمينس الغربية are both in قمينس, الصابري الشرقي
+and الصابري الغربي both in بنغازي. The words that name a part rather than a
+place (المركز, الوادي, العين, القصبة, المدينة, and the directions themselves)
+are never asked about on their own.
+
+`hnec_near_match` is the weakest route and the one to drop first. Some register
+localities were read through a font that drops letters, so سيدي حسين is printed
+سيدي حسي and بنينة is بنينا. A census name is paired with a locality one edit
+away only when the census name matches no locality exactly, the locality matches
+no census name exactly, and each is the other's only candidate, which is what
+stops الحمدية from absorbing the separate الحميدية. It is still a guess about
+spelling, and 47 links rest on it.
+
+Coverage after all routes is 60% and still uneven: Sabha and Kufra 100%, Jufra
+86%, Nuqat al Khams 83%, against Benghazi 38%, Murzuq 33% and Al Wahat 20%.
+Urban mahallat in the big cities were most often renamed or re-cut, so they
+remain the least covered.
 
 Spot checks land correctly: الظهرة, المدينة القديمة, المنشية and المنصورة map to
 طرابلس المركز; عقبة بن نافع, الساحل and الجهاد to سوق الجمعة; قرقارش to حي الأندلس.
 
-### `concordance_baladiya.csv` — 108 municipalities
+### `concordance_baladiya.csv` — 129 municipalities
 
-Every municipality HNEC's register names, with the shabiya it was inferred to
-sit in, how many census localities and polling centres back it, and whether the
-inference was unanimous.
+Every municipality HNEC names, in the 2021 register or in the 2024 and 2025
+documents, with the shabiya it was inferred to sit in, how many census localities
+and polling centres back it, and whether the inference was unanimous. 21 are
+named only by the later documents.
 
 `shabiya_ar` is **inferred, not published**. A census mahalla whose name occurs
 in only one shabiya is unambiguous evidence, so those vote — weighted by polling
-centres — and each baladiya takes the shabiya with the most votes. 87 of 108 are
-placed, 73 of them unanimously; the remaining 21 had no unambiguous census
+centres — and each baladiya takes the shabiya with the most votes. 100 of 129 are
+placed, 86 of them unanimously; the remaining 29 had no unambiguous census
 locality to vote for them and are left blank.
+
+`spellings` lists every spelling merged into the row. Two of the 24 register
+documents were read through a font that drops and transposes letters, so the
+same municipality is written طربق in one and طبرق in another, رست and سرت,
+توكرا and توكره. Two spellings are treated as one municipality when they are at
+most two characters apart **and** a polling centre or a locality is filed under
+both, because a locality belongs to one municipality; distance alone would merge
+درج into درنة. The surviving name is the best-attested spelling, preferring the
+2025 file names, which are web page titles and never passed through a PDF font,
+then the 2021 register, then the card-distribution statistics, which visibly
+substitute Latin letters into Arabic words.
 
 ---
 
@@ -492,6 +535,33 @@ key absorbs.
 
 `hnec_locality_baladiya.csv` reduces this to the 949 distinct
 locality-municipality pairs, with the polling centres behind each.
+
+### `hnec_centre_baladiya_2024_2025.csv` — 754 statements, 564 centres
+
+Two later HNEC collections restate the municipality of a subset of the same
+polling centres, joined on `centre_code` rather than on any Arabic text:
+
+* `municipal_2025`, eleven documents from October 2025, one per municipality
+  holding a council election, with the municipality in the file name. Their text
+  layer is scrambled, the embedded fonts reporting a different letter for almost
+  every glyph, but the digits are unaffected. Each code is drawn twice, a
+  shadow copy 0.06pt away, so two rows land on one baseline and interleave; a
+  run of digits whose length is a multiple of five is de-interleaved by stride.
+  Every one of the 360 codes recovered this way is a code the 2021 register
+  already lists, which is the check on the method.
+* `card_distribution`, the voter-card distribution statistics for the 2024 and
+  2025 municipal rounds, whose centre name ends in the municipality in brackets.
+  Their font substitutes Latin letters into some Arabic words, printing م اzتة
+  for مصراتة, and naming the municipality is the whole point of the row, so a
+  name that is not Arabic throughout is dropped, which loses 206 statements and
+  leaves 394.
+
+Columns: `centre_code`, `baladiya_ar`, `source_collection`, the register's
+`mahalla_ar`, `city_ar` and `baladiya_2021_ar` for the same centre, and the
+source document with its date and SHA-256.
+
+HNEC also publishes 2,404 `قوائم الناخبين` voter lists naming individual
+registered voters. Those are deliberately not downloaded or ingested.
 
 ### `data/external/osm_places/mahalla_osm_anchors.csv`
 

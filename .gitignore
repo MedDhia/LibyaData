@@ -17,5 +17,7 @@ data/raw/bsc/pdf/
 data/raw/hdx/
 
 # HNEC source PDFs, re-downloadable by scripts/download_hnec.py. Checksums are
-# recorded in data/raw/hnec/polling_centres_manifest.json.
+# recorded in the manifest beside each directory.
 data/raw/hnec/polling_centres/
+data/raw/hnec/municipal_2025/
+data/raw/hnec/card_distribution/

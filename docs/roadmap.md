@@ -66,11 +66,19 @@ The part that makes this a repository rather than a folder of scraped PDFs.
   147 of them carry an OpenStreetMap coordinate.
 
   The mahalla-to-baladiya link is now largely in place, from HNEC's 2021 polling-centre register,
-  which lists every centre with both its locality and its municipality. 304 of the 667 mahallas are
-  mapped, 10 are ambiguous, 353 remain. Coverage is highest where settlement names are stable
-  (Sabha 90%, Jufra 86%) and lowest in the big cities (Benghazi 22%), whose mahallat were most often
-  renamed or re-cut. Closing the remainder needs HNEC's registers from other election cycles, or the
-  annex to Decree 180 of 2013 listing each municipality's constituent localities.
+  which lists every centre with both its locality and its municipality, and from the 2024 and 2025
+  municipal documents that restate the municipality of the same centres by code. 402 of the 667
+  mahallas are mapped, 5 are ambiguous, 260 remain, and `baladiya_source` says which of the five
+  routes established each link. Coverage is highest where settlement names are stable (Sabha and
+  Kufra 100%, Nuqat al Khams 83%) and lowest in the big cities (Benghazi 38%) and the south
+  (Murzuq 33%), whose mahallat were most often renamed or re-cut.
+
+  HNEC's media library is exhausted for the remainder: its 3,491 PDFs were enumerated and the only
+  other polling-centre vintages, from July and November 2021, are page scans with no text layer, as
+  are Decision 50 of 2023 on the municipal electoral districts and the 2025 list of targeted
+  municipalities. The 2,404 voter lists name individuals and are deliberately excluded. Closing the
+  gap needs the annex to Decree 180 of 2013 listing each municipality's constituent localities, a
+  boundary layer below the shabiya, or optical character recognition of the scanned registers.
 - **Transliteration standard.** Arabic place and institution names arrive in several romanisations
   across sources. Pick one, apply it consistently, and keep the Arabic original in a parallel column.
 - **Temporal alignment.** Fiscal, Gregorian and Hijri years all appear. Store the original and a

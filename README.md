@@ -11,7 +11,7 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
-**Phase 2 — extraction.** Thirty datasets built from the two highest-value
+**Phase 2 — extraction.** Thirty-two datasets built from the two highest-value
 Libyan sources, with a validation suite. See
 [`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
 
@@ -33,10 +33,11 @@ Libyan sources, with a validation suite. See
 | BSC publication catalogue | all four statistical domains | 248 |
 | Nighttime lights by shabiya (imported) | 1992–2022, annual | 682 |
 | Shabiya concordance, census / GADM / COD-AB | 22 first-level units | 22 |
-| **Mahalla concordance** | 667 localities, keyed and parented | 667 |
+| **Mahalla concordance** | 667 localities, 402 with a municipality | 667 |
 | Mahalla coordinate anchors (OSM, ODbL) | 147 placed, 2 ambiguous | 149 |
 | **HNEC polling-centre register** | 2021, 24 electoral regions | 1,908 |
-| Baladiya concordance | 108 municipalities, 87 placed | 108 |
+| HNEC municipality by polling centre | 2024 and 2025, 13 documents | 754 |
+| Baladiya concordance | 129 municipalities, 100 placed | 129 |
 
 Everything is reproducible from source: `scripts/` downloads the PDFs, extracts
 the tables and records the SHA-256 of every file read. `python3
@@ -90,9 +91,18 @@ the shabiya totals.
 **The 2006 census reaches today's municipalities.** HNEC's 2021 polling-centre
 register lists every centre with both its locality and its municipality, which
 is the link no published crosswalk provides. 1,908 centres across 24 electoral
-regions give 304 of the 667 census mahallas a municipality, with the join
-constrained to the shabiya so that سوق الجمعة in Murqub is never matched to the
-Tripoli locality of the same name.
+regions, and 754 restatements of the same centres in HNEC's 2024 and 2025
+municipal documents, give 402 of the 667 census mahallas a municipality. The
+join is constrained to the shabiya, so that سوق الجمعة in Murqub is never
+matched to the Tripoli locality of the same name.
+
+305 of those come from the register naming the locality outright. The rest
+follow the census's own naming (قمينس الشرقية and قمينس الغربية are both in
+قمينس, الشمالية / زوارة is in زوارة) or repair a spelling the register's broken
+fonts damaged, and each route is labelled in `baladiya_source` so it can be
+dropped. The 2025 documents are read through the polling-centre code rather than
+their scrambled Arabic, and every code they yield is one the 2021 register
+already lists.
 
 **The whole 2006 census is now machine-readable.** All 74 tables from all 22
 volumes: household composition, age and sex structure, non-Libyan residents by
@@ -145,10 +155,10 @@ access notes.
 See [`docs/roadmap.md`](docs/roadmap.md).
 
 Next: BSC foreign trade 2005-2016, and the international source inventory. The
-353 mahallas still without a municipality need HNEC's older registers or the
-annex to Decree 180 of 2013, which is what everything
-subnational will join on; BSC foreign trade 2005-2016; and the international
-source inventory.
+260 mahallas still without a municipality are what everything subnational will
+join on. HNEC's own media library is now exhausted for them, its other
+polling-centre vintages being page scans with no text layer, so closing the gap
+needs the annex to Decree 180 of 2013 or a boundary layer below the shabiya.
 
 ## Scope
 

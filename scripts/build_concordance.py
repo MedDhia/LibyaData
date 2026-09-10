@@ -39,9 +39,30 @@ of every baladiya it appears in, and each baladiya takes the shabiya with the
 most votes. A mahalla is then linked only to a baladiya whose inferred shabiya
 matches its own.
 
+Two later HNEC collections restate the municipality of a subset of the same
+polling centres, keyed on the centre code (see
+`scripts/extract_hnec_municipal_baladiyat.py`). They do two things here. They
+merge the municipality spellings: two of the 24 register documents embed a font
+whose text layer drops and transposes letters, printing رست for سرت and طربق for
+طبرق, and two names that share a polling centre and differ by at most two
+characters are the same municipality. And they carry a municipality for centres
+whose 2021 locality was mangled beyond matching.
+
+The census's own naming then supplies three further routes, each recorded under
+its own `baladiya_source` so that a user who wants only the exact evidence can
+keep it:
+
+  * a compound name — الشمالية / زوارة, الوسط \\ جادو — is a part of the place
+    after the separator, so the register is asked about that place;
+  * a name that is a register locality plus a direction — قمينس الشرقية,
+    الصابري الغربي — is asked about without the direction;
+  * a locality that only the damaged documents name is matched to the census
+    name one character away from it, and only when that pairing is the single
+    possibility in both directions and the census name matches nothing exactly.
+
 Mahallas matching more than one baladiya even after that are recorded as
-ambiguous with their candidates listed, not resolved to a guess. Mahallas the
-register does not name are left `not_established`.
+ambiguous with their candidates listed, not resolved to a guess. Mahallas no
+route reaches are left `not_established`.
 """
 
 import argparse
@@ -59,6 +80,8 @@ from arabic_text import normalise_name  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "processed"
 HNEC_PAIRS = OUT / "hnec_locality_baladiya.csv"
+HNEC_REGISTER = OUT / "hnec_polling_centres_2021.csv"
+HNEC_LATER = OUT / "hnec_centre_baladiya_2024_2025.csv"
 HDX = ROOT / "data" / "raw" / "hdx" / "lby_admin_boundaries.xlsx"
 
 # GADM 4.1 admin-1 name -> census shabiya. Same 22 units, different romanisation.
@@ -111,13 +134,139 @@ def join_key(name):
     return text.replace("لا", "ال")
 
 
+# Directions a census mahalla's name is qualified with. Stripping one leaves the
+# settlement the register names: قمينس الشرقية and قمينس الغربية are both in
+# قمينس, الصابري الشرقي and الصابري الغربي both in بنغازي.
+DIRECTIONS = ["الشرقية", "الغربية", "الشمالية", "الجنوبية", "الوسطى", "القبلية",
+              "البحرية", "الشرقي", "الغربي", "الشمالي", "الجنوبي", "القبلي",
+              "البحري", "الوسط"]
+
+# Words that name a part rather than a place, so they are never asked about on
+# their own: الوادي \ ككلة is in ككلة, and every shabiya has a المركز.
+PART_KEYS = {join_key(word) for word in
+             DIRECTIONS + ["المركز", "الوادي", "العين", "القصبة", "المدينة"]}
+
+# Two municipality names this far apart in a shared polling centre are one
+# municipality misspelt, not two municipalities. رست and سرت differ by two.
+SPELLING_EDITS = 2
+
+
+def edit_distance(first, second, limit):
+    """Levenshtein distance, reported as limit + 1 once it exceeds the limit."""
+    if abs(len(first) - len(second)) > limit:
+        return limit + 1
+    previous = list(range(len(second) + 1))
+    for i, a in enumerate(first, 1):
+        current = [i]
+        for j, b in enumerate(second, 1):
+            current.append(min(previous[j] + 1, current[-1] + 1,
+                               previous[j - 1] + (a != b)))
+        previous = current
+    return min(previous[-1], limit + 1)
+
+
+# How much a spelling of a municipality's name is to be trusted, by where it was
+# read. The 2025 file names are WordPress titles and never passed through a PDF
+# font; the 2021 register is the primary source; the card-distribution
+# statistics visibly substitute Latin letters into Arabic words.
+SPELLING_RANK = {"municipal_2025": 3, "polling_centres_2021": 2,
+                 "card_distribution": 1}
+
+ARABIC_ONLY = re.compile(r"^[\u0620-\u064a\u0670-\u06d3 ]+$")
+
+
+def canonical_baladiyat(register, later):
+    """Map every municipality spelling to one name per municipality.
+
+    Two of the 24 register documents were read through a font that drops and
+    transposes letters, so the same municipality is written طربق in one document
+    and طبرق in another, رست and سرت, توكرا and توكره. Left alone these split a
+    municipality in two and make its localities look ambiguous.
+
+    Two spellings are the same municipality when they are at most
+    SPELLING_EDITS apart **and** a polling centre or a locality is filed under
+    both. A locality belongs to one municipality, so co-occurrence is what
+    separates a misspelling from a neighbour with a similar name; distance alone
+    would merge درج into درنة.
+
+    The surviving name is the best-attested spelling in the group, by the rank
+    of the source it was read from, then by whether it is Arabic throughout,
+    then by how many documents print it.
+    """
+    parent = {}
+
+    def find(key):
+        parent.setdefault(key, key)
+        while parent[key] != key:
+            parent[key] = parent[parent[key]]
+            key = parent[key]
+        return key
+
+    spellings = defaultdict(lambda: {"rank": 0, "documents": set(), "rows": 0})
+    together = defaultdict(set)
+    for row in register + later:
+        collection = row.get("source_collection", "polling_centres_2021")
+        key, name = join_key(row["baladiya_ar"]), row["baladiya_ar"]
+        record = spellings[(key, name)]
+        record["rank"] = max(record["rank"], SPELLING_RANK[collection])
+        record["documents"].add(row.get("source_document", collection))
+        record["rows"] += 1
+        find(key)
+        if row.get("centre_code"):
+            together[("centre", row["centre_code"])].add(key)
+        together[("locality", join_key(row["mahalla_ar"]))].add(key)
+
+    for keys in together.values():
+        keys = sorted(keys)
+        for i, first in enumerate(keys):
+            for second in keys[i + 1:]:
+                if edit_distance(first, second, SPELLING_EDITS) <= SPELLING_EDITS:
+                    parent[find(first)] = find(second)
+
+    groups = defaultdict(list)
+    for (key, name), record in spellings.items():
+        groups[find(key)].append((key, name, record))
+
+    canonical, merged = {}, {}
+    for members in groups.values():
+        _, name, _ = max(members, key=lambda m: (
+            m[2]["rank"], bool(ARABIC_ONLY.match(m[1])), len(m[2]["documents"]),
+            m[2]["rows"], m[1]))
+        for member_key, member_name, _ in members:
+            canonical[member_key] = name
+            merged.setdefault(name, set()).add(member_name)
+    return canonical, merged
+
+
+def name_variants(name):
+    """Other names to ask the register about, when the census name is unknown."""
+    text = normalise_name(name)
+    variants = []
+    for separator in ("/", "\\"):
+        if separator in text:
+            head, tail = (part.strip() for part in text.split(separator, 1))
+            # The part after the separator is the settlement, the part before it
+            # is which part of it, but a few are written the other way round.
+            variants += [part for part in (tail, head)
+                         if part and join_key(part) not in PART_KEYS]
+            break
+    for direction in DIRECTIONS:
+        if text.endswith(direction):
+            stem = text[:-len(direction)].strip()
+            if len(stem) > 2:
+                variants.append(stem)
+                break
+    return variants
+
+
 def infer_baladiya_shabiya(pairs, mahallas):
     """Infer each baladiya's shabiya from the census mahallas it contains.
 
     HNEC's register names a locality and its municipality but not the shabiya.
     A census mahalla whose name occurs in only one shabiya is unambiguous
     evidence, so those vote — weighted by how many polling centres back them —
-    and each baladiya takes the shabiya with the most votes.
+    and each baladiya takes the shabiya with the most votes. A statement from a
+    2024 or 2025 document is one centre and votes once.
     """
     by_name = defaultdict(set)
     for record in mahallas:
@@ -128,7 +277,7 @@ def infer_baladiya_shabiya(pairs, mahallas):
         shabiyat = by_name.get(join_key(pair["mahalla_ar"]))
         if shabiyat and len(shabiyat) == 1:
             votes[join_key(pair["baladiya_ar"])][next(iter(shabiyat))] += int(
-                pair["polling_centres"])
+                pair.get("polling_centres", 1))
 
     inferred = {}
     for baladiya, counted in votes.items():
@@ -137,6 +286,127 @@ def infer_baladiya_shabiya(pairs, mahallas):
                               "total_votes": sum(counted.values()),
                               "unanimous": int(top == sum(counted.values()))}
     return inferred
+
+
+class Resolver:
+    """Which baladiya a census mahalla sits in, and on what evidence.
+
+    Five routes, tried in order and each labelled in `baladiya_source`, so the
+    weaker ones can be dropped:
+
+      hnec_polling_centres_2021   the 2021 register names the locality
+      hnec_municipal_2024_2025    a later document names one of its centres
+      hnec_name_variant           the register names the settlement the census
+                                  name qualifies or is part of
+      hnec_city_2021              the register names it as a city rather than a
+                                  locality, so the mahalla is that city's core
+      hnec_near_match             the register names it one character away
+
+    Every route is confined to the mahalla's own shabiya, because names repeat:
+    سوق الجمعة is a Murqub mahalla and a Tripoli locality, الزهراء is in both
+    Jafara and Wadi al Shatii.
+    """
+
+    # A census name and a register locality this far apart are the same place,
+    # once nothing else can claim either of them.
+    NEAR_EDITS = 1
+
+    def __init__(self, pairs, later, inferred, mahallas):
+        self.inferred = inferred
+        self.register = defaultdict(set)
+        self.municipal = defaultdict(set)
+        self.city = defaultdict(set)
+        for pair in pairs:
+            self._add(self.register, pair["mahalla_ar"], pair["baladiya_ar"])
+            self._add(self.city, pair["city_ar"], pair["baladiya_ar"])
+        for row in later:
+            self._add(self.municipal, row["mahalla_ar"], row["baladiya_ar"])
+            self._add(self.city, row["city_ar"], row["baladiya_ar"])
+        self.named = defaultdict(set)
+        for index in (self.register, self.municipal, self.city):
+            for key, names in index.items():
+                self.named[key] |= names
+        self.near = self._near_matches(mahallas)
+
+    def _add(self, index, locality, baladiya):
+        """Record a locality-municipality pair under the baladiya's shabiya."""
+        shabiya = self.inferred.get(join_key(baladiya), {}).get("shabiya_ar")
+        if locality and shabiya:
+            index[(shabiya, join_key(locality))].add(baladiya)
+
+    @staticmethod
+    def _only(index, key):
+        found = index.get(key, ())
+        return next(iter(found)) if len(found) == 1 else None
+
+    def _near_matches(self, mahallas):
+        """Pair each unclaimed census name with the locality one edit away.
+
+        The register's locality names come partly from documents whose font
+        dropped letters, so سيدي حسين is printed سيدي حسي and بنينة is بنينا.
+        A pairing is accepted only when the census name matches no locality
+        exactly, the locality matches no census name exactly, and each is the
+        other's only candidate, which is what stops الحمدية from absorbing the
+        separate الحميدية.
+        """
+        census = defaultdict(set)
+        for record in mahallas:
+            census[record["shabiya_ar"]].add(join_key(record["mahalla_ar"]))
+
+        orphans = defaultdict(list)
+        for shabiya, key in self.named:
+            if key not in census[shabiya]:
+                orphans[shabiya].append(key)
+
+        forward, backward = defaultdict(list), Counter()
+        for shabiya, keys in census.items():
+            for key in keys:
+                if (shabiya, key) in self.named:
+                    continue
+                for other in orphans[shabiya]:
+                    if edit_distance(key, other, self.NEAR_EDITS) <= self.NEAR_EDITS:
+                        forward[(shabiya, key)].append(other)
+                        backward[(shabiya, other)] += 1
+
+        near = {}
+        for (shabiya, key), others in forward.items():
+            if len(others) != 1 or backward[(shabiya, others[0])] != 1:
+                continue
+            baladiya = self._only(self.named, (shabiya, others[0]))
+            if baladiya:
+                near[(shabiya, key)] = baladiya
+        return near
+
+    def candidates(self, record):
+        """Every baladiya any route offers, for the record of what was rejected."""
+        shabiya, key = record["shabiya_ar"], join_key(record["mahalla_ar"])
+        found = set(self.named.get((shabiya, key), ()))
+        for variant in name_variants(record["mahalla_ar"]):
+            found |= self.named.get((shabiya, join_key(variant)), set())
+        if (shabiya, key) in self.near:
+            found.add(self.near[(shabiya, key)])
+        return found
+
+    def resolve(self, record):
+        """Return (baladiya, source) for one census mahalla."""
+        shabiya, key = record["shabiya_ar"], join_key(record["mahalla_ar"])
+        for index, source in ((self.register, "hnec_polling_centres_2021"),
+                              (self.municipal, "hnec_municipal_2024_2025")):
+            found = self._only(index, (shabiya, key))
+            if found:
+                return found, source
+        for variant in name_variants(record["mahalla_ar"]):
+            found = self._only(self.named, (shabiya, join_key(variant)))
+            if found:
+                return found, "hnec_name_variant"
+        found = self._only(self.city, (shabiya, key))
+        if found:
+            return found, "hnec_city_2021"
+        if (shabiya, key) in self.near:
+            return self.near[(shabiya, key)], "hnec_near_match"
+        if self.named.get((shabiya, key)):
+            return "", "ambiguous"
+        return "", "not_established"
 
 
 def read_sheet(workbook, sheet):
@@ -233,15 +503,21 @@ def build_mahalla(shabiya_rows, places):
         mahallas = list(csv.DictReader(fh))
     by_shabiya = {r["shabiya_ar"]: r for r in shabiya_rows}
 
-    pairs = []
-    if HNEC_PAIRS.exists():
-        with HNEC_PAIRS.open() as fh:
-            pairs = list(csv.DictReader(fh))
-    inferred = infer_baladiya_shabiya(pairs, mahallas)
-    by_locality = defaultdict(list)
-    for pair in pairs:
-        by_locality[join_key(pair["mahalla_ar"])].append(pair)
-    write_baladiya(pairs, inferred)
+    pairs, register, later = [], [], []
+    for path, target in ((HNEC_PAIRS, pairs), (HNEC_REGISTER, register),
+                         (HNEC_LATER, later)):
+        if path.exists():
+            with path.open() as fh:
+                target += list(csv.DictReader(fh))
+
+    canonical, spellings = canonical_baladiyat(register, later)
+    for row in pairs + register + later:
+        row["baladiya_ar"] = canonical.get(join_key(row["baladiya_ar"]),
+                                           row["baladiya_ar"])
+
+    inferred = infer_baladiya_shabiya(pairs + later, mahallas)
+    resolver = Resolver(pairs, later, inferred, mahallas)
+    write_baladiya(pairs, later, inferred, spellings)
 
     # The gazetteer is keyed to COD-AB's own admin-2 names.
     gazetteer = {}
@@ -250,7 +526,7 @@ def build_mahalla(shabiya_rows, places):
         if shabiya:
             gazetteer.setdefault((shabiya, join_key(place["name_ar"])), []).append(place)
 
-    with_baladiya = [0, 0]
+    routes = Counter()
     keys = Counter(join_key(r["mahalla_ar"]) for r in mahallas)
     keys_in_shabiya = Counter((r["shabiya_ar"], join_key(r["mahalla_ar"]))
                               for r in mahallas)
@@ -264,20 +540,8 @@ def build_mahalla(shabiya_rows, places):
         place = candidates[0] if len(candidates) == 1 else None
         if place:
             linked += 1
-        # Only baladiyat inferred to sit in this mahalla's own shabiya count.
-        consistent = {p["baladiya_ar"] for p in by_locality.get(key, [])
-                      if inferred.get(join_key(p["baladiya_ar"]), {})
-                      .get("shabiya_ar") == record["shabiya_ar"]}
-        if len(consistent) == 1:
-            baladiya, baladiya_source = consistent.pop(), "hnec_polling_centres_2021"
-        elif consistent:
-            baladiya, baladiya_source = "", "ambiguous"
-        else:
-            baladiya, baladiya_source = "", "not_established"
-        if baladiya:
-            with_baladiya[0] += 1
-        elif baladiya_source == "ambiguous":
-            with_baladiya[1] += 1
+        baladiya, baladiya_source = resolver.resolve(record)
+        routes[baladiya_source] += 1
 
         rows.append({
             "mahalla_id": record["mahalla_id"],
@@ -297,7 +561,7 @@ def build_mahalla(shabiya_rows, places):
             "baladiya_ar": baladiya,
             "baladiya_source": baladiya_source,
             "baladiya_candidates": ";".join(sorted(
-                {p["baladiya_ar"] for p in by_locality.get(key, [])})),
+                resolver.candidates(record))),
             "census_persons_2006": record["persons"],
             "census_households_2006": record["households"],
         })
@@ -314,24 +578,34 @@ def build_mahalla(shabiya_rows, places):
           f"place, {len(rows) - linked} unmatched")
     print(f"{'':34s} {duplicated} share a name with another mahalla nationally, "
           f"{in_shabiya} within their own shabiya")
-    print(f"{'':34s} {with_baladiya[0]} mapped to one baladiya, "
-          f"{with_baladiya[1]} ambiguous, "
-          f"{len(rows) - sum(with_baladiya)} not established")
+    mapped = sum(count for source, count in routes.items()
+                 if source not in ("ambiguous", "not_established"))
+    print(f"{'':34s} {mapped} mapped to one baladiya, "
+          f"{routes['ambiguous']} ambiguous, "
+          f"{routes['not_established']} not established")
+    for source, count in routes.most_common():
+        if source not in ("ambiguous", "not_established"):
+            print(f"{'':38s} {count:4d} {source}")
     return rows
 
 
-def write_baladiya(pairs, inferred):
-    """The municipalities HNEC's register names, with their inferred shabiya."""
-    if not pairs:
+def write_baladiya(pairs, later, inferred, spellings):
+    """The municipalities HNEC names, with their inferred shabiya."""
+    if not pairs and not later:
         return
     localities = defaultdict(set)
-    centres = Counter()
+    centres_2021, centres_later = Counter(), Counter()
     names = {}
     for pair in pairs:
         key = join_key(pair["baladiya_ar"])
         names.setdefault(key, pair["baladiya_ar"])
         localities[key].add(pair["mahalla_ar"])
-        centres[key] += int(pair["polling_centres"])
+        centres_2021[key] += int(pair["polling_centres"])
+    for row in later:
+        key = join_key(row["baladiya_ar"])
+        names.setdefault(key, row["baladiya_ar"])
+        localities[key].add(row["mahalla_ar"])
+        centres_later[key] += 1
 
     rows = []
     for key, name in sorted(names.items(), key=lambda kv: kv[1]):
@@ -342,7 +616,9 @@ def write_baladiya(pairs, inferred):
             "shabiya_inferred_from": "census_mahalla_votes" if guess else "",
             "inference_unanimous": guess.get("unanimous", ""),
             "localities": len(localities[key]),
-            "polling_centres": centres[key],
+            "polling_centres_2021": centres_2021[key],
+            "centres_restated_2024_2025": centres_later[key],
+            "spellings": ";".join(sorted(spellings.get(name, {name}))),
         })
     path = OUT / "concordance_baladiya.csv"
     with path.open("w", newline="") as fh:
@@ -350,8 +626,10 @@ def write_baladiya(pairs, inferred):
         writer.writeheader()
         writer.writerows(rows)
     placed = sum(1 for r in rows if r["shabiya_ar"])
+    later_only = sum(1 for r in rows if not r["polling_centres_2021"])
     print(f"{path.name:34s} {len(rows)} baladiyat from HNEC; {placed} placed in a "
           f"shabiya ({sum(1 for r in rows if r['inference_unanimous'] == 1)} unanimous)")
+    print(f"{'':34s} {later_only} named only by the 2024-2025 documents")
 
 
 def main():

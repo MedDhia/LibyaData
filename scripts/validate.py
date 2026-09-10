@@ -274,7 +274,8 @@ else:
 
 baladiya = pd.read_csv(OUT / "concordance_baladiya.csv")
 centres = pd.read_csv(OUT / "hnec_polling_centres_2021.csv")
-mapped = int((mahalla_cross.baladiya_source == "hnec_polling_centres_2021").sum())
+UNRESOLVED = ("ambiguous", "not_established")
+mapped = int((~mahalla_cross.baladiya_source.isin(UNRESOLVED)).sum())
 ambiguous = int((mahalla_cross.baladiya_source == "ambiguous").sum())
 
 if centres.centre_code.is_unique:
@@ -291,8 +292,37 @@ if stray:
     print(f"  [FAIL] {len(stray)} mapped baladiyat missing from "
           f"concordance_baladiya.csv")
 else:
+    routes = mahalla_cross.baladiya_source.value_counts()
     print(f"  [ok ] {mapped} mahallas mapped to one baladiya, "
           f"{ambiguous} ambiguous, all naming a known municipality")
+    print("  [note] by route: " + ", ".join(
+        f"{count} {source}" for source, count in routes.items()
+        if source not in UNRESOLVED))
+
+# A baladiya a mahalla is mapped to must be one the sources actually name, and
+# every mapped mahalla must carry a source that says how the link was made.
+blank = mahalla_cross[(mahalla_cross.baladiya_ar.notna())
+                      & (mahalla_cross.baladiya_source.isin(UNRESOLVED))]
+if len(blank):
+    failures.append(f"concordance: {len(blank)} mahallas carry a baladiya with "
+                    f"no route")
+    print(f"  [FAIL] {len(blank)} mahallas carry a baladiya with no route")
+else:
+    print(f"  [ok ] every mapped mahalla records the route that mapped it")
+
+later_path = OUT / "hnec_centre_baladiya_2024_2025.csv"
+if later_path.exists():
+    later = pd.read_csv(later_path, dtype={"centre_code": str})
+    outside = set(later.centre_code) - set(centres.centre_code.astype(str))
+    if outside:
+        failures.append(f"hnec 2024-2025: {len(outside)} centre codes outside "
+                        f"the 2021 register")
+        print(f"  [FAIL] {len(outside)} 2024-2025 centre codes are not in the "
+              f"2021 register")
+    else:
+        print(f"  [ok ] all {later.centre_code.nunique()} centres restated in "
+              f"2024-2025 are in the 2021 register "
+              f"({later.baladiya_ar.nunique()} municipalities)")
 
 # A mahalla may only take a baladiya whose inferred shabiya is its own.
 placed = baladiya.dropna(subset=["shabiya_ar"]).set_index("baladiya_ar").shabiya_ar
