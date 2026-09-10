@@ -39,19 +39,21 @@ Done, with a validation suite in `scripts/validate.py`:
 5. **BSC 2006 census by mahalla**, 667 localities across all 22 shabiyat, plus shabiya area and
    density. Reconciles exactly to the published national population and area. This is the
    subnational baseline everything else joins to.
+6. **BSC 2006 census, all 74 tables**, 1,014,208 figures across eleven sections and 22 volumes,
+   read structurally rather than by hard-coded schema.
 
 Remaining, in order of value over effort:
 
-6. **BSC foreign trade, 2005–2016**, reconciled against the CBL foreign trade reports. Also the
+7. **BSC foreign trade, 2005–2016**, reconciled against the CBL foreign trade reports. Also the
    Ministry of Economy daily commodity rates, as an independent price series covering the CPI gap
    years.
-7. **CBL assets and liabilities, and the consolidated commercial bank balance sheet.** Both are
+8. **CBL assets and liabilities, and the consolidated commercial bank balance sheet.** Both are
    bilingual right-to-left layouts with figures in reverse column order; the column mapping needs
    validating against known totals before the data can be trusted.
-8. **HNEC electoral results, 2012–2026**, contingent on solving the access problem.
-9. **Audit Bureau annual reports** — spending by ministry and state company. Manual retrieval,
+9. **HNEC electoral results, 2012–2026**, contingent on solving the access problem.
+10. **Audit Bureau annual reports** — spending by ministry and state company. Manual retrieval,
    heavy extraction, high payoff for political economy work.
-10. **LANA newswire corpus** via sequential ID enumeration, as a text corpus rather than a table.
+11. **LANA newswire corpus** via sequential ID enumeration, as a text corpus rather than a table.
 
 ## Phase 4 — Harmonization
 

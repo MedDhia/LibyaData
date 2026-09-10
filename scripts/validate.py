@@ -168,6 +168,40 @@ print(f"  [note] mahalla sum is {gap:,} below the shabiya totals, "
       f"accounted for by one misprinted figure in the source")
 notes.append(f"census: mahalla sum {gap:,} below shabiya totals (source misprint)")
 
+print("\n2006 census, all 74 tables")
+index = pd.read_csv(OUT / "bsc_census_2006_table_index.csv")
+missing = sorted(set(range(1, 75)) - set(index.table_no))
+if missing:
+    failures.append(f"census tables: {len(missing)} not read: {missing}")
+    print(f"  [FAIL] {len(index)}/74 tables read; missing {missing}")
+else:
+    print(f"  [ok ] all 74 tables read, "
+          f"{index.volumes.min()}-{index.volumes.max()} volumes each")
+
+checked = int(index.sex_identity_checked.sum())
+breached = int(index.sex_identity_breached.sum())
+if checked:
+    rate = 100 * breached / checked
+    status = "ok " if rate < 0.5 else "FAIL"
+    print(f"  [{status}] male + female = total: {checked:,} checks, "
+          f"{breached:,} breaches ({rate:.3f}%)")
+    if rate >= 0.5:
+        failures.append(f"census tables: sex identity breached on {rate:.2f}% of checks")
+    if breached:
+        notes.append(f"census tables: {breached} sex-identity breaches "
+                     f"in {int((index.sex_identity_breached > 0).sum())} tables")
+
+sections = sorted(OUT.glob("bsc_census_2006_cells_*.csv.gz"))
+figures = 0
+for path in sections:
+    part = pd.read_csv(path, dtype={"row_group_ar": str, "row_group_en": str,
+                                    "row_label_ar": str, "row_label_en": str})
+    figures += len(part)
+    if part.value.isna().any():
+        failures.append(f"{path.name}: contains empty values")
+print(f"  [ok ] {len(sections)} section files, {figures:,} figures, "
+      f"{index.cells.sum():,} expected")
+
 print()
 for n in notes:
     print(f"note: {n}")

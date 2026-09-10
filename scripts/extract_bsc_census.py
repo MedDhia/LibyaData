@@ -50,6 +50,7 @@ import pdfplumber
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from arabic_text import is_arabic, normalise_name, to_logical  # noqa: E402
+from pdf_tables import page_rows  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw" / "bsc"
@@ -105,46 +106,10 @@ def as_int(cell_text):
     return int(re.sub(r"\s", "", text))
 
 
-def page_bands(page, cell_gap=8.0, row_gap=6.0):
-    """Group words into rows, then into cells, reading right to left.
-
-    A printed row spans a couple of points because figures and Arabic sit on
-    different baselines, while the row pitch is around 12 points, so a vertical
-    gap wider than `row_gap` starts a new row.
-
-    Returns a list of rows, each a list of (text, centre_x) cells ordered right
-    to left.
-    """
-    words = sorted(page.extract_words(), key=lambda w: w["top"])
-    if not words:
-        return []
-
-    bands, current = [], [words[0]]
-    for previous, word in zip(words, words[1:]):
-        if word["top"] - previous["top"] > row_gap:
-            bands.append(current)
-            current = [word]
-        else:
-            current.append(word)
-    bands.append(current)
-
-    rows = []
-    for band in bands:
-        ordered = sorted(band, key=lambda w: -w["x0"])
-        groups, current = [], [ordered[0]]
-        for previous, word in zip(ordered, ordered[1:]):
-            # Reading right to left, the gap is the previous word's left edge
-            # minus this word's right edge.
-            if previous["x0"] - word["x1"] > cell_gap:
-                groups.append(current)
-                current = [word]
-            else:
-                current.append(word)
-        groups.append(current)
-        rows.append([(" ".join(w["text"] for w in reversed(g)),
-                      (min(w["x0"] for w in g) + max(w["x1"] for w in g)) / 2)
-                     for g in groups])
-    return rows
+def page_bands(page, cell_gap=8.0):
+    """Rows of (text, centre) cells, right to left. See scripts/pdf_tables.py."""
+    return [[(c.text, c.centre) for c in row]
+            for row in page_rows(page, cell_gap)]
 
 
 def merge_orphan_labels(rows):

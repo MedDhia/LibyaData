@@ -11,7 +11,7 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
-**Phase 2 — extraction.** Nineteen datasets built from the two highest-value
+**Phase 2 — extraction.** Thirty datasets built from the two highest-value
 Libyan sources, with a validation suite. See
 [`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
 
@@ -29,6 +29,7 @@ Libyan sources, with a validation suite. See
 | BSC consumer price index by COICOP division | 2015-01 – 2026-04, monthly | 1,175 |
 | **BSC 2006 census, by mahalla** | Libya's last full enumeration | 667 |
 | BSC 2006 census, by shabiya, with area and density | 22 first-level units | 22 |
+| **BSC 2006 census, all 74 tables** | 11 sections, 22 volumes | 1,014,208 |
 | BSC publication catalogue | all four statistical domains | 248 |
 
 Everything is reproducible from source: `scripts/` downloads the PDFs, extracts
@@ -79,6 +80,16 @@ reprinted across all 22 volumes. One discrepancy survives, and it is the
 source's: المرقب/الفاسي prints 50 total residents where its own components give
 2,910. That single misprint is the whole 2,860 gap between the mahalla sum and
 the shabiya totals.
+
+**The whole 2006 census is now machine-readable.** All 74 tables from all 22
+volumes: household composition, age and sex structure, non-Libyan residents by
+country of origin, school enrolment, educational attainment, marital status
+including polygamy, labour force, occupation, economic activity, employment
+status, and housing conditions down to cooking fuel and sanitation. Just over a
+million figures, in eleven long files, 6 MB gzipped. Nothing was hard-coded per
+table: the reader finds each table number, learns the column grid from the
+page's own rows, and reads labels off the header bands, so a layout it cannot
+resolve is skipped and shows as absent rather than being misread.
 
 **The foreign exchange appendices name names.** Every accepted letter-of-credit
 coverage request is published with the beneficiary firm and the dollar amount,

@@ -15,6 +15,7 @@ python3 scripts/harvest_bsc_catalogue.py
 python3 scripts/download_bsc_pdfs.py
 python3 scripts/extract_bsc_cpi.py
 python3 scripts/extract_bsc_census.py
+python3 scripts/extract_bsc_census_tables.py
 
 python3 scripts/validate.py
 ```
@@ -252,6 +253,91 @@ shabiya name (the volume titled المنطقة الغربية is النقاط ا
 ### `bsc_census_2006_checks.csv`
 
 Every identity failure and every reconciliation, passing or failing.
+
+### `bsc_census_2006_cells_<section>.csv.gz` — all 74 tables
+
+Table 1 above is the census's first table. The volumes print 73 more, and these
+files carry every figure in them: roughly a million, across eleven sections.
+
+| File | Tables | Content |
+|---|---|---|
+| `..._households` | 1–9 | household size, composition, and the head's education, marital status and occupation |
+| `..._age_sex` | 10–12 | population by age group and by single year of age, urban and rural |
+| `..._non_libyans` | 13 | non-Libyan residents by country group, age and sex |
+| `..._enrolment` | 14–16 | population aged 4–30 in education, by stage |
+| `..._education` | 17–20 | population aged 10+ by educational attainment |
+| `..._marital` | 21–28 | population aged 15+ by marital status, including polygamy |
+| `..._manpower` | 29–36 | population aged 15+ by labour-force category |
+| `..._occupation` | 37–45 | economically active 15+ by occupation |
+| `..._activity` | 46–56 | economically active 15+ by branch of economic activity |
+| `..._employment` | 57–68 | economically active 15+ by employment status |
+| `..._housing` | 69–74 | dwelling type, water, cooking fuel, sanitation, lighting |
+
+One row per printed figure:
+
+| Column | Meaning |
+|---|---|
+| `shabiya_ar`, `shabiya_en` | the volume the figure came from |
+| `table_no` | table number, 1–74, the same in every volume |
+| `sheet` | continuation sheet number as printed. **Not reliable**: several volumes print "46-1" on four consecutive pages. Use `pdf_page` to separate sheets within a volume |
+| `pdf_page` | page of the source PDF |
+| `row_label_ar`, `row_label_en` | the row's stub, split by language. Age ranges are normalised to ascending `low-high` |
+| `row_group_ar`, `row_group_en` | the outer stub, where a table has two levels — e.g. an education category subdivided into urban, rural and total. Empty for single-level tables |
+| `column_index` | position of the column, counting from the right as printed |
+| `column_label_ar`, `column_label_en` | the column's own heading, usually male, female or total |
+| `column_group_ar`, `column_group_en` | the heading spanning that block of columns, e.g. the occupation or the economic activity |
+| `column_kind` | `male`, `female`, `total`, `percent`, `count`, or empty |
+| `value` | the figure as printed |
+| `is_percentage` | 1 where the figure is a percentage rather than a count |
+
+Roughly half the tables break down by mahalla, so `row_label_ar` joins to
+`mahalla_ar` in the mahalla file. The rest cross-tabulate at shabiya level, and
+their stub is a category: an age band, an occupation, a level of schooling.
+
+**These are long, not wide.** Pivot on `row_label_ar` and `column_index` to get
+a table back. Keep `column_index` in the key: several columns in one table can
+share the label "total".
+
+### `bsc_census_2006_table_index.csv`
+
+One row per table: its section, the caption as printed in Arabic and English,
+how many volumes and pages it was read from, how many figures, and its result on
+the sex identity below. Read this first to find the table you want.
+
+### `bsc_census_2006_table_headers.csv`
+
+The header bands of each table exactly as extracted, by band and cell position.
+The column labels above are derived from these; this file is here so a
+researcher can check that derivation rather than take it on trust.
+
+### How the 74 tables were validated
+
+The tables have no single arithmetic spine, but most print male, female and
+total columns. Every such triple is checked on every row, and the breach rate is
+reported per table in the index. It runs well under a tenth of a percent, and
+the breaches are misprints in the source rather than a systematic column
+misalignment, which would break the identity everywhere at once.
+
+Nothing was hard-coded per table. The reader finds the table number, learns
+column positions from each page's own data rows, and takes column labels from
+the header bands. That means a table whose layout it cannot resolve is skipped
+and shows up as absent from the index, rather than being silently misread.
+
+`volumes` in the index says how many of the 22 volumes each table was read
+from. Most were read from all 22. Nine were read from fewer, and the shortfall
+is in the source: those pages carry no printed table number, so they are
+skipped rather than attributed to the neighbouring table. **Table 48** is the
+extreme case, present in only 4 volumes; in the other 18 its pages print no
+label at all.
+
+The identity breaches concentrate in tables 25, 40, 41 and 45, at 1% to 4% of
+their checks, against essentially zero elsewhere. Those are the densest
+cross-tabulations, where the source stacks sub-rows about four points apart and
+sets figures in narrow columns. A systematic column misalignment would breach
+the identity on nearly every row of the affected table, not one in twenty-five,
+so what remains is per-figure noise rather than a structural error. Treat
+figures in those four tables with more caution than the rest, and use
+`bsc_census_2006_table_headers.csv` to check any column reading that matters.
 
 ### How the figures were validated
 
