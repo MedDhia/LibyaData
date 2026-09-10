@@ -11,3 +11,7 @@ __pycache__/
 data/raw/cbl/
 data/raw/cbl_fx/
 data/raw/bsc/pdf/
+
+# Reference geography re-downloaded by scripts/download_hdx_codab.sh. Not
+# committed: COD-AB is CC BY-IGO and the OSM extract is ODbL.
+data/raw/hdx/

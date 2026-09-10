@@ -1,23 +1,23 @@
-gadm_gid,gadm_name,shabiya_ar,shabiya_en,census_area_km2,census_persons_2006
-LBY.1_1,Al Butnan,البطنان,Butnan,84996,157747
-LBY.2_1,Al Jabal al Akhdar,الجبل الأخضر,Jabal al Akhdar,11429,206180
-LBY.3_1,Al Jabal al Gharbi,الجبل الغربي,Jabal al Gharbi,76717,302705
-LBY.4_1,Al Jifarah,الجفارة,Jafara,2666,451175
-LBY.5_1,Al Jufrah,الجفرة,Jufra,139038,52092
-LBY.6_1,Al Kufrah,الكفرة,Kufra,433611,48328
-LBY.7_1,Al Marj,المرج,Marj,13515,184531
-LBY.8_1,Al Marqab,المرقب,Murqub,6796,427886
-LBY.9_1,Al Wahat,الواحات,Al Wahat,108523,179155
-LBY.10_1,An Nuqat al Khams,النقاط الخمس,Nuqat al Khams,6089,287359
-LBY.11_1,Az Zawiyah,الزاوية,Zawiya,2753,290637
-LBY.12_1,Benghazi,بنغازي,Benghazi,11372,674951
-LBY.13_1,Darnah,درنة,Derna,31511,162857
-LBY.14_1,Ghat,غات,Ghat,68482,23199
-LBY.15_1,Misratah,مصراته,Misrata,29172,543129
-LBY.16_1,Murzuq,مرزق,Murzuq,356308,78772
-LBY.17_1,Nalut,نالوت,Nalut,67191,93896
-LBY.18_1,Sabha,سبها,Sabha,17066,133206
-LBY.19_1,Surt,سرت,Sirte,86399,141495
-LBY.20_1,Tripoli,طرابلس,Tripoli,835,1063571
-LBY.21_1,Wadi al Hayat,وادي الحياة,Wadi al Hayaa,31485,76258
-LBY.22_1,Wadi ash Shati',وادي الشاطئ,Wadi al Shatii,90244,78563
+shabiya_ar,shabiya_en,gadm_name,gadm_gid,codab_pcode,codab_name_en,codab_name_ar,codab_renamed_for_capital,census_area_km2,codab_area_km2,census_persons_2006,census_mahalla_count
+البطنان,Butnan,Al Butnan,LBY.1_1,LY0104,Tobruk,طبرق,1,84996,79859.48,157747,17
+الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LBY.2_1,LY0106,Al Jabal Al Akhdar,الجبل الاخضر,0,11429,8626.74,206180,32
+الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LBY.3_1,LY0216,Al Jabal Al Gharbi,الجبل الغربي,0,76717,76705.78,302705,84
+الجفارة,Jafara,Al Jifarah,LBY.4_1,LY0212,Aljfara,الجفارة,0,2666,2666.45,451175,42
+الجفرة,Jufra,Al Jufrah,LBY.5_1,LY0317,Aljufra,الجفرة,0,139038,115946.67,52092,7
+الزاوية,Zawiya,Az Zawiyah,LBY.11_1,LY0213,Azzawya,الزاوية,0,2753,2764.31,290637,36
+الكفرة,Kufra,Al Kufrah,LBY.6_1,LY0107,Alkufra,الكفرة,0,433611,420928.01,48328,6
+المرج,Marj,Al Marj,LBY.7_1,LY0102,Almarj,المرج,0,13515,10575.08,184531,33
+المرقب,Murqub,Al Marqab,LBY.8_1,LY0210,Almargeb,المرقب,0,6796,6801.27,427886,59
+النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LBY.10_1,LY0215,Zwara,زوارة,1,6089,6069.14,287359,36
+الواحات,Al Wahat,Al Wahat,LBY.9_1,LY0105,Ejdabia,اجدابيا,1,108523,197428.11,179155,20
+بنغازي,Benghazi,Benghazi,LBY.12_1,LY0103,Benghazi,بنغازي,0,11372,13562.06,674951,50
+درنة,Derna,Darnah,LBY.13_1,LY0101,Derna,درنه,0,31511,21185.14,162857,27
+سبها,Sabha,Sabha,LBY.18_1,LY0319,Sebha,سبها,0,17066,17232.07,133206,10
+سرت,Sirte,Surt,LBY.19_1,LY0208,Sirt,سرت,0,86399,75552.09,141495,24
+طرابلس,Tripoli,Tripoli,LBY.20_1,LY0211,Tripoli,طرابلس,0,835,842.01,1063571,40
+غات,Ghat,Ghat,LBY.14_1,LY0321,Ghat,غات,0,68482,50633.8,23199,3
+مرزق,Murzuq,Murzuq,LBY.16_1,LY0322,Murzuq,مرزق,0,356308,280755.46,78772,18
+مصراته,Misrata,Misratah,LBY.15_1,LY0214,Misrata,مصراته,0,29172,29216.22,543129,59
+نالوت,Nalut,Nalut,LBY.17_1,LY0209,Nalut,نالوت,0,67191,65080.72,93896,28
+وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LBY.21_1,LY0320,Ubari,اوباري,1,31485,32407.72,76258,12
+وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LBY.22_1,LY0318,Wadi Ashshati,وادى الشاطئ,0,90244,101634.57,78563,24

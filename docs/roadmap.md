@@ -59,12 +59,19 @@ Remaining, in order of value over effort:
 
 The part that makes this a repository rather than a folder of scraped PDFs.
 
-- **Geographic concordance.** Libyan administrative units have been reorganised repeatedly —
-  muhafazat, then the 22 shabiyat the 2006 census uses, then the current municipality (baladiya)
-  system, with boundary and name changes throughout. A crosswalk mapping every unit appearing in
-  any source to a stable internal identifier, with validity dates, is a prerequisite for joining
-  anything subnational, and nothing else in Phase 4 can proceed without it. The census extraction
-  supplies one side of it already: 22 shabiyat and 667 mahallas with stable keys.
+- **Geographic concordance.** Partly done. `concordance_shabiya.csv` maps the 22 first-level units
+  across all three naming systems in play — the census, GADM 4.1 and COD-AB — each mapping checked
+  by ranking units on area rather than name similarity. `concordance_mahalla.csv` gives all 667
+  mahallas a stable key, a normalised Arabic join key and their parent unit in every system, and
+  147 of them carry an OpenStreetMap coordinate.
+
+  What remains is the mahalla-to-baladiya link, and it is blocked on sources rather than effort. No
+  published crosswalk relates the post-2013 municipalities to the census's mahallas, and no boundary
+  layer for Libya goes below the 22 shabiyat in either GADM or COD-AB, so it cannot be derived
+  geometrically either. It needs the annex to Decree 180 of 2013 listing each municipality's
+  constituent localities, or a baladiya boundary layer to assign the OSM anchors against. Until one
+  of those is in hand the column stays empty and flagged `not_established` rather than filled by
+  name similarity.
 - **Transliteration standard.** Arabic place and institution names arrive in several romanisations
   across sources. Pick one, apply it consistently, and keep the Arabic original in a parallel column.
 - **Temporal alignment.** Fiscal, Gregorian and Hijri years all appear. Store the original and a

@@ -1,0 +1,150 @@
+mahalla_id,mahalla_ar,shabiya_ar,shabiya_en,match_status,candidates,osm_id,osm_name_ar,osm_place_type,lon,lat,distance_to_shabiya_centroid_km,osm_candidate_ids
+Al Wahat-006,الزويتينة,الواحات,Al Wahat,single,1,node/277350345,الزويتينة,village,20.11789,30.95227,224,node/277350345
+Al Wahat-011,بشر,الواحات,Al Wahat,single,1,way/419965834,بشر,town,19.43103,30.29387,193,way/419965834
+Al Wahat-012,العقيلة,الواحات,Al Wahat,clustered,2,node/1221271185,العقيلة,village,19.19871,30.25591,206,node/8984147054;node/1221271185
+Al Wahat-013,مرادة,الواحات,Al Wahat,single,1,node/1239730812,مرادة,town,19.20397,29.22348,155,node/1239730812
+Al Wahat-016,اجخرة,الواحات,Al Wahat,single,1,node/1565511190,اجخره,town,21.6499,29.29625,90,node/1565511190
+Benghazi-025,القوارشة,بنغازي,Benghazi,single,1,node/1565509474,القوارشة,village,20.06667,32.03333,46,node/1565509474
+Benghazi-027,الفعكات,بنغازي,Benghazi,clustered,2,node/3323128401,الفعكات,village,20.0785,31.98888,42,node/3323128401;way/325695244
+Benghazi-030,بو فاخرة,بنغازي,Benghazi,single,1,way/325851120,بوفاخرة,town,19.98827,31.9562,47,way/325851120
+Benghazi-032,الكويفية,بنغازي,Benghazi,single,1,relation/1453936,الكويفية,,20.17145,32.20679,54,relation/1453936
+Benghazi-034,سيدي خليفة,بنغازي,Benghazi,single,1,node/1565512709,سيدي خليفة,village,20.20526,32.25593,58,node/1565512709
+Benghazi-036,النواقية,بنغازي,Benghazi,clustered,2,node/1168311445,النواقية,village,20.16436,31.92993,31,node/1168311445;way/104382144
+Benghazi-040,المقرون,بنغازي,Benghazi,single,1,node/1207728511,المقرون,village,20.15313,31.44007,47,node/1207728511
+Benghazi-041,كركورة,بنغازي,Benghazi,single,1,node/1565511278,كركورة,village,20.02685,31.4261,56,node/1565511278
+Benghazi-043,الرقطة,بنغازي,Benghazi,single,1,node/3319517762,الرقطة,village,20.14579,31.27793,62,node/3319517762
+Benghazi-048,مسوس,بنغازي,Benghazi,single,1,node/1565513140,مسوس,town,21.00933,31.57935,58,node/1565513140
+Butnan-002,القرضبة,البطنان,Butnan,single,1,node/1170265206,القرضبه,village,23.48145,32.14139,224,node/1170265206
+Butnan-003,المرصص,البطنان,Butnan,single,1,node/5351672121,المرصص,village,23.65008,32.11061,219,node/5351672121
+Butnan-008,القعرة,البطنان,Butnan,single,1,node/1170230780,القعره,village,24.20198,31.95527,203,node/1170230780
+Butnan-009,الجغبوب,البطنان,Butnan,single,1,node/1237297697,الجغبوب,town,24.51475,29.74189,77,node/1237297697
+Butnan-010,امساعد,البطنان,Butnan,clustered,2,node/1170179740,أم ساعد,town,25.0485,31.61353,197,node/1170179748;node/1170179740
+Butnan-011,البردي,البطنان,Butnan,single,1,node/1565509048,البردي,village,25.08333,31.76667,213,node/1565509048
+Butnan-016,قصر الجدي,البطنان,Butnan,single,1,node/1170206530,قصرالجدي,village,24.78777,31.85358,208,node/1170206530
+Derna-009,التميمي,درنة,Derna,clustered,2,node/1172167545,التميمي,town,23.06038,32.33066,70,node/1172167545;way/26332229
+Derna-011,ام الرزم,درنة,Derna,clustered,2,node/1172162124,أم الرزم,town,23.00875,32.53174,85,node/1172162124;way/26332174
+Derna-013,مرتوبة,درنة,Derna,clustered,2,node/1565511332,مرتوبة,town,22.76187,32.57515,81,node/1565511332;node/3240603834
+Derna-015,عين مارة,درنة,Derna,single,1,node/1565510264,عين مارة,village,22.38288,32.75225,100,node/1565510264
+Derna-016,بيت تامر,درنة,Derna,single,1,node/1565510657,بيت تامر,village,22.30387,32.78838,105,node/1565510657
+Derna-017,الدبوسية,درنة,Derna,single,1,node/3331950158,الدبوسية,village,22.28423,32.83268,110,node/3331950158
+Derna-020,لملودة,درنة,Derna,single,1,node/1565511281,لملودة,town,22.14226,32.78134,109,node/1565511281
+Derna-025,خولان,درنة,Derna,single,1,node/5815630556,خولان,village,22.09182,32.5955,92,node/5815630556
+Derna-026,العزيات,درنة,Derna,single,1,node/1173420991,العزيات,village,22.66524,32.25151,44,node/1173420991
+Derna-027,المخيلي,درنة,Derna,ambiguous,2,,,,,,,node/1565509440;node/1565513148
+Ghat-001,غات,غات,Ghat,single,1,node/260714409,غات,city,10.17972,24.96263,122,node/260714409
+Ghat-002,العوينات,غات,Ghat,clustered,2,node/260715301,العوينات,town,10.56304,25.77661,33,way/103806689;node/260715301
+Ghat-003,البركت,غات,Ghat,clustered,2,node/260714665,البركت,village,10.1816,24.88728,130,node/260714665;way/527685018
+Jabal al Akhdar-003,مراوة,الجبل الأخضر,Jabal al Akhdar,single,1,node/1565511323,مراوة,town,21.40966,32.48337,62,node/1565511323
+Jabal al Akhdar-004,الحمامة,الجبل الأخضر,Jabal al Akhdar,single,1,node/3329616735,الحمامة,hamlet,21.76288,32.17712,19,node/3329616735
+Jabal al Akhdar-005,الغريفة,الجبل الأخضر,Jabal al Akhdar,single,1,way/326493457,الغريفة,village,21.79274,32.71983,79,way/326493457
+Jabal al Akhdar-013,المنصورة,الجبل الأخضر,Jabal al Akhdar,single,1,node/1565511307,المنصورة,village,21.84219,32.83541,93,node/1565511307
+Jabal al Akhdar-014,الصفصاف,الجبل الأخضر,Jabal al Akhdar,single,1,node/1565509592,الصفصاف,hamlet,21.94919,32.77772,88,node/1565509592
+Jabal al Akhdar-018,عمر المختار,الجبل الأخضر,Jabal al Akhdar,single,1,node/1565512109,عمر المختار,village,21.67504,32.62931,70,node/1565512109
+Jabal al Akhdar-021,الخويمات,الجبل الأخضر,Jabal al Akhdar,clustered,2,node/3337364435,الخويمات,village,21.52634,32.00412,20,way/327025351;node/3337364435
+Jabal al Akhdar-022,جردس الجراري,الجبل الأخضر,Jabal al Akhdar,single,1,node/3242340194,جردس الجراري,village,21.78556,32.5277,58,node/3242340194
+Jabal al Akhdar-023,قندولة,الجبل الأخضر,Jabal al Akhdar,single,1,node/1565511715,قندولة,town,21.57647,32.53738,61,node/1565511715
+Jabal al Akhdar-027,قرنادة,الجبل الأخضر,Jabal al Akhdar,single,1,node/1565512559,قرنادة,village,21.90352,32.73193,82,node/1565512559
+Jabal al Akhdar-028,بلقس,الجبل الأخضر,Jabal al Akhdar,single,1,node/7749906142,بلقس,village,21.9495,32.65541,75,node/7749906142
+Jabal al Akhdar-031,الحنية,الجبل الأخضر,Jabal al Akhdar,single,1,node/1565509153,الحنية,village,21.52083,32.84111,95,node/1565509153
+Jabal al Gharbi-006,تغرنة,الجبل الغربي,Jabal al Gharbi,single,1,node/1565512808,تغرنة,village,12.99278,32.13278,171,node/1565512808
+Jabal al Gharbi-010,ابو زيان,الجبل الغربي,Jabal al Gharbi,single,1,node/1565508866,ابوزيان,village,12.97861,32.09972,168,node/1565508866
+Jabal al Gharbi-016,ابو غيلان,الجبل الغربي,Jabal al Gharbi,single,1,node/1565508856,أبو غيلان,town,13.03817,32.25642,185,node/1565508856
+Jabal al Gharbi-029,جندوبة,الجبل الغربي,Jabal al Gharbi,single,1,node/1565511137,جندوبة,village,12.68167,32.10083,171,node/1565511137
+Jabal al Gharbi-031,الرابطة,الجبل الغربي,Jabal al Gharbi,single,1,node/1565510056,الرابطة,village,12.86237,32.17313,176,node/1565510056
+Jabal al Gharbi-040,العوينية,الجبل الغربي,Jabal al Gharbi,single,1,way/26325865,العوينية,city,12.44737,31.99546,165,way/26325865
+Jabal al Gharbi-044,ام الجرسان,الجبل الغربي,Jabal al Gharbi,single,1,node/1565513084,أم الجرسان,village,12.55401,32.03378,166,node/1565513084
+Jabal al Gharbi-059,شكشوك,الجبل الغربي,Jabal al Gharbi,single,1,node/1565512691,شكشوك,village,11.94937,32.01998,189,node/1565512691
+Jabal al Gharbi-064,قصر الحاج,الجبل الغربي,Jabal al Gharbi,single,1,node/1281371353,قصر الحاج,village,12.16905,32.04531,181,node/1281371353
+Jabal al Gharbi-073,فسانو,الجبل الغربي,Jabal al Gharbi,single,1,way/126488593,فسانو,city,12.76094,31.27869,80,way/126488593
+Jabal al Gharbi-075,الشقيقة,الجبل الغربي,Jabal al Gharbi,single,1,way/126488587,الشقيقة,village,12.80993,31.64122,118,way/126488587
+Jabal al Gharbi-078,راس الطبل,الجبل الغربي,Jabal al Gharbi,single,1,node/1565512607,راس الطبل,village,13.49474,31.30177,91,node/1565512607
+Jabal al Gharbi-082,طبقة,الجبل الغربي,Jabal al Gharbi,single,1,node/1565512795,طبقة,village,13.30431,30.43312,32,node/1565512795
+Jafara-003,الحشان,الجفارة,Jafara,clustered,2,node/1565511431,الحشان,village,12.91558,32.76162,27,node/1565511431;way/344458527
+Jafara-004,صياد,الجفارة,Jafara,clustered,2,node/1565512664,صياد,town,12.95,32.81667,31,node/1565512664;way/345428940
+Jafara-010,بئر الجديد,الجفارة,Jafara,single,1,node/3449159205,بئر الجديد,village,12.99422,32.56062,7,node/3449159205
+Jafara-011,الساعدية,الجفارة,Jafara,single,1,node/7765463815,الساعدية,village,13.03603,32.61867,7,node/7765463815
+Jafara-012,العامرية,الجفارة,Jafara,clustered,2,node/3460305547,العامرية,town,12.95124,32.63688,14,way/338876618;node/3460305547
+Jafara-016,الماية,الجفارة,Jafara,clustered,2,node/1195255987,الماية,town,12.88528,32.79186,31,way/103514807;node/1195255987
+Jafara-017,الطويبية,الجفارة,Jafara,clustered,2,node/1565509932,الطويبية,town,12.83927,32.77768,32,node/1565509932;way/343780546
+Jafara-018,الطينة,الجفارة,Jafara,single,1,node/3512008211,الطينة,village,12.8978,32.75892,27,node/3512008211
+Jafara-019,المعمورة,الجفارة,Jafara,clustered,2,node/1565509358,المعمورة,town,12.85694,32.71917,27,node/1565509358;way/338391852
+Jafara-021,الزهراء,الجفارة,Jafara,clustered,3,node/1181267424,الزهراء,city,12.87251,32.67803,23,way/338209189;node/1181267424;way/102380860
+Jafara-022,الناصرية,الجفارة,Jafara,single,1,node/1565509525,الناصرية‎,town,12.87317,32.63349,20,node/1565509525
+Jafara-024,سوق السبت,الجفارة,Jafara,single,1,node/1565512783,سوق السبت,village,13.2,32.65,16,node/1565512783
+Jafara-028,بئر التوتة,الجفارة,Jafara,single,1,node/7241078221,بئر التوتة,town,13.23635,32.69133,21,node/7241078221
+Kufra-001,الجوف,الكفرة,Kufra,single,1,node/277407893,الجوف,town,23.2939,24.19855,159,node/277407893
+Kufra-002,الهواري,الكفرة,Kufra,single,1,node/1565509187,الهواري,village,23.15922,24.32427,158,node/1565509187
+Kufra-003,الطلاب,الكفرة,Kufra,single,1,node/1565509911,الطلاب,hamlet,23.12803,24.03094,134,node/1565509911
+Kufra-004,ربيانة,الكفرة,Kufra,single,1,node/5203589521,ربيانة,village,21.97122,24.25224,108,node/5203589521
+Kufra-006,تازربو,الكفرة,Kufra,single,1,node/1574963952,تازربو,town,21.06211,25.67161,284,node/1574963952
+Marj-003,العويلية الشرقية,المرج,Marj,single,1,node/1565509501,العويلية الشرقية,village,20.98964,32.55738,75,node/1565509501
+Marj-005,فرزوغة,المرج,Marj,single,1,node/1565510817,فرزوغة,village,20.70244,32.50114,81,node/1565510817
+Marj-009,البنية,المرج,Marj,clustered,2,node/3240231647,البنية,village,20.88498,32.26529,50,way/326701305;node/3240231647
+Marj-023,سيدي مهيوس,المرج,Marj,single,1,node/1565512711,سيدي مهيوس,village,20.73788,32.24684,58,node/1565512711
+Misrata-017,طمينة,مصراته,Misrata,clustered,2,node/5432780075,طمينة,village,15.07938,32.25597,101,node/5432780075;way/26329718
+Misrata-019,الكراريم,مصراته,Misrata,single,1,node/4692288883,الكراريم,village,15.077,32.14423,90,node/4692288883
+Misrata-039,تينيناي,مصراته,Misrata,single,1,node/3305364529,تينيناي,town,13.74271,31.39311,78,node/3305364529
+Murqub-004,سيلين,المرقب,Murqub,single,1,node/1565511580,سيلين,village,14.17389,32.66806,42,node/1565511580
+Murqub-013,قوقاس,المرقب,Murqub,single,1,node/13380836804,قـــوقــاس,town,14.22365,32.42552,35,node/13380836804
+Murqub-038,سيدي معمر,المرقب,Murqub,single,1,node/1565511578,سيدي معمر,village,13.88121,32.49556,10,node/1565511578
+Murqub-046,سوق الاحد,المرقب,Murqub,single,1,node/1565512741,سوق الاحد,village,13.44194,32.55167,42,node/1565512741
+Murqub-047,سوق الجمعة,المرقب,Murqub,ambiguous,2,,,,,,,node/1565512742;node/1565512746
+Murqub-051,الرواجح,المرقب,Murqub,single,1,way/817866752,الرواجح,village,13.65338,32.68103,36,way/817866752
+Murzuq-010,زويلة,مرزق,Murzuq,clustered,2,node/1198419680,زويلة,town,15.12512,26.16386,183,way/103814163;node/1198419680
+Murzuq-011,تمسة,مرزق,Murzuq,single,1,node/1198438712,تمسة,village,15.78065,26.39429,213,node/1198438712
+Murzuq-012,مجدول,مرزق,Murzuq,clustered,2,node/1565511300,مجدول,village,15.00522,25.83791,149,node/1565511300;way/328704022
+Murzuq-014,القطرون,مرزق,Murzuq,single,1,node/419488780,القطرون,town,14.5315,24.88947,89,node/419488780
+Murzuq-016,تجرهي,مرزق,Murzuq,single,1,node/3354582744,تجرهي,town,14.26777,24.32982,109,node/3354582744
+Nalut-005,الغزايا,نالوت,Nalut,clustered,2,node/1565509098,الغزايا,village,10.83281,32.00101,157,node/1565509098;way/380273725
+Nalut-007,المجابرة,نالوت,Nalut,single,1,node/1565509384,المجابرة,town,11.15917,31.86,141,node/1565509384
+Nalut-012,تيجي,نالوت,Nalut,single,1,node/1246799080,تيجي,town,11.3601,32.01099,160,node/1246799080
+Nalut-013,الحوامد,نالوت,Nalut,clustered,2,node/1246799070,الحوامد,town,11.16224,31.9755,154,way/26305914;node/1246799070
+Nalut-014,الجوش,نالوت,Nalut,single,1,node/1565509284,الجوش,town,11.67319,31.99471,167,node/1565509284
+Nalut-018,بدر,نالوت,Nalut,clustered,2,node/1246799128,بدر,town,11.54247,32.06079,170,way/26305948;node/1246799128
+Nalut-019,وازن,نالوت,Nalut,single,1,node/1253979845,وازن,town,10.66978,31.94565,154,node/1253979845
+Nalut-023,سيناون,نالوت,Nalut,single,1,node/1278520309,سيناون,village,10.60209,31.02604,62,node/1278520309
+Nalut-024,درج,نالوت,Nalut,clustered,2,node/1278520315,درج,town,10.45796,30.16359,73,node/1278520315;way/262361834
+Nuqat al Khams-006,راس اجدير,النقاط الخمس,Nuqat al Khams,clustered,2,node/1172802069,رأس اجدير,town,11.56793,33.1495,62,way/209183762;node/1172802069
+Nuqat al Khams-023,زلطن,النقاط الخمس,Nuqat al Khams,single,1,node/1169748270,زلطن,city,11.8668,32.94615,28,node/1169748270
+Nuqat al Khams-025,العسة,النقاط الخمس,Nuqat al Khams,clustered,2,node/1264730570,العسة,town,11.62719,32.82805,36,node/1264730570;way/313918583
+Sabha-007,غدوة,سبها,Sabha,clustered,2,node/260716310,غدوة,town,14.27264,26.43883,98,way/328837607;node/260716310
+Sabha-008,تمنهنت,سبها,Sabha,clustered,2,node/4153684744,تمنهنت,town,14.62638,27.21082,45,node/4153684744;way/378765082
+Sabha-009,سمنو,سبها,Sabha,clustered,2,node/2628393721,سمنو,town,14.88423,27.27541,33,node/2628393721;way/278752692
+Sabha-010,الزيغن,سبها,Sabha,clustered,2,node/3309936122,الزيغن,town,14.91281,27.36946,42,node/3309936122;way/278719897
+Sirte-013,السدرة,سرت,Sirte,single,1,node/1197632988,السدرة,village,18.34908,30.62928,175,node/1197632988
+Sirte-014,النوفلية,سرت,Sirte,single,1,node/1190819428,النوفلية,village,17.8355,30.77888,142,node/1190819428
+Sirte-018,العامرة,سرت,Sirte,single,1,node/5821783055,العامرة,hamlet,17.22465,31.08173,136,node/5821783055
+Sirte-019,الوشكة,سرت,Sirte,single,1,node/665116031,الوشكة,town,15.57085,31.37336,193,node/665116031
+Sirte-024,ابو نجيم,سرت,Sirte,clustered,2,node/1565508862,ابونجيم,village,15.39579,30.58165,145,node/7229194106;node/1565508862
+Tripoli-007,المنصورة,طرابلس,Tripoli,single,1,node/3442534313,المنصورة,village,13.16417,32.87896,26,node/3442534313
+Tripoli-013,عقبة بن نافع,طرابلس,Tripoli,single,1,node/7870007142,عقبة بن نافع,village,13.25646,32.89208,20,node/7870007142
+Tripoli-017,عين زارة,طرابلس,Tripoli,single,1,node/1565510267,عين زارة,town,13.28693,32.79521,12,node/1565510267
+Tripoli-019,الحشان,طرابلس,Tripoli,single,1,node/7870068333,الحشان,village,13.23919,32.86427,19,node/7870068333
+Tripoli-023,قرقارش,طرابلس,Tripoli,single,1,node/1565511716,قرقارش,village,13.11152,32.86816,30,node/1565511716
+Tripoli-024,الشارع الغربي,طرابلس,Tripoli,single,1,node/7870006899,الشارع الغربي,village,13.15133,32.87095,27,node/7870006899
+Tripoli-025,غوط الشعال,طرابلس,Tripoli,clustered,2,way/172702394,غوط الشعال,town,13.10189,32.8575,31,node/1856029211;way/172702394
+Tripoli-032,باب بن غشير,طرابلس,Tripoli,single,1,node/5475837424,باب بن غشير,town,13.19562,32.87233,23,node/5475837424
+Wadi al Hayaa-001,اوباري,وادي الحياة,Wadi al Hayaa,single,1,node/260715532,أوباري,city,12.76957,26.59094,22,node/260715532
+Wadi al Hayaa-002,الغريفة,وادي الحياة,Wadi al Hayaa,single,1,node/260715668,الغريفة,city,13.00995,26.52589,24,node/260715668
+Wadi al Hayaa-003,القعيرات,وادي الحياة,Wadi al Hayaa,clustered,2,node/2921911957,القعيرات,village,12.98148,26.52667,22,node/2921911957;way/288638453
+Wadi al Hayaa-006,تويوة,وادي الحياة,Wadi al Hayaa,clustered,2,node/1565512992,تويوه,town,13.15285,26.56307,39,node/1565512992;way/275816968
+Wadi al Shatii-001,قيرة,وادي الشاطئ,Wadi al Shatii,clustered,2,node/2817367133,قيرة,village,14.34719,27.58254,156,way/277208252;node/2817367133
+Wadi al Shatii-002,اشكدة,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565509863,أشكدة,village,14.44911,27.56027,166,way/278394737;node/1565509863
+Wadi al Shatii-003,زلواز,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565513125,زلواز,village,14.25723,27.57164,147,node/1565513125;way/268844570
+Wadi al Shatii-004,الزوية,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565512848,الزوية,town,14.22681,27.5738,144,node/1565512848;way/268844571
+Wadi al Shatii-009,اقار,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565509546,آقار,village,14.16314,27.54018,138,way/277202983;node/1565509546
+Wadi al Shatii-010,تامزاوة,وادي الشاطئ,Wadi al Shatii,clustered,2,node/2817328192,تامزاوة,village,14.20671,27.57135,142,node/2817328192;way/277203134
+Wadi al Shatii-011,القرضة,وادي الشاطئ,Wadi al Shatii,clustered,2,way/277201134,القرضة,town,13.96222,27.49379,119,way/277201134;node/1198407804
+Wadi al Shatii-012,الديسة,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565508895,الديسة,village,13.96318,27.50446,119,node/1565508895;way/278321187
+Wadi al Shatii-013,تاروت,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565512945,تاروت,village,13.92521,27.51447,115,node/1565512945;way/277201078
+Wadi al Shatii-014,محروقة,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565509383,المحروقة,town,14.01558,27.502,124,node/1565509383;way/277201244
+Wadi al Shatii-015,العيون,وادي الشاطئ,Wadi al Shatii,clustered,2,node/2817302364,العيون,village,14.02036,27.49004,124,way/277201629;node/2817302364
+Wadi al Shatii-016,برقن,وادي الشاطئ,Wadi al Shatii,clustered,2,way/277180257,برقن,town,13.62998,27.54803,85,node/1565510495;way/277180257
+Wadi al Shatii-018,الزهراء,وادي الشاطئ,Wadi al Shatii,clustered,2,node/2817087901,الزهراء,village,13.54579,27.55916,77,way/277179576;node/2817087901
+Wadi al Shatii-019,ادري,وادي الشاطئ,Wadi al Shatii,single,1,node/1198398303,إدري,town,13.0491,27.44574,33,node/1198398303
+Wadi al Shatii-020,المنصورة,وادي الشاطئ,Wadi al Shatii,single,1,node/2816016864,المنصوره,village,13.0263,27.48922,28,node/2816016864
+Wadi al Shatii-021,تمسان,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565512989,تمسان,village,13.11793,27.48514,37,way/277064715;node/1565512989
+Wadi al Shatii-022,ونزريك,وادي الشاطئ,Wadi al Shatii,clustered,2,node/1565513091,ونزريك,town,13.33053,27.48184,57,way/277178736;node/1565513091
+Wadi al Shatii-023,ققم,وادي الشاطئ,Wadi al Shatii,single,1,way/278359224,ققم,hamlet,14.18938,27.57259,140,way/278359224
+Wadi al Shatii-024,قطة,وادي الشاطئ,Wadi al Shatii,clustered,3,node/1565512578,قطة,village,13.79432,27.52049,102,way/277181263;node/2817107147;node/1565512578
+Zawiya-019,الحرشة,الزاوية,Zawiya,single,1,node/1565509219,الحرشة,town,12.67389,32.76472,33,node/1565509219

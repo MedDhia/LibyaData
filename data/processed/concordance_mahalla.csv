@@ -1,0 +1,668 @@
+mahalla_id,mahalla_ar,mahalla_key,shabiya_ar,shabiya_en,shabiya_gadm_name,shabiya_codab_pcode,name_unique_nationally,name_unique_in_shabiya,codab_place_pcode,codab_place_en,codab_place_ar,match_method,baladiya_2013,baladiya_source,census_persons_2006,census_households_2006
+Nuqat al Khams-001,الشمالية / زوارة,شماليه/زواره,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,1934,472
+Nuqat al Khams-002,الشرقية / زوارة,شرقيه/زواره,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,9607,2251
+Nuqat al Khams-003,الجنوبية / زوارة,جنوبيه/زواره,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,11100,2557
+Nuqat al Khams-004,الغربية / زوارة,غربيه/زواره,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,5021,1217
+Nuqat al Khams-005,فروة,فروه,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,3800,839
+Nuqat al Khams-006,راس اجدير,راساجدير,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,334,68
+Nuqat al Khams-007,الجديدة,جديده,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,11754,2228
+Nuqat al Khams-008,غوط الروضة,غوطالروضه,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,8899,1809
+Nuqat al Khams-009,الجنانات,جنانات,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,10242,2071
+Nuqat al Khams-010,الهنشير,هنشير,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,11963,2350
+Nuqat al Khams-011,السدرة,سدره,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,5789,1113
+Nuqat al Khams-012,سيدي احمد,سيدياحمد,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,7994,1768
+Nuqat al Khams-013,النصر,نصر,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,9857,1908
+Nuqat al Khams-014,جنان عطية,جنانعطيه,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,10700,2072
+Nuqat al Khams-015,ام عزيز,امعزيز,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,11418,1986
+Nuqat al Khams-016,كبيرة الاخباء,كبيرهالاخباء,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,7726,1401
+Nuqat al Khams-017,حمدة,حمده,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,4715,808
+Nuqat al Khams-018,جنان بن نصيب,جنانبننصيب,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,4271,776
+Nuqat al Khams-019,الميدان,ميدان,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,5934,1053
+Nuqat al Khams-020,بن شعيب,بنشعيب,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,15643,2756
+Nuqat al Khams-021,المنشية,منشيه,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,11253,2100
+Nuqat al Khams-022,الوسط / رقدالين,وسط/رقدالين,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,6305,1127
+Nuqat al Khams-023,زلطن,زلطن,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,LY021506,Ziltun,زلطن,codab_gazetteer_same_shabiya,,not_established,11535,2246
+Nuqat al Khams-024,حمدون,حمدون,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,19496,3600
+Nuqat al Khams-025,العسة,عسه,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,1005,188
+Nuqat al Khams-026,الطويلة,طويله,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,4435,903
+Nuqat al Khams-027,الوادي,وادي,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,0,1,,,,unmatched,,not_established,8449,1607
+Nuqat al Khams-028,الغوط,غوط,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,8799,1832
+Nuqat al Khams-029,تليل,تليل,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,6986,1292
+Nuqat al Khams-030,السوق \صبراتة,سوق\صبراته,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,10626,2129
+Nuqat al Khams-031,سيدي معروف,سيديمعروف,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,12732,2382
+Nuqat al Khams-032,النهضة,نهضه,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,8242,1514
+Nuqat al Khams-033,دحمان الشرقية,دحمانالشرقيه,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,1767,330
+Nuqat al Khams-034,دحمان الوسط,دحمانالوسط,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,1301,242
+Nuqat al Khams-035,راس الدايون,راسالدايون,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,12243,2602
+Nuqat al Khams-036,قاليل,قاليل,النقاط الخمس,Nuqat al Khams,An Nuqat al Khams,LY0215,1,1,,,,unmatched,,not_established,3484,663
+Jabal al Akhdar-001,البيضاء الغربية,بيضاءالغربيه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,13904,2445
+Jabal al Akhdar-002,البيضاء الشرقية,بيضاءالشرقيه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,13780,2099
+Jabal al Akhdar-003,مراوة,مراوه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,4511,606
+Jabal al Akhdar-004,الحمامة,حمامه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,1817,284
+Jabal al Akhdar-005,الغريفة,غريفه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,0,1,,,,unmatched,,not_established,62868,8976
+Jabal al Akhdar-006,السوق القديم,سوقالقديم,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,8758,1539
+Jabal al Akhdar-007,الزاوية القديمة,زاويهالقديمه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,6349,1445
+Jabal al Akhdar-008,وردامة,وردامه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,9027,1310
+Jabal al Akhdar-009,شحات القديمة,شحاتالقديمه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,7492,1158
+Jabal al Akhdar-010,شحات الجديدة,شحاتالجديده,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,16349,2415
+Jabal al Akhdar-011,ناصر,ناصر,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,0,1,,,,unmatched,,not_established,1092,185
+Jabal al Akhdar-012,سوسة المدينة,سوسهالمدينه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,5947,1012
+Jabal al Akhdar-013,المنصورة,منصوره,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,0,1,,,,unmatched,,not_established,1744,252
+Jabal al Akhdar-014,الصفصاف,صفصاف,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,2038,267
+Jabal al Akhdar-015,اقفنطة,اقفنطه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,771,94
+Jabal al Akhdar-016,سيدي عبد الواحد,سيديعبدالواحد,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,2057,296
+Jabal al Akhdar-017,الفجر الجديد,فجرالجديد,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,2682,339
+Jabal al Akhdar-018,عمر المختار,عمرالمختار,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,0,1,,,,unmatched,,not_established,6556,1093
+Jabal al Akhdar-019,اسلطنة,اسلطنه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,2678,406
+Jabal al Akhdar-020,النيان,نيان,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,342,51
+Jabal al Akhdar-021,الخويمات,خويمات,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,552,76
+Jabal al Akhdar-022,جردس الجراري,جردسالجراري,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,1202,205
+Jabal al Akhdar-023,قندولة,قندوله,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,6335,989
+Jabal al Akhdar-024,الفائدية الشمالية,فائديهالشماليه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,3562,503
+Jabal al Akhdar-025,اشنيشن,اشنيشن,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,1158,153
+Jabal al Akhdar-026,الزاوية,زاويه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,0,1,,,,unmatched,,not_established,799,124
+Jabal al Akhdar-027,قرنادة,قرناده,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,3434,501
+Jabal al Akhdar-028,بلقس,بلقس,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,713,90
+Jabal al Akhdar-029,مسه الجنوبية,مسهالجنوبيه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,3425,522
+Jabal al Akhdar-030,مسة الشمالية,مسهالشماليه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,6393,906
+Jabal al Akhdar-031,الحنية,حنيه,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,2967,404
+Jabal al Akhdar-032,قصر ليبيا,قصرليبيا,الجبل الأخضر,Jabal al Akhdar,Al Jabal al Akhdar,LY0106,1,1,,,,unmatched,,not_established,4878,593
+Jabal al Gharbi-001,سيدي موسى,سيديموسي,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3903,768
+Jabal al Gharbi-002,تغسات,تغسات,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,21386,4125
+Jabal al Gharbi-003,سيدي يعقوب,سيدييعقوب,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4597,885
+Jabal al Gharbi-004,قطيس,قطيس,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1019,313
+Jabal al Gharbi-005,انصير,انصير,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3264,581
+Jabal al Gharbi-006,تغرنة,تغرنه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3637,719
+Jabal al Gharbi-007,سيدي انطاط,سيديانطاط,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4466,856
+Jabal al Gharbi-008,غوط الريح,غوطالريح,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,200,28
+Jabal al Gharbi-009,وادي الارباع,واديالارباع,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3345,678
+Jabal al Gharbi-010,ابو زيان,ابوزيان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4094,902
+Jabal al Gharbi-011,اوسادن,اوسادن,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3118,595
+Jabal al Gharbi-012,الجنوب \ ابو زيان,جنوب\ابوزيان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3528,753
+Jabal al Gharbi-013,الوسط \ ابو زيان,وسط\ابوزيان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4077,824
+Jabal al Gharbi-014,سيدي خليفة,سيديخليفه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,2909,538
+Jabal al Gharbi-015,البحرية,بحريه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3527,650
+Jabal al Gharbi-016,ابو غيلان,ابوغيلان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,6449,1078
+Jabal al Gharbi-017,الوادي \ القواسم,وادي\القواسم,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3477,622
+Jabal al Gharbi-018,البوصيري,بوصيري,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3411,640
+Jabal al Gharbi-019,الشيخ,شيخ,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,3493,614
+Jabal al Gharbi-020,الوسط \ القواسم,وسط\القواسم,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,5350,972
+Jabal al Gharbi-021,الوحدة,وحده,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,2079,399
+Jabal al Gharbi-022,البيضاء,بيضاء,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,6552,941
+Jabal al Gharbi-023,القصبة,قصبه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,2430,395
+Jabal al Gharbi-024,ابو جعفر,ابوجعفر,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3456,562
+Jabal al Gharbi-025,اسنان,اسنان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2852,470
+Jabal al Gharbi-026,الظاهر,ظاهر,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,0,,,,unmatched,,not_established,5266,960
+Jabal al Gharbi-027,الهنشير,هنشير,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,5246,983
+Jabal al Gharbi-028,الوسط \ الاصابعة,وسط\الاصابعه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,6237,1057
+Jabal al Gharbi-029,جندوبة,جندوبه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3848,667
+Jabal al Gharbi-030,الشرف,شرف,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,5873,1011
+Jabal al Gharbi-031,الرابطة,رابطه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,4001,819
+Jabal al Gharbi-032,الوادي الحي,واديالحي,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4920,949
+Jabal al Gharbi-033,الغربية \ ككلة,غربيه\ككله,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,5759,1053
+Jabal al Gharbi-034,الوادي \ ككلة,وادي\ككله,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,267,70
+Jabal al Gharbi-035,ابو ماضي,ابوماضي,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,570,96
+Jabal al Gharbi-036,القواليش,قواليش,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4370,716
+Jabal al Gharbi-037,الشمالية \ ككلة,شماليه\ككله,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1184,237
+Jabal al Gharbi-038,الوسط \ ككلة,وسط\ككله,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2670,566
+Jabal al Gharbi-039,الزاوية,زاويه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,1360,184
+Jabal al Gharbi-040,العوينية,عوينيه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,8675,1045
+Jabal al Gharbi-041,القصر,قصر,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,4813,991
+Jabal al Gharbi-042,الشمالية \يفرن,شماليه\يفرن,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2433,505
+Jabal al Gharbi-043,الجديدة,جديده,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,,,,unmatched,,not_established,2593,550
+Jabal al Gharbi-044,ام الجرسان,امالجرسان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4912,874
+Jabal al Gharbi-045,الظاهر,ظاهر,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,0,,,,unmatched,,not_established,4970,747
+Jabal al Gharbi-046,الوادي \ القلعة,وادي\القلعه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3934,736
+Jabal al Gharbi-047,العليا,عليا,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4122,849
+Jabal al Gharbi-048,الشرقية \ الرياينة,شرقيه\الرياينه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3582,519
+Jabal al Gharbi-049,الوسط \ الرياينة,وسط\الرياينه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1368,220
+Jabal al Gharbi-050,العين \ الرياينة,عين\الرياينه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,3801,644
+Jabal al Gharbi-051,الغربية \ الرياينة,غربيه\الرياينه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2080,352
+Jabal al Gharbi-052,ابو لجام,ابولجام,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1439,249
+Jabal al Gharbi-053,الغربية \ الزنتان,غربيه\الزنتان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,8655,1272
+Jabal al Gharbi-054,الجنوبية \ الزنتان,جنوبيه\الزنتان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,7420,1231
+Jabal al Gharbi-055,المركز \ الزنتان,مركز\الزنتان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2162,371
+Jabal al Gharbi-056,الشرقية \ الزنتان,شرقيه\الزنتان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,5414,774
+Jabal al Gharbi-057,الشمالية \ الزنتان,شماليه\الزنتان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2536,411
+Jabal al Gharbi-058,القصبة \ جادو,قصبه\جادو,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1495,272
+Jabal al Gharbi-059,شكشوك,شكشوك,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1623,290
+Jabal al Gharbi-060,الشمالية \ جادو,شماليه\جادو,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1913,382
+Jabal al Gharbi-061,المركز \ جادو,مركز\جادو,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2891,696
+Jabal al Gharbi-062,الوسط \ جادو,وسط\جادو,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2238,485
+Jabal al Gharbi-063,الغربية \ جادو,غربيه\جادو,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1673,302
+Jabal al Gharbi-064,قصر الحاج,قصرالحاج,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,869,150
+Jabal al Gharbi-065,الغربية \ الرجبان,غربيه\الرجبان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,5240,830
+Jabal al Gharbi-066,الوسط \ الرجبان,وسط\الرجبان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2239,328
+Jabal al Gharbi-067,الشرقية \ الرجبان,شرقيه\الرجبان,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1920,285
+Jabal al Gharbi-068,الزملة,زمله,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,5139,716
+Jabal al Gharbi-069,الوسط \ الرحيبات,وسط\الرحيبات,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2042,405
+Jabal al Gharbi-070,امسين,امسين,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2021,391
+Jabal al Gharbi-071,الشمالية \ الرحيبات,شماليه\الرحيبات,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,787,140
+Jabal al Gharbi-072,مزدة المركز,مزدهالمركز,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,13661,2111
+Jabal al Gharbi-073,فسانو,فسانو,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1129,169
+Jabal al Gharbi-074,قصر وامس,قصروامس,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1755,254
+Jabal al Gharbi-075,الشقيقة,شقيقه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,0,1,LY021612,Ashshgega,الشقيقة,codab_gazetteer_same_shabiya,,not_established,3691,493
+Jabal al Gharbi-076,عطاء الله,عطاءالله,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1680,206
+Jabal al Gharbi-077,نسمة المركز,نسمهالمركز,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,4944,800
+Jabal al Gharbi-078,راس الطبل,راسالطبل,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,455,75
+Jabal al Gharbi-079,المكمورة,مكموره,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,236,36
+Jabal al Gharbi-080,القرية الشرقية,قريهالشرقيه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2434,414
+Jabal al Gharbi-081,القرية الغربية,قريهالغربيه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1138,192
+Jabal al Gharbi-082,طبقة,طبقه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2311,328
+Jabal al Gharbi-083,الشويرف الشرقية,شويرفالشرقيه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,2491,395
+Jabal al Gharbi-084,الشويرف الغربية,شويرفالغربيه,الجبل الغربي,Jabal al Gharbi,Al Jabal al Gharbi,LY0216,1,1,,,,unmatched,,not_established,1591,274
+Jafara-001,جنزور السوق,جنزورالسوق,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,12333,2536
+Jafara-002,جنزور الشرقية,جنزورالشرقيه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,47912,8624
+Jafara-003,الحشان,حشان,الجفارة,Jafara,Al Jifarah,LY0212,0,1,,,,unmatched,,not_established,7476,1508
+Jafara-004,صياد,صياد,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,17853,3358
+Jafara-005,سيدي عبد اللطيف,سيديعبداللطيف,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,10900,2189
+Jafara-006,جنزور الوسط,جنزورالوسط,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,29551,5929
+Jafara-007,وادي الهيرة,واديالهيره,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,2003,402
+Jafara-008,الشرقية \العزيزية,شرقيه\العزيزيه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,9508,1749
+Jafara-009,الغربية \العزيزية,غربيه\العزيزيه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,5599,994
+Jafara-010,بئر الجديد,بئرالجديد,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,8676,1549
+Jafara-011,الساعدية,ساعديه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,8132,1482
+Jafara-012,العامرية,عامريه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,10862,2006
+Jafara-013,السواني,سواني,الجفارة,Jafara,Al Jifarah,LY0212,0,1,,,,unmatched,,not_established,23079,4600
+Jafara-014,النجيلة,نجيله,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,14565,2615
+Jafara-015,جامع التوغار,جامعالتوغار,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,8941,1514
+Jafara-016,الماية,مايه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,LY021208,Al Maya,الماية,codab_gazetteer_same_shabiya,,not_established,11594,2253
+Jafara-017,الطويبية,طويبيه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,5207,997
+Jafara-018,الطينة,طينه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,6360,1153
+Jafara-019,المعمورة,معموره,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,6423,1275
+Jafara-020,قرقوزة,قرقوزه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,14163,2407
+Jafara-021,الزهراء,زهراء,الجفارة,Jafara,Al Jifarah,LY0212,0,1,LY021209,Azzahra,الزهراء,codab_gazetteer_same_shabiya,,not_established,20966,3919
+Jafara-022,الناصرية,ناصريه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,16887,2993
+Jafara-023,المطار,مطار,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,18006,3156
+Jafara-024,سوق السبت,سوقالسبت,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,16100,2874
+Jafara-025,العوانين,عوانين,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,14937,2825
+Jafara-026,ردود الزاوية,ردودالزاويه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,18296,3502
+Jafara-027,خويلد,خويلد,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,4341,819
+Jafara-028,بئر التوتة,بئرالتوته,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,14346,2690
+Jafara-029,ابو عائشة,ابوعائشه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,1641,252
+Jafara-030,بئر دياب,بئردياب,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,9092,1690
+Jafara-031,بئر الطوبة,بئرالطوبه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,3273,419
+Jafara-032,سيدي السائح,سيديالسائح,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,4038,664
+Jafara-033,الغلالبة,غلالبه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,3810,601
+Jafara-034,امسيحل,امسيحل,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,8412,1286
+Jafara-035,ابو الريش,ابوالريش,الجفارة,Jafara,Al Jifarah,LY0212,0,1,,,,unmatched,,not_established,5886,1080
+Jafara-036,سيدي جابر,سيديجابر,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,2380,341
+Jafara-037,اولاد ابو عائشة,اولادابوعائشه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,1511,259
+Jafara-038,اولاد احمد,اولاداحمد,الجفارة,Jafara,Al Jifarah,LY0212,0,1,,,,unmatched,,not_established,1688,300
+Jafara-039,بن عطية,بنعطيه,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,7560,1164
+Jafara-040,ابو عرقوب,ابوعرقوب,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,7284,1207
+Jafara-041,اولاد مرغم,اولادمرغم,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,2847,495
+Jafara-042,سيدي الجيلاني,سيديالجيلاني,الجفارة,Jafara,Al Jifarah,LY0212,1,1,,,,unmatched,,not_established,6737,1063
+Jufra-001,هون الشمالية,هونالشماليه,الجفرة,Jufra,Al Jufrah,LY0317,1,1,,,,unmatched,,not_established,9688,1801
+Jufra-002,هون الجنوبية,هونالجنوبيه,الجفرة,Jufra,Al Jufrah,LY0317,1,1,,,,unmatched,,not_established,10255,2032
+Jufra-003,ودان الشمالية,ودانالشماليه,الجفرة,Jufra,Al Jufrah,LY0317,1,1,,,,unmatched,,not_established,4688,944
+Jufra-004,ودان الجنوبية,ودانالجنوبيه,الجفرة,Jufra,Al Jufrah,LY0317,1,1,,,,unmatched,,not_established,8286,1507
+Jufra-005,سوكنة المركز,سوكنهالمركز,الجفرة,Jufra,Al Jufrah,LY0317,1,1,,,,unmatched,,not_established,9859,1713
+Jufra-006,الفقهاء,فقهاء,الجفرة,Jufra,Al Jufrah,LY0317,1,1,,,,unmatched,,not_established,1128,194
+Jufra-007,زلة المركز,زلهالمركز,الجفرة,Jufra,Al Jufrah,LY0317,1,1,,,,unmatched,,not_established,8188,1483
+Zawiya-001,جود دائم,جوددائم,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,12284,2382
+Zawiya-002,سيدي عيسى,سيديعيسي,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,31896,5867
+Zawiya-003,ضى الهلال,ضيالهلال,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,10131,1967
+Zawiya-004,سيدي نصر,سيدينصر,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,11261,2146
+Zawiya-005,بن سباع,بنسباع,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,5685,1034
+Zawiya-006,بحر السماح,بحرالسماح,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,8282,1608
+Zawiya-007,الحي القديم,حيالقديم,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,3483,700
+Zawiya-008,الولاني,ولاني,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,9403,1756
+Zawiya-009,المقطع,مقطع,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,7974,1623
+Zawiya-010,جامع الحاجة,جامعالحاجه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,8435,1578
+Zawiya-011,جامع القمودي,جامعالقمودي,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,12411,2548
+Zawiya-012,الفاسي,فاسي,الزاوية,Zawiya,Az Zawiyah,LY0213,0,1,,,,unmatched,,not_established,7389,1278
+Zawiya-013,الحاج عبيد,حاجعبيد,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,7390,1388
+Zawiya-014,بن شعيب,بنشعيب,الزاوية,Zawiya,Az Zawiyah,LY0213,0,1,,,,unmatched,,not_established,1892,426
+Zawiya-015,الزاوية الجنوبية,زاويهالجنوبيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,2099,350
+Zawiya-016,الزاوية الشرقية,زاويهالشرقيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,5629,1019
+Zawiya-017,الصابرية \الشرقية,صابريه\الشرقيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,10074,1769
+Zawiya-018,الصابرية \الغربية,صابريه\الغربيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,5975,1136
+Zawiya-019,الحرشة,حرشه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,8424,1566
+Zawiya-020,الطيانية,طيانيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,9486,1674
+Zawiya-021,الرابطة,رابطه,الزاوية,Zawiya,Az Zawiyah,LY0213,0,1,,,,unmatched,,not_established,9658,1735
+Zawiya-022,المطردالشرقية,مطردالشرقيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,6791,1416
+Zawiya-023,المطرد الغربية,مطردالغربيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,4927,1011
+Zawiya-024,بئر الغنم المركز,بئرالغنمالمركز,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,3414,596
+Zawiya-025,بئر الغنم الشرقية,بئرالغنمالشرقيه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,2949,556
+Zawiya-026,عطاف,عطاف,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,5634,1128
+Zawiya-027,ابو الهلال,ابوالهلال,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,13805,2583
+Zawiya-028,الشاطئ,شاطئ,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,7517,1497
+Zawiya-029,ابو الريش,ابوالريش,الزاوية,Zawiya,Az Zawiyah,LY0213,0,1,,,,unmatched,,not_established,10120,1902
+Zawiya-030,زكري,زكري,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,5300,1020
+Zawiya-031,مخلوف,مخلوف,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,11837,2274
+Zawiya-032,العين,عين,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,8734,1553
+Zawiya-033,السوق \ ابو عيسى,سوق\ابوعيسي,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,2021,386
+Zawiya-034,الراقوبة,راقوبه,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,2454,508
+Zawiya-035,الخضراء,خضراء,الزاوية,Zawiya,Az Zawiyah,LY0213,0,1,,,,unmatched,,not_established,10881,2015
+Zawiya-036,العموري,عموري,الزاوية,Zawiya,Az Zawiyah,LY0213,1,1,,,,unmatched,,not_established,4992,978
+Wadi al Shatii-001,قيرة,قيره,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,5712,845
+Wadi al Shatii-002,اشكدة,اشكده,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,2422,397
+Wadi al Shatii-003,زلواز,زلواز,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,3108,523
+Wadi al Shatii-004,الزوية,زويه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,3334,521
+Wadi al Shatii-005,القصر,قصر,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,0,1,,,,unmatched,,not_established,4252,689
+Wadi al Shatii-006,الزاوية,زاويه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,0,1,,,,unmatched,,not_established,4664,881
+Wadi al Shatii-007,المصلي,مصلي,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,1950,379
+Wadi al Shatii-008,العافية,عافيه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,2358,381
+Wadi al Shatii-009,اقار,اقار,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,3945,632
+Wadi al Shatii-010,تامزاوة,تامزاوه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,6049,1006
+Wadi al Shatii-011,القرضة,قرضه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,0,1,,,,unmatched,,not_established,4465,859
+Wadi al Shatii-012,الديسة,ديسه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,1306,198
+Wadi al Shatii-013,تاروت,تاروت,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,2273,387
+Wadi al Shatii-014,محروقة,محروقه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,4888,956
+Wadi al Shatii-015,العيون,عيون,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,1892,382
+Wadi al Shatii-016,برقن,برقن,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,4818,821
+Wadi al Shatii-017,ابو قدقود,ابوقدقود,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,1769,305
+Wadi al Shatii-018,الزهراء,زهراء,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,0,1,,,,unmatched,,not_established,1646,258
+Wadi al Shatii-019,ادري,ادري,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,3834,669
+Wadi al Shatii-020,المنصورة,منصوره,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,0,1,,,,unmatched,,not_established,1594,240
+Wadi al Shatii-021,تمسان,تمسان,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,2707,446
+Wadi al Shatii-022,ونزريك,ونزريك,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,4206,712
+Wadi al Shatii-023,ققم,ققم,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,2381,381
+Wadi al Shatii-024,قطة,قطه,وادي الشاطئ,Wadi al Shatii,Wadi ash Shati',LY0318,1,1,,,,unmatched,,not_established,2990,520
+Kufra-001,الجوف,جوف,الكفرة,Kufra,Al Kufrah,LY0107,1,1,,,,unmatched,,not_established,34349,5774
+Kufra-002,الهواري,هواري,الكفرة,Kufra,Al Kufrah,LY0107,1,1,,,,unmatched,,not_established,1766,307
+Kufra-003,الطلاب,طلاب,الكفرة,Kufra,Al Kufrah,LY0107,1,1,,,,unmatched,,not_established,356,37
+Kufra-004,ربيانة,ربيانه,الكفرة,Kufra,Al Kufrah,LY0107,1,1,,,,unmatched,,not_established,1491,215
+Kufra-005,بزيمة,بزيمه,الكفرة,Kufra,Al Kufrah,LY0107,1,1,,,,unmatched,,not_established,3766,593
+Kufra-006,تازربو,تازربو,الكفرة,Kufra,Al Kufrah,LY0107,1,1,LY010702,Tazirbu,تازربو,codab_gazetteer_same_shabiya,,not_established,6600,1046
+Marj-001,المرج الغربية,مرجالغربيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,30020,4543
+Marj-002,المرج الشرقية,مرجالشرقيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,32575,4652
+Marj-003,العويلية الشرقية,عويليهالشرقيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,6121,840
+Marj-004,العويلية الغربية,عويليهالغربيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,2952,281
+Marj-005,فرزوغة,فرزوغه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,3494,412
+Marj-006,سيدي ابو زيد,سيديابوزيد,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,2396,259
+Marj-007,جردس الجنوبية,جردسالجنوبيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,5505,862
+Marj-008,جردس الشمالية,جردسالشماليه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,1651,261
+Marj-009,البنية,بنيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,1790,267
+Marj-010,تاكنس الغربية,تاكنسالغربيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,2731,289
+Marj-011,تاكنس الشرقية,تاكنسالشرقيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,4934,646
+Marj-012,البياضة الشرقية,بياضهالشرقيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,5538,664
+Marj-013,البياضة الغربية,بياضهالغربيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,2330,270
+Marj-014,الجهاد,جهاد,المرج,Marj,Al Marj,LY0102,0,1,,,,unmatched,,not_established,7106,793
+Marj-015,الزحف الاخضر الشرقية,زحفالاخضرالشرقيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,4925,666
+Marj-016,الزحف الاخضر الغربية,زحفالاخضرالغربيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,3015,382
+Marj-017,الابيار الجديدة,ابيارالجديده,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,9942,1511
+Marj-018,الردماني,ردماني,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,13739,1927
+Marj-019,ابو مريم,ابومريم,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,3520,487
+Marj-020,قبر جيرة,قبرجيره,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,1841,233
+Marj-021,المليطانية,مليطانيه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,3019,454
+Marj-022,ابراهيم ابو راس,ابراهيمابوراس,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,600,89
+Marj-023,سيدي مهيوس,سيديمهيوس,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,1861,275
+Marj-024,العقورية المركز,عقوريهالمركز,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,10280,1469
+Marj-025,المبنى,مبني,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,2696,356
+Marj-026,برسس,برسس,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,3010,386
+Marj-027,بوجرار,بوجرار,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,1205,162
+Marj-028,اردانو,اردانو,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,220,23
+Marj-029,دريانة,دريانه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,6170,801
+Marj-030,سيدي أسويكر,سيدياسويكر,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,1112,177
+Marj-031,الرجمة,رجمه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,3182,457
+Marj-032,الحمدة,حمده,المرج,Marj,Al Marj,LY0102,0,1,,,,unmatched,,not_established,1913,256
+Marj-033,الابيارالقديمة,ابيارالقديمه,المرج,Marj,Al Marj,LY0102,1,1,,,,unmatched,,not_established,3138,476
+Murqub-001,البلدية,بلديه,المرقب,Murqub,Al Marqab,LY0210,0,0,,,,unmatched,,not_established,7103,1398
+Murqub-002,بن جحا,بنجحا,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,14684,2654
+Murqub-003,المرقب,مرقب,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,6499,1164
+Murqub-004,سيلين,سيلين,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,10905,1863
+Murqub-005,لبدة,لبده,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,13920,2437
+Murqub-006,الجحاوات,جحاوات,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,5875,995
+Murqub-007,الحمام,حمام,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,8182,1386
+Murqub-008,سيدي خليفة,سيديخليفه,المرقب,Murqub,Al Marqab,LY0210,0,1,,,,unmatched,,not_established,10884,1844
+Murqub-009,المعقولة,معقوله,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,12231,2213
+Murqub-010,الوادي,وادي,المرقب,Murqub,Al Marqab,LY0210,0,0,,,,unmatched,,not_established,13521,2211
+Murqub-011,بندار,بندار,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,12246,2133
+Murqub-012,كعام\الخمس,كعام\الخمس,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,17530,3103
+Murqub-013,قوقاس,قوقاس,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,6289,1161
+Murqub-014,غنيمة,غنيمه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,4244,709
+Murqub-015,السوق,سوق,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,7784,1357
+Murqub-016,القلعة,قلعه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,5855,1082
+Murqub-017,الاشراف,اشراف,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,6698,1228
+Murqub-018,وادي أوعينى,وادياوعيني,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3298,458
+Murqub-019,الدوكالي,دوكالي,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3122,402
+Murqub-020,المسيد,مسيد,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,2811,494
+Murqub-021,الفاسي,فاسي,المرقب,Murqub,Al Marqab,LY0210,0,1,,,,unmatched,,not_established,50,454
+Murqub-022,قصر الجديد,قصرالجديد,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,4827,911
+Murqub-023,بن ناصر,بنناصر,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,8764,1365
+Murqub-024,سم الديس,سمالديس,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3661,609
+Murqub-025,الخشش,خشش,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,1735,218
+Murqub-026,القطارة,قطاره,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,4684,654
+Murqub-027,المعطن,معطن,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,6146,856
+Murqub-028,الوادي,وادي,المرقب,Murqub,Al Marqab,LY0210,0,0,,,,unmatched,,not_established,562,81
+Murqub-029,الاكوام,اكوام,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,9934,1711
+Murqub-030,سيدي احميد,سيدياحميد,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,9137,1714
+Murqub-031,الشرشارة,شرشاره,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3573,550
+Murqub-032,البلدية,بلديه,المرقب,Murqub,Al Marqab,LY0210,0,0,,,,unmatched,,not_established,11561,2095
+Murqub-033,الشقيقة,شقيقه,المرقب,Murqub,Al Marqab,LY0210,0,1,,,,unmatched,,not_established,4655,863
+Murqub-034,دوغة,دوغه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,4803,869
+Murqub-035,الابيار,ابيار,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,5252,860
+Murqub-036,ترغلات,ترغلات,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,6996,1192
+Murqub-037,القصيعة,قصيعه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,7427,1219
+Murqub-038,سيدي معمر,سيديمعمر,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,9091,1534
+Murqub-039,الفرجان,فرجان,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,10800,1796
+Murqub-040,اولادعلي,اولادعلي,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,5923,865
+Murqub-041,الشمالية سيدي الصيد,شماليهسيديالصيد,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,8017,1384
+Murqub-042,الجنوبية سيدي الصيد,جنوبيهسيديالصيد,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3978,664
+Murqub-043,الشويرف,شويرف,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,2212,323
+Murqub-044,جبل معروف,جبلمعروف,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,2242,415
+Murqub-045,بئر معتوق,بئرمعتوق,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3968,642
+Murqub-046,سوق الاحد,سوقالاحد,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3416,635
+Murqub-047,سوق الجمعة,سوقالجمعه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,6024,1169
+Murqub-048,ترغت,ترغت,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,4412,818
+Murqub-049,الكراوة,كراوه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,14129,2437
+Murqub-050,الشرقية القرابوللي,شرقيهالقرابوللي,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,5819,997
+Murqub-051,الرواجح,رواجح,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,5763,1035
+Murqub-052,العطايا,عطايا,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,9427,1681
+Murqub-053,القويعة,قويعه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,5358,1013
+Murqub-054,الخوالق,خوالق,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,3328,607
+Murqub-055,العلوص,علوص,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,13977,2612
+Murqub-056,الاخيار المركز,اخيارالمركز,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,16708,2698
+Murqub-057,الاخيار الغربية,اخيارالغربيه,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,8455,1264
+Murqub-058,سيدي عمير,سيديعمير,المرقب,Murqub,Al Marqab,LY0210,1,1,,,,unmatched,,not_established,6759,1078
+Murqub-059,الخضراء,خضراء,المرقب,Murqub,Al Marqab,LY0210,0,1,,,,unmatched,,not_established,7772,1340
+Al Wahat-001,الزحف الاخضر,زحفالاخضر,الواحات,Al Wahat,Al Wahat,LY0105,0,1,,,,unmatched,,not_established,28974,3952
+Al Wahat-002,الفاتح,فاتح,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,28985,3856
+Al Wahat-003,الوحدة العربية,وحدهالعربيه,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,27849,3888
+Al Wahat-004,الثورة الشعبية,ثورهالشعبيه,الواحات,Al Wahat,Al Wahat,LY0105,0,1,,,,unmatched,,not_established,21756,3054
+Al Wahat-005,سيدي فرج,سيديفرج,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,143,34
+Al Wahat-006,الزويتينة,زويتينه,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,4654,711
+Al Wahat-007,سلطان الجنوبي,سلطانالجنوبي,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,2998,422
+Al Wahat-008,سلطان الشمالية,سلطانالشماليه,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,1006,167
+Al Wahat-009,البريقة,بريقه,الواحات,Al Wahat,Al Wahat,LY0105,1,1,LY010506,Albrayga,البريقة,codab_gazetteer_same_shabiya,,not_established,2709,447
+Al Wahat-010,المرسى,مرسي,الواحات,Al Wahat,Al Wahat,LY0105,0,1,,,,unmatched,,not_established,22841,3382
+Al Wahat-011,بشر,بشر,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,3389,450
+Al Wahat-012,العقيلة,عقيله,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,551,84
+Al Wahat-013,مرادة,مراده,الواحات,Al Wahat,Al Wahat,LY0105,1,1,LY010505,Marada,مرادة,codab_gazetteer_same_shabiya,,not_established,2609,343
+Al Wahat-014,السواني,سواني,الواحات,Al Wahat,Al Wahat,LY0105,0,1,,,,unmatched,,not_established,4037,782
+Al Wahat-015,عبد الله بن السرح,عبداللهبنالسرح,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,4184,761
+Al Wahat-016,اجخرة,اجخره,الواحات,Al Wahat,Al Wahat,LY0105,1,1,LY010501,Ejkherra,إجخرة,codab_gazetteer_same_shabiya,,not_established,4076,658
+Al Wahat-017,الشرف,شرف,الواحات,Al Wahat,Al Wahat,LY0105,0,1,,,,unmatched,,not_established,3647,704
+Al Wahat-018,العرق,عرق,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,6233,1293
+Al Wahat-019,اللبة,لبه,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,4706,995
+Al Wahat-020,راشدة,راشده,الواحات,Al Wahat,Al Wahat,LY0105,1,1,,,,unmatched,,not_established,3808,831
+Benghazi-001,الشابي,شابي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,1071,219
+Benghazi-002,اغربيل,اغربيل,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,9458,1908
+Benghazi-003,سيدي سالم,سيديسالم,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,1189,270
+Benghazi-004,الدراوي,دراوي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,4365,898
+Benghazi-005,بالخير,بالخير,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,236,54
+Benghazi-006,الوحيشي,وحيشي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,2235,493
+Benghazi-007,اخربيش,اخربيش,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,5231,1037
+Benghazi-008,بن عيسى,بنعيسي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,1710,368
+Benghazi-009,الشريف,شريف,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,2823,536
+Benghazi-010,الجزيرة,جزيره,بنغازي,Benghazi,Benghazi,LY0103,0,1,,,,unmatched,,not_established,2533,575
+Benghazi-011,سيدي حسين,سيديحسين,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,19754,3718
+Benghazi-012,السلماني الغربي,سلمانيالغربي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,55376,9820
+Benghazi-013,الصابري الشرقي,صابريالشرقي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,24356,4402
+Benghazi-014,الصابري الغربي,صابريالغربي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,21015,3884
+Benghazi-015,داود البحرية,داودالبحريه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,6423,1241
+Benghazi-016,خالد بن وليد,خالدبنوليد,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,27246,5009
+Benghazi-017,داودالغربي,داودالغربي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,47292,8559
+Benghazi-018,الفويهات الغربية,فويهاتالغربيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,12386,2296
+Benghazi-019,بنغازي الجديدة,بنغازيالجديده,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,91895,14522
+Benghazi-020,داود القبلي,داودالقبلي,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,36031,6731
+Benghazi-021,الثورة الشعبية,ثورهالشعبيه,بنغازي,Benghazi,Benghazi,LY0103,0,1,,,,unmatched,,not_established,50259,8978
+Benghazi-022,المختار,مختار,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,99120,15856
+Benghazi-023,بنينة,بنينه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,10760,1914
+Benghazi-024,بو عطني,بوعطني,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,34253,5811
+Benghazi-025,القوارشة,قوارشه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,8730,1572
+Benghazi-026,قاريونس,قاريونس,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,13898,2557
+Benghazi-027,الفعكات,فعكات,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,3158,501
+Benghazi-028,قنفودة,قنفوده,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,3625,725
+Benghazi-029,تيكة,تيكه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,1671,326
+Benghazi-030,بو فاخرة,بوفاخره,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,2637,397
+Benghazi-031,التربة,تربه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,993,171
+Benghazi-032,الكويفية,كويفيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,10666,1782
+Benghazi-033,بو دزيرة,بودزيره,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,6972,1560
+Benghazi-034,سيدي خليفة,سيديخليفه,بنغازي,Benghazi,Benghazi,LY0103,0,1,,,,unmatched,,not_established,7417,1251
+Benghazi-035,دار العربيات,دارالعربيات,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,3134,586
+Benghazi-036,النواقية,نواقيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,4180,1319
+Benghazi-037,قمينس الشرقية,قمينسالشرقيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,4851,792
+Benghazi-038,قمينس الغربية,قمينسالغربيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,2241,316
+Benghazi-039,الحرز,حرز,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,4903,756
+Benghazi-040,المقرون,مقرون,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,3214,480
+Benghazi-041,كركورة,كركوره,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,849,146
+Benghazi-042,شط البدين,شطالبدين,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,1584,245
+Benghazi-043,الرقطة,رقطه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,702,102
+Benghazi-044,سلوق الشرقية,سلوقالشرقيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,3142,548
+Benghazi-045,سلوق\الغربية,سلوق\الغربيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,6514,1035
+Benghazi-046,عمر المختار,عمرالمختار,بنغازي,Benghazi,Benghazi,LY0103,0,1,,,,unmatched,,not_established,6603,1022
+Benghazi-047,الطيلمون,طيلمون,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,609,76
+Benghazi-048,مسوس,مسوس,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,1268,201
+Benghazi-049,الخضراء الشرقية,خضراءالشرقيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,2014,343
+Benghazi-050,الخضراء الغربية,خضراءالغربيه,بنغازي,Benghazi,Benghazi,LY0103,1,1,,,,unmatched,,not_established,2359,358
+Derna-001,ابو منصور,ابومنصور,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,37705,6825
+Derna-002,البلاد,بلاد,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,2380,450
+Derna-003,الجبيلة,جبيله,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,17442,3464
+Derna-004,المغار,مغار,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,26208,4665
+Derna-005,كرسة,كرسه,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,2196,390
+Derna-006,راس الهلال,راسالهلال,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,1376,239
+Derna-007,الاترون,اترون,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,860,146
+Derna-008,ابو الفرائس,ابوالفرائس,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,290,36
+Derna-009,التميمي,تميمي,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,4367,629
+Derna-010,البمبة,بمبه,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,3387,481
+Derna-011,ام الرزم,امالرزم,درنة,Derna,Darnah,LY0101,1,1,LY010101,Umm Arrazam,ام الرزم,codab_gazetteer_same_shabiya,,not_established,7136,1119
+Derna-012,ام حفين,امحفين,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,1478,222
+Derna-013,مرتوبة,مرتوبه,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,7638,1145
+Derna-014,سرسرة,سرسره,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,1769,267
+Derna-015,عين مارة,عينماره,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,3954,605
+Derna-016,بيت تامر,بيتتامر,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,1949,268
+Derna-017,الدبوسية,دبوسيه,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,958,115
+Derna-018,القبة الشمالية,قبهالشماليه,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,6432,884
+Derna-019,القبة الجنوبية,قبهالجنوبيه,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,12759,1722
+Derna-020,لملودة,لملوده,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,2549,383
+Derna-021,الابرق الشمالي,ابرقالشمالي,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,6756,956
+Derna-022,الابرق الجنوبي,ابرقالجنوبي,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,2030,361
+Derna-023,القيقب الشمالي,قيقبالشمالي,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,3866,568
+Derna-024,القيقب الجنوبي,قيقبالجنوبي,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,3250,460
+Derna-025,خولان,خولان,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,501,60
+Derna-026,العزيات,عزيات,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,1857,273
+Derna-027,المخيلي,مخيلي,درنة,Derna,Darnah,LY0101,1,1,,,,unmatched,,not_established,1764,268
+Sabha-001,المنشية,منشيه,سبها,Sabha,Sabha,LY0319,0,1,,,,unmatched,,not_established,22000,4046
+Sabha-002,القرضة,قرضه,سبها,Sabha,Sabha,LY0319,0,1,,,,unmatched,,not_established,25179,4331
+Sabha-003,الجديدة,جديده,سبها,Sabha,Sabha,LY0319,0,1,,,,unmatched,,not_established,25229,4335
+Sabha-004,سكرة,سكره,سبها,Sabha,Sabha,LY0319,1,1,,,,unmatched,,not_established,14491,2528
+Sabha-005,المهدية,مهديه,سبها,Sabha,Sabha,LY0319,1,1,,,,unmatched,,not_established,17135,2937
+Sabha-006,القاهرة,قاهره,سبها,Sabha,Sabha,LY0319,1,1,,,,unmatched,,not_established,17861,3634
+Sabha-007,غدوة,غدوه,سبها,Sabha,Sabha,LY0319,1,1,,,,unmatched,,not_established,2929,447
+Sabha-008,تمنهنت,تمنهنت,سبها,Sabha,Sabha,LY0319,1,1,,,,unmatched,,not_established,2457,422
+Sabha-009,سمنو,سمنو,سبها,Sabha,Sabha,LY0319,1,1,,,,unmatched,,not_established,3667,838
+Sabha-010,الزيغن,زيغن,سبها,Sabha,Sabha,LY0319,1,1,,,,unmatched,,not_established,2258,405
+Sirte-001,ابو زاهية,ابوزاهيه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,6644,872
+Sirte-002,القرضابية,قرضابيه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,10175,1216
+Sirte-003,المنارة,مناره,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,12765,1776
+Sirte-004,الزعفران,زعفران,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,14911,2203
+Sirte-005,الجزيرة,جزيره,سرت,Sirte,Surt,LY0208,0,1,,,,unmatched,,not_established,23799,3594
+Sirte-006,الغربيات,غربيات,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,3815,510
+Sirte-007,تلال,تلال,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,9004,1139
+Sirte-008,الحنيوة,حنيوه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,4245,459
+Sirte-009,قضوار,قضوار,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,2708,299
+Sirte-010,السد,سد,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,2007,278
+Sirte-011,القبيبة,قبيبه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,2876,509
+Sirte-012,ناصر,ناصر,سرت,Sirte,Surt,LY0208,0,1,,,,unmatched,,not_established,9804,1624
+Sirte-013,السدرة,سدره,سرت,Sirte,Surt,LY0208,0,1,,,,unmatched,,not_established,12660,1847
+Sirte-014,النوفلية,نوفليه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,1994,305
+Sirte-015,الجرم,جرم,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,2161,300
+Sirte-016,الوادي الاحمر,واديالاحمر,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,1823,281
+Sirte-017,هراوة,هراوه,سرت,Sirte,Surt,LY0208,1,1,LY020802,Hrawa,هراوة,codab_gazetteer_same_shabiya,,not_established,4112,596
+Sirte-018,العامرة,عامره,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,836,115
+Sirte-019,الوشكة,وشكه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,2639,338
+Sirte-020,الهيشة الجديدة,هيشهالجديده,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,3576,461
+Sirte-021,عبادلة الهيشة,عبادلهالهيشه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,321,90
+Sirte-022,القداحية,قداحيه,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,3527,499
+Sirte-023,زمزم,زمزم,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,3291,451
+Sirte-024,ابو نجيم,ابونجيم,سرت,Sirte,Surt,LY0208,1,1,,,,unmatched,,not_established,1802,290
+Butnan-001,عين الغزالة,عينالغزاله,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,627,84
+Butnan-002,القرضبة,قرضبه,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,2485,329
+Butnan-003,المرصص,مرصص,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,1565,190
+Butnan-004,المدينة,مدينه,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,28591,4164
+Butnan-005,شاهر روحة,شاهرروحه,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,47241,6911
+Butnan-006,سوق العجاج,سوقالعجاج,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,32457,4501
+Butnan-007,عمر المختار,عمرالمختار,البطنان,Butnan,Al Butnan,LY0104,0,1,,,,unmatched,,not_established,7214,932
+Butnan-008,القعرة,قعره,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,4065,477
+Butnan-009,الجغبوب,جغبوب,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,2748,500
+Butnan-010,امساعد,امساعد,البطنان,Butnan,Al Butnan,LY0104,1,1,LY010401,Emsaed,امساعد,codab_gazetteer_same_shabiya,,not_established,7032,1131
+Butnan-011,البردي,بردي,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,4716,741
+Butnan-012,كمبوت الشمالية,كمبوتالشماليه,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,1906,356
+Butnan-013,كمبوت الجنوبية,كمبوتالجنوبيه,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,3786,548
+Butnan-014,بئر الاشهب,بئرالاشهب,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,3630,542
+Butnan-015,جنزور,جنزور,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,3041,388
+Butnan-016,قصر الجدي,قصرالجدي,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,4463,591
+Butnan-017,ام ركبة,امركبه,البطنان,Butnan,Al Butnan,LY0104,1,1,,,,unmatched,,not_established,2180,328
+Tripoli-001,الظهرة,ظهره,طرابلس,Tripoli,Tripoli,LY0211,0,1,,,,unmatched,,not_established,10759,2116
+Tripoli-002,المدينة القديمة,مدينهالقديمه,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,14009,2743
+Tripoli-003,المسيرة الكبرى,مسيرهالكبري,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,19194,4014
+Tripoli-004,شهداء الشط,شهداءالشط,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,26094,5185
+Tripoli-005,السابع من ابريل,سابعمنابريل,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,22609,4454
+Tripoli-006,المنشية,منشيه,طرابلس,Tripoli,Tripoli,LY0211,0,1,,,,unmatched,,not_established,20751,4379
+Tripoli-007,المنصورة,منصوره,طرابلس,Tripoli,Tripoli,LY0211,0,1,,,,unmatched,,not_established,16297,3190
+Tripoli-008,عمر بن العاص,عمربنالعاص,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,16503,3162
+Tripoli-009,شهداء الهاني,شهداءالهاني,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,13076,2238
+Tripoli-010,الحارات,حارات,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,11651,2282
+Tripoli-011,عرادة,عراده,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,12548,2481
+Tripoli-012,الجلاء,جلاء,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,10345,2110
+Tripoli-013,عقبة بن نافع,عقبهبننافع,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,11758,2230
+Tripoli-014,النصر,نصر,طرابلس,Tripoli,Tripoli,LY0211,0,1,,,,unmatched,,not_established,7712,1450
+Tripoli-015,الساحل,ساحل,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,19748,3930
+Tripoli-016,الجهاد,جهاد,طرابلس,Tripoli,Tripoli,LY0211,0,1,,,,unmatched,,not_established,19557,3719
+Tripoli-017,عين زارة,عينزاره,طرابلس,Tripoli,Tripoli,LY0211,1,1,LY021103,Ain Zara,عين زارة,codab_gazetteer_same_shabiya,,not_established,98791,17785
+Tripoli-018,فوز زناتة,فوززناته,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,23020,4027
+Tripoli-019,الحشان,حشان,طرابلس,Tripoli,Tripoli,LY0211,0,1,,,,unmatched,,not_established,22377,4093
+Tripoli-020,سيدي ابو غرارة,سيديابوغراره,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,29365,5502
+Tripoli-021,الفتح,فتح,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,32504,6109
+Tripoli-022,المجد,مجد,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,15284,2920
+Tripoli-023,قرقارش,قرقارش,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,43145,8315
+Tripoli-024,الشارع الغربي,شارعالغربي,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,38984,6975
+Tripoli-025,غوط الشعال,غوطالشعال,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,80845,13528
+Tripoli-026,الحي الصناعي,حيالصناعي,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,77754,12771
+Tripoli-027,باب السلام )عكار(,بابالسلام)عكار(,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,45770,7931
+Tripoli-028,ابو سليم الجنوبي,ابوسليمالجنوبي,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,76584,12931
+Tripoli-029,شارع الزاوية,شارعالزاويه,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,13526,2606
+Tripoli-030,الزحف الاخضر,زحفالاخضر,طرابلس,Tripoli,Tripoli,LY0211,0,1,,,,unmatched,,not_established,12835,2499
+Tripoli-031,شهداء ابو مليانة,شهداءابومليانه,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,8596,1625
+Tripoli-032,باب بن غشير,باببنغشير,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,17984,3211
+Tripoli-033,حي 12 مارس,حي12مارس,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,52173,8448
+Tripoli-034,الحمدية,حمديه,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,25184,4742
+Tripoli-035,المشاي,مشاي,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,23437,4325
+Tripoli-036,الحرية,حريه,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,12734,2408
+Tripoli-037,البرهانية,برهانيه,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,9110,1820
+Tripoli-038,ابي الاشهر,ابيالاشهر,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,19239,3543
+Tripoli-039,الوادي الغربي,واديالغربي,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,19006,3790
+Tripoli-040,الوادي الشرقي,واديالشرقي,طرابلس,Tripoli,Tripoli,LY0211,1,1,,,,unmatched,,not_established,12713,2411
+Ghat-001,غات,غات,غات,Ghat,Ghat,LY0321,1,1,,,,unmatched,,not_established,11943,2069
+Ghat-002,العوينات,عوينات,غات,Ghat,Ghat,LY0321,1,1,,,,unmatched,,not_established,3168,525
+Ghat-003,البركت,بركت,غات,Ghat,Ghat,LY0321,1,1,,,,unmatched,,not_established,8088,1221
+Murzuq-001,الوسطى/ مرزق,وسطي/مرزق,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,11165,1882
+Murzuq-002,الغربية / مرزق,غربيه/مرزق,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,8270,1378
+Murzuq-003,الشرقية / مرزق,شرقيه/مرزق,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,5455,836
+Murzuq-004,الوسط / تراغن,وسط/تراغن,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,6667,1179
+Murzuq-005,الغربية / تراغن,غربيه/تراغن,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,2559,421
+Murzuq-006,الجنوبية / تراغن,جنوبيه/تراغن,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,1335,226
+Murzuq-007,الشرقية / تراغن,شرقيه/تراغن,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,372,56
+Murzuq-008,المركز / ام الارنب,مركز/امالارنب,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,8566,1703
+Murzuq-009,الشرقية / ام الارنب,شرقيه/امالارنب,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,1102,244
+Murzuq-010,زويلة,زويله,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,3620,657
+Murzuq-011,تمسة,تمسه,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,2172,362
+Murzuq-012,مجدول,مجدول,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,1257,198
+Murzuq-013,تربو وأم زوير,تربووامزوير,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,390,52
+Murzuq-014,القطرون,قطرون,مرزق,Murzuq,Murzuq,LY0322,1,1,LY032202,Algatroun,القطرون,codab_gazetteer_same_shabiya,,not_established,5913,1106
+Murzuq-015,الجنوبية / القطرون,جنوبيه/القطرون,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,4770,866
+Murzuq-016,تجرهي,تجرهي,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,1489,250
+Murzuq-017,الغربية / وادي عتبة,غربيه/واديعتبه,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,8159,1321
+Murzuq-018,الشرقية / وادي عتبة,شرقيه/واديعتبه,مرزق,Murzuq,Murzuq,LY0322,1,1,,,,unmatched,,not_established,5511,879
+Misrata-001,ابو شعيرة,ابوشعيره,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,11275,2000
+Misrata-002,الرويسات,رويسات,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,25411,4472
+Misrata-003,راس التوتة,راسالتوته,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,13507,2430
+Misrata-004,الجزيرة,جزيره,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,12671,2181
+Misrata-005,راس عمار,راسعمار,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,8047,1444
+Misrata-006,الخروبة,خروبه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,13350,2263
+Misrata-007,راس فريدغ,راسفريدغ,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,16104,2797
+Misrata-008,الرميلة,رميله,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,5090,845
+Misrata-009,القوشي,قوشي,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,25807,4488
+Misrata-010,الغيران,غيران,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,28344,4567
+Misrata-011,راس الماجل,راسالماجل,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,8992,1542
+Misrata-012,الزروق,زروق,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,17620,3275
+Misrata-013,قصر احمد,قصراحمد,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,16544,2794
+Misrata-014,المرسي,مرسي,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,7908,1409
+Misrata-015,المحجوب,محجوب,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,13638,2243
+Misrata-016,سيدي امبارك,سيديامبارك,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,8718,1381
+Misrata-017,طمينة,طمينه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,9565,1616
+Misrata-018,كرزاز,كرزاز,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,8158,1313
+Misrata-019,الكراريم,كراريم,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,3128,553
+Misrata-020,الدافنية / مصراتة,دافنيه/مصراته,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,4226,676
+Misrata-021,ابو روية,ابورويه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,13197,2133
+Misrata-022,وادي الازرق,واديالازرق,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,714,114
+Misrata-023,مقاس,مقاس,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,22144,3256
+Misrata-024,غزوان,غزوان,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,1287,181
+Misrata-025,المربوعة,مربوعه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,2692,434
+Misrata-026,ابو راوي,ابوراوي,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,4287,727
+Misrata-027,الوحدة,وحده,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,3018,487
+Misrata-028,ابو عمود,ابوعمود,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,2639,454
+Misrata-029,السند,سند,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,1350,216
+Misrata-030,ميمون,ميمون,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,2683,522
+Misrata-031,الخرماني,خرماني,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,4737,715
+Misrata-032,بو نجرة,بونجره,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,6047,1051
+Misrata-033,ابو راس,ابوراس,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,2289,373
+Misrata-034,سوف الجين,سوفالجين,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,2415,438
+Misrata-035,البلدية,بلديه,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,10782,1935
+Misrata-036,شميخ,شميخ,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,5997,1027
+Misrata-037,الثنية البيضاء,ثنيهالبيضاء,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,7773,1276
+Misrata-038,الظهره,ظهره,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,6733,1063
+Misrata-039,تينيناي,تينيناي,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,4201,666
+Misrata-040,المنطرحة,منطرحه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,13703,2951
+Misrata-041,ابوجريدة,ابوجريده,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,5617,1013
+Misrata-042,البازة,بازه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,9224,1605
+Misrata-043,كادوش,كادوش,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,9233,1716
+Misrata-044,الشيخ,شيخ,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,9785,2023
+Misrata-045,ابو رقية,ابورقيه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,5037,965
+Misrata-046,ازدو الجنوبية,ازدوالجنوبيه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,7857,1434
+Misrata-047,ازدو الشمالية,ازدوالشماليه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,9950,1617
+Misrata-048,السبعة,سبعه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,11642,1879
+Misrata-049,القاعة,قاعه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,8943,1483
+Misrata-050,ادواو,ادواو,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,4871,824
+Misrata-051,ماجر,ماجر,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,14641,2367
+Misrata-052,الدافنية / زليتن,دافنيه/زليتن,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,16255,2570
+Misrata-053,الجهاد,جهاد,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,4408,661
+Misrata-054,الظهيرة,ظهيره,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,7330,1247
+Misrata-055,القصبة,قصبه,مصراته,Misrata,Misratah,LY0214,0,1,,,,unmatched,,not_established,11333,1789
+Misrata-056,مغر غرين,مغرغرين,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,4733,787
+Misrata-057,كعام \زليتن,كعام\زليتن,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,11684,2111
+Misrata-058,القزاحية,قزاحيه,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,4550,697
+Misrata-059,الغويلات,غويلات,مصراته,Misrata,Misratah,LY0214,1,1,,,,unmatched,,not_established,9245,1542
+Nalut-001,سيدي خليفة,سيديخليفه,نالوت,Nalut,Nalut,LY0209,0,1,,,,unmatched,,not_established,7444,1426
+Nalut-002,القصر,قصر,نالوت,Nalut,Nalut,LY0209,0,1,,,,unmatched,,not_established,2802,597
+Nalut-003,شداد,شداد,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,6846,1325
+Nalut-004,الهمالية,هماليه,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,6116,1023
+Nalut-005,الغزايا,غزايا,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,1634,298
+Nalut-006,اولاد محمود,اولادمحمود,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,1537,307
+Nalut-007,المجابرة,مجابره,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,1767,346
+Nalut-008,الجنوبية \ كباو,جنوبيه\كباو,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,3423,619
+Nalut-009,الشمالية \ كباو,شماليه\كباو,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,2851,528
+Nalut-010,طمزرين الهمايلة,طمزرينالهمايله,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,4092,701
+Nalut-011,اولاد سلام,اولادسلام,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,1355,179
+Nalut-012,تيجي,تيجي,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,5637,914
+Nalut-013,الحوامد,حوامد,نالوت,Nalut,Nalut,LY0209,1,1,LY020904,Alhawamid,الحوامد,codab_gazetteer_same_shabiya,,not_established,3721,559
+Nalut-014,الجوش,جوش,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,2863,538
+Nalut-015,اولاد احمد,اولاداحمد,نالوت,Nalut,Nalut,LY0209,0,1,,,,unmatched,,not_established,1697,310
+Nalut-016,ظهرة الماجن,ظهرهالماجن,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,1409,264
+Nalut-017,اولاد شراد,اولادشراد,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,2214,378
+Nalut-018,بدر,بدر,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,3100,580
+Nalut-019,وازن,وازن,نالوت,Nalut,Nalut,LY0209,1,1,LY020906,Wazin,وازن,codab_gazetteer_same_shabiya,,not_established,3849,650
+Nalut-020,الحرابة الغربية,حرابهالغربيه,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,3829,700
+Nalut-021,الوسط \ الحرابة,وسط\الحرابه,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,1492,262
+Nalut-022,الشرقية \ الحرابة,شرقيه\الحرابه,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,3488,664
+Nalut-023,سيناون,سيناون,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,3314,571
+Nalut-024,درج,درج,نالوت,Nalut,Nalut,LY0209,1,1,LY020907,Daraj,درج,codab_gazetteer_same_shabiya,,not_established,4940,762
+Nalut-025,بنغستان,بنغستان,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,2602,392
+Nalut-026,وليد,وليد,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,5110,816
+Nalut-027,وازيت,وازيت,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,2867,530
+Nalut-028,افوغاس,افوغاس,نالوت,Nalut,Nalut,LY0209,1,1,,,,unmatched,,not_established,1897,326
+Wadi al Hayaa-001,اوباري,اوباري,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,27402,4792
+Wadi al Hayaa-002,الغريفة,غريفه,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,0,1,LY032002,Alghrayfa,الغريفة,codab_gazetteer_same_shabiya,,not_established,7315,1170
+Wadi al Hayaa-003,القعيرات,قعيرات,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,5902,1061
+Wadi al Hayaa-004,جرمة,جرمه,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,3552,540
+Wadi al Hayaa-005,بريك,بريك,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,4600,803
+Wadi al Hayaa-006,تويوة,تويوه,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,2780,472
+Wadi al Hayaa-007,الشمالية \ الغريفة,شماليه\الغريفه,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,5924,1085
+Wadi al Hayaa-008,بنت بية \ المركز,بنتبيه\المركز,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,4919,874
+Wadi al Hayaa-009,بنت بية \ الشمالية,بنتبيه\الشماليه,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,4452,823
+Wadi al Hayaa-010,بنت بية \ الغربية,بنتبيه\الغربيه,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,1903,353
+Wadi al Hayaa-011,بنت بية \ الوسطى,بنتبيه\الوسطي,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,5091,921
+Wadi al Hayaa-012,بنت بية \ الجنوبية,بنتبيه\الجنوبيه,وادي الحياة,Wadi al Hayaa,Wadi al Hayat,LY0320,1,1,,,,unmatched,,not_established,2418,370

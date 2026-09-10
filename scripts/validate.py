@@ -229,6 +229,9 @@ else:
               f"commit {meta['source_commit'][:12]}")
 
     cross = pd.read_csv(OUT / "concordance_shabiya.csv")
+    for column in ("gadm_name", "codab_pcode"):
+        if column not in cross.columns:
+            failures.append(f"concordance_shabiya.csv is missing {column}")
     zonal = pd.read_csv(OUT.parent / "external" / "nighttime_lights" /
                         "results" / "LBY_adm1_zonal.csv")
     census = pd.read_csv(OUT / "bsc_census_2006_shabiya.csv")
@@ -247,6 +250,50 @@ else:
               f"({zonal.year.min()}-{zonal.year.max()}) to the census")
         print(f"  [note] units share names, not boundaries: national area differs "
               f"by 3.6% between GADM and the census")
+
+print("\nGeographic concordance")
+mahalla_cross = pd.read_csv(OUT / "concordance_mahalla.csv")
+census_mahalla = pd.read_csv(OUT / "bsc_census_2006_mahalla.csv")
+
+if (len(mahalla_cross) == len(census_mahalla)
+        and set(mahalla_cross.mahalla_id) == set(census_mahalla.mahalla_id)):
+    print(f"  [ok ] {len(mahalla_cross)} mahallas, ids match the census exactly")
+else:
+    failures.append("concordance_mahalla: ids do not match the census")
+    print(f"  [FAIL] {len(mahalla_cross)} rows against "
+          f"{len(census_mahalla)} census mahallas")
+
+orphans = set(mahalla_cross.shabiya_ar) - set(cross.shabiya_ar)
+if orphans:
+    failures.append(f"concordance_mahalla: shabiyat not in the shabiya "
+                    f"concordance: {sorted(orphans)}")
+    print(f"  [FAIL] {len(orphans)} shabiyat missing from the shabiya concordance")
+else:
+    print(f"  [ok ] every mahalla resolves to one of the "
+          f"{cross.shabiya_ar.nunique()} shabiyat, in all three naming systems")
+
+linked = int((mahalla_cross.match_method != "unmatched").sum())
+dupes = int((mahalla_cross.name_unique_nationally == 0).sum())
+print(f"  [note] {linked} mahallas linked to a COD-AB place; "
+      f"{len(mahalla_cross) - linked} unmatched")
+print(f"  [note] {dupes} mahalla names recur nationally, "
+      f"{int((mahalla_cross.name_unique_in_shabiya == 0).sum())} within one shabiya")
+notes.append(f"concordance: {len(mahalla_cross) - linked} of {len(mahalla_cross)} "
+             f"mahallas have no external link; baladiya mapping not established")
+
+anchors_path = (OUT.parent / "external" / "osm_places" / "mahalla_osm_anchors.csv")
+if anchors_path.exists():
+    anchors = pd.read_csv(anchors_path)
+    stray = set(anchors.mahalla_id) - set(mahalla_cross.mahalla_id)
+    placed = anchors[anchors.lon.notna()]
+    inside = placed.lon.between(9, 26).all() and placed.lat.between(19, 34).all()
+    if stray or not inside:
+        failures.append("osm anchors: unknown mahalla ids or coordinates "
+                        "outside Libya")
+        print(f"  [FAIL] {len(stray)} unknown ids; all inside Libya: {inside}")
+    else:
+        print(f"  [ok ] {len(placed)} OSM anchors, all inside Libya, "
+              f"{int((anchors.match_status == 'ambiguous').sum())} left ambiguous")
 
 print()
 for n in notes:

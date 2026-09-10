@@ -32,7 +32,9 @@ Libyan sources, with a validation suite. See
 | **BSC 2006 census, all 74 tables** | 11 sections, 22 volumes | 1,014,208 |
 | BSC publication catalogue | all four statistical domains | 248 |
 | Nighttime lights by shabiya (imported) | 1992–2022, annual | 682 |
-| Shabiya concordance, GADM to census | 22 first-level units | 22 |
+| Shabiya concordance, census / GADM / COD-AB | 22 first-level units | 22 |
+| **Mahalla concordance** | 667 localities, keyed and parented | 667 |
+| Mahalla coordinate anchors (OSM, ODbL) | 147 placed, 2 ambiguous | 149 |
 
 Everything is reproducible from source: `scripts/` downloads the PDFs, extracts
 the tables and records the SHA-256 of every file read. `python3
@@ -133,8 +135,9 @@ access notes.
 
 See [`docs/roadmap.md`](docs/roadmap.md).
 
-Next: the geographic concordance mapping the census's 22 shabiyat and 667
-mahallas onto the current municipality system, which is what everything
+Next: BSC foreign trade 2005-2016; the international source inventory; and the
+mahalla-to-baladiya mapping, which needs the annex to Decree 180 of 2013 or a
+municipal boundary layer before it can be built honestly, which is what everything
 subnational will join on; BSC foreign trade 2005-2016; and the international
 source inventory.
 

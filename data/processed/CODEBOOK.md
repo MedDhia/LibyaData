@@ -20,6 +20,10 @@ python3 scripts/extract_bsc_census_tables.py
 git clone --depth 1 https://github.com/MedDhia/SatelliteImagery /tmp/satimg
 python3 scripts/import_nighttime_lights.py --source /tmp/satimg
 
+scripts/download_hdx_codab.sh
+python3 scripts/build_concordance.py
+python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
+
 python3 scripts/validate.py
 ```
 
@@ -369,25 +373,73 @@ lam-alef would be wrong.
 
 ## Concordances
 
-### `concordance_shabiya.csv`
+Three naming systems cover Libya's 22 first-level units, and no two agree:
 
-Maps Libya's 22 first-level units between the naming used by GADM 4.1 and the
-naming used by the 2006 census volumes. Without it the imported nighttime-lights
-tables cannot be joined to anything else here: only 7 of the 22 names agree, so
-a join on name alone silently drops two thirds of the country.
+| System | Names it uses | Where it matters |
+|---|---|---|
+| 2006 census | البطنان, الواحات, النقاط الخمس, وادي الحياة | every census table here |
+| GADM 4.1 | Darnah, Surt, Misratah, Wadi ash Shati' — 7 of 22 match the census | the imported nighttime lights |
+| COD-AB | names four units after their capital: Tobruk, Ejdabia, Zwara, Ubari | P-codes, and every humanitarian dataset on Libya |
 
-`gadm_gid`, `gadm_name`, `shabiya_ar`, `shabiya_en`, and the census area and
-2006 population for reference.
+### `concordance_shabiya.csv` — 22 units, all three systems
 
-The mapping is one-to-one and confirmed by ranking the units by area (Spearman
-0.985). **The units share names, not boundaries**: 9 of 22 agree within ±10% on
-area, and Libya's national area differs by 3.6% between the two sources. Treat a
-join as matching units by identity, not by territory. See
-[`../external/nighttime_lights/README.md`](../external/nighttime_lights/README.md).
+`shabiya_ar`, `shabiya_en`, `gadm_name`, `gadm_gid`, `codab_pcode`,
+`codab_name_en`, `codab_name_ar`, `codab_renamed_for_capital`, both areas, and
+the census population and mahalla count.
+
+Each mapping is one-to-one and was checked by ranking units on area rather than
+trusting name similarity: Spearman 0.985 against GADM, 0.988 against COD-AB.
+
+**The units share names, not boundaries.** Libya reorganised after 2006. Against
+the census, 9 of 22 GADM units agree within ±10% on area and 12 of 22 COD-AB
+units do; national area differs by 3.6% from GADM and 3.6% from COD-AB. COD-AB
+is the closer of the two to the census — it puts Tripoli at 842 km² against the
+census's 835, where GADM has 2,435. Treat any join as matching units by
+identity, not territory.
+
+### `concordance_mahalla.csv` — 667 localities
+
+| Column | Meaning |
+|---|---|
+| `mahalla_id` | stable key, matching the census file |
+| `mahalla_ar` | name as printed in the census |
+| `mahalla_key` | normalised join key: alef, ya and ta marbuta folded, definite article and spacing dropped, so مصراته and مصراتة agree |
+| `shabiya_ar`, `shabiya_en`, `shabiya_gadm_name`, `shabiya_codab_pcode` | parent unit in all three systems |
+| `name_unique_nationally`, `name_unique_in_shabiya` | 86 mahalla names recur somewhere in the country, 6 within their own shabiya |
+| `codab_place_pcode`, `codab_place_en`, `codab_place_ar` | link to the COD-AB gazetteer, where one exists |
+| `match_method` | `codab_gazetteer_same_shabiya` or `unmatched` |
+| `baladiya_2013`, `baladiya_source` | empty and `not_established`; see below |
+| `census_persons_2006`, `census_households_2006` | identifying attributes |
+
+**Only 17 of the 667 carry an external link.** The COD-AB gazetteer holds 78
+places for the whole country, and a link is only recorded where the parent
+shabiya agrees as well as the name. Matching on name alone would have produced
+far more links and many of them false: the census puts سوق الجمعة in Murqub
+while the gazetteer places it in Tripoli, and الزهراء exists in both Jafara and
+Wadi al Shatii.
+
+### Mahalla to baladiya is deliberately not built
+
+`baladiya_2013` is empty in every row. Libya reorganised local government under
+Law 59 of 2012 and Decree 180 of 2013 into 99 municipalities, since grown past
+100, and:
+
+- no published crosswalk relates those municipalities to the census's mahallas;
+- neither GADM 4.1 nor COD-AB carries any Libyan boundary layer below the 22
+  shabiyat, so the mapping cannot be derived geometrically either;
+- the mahallas are a 2006 settlement tier, not an administrative tier that was
+  carried forward, so the relation is not one-to-one in any case.
+
+Filling the column by name similarity would produce a table that looks
+authoritative and is largely guesswork. What would actually settle it is the
+annex to Decree 180 of 2013 listing each municipality's constituent localities,
+or a baladiya boundary layer to assign the OSM anchors against.
 
 ---
 
 ## External data
+
+---
 
 ### `data/external/nighttime_lights/`
 
@@ -403,6 +455,28 @@ imagery is best read as CC BY-NC-ND 4.0. The upstream notice is copied to
 `NOTICE.md` unchanged. Read that directory's README before using or citing any
 of it — it also records why a lit pixel never dims, why 2014 is a sensor
 handover, and why Libya's oil regions show the highest lights per head.
+
+### `data/external/osm_places/mahalla_osm_anchors.csv`
+
+A coordinate for each mahalla that could be matched to an OpenStreetMap place,
+which is what allows a mahalla to be mapped or assigned to a future boundary
+layer. 149 of 667 matched; 147 anchored to a point, 2 left ambiguous.
+
+Matching is on the normalised Arabic name **and** the shabiya. Where several OSM
+features share a name inside one shabiya they are treated as one place if they
+lie within 5 km — the usual case of a settlement tagged as both a node and an
+area, which accounts for 51 of the anchors — and as genuinely different places
+otherwise, in which case the mahalla is left ambiguous rather than guessed.
+
+`distance_to_shabiya_centroid_km` is for inspection only. Large values are
+expected: several shabiyat exceed 70,000 km² and are long strips, so an edge
+settlement can sit nearer a small neighbour's centroid. The authority for which
+shabiya a point falls in is the COD-AB `adm2_pcode` already carried on the OSM
+feature.
+
+**ODbL.** OpenStreetMap is share-alike, so this file carries terms the rest of
+the repository does not. It is kept out of `data/processed/` for that reason:
+the concordance itself contains no OSM-derived content. See its `NOTICE.md`.
 
 ---
 
