@@ -21,6 +21,8 @@ git clone --depth 1 https://github.com/MedDhia/SatelliteImagery /tmp/satimg
 python3 scripts/import_nighttime_lights.py --source /tmp/satimg
 
 scripts/download_hdx_codab.sh
+python3 scripts/download_hnec.py
+python3 scripts/extract_hnec_polling_centres.py
 python3 scripts/build_concordance.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
@@ -408,7 +410,9 @@ identity, not territory.
 | `name_unique_nationally`, `name_unique_in_shabiya` | 86 mahalla names recur somewhere in the country, 6 within their own shabiya |
 | `codab_place_pcode`, `codab_place_en`, `codab_place_ar` | link to the COD-AB gazetteer, where one exists |
 | `match_method` | `codab_gazetteer_same_shabiya` or `unmatched` |
-| `baladiya_2013`, `baladiya_source` | empty and `not_established`; see below |
+| `baladiya_ar` | today's municipality, for the 304 mahallas where it could be established |
+| `baladiya_source` | `hnec_polling_centres_2021`, `ambiguous`, or `not_established` |
+| `baladiya_candidates` | every municipality whose register names this locality, before the shabiya constraint |
 | `census_persons_2006`, `census_households_2006` | identifying attributes |
 
 **Only 17 of the 667 carry an external link.** The COD-AB gazetteer holds 78
@@ -418,22 +422,40 @@ far more links and many of them false: the census puts سوق الجمعة in Mu
 while the gazetteer places it in Tripoli, and الزهراء exists in both Jafara and
 Wadi al Shatii.
 
-### Mahalla to baladiya is deliberately not built
+### Mahalla to baladiya, and how it was established
 
-`baladiya_2013` is empty in every row. Libya reorganised local government under
-Law 59 of 2012 and Decree 180 of 2013 into 99 municipalities, since grown past
-100, and:
+**304 of 667 mahallas are mapped to a municipality, 10 are ambiguous, and 353
+could not be established.** The census predates the 2013 reorganisation and no
+published crosswalk relates its mahallat to today's baladiyat, so the mapping
+comes from HNEC's polling-centre register instead, which lists every centre with
+both its locality and its municipality.
 
-- no published crosswalk relates those municipalities to the census's mahallas;
-- neither GADM 4.1 nor COD-AB carries any Libyan boundary layer below the 22
-  shabiyat, so the mapping cannot be derived geometrically either;
-- the mahallas are a 2006 settlement tier, not an administrative tier that was
-  carried forward, so the relation is not one-to-one in any case.
+The join is constrained to the shabiya, never made on name alone. Names repeat
+across the country: سوق الجمعة is a Murqub mahalla in the census and a Tripoli
+locality in the gazetteers; الزهراء exists in both Jafara and Wadi al Shatii.
+HNEC does not state the shabiya, so it is inferred first — see
+`concordance_baladiya.csv` below — and a mahalla is linked only to a baladiya
+whose inferred shabiya is its own. A mahalla still matching more than one is
+recorded `ambiguous` with its candidates listed rather than resolved to a guess.
 
-Filling the column by name similarity would produce a table that looks
-authoritative and is largely guesswork. What would actually settle it is the
-annex to Decree 180 of 2013 listing each municipality's constituent localities,
-or a baladiya boundary layer to assign the OSM anchors against.
+Coverage is uneven and highest where settlement names are stable: Sabha 90%,
+Jufra 86%, Kufra 83%, against Benghazi 22% and Al Wahat 15%. Urban mahallat in
+the big cities were most often renamed or re-cut, so they are the least covered.
+
+Spot checks land correctly: الظهرة, المدينة القديمة, المنشية and المنصورة map to
+طرابلس المركز; عقبة بن نافع, الساحل and الجهاد to سوق الجمعة; قرقارش to حي الأندلس.
+
+### `concordance_baladiya.csv` — 108 municipalities
+
+Every municipality HNEC's register names, with the shabiya it was inferred to
+sit in, how many census localities and polling centres back it, and whether the
+inference was unanimous.
+
+`shabiya_ar` is **inferred, not published**. A census mahalla whose name occurs
+in only one shabiya is unambiguous evidence, so those vote — weighted by polling
+centres — and each baladiya takes the shabiya with the most votes. 87 of 108 are
+placed, 73 of them unanimously; the remaining 21 had no unambiguous census
+locality to vote for them and are left blank.
 
 ---
 
@@ -455,6 +477,21 @@ imagery is best read as CC BY-NC-ND 4.0. The upstream notice is copied to
 `NOTICE.md` unchanged. Read that directory's README before using or citing any
 of it — it also records why a lit pixel never dims, why 2014 is a sensor
 handover, and why Libya's oil regions show the highest lights per head.
+
+### `hnec_polling_centres_2021.csv` — 1,908 polling centres
+
+HNEC's register as printed: `centre_code`, `centre_name`, `mahalla_ar`,
+`city_ar`, `baladiya_ar`, plus `read_by` and the source document and its
+SHA-256. Centre codes are unique nationally and 113 municipalities are named.
+
+`read_by` is `text` for 22 of the 24 documents and `text_repaired` for two whose
+embedded font maps every plain alef to alef-with-hamza-below, so البلدية arrives
+as إلبلدية. The substitution is undone before parsing. A few words in those two
+also carry letter-order noise that cannot be repaired, which the normalised join
+key absorbs.
+
+`hnec_locality_baladiya.csv` reduces this to the 949 distinct
+locality-municipality pairs, with the polling centres behind each.
 
 ### `data/external/osm_places/mahalla_osm_anchors.csv`
 

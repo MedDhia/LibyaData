@@ -272,14 +272,48 @@ else:
     print(f"  [ok ] every mahalla resolves to one of the "
           f"{cross.shabiya_ar.nunique()} shabiyat, in all three naming systems")
 
+baladiya = pd.read_csv(OUT / "concordance_baladiya.csv")
+centres = pd.read_csv(OUT / "hnec_polling_centres_2021.csv")
+mapped = int((mahalla_cross.baladiya_source == "hnec_polling_centres_2021").sum())
+ambiguous = int((mahalla_cross.baladiya_source == "ambiguous").sum())
+
+if centres.centre_code.is_unique:
+    print(f"  [ok ] {len(centres)} HNEC polling centres, codes unique, "
+          f"{centres.baladiya_ar.nunique()} municipalities named")
+else:
+    failures.append("hnec polling centres: duplicate centre codes")
+    print("  [FAIL] duplicate polling-centre codes")
+
+stray = set(mahalla_cross.baladiya_ar.dropna()) - set(baladiya.baladiya_ar)
+if stray:
+    failures.append(f"concordance: baladiyat not in the baladiya file: "
+                    f"{sorted(stray)[:5]}")
+    print(f"  [FAIL] {len(stray)} mapped baladiyat missing from "
+          f"concordance_baladiya.csv")
+else:
+    print(f"  [ok ] {mapped} mahallas mapped to one baladiya, "
+          f"{ambiguous} ambiguous, all naming a known municipality")
+
+# A mahalla may only take a baladiya whose inferred shabiya is its own.
+placed = baladiya.dropna(subset=["shabiya_ar"]).set_index("baladiya_ar").shabiya_ar
+joined = mahalla_cross[mahalla_cross.baladiya_ar.notna()]
+mismatch = [r.mahalla_id for r in joined.itertuples()
+            if placed.get(r.baladiya_ar, r.shabiya_ar) != r.shabiya_ar]
+if mismatch:
+    failures.append(f"concordance: {len(mismatch)} mahallas mapped across shabiyat")
+    print(f"  [FAIL] {len(mismatch)} mahallas mapped to a baladiya in another shabiya")
+else:
+    print(f"  [ok ] every mapped mahalla and its baladiya sit in the same shabiya")
+
 linked = int((mahalla_cross.match_method != "unmatched").sum())
 dupes = int((mahalla_cross.name_unique_nationally == 0).sum())
 print(f"  [note] {linked} mahallas linked to a COD-AB place; "
       f"{len(mahalla_cross) - linked} unmatched")
 print(f"  [note] {dupes} mahalla names recur nationally, "
       f"{int((mahalla_cross.name_unique_in_shabiya == 0).sum())} within one shabiya")
-notes.append(f"concordance: {len(mahalla_cross) - linked} of {len(mahalla_cross)} "
-             f"mahallas have no external link; baladiya mapping not established")
+notes.append(f"concordance: {len(mahalla_cross) - mapped - ambiguous} of "
+             f"{len(mahalla_cross)} mahallas have no baladiya; "
+             f"{int(baladiya.shabiya_ar.isna().sum())} baladiyat unplaced")
 
 anchors_path = (OUT.parent / "external" / "osm_places" / "mahalla_osm_anchors.csv")
 if anchors_path.exists():

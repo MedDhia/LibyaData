@@ -15,3 +15,7 @@ data/raw/bsc/pdf/
 # Reference geography re-downloaded by scripts/download_hdx_codab.sh. Not
 # committed: COD-AB is CC BY-IGO and the OSM extract is ODbL.
 data/raw/hdx/
+
+# HNEC source PDFs, re-downloadable by scripts/download_hnec.py. Checksums are
+# recorded in data/raw/hnec/polling_centres_manifest.json.
+data/raw/hnec/polling_centres/

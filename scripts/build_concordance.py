@@ -18,32 +18,37 @@ Outputs:
   concordance_mahalla.csv    667 localities, keyed and linked as far as the
                              evidence goes
 
-## What the mahalla concordance does and does not do
+## Mahalla to baladiya
 
-It gives every mahalla a stable identifier, a normalised Arabic key, its parent
-shabiya in all three systems, and flags for whether its name is unique. That is
-the spine: it is what any future mahalla-level source joins onto.
+The census predates the 2013 municipal reorganisation and no published crosswalk
+relates its 667 mahallat to today's baladiyat. Neither GADM 4.1 nor COD-AB
+carries a Libyan boundary layer below the 22 shabiyat, so it cannot be derived
+geometrically either.
 
-It does **not** map mahallas to today's municipalities (baladiyat). Libya
-reorganised local government under Law 59 of 2012 and Decree 180 of 2013 into
-99 municipalities, since grown past 100, and no published crosswalk relates
-them to the census's mahallas. Neither GADM 4.1 nor COD-AB carries a boundary
-layer below the 22 units for Libya, so the mapping cannot be derived
-geometrically either. Matching on name alone across the country produces
-confident-looking nonsense: the census has سوق الجمعة in Murqub while COD-AB
-places it in Tripoli, and الزهراء exists in both Jafara and Wadi al Shatii.
+HNEC's 2021 polling-centre register supplies the missing link directly: each
+centre is listed with its locality **and** its municipality (see
+`scripts/extract_hnec_polling_centres.py`). Joining the census's mahalla to that
+register's locality gives the mapping.
 
-What is offered instead is a link to the COD-AB gazetteer, which carries 78
-populated places with P-codes, and only where the parent shabiya agrees as
-well as the name. Every such link is labelled with the method that produced it,
-and everything else is left explicitly unmatched.
+The join is constrained to the shabiya, never made on name alone, because names
+repeat: سوق الجمعة is a Murqub mahalla in the census and a Tripoli locality in
+the gazetteers, and الزهراء exists in both Jafara and Wadi al Shatii. HNEC does
+not state the shabiya, so it is inferred first: a census mahalla whose name
+occurs in only one shabiya votes, weighted by polling centres, for the shabiya
+of every baladiya it appears in, and each baladiya takes the shabiya with the
+most votes. A mahalla is then linked only to a baladiya whose inferred shabiya
+matches its own.
+
+Mahallas matching more than one baladiya even after that are recorded as
+ambiguous with their candidates listed, not resolved to a guess. Mahallas the
+register does not name are left `not_established`.
 """
 
 import argparse
 import csv
 import re
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import openpyxl
@@ -53,6 +58,7 @@ from arabic_text import normalise_name  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "processed"
+HNEC_PAIRS = OUT / "hnec_locality_baladiya.csv"
 HDX = ROOT / "data" / "raw" / "hdx" / "lby_admin_boundaries.xlsx"
 
 # GADM 4.1 admin-1 name -> census shabiya. Same 22 units, different romanisation.
@@ -90,13 +96,47 @@ def join_key(name):
     Folds the alef and ya variants and ta marbuta, drops the definite article
     and all spacing. Sources differ on every one of these: the census writes
     مصراته where GADM romanises Misratah, COD-AB writes درنه for درنة.
+
+    Also folds lam-alef to alef-lam. Several of these PDFs emit the lam-alef
+    ligature with its two letters the wrong way round, so العجيلات is extracted
+    as العجيالت, and the two forms would otherwise never meet. Folding gains 17
+    further matches against the census and merges no distinct names.
     """
     text = normalise_name(str(name))
     text = re.sub(r"[إأآا]", "ا", text)
     text = re.sub(r"[ىي]", "ي", text)
     text = text.replace("ة", "ه")
     text = re.sub(r"^ال", "", text)
-    return re.sub(r"\s+", "", text)
+    text = re.sub(r"\s+", "", text)
+    return text.replace("لا", "ال")
+
+
+def infer_baladiya_shabiya(pairs, mahallas):
+    """Infer each baladiya's shabiya from the census mahallas it contains.
+
+    HNEC's register names a locality and its municipality but not the shabiya.
+    A census mahalla whose name occurs in only one shabiya is unambiguous
+    evidence, so those vote — weighted by how many polling centres back them —
+    and each baladiya takes the shabiya with the most votes.
+    """
+    by_name = defaultdict(set)
+    for record in mahallas:
+        by_name[join_key(record["mahalla_ar"])].add(record["shabiya_ar"])
+
+    votes = defaultdict(Counter)
+    for pair in pairs:
+        shabiyat = by_name.get(join_key(pair["mahalla_ar"]))
+        if shabiyat and len(shabiyat) == 1:
+            votes[join_key(pair["baladiya_ar"])][next(iter(shabiyat))] += int(
+                pair["polling_centres"])
+
+    inferred = {}
+    for baladiya, counted in votes.items():
+        shabiya, top = counted.most_common(1)[0]
+        inferred[baladiya] = {"shabiya_ar": shabiya, "votes": top,
+                              "total_votes": sum(counted.values()),
+                              "unanimous": int(top == sum(counted.values()))}
+    return inferred
 
 
 def read_sheet(workbook, sheet):
@@ -193,6 +233,16 @@ def build_mahalla(shabiya_rows, places):
         mahallas = list(csv.DictReader(fh))
     by_shabiya = {r["shabiya_ar"]: r for r in shabiya_rows}
 
+    pairs = []
+    if HNEC_PAIRS.exists():
+        with HNEC_PAIRS.open() as fh:
+            pairs = list(csv.DictReader(fh))
+    inferred = infer_baladiya_shabiya(pairs, mahallas)
+    by_locality = defaultdict(list)
+    for pair in pairs:
+        by_locality[join_key(pair["mahalla_ar"])].append(pair)
+    write_baladiya(pairs, inferred)
+
     # The gazetteer is keyed to COD-AB's own admin-2 names.
     gazetteer = {}
     for place in places:
@@ -200,6 +250,7 @@ def build_mahalla(shabiya_rows, places):
         if shabiya:
             gazetteer.setdefault((shabiya, join_key(place["name_ar"])), []).append(place)
 
+    with_baladiya = [0, 0]
     keys = Counter(join_key(r["mahalla_ar"]) for r in mahallas)
     keys_in_shabiya = Counter((r["shabiya_ar"], join_key(r["mahalla_ar"]))
                               for r in mahallas)
@@ -213,6 +264,21 @@ def build_mahalla(shabiya_rows, places):
         place = candidates[0] if len(candidates) == 1 else None
         if place:
             linked += 1
+        # Only baladiyat inferred to sit in this mahalla's own shabiya count.
+        consistent = {p["baladiya_ar"] for p in by_locality.get(key, [])
+                      if inferred.get(join_key(p["baladiya_ar"]), {})
+                      .get("shabiya_ar") == record["shabiya_ar"]}
+        if len(consistent) == 1:
+            baladiya, baladiya_source = consistent.pop(), "hnec_polling_centres_2021"
+        elif consistent:
+            baladiya, baladiya_source = "", "ambiguous"
+        else:
+            baladiya, baladiya_source = "", "not_established"
+        if baladiya:
+            with_baladiya[0] += 1
+        elif baladiya_source == "ambiguous":
+            with_baladiya[1] += 1
+
         rows.append({
             "mahalla_id": record["mahalla_id"],
             "mahalla_ar": record["mahalla_ar"],
@@ -228,8 +294,10 @@ def build_mahalla(shabiya_rows, places):
             "codab_place_en": place["name_en"] if place else "",
             "codab_place_ar": place["name_ar"] if place else "",
             "match_method": "codab_gazetteer_same_shabiya" if place else "unmatched",
-            "baladiya_2013": "",
-            "baladiya_source": "not_established",
+            "baladiya_ar": baladiya,
+            "baladiya_source": baladiya_source,
+            "baladiya_candidates": ";".join(sorted(
+                {p["baladiya_ar"] for p in by_locality.get(key, [])})),
             "census_persons_2006": record["persons"],
             "census_households_2006": record["households"],
         })
@@ -246,7 +314,44 @@ def build_mahalla(shabiya_rows, places):
           f"place, {len(rows) - linked} unmatched")
     print(f"{'':34s} {duplicated} share a name with another mahalla nationally, "
           f"{in_shabiya} within their own shabiya")
+    print(f"{'':34s} {with_baladiya[0]} mapped to one baladiya, "
+          f"{with_baladiya[1]} ambiguous, "
+          f"{len(rows) - sum(with_baladiya)} not established")
     return rows
+
+
+def write_baladiya(pairs, inferred):
+    """The municipalities HNEC's register names, with their inferred shabiya."""
+    if not pairs:
+        return
+    localities = defaultdict(set)
+    centres = Counter()
+    names = {}
+    for pair in pairs:
+        key = join_key(pair["baladiya_ar"])
+        names.setdefault(key, pair["baladiya_ar"])
+        localities[key].add(pair["mahalla_ar"])
+        centres[key] += int(pair["polling_centres"])
+
+    rows = []
+    for key, name in sorted(names.items(), key=lambda kv: kv[1]):
+        guess = inferred.get(key, {})
+        rows.append({
+            "baladiya_ar": name,
+            "shabiya_ar": guess.get("shabiya_ar", ""),
+            "shabiya_inferred_from": "census_mahalla_votes" if guess else "",
+            "inference_unanimous": guess.get("unanimous", ""),
+            "localities": len(localities[key]),
+            "polling_centres": centres[key],
+        })
+    path = OUT / "concordance_baladiya.csv"
+    with path.open("w", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows(rows)
+    placed = sum(1 for r in rows if r["shabiya_ar"])
+    print(f"{path.name:34s} {len(rows)} baladiyat from HNEC; {placed} placed in a "
+          f"shabiya ({sum(1 for r in rows if r['inference_unanimous'] == 1)} unanimous)")
 
 
 def main():
@@ -255,9 +360,9 @@ def main():
     codab_units, places = load_codab()
     shabiya_rows = build_shabiya(codab_units)
     build_mahalla(shabiya_rows, places)
-    print("\nmahalla to baladiya is not built: no published crosswalk exists and "
-          "neither GADM nor COD-AB\ncarries a Libyan boundary layer below the "
-          "22 shabiyat. See the module docstring.")
+    if not HNEC_PAIRS.exists():
+        print("\nHNEC register absent, so no baladiya mapping: run "
+              "scripts/extract_hnec_polling_centres.py first.")
 
 
 if __name__ == "__main__":

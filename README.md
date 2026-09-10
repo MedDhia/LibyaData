@@ -35,6 +35,8 @@ Libyan sources, with a validation suite. See
 | Shabiya concordance, census / GADM / COD-AB | 22 first-level units | 22 |
 | **Mahalla concordance** | 667 localities, keyed and parented | 667 |
 | Mahalla coordinate anchors (OSM, ODbL) | 147 placed, 2 ambiguous | 149 |
+| **HNEC polling-centre register** | 2021, 24 electoral regions | 1,908 |
+| Baladiya concordance | 108 municipalities, 87 placed | 108 |
 
 Everything is reproducible from source: `scripts/` downloads the PDFs, extracts
 the tables and records the SHA-256 of every file read. `python3
@@ -84,6 +86,13 @@ reprinted across all 22 volumes. One discrepancy survives, and it is the
 source's: المرقب/الفاسي prints 50 total residents where its own components give
 2,910. That single misprint is the whole 2,860 gap between the mahalla sum and
 the shabiya totals.
+
+**The 2006 census reaches today's municipalities.** HNEC's 2021 polling-centre
+register lists every centre with both its locality and its municipality, which
+is the link no published crosswalk provides. 1,908 centres across 24 electoral
+regions give 304 of the 667 census mahallas a municipality, with the join
+constrained to the shabiya so that سوق الجمعة in Murqub is never matched to the
+Tripoli locality of the same name.
 
 **The whole 2006 census is now machine-readable.** All 74 tables from all 22
 volumes: household composition, age and sex structure, non-Libyan residents by
@@ -135,9 +144,9 @@ access notes.
 
 See [`docs/roadmap.md`](docs/roadmap.md).
 
-Next: BSC foreign trade 2005-2016; the international source inventory; and the
-mahalla-to-baladiya mapping, which needs the annex to Decree 180 of 2013 or a
-municipal boundary layer before it can be built honestly, which is what everything
+Next: BSC foreign trade 2005-2016, and the international source inventory. The
+353 mahallas still without a municipality need HNEC's older registers or the
+annex to Decree 180 of 2013, which is what everything
 subnational will join on; BSC foreign trade 2005-2016; and the international
 source inventory.
 

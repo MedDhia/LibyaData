@@ -65,13 +65,12 @@ The part that makes this a repository rather than a folder of scraped PDFs.
   mahallas a stable key, a normalised Arabic join key and their parent unit in every system, and
   147 of them carry an OpenStreetMap coordinate.
 
-  What remains is the mahalla-to-baladiya link, and it is blocked on sources rather than effort. No
-  published crosswalk relates the post-2013 municipalities to the census's mahallas, and no boundary
-  layer for Libya goes below the 22 shabiyat in either GADM or COD-AB, so it cannot be derived
-  geometrically either. It needs the annex to Decree 180 of 2013 listing each municipality's
-  constituent localities, or a baladiya boundary layer to assign the OSM anchors against. Until one
-  of those is in hand the column stays empty and flagged `not_established` rather than filled by
-  name similarity.
+  The mahalla-to-baladiya link is now largely in place, from HNEC's 2021 polling-centre register,
+  which lists every centre with both its locality and its municipality. 304 of the 667 mahallas are
+  mapped, 10 are ambiguous, 353 remain. Coverage is highest where settlement names are stable
+  (Sabha 90%, Jufra 86%) and lowest in the big cities (Benghazi 22%), whose mahallat were most often
+  renamed or re-cut. Closing the remainder needs HNEC's registers from other election cycles, or the
+  annex to Decree 180 of 2013 listing each municipality's constituent localities.
 - **Transliteration standard.** Arabic place and institution names arrive in several romanisations
   across sources. Pick one, apply it consistently, and keep the Arabic original in a parallel column.
 - **Temporal alignment.** Fiscal, Gregorian and Hijri years all appear. Store the original and a
