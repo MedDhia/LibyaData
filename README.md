@@ -148,11 +148,15 @@ the 39 appointment rows name a person. It carries no Tripoli appointments at
 all, so every row records its publishing authority, and reading this as a
 national record would measure the eastern institutions alone.
 
-Getting it out needed three things the page hides. Each page's text comes out
+Getting it out needed four things the page hides. Each page's text comes out
 bottom line first, so lines are reversed before anything else. Libyan statutory
 prose is full of `بشأن` inside articles citing other laws, so subject detection
-stops where the articles start, or one law becomes five. And the gazette
-reprints: 21 of the 109 decisions appear in more than one issue.
+stops where the articles start, or one law becomes five. The gazette reprints:
+21 of the 109 decisions appear in more than one issue. And the signature date is
+written with the month as a word in both calendars, "بتاريخ: 23/رجب/1447ه" then
+"املوافق: 12/يناير/2026م", which is why 73 decisions now carry a Gregorian date
+against 21 when only numeric dates were read, and 62 carry a Hijri date against
+none.
 
 **The sanctions record has almost no Libyan network in it.** OpenSanctions holds
 710,657 politically exposed persons and 293,095 sanctioned entities worldwide.

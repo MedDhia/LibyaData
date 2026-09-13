@@ -551,8 +551,10 @@ empty.
 Columns: `issue_id`, `issue_number`, `issue_year`, `issue_date`, `page`,
 `decision_kind` (قانون or قرار), `issuing_body`, `decision_number`,
 `decision_year`, `subject`, `act_ar`, `act_en`, `is_appointment`,
-`signed_gregorian`, `signed_hijri`, `printed_in_issues`, `publishing_authority`,
-`source_document`, `source_sha256`.
+`signed_gregorian`, `signed_hijri`, `issued_at`, `issued_at_shabiya_ar`, `_en`,
+`_pcode`, `issued_at_matched_level`, `issued_at_status`, `office_scope`,
+`office_shabiya_*`, `office_place_matched_on`, `printed_in_issues`,
+`publishing_authority`, `source_document`, `source_sha256`.
 
 Two traps are handled and both are visible in the counts. Libyan statutory prose
 is full of `بشأن` inside an article citing another law, so subject detection
@@ -561,11 +563,33 @@ gazette reprints: 21 of the 109 decisions appear in more than one issue,
 sometimes as a corrected re-upload, so they are kept once with
 `printed_in_issues` recording how often they were printed.
 
-`signed_gregorian` is read from the last 14 lines of the block and only accepted
-within four years of the issue. A decision's preamble cites the laws it rests
-on, some from the 1960s, and the first date in the block is as likely to be one
-of those: the check caught exactly that, a 1962 citation read as a 2023
-signature.
+#### The signature date, in two calendars
+
+`signed_gregorian` and `signed_hijri` are both `YYYY-MM-DD`, the second in the
+Hijri calendar. 73 of the 109 decisions carry a Gregorian date and 62 a Hijri
+one.
+
+The month in the signature is a word, not a number: "بتاريخ: 23/رجب/1447ه"
+followed by "املوافق: 12/يناير/2026م". Reading numeric dates alone left 21
+decisions dated and not one Hijri date in the series. Month names are matched on
+their anagram, the letters sorted, because the fonts that print طبرق as طربق
+print فبراير as فرباير; the 16 spellings of the 12 months of each calendar
+collide only where two spellings are the same month.
+
+Dates are read from the window around the signature line, falling back to the
+last 14 lines, and only accepted within four years back and one forward of the
+issue. A decision's preamble cites the laws it rests on, some from the 1960s,
+and the first date in a block is as likely to be one of those: the check caught
+exactly that, a 1962 citation read as a 2023 signature. Both calendars are
+collected with the line they sit on and the closest pair wins, so a decision's
+own date is not paired with one cited a few lines away.
+
+**56 of the 60 decisions carrying both dates agree to within three days**, which
+is the tolerance between the tabular Islamic calendar used for the check and the
+Umm al-Qura calendar the gazette follows. The four that do not are printed that
+way: 4 Ramadan 1444 is 26 March 2023 and the gazette prints it against 2 March,
+and قرار 15 of 2023 is reprinted in a second issue under a date 22 days off its
+first printing. Each row records what its issue printed.
 
 #### `gazette_appointments.csv` — 39 rows, 16 decisions
 
@@ -615,10 +639,26 @@ Where a decision was signed is not where its office has authority. Both are
 coded, separately.
 
 **`issued_at`** is the city in the signature block, "صدر في مدينة بنغازي", with
-`issued_at_shabiya_ar`, `_en` and `_pcode`. 58 of the 109 decisions carry one,
-and 56 of those 58 are Benghazi: the House's Diwan signs from there. The other
-two are the interesting rows, one from Tobruk and one from Tripoli. Among the 39
-appointment rows, 35 are signed in Benghazi and 4 print no place.
+`issued_at_shabiya_ar`, `_en`, `_pcode` and `issued_at_matched_level`. 68 of the
+109 decisions carry one, and 65 of those 68 are Benghazi: the House's Diwan
+signs from there. The others are the interesting rows, one from Tobruk and two
+from Tripoli. Among the 39 appointment rows, 36 are signed in Benghazi and 3
+print no place.
+
+The signature is looked for in the whole decision, not in its last lines. A
+decision that runs into a budget annex or a salary table carries its signature
+in the middle and a page footer at the end, and reading the tail alone lost 10
+of the 68, one of them the second Tripoli signature. The **first** match in the
+block is taken rather than the last, because the other failure is a block that
+swallowed the decision printed after it, whose signature is not this one's. On
+the 73 blocks where the old rule fired, the first match is the same line, so
+nothing that was already read changed.
+
+**`issued_at_status`** says why a decision carries none, because an empty column
+is not one thing: 33 have a body that goes unsigned in print, and 8 are the
+gazette's own table of contents, which prints decision titles as entries with no
+body to sign. `validate.py` fails if the status and the place column ever
+disagree.
 
 **`office_shabiya_*`** is the territory the office covers, read from the subject,
 and **almost nothing lands there. That is the finding, not a failure.** These

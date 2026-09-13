@@ -59,7 +59,35 @@ Two geographies, and conflating them would be an error. Where a decision was
 signed is not where its office has authority.
 
 `issued_at` is the city in the signature block, "صدر في مدينة بنغازي". It is
-resolved against the concordance and written to `issued_at_shabiya_*`.
+resolved against the concordance and written to `issued_at_shabiya_*`, with
+`issued_at_matched_level` recording the layer that answered. The whole block is
+read for the signature rather than its tail: a decision that runs into a budget
+annex carries its signature in the middle and a page footer at the end, which
+cost 10 of the 68, one of them the only other Tripoli signature in the series.
+
+`issued_at_status` says why a decision carries no place, because an empty column
+is not one thing. The gazette prints its own table of contents as decision
+titles and those entries have no body to sign, which is 8 of them; 33 have a
+body that goes unsigned in print.
+
+## Dates
+
+The signature prints both calendars on adjacent lines, "بتاريخ: 23/رجب/1447ه"
+then "املوافق: 12/يناير/2026م", so the month is a word and not a number. Reading
+only numeric dates left 21 of 109 decisions dated and none with a Hijri date at
+all. Month names are matched on their anagram, because the fonts that print طبرق
+as طربق print فبراير as فرباير, and the 16 spellings of the 12 months collide
+only where two spellings are the same month.
+
+Both calendars are collected with the line they sit on and the closest pair
+wins, which keeps a decision's own date from being paired with one cited
+elsewhere in the same window. `signed_hijri` is `YYYY-MM-DD` in the Hijri
+calendar, not a month name.
+
+56 of the 60 decisions carrying both dates agree to within three days, which is
+the tolerance between the tabular Islamic calendar and the Umm al-Qura one the
+gazette follows. The four that do not are printed that way: 4 Ramadan 1444 is 26
+March 2023, and the gazette prints it against 2 March.
 
 `office_shabiya_*` is the territory the office covers, read from the subject.
 Almost nothing lands there, and that is the finding rather than a failure: these
@@ -112,7 +140,33 @@ SUBJECT_MAX = 140
 SIGNATURE_TAIL = 14
 SUBJECT = re.compile(r"^(?:بشأن|في شأن|فى شأن|يف شأن)\s+(.{3,200})")
 GREGORIAN = re.compile(r"(\d{4})\s*/\s*(\d{1,2})\s*/\s*(\d{1,2})")
-HIJRI = re.compile(r"(\d{1,2})\s*/\s*([^/\d]{2,14}?)\s*/\s*(\d{4})\s*هـ")
+# The signature block writes the month as a word, not a number:
+# "بتاريخ: 23/رجب/1447ه. املوافق: 12/يناير/2026م". Both calendars use the same
+# shape, so one pattern reads both and the month name says which is which.
+NAMED_DATE = re.compile(r"(\d{1,2})\s*/\s*([^/\d]{2,20}?)\s*/\s*(\d{4})")
+GREGORIAN_MONTHS = ("يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو",
+                    "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر")
+# Spelling variants that are the same month, kept so the anagram index holds both.
+GREGORIAN_ALSO = {"إبريل": 4, "يونية": 6, "يولية": 7, "اغسطس": 8}
+HIJRI_MONTHS = ("محرم", "صفر", "ربيع الأول", "ربيع الآخر", "جمادى الأولى",
+                "جمادى الآخرة", "رجب", "شعبان", "رمضان", "شوال", "ذو القعدة",
+                "ذو الحجة")
+HIJRI_ALSO = {"ربيع الثاني": 4, "جمادى الثانية": 6, "ذي القعدة": 11, "ذي الحجة": 12}
+
+
+DATE_MARKERS = ("املوافق", "الموافق", "بتاريخ", "صدر")
+
+
+def month_index(names, extra):
+    """Month name to number, keyed on the anagram.
+
+    The same fonts that print طبرق as طربق print فبراير as فرباير, so the month
+    is matched on its letters sorted rather than in order. The 16 spellings of
+    the 12 months collide only where two spellings are the same month.
+    """
+    index = {anagram(name): number for number, name in enumerate(names, 1)}
+    index.update({anagram(name): number for name, number in extra.items()})
+    return index
 HONORIFIC = re.compile(r"الس(?:يد|يدة|ادة)\s*/\s*(.{3,70})")
 ISSUE_HEAD = re.compile(r"العدد\s+(\S+(?:\s+عشر)?)\s+.{0,3}السنة\s+(\S+)")
 
@@ -305,35 +359,115 @@ def split_decisions(lines):
     return [b for b in blocks if b["subject"] or b["number"]]
 
 
-def issued_at(block):
-    """The city named in the signature block, "صدر في مدينة بنغازي"."""
-    for line in block["lines"][-SIGNATURE_TAIL:]:
+GREGORIAN_INDEX = month_index(GREGORIAN_MONTHS, GREGORIAN_ALSO)
+HIJRI_INDEX = month_index(HIJRI_MONTHS, HIJRI_ALSO)
+
+
+def signature_status(block, city, where):
+    """Why a decision carries no signature place, where it carries none.
+
+    An empty column is not one thing. The gazette prints its own table of
+    contents as decision titles, and those entries have no body to sign; a
+    decision whose body is here may still go unsigned in print; and a signature
+    that is printed can still name a place the gazetteer does not hold.
+    """
+    if where:
+        return "signed"
+    if city:
+        return "place not in the gazetteer"
+    if len([line for line in block["lines"] if line.strip()]) < 3:
+        return "no body text: a table-of-contents entry"
+    return "no signature line printed"
+
+
+def signature(block):
+    """Where the decision was signed: the line index and the city it names.
+
+    The whole block is read, not its tail. A decision that runs into a budget
+    annex or a salary table carries its signature in the middle and a page
+    footer at the end: reading the last 14 lines alone loses 12 of them, one of
+    them the only Tripoli signature in the series.
+
+    The **first** match is taken, not the last, because the other failure is a
+    block that swallowed the decision printed after it, and that decision's
+    signature is not this one's. On the 73 blocks where the old tail rule fired,
+    the first match in the whole block is the same line, so nothing that was
+    already read changes.
+    """
+    for index, line in enumerate(block["lines"]):
         found = ISSUED_AT.match(line)
         if found:
-            return normalise_name(found.group(1))
-    return ""
+            return index, normalise_name(found.group(1))
+    return None, ""
 
 
-def dates_in(block, issue_year=0):
+def dates_in(block, issue_year=0, signed_at=None):
     """The Gregorian and Hijri dates the decision is signed with.
 
-    Only the tail of the block is read. A decision's preamble cites the laws it
-    rests on, some of them from the 1960s, and the first Gregorian date in the
-    block is as likely to be one of those as the signature.
+    Never the whole block: a decision's preamble cites the laws it rests on,
+    some of them from the 1960s, and the first Gregorian date in the block is as
+    likely to be one of those as the signature. Where the signature line has
+    been found, the window around it is read, because that is where the date is
+    printed; otherwise the tail, which is where it is when the block ends
+    cleanly. The window is tried first and the tail second, so this can only
+    find a date the tail rule would have missed, never lose one.
     """
-    gregorian = hijri = ""
-    for line in block["lines"][-SIGNATURE_TAIL:]:
-        if "املوافق" in line or "الموافق" in line or "بتاريخ" in line or "صدر" in line:
-            stamp = GREGORIAN.search(line)
-            if stamp and not gregorian and len(stamp.group(1)) == 4:
-                year = int(stamp.group(1))
-                if not issue_year or issue_year - 4 <= year <= issue_year + 1:
-                    gregorian = (f"{stamp.group(1)}-{int(stamp.group(2)):02d}"
-                                 f"-{int(stamp.group(3)):02d}")
-            moon = HIJRI.search(line)
-            if moon and not hijri:
-                hijri = f"{moon.group(3)}-{moon.group(2).strip()}-{moon.group(1)}"
-    return gregorian, hijri
+    window = []
+    if signed_at is not None:
+        window = block["lines"][max(0, signed_at - 3):signed_at + 8]
+    for lines in (window, block["lines"][-SIGNATURE_TAIL:]):
+        gregorian, hijri = scan_dates(lines, issue_year)
+        if gregorian or hijri:
+            return gregorian, hijri
+    return "", ""
+
+
+def scan_dates(lines, issue_year):
+    """The Gregorian and Hijri dates a decision is signed with.
+
+    The signature prints them on two adjacent lines, "بتاريخ" then "املوافق",
+    so both are collected with the line they sit on and the closest pair wins.
+    Taking the first of each independently pairs a decision's own date with a
+    date cited elsewhere in the same window, which put four of them a lunar
+    month apart from each other.
+    """
+    gregorians, hijris = [], []
+    for index, line in enumerate(lines):
+        if not any(mark in line for mark in DATE_MARKERS):
+            continue
+        stamp = GREGORIAN.search(line)
+        if stamp and len(stamp.group(1)) == 4 and in_window(stamp.group(1),
+                                                            issue_year):
+            gregorians.append((index, f"{stamp.group(1)}-{int(stamp.group(2)):02d}"
+                                      f"-{int(stamp.group(3)):02d}"))
+        for day, name, year in NAMED_DATE.findall(line):
+            code = anagram(name)
+            month = GREGORIAN_INDEX.get(code)
+            if month:
+                if in_window(year, issue_year):
+                    gregorians.append((index, f"{year}-{month:02d}-{int(day):02d}"))
+                continue
+            month = HIJRI_INDEX.get(code)
+            # The Hijri year runs about 579 behind the Gregorian one in this
+            # period, so the same window applies once it is converted.
+            if month and in_window(int(year) + 579, issue_year):
+                hijris.append((index, f"{year}-{month:02d}-{int(day):02d}"))
+    if gregorians and hijris:
+        near = min(((abs(i - j), g, h) for i, g in gregorians for j, h in hijris),
+                   key=lambda pair: pair[0])
+        return near[1], near[2]
+    return (gregorians[0][1] if gregorians else "",
+            hijris[0][1] if hijris else "")
+
+
+def in_window(year, issue_year):
+    """Is this year close enough to the issue's to be the signature's own?
+
+    A decision's preamble cites the laws it rests on, some of them from the
+    1960s. The window runs four years back, because the series reprints older
+    decisions, and one year forward for an issue published late.
+    """
+    return not issue_year or issue_year - 4 <= int(year) <= issue_year + 1
 
 
 def main():
@@ -378,10 +512,10 @@ def main():
         for block in blocks:
             act, act_en = act_of(block["subject"])
             published_year = int((date or entry["date"][:10])[:4])
-            gregorian, hijri = dates_in(block, published_year)
-            city = issued_at(block)
-            where, _ = locate(city, places, shabiya_keys, scrambled,
-                              require_marker=False)
+            signed_at, city = signature(block)
+            gregorian, hijri = dates_in(block, published_year, signed_at)
+            where, city_token = locate(city, places, shabiya_keys, scrambled,
+                                       require_marker=False)
             office, office_token = locate(block["subject"], places, shabiya_keys,
                                           scrambled)
             # Foreign adjectives are matched on the anagram too, because the
@@ -406,6 +540,8 @@ def main():
                 "issued_at_shabiya_ar": where[0] if where else "",
                 "issued_at_shabiya_en": where[1] if where else "",
                 "issued_at_shabiya_pcode": where[2] if where else "",
+                "issued_at_matched_level": where[3] if where else "",
+                "issued_at_status": signature_status(block, city, where),
                 "office_scope": scope,
                 "office_shabiya_ar": office[0] if office else "",
                 "office_shabiya_en": office[1] if office else "",
@@ -490,6 +626,14 @@ def report(issues, decisions, appointments, scans):
     print(f"{placed} of {len(decisions)} decisions place their signature in a shabiya",
           dict(Counter(d["issued_at_shabiya_en"] for d in decisions
                        if d["issued_at_shabiya_en"])))
+    print("  matched on:   ",
+          dict(Counter(d["issued_at_matched_level"] for d in decisions
+                       if d["issued_at_matched_level"])))
+    print("  unsigned, by why:",
+          dict(Counter(d["issued_at_status"] for d in decisions
+                       if d["issued_at_status"] != "signed").most_common()))
+    dated = sum(1 for d in decisions if d["signed_gregorian"])
+    print(f"{dated} of {len(decisions)} decisions carry a signature date")
     print("office scope:   ", dict(Counter(d["office_scope"] for d in decisions)))
     territorial = [d for d in decisions if d["office_shabiya_en"]]
     print(f"{len(territorial)} decisions name a Libyan place in the office itself",

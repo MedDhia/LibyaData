@@ -516,6 +516,46 @@ if (gz_dir / "gazette_decisions.csv").exists():
             print(f"  [ok ] {len(named)} of {len(gz_decisions)} decisions carry a "
                   f"{label} shabiya, all from the concordance")
 
+    # A decision either carries a signature place with the level it matched at,
+    # or says why it carries none.
+    statuses = {"signed", "no signature line printed",
+                "no body text: a table-of-contents entry",
+                "place not in the gazetteer"}
+    unknown = set(gz_decisions.issued_at_status.dropna()) - statuses
+    signed_rows = gz_decisions[gz_decisions.issued_at_status == "signed"]
+    inconsistent = gz_decisions[(gz_decisions.issued_at_status == "signed")
+                                != gz_decisions.issued_at_shabiya_en.notna()]
+    if unknown or len(inconsistent) or signed_rows.issued_at_matched_level.isna().any():
+        failures.append(f"gazette: issued_at_status {unknown} or the status "
+                        f"disagrees with the place column")
+        print(f"  [FAIL] signature status values {unknown}, "
+              f"{len(inconsistent)} rows where status and place disagree")
+    else:
+        why = gz_decisions.issued_at_status.value_counts().to_dict()
+        print(f"  [ok ] every decision is signed with a placed city or says why "
+              f"not {why}")
+
+    # The two calendars on the signature line must agree, and where they do not
+    # the gazette printed them that way: the tabular Islamic calendar is within
+    # a day or two of the Umm al-Qura one the gazette follows.
+    both = gz_decisions[gz_decisions.signed_gregorian.notna()
+                        & gz_decisions.signed_hijri.notna()]
+    gaps = []
+    for _, row in both.iterrows():
+        hy, hm, hd = (int(x) for x in str(row.signed_hijri).split("-"))
+        jdn = hd + 29 * (hm - 1) + hm // 2 + 354 * (hy - 1) + (3 + 11 * hy) // 30
+        stamp = pd.Timestamp(row.signed_gregorian)
+        gaps.append(jdn + 1948439 - (stamp.toordinal() + 1721425))
+    far = [g for g in gaps if abs(g) > 3]
+    if len(far) > len(gaps) // 8:
+        failures.append(f"gazette: {len(far)} of {len(gaps)} signature dates "
+                        f"disagree across the two calendars")
+        print(f"  [FAIL] {len(far)} of {len(gaps)} Hijri and Gregorian dates "
+              f"disagree by more than three days")
+    else:
+        print(f"  [ok ] {len(gaps) - len(far)} of {len(gaps)} decisions carrying "
+              f"both dates agree across the calendars to within three days")
+
     scopes = {"national", "subnational", "bilateral"}
     unknown = set(gz_decisions.office_scope) - scopes
     mismatch = gz_decisions[(gz_decisions.office_scope == "subnational")
@@ -527,6 +567,10 @@ if (gz_dir / "gazette_decisions.csv").exists():
     else:
         print(f"  [ok ] every decision carries a documented office_scope: "
               f"{gz_decisions.office_scope.value_counts().to_dict()}")
+
+    notes.append(f"gazette: {len(signed)} of {len(gz_decisions)} decisions carry a "
+                 f"signature date, {len(far)} of them printed with a Hijri and a "
+                 f"Gregorian date that are not the same day")
 
     acts = gz_decisions[gz_decisions.act_en.notna()].act_en.value_counts().to_dict()
     notes.append(f"gazette: {int(gz_decisions.is_appointment.sum())} of "
