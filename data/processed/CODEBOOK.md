@@ -606,6 +606,45 @@ spaces, so the split and unsplit forms join to each other, and it is what to
 match on. `person_name` is what the page prints. `person_line` is the whole
 line, so every extracted name can be checked against the source.
 
+#### Geography: two of them, and they must not be conflated
+
+Where a decision was signed is not where its office has authority. Both are
+coded, separately.
+
+**`issued_at`** is the city in the signature block, "صدر في مدينة بنغازي", with
+`issued_at_shabiya_ar`, `_en` and `_pcode`. 58 of the 109 decisions carry one,
+and 56 of those 58 are Benghazi: the House's Diwan signs from there. The other
+two are the interesting rows, one from Tobruk and one from Tripoli. Among the 39
+appointment rows, 35 are signed in Benghazi and 4 print no place.
+
+**`office_shabiya_*`** is the territory the office covers, read from the subject,
+and **almost nothing lands there. That is the finding, not a failure.** These
+are national offices: the Supreme Judicial Council, the Audit Bureau, the
+Administrative Control Authority, the elections commission. Of the 109
+decisions, the subjects name no Libyan place at all.
+
+**`office_scope`** codes the kind of office: `bilateral` for the three
+parliamentary friendship committees, which are territorial only in naming
+another country; `subnational` where a Libyan place resolves; `national`
+otherwise. Across the 109 decisions that is 106 national and 3 bilateral, and
+none subnational.
+
+Matching runs against this repository's own concordance, 663 Arabic place names:
+the 22 shabiyat, the 91 municipalities the concordance placed in one, and the
+550 mahallas whose name occurs in exactly one shabiya. The 86 mahalla names that
+repeat nationally are left out, because a name that could mean two provinces is
+worse than no name.
+
+Two rules keep it honest. Outside the 22 shabiyat, a place is accepted only when
+a place-signalling word (بلدية, مدينة, منطقة, محلة, شعبية) stands immediately
+before it; without that rule المحكمة العليا matches العليا, a mahalla in Jabal
+al Gharbi, and six national court decisions acquire a false province. And a
+phrase that fails the exact match is retried on its **anagram**, the letters of
+the folded form sorted, because the fonts transpose letters inside a word: طبرق
+prints as طربق and المغربية as املغربية, the same defect that gives جملس for
+مجلس. Of the 658 anagram keys over the 663 names only three collide, and those
+are excluded, so the fallback never chooses between two provinces.
+
 #### `gazette_issues.csv` — 50 issues
 
 `issue_number`, `issue_year` (the gazette counts in years since 2023, not

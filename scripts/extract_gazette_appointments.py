@@ -53,6 +53,27 @@ stripped of spaces, so إسماع يل and إسماعيل join to each other. Ac
 military titles are stripped, so د سلطنة مسعود and سلطنة مسعود are one person. A
 span carrying an unmapped glyph is discarded rather than half-read.
 
+## Geography
+
+Two geographies, and conflating them would be an error. Where a decision was
+signed is not where its office has authority.
+
+`issued_at` is the city in the signature block, "صدر في مدينة بنغازي". It is
+resolved against the concordance and written to `issued_at_shabiya_*`.
+
+`office_shabiya_*` is the territory the office covers, read from the subject.
+Almost nothing lands there, and that is the finding rather than a failure: these
+are national offices. Of the 109 decisions, the subjects name no Libyan place at
+all. A place is accepted only when it is one of the 22 shabiyat, or when a
+place-signalling word (بلدية, مدينة, منطقة, محلة, شعبية) stands immediately
+before it. Without that rule المحكمة العليا matches العليا, a mahalla in Jabal
+al Gharbi, and six national court decisions acquire a false province.
+
+`office_scope` codes what kind of office it is: `bilateral` for the
+parliamentary friendship committees, which are territorial only in naming
+another country; `subnational` where a Libyan place resolves; `national`
+otherwise.
+
 Outputs, all under data/processed/gazette/:
   gazette_issues.csv        one row per issue
   gazette_decisions.csv     one row per decision, appointments flagged
@@ -64,7 +85,7 @@ import csv
 import json
 import re
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import pdfplumber
@@ -74,7 +95,8 @@ from arabic_text import normalise_name, to_logical  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw" / "gazette"
-OUT = ROOT / "data" / "processed" / "gazette"
+PROCESSED = ROOT / "data" / "processed"
+OUT = PROCESSED / "gazette"
 
 # "قرار رئيس مجلس النواب رقم (73) لسنة 2024م", and the same with the definite
 # article, "القانون رقم ( 29) لسنة 2023م", brackets sometimes padded.
@@ -104,6 +126,17 @@ ACTS = {
 ROLE_WORDS = ("رئيس", "رئيسا", "عضو", "عضوا", "وكيل", "مستشار", "نائب", "محافظ",
               "مدير", "امين", "وزير", "عميد", "قائد", "سفير", "مندوب", "المحامي")
 
+# "صدر في مدينة بنغازي" at the foot of a decision.
+ISSUED_AT = re.compile(r"^صدر\s+(?:يف|في|فى)\s+(?:ب?مدينة\s+)?(.{2,30}?)\s*[.،:]?\s*$")
+# A place name in a subject counts only after one of these, unless it is a
+# shabiya. Otherwise المحكمة العليا reads as the mahalla العليا.
+PLACE_MARKERS = ("بلدية", "مدينة", "منطقة", "محلة", "شعبية", "بلديات", "مدن")
+# Foreign adjectives in the parliamentary friendship committees.
+BILATERAL = ("المغربية", "اإليطالية", "الإيطالية", "الربيطانية", "البريطانية",
+             "الرتكية", "التركية", "املرصية", "المصرية", "الفرنسية", "األملانية",
+             "الألمانية", "الروسية", "الصينية", "التونسية", "اجلزائرية",
+             "الجزائرية", "اإلسبانية", "الإسبانية", "اإلماراتية", "الإماراتية")
+
 ORDINALS = {"الأول": 1, "األول": 1, "الثاني": 2, "الثالث": 3, "الرابع": 4,
             "الخامس": 5, "اخلامس": 5, "السادس": 6, "السابع": 7, "الثامن": 8,
             "التاسع": 9, "العاشر": 10, "الحادي": 11, "الثاني عشر": 12,
@@ -125,6 +158,92 @@ def fold(text):
     text = text.replace("ة", "ه")
     text = re.sub(r"\s+", "", text)
     return text.replace("لا", "ال")
+
+
+def anagram(text):
+    """Letters of the folded form, sorted.
+
+    The gazette's fonts transpose letters inside a word: طبرق prints as طربق and
+    المغربية as املغربية, the same defect that gives جملس for مجلس. Sorting the
+    letters makes the match immune to it. Of the 658 anagram keys over the 663
+    place names only three collide, and those are excluded, so the fallback
+    never has to guess between two provinces.
+    """
+    return "".join(sorted(fold(text)))
+
+
+def gazetteer():
+    """Arabic place name to shabiya, from this repository's own concordance.
+
+    The 22 shabiyat, then the municipalities the concordance placed in one, then
+    the mahallas whose name occurs in exactly one shabiya. A mahalla name that
+    repeats nationally is left out: 86 of the 667 do, and a name that could mean
+    two provinces is worse than no name.
+    """
+    def read(name):
+        path = PROCESSED / name
+        if not path.exists():
+            sys.exit(f"missing {path}. Run scripts/build_concordance.py first.")
+        with path.open() as fh:
+            return list(csv.DictReader(fh))
+
+    places = {}
+    for row in read("concordance_shabiya.csv"):
+        places[fold(row["shabiya_ar"])] = (row["shabiya_ar"], row["shabiya_en"],
+                                           row["codab_pcode"], "shabiya")
+    by_arabic = {p[0]: p for p in places.values()}
+
+    for row in read("concordance_baladiya.csv"):
+        parent = by_arabic.get(row["shabiya_ar"])
+        if parent:
+            places.setdefault(fold(row["baladiya_ar"]),
+                              parent[:3] + ("baladiya",))
+
+    mahallas = read("concordance_mahalla.csv")
+    repeated = Counter(fold(r["mahalla_ar"]) for r in mahallas)
+    for row in mahallas:
+        key = fold(row["mahalla_ar"])
+        parent = by_arabic.get(row["shabiya_ar"])
+        if repeated[key] == 1 and parent:
+            places.setdefault(key, parent[:3] + ("mahalla",))
+
+    # Anagram index, minus the keys that two different places share.
+    by_anagram = defaultdict(set)
+    for key in places:
+        by_anagram[anagram(key)].add(places[key][0])
+    scrambled = {a: next(iter(s)) for a, s in by_anagram.items() if len(s) == 1}
+    scrambled = {a: places[next(k for k in places if anagram(k) == a)]
+                 for a in scrambled}
+    return places, {k for k, v in places.items() if v[3] == "shabiya"}, scrambled
+
+
+def locate(text, places, shabiya_keys, scrambled=None, require_marker=True):
+    """Find a Libyan place in free Arabic text.
+
+    Longest phrase first, so وادي الشاطئ is not shadowed by وادي. Outside the 22
+    shabiyat a match needs a place-signalling word immediately before it, which
+    is what keeps المحكمة العليا from reading as a mahalla. A phrase that fails
+    the exact match is tried once more on its anagram, which recovers the names
+    the fonts transposed.
+    """
+    scrambled = scrambled or {}
+    words = [w for w in re.split(r"[\s،,./()\"'\u201c\u201d]+", str(text)) if w]
+    for size in range(4, 0, -1):
+        for start in range(len(words) - size + 1):
+            phrase = " ".join(words[start:start + size])
+            key = fold(phrase)
+            if len(key) < 4:
+                continue
+            found = places.get(key) or scrambled.get(anagram(phrase))
+            if not found:
+                continue
+            exact = key in places
+            if (exact and key in shabiya_keys) or not require_marker:
+                return found, phrase
+            before = fold(words[start - 1]) if start else ""
+            if any(fold(marker) in before for marker in PLACE_MARKERS):
+                return found, phrase
+    return None, ""
 
 
 def act_of(subject):
@@ -289,6 +408,15 @@ def split_decisions(lines):
     return [b for b in blocks if b["subject"] or b["number"]]
 
 
+def issued_at(block):
+    """The city named in the signature block, "صدر في مدينة بنغازي"."""
+    for line in block["lines"][-SIGNATURE_TAIL:]:
+        found = ISSUED_AT.match(line)
+        if found:
+            return normalise_name(found.group(1))
+    return ""
+
+
 def dates_in(block, issue_year=0):
     """The Gregorian and Hijri dates the decision is signed with.
 
@@ -320,6 +448,10 @@ def main():
     manifest = json.loads(manifest_path.read_text())
     authority = manifest["publishing_authority"]
 
+    places, shabiya_keys, scrambled = gazetteer()
+    print(f"gazetteer: {len(places)} Arabic place names, "
+          f"{len(shabiya_keys)} of them shabiyat")
+
     issues, decisions, appointments = [], [], []
     seen, scans = {}, 0
     for entry in manifest["issues"]:
@@ -350,6 +482,17 @@ def main():
             act, act_en = act_of(block["subject"])
             published_year = int((date or entry["date"][:10])[:4])
             gregorian, hijri = dates_in(block, published_year)
+            city = issued_at(block)
+            where, _ = locate(city, places, shabiya_keys, scrambled,
+                              require_marker=False)
+            office, office_token = locate(block["subject"], places, shabiya_keys,
+                                          scrambled)
+            # Foreign adjectives are matched on the anagram too, because the
+            # fonts scramble المغربية into املغربية.
+            subject_words = {anagram(w) for w in block["subject"].split()}
+            scope = ("bilateral"
+                     if subject_words & {anagram(w) for w in BILATERAL}
+                     else "subnational" if office else "national")
             record = {
                 "issue_id": entry["id"], "issue_number": number, "issue_year": year,
                 "issue_date": date or entry["date"][:10],
@@ -362,6 +505,15 @@ def main():
                 "act_ar": act, "act_en": act_en,
                 "is_appointment": int(bool(act)),
                 "signed_gregorian": gregorian, "signed_hijri": hijri,
+                "issued_at": city,
+                "issued_at_shabiya_ar": where[0] if where else "",
+                "issued_at_shabiya_en": where[1] if where else "",
+                "issued_at_shabiya_pcode": where[2] if where else "",
+                "office_scope": scope,
+                "office_shabiya_ar": office[0] if office else "",
+                "office_shabiya_en": office[1] if office else "",
+                "office_shabiya_pcode": office[2] if office else "",
+                "office_place_matched_on": office_token,
                 "publishing_authority": authority,
                 "source_document": entry["title"],
                 "source_sha256": entry["sha256"],
@@ -434,6 +586,17 @@ def report(issues, decisions, appointments, scans):
     print(f"{reprinted} decisions printed in more than one issue, kept once")
     bodies = Counter(d["issuing_body"] for d in decisions if d["issuing_body"])
     print("issuing bodies: ", dict(bodies.most_common(6)))
+    print("issued at:      ",
+          dict(Counter(d["issued_at"] for d in decisions if d["issued_at"])
+               .most_common(6)))
+    placed = sum(1 for d in decisions if d["issued_at_shabiya_en"])
+    print(f"{placed} of {len(decisions)} decisions place their signature in a shabiya",
+          dict(Counter(d["issued_at_shabiya_en"] for d in decisions
+                       if d["issued_at_shabiya_en"])))
+    print("office scope:   ", dict(Counter(d["office_scope"] for d in decisions)))
+    territorial = [d for d in decisions if d["office_shabiya_en"]]
+    print(f"{len(territorial)} decisions name a Libyan place in the office itself",
+          dict(Counter(d["office_shabiya_en"] for d in territorial)))
     print("next: python3 scripts/validate.py")
 
 

@@ -470,6 +470,33 @@ if (gz_dir / "gazette_decisions.csv").exists():
     else:
         print(f"  [ok ] {len(signed)} decisions carry a signature date, all plausible")
 
+    # Anything placed on the map must be one of the 22 shabiyat, and the two
+    # geographies must stay apart: where a decision was signed is not where its
+    # office has authority.
+    for column, label in (("issued_at_shabiya_en", "signature"),
+                          ("office_shabiya_en", "office")):
+        named = gz_decisions[gz_decisions[column].notna()]
+        outside = set(named[column]) - set(cross.shabiya_en)
+        if outside:
+            failures.append(f"gazette: {label} shabiyat outside the concordance: "
+                            f"{outside}")
+            print(f"  [FAIL] {len(outside)} {label} shabiyat not in the concordance")
+        else:
+            print(f"  [ok ] {len(named)} of {len(gz_decisions)} decisions carry a "
+                  f"{label} shabiya, all from the concordance")
+
+    scopes = {"national", "subnational", "bilateral"}
+    unknown = set(gz_decisions.office_scope) - scopes
+    mismatch = gz_decisions[(gz_decisions.office_scope == "subnational")
+                            & gz_decisions.office_shabiya_en.isna()]
+    if unknown or len(mismatch):
+        failures.append(f"gazette: office_scope {unknown or 'subnational with no place'}")
+        print(f"  [FAIL] office_scope values {unknown}, "
+              f"{len(mismatch)} subnational rows with no place")
+    else:
+        print(f"  [ok ] every decision carries a documented office_scope: "
+              f"{gz_decisions.office_scope.value_counts().to_dict()}")
+
     acts = gz_decisions[gz_decisions.act_en.notna()].act_en.value_counts().to_dict()
     notes.append(f"gazette: {int(gz_decisions.is_appointment.sum())} of "
                  f"{len(gz_decisions)} decisions are appointments {acts}; "
