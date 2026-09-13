@@ -11,7 +11,7 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
-**Phase 2 — extraction.** Thirty-five datasets built from the two highest-value
+**Phase 2 — extraction.** Thirty-seven datasets built from the two highest-value
 Libyan sources, with a validation suite. See
 [`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
 
@@ -38,6 +38,8 @@ Libyan sources, with a validation suite. See
 | **HNEC polling-centre register** | 2021, 24 electoral regions | 1,908 |
 | HNEC municipality by polling centre | 2024 and 2025, 13 documents | 754 |
 | Baladiya concordance | 129 municipalities, 100 placed | 129 |
+| **Gazette appointments** | HoR gazette, 2023–2026, 16 decisions | 39 |
+| Gazette decisions | 50 issues, laws and decisions | 109 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
 | Libyan designations, from OpenSanctions | 44 authorities | 2,286 |
@@ -133,6 +135,22 @@ romanised names, of which only 7 of 22 match the census's, so
 `concordance_shabiya.csv` maps all 22 both ways. The units share names but not
 boundaries — Libya reorganised after 2006 — so the concordance matches units by
 identity, not territory, and says so.
+
+**The gazette names appointments, and the gazette is one side of a state.** The
+House of Representatives has published its own Official Gazette since January
+2023, and its 50 issues to August 2026 yield 109 laws and decisions, 16 of them
+appointments: the chairman of the Supreme Judicial Council, the head of the
+Administrative Control Authority, the deputy head of the Audit Bureau, the
+members of the elections commission, and eight parliamentary committees. 29 of
+the 39 appointment rows name a person. It carries no Tripoli appointments at
+all, so every row records its publishing authority, and reading this as a
+national record would measure the eastern institutions alone.
+
+Getting it out needed three things the page hides. Each page's text comes out
+bottom line first, so lines are reversed before anything else. Libyan statutory
+prose is full of `بشأن` inside articles citing other laws, so subject detection
+stops where the articles start, or one law becomes five. And the gazette
+reprints: 21 of the 109 decisions appear in more than one issue.
 
 **The sanctions record has almost no Libyan network in it.** OpenSanctions holds
 710,657 politically exposed persons and 293,095 sanctioned entities worldwide.

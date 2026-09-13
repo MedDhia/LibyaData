@@ -360,7 +360,7 @@ if anchors_path.exists():
               f"{int((anchors.match_status == 'ambiguous').sum())} left ambiguous")
 
 # ---------------------------------------------------------------- OpenSanctions
-os_dir = OUT.parent / "external" / "opensanctions"
+os_dir = OUT.parent / "external" / "sanctions"
 if (os_dir / "libya_entities.csv").exists():
     print("\nOpenSanctions, Libyan subgraph")
     nodes = pd.read_csv(os_dir / "libya_entities.csv")
@@ -421,6 +421,59 @@ if (os_dir / "libya_entities.csv").exists():
     notes.append(f"opensanctions: {len(placed)} of {len(nodes)} nodes carry a shabiya; "
                  f"{len(designations)} designations by "
                  f"{designations.authority.nunique()} authorities")
+
+# -------------------------------------------------------------------- Gazette
+gz_dir = OUT / "gazette"
+if (gz_dir / "gazette_decisions.csv").exists():
+    print("\nOfficial Gazette, House of Representatives")
+    gz_issues = pd.read_csv(gz_dir / "gazette_issues.csv")
+    gz_decisions = pd.read_csv(gz_dir / "gazette_decisions.csv")
+    gz_appointments = pd.read_csv(gz_dir / "gazette_appointments.csv")
+
+    # Every decision must come from an issue the manifest lists.
+    known = set(gz_issues.issue_id)
+    stray = set(gz_decisions.issue_id) - known
+    if stray:
+        failures.append(f"gazette: {len(stray)} decisions cite an unknown issue")
+        print(f"  [FAIL] {len(stray)} decisions cite an issue not in the manifest")
+    else:
+        read = int((gz_issues.read_by == "text").sum())
+        print(f"  [ok ] {len(gz_issues)} issues, {read} with a text layer, "
+              f"{len(gz_decisions)} decisions, every one from a listed issue")
+
+    # An appointment row must be flagged as one and name an act.
+    bad = gz_appointments[(gz_appointments.is_appointment != 1)
+                          | gz_appointments.act_en.isna()]
+    if len(bad):
+        failures.append(f"gazette: {len(bad)} appointment rows carry no act")
+        print(f"  [FAIL] {len(bad)} appointment rows are not flagged or name no act")
+    else:
+        named = int(gz_appointments.person_name.notna().sum())
+        print(f"  [ok ] {len(gz_appointments)} appointment rows, all flagged and "
+              f"acted, {named} carrying a personal name")
+
+    # The dataset is one side of a split state, and must say so on every row.
+    if gz_decisions.publishing_authority.nunique() != 1:
+        failures.append("gazette: rows disagree on the publishing authority")
+        print("  [FAIL] more than one publishing authority in one file")
+    else:
+        print(f"  [ok ] every row names its publishing authority: "
+              f"{gz_decisions.publishing_authority.iloc[0]}")
+
+    # A signed date, where printed, must fall inside the issue's own year.
+    signed = gz_decisions[gz_decisions.signed_gregorian.notna()]
+    years = pd.to_datetime(signed.signed_gregorian, errors="coerce").dt.year
+    outside = int(((years < 2011) | (years > 2027)).sum())
+    if outside:
+        failures.append(f"gazette: {outside} signature dates outside 2011-2027")
+        print(f"  [FAIL] {outside} signature dates fall outside 2011-2027")
+    else:
+        print(f"  [ok ] {len(signed)} decisions carry a signature date, all plausible")
+
+    acts = gz_decisions[gz_decisions.act_en.notna()].act_en.value_counts().to_dict()
+    notes.append(f"gazette: {int(gz_decisions.is_appointment.sum())} of "
+                 f"{len(gz_decisions)} decisions are appointments {acts}; "
+                 f"House of Representatives only, not the Tripoli government")
 
 print()
 for n in notes:

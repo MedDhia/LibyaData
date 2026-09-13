@@ -21,7 +21,7 @@ in it. Betweenness is exact, which is affordable at this size.
 **Licence: CC BY-NC 4.0**, inherited from OpenSanctions. See the NOTICE beside
 the output.
 
-Outputs, under data/external/opensanctions/:
+Outputs, under data/external/sanctions/:
   libya_network.gexf          nodes and edges with attributes and centrality
   libya_network_nodes.csv     the node table with centrality columns added
 """
@@ -34,7 +34,7 @@ from collections import Counter, defaultdict, deque
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "external" / "opensanctions"
+OUT = ROOT / "data" / "external" / "sanctions"
 
 # Node attributes carried into the graph file.
 ATTRIBUTES = [

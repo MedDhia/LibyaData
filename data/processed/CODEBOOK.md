@@ -29,6 +29,9 @@ python3 scripts/build_concordance.py
 python3 scripts/download_opensanctions.py
 python3 scripts/extract_opensanctions_libya.py
 python3 scripts/export_libya_network.py
+
+python3 scripts/download_gazette.py
+python3 scripts/extract_gazette_appointments.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -506,6 +509,111 @@ substitute Latin letters into Arabic words.
 
 ---
 
+## Official Gazette — appointments
+
+---
+
+### `data/processed/gazette/` — 50 issues, 109 decisions, 16 appointments
+
+The Official Gazette published by the House of Representatives, mirrored by
+`scripts/download_gazette.py` and read by
+`scripts/extract_gazette_appointments.py`. 50 issues, February 2023 to August
+2026, 46 with a usable text layer and 4 page scans that are counted and skipped.
+
+**This is one side of a split state, and it is a property of the data, not a
+caveat.** الجريدة الرسمية, دولة ليبيا, ديوان مجلس النواب, printed "نُشرت بأمر
+رئيس مجلس النواب", statutory basis Law 8 of 2011 as amended by Law 10 of 2022.
+It began in January 2023 and records decisions of the House, its Presidency
+Board and its Speaker, Supreme Constitutional Court judgments, decisions of the
+House-appointed Council of Ministers, and public notices. It does **not** record
+the Tripoli government's appointments. Every row carries `publishing_authority`,
+and an analysis that reads this as a national appointments record will be
+measuring the eastern institutions alone. The Government of National Unity's own
+channel is a spam-injected placeholder; see `sources/access_notes.md`.
+
+#### Reading order, which is the thing that breaks first
+
+Each page's text layer comes out bottom line first, so lines are reversed per
+page before anything else. Left alone, every decision appears to end before it
+begins, and the signature date reads as the issue date.
+
+#### `gazette_decisions.csv` — 109 decisions
+
+A decision opens on a title line, `قرار <authority> رقم (73) لسنة 2024م`, with or
+without the definite article, and is followed by a subject line beginning `بشأن`
+or `في شأن`. Either can be missing: 15 of the 109 have no printed title, because
+some issues set it as an image, and those keep the subject with the number left
+empty.
+
+Columns: `issue_id`, `issue_number`, `issue_year`, `issue_date`, `page`,
+`decision_kind` (قانون or قرار), `issuing_body`, `decision_number`,
+`decision_year`, `subject`, `act_ar`, `act_en`, `is_appointment`,
+`signed_gregorian`, `signed_hijri`, `printed_in_issues`, `publishing_authority`,
+`source_document`, `source_sha256`.
+
+Two traps are handled and both are visible in the counts. Libyan statutory prose
+is full of `بشأن` inside an article citing another law, so subject detection
+stops once the articles begin; without that, one law becomes five. And the
+gazette reprints: 21 of the 109 decisions appear in more than one issue,
+sometimes as a corrected re-upload, so they are kept once with
+`printed_in_issues` recording how often they were printed.
+
+`signed_gregorian` is read from the last 14 lines of the block and only accepted
+within four years of the issue. A decision's preamble cites the laws it rests
+on, some from the 1960s, and the first date in the block is as likely to be one
+of those: the check caught exactly that, a 1962 citation read as a 2023
+signature.
+
+#### `gazette_appointments.csv` — 39 rows, 16 decisions
+
+An appointment is a decision whose subject performs one of nine acts. The fonts
+transpose letters, printing تعيني for تعيين and جملس for مجلس, so matching runs
+on the same fold the concordance uses rather than on the literal string.
+
+| `act_en` | `act_ar` | Decisions |
+|---|---|---|
+| `committee_formation` | تشكيل | 8 |
+| `assignment` | تكليف | 4 |
+| `naming` | تسمية | 3 |
+| `appointment` | تعيين | 1 |
+| `secondment`, `promotion`, `removal`, `termination`, `renewal` | ندب, ترقية, إعفاء, إنهاء, تجديد | 0 |
+
+What the 16 cover: the chairman of the Supreme Judicial Council, the head of the
+Administrative Control Authority, the deputy head of the Audit Bureau, the chair
+of the Wadi al Hareer special economic zone, the head and two deputies of the
+Hajj and Umrah Authority, the members of the High National Elections Commission,
+and eight parliamentary friendship and oversight committees.
+
+Columns are the decision's, plus `person_name`, `person_key` and `person_line`.
+
+**Names.** Taken from the honorific `السيد /` or `السيدة /`, alone or in a
+numbered list. 29 of the 39 rows carry one; a decision naming nobody still
+produces a row, so the count of appointment decisions is not distorted by name
+extraction failing. Three repairs run first: a lone letter split off its word by
+the font is rejoined (منصو ر becomes منصور, with an alef joining forward because
+it starts the definite article); academic and military titles are stripped, so
+د سلطنة مسعود and سلطنة مسعود are one person; and a span carrying an unmapped
+glyph is discarded rather than half-read.
+
+Role words are cut on the space-free concatenation, not on whole tokens, because
+the fonts split those too: عض وا is عضوا and رئي سا is رئيسا, and cutting on
+tokens alone leaves the role stuck to the name.
+
+Two-letter fragments are **not** rejoined, because بن and أبو are real, so a few
+names keep an internal split: إسماع يل for إسماعيل, السنو يس for السنوسي.
+`person_key` exists for exactly that. It is the name folded and stripped of
+spaces, so the split and unsplit forms join to each other, and it is what to
+match on. `person_name` is what the page prints. `person_line` is the whole
+line, so every extracted name can be checked against the source.
+
+#### `gazette_issues.csv` — 50 issues
+
+`issue_number`, `issue_year` (the gazette counts in years since 2023, not
+calendar years), `issue_date`, `published`, `pages_with_text`, `decisions`,
+`appointments`, `read_by` (`text` or `scan_no_text_layer`), `source_sha256`.
+
+---
+
 ## External data
 
 ---
@@ -567,7 +675,7 @@ source document with its date and SHA-256.
 HNEC also publishes 2,404 `قوائم الناخبين` voter lists naming individual
 registered voters. Those are deliberately not downloaded or ingested.
 
-### `data/external/opensanctions/` — the Libyan subgraph, 702 nodes
+### `data/external/sanctions/` — the Libyan subgraph, 702 nodes
 
 The Libyan part of OpenSanctions, cut locally from the two global bulk
 collections because no country subset is published: 1.9m PEP entities and 293k

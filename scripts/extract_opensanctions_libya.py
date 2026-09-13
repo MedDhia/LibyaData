@@ -68,10 +68,10 @@ alias table for the romanisations that recur in sanctions lists (Misurata,
 Misratah, Tarabulus, Banghazi, Surt). A match assigns the shabiya and its COD-AB
 pcode; anything else is left empty rather than guessed, and the rate is reported.
 
-**Licence: CC BY-NC 4.0**, so output goes to `data/external/opensanctions/`
+**Licence: CC BY-NC 4.0**, so output goes to `data/external/sanctions/`
 beside a NOTICE, not into `data/processed/`.
 
-Outputs, all under data/external/opensanctions/:
+Outputs, all under data/external/sanctions/:
   libya_entities.csv    one row per node, coded
   libya_edges.csv       one row per relationship
   libya_positions.csv   one row per person, office and spell
@@ -90,7 +90,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw" / "opensanctions"
-OUT = ROOT / "data" / "external" / "opensanctions"
+OUT = ROOT / "data" / "external" / "sanctions"
 PROCESSED = ROOT / "data" / "processed"
 
 COLLECTIONS = ("peps", "sanctions")

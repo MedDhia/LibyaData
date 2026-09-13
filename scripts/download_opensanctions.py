@@ -20,7 +20,7 @@ Ownership, Family and Occupancy records that link them. That is what makes a
 network extractable from these files and not from the flat `targets.simple.csv`.
 
 **Licence: CC BY-NC 4.0.** Non-commercial, attribution required. The output is
-written under `data/external/opensanctions/` rather than `data/processed/`, with
+written under `data/external/sanctions/` rather than `data/processed/`, with
 a NOTICE beside it, for the same reason the GADM-derived nighttime lights and the
 ODbL OpenStreetMap anchors are kept there.
 

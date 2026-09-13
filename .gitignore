@@ -27,3 +27,7 @@ data/raw/hnec/card_distribution/
 # SHA-256 of every file are recorded in data/raw/opensanctions/manifest.json.
 data/raw/opensanctions/*.json
 !data/raw/opensanctions/manifest.json
+
+# Official Gazette issues, re-downloadable by scripts/download_gazette.py.
+# SHA-256 of every issue is recorded in data/raw/gazette/manifest.json.
+data/raw/gazette/*.pdf
