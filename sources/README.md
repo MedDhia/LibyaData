@@ -9,6 +9,11 @@ before any external re-coding is applied.
 Machine-readable version: [`libyan_sources.csv`](libyan_sources.csv) — 40 institutions, 18 fields.
 Access and retrieval problems are documented in [`access_notes.md`](access_notes.md).
 
+The external, open-source layer is inventoried separately in
+[`osint_sources.csv`](osint_sources.csv) and [`osint_README.md`](osint_README.md): 32 producers
+probed 2026-09-12, covering conflict events, displacement, imagery analysis, sanctions and PEP
+records, network measurement, transport tracking and news corpora.
+
 All entries were probed on **2026-09-09**. The `access_status` and `verified_2026_09_09` fields
 record what was actually observed, not what the institution claims.
 

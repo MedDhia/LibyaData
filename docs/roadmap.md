@@ -6,6 +6,15 @@
 
 ## Phase 2 — Complete the source map
 
+**2.0 Open-source intelligence producers — done.** 32 producers inventoried and probed 2026-09-12.
+Output in `sources/osint_sources.csv` and `sources/osint_README.md`: conflict events, displacement,
+imagery analysis, sanctions and PEP records, network measurement, transport tracking, and news
+corpora. 20 answer openly, 9 need a free registration key, 1 blocks datacenter addresses, and
+`libyancrimeswatch.org` has been repurposed into a fingerprinting redirect and is no longer the
+organisation's site. The two to take first are IOM's Displacement Tracking Matrix, which assesses
+IDPs and returnees at the same baladiya and mahalla level this repository has already harmonised,
+and the OpenSanctions bulk files, which carry the UN and OFAC Libya designations already resolved.
+
 **2.1 International and multilateral producers.** World Bank WDI, IMF (Article IV and IFS), UN
 Statistics, UNDP, UNHCR, IOM Displacement Tracking Matrix, OCHA HDX, WHO, FAO, OPEC, EIA, ACLED,
 UCDP, V-Dem, Afrobarometer and Arab Barometer where Libya is covered. Each needs the same fields as

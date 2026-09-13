@@ -55,6 +55,14 @@ scripts/validate.py` re-checks the results.
 - [`sources/access_notes.md`](sources/access_notes.md) — what is blocked, what is broken, what is
   compromised, and how to reproduce the reachability check.
 
+32 open-source intelligence producers inventoried and probed on 2026-09-12:
+
+- [`sources/osint_sources.csv`](sources/osint_sources.csv) — conflict events, displacement, imagery
+  analysis, sanctions and PEP records, network measurement, transport tracking and news corpora, 19
+  fields per producer including the endpoint probed and the result it returned.
+- [`sources/osint_README.md`](sources/osint_README.md) — where the value is, what to be careful
+  about, and which access models changed.
+
 ## What the data shows
 
 Every one of the ten accounting identities inside the Central Bank's monetary

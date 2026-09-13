@@ -48,6 +48,24 @@ corroboration, do not follow outbound links from it, and record the compromise d
 anything already collected from it. Libyan tax law texts should be sourced from the Official
 Gazette on parliament.ly instead.
 
+## Domain repurposed
+
+**libyancrimeswatch.org** no longer serves Libyan Crimes Watch. As of 2026-09-12 it returns a
+FingerprintJS script that redirects the visitor with a tracking UUID (`?tr_uuid=...&fp=`). The
+organisation's documentation of enforced disappearance and detention is not there.
+
+Consequences: do not ingest from this host, do not cite it as the organisation, and treat anything
+already collected from it after this date as untrusted. This is the second Libya-relevant domain in
+this inventory found in that state, after tax.gov.ly.
+
+## Compromised placeholder
+
+**pm.gov.ly**, the Government of National Unity site, serves a "الموقع تحت التطوير" placeholder with
+an injected SEO link farm: a repeated gambling brand string and 189 outbound hosts. Cabinet
+decisions are not published there. The government's decisions are at gnu.gov.ly instead, behind a
+WordPress REST API with renamed paths (`/lefunot/` for wp-json), carrying 648 decision records
+dated 2021 to September 2024, titles only with no body text and no attached PDF.
+
 ## Dead endpoint
 
 **lsm.gov.ly** (Libyan Stock Market) 301-redirects to `http://41.208.106.218/`, which serves
