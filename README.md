@@ -11,7 +11,7 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
-**Phase 2 — extraction.** Thirty-seven datasets built from the two highest-value
+**Phase 2 — extraction.** Thirty-nine datasets built from the two highest-value
 Libyan sources, with a validation suite. See
 [`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
 
@@ -39,6 +39,8 @@ Libyan sources, with a validation suite. See
 | HNEC municipality by polling centre | 2024 and 2025, 13 documents | 754 |
 | Baladiya concordance | 129 municipalities, 100 placed | 129 |
 | **Gazette appointments** | HoR gazette, 2023–2026, 16 decisions | 39 |
+| **Municipal councils formed** | HNEC, 2026, all placed in a shabiya | 8 |
+| HNEC municipal decisions | 2024–2026, 15 act types | 53 |
 | Gazette decisions | 50 issues, laws and decisions | 109 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |

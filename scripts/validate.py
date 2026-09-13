@@ -502,6 +502,52 @@ if (gz_dir / "gazette_decisions.csv").exists():
                  f"{len(gz_decisions)} decisions are appointments {acts}; "
                  f"House of Representatives only, not the Tripoli government")
 
+# ---------------------------------------------------- Municipal councils, HNEC
+mun_dir = OUT / "municipal"
+if (mun_dir / "municipal_councils.csv").exists():
+    print("\nMunicipal councils, HNEC")
+    mun_decisions = pd.read_csv(mun_dir / "municipal_decisions.csv")
+    mun_councils = pd.read_csv(mun_dir / "municipal_councils.csv")
+
+    # Every council must come from a decision in the decision table.
+    keys = set(zip(mun_decisions.decision_number, mun_decisions.decision_year))
+    stray = set(zip(mun_councils.decision_number,
+                    mun_councils.decision_year)) - keys
+    if stray:
+        failures.append(f"municipal: {len(stray)} councils cite an unlisted decision")
+        print(f"  [FAIL] {len(stray)} councils cite a decision not in the table")
+    else:
+        print(f"  [ok ] {len(mun_decisions)} decisions, {len(mun_councils)} councils "
+              f"formed, every council from a listed decision")
+
+    # Unlike the gazette, this record is subnational: a council with no shabiya
+    # is a gap worth seeing, not a normal row.
+    placed = mun_councils[mun_councils.shabiya_en.notna()]
+    outside = set(placed.shabiya_en) - set(cross.shabiya_en)
+    if outside:
+        failures.append(f"municipal: shabiyat outside the concordance: {outside}")
+        print(f"  [FAIL] {len(outside)} shabiyat not in the concordance")
+    else:
+        print(f"  [ok ] {len(placed)} of {len(mun_councils)} councils resolve to a "
+              f"shabiya, all from the concordance "
+              f"{placed.shabiya_en.value_counts().to_dict()}")
+
+    # The member names are not in the data, and the row must say so.
+    if int(mun_councils.members_listed.sum()) or mun_councils.scan_url.isna().any():
+        failures.append("municipal: a council claims members or has no scan")
+        print("  [FAIL] members_listed is not zero, or a council has no scan url")
+    else:
+        print(f"  [ok ] all {len(mun_councils)} councils record members_listed=0 "
+              f"and point at the scan HNEC published")
+
+    coded = mun_decisions[mun_decisions.act_en.notna()]
+    grouped = mun_decisions[mun_decisions.electoral_group.notna()]
+    notes.append(f"municipal: {len(mun_councils)} councils formed; "
+                 f"{len(grouped)} of {len(mun_decisions)} decisions name an electoral "
+                 f"group, none of them a formation decision; "
+                 f"{len(mun_decisions) - len(coded)} decisions carry no act in their "
+                 f"title; member names are page scans and are not extracted")
+
 print()
 for n in notes:
     print(f"note: {n}")

@@ -92,11 +92,12 @@ import pdfplumber
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from arabic_text import normalise_name, to_logical  # noqa: E402
+from libya_places import (PLACE_MARKERS, anagram, fold, gazetteer,  # noqa: E402
+                          locate)
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw" / "gazette"
-PROCESSED = ROOT / "data" / "processed"
-OUT = PROCESSED / "gazette"
+OUT = ROOT / "data" / "processed" / "gazette"
 
 # "قرار رئيس مجلس النواب رقم (73) لسنة 2024م", and the same with the definite
 # article, "القانون رقم ( 29) لسنة 2023م", brackets sometimes padded.
@@ -128,9 +129,6 @@ ROLE_WORDS = ("رئيس", "رئيسا", "عضو", "عضوا", "وكيل", "مس�
 
 # "صدر في مدينة بنغازي" at the foot of a decision.
 ISSUED_AT = re.compile(r"^صدر\s+(?:يف|في|فى)\s+(?:ب?مدينة\s+)?(.{2,30}?)\s*[.،:]?\s*$")
-# A place name in a subject counts only after one of these, unless it is a
-# shabiya. Otherwise المحكمة العليا reads as the mahalla العليا.
-PLACE_MARKERS = ("بلدية", "مدينة", "منطقة", "محلة", "شعبية", "بلديات", "مدن")
 # Foreign adjectives in the parliamentary friendship committees.
 BILATERAL = ("المغربية", "اإليطالية", "الإيطالية", "الربيطانية", "البريطانية",
              "الرتكية", "التركية", "املرصية", "المصرية", "الفرنسية", "األملانية",
@@ -143,107 +141,6 @@ ORDINALS = {"الأول": 1, "األول": 1, "الثاني": 2, "الثالث":
             "الثالث عشر": 13, "الرابع عشر": 14, "الخامس عشر": 15,
             "السادس عشر": 16, "السابع عشر": 17, "الثامن عشر": 18,
             "الأولى": 1, "األوىل": 1, "الثانية": 2, "الثالثة": 3, "الرابعة": 4}
-
-
-def fold(text):
-    """Fold the spelling drift and the fonts' letter transpositions.
-
-    The same fold `build_concordance.join_key` uses, minus the article strip:
-    alef and ya variants, ta marbuta, spacing, and lam-alef written the wrong
-    way round. It turns تعيني into تعيين and جملس into مجلس-adjacent forms.
-    """
-    text = normalise_name(str(text))
-    text = re.sub(r"[إأآا]", "ا", text)
-    text = re.sub(r"[ىي]", "ي", text)
-    text = text.replace("ة", "ه")
-    text = re.sub(r"\s+", "", text)
-    return text.replace("لا", "ال")
-
-
-def anagram(text):
-    """Letters of the folded form, sorted.
-
-    The gazette's fonts transpose letters inside a word: طبرق prints as طربق and
-    المغربية as املغربية, the same defect that gives جملس for مجلس. Sorting the
-    letters makes the match immune to it. Of the 658 anagram keys over the 663
-    place names only three collide, and those are excluded, so the fallback
-    never has to guess between two provinces.
-    """
-    return "".join(sorted(fold(text)))
-
-
-def gazetteer():
-    """Arabic place name to shabiya, from this repository's own concordance.
-
-    The 22 shabiyat, then the municipalities the concordance placed in one, then
-    the mahallas whose name occurs in exactly one shabiya. A mahalla name that
-    repeats nationally is left out: 86 of the 667 do, and a name that could mean
-    two provinces is worse than no name.
-    """
-    def read(name):
-        path = PROCESSED / name
-        if not path.exists():
-            sys.exit(f"missing {path}. Run scripts/build_concordance.py first.")
-        with path.open() as fh:
-            return list(csv.DictReader(fh))
-
-    places = {}
-    for row in read("concordance_shabiya.csv"):
-        places[fold(row["shabiya_ar"])] = (row["shabiya_ar"], row["shabiya_en"],
-                                           row["codab_pcode"], "shabiya")
-    by_arabic = {p[0]: p for p in places.values()}
-
-    for row in read("concordance_baladiya.csv"):
-        parent = by_arabic.get(row["shabiya_ar"])
-        if parent:
-            places.setdefault(fold(row["baladiya_ar"]),
-                              parent[:3] + ("baladiya",))
-
-    mahallas = read("concordance_mahalla.csv")
-    repeated = Counter(fold(r["mahalla_ar"]) for r in mahallas)
-    for row in mahallas:
-        key = fold(row["mahalla_ar"])
-        parent = by_arabic.get(row["shabiya_ar"])
-        if repeated[key] == 1 and parent:
-            places.setdefault(key, parent[:3] + ("mahalla",))
-
-    # Anagram index, minus the keys that two different places share.
-    by_anagram = defaultdict(set)
-    for key in places:
-        by_anagram[anagram(key)].add(places[key][0])
-    scrambled = {a: next(iter(s)) for a, s in by_anagram.items() if len(s) == 1}
-    scrambled = {a: places[next(k for k in places if anagram(k) == a)]
-                 for a in scrambled}
-    return places, {k for k, v in places.items() if v[3] == "shabiya"}, scrambled
-
-
-def locate(text, places, shabiya_keys, scrambled=None, require_marker=True):
-    """Find a Libyan place in free Arabic text.
-
-    Longest phrase first, so وادي الشاطئ is not shadowed by وادي. Outside the 22
-    shabiyat a match needs a place-signalling word immediately before it, which
-    is what keeps المحكمة العليا from reading as a mahalla. A phrase that fails
-    the exact match is tried once more on its anagram, which recovers the names
-    the fonts transposed.
-    """
-    scrambled = scrambled or {}
-    words = [w for w in re.split(r"[\s،,./()\"'\u201c\u201d]+", str(text)) if w]
-    for size in range(4, 0, -1):
-        for start in range(len(words) - size + 1):
-            phrase = " ".join(words[start:start + size])
-            key = fold(phrase)
-            if len(key) < 4:
-                continue
-            found = places.get(key) or scrambled.get(anagram(phrase))
-            if not found:
-                continue
-            exact = key in places
-            if (exact and key in shabiya_keys) or not require_marker:
-                return found, phrase
-            before = fold(words[start - 1]) if start else ""
-            if any(fold(marker) in before for marker in PLACE_MARKERS):
-                return found, phrase
-    return None, ""
 
 
 def act_of(subject):
@@ -449,8 +346,8 @@ def main():
     authority = manifest["publishing_authority"]
 
     places, shabiya_keys, scrambled = gazetteer()
-    print(f"gazetteer: {len(places)} Arabic place names, "
-          f"{len(shabiya_keys)} of them shabiyat")
+    print(f"gazetteer: {len(places)} Arabic keys, article variants included, "
+          f"{len(shabiya_keys)} of them naming a shabiya")
 
     issues, decisions, appointments = [], [], []
     seen, scans = {}, 0

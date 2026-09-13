@@ -32,6 +32,9 @@ python3 scripts/export_libya_network.py
 
 python3 scripts/download_gazette.py
 python3 scripts/extract_gazette_appointments.py
+
+python3 scripts/download_hnec_municipal.py
+python3 scripts/extract_municipal_councils.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -629,27 +632,132 @@ another country; `subnational` where a Libyan place resolves; `national`
 otherwise. Across the 109 decisions that is 106 national and 3 bilateral, and
 none subnational.
 
-Matching runs against this repository's own concordance, 663 Arabic place names:
-the 22 shabiyat, the 91 municipalities the concordance placed in one, and the
-550 mahallas whose name occurs in exactly one shabiya. The 86 mahalla names that
-repeat nationally are left out, because a name that could mean two provinces is
-worse than no name.
+Matching runs through `scripts/libya_places.py`, which the municipal extractor
+shares, so the two officeholder datasets resolve a place name the same way and
+their outputs join. Its gazetteer is this repository's own concordance, 663
+Arabic place names: the 22 shabiyat, the 91 municipalities the concordance
+placed in one, and the 550 mahallas whose name occurs in exactly one shabiya.
+The 86 mahalla names that repeat nationally are left out, because a name that
+could mean two provinces is worse than no name.
 
-Two rules keep it honest. Outside the 22 shabiyat, a place is accepted only when
-a place-signalling word (بلدية, مدينة, منطقة, محلة, شعبية) stands immediately
-before it; without that rule المحكمة العليا matches العليا, a mahalla in Jabal
-al Gharbi, and six national court decisions acquire a false province. And a
-phrase that fails the exact match is retried on its **anagram**, the letters of
-the folded form sorted, because the fonts transpose letters inside a word: طبرق
+Four rules keep it honest, each added after the matching produced something
+false. A folded key shorter than four characters is accepted only when it is one
+of the 22 shabiyat, so سرت and غات resolve while بدر and درج, ordinary words
+that happen also to be mahallas, do not. Outside the 22 shabiyat, a place is
+accepted only when a place-signalling word (بلدية, مدينة, منطقة, محلة, شعبية)
+stands immediately before it; without that rule المحكمة العليا matches العليا, a
+mahalla in Jabal al Gharbi, and six national court decisions acquire a false
+province. Each name is aliased to its opposite definite-article form, since
+Libyan sources write the same municipality as الصياد and as صياد, but only where
+that form is not already another place and does not point at two. And a phrase
+that fails the exact match is retried on its **anagram**, the letters of the
+folded form sorted, because the fonts transpose letters inside a word: طبرق
 prints as طربق and المغربية as املغربية, the same defect that gives جملس for
-مجلس. Of the 658 anagram keys over the 663 names only three collide, and those
-are excluded, so the fallback never chooses between two provinces.
+مجلس. The 663 names yield 655 anagram keys; the few that collide are excluded,
+so the fallback never chooses between two provinces.
 
 #### `gazette_issues.csv` — 50 issues
 
 `issue_number`, `issue_year` (the gazette counts in years since 2023, not
 calendar years), `issue_date`, `published`, `pages_with_text`, `decisions`,
 `appointments`, `read_by` (`text` or `scan_no_text_layer`), `source_sha256`.
+
+---
+
+## Municipal councils — the subnational half
+
+---
+
+### `data/processed/municipal/` — 53 decisions, 8 councils formed
+
+HNEC's decisions on the municipal council elections, collected by
+`scripts/download_hnec_municipal.py` from the commission's news posts through
+the WordPress REST API and coded by `scripts/extract_municipal_councils.py`.
+686 posts, of which 53 are numbered commission decisions, June 2024 to February
+2026.
+
+**This is where the officeholder record acquires geography.** The Official
+Gazette resolves to no Libyan province at all: its offices are national. Every
+municipal decision names a baladiya, and all 8 councils formed resolve to a
+shabiya through the concordance: Benghazi 3, Marj 2, Butnan 1, Sabha 1, Sirte 1.
+
+#### What is missing, and why it is recorded as missing
+
+**The names of the elected members are not here.** HNEC publishes each decision
+as a page scan, a JPG in the post body or a PDF with no text layer; the group 1
+and group 2 final results run to 57 and 35 scanned pages. Reading them needs
+optical character recognition of Arabic, which this repository has tried and
+failed at on gridded Libyan documents. Every council row therefore carries
+`members_listed` = 0 and a `scan_url` pointing at what HNEC published, so the
+gap is stated and addressable rather than papered over. `validate.py` fails if a
+row ever claims members without them being there. `scan_url` is the full-size
+image, not the 212x300 copy the site's theme puts in the post body: the decision
+is only legible at full size, and the point of the column is that somebody can
+read it.
+
+#### `municipal_decisions.csv` — 53 decisions
+
+`decision_number`, `decision_year`, `decided`, `act_ar`, `act_en`,
+`electoral_group`, `municipalities_named`, `municipalities_ar`, `title`,
+`post_id`, `link`, `decision_text_available`, `scan_url`,
+`publishing_authority`.
+
+HNEC runs the rounds in numbered groups, and the decisions track the process
+around a council's formation, which is why they are kept: a formation date means
+little without the polling day and the results adoption it followed.
+
+| `act_en` | Decisions |
+|---|---|
+| `council_formation` | 8 |
+| `preliminary_results` | 6 |
+| `candidate_exclusion` | 5 |
+| `final_results` | 4 |
+| `polling_day` | 4 |
+| `campaign_start` | 3 |
+| `voter_registration`, `preliminary_candidate_list`, `final_candidate_list`, `round_launch`, `regulation_amendment`, `suspension` | 2 each |
+| `results_withheld`, `preliminary_voter_list` | 1 each |
+| uncoded | 9 |
+
+The 9 uncoded are decisions HNEC posted under a bare number with no subject in
+the title, such as "قرار مجلس المفوضية رقم (73) لسنة 2024م". The act is in the
+scan, not the title, so the column is left empty.
+
+`electoral_group` is 1, 2 or 3 where the title names it: 8, 10 and 8 decisions
+respectively, with 27 not naming a group. The formation decisions are among
+those, because they name the municipality instead.
+
+#### `municipal_councils.csv` — 8 councils
+
+One row per council constituted: `baladiya_ar`, `shabiya_ar`, `shabiya_en`,
+`shabiya_pcode`, `matched_level`, `decision_number`, `decision_year`, `formed`,
+`electoral_group`, `members_listed`, `scan_url`, `post_id`, `link`,
+`publishing_authority`.
+
+The eight are بنغازي, توكرة, قمينس, الأبيار, قصر الجدي, سبها, سرت and سلوق,
+constituted by decisions 23 to 29 of 2026 on 18 January and decision 59 on 9
+February. `electoral_group` is empty on all eight: a formation decision names
+its municipality, not its group. They fall between decision 199 of 2025 and
+decision 33 of 2026, which is the window of the third group's own decisions, but
+that is an inference from the numbering and the dates and is not coded as fact.
+
+`matched_level` records what the concordance matched the name at: `shabiya` for
+بنغازي, سبها and سرت, whose municipality and province share a name; `baladiya`
+for توكرة, قمينس, الأبيار and سلوق; `mahalla` for قصر الجدي. The level matters
+because a `shabiya` match means the province is certain while the municipality's
+own boundary is not being asserted.
+
+Municipalities are read from the bracketed span of the title, which is where
+HNEC puts them, singly or as a dashed list, and each is resolved through
+`scripts/libya_places.py`. Brackets also hold decision numbers, years, group
+names and ordinals, and those are dropped rather than recorded as places.
+
+Three names in the wider decision set do not resolve, and each is left empty
+rather than guessed. الجديدة and الحشان occur as mahallas in more than one
+shabiya, so the gazetteer excludes them: الحشان is in both Jafara and Tripoli,
+and a name that could mean two provinces is worse than no name. الصيد is how one
+title spells الصياد, and a dropped letter is not something folding or the
+anagram fallback can repair; the same municipality resolves from the other three
+decisions that name it.
 
 ---
 
