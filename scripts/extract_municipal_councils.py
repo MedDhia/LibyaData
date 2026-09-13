@@ -56,6 +56,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from arabic_text import normalise_name  # noqa: E402
+from libya_places import ambiguous_names, fold  # noqa: E402
 from libya_places import gazetteer, resolve  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -104,6 +105,14 @@ def act_of(title):
     return "", ""
 
 
+def why_unresolved(name, claimed):
+    """Why a named municipality carries no shabiya."""
+    shabiyat = claimed.get(fold(name))
+    if shabiyat:
+        return f"name claimed by {len(shabiyat)} shabiyat: {', '.join(sorted(shabiyat))}"
+    return "no such name in the concordance or HNEC's register"
+
+
 def municipalities(title, places, shabiya_keys, scrambled):
     """Places named in the title's brackets, resolved to a shabiya."""
     found = []
@@ -132,7 +141,9 @@ def main():
         sys.exit(f"missing {RAW}. Run scripts/download_hnec_municipal.py first.")
     collection = json.loads(RAW.read_text())
     places, shabiya_keys, scrambled = gazetteer()
-    print(f"gazetteer: {len(places)} Arabic keys, article variants included")
+    claimed = ambiguous_names()
+    print(f"gazetteer: {len(places)} Arabic keys, article variants included; "
+          f"{len(claimed)} names held out because two shabiyat claim them")
 
     decisions, councils = [], []
     for post in collection["posts"]:
@@ -154,6 +165,7 @@ def main():
             "electoral_group": ORDINAL.get(group.group(1), "") if group else "",
             "municipalities_named": len([n for n, p in named if p]),
             "municipalities_ar": ";".join(n for n, _ in named),
+            "municipalities_unresolved": ";".join(n for n, p in named if not p),
             "title": title,
             "post_id": post["id"],
             "link": post["link"],
@@ -186,7 +198,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     write(OUT / "municipal_decisions.csv", decisions)
     write(OUT / "municipal_councils.csv", councils)
-    report(collection, decisions, councils)
+    report(collection, decisions, councils, claimed)
 
 
 def write(path, rows):
@@ -200,7 +212,7 @@ def write(path, rows):
     print(f"{path.name:30s} {len(rows):5d} rows")
 
 
-def report(collection, decisions, councils):
+def report(collection, decisions, councils, claimed):
     print(f"\n{len(collection['posts'])} posts, {len(decisions)} numbered decisions, "
           f"{decisions[0]['decided']} to {decisions[-1]['decided']}")
     print("acts:   ", dict(Counter(d["act_en"] or "(uncoded)"
@@ -210,9 +222,22 @@ def report(collection, decisions, councils):
     placed = [c for c in councils if c["shabiya_en"]]
     print(f"\ncouncils formed: {len(councils)}, {len(placed)} resolved to a shabiya")
     print("  by shabiya:", dict(Counter(c["shabiya_en"] for c in placed)))
+    print("  matched on:", dict(Counter(c["matched_level"] for c in councils)))
     unresolved = [c["baladiya_ar"] for c in councils if not c["shabiya_en"]]
     if unresolved:
         print("  unresolved:", unresolved)
+
+    # Every municipality the decisions name, resolved or not, with the reason.
+    everywhere = {}
+    for record in decisions:
+        for name in filter(None, record["municipalities_ar"].split(";")):
+            everywhere.setdefault(name, name in
+                                  record["municipalities_unresolved"].split(";"))
+    missing = sorted(n for n, bad in everywhere.items() if bad)
+    print(f"\nmunicipalities named across all decisions: {len(everywhere)}, "
+          f"{len(everywhere) - len(missing)} resolved")
+    for name in missing:
+        print(f"  unresolved  {name:12s} {why_unresolved(name, claimed)}")
     print(f"\nevery council carries members_listed=0: the decisions are page scans")
     print("next: python3 scripts/validate.py")
 

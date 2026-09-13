@@ -571,8 +571,28 @@ if (mun_dir / "municipal_councils.csv").exists():
         print(f"  [ok ] all {len(mun_councils)} councils record members_listed=0 "
               f"and point at the scan HNEC published")
 
+    # A municipality the decisions name either resolves or is on record as
+    # unresolved: the column must agree with the count beside it.
+    named = mun_decisions.municipalities_ar.fillna("")
+    missing = mun_decisions.municipalities_unresolved.fillna("")
+    counted = named.apply(lambda s: len([n for n in s.split(";") if n]))
+    absent = missing.apply(lambda s: len([n for n in s.split(";") if n]))
+    off = mun_decisions[counted - absent != mun_decisions.municipalities_named]
+    if len(off):
+        failures.append(f"municipal: {len(off)} decisions miscount their "
+                        f"municipalities")
+        print(f"  [FAIL] {len(off)} decisions where named minus unresolved is not "
+              f"the resolved count")
+    else:
+        every = {n for s in named for n in s.split(";") if n}
+        gone = {n for s in missing for n in s.split(";") if n}
+        print(f"  [ok ] {len(every)} municipalities named across the decisions, "
+              f"{len(every) - len(gone)} resolved, {len(gone)} recorded unresolved")
+
     coded = mun_decisions[mun_decisions.act_en.notna()]
     grouped = mun_decisions[mun_decisions.electoral_group.notna()]
+    notes.append(f"municipal: {len(every) - len(gone)} of {len(every)} municipalities "
+                 f"named across the decisions resolve to a shabiya")
     notes.append(f"municipal: {len(mun_councils)} councils formed; "
                  f"{len(grouped)} of {len(mun_decisions)} decisions name an electoral "
                  f"group, none of them a formation decision; "

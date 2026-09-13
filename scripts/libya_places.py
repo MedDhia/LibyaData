@@ -13,6 +13,19 @@ one, and the mahallas whose name occurs in exactly one shabiya. Mahalla names
 that repeat nationally are left out, because a name that could mean two
 provinces is worse than no name.
 
+A municipality the concordance could not place gets a second chance from HNEC's
+2021 polling-centre register, which records the city each centre sits in: where
+the cities that resolve agree on a shabiya and account for most of the
+municipality's centres, the municipality takes it. That is how بلدية الجديدة,
+whose own name repeats nationally, is placed in Nuqat al Khams by the nine
+polling centres HNEC puts in العجيلات. The concordance always wins where it has
+an answer, which keeps the route clear of the two places where the census and
+HNEC disagree about a boundary, القرهبولي and جنزور. A place found this way is
+labelled `hnec_city`, so it can be dropped by anyone who wants the census
+hierarchy alone. The mahalla-level version of the same route was tried and
+rejected: it contradicts the concordance on ten names, سوق الجمعة and توكرة
+among them, which is the census and HNEC disagreeing rather than new evidence.
+
 Four defences against inventing geography, each of which was put in after the
 matching produced something false:
 
@@ -102,6 +115,26 @@ def gazetteer():
         if repeated[key] == 1 and parent:
             places.setdefault(key, parent[:3] + ("mahalla",))
 
+    # Second route, for municipalities the concordance could not place: HNEC's
+    # own 2021 polling-centre register says which city a municipality's centres
+    # are in, and the concordance places the city. The concordance still wins
+    # where it has an answer, and the route is only taken when the cities that
+    # resolve agree and hold most of the municipality's polling centres.
+    centres = defaultdict(Counter)
+    for row in read("hnec_locality_baladiya.csv"):
+        centres[fold(row["baladiya_ar"])][row["city_ar"]] += int(
+            row["polling_centres"] or 1)
+    for key, cities in centres.items():
+        if key in places:
+            continue
+        agreed, total = Counter(), sum(cities.values())
+        for city, count in cities.items():
+            parent = places.get(fold(city))
+            if parent:
+                agreed[parent[:3]] += count
+        if len(agreed) == 1 and sum(agreed.values()) * 2 >= total:
+            places[key] = list(agreed)[0] + ("hnec_city",)
+
     shabiya_keys = {k for k, v in places.items() if v[3] == "shabiya"}
 
     by_anagram = defaultdict(set)
@@ -129,6 +162,28 @@ def gazetteer():
             shabiya_keys.add(other)
 
     return places, shabiya_keys, scrambled
+
+
+def ambiguous_names():
+    """Folded name to the shabiyat that claim it, for names held out.
+
+    A name the gazetteer refuses is refused for a reason, and the reason is
+    worth reporting: two provinces claim it, or nothing in the concordance
+    carries it at all.
+    """
+    def read(name):
+        with (PROCESSED / name).open() as fh:
+            return list(csv.DictReader(fh))
+
+    claims = defaultdict(set)
+    for row in read("concordance_mahalla.csv"):
+        claims[fold(row["mahalla_ar"])].add(row["shabiya_en"])
+    english = {r["shabiya_ar"]: r["shabiya_en"]
+               for r in read("concordance_shabiya.csv")}
+    for row in read("concordance_baladiya.csv"):
+        if row["shabiya_ar"] in english:
+            claims[fold(row["baladiya_ar"])].add(english[row["shabiya_ar"]])
+    return {k: v for k, v in claims.items() if len(v) > 1}
 
 
 def usable(key, shabiya_keys):

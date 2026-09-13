@@ -632,13 +632,22 @@ another country; `subnational` where a Libyan place resolves; `national`
 otherwise. Across the 109 decisions that is 106 national and 3 bilateral, and
 none subnational.
 
-Matching runs through `scripts/libya_places.py`, which the municipal extractor
-shares, so the two officeholder datasets resolve a place name the same way and
-their outputs join. Its gazetteer is this repository's own concordance, 663
-Arabic place names: the 22 shabiyat, the 91 municipalities the concordance
-placed in one, and the 550 mahallas whose name occurs in exactly one shabiya.
-The 86 mahalla names that repeat nationally are left out, because a name that
-could mean two provinces is worse than no name.
+Matching runs through `scripts/libya_places.py`, which the municipal-council and
+sanctions extractors share, so the three officeholder datasets resolve a place
+name the same way and their outputs join. Its gazetteer is this repository's own
+concordance, 663 Arabic place names: the 22 shabiyat, the 91 municipalities the
+concordance placed in one, and the 550 mahallas whose name occurs in exactly one
+shabiya. The 86 mahalla names that repeat nationally are left out, because a
+name that could mean two provinces is worse than no name.
+
+Ten more municipalities come from a second route, for names the concordance
+could not place: HNEC's 2021 polling-centre register records the city each
+centre sits in, and where the cities that resolve agree and hold most of a
+municipality's centres, the municipality takes their shabiya. They are labelled
+`hnec_city` wherever a dataset reports the level. The mahalla-level version of
+the route was tried and rejected, because it contradicts the concordance on ten
+names, سوق الجمعة and توكرة among them, which is the census and HNEC disagreeing
+about a boundary rather than new evidence.
 
 Four rules keep it honest, each added after the matching produced something
 false. A folded key shorter than four characters is accepted only when it is one
@@ -698,9 +707,9 @@ read it.
 #### `municipal_decisions.csv` — 53 decisions
 
 `decision_number`, `decision_year`, `decided`, `act_ar`, `act_en`,
-`electoral_group`, `municipalities_named`, `municipalities_ar`, `title`,
-`post_id`, `link`, `decision_text_available`, `scan_url`,
-`publishing_authority`.
+`electoral_group`, `municipalities_named`, `municipalities_ar`,
+`municipalities_unresolved`, `title`, `post_id`, `link`,
+`decision_text_available`, `scan_url`, `publishing_authority`.
 
 HNEC runs the rounds in numbered groups, and the decisions track the process
 around a council's formation, which is why they are kept: a formation date means
@@ -740,9 +749,11 @@ its municipality, not its group. They fall between decision 199 of 2025 and
 decision 33 of 2026, which is the window of the third group's own decisions, but
 that is an inference from the numbering and the dates and is not coded as fact.
 
-`matched_level` records what the concordance matched the name at: `shabiya` for
-بنغازي, سبها and سرت, whose municipality and province share a name; `baladiya`
-for توكرة, قمينس, الأبيار and سلوق; `mahalla` for قصر الجدي. The level matters
+`matched_level` records what the name matched at: `shabiya` for بنغازي, سبها
+and سرت, whose municipality and province share a name; `baladiya` for توكرة,
+قمينس, الأبيار and سلوق; `mahalla` for قصر الجدي; and `hnec_city` for a
+municipality placed through HNEC's polling-centre register rather than the
+census hierarchy, of which the eight councils have none. The level matters
 because a `shabiya` match means the province is certain while the municipality's
 own boundary is not being asserted.
 
@@ -751,13 +762,21 @@ HNEC puts them, singly or as a dashed list, and each is resolved through
 `scripts/libya_places.py`. Brackets also hold decision numbers, years, group
 names and ordinals, and those are dropped rather than recorded as places.
 
-Three names in the wider decision set do not resolve, and each is left empty
-rather than guessed. الجديدة and الحشان occur as mahallas in more than one
-shabiya, so the gazetteer excludes them: الحشان is in both Jafara and Tripoli,
-and a name that could mean two provinces is worse than no name. الصيد is how one
-title spells الصياد, and a dropped letter is not something folding or the
-anagram fallback can repair; the same municipality resolves from the other three
-decisions that name it.
+The decisions name 14 municipalities in all and 12 resolve.
+`municipalities_unresolved` carries the ones that do not, so the gap is a column
+rather than a silence, and `validate.py` fails if the resolved count and that
+column ever disagree. The two are الحشان, whose name the concordance gives to
+both Jafara and Tripoli, and الصيد, which is how one title spells الصياد: a
+dropped letter is not something folding or the anagram fallback can repair, and
+the same municipality resolves from the other three decisions that name it.
+
+بلدية الجديدة is the interesting one, because it resolves by the second route
+rather than the first. Its name is claimed by three shabiyat in the census
+hierarchy, so the concordance holds it out; HNEC's own 2021 register puts its
+nine polling centres in العجيلات, which the concordance places in Nuqat al
+Khams, and that is where the municipality goes. Rows placed this way carry
+`matched_level` = `hnec_city` and can be dropped by anyone who wants the census
+hierarchy alone.
 
 ---
 
@@ -939,7 +958,8 @@ table for the spellings sanctions lists actually use (Misurata, Tarabulus,
 Banghazi, Surt, Tarhuna, Elgubba, Al Jamil). The Arabic gazetteer is
 `scripts/libya_places.py`, the same module the gazette and municipal-council
 extractors use, so all three officeholder datasets resolve a name the same way;
-it reaches below the province, to 91 municipalities and 550 uniquely-named
+it reaches below the province, to 91 municipalities the concordance placed, ten
+more placed through HNEC's polling-centre register, and 550 uniquely-named
 mahallas. `place_matched_level` says which layer answered: 43 nodes matched a
 shabiya name in Latin, 19 a romanisation alias, and 3 matched in Arabic.
 
