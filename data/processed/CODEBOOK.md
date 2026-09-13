@@ -25,6 +25,10 @@ python3 scripts/download_hnec.py
 python3 scripts/extract_hnec_polling_centres.py
 python3 scripts/extract_hnec_municipal_baladiyat.py
 python3 scripts/build_concordance.py
+
+python3 scripts/download_opensanctions.py
+python3 scripts/extract_opensanctions_libya.py
+python3 scripts/export_libya_network.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -562,6 +566,143 @@ source document with its date and SHA-256.
 
 HNEC also publishes 2,404 `قوائم الناخبين` voter lists naming individual
 registered voters. Those are deliberately not downloaded or ingested.
+
+### `data/external/opensanctions/` — the Libyan subgraph, 702 nodes
+
+The Libyan part of OpenSanctions, cut locally from the two global bulk
+collections because no country subset is published: 1.9m PEP entities and 293k
+sanctions entities, 2.24m lines, filtered in a five-pass stream by
+`scripts/extract_opensanctions_libya.py`.
+
+**Different licence from the rest of this repository: CC BY-NC 4.0**,
+attribution required, non-commercial only. Read `NOTICE.md` in that directory
+before using or citing any of it. `SOURCE.json` records the OpenSanctions export
+version, the FollowTheMoney model version, and the upstream SHA-1 and local
+SHA-256 of both bulk files.
+
+**The global totals are not Libyan totals.** OpenSanctions holds 710,657
+politically exposed persons and 293,095 sanctioned entities worldwide. Libya's
+share is 702 nodes, of which 393 are people and 78 are Libyan officials. That is
+the size of the thing, and no filtering choice makes it larger.
+
+#### How an entity got in: `libya_link`
+
+| `libya_link` | Nodes | What it means |
+|---|---|---|
+| `country_tagged` | 332 | the entity carries `ly` in country, nationality, citizenship, birthCountry, jurisdiction, mainCountry or registrationCountry |
+| `tie_via_multicountry_hub` | 298 | reached only through a seed whose Libyan tag is one operational country among several |
+| `accredited_to_libya` | 59 | holds a Libyan Position tagged `role.diplo`: a foreign ambassador posted to Libya, not a Libyan official |
+| `tie_to_libya` | 13 | one edge from a Libya-specific entity |
+
+Two of those need attention before use.
+
+**Foreign ambassadors are not Libyan officials.** 64 of the 156 office spells in
+the source are embassy postings to Tripoli: the ambassadors of the United
+Kingdom, France, Spain, Germany, the United States, Pakistan, Hungary, Indonesia
+and the Apostolic Nuncio. They hold a Position whose country is `ly`, so a naive
+country filter counts them as Libyan PEPs. `is_libyan_official` is 1 only for a
+person who holds a Libyan office that is not an embassy posting, or who carries a
+governmental topic together with Libyan nationality. 78 people qualify.
+
+**One hub imports a foreign network.** Sanctions lists record every country an
+organisation operates in, so the Islamic Revolutionary Guard Corps arrives tagged
+`ir;ly;sy`. Expanding one hop through it pulls in 298 mostly Iranian entities
+that have nothing to do with Libya, and it is the single highest-betweenness node
+in the graph by three orders of magnitude. Expansion therefore runs only through
+**Libya-specific** seeds, whose country set is `ly` and nothing else, backed by a
+degree cap of 25. Hub neighbours are kept, because dropping them would cut real
+edges, and labelled `tie_via_multicountry_hub` so one filter removes them.
+
+#### `libya_entities.csv` — 702 nodes
+
+Identity and provenance: `entity_id`, `name`, `schema`, `libya_link`,
+`libya_link_evidence`, `collection`, `is_target`, `datasets`, `source_urls`,
+`first_seen`, `last_seen`.
+
+Coding: `is_person`, `is_organisation`, `is_libyan_official`, `countries`,
+`country_is_libya_only`, `topics` and `office_topics` verbatim, plus flat
+indicators `is_pep`, `is_relative_or_associate`, `is_diplomat`, `is_judge`,
+`is_oligarch`, `is_sanctioned`, `is_sanction_linked`, `is_counter_sanctioned`,
+`is_export_controlled`, `is_person_of_interest`,
+`is_head_of_state_or_government`, `is_criminal_designation`, and `gov_branch`.
+
+FollowTheMoney puts `gov.executive` on the Position, not on the minister, so a
+person row reads as untagged unless the office's topics are carried across. They
+are: `office_topics` holds them, and the indicator columns are computed from the
+union. 94 people carry `executive;national`, 22 `executive`, 10 `national`.
+
+Attributes: `birth_date`, `death_date`, `birth_place`, `address_text`,
+`position_text`, `aliases`, `offices_held`, `office_names`.
+
+#### `libya_positions.csv` — 156 office spells
+
+One row per person, office and spell: `person_id`, `position_name`,
+`position_topics`, `is_foreign_posting`, `subnational_area`, `start_date`,
+`end_date`, `status`. 78 distinct offices, the largest being Prime Minister of
+Libya with 5 spells. 103 of the 156 spells carry a start date, running 1988 to
+2026. This is the officeholder table, and the reason to want the
+PEP collection at all.
+
+#### `libya_edges.csv` and `libya_network.gexf` — 267 edges
+
+An edge is a relationship OpenSanctions records between two entities: Family,
+Associate, UnknownLink, Ownership, Directorship, Control, Employment,
+Membership, Representation. Holding an office is not a tie between two people
+and is not an edge; it is in `libya_positions.csv`.
+
+`scripts/export_libya_network.py` writes the GEXF that Gephi, igraph, NetworkX
+and Cytoscape read, with degree, connected component and exact betweenness
+already on the nodes, and `libya_network_nodes.csv` with the same columns.
+
+**The relational structure is thin, and that is the finding.** 432 of the 702
+nodes have no edge at all. Of the 15 components, the largest is the 217-node
+IRGC cluster described above; the largest genuinely Libyan component has 14
+nodes, and the rest run 5, 5, 4, 4, 3, 3, 3 and six pairs. 184 of the 267 edges
+are `UnknownLink`, meaning a source asserts a tie without naming it. Two are
+Family. Anyone expecting to recover a Libyan elite network from sanctions data
+should look at those numbers first: the Qadhafi cluster is the one real family
+network in it.
+
+#### Geography: 53 of 702 nodes
+
+`shabiya_ar`, `shabiya_en`, `shabiya_pcode`, with `place_source` recording which
+field answered and `place_matched_on` the token that matched. Four fields are
+read, most direct first: `birthPlace`, the address on the entity, a linked
+Address record, the `subnationalArea` of an office, and the office name.
+
+Only 32 nodes resolve through a birthplace and 21 through an address. The reason
+is simple: a sanctions listing gives a name, a birth date and a country, and
+rarely a Libyan city. Tripoli takes 31 of the 53, then Nuqat al Khams 5, Derna 4,
+Benghazi 4, Sirte 3, Jabal al Akhdar 2, Misrata 2, Marj 1. Fourteen shabiyat have
+none.
+
+Matching is against this repository's own concordance: the 22 shabiyat under
+their census, GADM and COD-AB romanisations, the COD-AB gazetteer places the
+mahalla concordance resolved, and a curated alias table for romanisations that
+recur in sanctions lists (Misurata, Misratah, Tarabulus, Banghazi, Surt, Sebha,
+Darnah, Tubruq). The alias table is in the script and every entry maps to a
+shabiya the concordance already names. Anything unmatched is left empty rather
+than guessed.
+
+#### `libya_sanctions.csv` — 2,286 designations
+
+One row per designation naming an entity in the node table: `authority`,
+`authority_id`, `unsc_id`, `program`, `program_id`, `listing_date`, `start_date`,
+`end_date`, `status`, `reason`. 44 authorities, led by OFAC with 274, the French
+Trésor 169, the Swiss State Secretariat for Economic Affairs 162, the Belgian
+Federal Public Service Finance 157 and the European Commission 157. The UN
+Security Council accounts for 71.
+
+The same person is designated repeatedly by different authorities, which is why
+there are 2,286 records for 326 sanctioned nodes. Count designations to measure
+international attention; count nodes to count people.
+
+#### `libya_addresses.csv` — 390 records
+
+Address records reached from the subgraph: `full`, `city`, `region`, `country`,
+`latitude`, `longitude`, and the shabiya where one resolves. 45 of the 390 do.
+Latitude and longitude are present only where the source supplied them; nothing
+here is geocoded against an external service.
 
 ### `data/external/osm_places/mahalla_osm_anchors.csv`
 

@@ -1,0 +1,157 @@
+occupancy_id,person_id,person_name,position_id,position_name,position_topics,is_foreign_posting,subnational_area,start_date,end_date,status,datasets
+NK-3XkNgjDJH5SLWS7MjxHaFG,Q19663879,Jamil Ahmed Khan,Q124485522,ambassador of Pakistan to Libya,role.diplo,1,,2009-04,2010-11,ended,wd_peps
+NK-499XXZqKMmegkhrcaSmvBP,Q125726479,Javier Soria Quintana,Q6348414,ambassador of Spain to Libya,role.diplo,1,,2024-04-30,,,wd_peps
+NK-5HkHjhhCratLaTWWhGuesJ,Q5945120,José Riera Siquier,Q6348414,ambassador of Spain to Libya,role.diplo,1,,2011,2014,ended,wd_peps
+NK-5gVEEGRcyZpU8wTH3HSW7N,Q122346885,Daad Sharab,Q122926645,Counselor to the President of Libya,gov.executive;gov.national,0,,1988,2011,ended,wd_peps
+NK-5xQetHAS94XphbTLCb5XG8,Q26923672,Nicholas Hopton,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2020-09,2021-09-01,ended,wd_peps
+NK-6agfLC8hndaPQp9tBEfEhm,Q114884653,Mabrouka Othman Oki,Q114884393,Minister of Culture and Knowledge Development,gov.executive,0,,2021-03-15,,,wd_peps
+NK-7QjCbuFvnBz48mrUpLREKj,Q114884655,Muhammad Salem Al-Shahoubi,Q110001658,Transport Minister of Libya,gov.executive,0,,2021-03-15,,,wd_peps
+NK-7kGvVmMURV2TouhXStrVc9,Q114884658,Ramadan Ahmed Boujenah,Q114884398,Minister of Health,gov.executive;gov.national,0,,2022-01-30,,,wd_peps;wd_categories
+NK-8Trx5SCTA2dtoVexfHnrq5,Q114886507,Abubaker Mohamed Al-Ghawi,Q114774834,Minister of Housing,gov.executive,0,,2021-03-18,,,wd_peps
+NK-9RWSJj94A5iVqDkJ28uTw3,Q3084753,François Gouyette,Q26265501,ambassador of France to Libya,role.diplo,1,,2007-12-17,2011-10-13,ended,wd_peps
+NK-ANbzmbRFp42Zi75Y8C2Zy2,Q105319610,Mohamed al-Menfi,Q102181806,Chairman of the Presidential Council,gov.head,0,,2021-03-15,,,wd_peps;wd_categories
+NK-AX4GnWv8dVT7raebWWuUbW,Q880401,Muhammad az-Zaruq Rajab,Q15305714,Prime Minister of Libya,gov.head;gov.executive,0,,,,,wd_peps;wd_categories
+NK-AdsuyMuZfaZrK8sryPDXEm,Q114884656,Musa Muhammad Al-Maqrif,Q114884395,Minister of Education,gov.executive;gov.national,0,,2021-03-15,2021-12,ended,wd_peps
+NK-BfEP86NZ4VYfCuok4hyqLZ,Q138660497,Martin Longden,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2023-10,2025-10,ended,wd_peps
+NK-CEr88nChq2wAjMKSo7C2bm,Q107088903,José Antonio Bordallo Huidobro,Q6348414,ambassador of Spain to Libya,role.diplo,1,,2014,2017,ended,wd_peps
+NK-CKpjnTDKG8SAJaV6JpZgdj,Q124486444,Sajid Iqbal,Q124485522,ambassador of Pakistan to Libya,role.diplo,1,,2018-02-28,,,wd_peps
+NK-CQ6sxmar3smZoKc5YQBWBJ,Q130220085,Imad TARABULSI,Q114774895,Minister of Internal Affairs of Libya,gov.executive,0,,2022-11-06,,,wd_peps
+NK-CuxoVUmvve2kAene4UVeMq,Q114884638,Ali Al-Abed Al-Reda Abu Azoum,Q114884400,Minister of Labour,gov.executive,0,,2021-03-15,,,wd_peps
+NK-DW4XZBRpQh63eaBTT6GtXz,Q114884643,Halima Ibrahim Abdel Rahman,Q114774914,Minister of Justice,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+NK-EgUKhHsRv28SPnDB3B7KqP,Q125705587,Artur Jamo,Q125705596,Ambassador of Mozambique to Libya,role.diplo,1,,2003-07-30,2009-08-28,ended,wd_peps
+NK-EuKWDpTVTKZiHzcbETaS96,Q114884658,Ramadan Ahmed Boujenah,Q114774988,Deputy Prime Minister of Libya,gov.executive,0,,2021-03-15,,,wd_peps;wd_categories
+NK-GRuzFaMkw9FjrBcBWUrc2W,Q114884647,Ibrahim Al-Arabi Mounir,Q114884396,Minister of Environment,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+NK-Gwzg49V9kgdpw5YW7bcgWA,Q4118531,Gene Cretz,Q1837651,United States Ambassador to Libya,role.diplo,1,,,,,wd_peps;wd_categories
+NK-HC94x4ZcXkNv9UDj3NHsuP,Q24567442,George Kumi,Q30056069,ambassador to Libya,role.diplo,1,,,,,wd_peps
+NK-HevAAUPJhrDnQ7DkaQhNGW,Q114884635,Abdul Shafi Hussein Muhammad Al-Juifi,Q114884406,Minister of Sports,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+NK-KGDK5q3mhmTKG6F2776CCt,Q114884640,Ali Muhammad Miftah Al-Zinati,Q114884398,Minister of Health,gov.executive;gov.national,0,,2021-03-15,2022-01-30,ended,wd_peps;wd_categories
+NK-KQr58mGmQhfNYJ36eTmkEd,Q114884642,Fathallah Abd Al-Latif Al-Zani,Q53862230,Foreign Minister of Libya,gov.executive,0,,2023-08-28,2023-09-03,ended,wd_peps;wd_categories
+NK-KUGwKN7d7Cnt6YND7VCyDo,Q57596701,Martin Reynolds,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2019-04,2020,ended,wd_peps
+NK-NX3zrozFzab4bDgk8R9E9C,Q114884636,Ahmed Ali Muhammad Omar,Q114884399,Minister of Industry & Minerals,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+NK-NigUDVRHnt8MKanMpavRPN,Q124485527,Javed Zia,Q124485522,ambassador of Pakistan to Libya,role.diplo,1,,2014-02-26,2018,ended,wd_peps
+NK-QcxmB6SwoWHau8aFE6Fd45,Q114884646,Hussein Atiya Abdul Hafeez Al-Qatrani,Q114774988,Deputy Prime Minister of Libya,gov.executive,0,,2021-03-15,,,wd_peps;wd_categories
+NK-Qq3bbVqrmwjAqPZFSepUGJ,Q130296101,محمد رحال,Q91668102,ambassador of Palestine to Libya,role.diplo,1,,2025-01-13,,,wd_peps
+NK-Qz2mDFF8xfkchcdD42ucbh,Q114884637,Ahmed Abu Khuzam,Q114884395,Minister of Education,gov.executive;gov.national,0,,2021-12-23,,,wd_peps
+NK-RcvVid22pcwxinPw49VcT3,Q114886523,Mohamad Ali Houej,Q114884394,Minister of Economy & Trade,gov.executive;gov.national,0,,2021-03-18,2022-04,ended,wd_peps
+NK-TVDnhesndVM3crKJsXNp22,Q114884645,Houria Khalifa Miloud,Q114884413,Minister of State for Women's Affairs,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+NK-TvytgjGiZU7thQvMdEcqRu,Q124452305,Moehammad Amar Ma'ruf,Q124452238,ambassador of Indonesia to Libya,role.diplo;gov.national,1,,2019-09-02,,,wd_peps
+NK-UH3fwTcUbjQUCc7xXzirNW,Q705687,Savio Hon Tai-Fai,Q110549692,Apostolic Nuncio to Libya,role.diplo,1,,2023-05-18,2026-02-02,ended,wd_peps
+NK-URAsQdcuRxCgxW7pCkK72L,Q47500080,Élisabeth Barbier,Q26265501,ambassador of France to Libya,role.diplo,1,,2016,2017,ended,wd_peps
+NK-UqCrMUE7VZccvxdrW8tC73,Q114884664,Walid Ammar Muhammad Ammar Al-Lafi,Q114884407,Minister of State for Communication & Political Affairs,gov.executive;gov.national,0,,2021-03-15,,current,wd_peps;us_cia_world_leaders
+NK-UyzALmM6quMbkgWzaNAZUC,Q114884649,Imran Muhammad Abdul Anabi Al-Qeeb,Q114774924,Minister of Higher Education & Scientific Research,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+NK-VDHeqNbMTKo9m5AtzMtUWF,Q307490,Abdessalam Jalloud,Q15305714,Prime Minister of Libya,gov.head;gov.executive,0,,,,,wd_peps;wd_categories
+NK-VaZa2e5f4zAhBjaJUv8VS2,Q117828554,Christian Buck,Q58896101,ambassador of Germany to Libya,role.diplo,1,,2016,2018,ended,wd_peps
+NK-Wv5YwYrgtCdeU3Cr6RgzyP,Q16728453,Deborah K. Jones,Q1837651,United States Ambassador to Libya,role.diplo,1,,,,,wd_peps;wd_categories
+NK-Xc9AVLMhGceXJgaYX6MmzZ,Q2129793,Ralph Tarraf,Q58896101,ambassador of Germany to Libya,role.diplo,1,,2024,,,wd_peps
+NK-ZzpTfHsw8up3qqCMtaDuVG,Q16929538,Michael Aron,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2013,2015,ended,wd_peps
+NK-a6mpkozJUGcYiXc7XSWoo5,Q114884633,Adel Jumaa Amer,Q114884412,Minister of State for Prime Minister and Cabinet Affairs,gov.executive,0,,2021-03-15,,,wd_peps
+NK-b5ZANhdbTxCs4uG3eKGumE,Q1390637,Paul Jacques Marie Desfarges,Q64746953,president of the Conference of Bishops of the North African Region,,0,,2015-03-07,2022-02-15,ended,wd_peps
+NK-bFBNotvp2Ps9t5VrR9ZLUc,Q114884641,Badr Al-Din Al-Sadiq Al-Toumi,Q114884402,Minister of Local Government,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+NK-bKtjM9rw3dUUDXj5HA8Zks,Q1082227,Christian Walter Much,Q58896101,ambassador of Germany to Libya,role.diplo,1,,,,,wd_peps
+NK-bN4LKGKpdx7WAiKEb5JMeJ,Q42342915,al-Mutawakkil Ṭāhā,Q91668102,ambassador of Palestine to Libya,role.diplo,1,,2012,2015,ended,wd_peps
+NK-d4Jqx2B6oTtchBfK7eUAzv,Q114884648,Ijdid Maatouk Jadeed,Q114884411,Minister of State for Immigration Affairs,gov.executive,0,,2021-03-15,2022-03-10,ended,wd_peps
+NK-fHV2xyoZs8QA9V4tFZ8AWa,Q125974229,Jean-Luc Sibiude,Q26265501,ambassador of France to Libya,role.diplo,1,,2004,2007,ended,wd_peps
+NK-fSnafbXqGRyUyhbCivdLDX,Q1221764,Dominic Asquith,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2011,2012,ended,wd_peps;wd_categories
+NK-h8y3uw5fEKuiPH8jLGLmGX,Q114884638,Ali Al-Abed Al-Reda Abu Azoum,Q114884394,Minister of Economy & Trade,gov.executive;gov.national,0,,2022-04,,,wd_peps
+NK-icJwvDq5EXFaiDyKru55rh,Q30038735,Francisco de Miguel Álvarez,Q6348414,ambassador of Spain to Libya,role.diplo,1,,2017-05-12,2020,ended,wd_peps
+NK-keNemu7CoqiukjSWtEAxUJ,Q22958479,Frank Baker,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2018-02,2019-04,ended,wd_peps
+NK-nY5HR2BCbnWgnajymUiqSK,Q48448126,Brigitte Curmi,Q26265501,ambassador of France to Libya,role.diplo,1,,2016-08-01,2018-07-15,ended,wd_peps
+NK-oBeeyt85oaXKsDiQhLQ6tB,Q114884638,Ali Al-Abed Al-Reda Abu Azoum,Q114884392,Minister of Civil Service,gov.executive;gov.national,0,,2022-03-10,,,wd_peps
+ca-forreps-be6d9db181bcf432f8b937db31ef0eff16314e98,ca-forreps-e9d4dd39745e8c173836a57b50681847b267522b,Nouri F M ELKASAH,ca-forreps-f567238fa2d6ff9e16b4c518142c69fdac47787b,"Chargé d'affaires, a.i. to Canada",role.diplo;gov.national,1,,,,current,ca_foreign_reps
+unprot-313a1ca5b43c20f4fe9000fe96a7f59722dc7dad,unprot-0b142f56ca2544183181ece80942e80e5ba694de,Abdulhamid M A Al Dabiba,unprot-760a0094046a65c82b6e03995570573e83fc68c2,"Prime Minister, Acting Minister of Defense and Acting Minister of Foreign Affairs and International Cooperation of the Government of National Unity of the State of Libya",gov.national,0,,2021-02-25,,current,un_ga_protocol
+unprot-616a68b9cd2cb23848ed69021353e74e675a2471,unprot-8496bea88b1e863f8a965e5a715a41b1bc621ab3,Mohamed Younis A Menfi,unprot-ecf92e1e01b0328834e7cdd114f216177831a8a3,President of the Presidential Council of the State of Libya,gov.national,0,,2021-02-05,,current,un_ga_protocol
+us-cia-0de8af950577c195fb734ff2b7564024c5091947,us-cia-libya-jamal-abu-qarin-minister-of-state-for-displaced-persons-human-rights,Jamal ABU-QARIN,Q114884408,Minister of State for Displaced Affairs and Human Rights,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-102f378430565738496bd70c73bd9a204e168996,us-cia-libya-khalifa-abd-al-sadiq-minister-of-oil-gas,Khalifa Abd-al-SADIQ,Q114884403,Minister of Oil & Gas,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-1d213676bea18dc26bdc9a09911b3d64e8adfaaa,us-cia-libya-muhammad-al-ghuj-minister-of-health,Muhammad al-GHUJ,Q114884398,Minister of Health,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-2e030d43f3c2d58ae48be9ce9df154efae184124,us-cia-libya-husni-muhammad-uwaydan-minister-of-water-resources,Husni Muhammad UWAYDAN,Q114884397,Minister of Water Resources,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-2e9dc9979cfacd005a60b43c55d37d2f6bc61f2f,us-cia-libya-issam-al-tamuni-minister-of-housing-construction,Issam al-TAMUNI,us-cia-8ce1bc0128b388a2b9bb5fe2ee3fb3788c6971f9,Minister of Housing & Construction,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-33df64997ff8bcfd0e53076c5dc29d34b583baa9,us-cia-libya-wafa-al-kilani-minister-of-social-affairs,Wafa al-KILANI,Q114884405,Minister of Social Affairs,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-402a23b7a76596bdcf9593b3f4f50fb67d1d2fc8,NK-YEhcUD3CJYjzLmJDVRfWif,Abd-al-Hamid DUBAYBAH,Q96393310,Minister of Defence,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-4393f16bd11f78935456bf1d2f966893c870e32a,us-cia-libya-randa-gharib-minister-of-state-for-women-s-affairs,Randa GHARIB,Q114884413,Minister of State for Women's Affairs,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-43fd5ca49a5ad69bc2e00b4319fd97ad39a87e82,NK-UfP2C77hPsyfcn2HDMTzP2,Abd-al-Shafi al-JUWAIFI,Q114884402,Minister of Local Government,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-481242af1854ea41c8fa00cf50f3499616b9ee42,Q114884646,Hussein Atiya Abdul Hafeez Al-Qatrani,us-cia-db66392438ea3392003da857dadf1a241ddd1bd0,Deputy Prime Minister,gov.head;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-4a21b95d42d37865f16e7cf82ac37e1ebecf1c48,us-cia-libya-al-tahir-al-baur-minister-of-foreign-affairs-international-cooperation,Al-Tahir al-BAUR,NK-azSEXcBG7Yx4qr7PxFNeRK,Minister of Foreign Affairs & International Cooperation,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-58204925074777196e7a49df68ff172893678b51,NK-YEhcUD3CJYjzLmJDVRfWif,Abd-al-Hamid DUBAYBAH,NK-2drCZto8yyroWNb6TMraip,Prime Minister,gov.head;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-58392e724857a5825513f9b79e2ecc51d386e121,us-cia-libya-halimah-ibrahim-minister-of-justice,Halimah IBRAHIM,Q114774914,Minister of Justice,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-5a550d4419181429a48ab03ef0b1fb2875f9a415,us-cia-libya-salim-al-alam-minister-of-culture,Salim al-ALAM,us-cia-d5db2483f2d4319f122aa8951fb000c6001558c2,Minister of Culture,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-61a70071dbd91ebd633bd40382e7be5b5ab7209d,us-cia-libya-muhammad-al-dabib-minister-of-higher-education-scientific-research,Muhammad al-DABIB,Q114774924,Minister of Higher Education & Scientific Research,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-65e9f77d13a8fece79775cccc1f01f99c75b7b0c,us-cia-libya-nasir-al-din-al-fazzani-minister-of-tourism-handicrafts,Nasir-al-Din al-FAZZANI,us-cia-eaed73d51b76420c3e725e1eae0f482c9acd9f41,Minister of Tourism & Handicrafts,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-83e3edfd1f59a44ee745067e6b5ecc910b5c012a,Q113667977,Abdullah al-Lafi,us-cia-b7556cecdc4e8d602a10e9ed81a3fcb9a5624cfd,"Deputy President, Presidency Council",,0,,,,current,us_cia_world_leaders
+us-cia-8bc89b2ad108cbd198849455bbd29e7e481e2b94,Q130220085,Imad TARABULSI,us-cia-006c57624f7a7ed3fe02bbb7e073fe812994a901,Minister of Interior,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-8d8042fc477d69aaa7a937ec2856330172d00162,NK-6PGnZUqZn6cNddiWuuVccb,Ali al-ABID,us-cia-f28766f1822ba2e48812961ce829b2af3848b26b,Minister of Labor & Rehabilitation,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-95d73fb9ee08e9e08ffb7d0a340b6a73677346b3,us-cia-libya-haytham-al-zahaf-minister-of-youth,Haytham al-ZAHAF,Q114884416,Minister of Youth,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-9bafd45b0fcb23d9947855ecde542fc23e45b07b,us-cia-libya-abd-al-munim-salih-minister-of-civil-service,Abd-al-Munim SALIH,Q114884392,Minister of Civil Service,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-9ce9308c5d72051058691e8f112c667e7d28d06e,Q114884642,Fathallah Abd Al-Latif Al-Zani,us-cia-258694831987ee802bbc670b29708ee74d7d785f,Minister of State for African Affairs,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-a309ae73a254daa1bea9ae9df72d895e2a4cba1f,Q114884659,Saeed Sifaw,us-cia-b2b8b221002025f57bed7d489fb9bfe7402e5d8a,Minister of Technical & Vocational Education,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-a434eb0ddbbee25507d2e3ed8a12cc9f0260d60f,us-cia-libya-suhail-abu-shiha-minister-of-economy-trade,Suhail ABU-SHIHA,Q114884394,Minister of Economy & Trade,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-a5535055dd52c40ab97d530aa15b0029c6fe2060,us-cia-libya-abd-al-latif-al-tahir-minister-of-agriculture-livestock,Abd-al-Latif al-TAHIR,us-cia-acfce0bb4e877b82966316561ee99b1ec66a0d3b,Minister of Agriculture & Livestock,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-a584eaf5441d536fbac44d61ab7731778e888fa1,Q28714857,Musa Al-Koni,us-cia-b7556cecdc4e8d602a10e9ed81a3fcb9a5624cfd,"Deputy President, Presidency Council",,0,,,,current,us_cia_world_leaders
+us-cia-b135d39f595cba12cd27bdc68e02b010efe2af36,us-cia-libya-muhammad-said-minister-of-industry-minerals,Muhammad SAID,Q114884399,Minister of Industry & Minerals,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-c005d6c93d8d6960160b5961890531096b862be0,us-cia-libya-muhammad-al-qaryu-minister-of-education,Muhammad al-QARYU,Q114884395,Minister of Education,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-c7c1ad3aab78c27562651ca5bf39d1234ebd08be,us-cia-libya-muhammad-bin-ghalbon-minister-of-state-for-prime-ministerial-cabinet-affairs,Muhammad bin GHALBON,us-cia-2223ff42dbe63a289d2541e4f884ce67a489c7a4,Minister of State for Prime Ministerial & Cabinet Affairs,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-cd5c852959f1f736ab8b43cfdb229852b06c605f,us-cia-libya-muhammad-al-zaydani-minister-of-planning,Muhammad al-ZAYDANI,Q114884404,Minister of Planning,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-e1264f066f1383e770d00fd780addd678ada88bb,us-cia-libya-rashid-bughfa-minister-of-finance,Rashid BUGHFA,Q114774925,Minister of Finance,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-e3cae75ef4baab75adee3ef32d4d56d55a418068,us-cia-libya-muhammad-al-shahubi-minister-of-transportation,Muhammad al-SHAHUBI,us-cia-03d0387a419af20940554d0cae9feb184bbd531e,Minister of Transportation,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-e6b6cb2df8a087f67034af24b5c65ad1ef64a74f,us-cia-libya-ibrahim-munir-minister-of-environment,Ibrahim MUNIR,Q114884396,Minister of Environment,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-ebd94a854149b050638ab58297692cdbe643c540,us-cia-libya-abd-al-warith-al-hajjaji-minister-of-state-for-digital-economy-artificial-intelligence,Abd-al-Warith al-HAJJAJI,us-cia-d11c674774b42dd3e004fae944004eea3df29bbb,Minister of State for Digital Economy & Artificial Intelligence,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-f1401a725874d6927a096348a7b8580d5e2e8e66,Q105319610,Mohamed al-Menfi,us-cia-d601c049ebff0352f6b4eba80cb4183301a3ec1e,"President, Presidency Council",,0,,,,current,us_cia_world_leaders
+us-cia-f88f42cc6cffb28c0c6c58a6bcedd3268d628b4c,us-cia-libya-salim-al-zadma-deputy-prime-minister,Salim al-ZADMA,us-cia-db66392438ea3392003da857dadf1a241ddd1bd0,Deputy Prime Minister,gov.head;gov.national,0,,,,current,us_cia_world_leaders
+us-cia-fc15b051e137565e618bd3d7b4432e6c82ed8513,us-cia-libya-tahir-al-sunni-permanent-representative-to-the-un-new-york,Tahir al-SUNNI,us-cia-60c28507fe1d7e64eeb5f1ec2ccfb86c39e8e92d,"Permanent Representative to the UN, New York",role.diplo;gov.igo,1,,,,current,us_cia_world_leaders
+us-cia-fc6b6eaeb91f17d0b557a21033cdac4951b034b2,NK-UfP2C77hPsyfcn2HDMTzP2,Abd-al-Shafi al-JUWAIFI,Q114884406,Minister of Sports,gov.executive;gov.national,0,,,,current,us_cia_world_leaders
+wd-10db9921c3ecd80c73481eb99a06050fa9038321,Q61595903,Mostafa Mihraje,Q26265501,ambassador of France to Libya,role.diplo,1,,2022,2025,ended,wd_peps
+wd-18fa15816d23eef8a03879ca5ed07a26f845c7f8,Q21063222,Li Zhiguo,Q10874252,Chinese Ambassador to Libya,role.diplo,1,,,,,wd_categories
+wd-2f9e0ad2581e25bd238e20f6e29762b812e7af6a,Q138660519,Caroline Hurndall,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2021,2023,ended,wd_peps
+wd-46c0b42763f35e10bc4abd618cf16f80bb0c2293,Q140460432,عماد مصطفي الطرابلسي,Q114774895,Minister of Internal Affairs of Libya,gov.executive,0,,,,,wd_peps
+wd-4724acc98d401c5eb3eb8e94d820a55639d2659f,Q15727203,Ibrahim Dabbashi,Q54399681,Libyan Ambassador to the United Nations,role.diplo,1,,2013,2016,ended,wd_peps
+wd-4ef920ecfd2f4d7f59e08b022c42db75b28a7322,Q114884659,Saeed Sifaw,Q114884414,Minister of Technical and Vocational Education,gov.executive,0,,2021-03-15,,,wd_peps
+wd-51f1417f8533fb5f2d08e9906433f1598ae2c582,Q134448851,Abdel Ghani al-Kikli,Q134454972,Head of the Stability Support Apparatus,gov.executive;gov.national,0,,2021-01-11,2025-05-12,ended,wd_peps
+wd-5a4edc0a0e888c951dbd3edb002f4ade63b83052,Q114884641,Badr Al-Din Al-Sadiq Al-Toumi,Q114774895,Minister of Internal Affairs of Libya,gov.executive,0,,2022-07-22,,,wd_peps
+wd-60c4afc4171d1a5d5654569da21b329710278aed,Q140699104,Béla Marton,Q110810053,ambassador of Hungary to Libya,role.diplo,1,,2009-12-09,2023-06-21,ended,wd_peps
+wd-6730476da1d5550f9cdb7fd3a7d641eca5ed9da4,Q114886531,Fakher Muftah Bufarna,Q114884404,Minister of Planning,gov.executive;gov.national,0,,2021-03-18,2022-03-12,ended,wd_peps
+wd-6cbaedea059d5b5b8bd63bafee60ad44ca0d954d,Q114884637,Ahmed Abu Khuzam,Q114884408,Minister of State for Displaced Affairs and Human Rights,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+wd-6cc0088a1546c3a4b80ef98a17a60510c3658e96,Q105319569,Abd al-Hamid Dbeibeh,Q15305714,Prime Minister of Libya,gov.head;gov.executive,0,,2021-02-05,,,wd_categories
+wd-732dfd17c27a27666d1dfa7cf313f82a40f030a7,Q105319569,Abd al-Hamid Dbeibeh,Q15305714,Prime Minister of Libya,gov.head;gov.executive,0,,2021-03-15,,,wd_peps;wd_categories
+wd-7806deb64126e08fab5419e77600ce249b7e2760,Q140031182,István Csejtei,Q110810053,ambassador of Hungary to Libya,role.diplo,1,,2006,2009-12-09,ended,wd_peps
+wd-7abfbaa35e4b892022a51a466f60bdfa8c561950,Q1267268,Alessandro D’Errico,Q110549692,Apostolic Nuncio to Libya,role.diplo,1,,2017-06-10,,,wd_peps
+wd-7c017d2852fb517ff6f4ff21d58155dae9aa2b86,Q101094664,Bassem Al-Agha,Q91668102,ambassador of Palestine to Libya,role.diplo,1,,,2008,ended,wd_peps
+wd-7c14a53303a997fb1cdaa96440b312aa89d0c0c6,Q117814997,Francisco Javier García-Larrache Olalquiaga,Q6348414,ambassador of Spain to Libya,role.diplo,1,,2020-07-07,2024-04-30,ended,wd_peps
+wd-81f32b3caa5d1c024332d1938ee5a706997617fd,Q1876170,Luigi Gatti,Q110549692,Apostolic Nuncio to Libya,role.diplo,1,,1998-06-13,,,wd_peps
+wd-83ab47854dfdfd552efd3a8145d7ea88733a7e6e,Q1341785,Tommaso Caputo,Q110549692,Apostolic Nuncio to Libya,role.diplo,1,,2007-09-03,2012-11-10,ended,wd_peps
+wd-876992a1708e36266096f09a8fc0810532f5e894,Q7931786,Vincent Fean,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2006,2010,ended,wd_peps
+wd-90e1dcda7055fb351ab52d14d30ca164ff68e727,Q105319569,Abd al-Hamid Dbeibeh,Q96393310,Minister of Defence,gov.executive;gov.national,0,,2021-03-15,,,wd_peps;wd_categories
+wd-95236bb25a180c6c5ffb87b1732434b80c73e188,Q3108729,Mike Rann,Q50388960,Australian Ambassador to Libya,role.diplo,1,,2014-06-27,2016-01-08,ended,wd_peps;wd_categories
+wd-98fdc5eed1b9bdc3e585176b7cfb4bf3952dc44d,Q57596701,Martin Reynolds,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2025-10,,,wd_peps
+wd-9a4f512b247e5e93cf06ea1182caf55723f9dbb7,Q114884642,Fathallah Abd Al-Latif Al-Zani,Q114884416,Minister of Youth,gov.executive;gov.national,0,,2021-03-15,,,wd_peps;wd_categories
+wd-9b3e80552105793a5fccb2f9295fa6ecf4b79f96,Q63285566,Fathi Bashagha,Q15305714,Prime Minister of Libya,gov.head;gov.executive,0,,2022-03-03,,,wd_peps;wd_categories
+wd-9b862c171aad91f1c76a89d015ad6740c9ec6a2b,Q9376374,Wojciech Bożek,Q126726785,ambassador of Poland to Libya,role.diplo,1,,2010-01-04,2012-08-31,ended,wd_peps
+wd-9f6bb0d45d33b2c1a5b5dce1e2ad7f63d3588411,Q114886559,Adel Mohamed Sultan Hassan,Q114884401,Minister of Marine Resources,gov.executive,0,,2021-03-18,,,wd_peps
+wd-a5e414afa1019359386a441696c33ad2fe4709e5,Q12240503,Mohammad Reza Raouf Sheibani,Q124610308,ambassador of Iran to Libya,role.diplo,1,,2021-01,,,wd_peps;wd_categories
+wd-aa47503d3491993cffaf775e3d0195ba70ccee15,Q114884651,Khaled Ahmed Mazen,Q114774895,Minister of Internal Affairs of Libya,gov.executive,0,,2021-03-15,2022-07-22,ended,wd_peps
+wd-aaad211a168853ff7e9d78bfed5ab83b16006523,Q114884634,Abdul Fattah Saleh Muhammad Al-Khawja,Q114884392,Minister of Civil Service,gov.executive;gov.national,0,,2021-03-15,2022-03-10,ended,wd_peps
+wd-aabc0f70db6f2bb844850e9ea0e2268643880d0b,Q114884632,Abd Al-Salam Abdullah Al-Lahi-Tiki,Q62714569,Minister of Tourism,gov.executive,0,,2021-03-15,,,wd_peps
+wd-af85a46eab9181a95ccef558a634f2d11bde0ce5,Q7328082,Richard Norland,Q1837651,United States Ambassador to Libya,role.diplo,1,,2019-08-08,2022-09-08,ended,wd_peps;wd_categories
+wd-b108fb4a6b27cc55d8e75b486a1226d572313752,Q1174055,David J. Cooney,Q92082518,ambassador of Ireland to Libya,role.diplo,1,,,,,wd_peps
+wd-b35df8267c5fd875a56885c5eb4c09d7a498665f,Q50365159,Béatrice Le Fraper du Hellen,Q26265501,ambassador of France to Libya,role.diplo,1,,2018-07-16,,,wd_peps
+wd-b81e2a411bf9c8cd55d30f8cc95255bf8cd4a4ae,Q114884663,Wafaa Abu Bakr Muhammad Al-Kilani,Q114884405,Minister of Social Affairs,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+wd-ba375d248132331020c11c33624aa34b6142818e,Q56872410,Anthony Layden,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2002,2006,ended,wd_peps
+wd-baacaa8f410999853b94d04b33a4ed44851e55b3,Q17198405,Richard Northern,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2010,2011,ended,wd_peps
+wd-be4ea0583145cc36cad026d3ed64bd590835f105,Q114884654,Muhammad Ahmad Muhammad Aoun,Q114884403,Minister of Oil & Gas,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+wd-be73aeb75090455c845988656fe9a1d2125493e1,Q124459287,Dede Achmad Rifai,Q124452238,ambassador of Indonesia to Libya,role.diplo;gov.national,1,,2022-10-25,,,wd_peps
+wd-bfb473079f744f074af90af0a29fcedbbec68afc,Q105977287,Najla Mangoush,Q53862230,Foreign Minister of Libya,gov.executive,0,,2021-03-15,2023-08-28,ended,wd_peps;wd_categories
+wd-cae6431e94dfa4ccf3f8fead2f9afdec6a9169e8,Q110227704,Michael Ohnmacht,Q58896101,ambassador of Germany to Libya,role.diplo,1,,2021-08,2024,ended,wd_peps
+wd-ccac400ac34e623da9a2bba05d1a78111110f553,Q444367,Aldo Cavalli,Q110549692,Apostolic Nuncio to Libya,role.diplo,1,,2013-04-13,2015-03-21,ended,wd_peps
+wd-ce5d262f38b0221e1655ddfa538243d20d526f09,Q21091785,Peter Millett,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2015,2018,ended,wd_peps
+wd-ced8351f57ef6499471783a18ae88f7e003b5073,Q114884652,Khaled Al-Mabrouk Abdullah,Q114774925,Minister of Finance,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+wd-d2a041b822459730a3a0c1d0aa2bd710fbe3d2c8,Q140635951,András Szabó,Q110810053,ambassador of Hungary to Libya,role.diplo,1,,2002-12-30,2006,ended,wd_peps
+wd-d2a2657e3e9e182ab26e6bc1c3b82050d9a9bbbe,Q15990080,John Jenkins,Q56761158,ambassador of the United Kingdom to Libya,role.diplo,1,,2011,2011,ended,wd_peps
+wd-e321df74c10b354c6121be7f54a49e1d641a79ef,Q114884661,Tariq Abdel Salam Mustafa Abu Flika,Q114884397,Minister of Water Resources,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+wd-e7e1bca0e3d6ef03c766cc01a16864509e41ee02,Q73380935,Thierry Vallat,Q26265501,ambassador of France to Libya,role.diplo,1,,2025,,,wd_peps
+wd-e8c9e99fa568d3fa403506d5e911bac458e4bffc,Q114884644,Hamad Abdul-Razzaq Taher Al-Marimi,Q114884391,Minister of Agriculture,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+wd-e9ed70c159073dc3cdd2a84d02d1fa5f9c349c01,Q337755,Moussa Koussa,Q38288651,ambassador of Libya,role.diplo,1,,,,,wd_peps;wd_categories
+wd-eb7b7513e1fc242b24e33ac454cf8058669668fb,Q5983487,Luis Francisco García Cerezo,Q6348414,ambassador of Spain to Libya,role.diplo,1,,,,,wd_peps
+wd-ec4e8fea0660bf1be1a69c587207f8a71f5f6772,Q105977287,Najla Mangoush,Q53862230,Foreign Minister of Libya,gov.executive,0,,2021-03-15,2023-08-27,ended,wd_peps;wd_categories
+wd-ee712a887109d4daff674402cb62c39e3f2add80,Q67460839,Oliver Owcza,Q58896101,ambassador of Germany to Libya,role.diplo,1,,2018,2021,ended,wd_peps
+wd-ef0cde7661eff47b6b8aba46a66b78c17f60e534,Q9376998,Wojciech Załuski,Q110549692,Apostolic Nuncio to Libya,role.diplo,1,,2026-04-25,,,wd_peps
+wd-fa127ee3bf066900922ceeb5f992fd78243d5532,Q824402,Bernd Westphal,Q58896101,ambassador of Germany to Libya,role.diplo,1,,,,,wd_peps
+wd-fe023bfe3e6b675060be071e6ca9cda92ddfcc15,Q114884660,Salama Ibrahim Al-Ghwail,Q114884409,Minister of State for Economic Affairs,gov.executive;gov.national,0,,2021-03-15,,,wd_peps
+wd-ff7f5749b5e99fc36dfc9187a52960a76cd59f5f,Q26845634,Peter W. Bodde,Q1837651,United States Ambassador to Libya,role.diplo,1,,,,,wd_peps;wd_categories

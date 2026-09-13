@@ -1,0 +1,36 @@
+{
+ "source": "https://www.opensanctions.org",
+ "index": "https://data.opensanctions.org/datasets/latest/index.json",
+ "export_run_time": "2026-09-13T00:04:59",
+ "ftm_model_version": "4.11.0",
+ "licence": "CC BY-NC 4.0",
+ "retrieved": "2026-09-13",
+ "files": [
+  {
+   "collection": "peps",
+   "title": "Politically Exposed Persons Datasets",
+   "version": "20260912152829-hbb",
+   "updated_at": "2026-09-12T15:28:29",
+   "entity_count": 1943864,
+   "target_count": 710657,
+   "url": "https://data.opensanctions.org/artifacts/peps/20260912152829-hbb/entities.ftm.json",
+   "file": "peps.entities.ftm.json",
+   "bytes": 920148756,
+   "sha1_upstream": "222f553148e4cedf4f88a521f482036356595a37",
+   "sha256": "19fad1818de17ce5856ae28311a141c1672c758d07b17f89964d2363603f0ba5"
+  },
+  {
+   "collection": "sanctions",
+   "title": "Consolidated Sanctions",
+   "version": "20260912194701-jtq",
+   "updated_at": "2026-09-12T19:47:01",
+   "entity_count": 293095,
+   "target_count": 72510,
+   "url": "https://data.opensanctions.org/artifacts/sanctions/20260912194701-jtq/entities.ftm.json",
+   "file": "sanctions.entities.ftm.json",
+   "bytes": 354048754,
+   "sha1_upstream": "c5a80ce0f4077a30649843aca5ad1be943925e6f",
+   "sha256": "a693355b6f329dc85c75397338aeb2e362be28c698857a7aeedfb8cc4673f726"
+  }
+ ]
+}

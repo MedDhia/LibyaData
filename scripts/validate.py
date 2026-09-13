@@ -359,6 +359,69 @@ if anchors_path.exists():
         print(f"  [ok ] {len(placed)} OSM anchors, all inside Libya, "
               f"{int((anchors.match_status == 'ambiguous').sum())} left ambiguous")
 
+# ---------------------------------------------------------------- OpenSanctions
+os_dir = OUT.parent / "external" / "opensanctions"
+if (os_dir / "libya_entities.csv").exists():
+    print("\nOpenSanctions, Libyan subgraph")
+    nodes = pd.read_csv(os_dir / "libya_entities.csv")
+    edges = pd.read_csv(os_dir / "libya_edges.csv")
+    spells = pd.read_csv(os_dir / "libya_positions.csv")
+    designations = pd.read_csv(os_dir / "libya_sanctions.csv")
+
+    # Every edge endpoint must be a node, or the network is cut.
+    ids = set(nodes.entity_id)
+    loose = (set(edges.source_id) | set(edges.target_id)) - ids
+    if loose:
+        failures.append(f"opensanctions: {len(loose)} edge endpoints are not nodes")
+        print(f"  [FAIL] {len(loose)} edge endpoints have no node row")
+    else:
+        print(f"  [ok ] {len(nodes)} nodes, {len(edges)} edges, every endpoint resolves")
+
+    # Every route in is one of the four the extractor documents.
+    ROUTES = {"country_tagged", "libyan_office", "accredited_to_libya",
+              "tie_to_libya", "tie_via_multicountry_hub"}
+    unknown = set(nodes.libya_link) - ROUTES
+    if unknown or nodes.entity_id.duplicated().any():
+        failures.append(f"opensanctions: unexpected route or duplicate id {unknown}")
+        print(f"  [FAIL] routes {unknown}, duplicate ids "
+              f"{int(nodes.entity_id.duplicated().sum())}")
+    else:
+        by_route = nodes.libya_link.value_counts().to_dict()
+        print(f"  [ok ] ids unique, every node carries a documented route: {by_route}")
+
+    # A foreign ambassador accredited to Libya must never be coded a Libyan official.
+    envoys = nodes[nodes.libya_link == "accredited_to_libya"]
+    if int(envoys.is_libyan_official.sum()):
+        failures.append("opensanctions: foreign envoys coded as Libyan officials")
+        print(f"  [FAIL] {int(envoys.is_libyan_official.sum())} envoys coded Libyan")
+    else:
+        print(f"  [ok ] {len(envoys)} envoys accredited to Libya, none coded "
+              f"a Libyan official ({int(nodes.is_libyan_official.sum())} are)")
+
+    # Everything placed on the map must sit in one of the 22 shabiyat.
+    placed = nodes[nodes.shabiya_en.notna()]
+    outside = set(placed.shabiya_en) - set(cross.shabiya_en)
+    if outside:
+        failures.append(f"opensanctions: shabiyat outside the concordance: {outside}")
+        print(f"  [FAIL] {len(outside)} shabiyat not in the concordance")
+    else:
+        print(f"  [ok ] {len(placed)} of {len(nodes)} nodes placed in a shabiya, "
+              f"all 22 names from the concordance")
+
+    # Occupancy spells must name a person the node table knows.
+    orphans = set(spells.person_id) - ids
+    if orphans:
+        failures.append(f"opensanctions: {len(orphans)} office spells name no node")
+        print(f"  [FAIL] {len(orphans)} office spells name an unknown person")
+    else:
+        foreign = int((spells.is_foreign_posting == 1).sum())
+        print(f"  [ok ] {len(spells)} office spells, {foreign} of them foreign "
+              f"postings to Libya, every holder resolves")
+
+    notes.append(f"opensanctions: {len(placed)} of {len(nodes)} nodes carry a shabiya; "
+                 f"{len(designations)} designations by "
+                 f"{designations.authority.nunique()} authorities")
+
 print()
 for n in notes:
     print(f"note: {n}")

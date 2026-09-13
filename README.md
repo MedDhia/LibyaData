@@ -11,7 +11,7 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
-**Phase 2 — extraction.** Thirty-two datasets built from the two highest-value
+**Phase 2 — extraction.** Thirty-five datasets built from the two highest-value
 Libyan sources, with a validation suite. See
 [`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
 
@@ -38,6 +38,9 @@ Libyan sources, with a validation suite. See
 | **HNEC polling-centre register** | 2021, 24 electoral regions | 1,908 |
 | HNEC municipality by polling centre | 2024 and 2025, 13 documents | 754 |
 | Baladiya concordance | 129 municipalities, 100 placed | 129 |
+| OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
+| Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
+| Libyan designations, from OpenSanctions | 44 authorities | 2,286 |
 
 Everything is reproducible from source: `scripts/` downloads the PDFs, extracts
 the tables and records the SHA-256 of every file read. `python3
@@ -130,6 +133,23 @@ romanised names, of which only 7 of 22 match the census's, so
 `concordance_shabiya.csv` maps all 22 both ways. The units share names but not
 boundaries — Libya reorganised after 2006 — so the concordance matches units by
 identity, not territory, and says so.
+
+**The sanctions record has almost no Libyan network in it.** OpenSanctions holds
+710,657 politically exposed persons and 293,095 sanctioned entities worldwide.
+Libya's share is 702 nodes and 267 edges, and 432 of those nodes have no edge at
+all. The largest connected component, 217 nodes, is an Iranian cluster that
+reaches Libya only because the Revolutionary Guard's listing names Libya as one
+country it operates in; the largest genuinely Libyan component has 14 nodes, and
+184 of the 267 edges are the generic `UnknownLink`. Two are family ties. Anyone
+planning to recover a Libyan elite network from sanctions data should start from
+those numbers.
+
+Two coding traps are worth naming because a country filter walks straight into
+both. 64 of the 156 office spells are foreign ambassadors accredited to Tripoli,
+who hold a Position whose country is Libya and are not Libyan officials. And the
+geography is thin: 53 of 702 nodes resolve to a shabiya, 31 of them to Tripoli,
+because a sanctions listing gives a name, a birth date and a country, rarely a
+city.
 
 **The foreign exchange appendices name names.** Every accepted letter-of-credit
 coverage request is published with the beneficiary firm and the dollar amount,

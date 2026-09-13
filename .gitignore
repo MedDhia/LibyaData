@@ -21,3 +21,9 @@ data/raw/hdx/
 data/raw/hnec/polling_centres/
 data/raw/hnec/municipal_2025/
 data/raw/hnec/card_distribution/
+
+# OpenSanctions bulk collections, 1.3 GB of global FollowTheMoney entities,
+# re-downloadable by scripts/download_opensanctions.py. Upstream SHA-1 and local
+# SHA-256 of every file are recorded in data/raw/opensanctions/manifest.json.
+data/raw/opensanctions/*.json
+!data/raw/opensanctions/manifest.json
