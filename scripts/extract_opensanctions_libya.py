@@ -58,15 +58,35 @@ officeholder table an elite-survival design needs.
 ## Geography
 
 Libyan geography here is thin and has to be said so: an entity's birthPlace or
-address is free text, often just "Libya". Four fields are read for a place, in
+address is free text, often just "Libya". Five fields are read for a place, in
 order of how directly each states one: birthPlace, the address on the entity or
 on an Address record it points at, the `subnationalArea` of an office held, and
-the office name itself, which in this source often carries the city. Where a
-place is named, it is matched against this repository's own concordance — the 22 shabiyat under their census,
-GADM and COD-AB romanisations, the COD-AB gazetteer places, and an explicit
-alias table for the romanisations that recur in sanctions lists (Misurata,
-Misratah, Tarabulus, Banghazi, Surt). A match assigns the shabiya and its COD-AB
-pcode; anything else is left empty rather than guessed, and the rate is reported.
+the office name itself, which in this source often carries the city.
+
+Matching runs in both alphabets, because the source writes places both ways.
+The romanised gazetteer is this repository's concordance — the 22 shabiyat
+under their census, GADM and COD-AB names, the COD-AB gazetteer places, and an
+alias table for the spellings sanctions lists actually use (Misurata, Tarabulus,
+Banghazi, Surt, Tarhuna, Elgubba). The Arabic gazetteer is
+`scripts/libya_places.py`, shared with the gazette and municipal-council
+extractors so all three officeholder datasets resolve a name the same way, and
+it reaches below the province: 22 shabiyat, 91 municipalities and 550
+uniquely-named mahallas. `place_matched_level` and `place_matched_script` record
+which layer answered.
+
+Two rules keep a foreign entity from acquiring a Libyan province. A place is
+read only off an entity that is itself tagged `ly`, and an Address record that
+states a country other than Libya is not searched at all. Without them an
+Iranian company's Tehran address, or a Jordanian address in بركة العامرية,
+takes a shabiya from a Libyan place of the same name.
+
+A match assigns the shabiya and its COD-AB pcode; anything else is left empty
+rather than guessed, and the rate is reported with the reason it is what it is.
+The ceiling is the source, not the matching: most entities here state no place
+below "Libya", and many state none at all. Romanised settlement names would go
+further — OpenStreetMap has some 900 for Libya — but OSM is ODbL and this output
+is CC BY-NC, so the two are kept apart, as `scripts/match_osm_places.py` keeps
+them apart in `data/external/osm_places/`.
 
 **Licence: CC BY-NC 4.0**, so output goes to `data/external/sanctions/`
 beside a NOTICE, not into `data/processed/`.
@@ -87,6 +107,11 @@ import sys
 import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from libya_places import fold as arabic_fold  # noqa: E402
+from libya_places import gazetteer as arabic_gazetteer  # noqa: E402
+from libya_places import locate as arabic_locate  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw" / "opensanctions"
@@ -141,6 +166,9 @@ NODE_SCHEMAS = ("Person", "Company", "Organization", "LegalEntity", "PublicBody"
                 "Position", "Vessel", "Airplane", "Security", "Trust", "Asset")
 
 
+ARABIC = re.compile(r"[\u0600-\u06ff\ufb50-\ufeff]")
+
+
 def norm(text):
     """Casefold, strip accents and punctuation, for gazetteer matching."""
     text = unicodedata.normalize("NFKD", str(text))
@@ -176,11 +204,40 @@ ALIASES = {
     "brak": "وادي الشاطئ", "sokna": "الجفرة", "hun": "الجفرة", "waddan": "الجفرة",
     "marj": "المرج", "al marj": "المرج", "tocra": "المرج",
     "sabratha": "النقاط الخمس", "surman": "الزاوية", "gharyan city": "الجبل الغربي",
+    # Romanisations found in this data whose Arabic name the concordance places:
+    # ترهونة and الخمس in Murqub, الجميل and العسة in Nuqat al Khams, القبة in
+    # Derna (not Jabal al Akhdar, which is the obvious guess), أوباري in Wadi al
+    # Hayaa, سلوق in Benghazi.
+    "tarhuna": "المرقب", "tarhouna": "المرقب", "khoms": "المرقب",
+    "al jamil": "النقاط الخمس", "jamil": "النقاط الخمس", "alassa": "النقاط الخمس",
+    "al assah": "النقاط الخمس",
+    "elgubba": "درنة", "al qubbah": "درنة", "qubba": "درنة",
+    "awbari": "وادي الحياة",
+    "suluq": "بنغازي", "solouq": "بنغازي",
+    "ajdabia": "الواحات", "jalo": "الواحات",
+    "traghen": "مرزق", "taraghin": "مرزق",
+    "houn": "الجفرة", "zaouia": "الزاوية",
 }
 
+# The same assertions in Arabic. The concordance carries أجدابيا, جالو, تراغن
+# and الزنتان as municipalities it could not place in a shabiya, and does not
+# carry زليتن, بني وليد, صبراتة, هون, سوكنة or ودان at all, so the Arabic
+# gazetteer refuses them. Without these a listing that writes أجدابيا resolves
+# to nothing while one that writes Ajdabiya resolves, which is an artefact of
+# the alphabet rather than of the evidence.
+ARABIC_ALIASES = {
+    "أجدابيا": "الواحات", "اجدابيا": "الواحات", "جالو": "الواحات",
+    "تراغن": "مرزق", "الزنتان": "الجبل الغربي",
+    "زليتن": "مصراته", "بني وليد": "مصراته",
+    "صبراتة": "النقاط الخمس", "سوكنة": "الجفرة", "ودان": "الجفرة",
+}
+# هون is not among them, and neither is its romanisation "hun": both gazetteers
+# refuse a name of three characters, which is the rule that keeps ordinary words
+# from becoming provinces.
 
-def gazetteer():
-    """Place name to (shabiya_ar, shabiya_en, codab_pcode), Latin script.
+
+def latin_gazetteer():
+    """Romanised place name to (shabiya row, level).
 
     Built from this repository's own concordance so the three naming systems
     already reconciled there are all accepted, plus the alias table above.
@@ -197,12 +254,12 @@ def gazetteer():
         for name in (row["shabiya_en"], row["gadm_name"], row["codab_name_en"],
                      row["shabiya_ar"]):
             if name:
-                places[norm(name) or name] = row
+                places[norm(name) or name] = (row, "shabiya")
     for alias, arabic in ALIASES.items():
         row = by_arabic.get(arabic)
         if row is None:
             sys.exit(f"alias {alias} points at an unknown shabiya: {arabic}")
-        places.setdefault(norm(alias), row)
+        places.setdefault(norm(alias), (row, "romanisation"))
 
     # COD-AB gazetteer places that the mahalla concordance resolved, which carry
     # their own romanisation and their parent shabiya.
@@ -212,24 +269,60 @@ def gazetteer():
             for row in csv.DictReader(fh):
                 if row["codab_place_en"] and row["shabiya_ar"] in by_arabic:
                     places.setdefault(norm(row["codab_place_en"]),
-                                      by_arabic[row["shabiya_ar"]])
+                                      (by_arabic[row["shabiya_ar"]], "codab_place"))
     return places
 
 
-def locate(text, places):
-    """Return (shabiya row, matched token) for a free-text place, or (None, '')."""
-    if not text:
+class Places:
+    """Resolve a place to a shabiya, in either script.
+
+    Two gazetteers, because the source writes places both ways and neither
+    alphabet covers the other. The Latin one is the romanisations the
+    concordance carries plus the alias table; the Arabic one is
+    `scripts/libya_places.py`, shared with the gazette and municipal-council
+    extractors so all three officeholder datasets resolve a name the same way.
+    Arabic reaches below the province: 22 shabiyat, 91 municipalities and 550
+    uniquely-named mahallas, against 22 provinces and 78 COD-AB places in Latin.
+    """
+
+    def __init__(self):
+        self.latin = latin_gazetteer()
+        places, shabiya_keys, scrambled = arabic_gazetteer()
+        by_arabic = {v[0]: v for v in places.values()}
+        for alias, shabiya in ARABIC_ALIASES.items():
+            parent = by_arabic.get(shabiya)
+            if parent is None:
+                sys.exit(f"alias {alias} points at an unknown shabiya: {shabiya}")
+            places.setdefault(arabic_fold(alias), parent[:3] + ("romanisation",))
+        self.arabic = (places, shabiya_keys, scrambled)
+        self.arabic_names = len(places)
+
+    def find(self, text, require_marker=False):
+        """Return (shabiya_ar, shabiya_en, pcode, level, script), matched token.
+
+        `require_marker` is for text that is not a place field: an office name
+        or a caption, where a bare word that happens to be a mahalla is more
+        likely a coincidence than a place. It is passed through to the Arabic
+        side, which then wants بلدية, مدينة, منطقة, محلة or شعبية in front.
+        """
+        if not text:
+            return None, ""
+        clean = norm(text)
+        if clean:
+            # Longest name first, so "wadi al hayaa" is not shadowed by "wadi".
+            for name in sorted(self.latin, key=len, reverse=True):
+                if len(name) < 4:
+                    continue
+                if re.search(rf"(?:^|\s){re.escape(name)}(?:$|\s)", clean):
+                    row, level = self.latin[name]
+                    return (row["shabiya_ar"], row["shabiya_en"],
+                            row["codab_pcode"], level, "latin"), name
+        if ARABIC.search(str(text)):
+            found, token = arabic_locate(text, *self.arabic,
+                                         require_marker=require_marker)
+            if found:
+                return found + ("arabic",), token
         return None, ""
-    clean = norm(text)
-    if not clean:
-        return None, ""
-    # Longest name first, so "wadi al hayaa" is not shadowed by "wadi".
-    for name in sorted(places, key=len, reverse=True):
-        if len(name) < 4:
-            continue
-        if re.search(rf"(?:^|\s){re.escape(name)}(?:$|\s)", clean):
-            return places[name], name
-    return None, ""
 
 
 def values(entity, prop):
@@ -387,6 +480,21 @@ def sanctions_for(paths, targets):
     return found
 
 
+def locate_address(entity, places):
+    """Resolve one Address record, refusing addresses stated to be elsewhere.
+
+    An Address carries its own country code, and where it does that is the
+    authority: Tehran and Dubai addresses are not searched for Libyan places.
+    Where it carries none, the free text decides, which is how the UN's
+    "Zawiyah" and "(Operates in Benghazi, Libya)" still resolve.
+    """
+    countries = {c.lower() for c in values(entity, "country")}
+    if countries and LIBYA not in countries:
+        return None, ""
+    return places.find(" ".join(values(entity, "full") + values(entity, "city")
+                                + values(entity, "region")))
+
+
 def code_entity(entity, link, evidence, places, offices, addresses):
     """One coded node row.
 
@@ -445,31 +553,38 @@ def code_entity(entity, link, evidence, places, offices, addresses):
     row["position_text"] = "; ".join(values(entity, "position"))
     row["aliases"] = "; ".join(values(entity, "alias")[:8])
 
-    # Four fields are read for a place, most direct first, and which one
+    # Five fields are read for a place, most direct first, and which one
     # answered is recorded so a user can keep only the strong ones.
     row["shabiya_ar"] = row["shabiya_en"] = row["shabiya_pcode"] = ""
     row["place_source"] = row["place_matched_on"] = ""
+    row["place_matched_level"] = row["place_matched_script"] = ""
 
     # An Address record the entity points at is as good as an address written on
     # it, and in this source it is commoner.
     linked = [addresses[a] for a in values(entity, "addressEntity") if a in addresses]
     candidates = [
-        ("birth_place", row["birth_place"]),
-        ("address", row["address_text"]),
-        ("address_record", linked[0][1] if linked else ""),
+        ("birth_place", row["birth_place"], False),
+        ("address", row["address_text"], False),
+        ("address_record", linked[0][1] if linked else "", False),
         ("office_subnational_area",
-         " ".join(first(o, "subnationalArea") for o in held)),
-        ("office_name", row["office_names"]),
+         " ".join(first(o, "subnationalArea") for o in held), False),
+        # An office name is not a place field: Tripoli in it is a posting, a
+        # mahalla name in it is usually a coincidence, so a marker is wanted.
+        ("office_name", row["office_names"], True),
     ]
-    for source, text in candidates:
+    # A Libyan place is only read off an entity that is itself Libyan. Without
+    # this an Iranian company's Tehran address, or a Jordanian address in
+    # بركة العامرية, acquires a shabiya because a Libyan place shares the name.
+    libyan = LIBYA in {c for p in COUNTRY_PROPS for c in props.get(p, [])}
+    for source, text, marker in (candidates if libyan else []):
         if source == "address_record" and linked:
             shabiya, token = linked[0][0], linked[0][1]
         else:
-            shabiya, token = locate(text, places)
+            shabiya, token = places.find(text, require_marker=marker)
         if shabiya:
-            row["shabiya_ar"] = shabiya["shabiya_ar"]
-            row["shabiya_en"] = shabiya["shabiya_en"]
-            row["shabiya_pcode"] = shabiya["codab_pcode"]
+            row["shabiya_ar"], row["shabiya_en"] = shabiya[0], shabiya[1]
+            row["shabiya_pcode"] = shabiya[2]
+            row["place_matched_level"], row["place_matched_script"] = shabiya[3:5]
             row["place_source"] = source
             row["place_matched_on"] = token
             break
@@ -489,8 +604,9 @@ def main():
     for collection, path in paths.items():
         if not path.exists():
             sys.exit(f"missing {path}. Run scripts/download_opensanctions.py first.")
-    places = gazetteer()
-    print(f"gazetteer: {len(places)} Latin-script place names for 22 shabiyat")
+    places = Places()
+    print(f"gazetteer: {len(places.latin)} romanised names for the 22 shabiyat, "
+          f"{places.arabic_names} Arabic keys down to mahalla level")
 
     seeds, neighbours, edges, occupancies, notes = select(paths)
     wanted = set(seeds) | set(neighbours)
@@ -518,9 +634,7 @@ def main():
     for entity in list(kept.values()) + list(support.values()):
         if entity["schema"] != "Address":
             continue
-        shabiya, token = locate(" ".join(values(entity, "full")
-                                         + values(entity, "city")
-                                         + values(entity, "region")), places)
+        shabiya, token = locate_address(entity, places)
         if shabiya:
             resolved[entity["id"]] = (shabiya, token)
 
@@ -583,8 +697,7 @@ def main():
         if entity["schema"] != "Address":
             continue
         full = first(entity, "full")
-        shabiya, token = locate(f"{full} {first(entity, 'city')} {first(entity, 'region')}",
-                                places)
+        shabiya, token = locate_address(entity, places)
         address_rows.append({
             "address_id": entity["id"],
             "full": full,
@@ -593,9 +706,11 @@ def main():
             "country": ";".join(values(entity, "country")),
             "latitude": first(entity, "latitude"),
             "longitude": first(entity, "longitude"),
-            "shabiya_ar": shabiya["shabiya_ar"] if shabiya else "",
-            "shabiya_en": shabiya["shabiya_en"] if shabiya else "",
-            "shabiya_pcode": shabiya["codab_pcode"] if shabiya else "",
+            "shabiya_ar": shabiya[0] if shabiya else "",
+            "shabiya_en": shabiya[1] if shabiya else "",
+            "shabiya_pcode": shabiya[2] if shabiya else "",
+            "matched_level": shabiya[3] if shabiya else "",
+            "matched_script": shabiya[4] if shabiya else "",
             "matched_on": token,
         })
     write(OUT / "libya_addresses.csv", address_rows)
@@ -659,6 +774,27 @@ def write(path, rows):
     print(f"{path.name:26s} {len(rows):6d} rows")
 
 
+# The two fields that are meant to state where somebody is. An office name is
+# not one of them: "Minister of Labour" is text, not a place that failed to
+# match, and counting it as one would overstate what the gazetteer is missing.
+PLACE_FIELDS = ("birth_place", "address_text")
+# What is left of a place field once the country itself is removed.
+ONLY_LIBYA = re.compile(r"(?i)libyan?|ليبيا|libye|libia|jamahiriya|arab|"
+                        r"[^\w\u0600-\u06ff]")
+
+
+def why_unplaced(row):
+    """Why a node carries no shabiya, so the rate can be read honestly."""
+    if LIBYA not in row["countries"].split(";"):
+        return "not tagged Libyan"
+    text = " ".join(row[f] for f in PLACE_FIELDS).strip()
+    if not text:
+        return "states no birthplace or address"
+    if not ONLY_LIBYA.sub(" ", text).strip():
+        return "says only Libya"
+    return "names a place the gazetteer does not hold"
+
+
 def report(nodes, edges, positions, addresses, sanctions, dangling):
     print("\nnodes by route in:", dict(Counter(r["libya_link"] for r in nodes)))
     print("nodes by schema:  ", dict(Counter(r["schema"] for r in nodes).most_common(8)))
@@ -677,6 +813,11 @@ def report(nodes, edges, positions, addresses, sanctions, dangling):
           dict(placed))
     print("  by shabiya:",
           dict(Counter(r["shabiya_en"] for r in nodes if r["shabiya_en"]).most_common(8)))
+    print("  matched on:",
+          dict(Counter(f"{r['place_matched_level']}/{r['place_matched_script']}"
+                       for r in nodes if r["shabiya_en"]).most_common()))
+    print("  unplaced, by why:", dict(Counter(why_unplaced(r) for r in nodes
+                                              if not r["shabiya_en"]).most_common()))
     geo = sum(1 for r in addresses if r["shabiya_ar"])
     print(f"addresses: {len(addresses)} records, {geo} resolve to a shabiya")
     print(f"office spells: {len(positions)}, "

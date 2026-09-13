@@ -76,8 +76,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Wadi al Hayaa"/>
+          <attvalue for="5" value="address"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -467,8 +467,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Derna"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -1318,8 +1318,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Tripoli"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -1456,8 +1456,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Al Wahat"/>
+          <attvalue for="5" value="address"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -3112,8 +3112,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly;tn"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Jufra"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -3227,8 +3227,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Murqub"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -5113,8 +5113,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Al Wahat"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -5757,8 +5757,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Jufra"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -6171,8 +6171,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Murqub"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -11507,8 +11507,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Al Wahat"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -11760,8 +11760,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ae;ly;za"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Murzuq"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>
@@ -14681,8 +14681,8 @@
           <attvalue for="1" value="Person"/>
           <attvalue for="2" value="country_tagged"/>
           <attvalue for="3" value="ae;ly"/>
-          <attvalue for="4" value=""/>
-          <attvalue for="5" value=""/>
+          <attvalue for="4" value="Nuqat al Khams"/>
+          <attvalue for="5" value="birth_place"/>
           <attvalue for="6" value=""/>
           <attvalue for="7" value="1"/>
           <attvalue for="8" value="0"/>

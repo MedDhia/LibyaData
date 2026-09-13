@@ -367,6 +367,7 @@ if (os_dir / "libya_entities.csv").exists():
     edges = pd.read_csv(os_dir / "libya_edges.csv")
     spells = pd.read_csv(os_dir / "libya_positions.csv")
     designations = pd.read_csv(os_dir / "libya_sanctions.csv")
+    addresses = pd.read_csv(os_dir / "libya_addresses.csv")
 
     # Every edge endpoint must be a node, or the network is cut.
     ids = set(nodes.entity_id)
@@ -407,6 +408,36 @@ if (os_dir / "libya_entities.csv").exists():
     else:
         print(f"  [ok ] {len(placed)} of {len(nodes)} nodes placed in a shabiya, "
               f"all 22 names from the concordance")
+
+    # A placed node must be a Libyan one, and must say how it was placed.
+    foreign_placed = placed[~placed.countries.fillna("").str.split(";").apply(
+        lambda cs: "ly" in cs)]
+    unlabelled = placed[placed.place_matched_level.isna()
+                        | placed.place_matched_script.isna()]
+    if len(foreign_placed) or len(unlabelled):
+        failures.append(f"opensanctions: {len(foreign_placed)} nodes not tagged Libyan "
+                        f"carry a shabiya, {len(unlabelled)} placed without a level")
+        print(f"  [FAIL] {len(foreign_placed)} non-Libyan nodes placed, "
+              f"{len(unlabelled)} with no matched level")
+    else:
+        levels = placed.groupby(["place_matched_script",
+                                 "place_matched_level"]).size().to_dict()
+        print(f"  [ok ] every placed node is tagged Libyan and records how it was "
+              f"matched {levels}")
+
+    # An address stated to be in another country must not carry a shabiya.
+    elsewhere = addresses[addresses.shabiya_en.notna()
+                          & addresses.country.fillna("").str.contains(r"[a-z]")
+                          & ~addresses.country.fillna("").str.split(";").apply(
+                              lambda cs: "ly" in cs)]
+    if len(elsewhere):
+        failures.append(f"opensanctions: {len(elsewhere)} addresses in another "
+                        f"country carry a Libyan shabiya")
+        print(f"  [FAIL] {len(elsewhere)} foreign addresses placed in Libya")
+    else:
+        located = addresses[addresses.shabiya_en.notna()]
+        print(f"  [ok ] {len(located)} of {len(addresses)} address records resolve, "
+              f"none of them stated to be in another country")
 
     # Occupancy spells must name a person the node table knows.
     orphans = set(spells.person_id) - ids

@@ -167,9 +167,10 @@ those numbers.
 Two coding traps are worth naming because a country filter walks straight into
 both. 64 of the 156 office spells are foreign ambassadors accredited to Tripoli,
 who hold a Position whose country is Libya and are not Libyan officials. And the
-geography is thin: 53 of 702 nodes resolve to a shabiya, 31 of them to Tripoli,
+geography is thin: 65 of 702 nodes resolve to a shabiya, 32 of them to Tripoli,
 because a sanctions listing gives a name, a birth date and a country, rarely a
-city.
+city. 370 of the rest are not tagged Libyan at all and 235 state neither a
+birthplace nor an address, which is the honest reason the map is empty.
 
 **The foreign exchange appendices name names.** Every accepted letter-of-credit
 coverage request is published with the beneficiary firm and the dollar amount,

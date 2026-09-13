@@ -918,26 +918,58 @@ Family. Anyone expecting to recover a Libyan elite network from sanctions data
 should look at those numbers first: the Qadhafi cluster is the one real family
 network in it.
 
-#### Geography: 53 of 702 nodes
+#### Geography: 65 of 702 nodes
 
 `shabiya_ar`, `shabiya_en`, `shabiya_pcode`, with `place_source` recording which
-field answered and `place_matched_on` the token that matched. Four fields are
-read, most direct first: `birthPlace`, the address on the entity, a linked
-Address record, the `subnationalArea` of an office, and the office name.
+field answered, `place_matched_on` the token that matched, and
+`place_matched_level` and `place_matched_script` the gazetteer layer and
+alphabet that answered. Five fields are read, most direct first: `birthPlace`,
+the address on the entity, a linked Address record, the `subnationalArea` of an
+office, and the office name.
 
-Only 32 nodes resolve through a birthplace and 21 through an address. The reason
-is simple: a sanctions listing gives a name, a birth date and a country, and
-rarely a Libyan city. Tripoli takes 31 of the 53, then Nuqat al Khams 5, Derna 4,
-Benghazi 4, Sirte 3, Jabal al Akhdar 2, Misrata 2, Marj 1. Fourteen shabiyat have
-none.
+42 nodes resolve through a birthplace and 23 through an address. Tripoli takes
+32 of the 65, then Nuqat al Khams 6, Derna 5, Benghazi 4, Sirte 3, Al Wahat 3,
+Jabal al Akhdar 2, Jufra 2, Murqub 2, Misrata 2, and one each in Wadi al Hayaa,
+Marj, Zawiya and Murzuq. Eight shabiyat have none.
 
-Matching is against this repository's own concordance: the 22 shabiyat under
-their census, GADM and COD-AB romanisations, the COD-AB gazetteer places the
-mahalla concordance resolved, and a curated alias table for romanisations that
-recur in sanctions lists (Misurata, Misratah, Tarabulus, Banghazi, Surt, Sebha,
-Darnah, Tubruq). The alias table is in the script and every entry maps to a
-shabiya the concordance already names. Anything unmatched is left empty rather
-than guessed.
+Matching runs in both alphabets. The romanised gazetteer is this repository's
+concordance — the 22 shabiyat under their census, GADM and COD-AB names, the
+COD-AB gazetteer places the mahalla concordance resolved, and an asserted alias
+table for the spellings sanctions lists actually use (Misurata, Tarabulus,
+Banghazi, Surt, Tarhuna, Elgubba, Al Jamil). The Arabic gazetteer is
+`scripts/libya_places.py`, the same module the gazette and municipal-council
+extractors use, so all three officeholder datasets resolve a name the same way;
+it reaches below the province, to 91 municipalities and 550 uniquely-named
+mahallas. `place_matched_level` says which layer answered: 43 nodes matched a
+shabiya name in Latin, 19 a romanisation alias, and 3 matched in Arabic.
+
+The alias table is asserted, not derived, and it is written in both alphabets
+for the same places. Without the Arabic half a listing that writes أجدابيا
+resolves to nothing while one that writes Ajdabiya resolves, which is an
+artefact of the alphabet rather than of the evidence. Names of three characters
+are refused in both, which is why هون and "hun" match nothing.
+
+Two rules stop a foreign entity acquiring a Libyan province. A place is read
+only off an entity tagged `ly`, and an Address record stating a country other
+than Libya is not searched at all. Both were added after the matching produced
+something false: an Iranian company's Tehran address, and a Jordanian address in
+بركة العامرية, which shares a name with a municipality in Jafara. `validate.py`
+fails if either ever reappears.
+
+**Why the other 637 are empty**, which is the more useful number: 370 are not
+tagged Libyan at all (they are the hub neighbours the network section describes,
+Iranian and Syrian entities reached through a multi-country listing), 235 state
+no birthplace and no address, 12 state nothing beyond "Libya", and 20 name a
+place the gazetteer does not hold — mostly foreign towns, a few Libyan
+settlements too small for any of the three naming systems. The ceiling is the
+source, not the matching: a sanctions listing gives a name, a birth date and a
+country, and rarely a Libyan city.
+
+Romanised settlement names would push further. OpenStreetMap carries about 900
+for Libya, each already tagged with its COD-AB province, and they are not used
+here: OSM is ODbL and this output is CC BY-NC, so the two are kept apart, the
+same separation `scripts/match_osm_places.py` observes by writing to
+`data/external/osm_places/`.
 
 #### `libya_sanctions.csv` — 2,286 designations
 
@@ -955,7 +987,12 @@ international attention; count nodes to count people.
 #### `libya_addresses.csv` — 390 records
 
 Address records reached from the subgraph: `full`, `city`, `region`, `country`,
-`latitude`, `longitude`, and the shabiya where one resolves. 45 of the 390 do.
+`latitude`, `longitude`, and the shabiya where one resolves, with
+`matched_level`, `matched_script` and `matched_on`. 48 of the 390 do. An address
+that states a country other than Libya is never searched, so the 186 Iranian and
+21 Emirati records here cannot acquire a Libyan province; the ten that resolve
+while stating no country at all are the UN's own "Zawiyah" and "(Operates in
+Benghazi, Libya)" style entries.
 Latitude and longitude are present only where the source supplied them; nothing
 here is geocoded against an external service.
 
