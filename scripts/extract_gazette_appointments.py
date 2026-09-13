@@ -3,8 +3,8 @@
 Read the Official Gazette and pull out who was appointed to what.
 
 Input is the House of Representatives' gazette, mirrored by
-`scripts/download_gazette.py`: 50 issues, January 2023 to August 2026, 45 of
-them with a usable text layer and 5 page scans that are skipped and counted.
+`scripts/download_gazette.py`: 50 issues, February 2023 to August 2026, 46 of
+them with a usable text layer and 4 page scans that are skipped and counted.
 
 ## The publishing authority is a variable
 
