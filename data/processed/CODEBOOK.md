@@ -43,6 +43,7 @@ python3 scripts/download_istat_colonial.py
 python3 scripts/extract_istat_1936_localities.py
 python3 scripts/extract_istat_1936_population.py
 python3 scripts/extract_istat_1931_libya.py
+python3 scripts/extract_istat_1921_libya.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1139,6 +1140,85 @@ baseline hands every row's figures to the label below it and the colony's total
 comes out 11% short. The tilt is measured by trying a range of slopes and
 keeping the one that puts the most labels in a band with figures; a page that is
 not tilted is left alone.
+
+#### `libya_1921_localities.csv` — the earliest of the three, 27 rows
+
+The 1921 census of the colonies, read by `scripts/extract_istat_1921_libya.py`
+from the summary of inhabited centres that opens each colony's chapter, PDF page
+20 for Tripolitania and page 62 for Cirenaica. Twenty-three centres, the two
+`Sezione Mare` parts of Tripoli and Zuara, and the two colony totals.
+
+**Read the note on what this census counted before using it.** The 1921 census
+is the VI general census of the *Italian* population, extended to the colonies.
+It counted 18,566 people present in Tripolitania and 8,607 in Cirenaica. Ten
+years later the same two colonies return 543,672 and 160,451, because by 1931
+the census enumerated the indigenous population and because Italy held far more
+ground. So these are the settler and foreign inhabitants of the coastal centres,
+and **putting them in a series with 1931 or 1936 measures the growth of the
+Italian census and not the growth of Libya**. What they are good for is the
+question 1931 and 1936 cannot answer: where in Libya the colonial state actually
+sat ten years into the occupation, and how small it was.
+
+| | Tripolitania | Cirenaica |
+|---|---|---|
+| Centres | 9 | 14 |
+| Families and convivenze | 3,090 | 1,592 |
+| Present | 18,566 | 8,607 |
+| Resident | 19,332 | 9,318 |
+
+Three columns: `famiglie`, `present_total`, `resident`. `row_kind` is `centre`,
+`section` for the two `di cui nella Sezione Mare` lines, and `total` for the
+colony. **Only `centre` rows sum to the colony**; a section is part of the
+centre above it and `centre` names which one, so adding sections to centres
+double-counts Tripoli and Zuara.
+
+Tripoli alone is 16,010 of Tripolitania's 18,566 and Bengasi 6,079 of
+Cirenaica's 8,607. Four of the twenty-three centres held fewer than ten people
+each: Sormàn 4, Tilimùn 3, Driàna 2, and Zàvia Hània one family and one
+person.
+
+**How well it was read.** Every one of the six column sums equals the printed
+colony total to the unit, and the total the volume prints at the foot of each
+table reads back the same. `validate.py` fails on any shortfall at all here,
+unlike the 1931 check, because these two pages are undamaged.
+
+**What the scan did damage was the labels, not the figures.** `Sòluch` arrives
+as `Sbluél1` and `Tòcra` as `T6cx~`. The centres are printed in alphabetical
+order and the list of them is closed, so where the count of figure-carrying
+lines equals the count of centres, each line takes the centre at its own
+position and the printed label is used to **check** that assignment rather than
+to make it. `match_score` and `label_agrees` record that check on every row, and
+the two rows where the label is past recognition are named in the extractor's
+report.
+
+**Placement.** `shabiya_ar`, `shabiya_en`, `shabiya_pcode` and `shabiya_route`
+as elsewhere: 20 of 23 centres resolve through the repository's own concordance
+from their Arabic name, two are `asserted`, and Tilimùn is unplaced. A match is
+kept only if it lands in the colony the table puts the centre in, the east being
+LY01 and the north-west LY02. That check earns its place: `جنزور` on its own
+resolves to a small mahalla of Tobruk, and without the guard Zanzùr, which is a
+suburb of Tripoli, is published 1,300 km from where it is. The same correction
+has been applied to the 1936 circumscription seats, where Zanzùr and Apollonia
+were misplaced the same way.
+
+#### Table I of 1921, and why the summary is used instead
+
+Each chapter also carries a table I, `Popolazione presente, temporaneamente
+assente e residente nei Centri e Località abitate`, with **nine** columns rather
+than three: the present population split into habitual and occasional residents,
+and the temporarily absent split by whether they were elsewhere in the colonies,
+in the Kingdom or abroad. It also breaks Tripoli and Bengasi into their quarters.
+It is the better table.
+
+Its Tripolitania page reads exactly. Its Cirenaica page does not: the scan
+splits capitals off their words (`E l Merg`, `R égima`), wraps `Marsa Susa
+(Apollo-` over two lines, and leaves some centres' figures on the line below the
+name, so three of the fourteen centres cannot be attributed without guessing.
+Publishing Tripolitania from table I and Cirenaica from the summary would put
+two different readings in one file, so both colonies are read from the summary,
+which prints the same centres and reconciles exactly for both. Table I's six
+further columns, and the quarters of the two cities, are the obvious thing to
+recover from a cleaner scan.
 
 #### `libya_circoscrizioni_1936.csv` — 59 circumscriptions
 

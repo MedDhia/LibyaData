@@ -114,6 +114,14 @@ GENERICS = ("el-", "Àin", "Aiùn", "Bir", "Biàr", "Abiàr", "Gasr", "Gsur", "G
             "Gefàra", "Got", "Màrsa", "Ras", "Sània", "Suàni", "Suènia", "Sìdi",
             "Uàdi", "Uidiàn", "Udèi", "Udeiàt", "Zàvia")
 
+# Two seat names the concordance will not resolve on their own. `جنزور` by
+# itself is a small mahalla of Tobruk in the 2006 census, while the Janzur the
+# colonial tables mean, beside Tripoli, is recorded there as its three quarters,
+# so resolving the plain name puts Zanzur in Butnan, 1,300 km from where it is.
+# `سوسة` by itself is not in the concordance at all; Susa is `سوسة المدينة`.
+# Both are the same settlement under a fuller name, not an asserted province.
+SPECIFIC = {"جنزور": "جنزور الوسط", "سوسة": "سوسة المدينة"}
+
 # The circumscription seats, with the Arabic name each transliterates. The
 # shabiya is not asserted here: the Arabic name is looked up in the concordance.
 SEATS = {
@@ -353,7 +361,8 @@ def main():
     # and the row says which of the two happened.
     seat_place, routes = {}, Counter()
     for seat, arabic in SEATS.items():
-        found = resolve(arabic, places, shabiya_keys, scrambled)
+        found = resolve(SPECIFIC.get(arabic, arabic), places,
+                        shabiya_keys, scrambled)
         route = "concordance"
         if not found and arabic in ARABIC_ALIASES:
             found = resolve(ARABIC_ALIASES[arabic], places, shabiya_keys, scrambled)

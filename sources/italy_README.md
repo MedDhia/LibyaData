@@ -32,6 +32,15 @@ Tripolitania, Cirenaica, Eritrea, Somalia`, which is a summary of what had been 
 colonies before, so the volume reaches back past its own date. Libya is still two colonies here,
 Tripolitania and Cyrenaica, and is not yet called Libia.
 
+**What 1921 counted is not what 1931 and 1936 counted.** This is the VI general census of the
+*Italian* population, extended to the colonies: 18,566 people present in Tripolitania and 8,607 in
+Cirenaica, against 543,672 and 160,451 ten years later. The difference is the indigenous population,
+which 1931 enumerated and 1921 did not, and the ground Italy had taken in between. Putting the three
+counts in one series would measure the growth of the Italian census, not the growth of Libya. What
+1921 gives instead is a map of where the colonial state sat ten years into the occupation: Tripoli
+is 16,010 of Tripolitania's 18,566, Bengasi 6,079 of Cirenaica's 8,607, and four of the
+twenty-three centres held fewer than ten people each.
+
 **1931, Volume V.** The colonies counted on the same day as the Kingdom, 21 April 1931, under rules
 agreed between the Istituto Centrale di Statistica and the Ministero delle Colonie. The volume
 separates `popolazione regnicola` (Italians from the Kingdom), `straniera` (foreigners) and
@@ -112,9 +121,18 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    extracting that is the obvious next step.
 2. Pull the Libya chapter out of each yearbook volume from 1911 to 1943 and build the colonial
    panel. The chapter is a fixed structure across volumes, which is what makes it tractable.
-3. The 1931 volume is read as far as it can be: `scripts/extract_istat_1931_libya.py` publishes its
+3. ~~Extract table XX of the 1936 volume, the population of each locality.~~ **Done**, by
+   `scripts/extract_istat_1936_population.py`.
+4. ~~Read the 1921 census of the colonies.~~ **Done**, by
+   `scripts/extract_istat_1921_libya.py`: the 23 inhabited centres of Tripolitania and Cirenaica
+   with families, present and resident population, every column exactly as the volume prints it.
+   They are read from the summary that opens each chapter rather than from table I, whose nine
+   columns are the better table but whose Cirenaica page the scan damaged past repair. **Re-OCR of
+   PDF pages 31 and 73 would recover six more columns and the quarters of Tripoli and Bengasi**,
+   and is the cheapest unclaimed gain in this volume.
+5. The 1931 volume is read as far as it can be: `scripts/extract_istat_1931_libya.py` publishes its
    table I, area and the four populations by circumscription for both colonies, with Cyrenaica
    exactly as printed. Its table II, the district detail, is not machine-readable from this scan and
    is recorded as such. Re-OCR of those two pages would recover it.
-3. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
+6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

@@ -3,7 +3,7 @@ el- Aràìed,Aràìed (el-),LRYD,tarhuna,residenza,ترهونة,المرقب,Mur
 Aaibìa,Aaibìa,YBY,iefren,distretto,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,61,240,61 Distretto di Ièfren,,,skeleton too short
 Uàdi el- Arbàa,Arbàa (Uàdi el-),WDYLRB,garian,residenza,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,59,240,59 Residenza di Gariàn,Jabal al Gharbi-009,وادي الارباع,skeleton and shabiya
 Abbàr (el-) •,Abbàr (el-) •,BRL,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,240,63 Residenza di Tarhùna,,,skeleton too short
-el- Arbìa,Arbìa (el-),LRBY,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,72,240,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+el- Arbìa,Arbìa (el-),LRBY,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,72,240,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 Uàdi Sìdi Abd el-Aàti,Abd el-Aàti (Uàdi Sìdi),WDYSYDYBDLTY,homs,residenza,الخمس,المرقب,Murqub,LY0210,baladiya,62,240,62 Residenza di Homs,,,no mahalla of that sound in the shabiya
 el- Arèbi,Arèbi (el-),LRBY,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,240,64 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 Sidi Abd el-Gàder,Abd el-Gàder (Sidi),SYDYBDLKDR,el azizia,distretto,العزيزية,الجفارة,Jafara,LY0212,baladiya,57,240,57 Distretto di el-Azizìa,,,no mahalla of that sound in the shabiya
@@ -98,7 +98,7 @@ Bateha,Bateha,BT,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,balad
 Amsèat,"Amsèat ,",MST,porto bardia,residenza,البردية,البطنان,Butnan,LY0104,asserted,74,240,74 Residenza di Porto Bardìa,,,skeleton too short
 Bàtta,Bàtta,BT,cirene,distretto,شحات,الجبل الأخضر,Jabal al Akhdar,LY0106,baladiya,72,240,", 72 Distretto di Cirene",,,skeleton too short
 Uàdi el- Amza,Amza (Uàdi el-),WDYLMZ,sirte,residenza,سرت,سرت,Sirte,LY0208,shabiya,67,240,67 Residenzà di Sirte,,,no mahalla of that sound in the shabiya
-Uàdi Battùm,Battùm (Uàdi),WDYBTWM,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,73,240,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Uàdi Battùm,Battùm (Uàdi),WDYBTWM,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,73,240,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 Amzìr,Amzìr,MZYR,garian,residenza,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,60,240,60 Residenza di Gariàn,,,no mahalla of that sound in the shabiya
 Bàza Celo),Bàza Celo),BZKL,zliten,circondario,زليتن,مصراته,Misrata,LY0214,asserted,65,240,65 Circondario di ZUten,,,no mahalla of that sound in the shabiya
 Suàni el- Anèizi,Anèizi (Suàni el-),SWNYLNYZY,bengasi,residenza,بنغازي,بنغازي,Benghazi,LY0103,shabiya,69,240,69 Residenza di Bengasi,,,no mahalla of that sound in the shabiya
@@ -107,7 +107,7 @@ Antipyrgos,Antipyrgos,NTYBYRKS,tobruch,residenza,طبرق,البطنان,Butnan,
 Bcùr,Bcùr,BKWR,hon,mudiria,هون,الجفرة,Jufra,LY0317,asserted,79,240,79 Mudiria di Hon,,,no mahalla of that sound in the shabiya
 Màrsa el- Aora,Aora (Màrsa el-),MRSLR,porto bardia,residenza,البردية,البطنان,Butnan,LY0104,asserted,74,240,74 Residenza di Porto Bardìa,,,no mahalla of that sound in the shabiya
 "el- I Bde,r","I Bde,r (el-)",LYBDR,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,240,63 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
-Apollònia,Apollònia,BLNY,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,72,240,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Apollònia,Apollònia,BLNY,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,72,240,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 el- Bèda,Bèda (el-),LBD,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,240,63 Residenza di Tarhùna,,,skeleton too short
 Sànla (pluro Suàni-dimo Suènia),Sànla (pluro Suàni-dimo Suènia),SNLBLWRSWNYDYMSWNY,,,,,,,,,240,,,,no shabiya
 Sidi o o o o o o o o o o o,Sidi o o o o o o o o o o o,SYDY,,,,,,,,,240,,,,no shabiya
@@ -199,7 +199,7 @@ Bèrghin,Bèrghin,BRKYN,berghin,mudiria,برقن,وادي الشاطئ,Wadi al S
 Chabbàsc,Chabbàsc,KBX,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,241,63 Residenza di Tarhùna,,,skeleton too short
 Bèrsis,Bèrsis,BRSYS,tocra,residenza,توكرة,المرج,Marj,LY0102,baladiya,70,241,70 Residenza di Tòcra,,,no mahalla of that sound in the shabiya
 el- Chabùl Bu Dèia,Chabùl Bu Dèia (el-),LKBWLBWDY,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,241,63 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
-Bertèlles,Bertèlles,BRTLS,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,72,241,"72 Distretto d,i Apollònia",,,no mahalla of that sound in the shabiya
+Bertèlles,Bertèlles,BRTLS,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,72,241,"72 Distretto d,i Apollònia",,,no mahalla of that sound in the shabiya
 el- Chàdra,Chàdra (el-),LKDR,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,241,64 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 el- Bèscér,Bèscér (el-),LBXR,el agheila,distretto,العقيلة,الواحات,Al Wahat,LY0105,mahalla,68,241,68 Distretto di el-Aghèila,,,no mahalla of that sound in the shabiya
 Chalfùn,Chalfùn,KLFWN,el gusbat,residenza,القصبات,المرقب,Murqub,LY0210,asserted,63,241,63 Residenza di el-Gusbàt,,,no mahalla of that sound in the shabiya
@@ -473,7 +473,7 @@ el- Hamràia,Hamràia (el-),LHMRY,sirte,residenza,سرت,سرت,Sirte,LY0208,sha
 Giardìna,Giardìna,GRDYN,,,,,,,,69,243,69,,,no shabiya
 el- Hanìa,Hanìa (el-),LHNY,beda littoria,distretto,البيضاء,الجبل الأخضر,Jabal al Akhdar,LY0106,baladiya,71,243,71 Distretto di Bèda Littòria,Jabal al Akhdar-031,الحنية,skeleton and shabiya
 Uàdi Giàref,Giàref (Uàdi),WDYGRF,,,,,,,,67,243,67,,,no shabiya
-el- Hara,Hara (el-),LHR,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,243,56 Distretto di Zanzùr,,,skeleton too short
+el- Hara,Hara (el-),LHR,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,243,56 Distretto di Zanzùr,,,skeleton too short
 Giargiarùmmah (Vàdi),Giargiarùmmah (Vàdi),GRGRWMHWDY,,,,,,,,71,243,71,,,no shabiya
 el- Haràba,Haràba (el-),LHRB,nalut,residenza,نالوت,نالوت,Nalut,LY0209,shabiya,59,243,59 Residenza di Nalùt,,,no mahalla of that sound in the shabiya
 Gichèrra:,Gichèrra:,GKR,,,,,,,,68,243,68,,,no shabiya
@@ -489,7 +489,7 @@ Sotto zona militare di Hon,Sotto zona militare di Hon,STZNMYLYTRDYHN,,,,,,,,,243
 Giòfra,Giòfra,GFR,,,,,,,,79,243,79,,,no shabiya
 Hasi Mnà,Hasi Mnà,HSYMN,sabratha,distretto,صبراتة,النقاط الخمس,Nuqat al Khams,LY0215,asserted,55,243,55 Distretto di Sabràtha,,,no mahalla of that sound in the shabiya
 el- Giòsc,Giòsc (el-),LGX,,,,,,,,58,243,58,,,no shabiya
-Hassciàn (Oasi di el-),Hassciàn (Oasi di el-),HSXYNSYDYL,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,243,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Hassciàn (Oasi di el-),Hassciàn (Oasi di el-),HSXYNSYDYL,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,243,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 Giòsc el.Ghebìr,Giòsc el.Ghebìr,GXLKBYR,,,,,,,,58,243,58,,,no shabiya
 el- Hatìa,Hatìa (el-),LHTY,uadi el agial,mudiria,وادي الأجال,وادي الحياة,Wadi al Hayaa,LY0320,asserted,76,243,76 Mudiria di Uàdi el-Agiàl,,,no mahalla of that sound in the shabiya
 Giòsces-Seghìr,Giòsces-Seghìr,GXSKYR,,,,,,,,58,243,58,,,no shabiya
@@ -543,7 +543,7 @@ Henscìr Sauàu,Henscìr Sauàu,HNXYRSW,tarhuna,residenza,ترهونة,المر�
 Gràret ez-Zàn,Gràret ez-Zàn,KRTZN,,,,,,,,63,243,63,,,no shabiya
 Hesiàn et-Trarma,Hesiàn et-Trarma,HSYNTRM,zuara,distretto,زوارة,النقاط الخمس,Nuqat al Khams,LY0215,baladiya,55,243,55 Distretto di Zuàra,,,no mahalla of that sound in the shabiya
 el~ Greàa,Greàa (el~),LKR,,,,,,,,63,243,63,,,no shabiya
-Màrsa el- Hilàl,Hilàl (Màrsa el-),MRSLHYL,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,73,243,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Màrsa el- Hilàl,Hilàl (Màrsa el-),MRSLHYL,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,73,243,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 el- Grèfa,Grèfa (el-),LKRF,,,,,,,,76,243,76,,,no shabiya
 el- Hmedàt,Hmedàt (el-),LHMDT,hon,mudiria,هون,الجفرة,Jufra,LY0317,asserted,79,243,79 Mudiria di Hon,,,no mahalla of that sound in the shabiya
 el- Gsar,Gsar (el-),LKSR,,,,,,,,55,243,55,,,no shabiya
@@ -563,7 +563,7 @@ Martùba,Martùba,MRTWB,derna,distretto,درنة,درنة,Derna,LY0101,shabiya,7
 el~ Hòrm,Hòrm (el~),LHRM,zliten,circondario,زليتن,مصراته,Misrata,LY0214,asserted,65,244,65 Circondario di Zlìten,,,no mahalla of that sound in the shabiya
 Marzegh esc-Scems,Marzegh esc-Scems,MRZKXMS,zuara,distretto,زوارة,النقاط الخمس,Nuqat al Khams,LY0215,baladiya,55,244,55 Distretto di Zuàra,,,no mahalla of that sound in the shabiya
 Hosc el-Brahìm ben Ma,Hosc el-Brahìm ben Ma,HXLBRHYMBNM,,,,,,,,,244,,,,no shabiya
-Sìdi Masaùd,Masaùd (Sìdi),SYDYMSWD,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,73,244,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Sìdi Masaùd,Masaùd (Sìdi),SYDYMSWD,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,73,244,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 saùd,saùd,SWD,suani ben adem,distretto,سواني بن آدم,الجفارة,Jafara,LY0212,asserted,58,244,58 Distretto di Suàni ben A.dem,,,skeleton too short
 el. Masciarich,Masciarich (el.),LMXYRYK,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,244,64 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 el- Hraghìb,Hraghìb (el-),LHRKYB,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,244,63 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
@@ -653,7 +653,7 @@ el- Madanìa,Madanìa (el-),LMDNY,misurata,residenza,مصراتة,مصراته,M
 el- Mnèzza,Mnèzza (el-),LMNZ,cirene,distretto,شحات,الجبل الأخضر,Jabal al Akhdar,LY0106,baladiya,72,244,72 Distretto di Cirene,,,no mahalla of that sound in the shabiya
 Madùr,Madùr,MDWR,iefren,distretto,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,61,244,61 Distretto di Ièfren,,,no mahalla of that sound in the shabiya
 Montrùs,Montrùs,MNTRWS,garian,residenza,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,59,244,"59 Resid,enza d,i Gariàn",,,no mahalla of that sound in the shabiya
-Màga,Màga,MK,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,72,244,72 Distretto di Apollònia,,,skeleton too short
+Màga,Màga,MK,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,72,244,72 Distretto di Apollònia,,,skeleton too short
 "Mòtred, (Oasi di el-)","Mòtred, (Oasi di el-)",MTRDSYDYL,sorman,distretto,صرمان,الزاوية,Zawiya,LY0213,baladiya,56,244,",56 Distretto di Sormàn",,,no mahalla of that sound in the shabiya
 el- Magàrba,Magàrba (el-),LMKRB,garian,residenza,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,59,244,59 Residenza di Gariàn ',,,no mahalla of that sound in the shabiya
 Mràd,Mràd,MRD,el gusbat,residenza,القصبات,المرقب,Murqub,LY0210,asserted,63,244,"63' Residenza d,i el-Gusbàt",,,skeleton too short
@@ -679,7 +679,7 @@ Maharùghet el-Bilàd,Maharùghet el-Bilàd,MHRWKTLBYLD,brach,mudiria,براك,�
 Mùrzuch,Mùrzuch,MWRZWK,murzuch,mudiria,مرزق,مرزق,Murzuq,LY0322,shabiya,78,244,78 Mudirla di Mùrzuch,,,no mahalla of that sound in the shabiya
 Mahasciùba,Mahasciùba,MHXYWB,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,244,64 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 Muslàn,"Muslàn,",MWSLN,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,244,63 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
-Màia (Oasi di el-),Màia (Oasi di el-),MYSYDYL,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,244,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Màia (Oasi di el-),Màia (Oasi di el-),MYSYDYL,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,244,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 el- Mutàref,Mutàref (el-),LMWTRF,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,244,"64 Residenza d,i Tarhùna",,,no mahalla of that sound in the shabiya
 Màndara,Màndara,MNDR,el agheila,mudiria,العقيلة,الواحات,Al Wahat,LY0105,mahalla,77,244,77 Mudiria di Dà di el-Agiàl,,,no mahalla of that sound in the shabiya
 Mzèina,Mzèina,MZYN,cirene,distretto,شحات,الجبل الأخضر,Jabal al Akhdar,LY0106,baladiya,72,244,72 Distretto di Cirene,,,no mahalla of that sound in the shabiya
@@ -693,7 +693,7 @@ Uàdi en- Nàga,Nàga (Uàdi en-),WDYNK,derna,distretto,درنة,درنة,Derna,
 Saghìet et-Tra bèlsi,Saghìet et-Tra bèlsi,SKYTRBLSY,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,,245,Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 en- Naggàza,Naggàza (en-),NKZ,homs,residenza,الخمس,المرقب,Murqub,LY0210,baladiya,62,245,62 Residenza di Homs,,,skeleton too short
 Saghìet Freg,Saghìet Freg,SKYTFRK,,,,,,,,64,245,64,,,no shabiya
-Bir en- Naghnaghi,Naghnaghi (Bir en-),BYRNKNKY,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,245,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Bir en- Naghnaghi,Naghnaghi (Bir en-),BYRNKNKY,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,245,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 Saghìet Lafzah,Saghìet Lafzah,SKYTLFZ,,,,,,,,63,245,63,,,no shabiya
 Bir en- Naìlll,Naìlll (Bir en-),BYRNYL,en nofilia,residenza,النوفلية,سرت,Sirte,LY0208,mahalla,67,245,67 Residenza di en-NofiBa,,,no mahalla of that sound in the shabiya
 Saghìet Sìdi Hamèd,Saghìet Sìdi Hamèd,SKYTSYDYHMD,,,,,,,,64,245,64 .,,,no shabiya
@@ -708,7 +708,7 @@ el- Nàtmer,Nàtmer (el-),LNTMR,sabratha,distretto,صبراتة,النقاط ا�
 Sàhel el-Ahàmed,Sàhel el-Ahàmed,SHLHMD,,,,,,,,62,245,62,,,no shabiya
 en- Nàura,Nàura (en-),NWR,sabratha,distretto,صبراتة,النقاط الخمس,Nuqat al Khams,LY0215,asserted,55,245,55 Distretto di Sabràtha,,,skeleton too short
 Sìdi es- Saiàh,Saiàh (Sìdi es-),SYDYSY,,,,,,,,62,245,62,,,no shabiya
-Naustàthmus,Naustàthmus,NWSTHMWS,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,73,245,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Naustàthmus,Naustàthmus,NWSTHMWS,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,73,245,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 Uàdi es- Saiàh,Saiàh (Uàdi es-),WDYSY,,,,,,,,62,245,62,,,no shabiya
 Nedbàs,Nedbàs,NDBS,giado,distretto,جادو,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,60,245,60 Distretto di Giàdo,,,no mahalla of that sound in the shabiya
 Sìdi Saìd,Saìd (Sìdi),SYDYSYD,,,,,,,,55,245,55,,,no shabiya
@@ -752,13 +752,13 @@ er- Ragùba,Ragùba (er-),RKWB,sabratha,distretto,صبراتة,النقاط ال
 Uàdi esc- Scèrghi,Scèrghi (Uàdi esc-),WDYXRKY,,,,,,,,58,245,58,,,no shabiya
 er- Ràmla,Ràmla (er-),RML,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,245,63 Residenza di Tarhùna,,,skeleton too short
 Seetèui (S1di),Seetèui (S1di),STWYSDY,,,,,,,,65,245,65,,,no shabiya
-er- Rasciah,Rasciah (er-),RXY,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,245,56 Distretto di Zanzùr .,,,skeleton too short
+er- Rasciah,Rasciah (er-),RXY,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,245,56 Distretto di Zanzùr .,,,skeleton too short
 Scetìb en-Niàgh,Scetìb en-Niàgh,XTYBNYK,,,,,,,,62,245,62,,,no shabiya
 er- Rbèa,Rbèa (er-),RB,castel benito,distretto,بن غشير,طرابلس,Tripoli,LY0211,asserted,58,245,58 Distretto di Castel Benito,,,skeleton too short
 Sciaàb el-Charrùb,Sciaàb el-Charrùb,XYBLKRWB,el gusbat,residenza,القصبات,المرقب,Murqub,LY0210,asserted,,245,Residenza di el-Gusbàt,,,no mahalla of that sound in the shabiya
 Rcab el-Bèter,Rcab el-Bèter,RKBLBTR,gerdes gerrari,distretto,قرضس الجرارى,,,,,71,245,71 Distretto di Gèrdes Gerràri,,,no shabiya
 Sciàabet el- Maggùs,Sciàabet el- Maggùs,XYBTLMKWS,,,,,,,,63,245,63-64,,,no shabiya
-Rdèina,Rdèina,RDYN,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,72,245,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Rdèina,Rdèina,RDYN,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,72,245,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 Sciàabet Ulàd Abdàlla,Sciàabet Ulàd Abdàlla,XYBTWLDBDL,,,,,,,,64,245,64,,,no shabiya
 Rebiàna,Rebiàna,RBYN,el giof,,الجوف,الكفرة,Kufra,LY0107,mahalla,79,245,79 Sotto zona militare di el-Giòf,Kufra-004,ربيانة,skeleton and shabiya
 Sciàabet Umbàrech,Sciàabet Umbàrech,XYBTWMBRK,,,,,,,,62,245,62,,,no shabiya
@@ -875,7 +875,7 @@ Tèrbu,Tèrbu,TRBW,umm el araneb,mudiria,أم الأرانب,مرزق,Murzuq,LY0
 Sof Gin,Sof Gin,SFGN,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,246,63 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 Suàni eta Terrìa,Terrìa(Suàni eta),SWNYTRY,,,,,,,,70,246,70,,,no shabiya
 Solùch,Solùch,SLWK,soluch,residenza,سلوق,بنغازي,Benghazi,LY0103,baladiya,69,246,69 Residenza di Solùch,,,no mahalla of that sound in the shabiya
-Bir Terrìna,Terrìna (Bir),BYRTRYN,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,246,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Bir Terrìna,Terrìna (Bir),BYRTRYN,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,246,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 Gefàra di Sormàn,Sormàn (Gefàra di),GFRDYSRMN,,,,,,,,56,246,56,,,no shabiya
 Tesàua,Tesàua,TSW,uadi etba,mudiria,وادي عتبة,وادي الشاطئ,Wadi al Shatii,LY0318,baladiya,77,246,77 Mudirìa di Vàdi Ètba,,,skeleton too short
 Sormàn (Oasi di),Sormàn (Oasi di),SRMNSYDY,sorman,distretto,صرمان,الزاوية,Zawiya,LY0213,baladiya,55,246,55 Distretto di Sormàn,,,no mahalla of that sound in the shabiya
@@ -893,7 +893,7 @@ Tighìt,Tighìt,TYKYT,nalut,residenza,نالوت,نالوت,Nalut,LY0209,shabiya
 Suèd Sìdi Amàra,Suèd Sìdi Amàra,SWDSYDYMR,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,246,64 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 Timàs,Timàs,TYMS,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,63,246,63 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
 Suèd Sugh el-Giùmaa,Suèd Sugh el-Giùmaa,SWDSWKLGWM,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,246,64 Residenza di Tarhùna,,,no mahalla of that sound in the shabiya
-Tìna (Oasi di et-),Tìna (Oasi di et-),TYNSYDYT,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,246,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Tìna (Oasi di et-),Tìna (Oasi di et-),TYNSYDYT,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,246,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 es- Suegàt,Suegàt (es-),SWKT,mizda,distretto,مزدة,الجبل الغربي,Jabal al Gharbi,LY0216,asserted,62,246,62 Distretto di Mìzda,,,no mahalla of that sound in the shabiya
 Tinzègt,Tinzègt,TYNZKT,nalut,residenza,نالوت,نالوت,Nalut,LY0209,shabiya,59,246,59 Residenza di Nalùt,,,no mahalla of that sound in the shabiya
 Sugh el-Chmis,Sugh el-Chmis,SWKLKMYS,homs,residenza,الخمس,المرقب,Murqub,LY0210,baladiya,62,246,62 Residenza di Homs,,,no mahalla of that sound in the shabiya
@@ -910,9 +910,9 @@ Suleimàn (Vàdi),Suleimàn (Vàdi),SWLYMNWDY,tarhuna,residenza,ترهونة,ا�
 Tmèzda,Tmèzda,TMZD,giado,distretto,جادو,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,60,246,60 Distretto di Giàdo,,,no mahalla of that sound in the shabiya
 es- Sultàn,Sultàn (es-),SWLTN,sirte,residenza,سرت,سرت,Sirte,LY0208,shabiya,67,246,67 Residenza di Sirte,,,no mahalla of that sound in the shabiya
 Tmìmi,Tmìmi,TMYMY,derna,distretto,درنة,درنة,Derna,LY0101,shabiya,73,246,73 Distretto di Derna,Derna-009,التميمي,article dropped
-Màrsa Sùsa,Sùsa (Màrsa),MRSWS,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,72,246,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Màrsa Sùsa,Sùsa (Màrsa),MRSWS,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,72,246,72 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 Tmissàn,Tmissàn,TMYSN,edri,mudiria,إدري,وادي الشاطئ,Wadi al Shatii,LY0318,baladiya,75,246,75 Mudirìa di Èdri,Wadi al Shatii-021,تمسان,semivowels dropped
-Sùsa (Vàdi),Sùsa (Vàdi),SWSWDY,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,73,246,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
+Sùsa (Vàdi),Sùsa (Vàdi),SWSWDY,apollonia,distretto,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,73,246,73 Distretto di Apollònia,,,no mahalla of that sound in the shabiya
 Tmùg-het,Tmùg-het,TMWKT,giado,distretto,جادو,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,60,246,60 Distretto di Giàdo,,,no mahalla of that sound in the shabiya
 Tòbruch,Tòbruch,TBRWK,tobruch,residenza,طبرق,البطنان,Butnan,LY0104,baladiya,74,246,74 Residenza di Tòbruch,,,no mahalla of that sound in the shabiya
 Tòcra,Tòcra,TKR,tocra,residenza,توكرة,المرج,Marj,LY0102,baladiya,70,246,70 Residenza di Tòcra,,,skeleton too short
@@ -933,7 +933,7 @@ Bir Tuàfga,Tuàfga (Bir),BYRTWFK,,,,,,,,64,246,"64 Residenz::J, di T::J,rhùn::
 Sìdi et- Tagi ùri,Tagi ùri (Sìdi et-),SYDYTGWRY,zliten,circondario,زليتن,مصراته,Misrata,LY0214,asserted,65,246,65 Circondario di ZUten,,,no mahalla of that sound in the shabiya
 Tuàsc,Tuàsc,TWX,uadi el agial,mudiria,وادي الأجال,وادي الحياة,Wadi al Hayaa,LY0320,asserted,77,246,77 Mudirìa di Vàdi el-Agiàl,,,skeleton too short
 Tàgma,Tàgma,TKM,iefren,distretto,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,61,246,61 Distretto di Ièfren,,,skeleton too short
-Tuèbia (Oasi di et-),Tuèbia (Oasi di et-),TWBYSYDYT,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,246,"56 Distretto di Z::J,nzùr",,,no mahalla of that sound in the shabiya
+Tuèbia (Oasi di et-),Tuèbia (Oasi di et-),TWBYSYDYT,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,246,"56 Distretto di Z::J,nzùr",,,no mahalla of that sound in the shabiya
 Tàibet el-Èsem,Tàibet el-Èsem,TYBTLSM,gerdes gerrari,distretto,قرضس الجرارى,,,,,71,246,71 Distretto di '. Gèrdes Gerràri,,,no shabiya
 Tuèr Ellèl,Tuèr Ellèl,TWRL,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,64,246,"64 Residenza di T::J,rhùna",,,no mahalla of that sound in the shabiya
 Tàlgaza,Tàlgaza,TLKZ,cirene,distretto,شحات,الجبل الأخضر,Jabal al Akhdar,LY0106,baladiya,72,246,72 Distretto di Ci rene,,,no mahalla of that sound in the shabiya
@@ -992,11 +992,11 @@ Zaafràn,Zaafràn,ZFRN,giado,distretto,جادو,الجبل الغربي,Jabal al
 Ulàd Aàmer,Ulàd Aàmer,WLDMR,,,,,,,,61,247,61,,,no shabiya
 ez- Zaafràn,Zaafràn (ez-),ZFRN,el gusbat,residenza,القصبات,المرقب,Murqub,LY0210,asserted,63,247,63 Residenza di el-Gusbàt,,,no mahalla of that sound in the shabiya
 Ulàd Abd el-Azìz,Ulàd Abd el-Azìz,WLDBDLZYZ,iefren,distretto,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,,247,Distretto di Ièfren,,,no mahalla of that sound in the shabiya
-Zaguàni,Zaguàni,ZKWNY,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,247,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
-Ulàd Abd el-Latìf,Ulàd Abd el-Latìf,WLDBDLTYF,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,,247,Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Zaguàni,Zaguàni,ZKWNY,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,247,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Ulàd Abd el-Latìf,Ulàd Abd el-Latìf,WLDBDLTYF,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,,247,Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 Zagùba,Zagùba,ZKWB,edri,mudiria,إدري,وادي الشاطئ,Wadi al Shatii,LY0318,baladiya,75,247,75 Mudiria di Èdri,,,no mahalla of that sound in the shabiya
 Ulàd Ali,Ulàd Ali,WLDLY,,,,,,,,61,247,61,,,no shabiya
-Zanzùr,Zanzùr,ZNZWR,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,247,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Zanzùr,Zanzùr,ZNZWR,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,247,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 Ulàd Alì,Ulàd Alì,WLDLY,tarhuna,residenza,ترهونة,المرقب,Murqub,LY0210,baladiya,,247,Residenza di Tarhùna,Murqub-040,اولادعلي,skeleton and shabiya
 Zaràmga (Oasi di),Zaràmga (Oasi di),ZRMKSYDY,sabratha,distretto,صبراتة,النقاط الخمس,Nuqat al Khams,LY0215,asserted,55,247,55 Distretto di Sa bràtha,,,no mahalla of that sound in the shabiya
 Ulàd Alì el Borg,Ulàd Alì el Borg,WLDLYLBRK,garian,residenza,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,,247,Residenza di Gariàn,,,no mahalla of that sound in the shabiya
@@ -1010,7 +1010,7 @@ Gefàra di Zàvia,Zàvia (Gefàra di),GFRDYZWY,zavia,distretto,الزاوية,ا
 Ulàd Belhòl,Ulàd Belhòl,WLDBLHL,,,,,,,,61,247,61,,,no shabiya
 Zà via (Oasi di),Zà via (Oasi di),ZWYSYDY,zavia,distretto,الزاوية,الزاوية,Zawiya,LY0213,shabiya,56,247,56 Distretto di Zàvia,,,no mahalla of that sound in the shabiya
 Ulàd Bèni Iaagùb,Ulàd Bèni Iaagùb,WLDBNYKWB,garian,residenza,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,59,247,59 Residenza di Gariàn,,,no mahalla of that sound in the shabiya
-Zàviet Amùra,Zàviet Amùra,ZWYTMWR,zanzur,distretto,جنزور,البطنان,Butnan,LY0104,mahalla,56,247,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
+Zàviet Amùra,Zàviet Amùra,ZWYTMWR,zanzur,distretto,جنزور,الجفارة,Jafara,LY0212,mahalla,56,247,56 Distretto di Zanzùr,,,no mahalla of that sound in the shabiya
 Ulàd Bu Gedìd,Ulàd Bu Gedìd,WLDBWGDYD,giado,distretto,جادو,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,61,247,61 Distretto di Giàclo,,,no mahalla of that sound in the shabiya
 Zàviet el-Hanìa,Zàviet el-Hanìa,ZWYTLHNY,beda littoria,distretto,البيضاء,الجبل الأخضر,Jabal al Akhdar,LY0106,baladiya,71,247,71 Distretto di Bèda Littòria,,,no mahalla of that sound in the shabiya
 Ulàd Bu Husèien,Ulàd Bu Husèien,WLDBWHWSYN,iefren,distretto,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,baladiya,61,247,61 Distretto di Ièfren,,,no mahalla of that sound in the shabiya

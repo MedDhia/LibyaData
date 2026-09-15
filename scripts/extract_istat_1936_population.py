@@ -120,7 +120,7 @@ def numbers_and_labels(cells):
     return values, labels
 
 
-def columns_of(values, wanted=None):
+def columns_of(values, wanted=None, minimum=5):
     """The four column edges of one block, found from the numbers themselves.
 
     The table sets its figures flush right, so a column is a cluster of right
@@ -138,7 +138,9 @@ def columns_of(values, wanted=None):
             current = []
         current.append(x)
     clusters.append(current)
-    clusters = [c for c in clusters if len(c) >= 5]
+    # A column of a short table holds few figures, so the floor is a parameter:
+    # on the 1921 tables a column of nineteen rows can be mostly dashes.
+    clusters = [c for c in clusters if len(c) >= minimum]
     clusters.sort(key=len, reverse=True)
     return sorted(sum(c) / len(c) for c in clusters[:wanted or len(COLUMNS)])
 

@@ -45,6 +45,7 @@ Libyan sources, with a validation suite. See
 | **1936 Italian census localities** | Libya's oldest gazetteer, 870 placed in a shabiya | 1,090 |
 | 1936 census table XX population | families, present, women, absent, by dwelling type | 2,348 |
 | 1931 census circumscriptions | area and four populations, Tripolitania and Cyrenaica | 18 |
+| 1921 census inhabited centres | families, present and resident, exactly as printed | 27 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
 | Libyan designations, from OpenSanctions | 44 authorities | 2,286 |
@@ -85,7 +86,7 @@ record before the Bureau of Statistics existed:
 
 The Italian colonial statistics, located on 2026-09-15 and downloadable:
 
-- [`sources/italy_README.md`](sources/italy_README.md) — the censuses of 1931 and 1936, the second
+- [`sources/italy_README.md`](sources/italy_README.md) — the censuses of 1921, 1931 and 1936, the second
   of them a volume for Libya alone ending in an alphabetical list of Libyan localities with their
   administrative circumscription, and the complete run of the Italian statistical yearbook from 1911
   to 1943, whose chapter XIX tabulates Libyan population, agriculture, trade, shipping, migration,

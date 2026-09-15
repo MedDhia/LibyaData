@@ -876,6 +876,72 @@ if circ_path.exists():
                  f"table is not published, the scan runs its labels and figures "
                  f"together")
 
+loc21_path = OUT / "istat" / "libya_1921_localities.csv"
+if loc21_path.exists():
+    print("\n1921 Italian census of the colonies, Libya")
+    c21 = pd.read_csv(loc21_path)
+    printed21 = {
+        "Tripolitania": {"famiglie": 3090, "present_total": 18566,
+                         "resident": 19332},
+        "Cirenaica": {"famiglie": 1592, "present_total": 8607,
+                      "resident": 9318},
+    }
+    # The summary tables are undamaged, so nothing here is allowed to be short:
+    # a centre row missing a figure, or a column that does not add up to the
+    # line the volume itself prints, means the reader lost something.
+    trouble21 = []
+    for colony, targets in printed21.items():
+        centres = c21[(c21.colony == colony) & (c21.row_kind == "centre")]
+        total_row = c21[(c21.colony == colony) & (c21.row_kind == "total")]
+        for field, target in targets.items():
+            total = int(centres[field].fillna(0).sum())
+            if total != target:
+                trouble21.append(f"{colony} {field}: {total} against {target}")
+            if int(total_row[field].iloc[0]) != target:
+                trouble21.append(f"{colony} {field}: the table's own total line "
+                                 f"reads {int(total_row[field].iloc[0])}")
+    if trouble21:
+        failures.append(f"1921: {len(trouble21)} column sums are not the "
+                        f"printed totals: {trouble21[:2]}")
+        print(f"  [FAIL] {len(trouble21)} column sums off: {trouble21[:2]}")
+    else:
+        print("  [ok ] all six column sums equal the printed colony totals, "
+              "and the totals read back off the page equal them too")
+
+    # The sections are parts of the centre above them, so a file that let one
+    # loose as a centre would double-count a city.
+    kinds21 = set(c21.row_kind) - {"centre", "section", "total"}
+    orphan = c21[(c21.row_kind == "section") & c21.centre.isna()]
+    if kinds21 or len(orphan):
+        failures.append(f"1921: row kinds {kinds21}, {len(orphan)} sections "
+                        f"with no centre above them")
+        print(f"  [FAIL] row kinds {kinds21}, {len(orphan)} loose sections")
+    else:
+        print(f"  [ok ] {int((c21.row_kind == 'centre').sum())} centres, "
+              f"{int((c21.row_kind == 'section').sum())} sections of a centre "
+              f"and {int((c21.row_kind == 'total').sum())} colony totals")
+
+    # Every shabiya a 1921 centre carries has to sit in that centre's colony:
+    # LY01 is the east, LY02 the north-west, LY03 the Fezzan.
+    region21 = {"Tripolitania": ("LY02", "LY03"), "Cirenaica": ("LY01",)}
+    placed21 = c21[c21.shabiya_pcode.notna()]
+    crossed = [f"{r.centre} -> {r.shabiya_en}" for r in placed21.itertuples()
+               if not str(r.shabiya_pcode).startswith(region21[r.colony])]
+    outside21 = set(placed21.shabiya_en) - set(cross.shabiya_en)
+    if crossed or outside21:
+        failures.append(f"1921: {crossed[:3]} placed outside their colony, "
+                        f"shabiyat {outside21}")
+        print(f"  [FAIL] {crossed[:3]}, unknown shabiyat {outside21}")
+    else:
+        print(f"  [ok ] {len(placed21)} placed rows, every one in a shabiya of "
+              f"its own colony {c21.shabiya_route.value_counts().to_dict()}")
+
+    notes.append(f"1921: {int((c21.row_kind == 'centre').sum())} inhabited "
+                 f"centres of Tripolitania and Cyrenaica with families, "
+                 f"present and resident population; this census counted the "
+                 f"Italian population of the colonies and is not comparable "
+                 f"with 1931 or 1936")
+
 print()
 for n in notes:
     print(f"note: {n}")

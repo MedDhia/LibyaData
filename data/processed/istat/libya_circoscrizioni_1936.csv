@@ -1,6 +1,6 @@
 circoscrizione_it,circoscrizione_ar,shabiya_ar,shabiya_en,shabiya_pcode,matched_level,localities
 agedabia,أجدابيا,الواحات,Al Wahat,LY0105,asserted,17
-apollonia,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,11
+apollonia,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,mahalla,11
 barce,المرج,المرج,Marj,LY0102,shabiya,3
 beda littoria,البيضاء,الجبل الأخضر,Jabal al Akhdar,LY0106,baladiya,16
 bengasi,بنغازي,بنغازي,Benghazi,LY0103,shabiya,21
@@ -53,7 +53,7 @@ tripoli,طرابلس,طرابلس,Tripoli,LY0211,shabiya,1
 uadi el agial,وادي الأجال,وادي الحياة,Wadi al Hayaa,LY0320,asserted,20
 uadi etba,وادي عتبة,وادي الشاطئ,Wadi al Shatii,LY0318,baladiya,5
 umm el araneb,أم الأرانب,مرزق,Murzuq,LY0322,asserted,9
-zanzur,جنزور,البطنان,Butnan,LY0104,mahalla,12
+zanzur,جنزور,الجفارة,Jafara,LY0212,mahalla,12
 zavia,الزاوية,الزاوية,Zawiya,LY0213,shabiya,2
 zella,زلة,الجفرة,Jufra,LY0317,asserted,2
 zliten,زليتن,مصراته,Misrata,LY0214,asserted,21
