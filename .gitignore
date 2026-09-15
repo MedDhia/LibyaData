@@ -31,3 +31,8 @@ data/raw/opensanctions/*.json
 # Official Gazette issues, re-downloadable by scripts/download_gazette.py.
 # SHA-256 of every issue is recorded in data/raw/gazette/manifest.json.
 data/raw/gazette/*.pdf
+
+# ISTAT colonial volumes, re-downloadable by scripts/download_istat_colonial.py
+# and by scripts/extract_istat_1936_localities.py, which fetches the 1936 census
+# on its own if it is absent. Sizes and URLs are in data/raw/istat/manifest.json.
+data/raw/istat/*.pdf

@@ -104,9 +104,12 @@ Searching OPAC SBN for those is a job for an ordinary connection.
 
 ## What to do next, in order of value
 
-1. Extract Appendix II of the 1936 census, the locality list, and match it against
-   `data/processed/concordance_mahalla.csv`. A 1936 settlement name with its circumscription, joined
-   to a 2006 mahalla, is the longest place-level link this repository could hold.
+1. ~~Extract Appendix II of the 1936 census, the locality list, and match it against
+   `data/processed/concordance_mahalla.csv`.~~ **Done**, by
+   `scripts/extract_istat_1936_localities.py`: 1,090 localities, 870 placed in a modern shabiya
+   through their circumscription, and 48 joined to a mahalla of the 2006 census on a consonant
+   skeleton within the same province. Table XX of the same volume holds the population of each, and
+   extracting that is the obvious next step.
 2. Pull the Libya chapter out of each yearbook volume from 1911 to 1943 and build the colonial
    panel. The chapter is a fixed structure across volumes, which is what makes it tractable.
 3. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which

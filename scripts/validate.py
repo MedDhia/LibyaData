@@ -730,6 +730,54 @@ if istat.exists():
                  f"downloaded; three Libyan population counts (1921, 1931, 1936) "
                  f"and the Italian yearbook run 1911-1943")
 
+loc_dir = OUT / "istat"
+if (loc_dir / "libya_localities_1936.csv").exists():
+    print("\n1936 Italian census, Libyan localities")
+    loc = pd.read_csv(loc_dir / "libya_localities_1936.csv")
+    circ = pd.read_csv(loc_dir / "libya_circoscrizioni_1936.csv")
+
+    # Anything placed must sit in one of the 22 shabiyat.
+    placed = loc[loc.shabiya_en.notna()]
+    outside = set(placed.shabiya_en) - set(cross.shabiya_en)
+    if outside:
+        failures.append(f"1936: shabiyat outside the concordance: {outside}")
+        print(f"  [FAIL] {len(outside)} shabiyat not in the concordance")
+    else:
+        print(f"  [ok ] {len(loc)} localities, {len(placed)} placed in a shabiya, "
+              f"all 22 names from the concordance")
+
+    # A locality's shabiya comes from its circumscription and nowhere else.
+    seats = dict(zip(circ.circoscrizione_it, circ.shabiya_en))
+    wrong = [row.locality_it for row in placed.itertuples()
+             if seats.get(row.circoscrizione_it) != row.shabiya_en]
+    if wrong:
+        failures.append(f"1936: {len(wrong)} localities disagree with their "
+                        f"circumscription")
+        print(f"  [FAIL] {len(wrong)} localities placed away from their "
+              f"circumscription")
+    else:
+        routes = placed.shabiya_matched_level.value_counts().to_dict()
+        print(f"  [ok ] every placed locality takes its circumscription's "
+              f"shabiya {routes}")
+
+    # The join to 2006 is one to one, and every row says which rule reached it.
+    joined = loc[loc.mahalla_id.notna()]
+    doubled = joined.mahalla_id.duplicated().sum()
+    ruleless = int(loc.match_rule.isna().sum())
+    if doubled or ruleless:
+        failures.append(f"1936: {doubled} mahallas claimed twice, {ruleless} rows "
+                        f"with no match rule")
+        print(f"  [FAIL] {doubled} mahallas claimed by two localities, "
+              f"{ruleless} rows with no rule")
+    else:
+        rules = joined.match_rule.value_counts().to_dict()
+        print(f"  [ok ] {len(joined)} localities join a 2006 mahalla, one to one "
+              f"{rules}")
+
+    notes.append(f"1936: {len(placed)} of {len(loc)} localities placed in a "
+                 f"shabiya, {len(joined)} joined to a 2006 mahalla; the rest are "
+                 f"wells, lodges and farms the later censuses do not count")
+
 print()
 for n in notes:
     print(f"note: {n}")

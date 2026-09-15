@@ -40,6 +40,7 @@ python3 scripts/download_bnf_catalogue.py
 python3 scripts/extract_bnf_libya_sources.py
 
 python3 scripts/download_istat_colonial.py
+python3 scripts/extract_istat_1936_localities.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -956,6 +957,90 @@ library rather than all of it, 180 directories and 3,041 files; `--all` walks
 everything and takes far longer. `colonial_sections_to_search_by_hand` names two
 series that carry Libyan numbers under an Italian title and are not tied to a
 single year.
+
+---
+
+### `data/processed/istat/` — the 1936 gazetteer, 1,090 localities
+
+Appendix II of the 1936 census volume, read by
+`scripts/extract_istat_1936_localities.py`: `ELENCO ALFABETICO DELLE LOCALITÀ
+DELLA LIBIA INDICATE NELLA TAV. XX CON L'INDICAZIONE DELLA CIRCOSCRIZIONE DI
+APPARTENENZA AL 21 APRILE 1936-XIV`. Eight scanned pages, two column-pairs to a
+page, locality on the left of a pair and circumscription on the right.
+
+The census strips a generic word from the head of a name and prints it in
+brackets so the alphabet runs on the distinctive part, and page 239 lists them:
+the article `el-`, and Àin (spring), Bir (well), Gasr (castle), Gefàra (plain),
+Got (depression), Màrsa (port), Ras (cape), Sània (garden), Sìdi (marabout),
+Uàdi (valley), Zàvia (lodge). `locality_it` puts the bracket back at the front,
+so `Abbàr (el-)` reads as `el-Abbàr`; `locality_printed` keeps the page's own
+form.
+
+#### `libya_localities_1936.csv` — one row per locality
+
+`locality_it`, `locality_printed`, `skeleton`, `circoscrizione_it`,
+`circoscrizione_kind`, `circoscrizione_ar`, `shabiya_ar`, `shabiya_en`,
+`shabiya_pcode`, `shabiya_matched_level`, `tav_xx_page`, `appendix_page`,
+`circoscrizione_printed`, `mahalla_id`, `mahalla_ar`, `match_rule`.
+
+`tav_xx_page` is the page of the census's table XX where the locality's
+population is printed, which is where to go next for the numbers.
+
+**870 of the 1,090 localities carry a shabiya.** The other 220 are rows whose
+circumscription the scan destroyed, plus the 16 in Gèrdes Gerràri, a
+circumscription this repository cannot place and does not guess at.
+
+#### How a locality is placed, and what is asserted
+
+The columns are recovered by content rather than position: a circumscription
+names its kind or opens with a table XX page number, a locality does neither,
+and each locality takes the circumscription on its own baseline between 40 and
+230 points to its right. Fixed column edges were tried first and lost a sixth of
+the rows, because the scan is skewed differently on every page.
+
+The scan spells each circumscription a dozen ways, `Residenza di Tarhùna` coming
+out as `za di tarhuna`, `i tarhuna` and `tarliuna`, so each is matched to the
+closest of 59 canonical seats. **The shabiya is then the concordance's, not the
+table's**: each seat is given the Arabic name it transliterates and that name is
+looked up through `scripts/libya_places.py`. 39 seats resolve that way. 19 do
+not, because the concordance cannot place their name, and for those the province
+is asserted in the script and the row is marked `asserted` in
+`shabiya_matched_level` so it can be dropped. Four of those assertions are
+imported from `scripts/extract_opensanctions_libya.py` rather than repeated.
+
+#### The join to 2006, and why it is small
+
+`mahalla_id` and `mahalla_ar` join a 1936 locality to a mahalla of the 2006
+census. **48 of the 1,090 join.** That is the honest number, and the rule is in
+`match_rule`.
+
+Matching a 1936 Italian transliteration to a 2006 Arabic name is not a lookup.
+Both are reduced to a consonant skeleton over the classes the two writing
+systems agree on: ت and ط both become T, غ ق and ك all become K, `sc` becomes
+what ش writes. A match needs a skeleton of at least four classes, the same
+shabiya on both sides, and a name unique in that shabiya in both lists. The
+shabiya constraint is the rule `scripts/match_osm_places.py` already uses, for
+the same reason: الزهراء exists in both Jafara and Wadi al Shatii.
+
+Three rules, tried strictest first, and each row records which one reached it:
+`skeleton and shabiya` (36), `article dropped` (4) for الخمس against Homs, and
+`semivowels dropped` (8) for مصراتة against Misurata, where one writing system
+spells a long vowel the other does not. Where two localities claim the same
+mahalla both are given up: el-Gsèba and el-Gùsba both sound like القصبة in Jabal
+al Gharbi and nothing in the names says which is which.
+
+The 653 that fail on "no mahalla of that sound in the shabiya" are mostly not
+failures of matching. The 1936 list counts wells, lodges, farms and army posts,
+and the Italian state moved people: the settlement pattern it recorded is not
+the one the 2006 census counts.
+
+#### `libya_circoscrizioni_1936.csv` — 59 circumscriptions
+
+One row per circumscription seat: its Italian name, the Arabic name it
+transliterates, the shabiya, how that shabiya was reached, and how many
+localities it holds. Distretto, Residenza, Mudiria and Circondario are the four
+kinds, which is the colonial hierarchy: 462 localities sit in a Residenza, 284
+in a Distretto, 95 in a Mudiria and 23 in a Circondario.
 
 ---
 

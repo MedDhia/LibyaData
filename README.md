@@ -11,7 +11,7 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
-**Phase 2 — extraction.** Thirty-nine datasets built from the two highest-value
+**Phase 2 — extraction.** Forty datasets built from the two highest-value
 Libyan sources, with a validation suite. See
 [`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
 
@@ -42,6 +42,7 @@ Libyan sources, with a validation suite. See
 | **Municipal councils formed** | HNEC, 2026, all placed in a shabiya | 8 |
 | HNEC municipal decisions | 2024–2026, 15 act types | 53 |
 | Gazette decisions | 50 issues, laws and decisions | 109 |
+| **1936 Italian census localities** | Libya's oldest gazetteer, 870 placed in a shabiya | 1,090 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
 | Libyan designations, from OpenSanctions | 44 authorities | 2,286 |
@@ -90,6 +91,8 @@ The Italian colonial statistics, located on 2026-09-15 and downloadable:
   plain directory index, and none of it needed a catalogue.
 - [`data/raw/istat/manifest.json`](data/raw/istat/manifest.json) — what is there, with sizes and
   URLs.
+- [`data/processed/istat/`](data/processed/istat/) — the 1936 locality list, extracted: 1,090
+  localities, 870 of them placed in a modern shabiya and 48 joined to a mahalla of the 2006 census.
 
 ## What the data shows
 
