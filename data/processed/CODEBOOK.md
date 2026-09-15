@@ -35,6 +35,9 @@ python3 scripts/extract_gazette_appointments.py
 
 python3 scripts/download_hnec_municipal.py
 python3 scripts/extract_municipal_councils.py
+
+python3 scripts/download_bnf_catalogue.py
+python3 scripts/extract_bnf_libya_sources.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -817,6 +820,94 @@ nine polling centres in العجيلات, which the concordance places in Nuqat 
 Khams, and that is where the municipality goes. Rows placed this way carry
 `matched_level` = `hnec_city` and can be dropped by anyone who wants the census
 hierarchy alone.
+
+---
+
+## The BnF's Libya holdings — a source inventory, not a dataset
+
+---
+
+### `data/processed/bnf/` — 4,396 catalogue records, 43 of them carrying data
+
+What the Bibliothèque nationale de France holds on Libya, collected by
+`scripts/download_bnf_catalogue.py` from the BnF Catalogue général through its
+SRU service and coded by `scripts/extract_bnf_libya_sources.py`. The narrative
+account is in [`sources/bnf_README.md`](../../sources/bnf_README.md).
+
+This is an inventory of documents, not a dataset extracted from them. It says
+what exists, where, and whether it can be read online.
+
+**Gallica refuses this repository's addresses**, `403 Access Interdit` on every
+path including its own SRU service and its IIIF manifests, while
+`catalogue.bnf.fr/api/SRU` answers normally and carries the Gallica ARK of each
+digitised record. So the inventory is complete and the documents are not, and
+`sources/access_notes.md` records the block.
+
+#### `bnf_libya_records.csv` — every record
+
+`record_ark`, `title`, `authors`, `publisher`, `publication_date`, `year`,
+`era`, `document_type`, `document_class`, `is_data_source`, `language`,
+`subjects`, `is_digitised`, `gallica_ark`, `gallica_url`, `catalogue_url`,
+`found_by`, `holding_institution`.
+
+`found_by` lists the search terms that returned the record: the three provinces
+and the country in French and Italian, the Ottoman name, the towns that recur in
+colonial-era titles, and four series searched by title because their volumes
+carry Libyan numbers under a title that never says Libya.
+
+**Read `document_class` before believing any count.** 4,396 records name Libya
+and 873 are digitised, and neither number measures usable material: 749 of the
+records are coins in the Cabinet des Médailles, Greek drachms struck at Barka
+and Teuchira, which is why "Cyrénaïque" is the largest term in the catalogue and
+why most of what it returns is photographs of objects. The 1900-1919 band holds
+338 digitised records because the Italo-Turkish war of 1911 was photographed
+heavily.
+
+| `document_class` | Records | Digitised |
+|---|---|---|
+| `book` | 2,201 | 103 |
+| `coin` | 749 | 0 |
+| `map` | 604 | 295 |
+| `photograph` | 525 | 427 |
+| `serial` | 131 | 8 |
+| `archive_manuscript` | 40 | 31 |
+| the six data classes | 43 | 5 |
+
+`era` is the Libyan state the document belongs to, which is what decides who was
+collecting and under what categories: `ottoman` to 1911, `italian` to 1943,
+`allied_administration` to 1951, `kingdom` to 1969, `jamahiriya` to 2011,
+`post_2011`.
+
+#### `bnf_libya_data.csv` — the 43 that carry data
+
+The data classes are `population_census`, `statistical_abstract`,
+`trade_returns`, `gazetteer`, `scientific_mission` and `official_serial`, read
+from the title and subject rather than from the catalogue's document type,
+because a census is a census whether the catalogue calls it a printed text or a
+serial.
+
+Two coding rules were put in after the matching produced something false. The
+bare word "census" is not a census: it is in the name of the Libyan department
+that published the statistical abstracts, and it turned four abstracts into
+censuses. And "itinéraire" and "répertoire" are not a gazetteer: they caught GPS
+guides for desert tourists and a directory of North African doctors practising in
+France. One false positive survives, a volume on cotton in the United States that
+came in through the title search for the French consular series; `found_by` shows
+where each record came from.
+
+**What is here matters more than how many.** The BnF holds Libya's first two
+censuses, of 1954 and 1964, and a statistical abstract running 1958 to 1974 —
+the end of the series this repository's own census data begins in 2006. None of
+the three is digitised. What is digitised is older: two French consular series
+in full runs, 1877-1914 and 1892-1914; a manuscript gazetteer of the villages of
+the Regency of Tripoli; consular dispatches on the commerce of Tripoli and
+Benghazi in the 1820s; and 295 maps, among them the Italian triangulation of
+Tripolitania and three sets of Libyan city plans, all from 1914.
+
+That the Tripoli reports are inside the two consular series **has not been
+verified**: the catalogue proves the series exists and is digitised, not what is
+in a given volume, and Gallica cannot be read from here. It is recorded as a
+candidate with the check to run, not as a holding.
 
 ---
 

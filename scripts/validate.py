@@ -643,6 +643,59 @@ if (mun_dir / "municipal_councils.csv").exists():
                  f"{len(mun_decisions) - len(coded)} decisions carry no act in their "
                  f"title; member names are page scans and are not extracted")
 
+bnf_dir = OUT / "bnf"
+if (bnf_dir / "bnf_libya_records.csv").exists():
+    print("\nBibliothèque nationale de France, Libya holdings")
+    bnf = pd.read_csv(bnf_dir / "bnf_libya_records.csv")
+    bnf_data = pd.read_csv(bnf_dir / "bnf_libya_data.csv")
+
+    # Every record must be identifiable in the catalogue it came from.
+    missing = bnf[bnf.catalogue_url.isna() | ~bnf.catalogue_url.fillna("").str.contains(
+        "catalogue.bnf.fr")]
+    if len(missing):
+        failures.append(f"bnf: {len(missing)} records carry no catalogue URL")
+        print(f"  [FAIL] {len(missing)} records with no catalogue URL")
+    else:
+        print(f"  [ok ] {len(bnf)} catalogue records, every one resolvable at the BnF")
+
+    # The data subset must be exactly the data-bearing classes, and nothing else.
+    classes = {"population_census", "statistical_abstract", "trade_returns",
+               "gazetteer", "scientific_mission", "official_serial"}
+    flagged = set(bnf[bnf.is_data_source == 1].document_class)
+    carried = set(bnf_data.document_class)
+    if flagged - classes or carried != flagged or len(bnf_data) != int(
+            bnf.is_data_source.sum()):
+        failures.append(f"bnf: data subset disagrees with is_data_source "
+                        f"{flagged - classes or carried ^ flagged}")
+        print(f"  [FAIL] data classes {flagged - classes}, "
+              f"{len(bnf_data)} rows against {int(bnf.is_data_source.sum())} flagged")
+    else:
+        print(f"  [ok ] {len(bnf_data)} data-bearing records, every class documented "
+              f"{bnf_data.document_class.value_counts().to_dict()}")
+
+    # A Gallica link means digitised; the reverse does not hold, because the
+    # catalogue's UNIMARC service fails for part of the set and only the ARK is
+    # lost. Anything claiming a link without the flag is a coding error.
+    linked = bnf[bnf.gallica_url.notna()]
+    unflagged = linked[linked.is_digitised != 1]
+    eras = set(bnf.era.dropna()) - {"ottoman", "italian", "allied_administration",
+                                    "kingdom", "jamahiriya", "post_2011"}
+    if len(unflagged) or eras:
+        failures.append(f"bnf: {len(unflagged)} linked records not flagged digitised, "
+                        f"undocumented eras {eras}")
+        print(f"  [FAIL] {len(unflagged)} Gallica links on rows not marked digitised, "
+              f"eras {eras}")
+    else:
+        digitised = int((bnf.is_digitised == 1).sum())
+        print(f"  [ok ] {digitised} digitised, {len(linked)} carrying a Gallica ARK, "
+              f"every era documented")
+
+    notes.append(f"bnf: {len(bnf)} catalogue records name Libya, "
+                 f"{int((bnf.is_digitised == 1).sum())} digitised, "
+                 f"{len(bnf_data)} carrying data "
+                 f"({int((bnf_data.is_digitised == 1).sum())} of those digitised); "
+                 f"gallica.bnf.fr blocks this address, the catalogue does not")
+
 print()
 for n in notes:
     print(f"note: {n}")

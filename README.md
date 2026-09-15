@@ -70,6 +70,16 @@ scripts/validate.py` re-checks the results.
 - [`sources/osint_README.md`](sources/osint_README.md) — where the value is, what to be careful
   about, and which access models changed.
 
+4,396 Bibliothèque nationale de France catalogue records searched on 2026-09-15, for the Libyan
+record before the Bureau of Statistics existed:
+
+- [`sources/bnf_README.md`](sources/bnf_README.md) — what the BnF holds, what of it carries data,
+  and what can be read from a blocked address. The first two Libyan censuses, of 1954 and 1964, and
+  a statistical abstract running 1958 to 1974 are there and are not digitised; two French consular
+  series covering 1877 to 1914 are digitised in full.
+- [`data/processed/bnf/`](data/processed/bnf/) — the inventory itself, every record coded by what it
+  is and which Libyan state it belongs to.
+
 ## What the data shows
 
 Every one of the ten accounting identities inside the Central Bank's monetary

@@ -29,6 +29,19 @@ Changing the user agent does not help — the block is on the IP, and Sucuri ret
 Do not work around this by disabling TLS verification or by rotating through proxies to evade the
 block; document the gap instead.
 
+## Foreign libraries that block the same way
+
+Observed 2026-09-15.
+
+| Source | Domain | Symptom | Workaround |
+|---|---|---|---|
+| Gallica, Bibliothèque nationale de France | gallica.bnf.fr | `403 Access Interdit` on every path, the SRU service and the IIIF manifests included; a browser user agent turns the refusal into a hang | Read the BnF **Catalogue général** instead, at `catalogue.bnf.fr/api/SRU`, which answers normally and carries the Gallica ARK of every digitised record in UNIMARC `856$u`. Fetch the documents themselves from an ordinary connection. |
+| Bibliothèque numérique, Ministère de l'Europe et des Affaires étrangères | bibliotheque-numerique.diplomatie.gouv.fr | Incomplete TLS chain: `unable to get local issuer certificate`, with or without the agent proxy's CA bundle. A fetch through the harness returns `503` | None from here. The site mirrors Gallica ARKs for diplomatic material, so it is worth retrying from an ordinary connection when Gallica itself is unreachable. |
+
+The catalogue route is what `scripts/download_bnf_catalogue.py` uses, and it is enough to build an
+inventory: 4,396 records, 873 of them digitised. What it cannot do is read the documents, so the
+contents of a series are recorded as unverified rather than assumed.
+
 ## Sites that return HTTP 200 but no usable body
 
 | Source | Domain | Symptom | Workaround |
