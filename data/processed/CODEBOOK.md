@@ -41,6 +41,7 @@ python3 scripts/extract_bnf_libya_sources.py
 
 python3 scripts/download_istat_colonial.py
 python3 scripts/extract_istat_1936_localities.py
+python3 scripts/extract_istat_1936_population.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -960,7 +961,7 @@ single year.
 
 ---
 
-### `data/processed/istat/` — the 1936 gazetteer, 1,090 localities
+### `data/processed/istat/` — the 1936 gazetteer and its population
 
 Appendix II of the 1936 census volume, read by
 `scripts/extract_istat_1936_localities.py`: `ELENCO ALFABETICO DELLE LOCALITÀ
@@ -1033,6 +1034,53 @@ The 653 that fail on "no mahalla of that sound in the shabiya" are mostly not
 failures of matching. The 1936 list counts wells, lodges, farms and army posts,
 and the Italian state moved people: the settlement pattern it recorded is not
 the one the 2006 census counts.
+
+#### `libya_population_1936.csv` — table XX, 2,348 rows
+
+The numbers behind the gazetteer, read by
+`scripts/extract_istat_1936_population.py` from table XX of the same volume,
+printed pages 57 to 79: `Popolazione presente e temporaneamente assente secondo
+il tipo della dimora ed il sesso. Famiglie e convivenze: nelle circoscrizioni
+politico-amministrative per località ed aggregati etnici`.
+
+`famiglie`, `present_mf`, `present_f`, `absent_mf`, and `dwelling`, the census's
+own three-way split of the Libyan population into `st.` stabile, `sn.`
+semi-nomade and `n.` nomade, recorded per place. `locality_it`,
+`circoscrizione_it`, `shabiya_en` and `shabiya_pcode` carry the join to the
+gazetteer where one was made.
+
+**`row_kind` has to be read before anything is added up.** The table stacks four
+kinds of line: `locality` a place, `quarter` a named quarter or ethnic aggregate
+under one, `subtotal` a circumscription or territory line, and `census_1931` the
+1931 comparison the table prints under every 1936 figure. Summing all of them
+would count the population three times over.
+
+The columns are found per page from the figures themselves. The table sets them
+flush right, so a column is a cluster of right edges; clustering left edges
+merges everything, because a four-figure number begins further left than a
+three-figure one in the same column. Each number is then assigned to the column
+it sits under rather than to its position in the line, which matters because a
+figure the scan destroys leaves a hole and reading in order would shift every
+later column on that row.
+
+#### What the numbers are worth
+
+Three arithmetic checks decide whether a row is marked sound: women cannot
+outnumber both sexes, families cannot outnumber people, and the absent cannot
+outnumber the present tenfold. 1,872 of the 2,348 rows pass; the 476 that fail
+are kept with `is_consistent` = 0, because a visible hole is worth more than a
+silent deletion.
+
+**The measure of the whole extraction is the volume's own total.** Prospetto 20
+on page 21\* gives the Libyan present population of 1936 as 750,851. The rows
+read here as places sum to **801,115, which is 6.7% high**, and the reason is
+structural rather than arithmetic: the table prints a total for a town above the
+quarters it is made of, and the scan hides some of the 1931 comparison labels so
+well (`Oens.`, `Oms.`, `OtmB.`, the year as `i9à1`) that a few of those rows are
+still read as places. `validate.py` fails if that gap ever exceeds 15%.
+
+So the row-level figures are usable and the column sums are not. Take a row,
+not a total.
 
 #### `libya_circoscrizioni_1936.csv` — 59 circumscriptions
 

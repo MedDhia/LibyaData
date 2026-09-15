@@ -247,8 +247,8 @@ def lines_of(page):
                 continue
             text = " ".join(line.get_text().split())
             if text:
-                out.append({"x": line.x0, "y": (line.y0 + line.y1) / 2,
-                            "text": text})
+                out.append({"x": line.x0, "x1": line.x1,
+                            "y": (line.y0 + line.y1) / 2, "text": text})
     return out
 
 

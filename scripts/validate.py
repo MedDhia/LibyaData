@@ -778,6 +778,50 @@ if (loc_dir / "libya_localities_1936.csv").exists():
                  f"shabiya, {len(joined)} joined to a 2006 mahalla; the rest are "
                  f"wells, lodges and farms the later censuses do not count")
 
+pop_path = OUT / "istat" / "libya_population_1936.csv"
+if pop_path.exists():
+    print("\n1936 Italian census, table XX population")
+    pop = pd.read_csv(pop_path)
+
+    kinds = {"locality", "quarter", "subtotal", "census_1931"}
+    unknown = set(pop.row_kind) - kinds
+    if unknown:
+        failures.append(f"1936 table XX: undocumented row kinds {unknown}")
+        print(f"  [FAIL] row kinds {unknown}")
+    else:
+        print(f"  [ok ] {len(pop)} rows read, every one typed "
+              f"{pop.row_kind.value_counts().to_dict()}")
+
+    # Women cannot outnumber both sexes on a row published as consistent.
+    good = pop[pop.is_consistent == 1]
+    impossible = good[good.present_f.fillna(0) > good.present_mf.fillna(0)]
+    if len(impossible):
+        failures.append(f"1936 table XX: {len(impossible)} rows with more women "
+                        f"than people")
+        print(f"  [FAIL] {len(impossible)} consistent rows with F above MF")
+    else:
+        print(f"  [ok ] {len(good)} rows pass the arithmetic checks, "
+              f"{len(pop) - len(good)} marked inconsistent and kept")
+
+    # The volume's own total is the measure of how well the scan was read.
+    published = 750851
+    people = good[good.row_kind.isin(["locality", "quarter"])]
+    total = int(people.present_mf.fillna(0).sum())
+    drift = abs(total - published) / published
+    if drift > 0.15:
+        failures.append(f"1936 table XX: the place rows sum to {total}, "
+                        f"{drift:.0%} from the published {published}")
+        print(f"  [FAIL] place rows sum to {total:,}, {drift:.0%} from the "
+              f"volume's {published:,}")
+    else:
+        print(f"  [ok ] {len(people)} place rows sum to {total:,} against the "
+              f"volume's own {published:,}, {drift:.1%} high")
+
+    tied = people[people.shabiya_en.notna()]
+    notes.append(f"1936 table XX: {len(people)} place rows, {total:,} present "
+                 f"against the volume's {published:,}; {len(tied)} tie to a "
+                 f"locality of appendix II and so to a shabiya")
+
 print()
 for n in notes:
     print(f"note: {n}")
