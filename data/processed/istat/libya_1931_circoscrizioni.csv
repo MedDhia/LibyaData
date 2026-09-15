@@ -1,0 +1,19 @@
+colony,seat,level,seat_ar,shabiya_ar,shabiya_en,shabiya_pcode,shabiya_route,superficie_km2,present_total,present_italian,present_foreign,present_indigenous,density_km2,seat_printed,label_printed
+Tripolitania,tripoli,commissariato_regionale,طرابلس,طرابلس,Tripoli,LY0211,concordance,36,81986,21472,2263,58251,,tripoli,C. R. DI TRIPOLI (2) . . . .
+Tripolitania,confine occidentale,commissariato_regionale,,,,,spans_several_shabiyat,5522,37154,722,6,36426,,confine occcidentale,C. R. DEL CONFINE OCCCIDENTALE •
+Tripolitania,zavia,commissariato_regionale,الزاوية,الزاوية,Zawiya,LY0213,concordance,2432,,838,,39880,,za via,C. R. DI ZA VIA
+Tripolitania,gefara,commissariato_regionale,,,,,spans_several_shabiyat,4134,74161,2254,6,71901,,gef ra,"C. R. DELLA GEF"":RA"
+Tripolitania,leptis,commissariato_regionale,المرقب,المرقب,Murqub,LY0210,concordance,3600,42487,433,48,42006,,leptis,C. R. DI LEPTIS
+Tripolitania,misurata,commissariato_regionale,مصراته,مصراته,Misrata,LY0214,concordance,,78397,799,63,77535,,misurata,C. R. DI MISURATÀ :
+Tripolitania,gebel,commissariato_regionale,,,,,spans_several_shabiyat,45464,95897,566,,95330,,geiiel,C. R. DEI. GEIIEL •
+Tripolitania,sud orientale,comando_di_zona,,,,,spans_several_shabiyat,162580,21098,799,2,20297,,sud orientale,C. Z. SUD ORIENTALE.
+Tripolitania,gebel,comando_di_zona,,,,,spans_several_shabiyat,89232,24902,139,,24762,,gebel,C. Z. DEL GEBEL .
+Tripolitania,sud occidentale,comando_di_zona,,,,,spans_several_shabiyat,65616,20781,216,4,20561,,sud occidentai e,C. Z. SUD OCCIDENTAI~E :
+Tripolitania,fezzan,comando_di_zona,,,,,spans_several_shabiyat,525800,26080,258,,25822,,fezzan,C. Z. DEL FEZZAN.
+Tripolitania,totale,total,,,,,colony_total,912532,543672,28496,2405,512771,,totale,TOTALE
+Cirenaica,bengasi,commissariato_regionale,,,,,spans_several_shabiyat,18255,81961,10969,2007,68985,,bengasi,C.R DI BENGASI. . . . . .
+Cirenaica,municipio di bengasi,municipio,بنغازي,بنغازي,Benghazi,LY0103,concordance,,43240,10547,2007,30686,,benfjasi,di cui nel Municipio di BenfJasi.
+Cirenaica,gebel,commissariato_regionale,,,,,spans_several_shabiyat,37335,35407,3525,358,31524,,gebel,C. R. DEL GEBEL .
+Cirenaica,marmarica,comando_di_zona,البطنان,البطنان,Butnan,LY0104,concordance,55780,6467,1091,33,5343,,la marmarica,C. Z. DEI.LA MARMARICA.
+Cirenaica,agedabia,comando_di_zona,,,,,spans_several_shabiyat,750050,36616,519,4,36093,,agedabia,C. Z. DI AGEDABIA
+Cirenaica,totale,total,,,,,colony_total,861420,160451,16104,,141945,,totale,TOTALE

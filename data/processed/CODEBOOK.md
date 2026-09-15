@@ -42,6 +42,7 @@ python3 scripts/extract_bnf_libya_sources.py
 python3 scripts/download_istat_colonial.py
 python3 scripts/extract_istat_1936_localities.py
 python3 scripts/extract_istat_1936_population.py
+python3 scripts/extract_istat_1931_libya.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1081,6 +1082,63 @@ still read as places. `validate.py` fails if that gap ever exceeds 15%.
 
 So the row-level figures are usable and the column sums are not. Take a row,
 not a total.
+
+#### `libya_1931_circoscrizioni.csv` — the census before it, 18 rows
+
+Table I of the 1931 volume, read by `scripts/extract_istat_1931_libya.py` from
+the two pages that carry Libya: printed page 12 for Tripolitania and page 24 for
+Cyrenaica. Libya is two colonies here and the volume never adds them together.
+
+What 1931 has that 1936 does not is **all four populations side by side**: the
+colony's total, the Italians from the Kingdom, other foreigners, and the
+indigenous population, with the area in square kilometres and the density.
+`superficie_km2`, `present_total`, `present_italian`, `present_foreign`,
+`present_indigenous`, `density_km2`, by Commissariato Regionale and Comando di
+Zona.
+
+| | Tripolitania | Cyrenaica |
+|---|---|---|
+| Area | 912,532 km² | 861,420 km² |
+| Present | 543,672 | 160,451 |
+| Indigenous | 512,771 | 141,945 |
+| Italians | 28,496 | 16,104 |
+
+**How well it was read.** The tables print their own totals, and the extraction
+is measured against them. For Cyrenaica every column comes out exactly as
+printed. For Tripolitania the Italian and the indigenous columns come out
+exactly, and three are short by precisely the cells the scan destroyed: the area
+of Misurata, the total population of Zavia, and four small counts of foreigners.
+`validate.py` fails if a column sum ever exceeds its printed total, or falls
+short of it with no damaged cell to account for the gap.
+
+**The geography of 1931 is regional, and mostly does not map onto the modern
+provinces.** `shabiya_route` says which of three cases a row is. Six are one
+modern shabiya and resolve through the concordance: Tripoli, Zavia, Leptis
+(Murqub), Misurata, the Municipio di Bengasi, and the Marmarica (Butnan). Ten
+are marked `spans_several_shabiyat` and left unplaced rather than given a
+province they only partly occupy: the Commissariato della Gefara reaches from
+Tripoli through Jafara into Murqub, and the four southern Comandi di Zona cover
+the whole Fezzan. The name alone is not enough to tell them apart either, which
+is why the lookup is by colony: the Gebel of Tripolitania is the Nefusa mountain
+in the west and the Gebel of Cyrenaica is the green mountain in the east.
+
+#### Table II of 1931, and why it is not here
+
+Table II carries the district detail, which is the more valuable half, and it is
+**not published**. The scan runs the label and the first two figures together
+into one string, so a line arrives as `C. R. DI TRIPOLI (2). 81.98638.444
+21.47`. The wide figures can be split back apart by their thousands separators
+but they then have no column position, and assigning them in order is exactly
+what fails when the scan has dropped one. A district table keyed by guesswork
+would be worse than none. For anything below the circumscription in the colonial
+period, use the 1936 locality list above.
+
+The Tripolitanian page is also tilted: a printed row's label sits seven points
+above its own last figure, which is where the next label sits, so grouping by
+baseline hands every row's figures to the label below it and the colony's total
+comes out 11% short. The tilt is measured by trying a range of slopes and
+keeping the one that puts the most labels in a band with figures; a page that is
+not tilted is left alone.
 
 #### `libya_circoscrizioni_1936.csv` — 59 circumscriptions
 

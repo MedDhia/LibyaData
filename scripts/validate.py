@@ -822,6 +822,60 @@ if pop_path.exists():
                  f"against the volume's {published:,}; {len(tied)} tie to a "
                  f"locality of appendix II and so to a shabiya")
 
+circ_path = OUT / "istat" / "libya_1931_circoscrizioni.csv"
+if circ_path.exists():
+    print("\n1931 Italian census of the colonies, Libya")
+    c31 = pd.read_csv(circ_path)
+    printed = {
+        "Tripolitania": {"superficie_km2": 912532, "present_total": 543672,
+                         "present_italian": 28496, "present_foreign": 2405,
+                         "present_indigenous": 512771},
+        "Cirenaica": {"superficie_km2": 861420, "present_total": 160451,
+                      "present_italian": 16104, "present_foreign": 2402,
+                      "present_indigenous": 141945},
+    }
+    # A column may fall short of the printed total only where the scan
+    # destroyed a cell, and may never exceed it.
+    trouble, exact = [], 0
+    for colony, targets in printed.items():
+        rows = c31[(c31.colony == colony)
+                   & c31.level.isin(["commissariato_regionale",
+                                     "comando_di_zona"])]
+        for field, target in targets.items():
+            total = int(rows[field].fillna(0).sum())
+            gaps = int(rows[field].isna().sum())
+            if total > target or (total < target and gaps == 0):
+                trouble.append(f"{colony} {field}: {total} against {target} with "
+                               f"{gaps} damaged cells")
+            elif total == target:
+                exact += 1
+    if trouble:
+        failures.append(f"1931: {len(trouble)} column sums do not account for "
+                        f"themselves: {trouble[:2]}")
+        print(f"  [FAIL] {len(trouble)} column sums unaccounted for: {trouble[:2]}")
+    else:
+        print(f"  [ok ] 10 column sums checked against the printed totals, "
+              f"{exact} exactly equal and the rest short only where the scan "
+              f"destroyed a cell")
+
+    # A circumscription is placed only where it is one modern province.
+    routes = {"concordance", "asserted", "spans_several_shabiyat",
+              "colony_total", "unplaced", "unread"}
+    unknown = set(c31.shabiya_route) - routes
+    placed = c31[c31.shabiya_en.notna()]
+    outside = set(placed.shabiya_en) - set(cross.shabiya_en)
+    if unknown or outside:
+        failures.append(f"1931: routes {unknown}, shabiyat {outside}")
+        print(f"  [FAIL] undocumented routes {unknown} or shabiyat {outside}")
+    else:
+        print(f"  [ok ] {len(placed)} of {len(c31)} circumscriptions are one "
+              f"modern shabiya {c31.shabiya_route.value_counts().to_dict()}")
+
+    notes.append(f"1931: {len(c31)} circumscriptions of Tripolitania and "
+                 f"Cyrenaica with area and the four populations; the district "
+                 f"table is not published, the scan runs its labels and figures "
+                 f"together")
+
 print()
 for n in notes:
     print(f"note: {n}")

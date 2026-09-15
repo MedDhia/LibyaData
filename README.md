@@ -11,7 +11,7 @@ release it in tidy, analysis-ready form.
 
 ## Status
 
-**Phase 2 — extraction.** Forty-one datasets built from the two highest-value
+**Phase 2 — extraction.** Forty-two datasets built from the two highest-value
 Libyan sources, with a validation suite. See
 [`data/processed/CODEBOOK.md`](data/processed/CODEBOOK.md).
 
@@ -44,6 +44,7 @@ Libyan sources, with a validation suite. See
 | Gazette decisions | 50 issues, laws and decisions | 109 |
 | **1936 Italian census localities** | Libya's oldest gazetteer, 870 placed in a shabiya | 1,090 |
 | 1936 census table XX population | families, present, women, absent, by dwelling type | 2,348 |
+| 1931 census circumscriptions | area and four populations, Tripolitania and Cyrenaica | 18 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
 | Libyan designations, from OpenSanctions | 44 authorities | 2,286 |

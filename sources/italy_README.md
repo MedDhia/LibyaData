@@ -112,5 +112,9 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    extracting that is the obvious next step.
 2. Pull the Libya chapter out of each yearbook volume from 1911 to 1943 and build the colonial
    panel. The chapter is a fixed structure across volumes, which is what makes it tractable.
+3. The 1931 volume is read as far as it can be: `scripts/extract_istat_1931_libya.py` publishes its
+   table I, area and the four populations by circumscription for both colonies, with Cyrenaica
+   exactly as printed. Its table II, the district detail, is not machine-readable from this scan and
+   is recorded as such. Re-OCR of those two pages would recover it.
 3. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.
