@@ -42,6 +42,22 @@ The catalogue route is what `scripts/download_bnf_catalogue.py` uses, and it is 
 inventory: 4,396 records, 873 of them digitised. What it cannot do is read the documents, so the
 contents of a series are recorded as unverified rather than assumed.
 
+### The Italian catalogues, which are harder
+
+| Source | Domain | Symptom | Workaround |
+|---|---|---|---|
+| OPAC SBN, the Italian union catalogue | opac.sbn.it | The site answers HTTP 200 but renders its results in JavaScript; the HTML of a search page carries no records. Its documented machine route is Z39.50 on ports 2100 and 3950, and this session has no egress but HTTPS through the proxy, so both are unreachable | None from here. A headless browser is the obvious answer and does not work either, see below |
+| Internet Culturale | internetculturale.it | Same: HTTP 200, results rendered client-side, no OAI-PMH endpoint at the documented paths | None from here |
+| HathiTrust | catalog.hathitrust.org, babel.hathitrust.org | HTTP 403 to scripted clients | None from here |
+| ISTAT digital library | ebiblio.istat.it | **Works.** The library is a plain Apache directory index and every file is a direct PDF download | This is the route `scripts/download_istat_colonial.py` takes |
+
+**Chromium cannot be used as a fallback in this environment.** The bundled browser does not trust
+the agent proxy's certificate authority: every HTTPS navigation fails with
+`ERR_CERT_AUTHORITY_INVALID`, `example.com` included, and `certutil` is not installed to add the CA
+to the NSS store. Do not work around this by launching the browser with certificate errors ignored.
+A JavaScript-rendered catalogue is therefore out of reach here, and OPAC SBN has to be searched from
+an ordinary machine.
+
 ## Sites that return HTTP 200 but no usable body
 
 | Source | Domain | Symptom | Workaround |

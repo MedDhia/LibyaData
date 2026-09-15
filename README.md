@@ -80,6 +80,17 @@ record before the Bureau of Statistics existed:
 - [`data/processed/bnf/`](data/processed/bnf/) — the inventory itself, every record coded by what it
   is and which Libyan state it belongs to.
 
+The Italian colonial statistics, located on 2026-09-15 and downloadable:
+
+- [`sources/italy_README.md`](sources/italy_README.md) — the censuses of 1931 and 1936, the second
+  of them a volume for Libya alone ending in an alphabetical list of Libyan localities with their
+  administrative circumscription, and the complete run of the Italian statistical yearbook from 1911
+  to 1943, whose chapter XIX tabulates Libyan population, agriculture, trade, shipping, migration,
+  credit, schools and market prices by city. All of it is in ISTAT's own digital library, which is a
+  plain directory index, and none of it needed a catalogue.
+- [`data/raw/istat/manifest.json`](data/raw/istat/manifest.json) — what is there, with sizes and
+  URLs.
+
 ## What the data shows
 
 Every one of the ten accounting identities inside the Central Bank's monetary

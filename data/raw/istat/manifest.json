@@ -1,0 +1,262 @@
+{
+ "source": "https://ebiblio.istat.it/digibib/",
+ "publication": "Istituto Nazionale di Statistica, Biblioteca digitale",
+ "retrieved": "2026-09-15",
+ "branches_walked": [
+  "Censimenti%20popolazione/",
+  "Annuario%20Statistico%20Italiano/",
+  "Commercio/",
+  "Demografia/",
+  "Agricoltura/",
+  "Emigrazione/",
+  "Storia/",
+  "Sommario%20Statistiche%20Storiche/"
+ ],
+ "directories_walked": 180,
+ "files_seen": 3041,
+ "filter": "(?i)libia|libya|tripolitania|cirenaica|fezzan|bengasi|tripoli|colonie|coloniale|possediment|africa[_ ]?italiana|oltremare",
+ "yearbook_years": [
+  "1911",
+  "1912",
+  "1913",
+  "1914",
+  "1915",
+  "1916",
+  "1917_1918",
+  "1919_1921",
+  "1922_1925",
+  "1927",
+  "1928",
+  "1929",
+  "1930",
+  "1931",
+  "1932",
+  "1933",
+  "1934",
+  "1935",
+  "1936",
+  "1937",
+  "1938",
+  "1939",
+  "1940",
+  "1941",
+  "1942",
+  "1943"
+ ],
+ "colonial_sections_to_search_by_hand": {
+  "Commercio/Movimento_Commerciale": "trade of the Kingdom, annual volumes 1881-1938, with the colonies from 1912",
+  "Censimenti agricoltura": "the agricultural census; the Libyan farm census is reported in the yearbook's chapter XIX"
+ },
+ "files": [
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1911.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1911.pdf",
+   "bytes": 14566653,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1912.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1912.pdf",
+   "bytes": 16409509,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1913.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1913.pdf",
+   "bytes": 19374367,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1914.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1914.pdf",
+   "bytes": 21655587,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1915.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1915.pdf",
+   "bytes": 19394240,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1916.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1916.pdf",
+   "bytes": 23492577,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1917_1918.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1917_1918.pdf",
+   "bytes": 26453776,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1919_1921.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1919_1921.pdf",
+   "bytes": 21583815,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1922_1925.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1922_1925.pdf",
+   "bytes": 15244377,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1927.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1927.pdf",
+   "bytes": 13255649,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1928.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1928.pdf",
+   "bytes": 14521737,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1929.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1929.pdf",
+   "bytes": 18887750,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1930.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1930.pdf",
+   "bytes": 21506454,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1931.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1931.pdf",
+   "bytes": 25825202,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1932.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1932.pdf",
+   "bytes": 24357996,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1933.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1933.pdf",
+   "bytes": 19987534,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1934.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1934.pdf",
+   "bytes": 17101547,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1935.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1935.pdf",
+   "bytes": 46331392,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1936.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1936.pdf",
+   "bytes": 19004396,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1937.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1937.pdf",
+   "bytes": 24307339,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1938.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1938.pdf",
+   "bytes": 26602560,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1939.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1939.pdf",
+   "bytes": 27509787,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1940.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1940.pdf",
+   "bytes": 37290879,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1941.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1941.pdf",
+   "bytes": 109668094,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1942.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1942.pdf",
+   "bytes": 59815225,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Annuario Statistico Italiano/RAV0040597ASI1943.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Annuario%20Statistico%20Italiano/RAV0040597ASI1943.pdf",
+   "bytes": 62035044,
+   "content_type": "application/pdf",
+   "group": "yearbook"
+  },
+  {
+   "path": "Censimenti popolazione/censpop1921/UBO0296438_Popolazione_colonie_italiane_e_rilevazione_abitanti_isole_egee+OCR_ottimizzato.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Censimenti%20popolazione/censpop1921/UBO0296438_Popolazione_colonie_italiane_e_rilevazione_abitanti_isole_egee+OCR_ottimizzato.pdf",
+   "bytes": 9231284,
+   "content_type": "application/pdf",
+   "group": "libya_named"
+  },
+  {
+   "path": "Censimenti popolazione/censpop1931/IST0005835Volume_V_Colonie_e_possedimenti+OCRottimizz.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Censimenti%20popolazione/censpop1931/IST0005835Volume_V_Colonie_e_possedimenti+OCRottimizz.pdf",
+   "bytes": 17312805,
+   "content_type": "application/pdf",
+   "group": "libya_named"
+  },
+  {
+   "path": "Censimenti popolazione/censpop1931/Le_popolazioni_delle_Colonie_e_dei_Possedimenti+OCRottimizz.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Censimenti%20popolazione/censpop1931/Le_popolazioni_delle_Colonie_e_dei_Possedimenti+OCRottimizz.pdf",
+   "bytes": 2599325,
+   "content_type": "application/pdf",
+   "group": "libya_named"
+  },
+  {
+   "path": "Censimenti popolazione/censpop1936/IST0005817vol5_LibiaIsoleitalianedellEgeoTientsin/IST0005817cp1936_LibiaIsoleitalianedellEgeoTientsin+OCRottimizzato.pdf",
+   "url": "https://ebiblio.istat.it/digibib/Censimenti%20popolazione/censpop1936/IST0005817vol5_LibiaIsoleitalianedellEgeoTientsin/IST0005817cp1936_LibiaIsoleitalianedellEgeoTientsin+OCRottimizzato.pdf",
+   "bytes": 18041770,
+   "content_type": "application/pdf",
+   "group": "libya_named"
+  }
+ ]
+}

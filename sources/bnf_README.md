@@ -58,8 +58,8 @@ state used. None digitised.
 running:
 
 - `Bulletin consulaire français: recueil des rapports commerciaux adressés au Ministère des affaires
-  étrangères` (1877-1914) — <https://gallica.bnf.fr/ark:/12148/cb34447967w/date>
-- `Rapports commerciaux des agents diplomatiques et consulaires de France` (1892-1914) —
+  étrangères` (1877-1914), at <https://gallica.bnf.fr/ark:/12148/cb34447967w/date>
+- `Rapports commerciaux des agents diplomatiques et consulaires de France` (1892-1914), at
   <https://gallica.bnf.fr/ark:/12148/cb34447966j/date>
 
 These are annual commercial reports filed by French consuls, and the French consulate in Tripoli was
@@ -71,7 +71,7 @@ extérieur. Tripolitaine. Législation commerciale` (1912) is a separate record 
 trade annals did carry a Tripolitanian volume, though that one is not digitised.
 
 **A manuscript gazetteer of the Regency of Tripoli.** Jacques-Denis Delaporte's `Nomenclature des
-villes et villages de la régence de Tripoli`, digitised —
+villes et villages de la régence de Tripoli`, digitised, at
 <https://gallica.bnf.fr/ark:/12148/btv1b108700649>. A settlement list for Ottoman Libya, which is
 the same kind of object as this repository's mahalla concordance and a century older than anything
 in it. Alongside it sit consular dispatches on the commerce of Tripoli and Benghazi from the 1820s,
@@ -80,15 +80,15 @@ also digitised, and `Statistique sur le commerce de Benghazi (1828)`, a modern e
 ## The maps, which are the largest usable stratum
 
 295 digitised maps: 213 from before 1911 and 15 from the Italian period, the rest undated. The
-Italian survey material is the geospatial part — `Triangolazione della Tripolitania in Cirenaica`,
+Italian survey material is the geospatial part: `Triangolazione della Tripolitania in Cirenaica`,
 `Carta dimostrativa della Cirenaica` from the Ministero delle Colonie, three sets of Libyan city
-plans, all 1914 — with `Ben-Ghazi & Libyan desert` from the Survey Department of Egypt in 1915. They
+plans, all 1914, with `Ben-Ghazi & Libyan desert` from the Survey Department of Egypt in 1915. They
 are georeferenceable and they show settlement before the mass displacements of the 1920s and 1930s,
 which is exactly the period no boundary layer in this repository reaches.
 
 ## What can be read from here, and what cannot
 
-**gallica.bnf.fr refuses this repository's addresses** — `403 Access Interdit` on every path,
+**gallica.bnf.fr refuses this repository's addresses**, with `403 Access Interdit` on every path,
 including the SRU service and the IIIF manifests. The BnF general catalogue at
 `catalogue.bnf.fr/api/SRU` answers normally and carries the Gallica ARK of every digitised record,
 so the inventory is complete and the documents are not. See `sources/access_notes.md`.
@@ -105,6 +105,6 @@ ordinary connection.
    digitised anywhere, and they are what a long Libyan population or economic series needs.
 3. Georeference the 1914 Italian survey maps and the 1915 Survey of Egypt sheet against the
    concordance, which would give this repository its first pre-war settlement geography.
-4. Repeat the catalogue search at other national libraries. The Italian record is the one this
-   search cannot see: the Biblioteca Nazionale Centrale and the Istituto Centrale per il Catalogo
-   Unico hold the colonial statistical series, and the BnF has only what reached Paris.
+4. The Italian record is the one this search cannot see, and it has since been found elsewhere:
+   `sources/italy_README.md` has the censuses of 1921, 1931 and 1936 and the Italian statistical
+   yearbook run, all of it downloadable from ISTAT's own digital library.

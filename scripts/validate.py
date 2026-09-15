@@ -6,6 +6,7 @@ that the sources themselves assert. Run after any extraction change.
 Exit code 1 if a check that should hold exactly does not.
 """
 
+import json
 import sys
 from pathlib import Path
 
@@ -695,6 +696,39 @@ if (bnf_dir / "bnf_libya_records.csv").exists():
                  f"{len(bnf_data)} carrying data "
                  f"({int((bnf_data.is_digitised == 1).sum())} of those digitised); "
                  f"gallica.bnf.fr blocks this address, the catalogue does not")
+
+istat = OUT.parent / "raw" / "istat" / "manifest.json"
+if istat.exists():
+    print("\nISTAT digital library, Italian colonial statistics")
+    book = json.loads(istat.read_text())
+    entries = book["files"]
+    bad = [e for e in entries
+           if not e["url"].startswith("https://ebiblio.istat.it/digibib/")
+           or e["group"] not in {"libya_named", "yearbook"} or e["bytes"] <= 0]
+    if bad:
+        failures.append(f"istat: {len(bad)} manifest entries malformed")
+        print(f"  [FAIL] {len(bad)} entries with a bad URL, group or size")
+    else:
+        named = sum(1 for e in entries if e["group"] == "libya_named")
+        print(f"  [ok ] {len(entries)} files, {named} named for Libya or the "
+              f"colonies, every URL in the ISTAT library")
+
+    # The yearbook run is the Libyan panel; a gap in it is a gap in the panel.
+    years = {e["path"].split("ASI")[-1].replace(".pdf", "")
+             for e in entries if e["group"] == "yearbook"}
+    missing = [y for y in book["yearbook_years"] if y not in years]
+    if missing:
+        failures.append(f"istat: yearbook volumes missing {missing}")
+        print(f"  [FAIL] {len(missing)} yearbook volumes not in the manifest: "
+              f"{missing}")
+    else:
+        print(f"  [ok ] the yearbook run is complete, {len(years)} volumes "
+              f"1911-1943")
+
+    notes.append(f"istat: {len(entries)} files, "
+                 f"{sum(e['bytes'] for e in entries) / 1e6:.0f} MB, listed not "
+                 f"downloaded; three Libyan population counts (1921, 1931, 1936) "
+                 f"and the Italian yearbook run 1911-1943")
 
 print()
 for n in notes:

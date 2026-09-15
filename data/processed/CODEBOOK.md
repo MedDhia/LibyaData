@@ -38,6 +38,8 @@ python3 scripts/extract_municipal_councils.py
 
 python3 scripts/download_bnf_catalogue.py
 python3 scripts/extract_bnf_libya_sources.py
+
+python3 scripts/download_istat_colonial.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -908,6 +910,52 @@ That the Tripoli reports are inside the two consular series **has not been
 verified**: the catalogue proves the series exists and is digitised, not what is
 in a given volume, and Gallica cannot be read from here. It is recorded as a
 candidate with the check to run, not as a holding.
+
+---
+
+## The Italian colonial statistics
+
+---
+
+### `data/raw/istat/manifest.json`, 30 files and 793 MB, none of it downloaded here
+
+Where the Italian statistics on Libya are, found by `scripts/download_istat_colonial.py` in
+ISTAT's digital library at <https://ebiblio.istat.it/digibib/>. The narrative
+account is in [`sources/italy_README.md`](../../sources/italy_README.md).
+
+The library is a plain Apache directory index, so it is walked rather than
+searched, and every file is a direct PDF download with a text layer. The
+manifest records path, URL, byte size and content type for each file, and
+`--fetch` downloads them with a SHA-256 apiece; the default run lists them,
+because the yearbook run alone is 746 MB.
+
+`group` separates two ways of finding a file:
+
+`libya_named` is the four files whose path says Libya or the colonies: the
+census of the Italian colonies of 1 December 1921, the 1931 census Volume V
+`Colonie e possedimenti` with its summary volume, and the 1936 census Volume V
+`Libia, Isole italiane dell'Egeo, Tientsin`. Three counts of the Libyan
+population, 1921, 1931 and 1936.
+
+`yearbook` is the `Annuario statistico italiano`, complete from 1911 to 1943 in
+26 volumes. Its Libyan material is a chapter inside each volume and no filename
+search can see it, so the years are listed by name in the script. In the 1938
+volume, chapter XIX `Africa Italiana - Possedimenti` section B runs pages 325 to
+335 and tabulates the 1936 census by province, the agricultural holdings census,
+shipping by port, foreign trade by country and commodity section, migration,
+agricultural credit, schools, and the quantities and prices of produce sold in
+the markets of Tripoli, Misurata, Bengasi and Derna.
+
+The 1936 census volume ends with `ELENCO ALFABETICO DELLE LOCALITÀ DELLA LIBIA`,
+every locality with the circumscription it belonged to on 21 April 1936. That is
+the same object as `concordance_mahalla.csv`, seventy years earlier, and joining
+the two is the first thing to do with any of this.
+
+`branches_walked` records that the default run walks eight branches of the
+library rather than all of it, 180 directories and 3,041 files; `--all` walks
+everything and takes far longer. `colonial_sections_to_search_by_hand` names two
+series that carry Libyan numbers under an Italian title and are not tied to a
+single year.
 
 ---
 
