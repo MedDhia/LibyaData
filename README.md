@@ -46,6 +46,7 @@ Libyan sources, with a validation suite. See
 | 1936 census table XX population | families, present, women, absent, by dwelling type | 2,348 |
 | 1931 census circumscriptions | area and four populations, Tripolitania and Cyrenaica | 18 |
 | 1921 census inhabited centres | families, present and resident, exactly as printed | 27 |
+| Italian yearbook, Libyan tables 1911–1943 | a finding aid over 26 volumes, not the tables | 212 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
 | Libyan designations, from OpenSanctions | 44 authorities | 2,286 |

@@ -36,3 +36,9 @@ data/raw/gazette/*.pdf
 # and by scripts/extract_istat_1936_localities.py, which fetches the 1936 census
 # on its own if it is absent. Sizes and URLs are in data/raw/istat/manifest.json.
 data/raw/istat/*.pdf
+
+# The 26 yearbook volumes, 712 MB, fetched by
+# scripts/extract_istat_annuario_index.py. Their URLs and sizes are in
+# data/raw/istat/manifest.json and the pages read are in
+# data/processed/istat/libya_annuario_volumes.csv.
+data/raw/istat/annuario/

@@ -119,8 +119,22 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    through their circumscription, and 48 joined to a mahalla of the 2006 census on a consonant
    skeleton within the same province. Table XX of the same volume holds the population of each, and
    extracting that is the obvious next step.
-2. Pull the Libya chapter out of each yearbook volume from 1911 to 1943 and build the colonial
-   panel. The chapter is a fixed structure across volumes, which is what makes it tractable.
+2. ~~Pull the Libya chapter out of each yearbook volume from 1911 to 1943.~~ **Half done**, by
+   `scripts/extract_istat_annuario_index.py`, which finds the colonial chapter in each of the 26
+   volumes and lists every table in it that concerns Libya: 131 tables, with the file and page of
+   each. The chapter is **not** a fixed structure across volumes, which is why this is an index and
+   not yet a panel. It is called `Possessi e Protettorati italiani`, then `Colonie e Possedimenti`,
+   then just `Colonie`, then `Impero - Colonie - Possedimenti`, then `Africa Italiana`; Libya is one
+   colony, then two, then one again, then four provinces and a desert.
+
+   The series to build first from it is **maritime trade**, which runs from 1912 to 1938 and is the
+   only annual economic series here. Three things have to be handled: the unit changes (the 1932
+   volume prints lire, the 1933 volume thousands of lire), the layout changes three times (two
+   panels on a per-colony page, then all colonies as rows, then each direction split into a total
+   and the share with Italy), and the OCR is worst on the bold total lines, which it truncates
+   rather than garbles: `138 21&` for 138 215. The saving grace is that each volume prints three
+   years, so consecutive volumes overlap by two and almost every figure is printed in two or three
+   books. Read every printing separately and publish what the volumes agree on.
 3. ~~Extract table XX of the 1936 volume, the population of each locality.~~ **Done**, by
    `scripts/extract_istat_1936_population.py`.
 4. ~~Read the 1921 census of the colonies.~~ **Done**, by

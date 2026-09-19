@@ -44,6 +44,7 @@ python3 scripts/extract_istat_1936_localities.py
 python3 scripts/extract_istat_1936_population.py
 python3 scripts/extract_istat_1931_libya.py
 python3 scripts/extract_istat_1921_libya.py
+python3 scripts/extract_istat_annuario_index.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1140,6 +1141,66 @@ baseline hands every row's figures to the label below it and the colony's total
 comes out 11% short. The tilt is measured by trying a range of slopes and
 keeping the one that puts the most labels in a band with figures; a page that is
 not tilted is left alone.
+
+### The Italian statistical yearbook, 1911-1943
+
+#### `libya_annuario_volumes.csv` and `libya_annuario_index.csv` — a finding aid
+
+ISTAT has digitised 26 volumes of the `Annuario Statistico Italiano` covering
+the colonial period, 712 MB of scans. Every volume carries one chapter on the
+colonies. `scripts/extract_istat_annuario_index.py` finds that chapter in each
+volume, walks it page by page, and lists every table in it that says something
+about Libya. 212 tables across 22 of the 26 volumes.
+
+**This is an index, not data.** It says what exists and on which page of which
+file. Nothing in the tables themselves is extracted, and the reason is worth
+knowing before anyone starts: the chapter is three different things across the
+run, and so are its tables.
+
+| | Chapter title | Libya is | The tables |
+|---|---|---|---|
+| 1911-1919 | Possessi e Protettorati italiani | one colony, `Libia` | trade with Italy, shipping, posts, the garrison, the cost of the occupation |
+| 1922-1936 | Colonie e Possedimenti, or just Colonie | two colonies, Tripolitania and Cirenaica | maritime trade by country, shipping, posts, railways, fishing, savings banks, agricultural credit, settlement |
+| 1937-1943 | Impero - Colonie - Possedimenti, then Africa Italiana | one colony again, then four provinces and the Sahara Libico | census results, trade, shipping |
+
+`libya_annuario_volumes.csv` has one row per volume: the chapter's title as the
+volume's own index prints it, its printed page, the first and last PDF page of
+the chapter, and the offset between the two. `libya_annuario_index.csv` has one
+row per table: `scope` (the Libyan territory it covers, or `all colonies` for a
+table that carries Libya as a row), `table` in the volume's own Italian,
+`subject` as an English gloss of the recurring names, and `pdf_page`.
+
+**What this is for.** Open the volume named in `file` at the page named in
+`pdf_page`. The URLs are in `libya_annuario_volumes.csv`; the files are not
+committed.
+
+**Why the tables are not a panel yet.** Take the maritime trade of the two
+colonies, the longest-running economic series here. The 1932 volume prints it in
+**lire**, the 1933 and 1934 volumes in **thousands of lire**. Through 1933 each
+colony has its own page with imports and exports as two side-by-side panels of
+three year columns; from 1934 one table carries all the colonies as rows; from
+1937 each direction splits again into a total and the share with Italy, and
+Libya has stopped being two colonies. The OCR is worst on exactly the lines that
+matter, the bold totals: `138 21&` for 138 215, `1240&1` for 124 061.
+
+None of that is fatal, and the volumes overlap by two years each, so most
+figures are printed in two or three books and can be read against each other.
+That is the shape the next pass should take, and this index is what makes it
+possible to find the fifteen or so pages it needs.
+
+**Where it is incomplete.** The chapter is found in 25 of the 26 volumes; the
+1911 volume is the one it is not found in. Three more, 1927, 1929 and 1935,
+yield no Libyan table: the chapter is followed from page to page by the running
+head it prints at the top, and in those volumes the scan lost the head after the
+first page, so only that page was read. Several other volumes have the same
+problem less severely, which is why `chapter_pdf_last` sometimes equals
+`chapter_pdf_page`. Compare it against the volumes either side before concluding
+that a year carries nothing: 1930 yields twelve tables off a single page, and
+the true chapter is longer than that.
+
+None of this is an assertion that a volume carries nothing on Libya. It is the
+scan, and every one of these volumes can be opened at the page
+`chapter_pdf_page` gives and read by eye.
 
 #### `libya_1921_localities.csv` — the earliest of the three, 27 rows
 

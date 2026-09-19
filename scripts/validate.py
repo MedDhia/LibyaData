@@ -942,6 +942,61 @@ if loc21_path.exists():
                  f"Italian population of the colonies and is not comparable "
                  f"with 1931 or 1936")
 
+ann_path = OUT / "istat" / "libya_annuario_volumes.csv"
+if ann_path.exists():
+    print("\nAnnuario Statistico Italiano, the Libyan chapter 1911-1943")
+    vols = pd.read_csv(ann_path)
+    tabs = pd.read_csv(OUT / "istat" / "libya_annuario_index.csv")
+
+    # The manifest says which volumes exist; the index has to cover all of them
+    # and invent none.
+    book = json.loads((OUT.parent / "raw" / "istat" / "manifest.json").read_text())
+    expected = {Path(e["path"]).name for e in book["files"]
+                if e["group"] == "yearbook"}
+    strays = set(vols.file) - expected
+    absent = expected - set(vols.file)
+    if strays or absent:
+        failures.append(f"annuario: {len(strays)} volumes not in the manifest, "
+                        f"{len(absent)} manifest volumes not walked")
+        print(f"  [FAIL] {len(strays)} stray, {len(absent)} missing volumes")
+    else:
+        print(f"  [ok ] all {len(vols)} yearbook volumes of the manifest walked")
+
+    # A table has to sit inside the chapter it was found in, or the page number
+    # published for it points at somebody else's statistics.
+    span = {r.file: (r.chapter_pdf_page, r.chapter_pdf_last)
+            for r in vols.itertuples() if pd.notna(r.chapter_pdf_page)}
+    outside = [f"{r.year_from} p{r.pdf_page}" for r in tabs.itertuples()
+               if r.file not in span
+               or not span[r.file][0] <= r.pdf_page <= span[r.file][1]]
+    if outside:
+        failures.append(f"annuario: {len(outside)} tables outside their "
+                        f"chapter: {outside[:3]}")
+        print(f"  [FAIL] {len(outside)} tables outside their chapter")
+    else:
+        print(f"  [ok ] all {len(tabs)} tables sit inside the chapter they "
+              f"were read from")
+
+    # Every scope is either one of the Libyan territories the run names or the
+    # all-colonies tables that carry Libya as a row.
+    known = {"Libia", "Tripolitania", "Cirenaica", "Sahara Libico",
+             "Africa Settentrionale Italiana", "Provincie italiane della Libia",
+             "all colonies"}
+    unknown = set(tabs.scope) - known
+    if unknown:
+        failures.append(f"annuario: undocumented scopes {unknown}")
+        print(f"  [FAIL] undocumented scopes {unknown}")
+    else:
+        print(f"  [ok ] {len(tabs)} tables across "
+              f"{tabs.year_from.nunique()} volumes "
+              f"{tabs.scope.value_counts().to_dict()}")
+
+    found = vols[vols.chapter_pdf_page.notna()]
+    notes.append(f"annuario: the colonial chapter located in {len(found)} of "
+                 f"{len(vols)} volumes, {len(tabs)} Libyan tables indexed; "
+                 f"this is a finding aid, the tables themselves are not "
+                 f"extracted")
+
 print()
 for n in notes:
     print(f"note: {n}")
