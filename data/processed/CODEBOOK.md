@@ -1174,19 +1174,48 @@ table that carries Libya as a row), `table` in the volume's own Italian,
 `pdf_page`. The URLs are in `libya_annuario_volumes.csv`; the files are not
 committed.
 
-**Why the tables are not a panel yet.** Take the maritime trade of the two
-colonies, the longest-running economic series here. The 1932 volume prints it in
-**lire**, the 1933 and 1934 volumes in **thousands of lire**. Through 1933 each
-colony has its own page with imports and exports as two side-by-side panels of
-three year columns; from 1934 one table carries all the colonies as rows; from
-1937 each direction splits again into a total and the share with Italy, and
-Libya has stopped being two colonies. The OCR is worst on exactly the lines that
-matter, the bold totals: `138 21&` for 138 215, `1240&1` for 124 061.
+**Why the tables are not a panel yet, and what was tried.** Take the maritime
+trade of the two colonies, the longest-running economic series here and the
+obvious first thing to extract. A reader for it was written and then **thrown
+away**, because it could not be made to produce figures worth publishing. What
+it ran into is worth recording, because the next attempt will meet all of it.
 
-None of that is fatal, and the volumes overlap by two years each, so most
-figures are printed in two or three books and can be read against each other.
-That is the shape the next pass should take, and this index is what makes it
-possible to find the fifteen or so pages it needs.
+*The unit changes.* The 1932 volume prints these figures in lire, the 1933
+volume in thousands of lire. A series built without reading the unit line off
+each page is out by a factor of a thousand in the middle of itself.
+
+*The layout changes three times.* Through 1933 each colony has its own page with
+imports and exports as two side-by-side panels of year columns. From 1934 one
+table carries every colony as a row. From 1937 each direction splits again into
+a total and the share with Italy, and Libya has stopped being two colonies. The
+volumes around 1927 to 1932 use a fourth shape: **one** panel of year columns
+with the two directions stacked down the page, each under its own heading.
+
+*The stacked shape is the one that defeats it.* When the directions are stacked
+they share every column, so telling an import total from an export one rests
+entirely on recognising the words `Importazione` and `Esportazione` above it.
+This scan sets them as `I nzportaziane` and `E sportaziolle`, and they differ
+from each other in two letters out of twelve, so a tolerance loose enough to
+read the damage is loose enough to call an export an import. The reader did
+exactly that, and published Cirenaica's imports as its exports for several
+years running before the error was caught by eye.
+
+*The OCR truncates rather than garbles.* A bold total arrives as `138 21&` for
+138 215 and `1240&1` for 124 061. A shortened figure still looks like a figure,
+which is the failure mode a reader cannot see and a reviewer cannot spot in a
+column of plausible numbers.
+
+*The cross-volume check helps and is not enough.* Each volume prints two or
+three years, so most figures are printed in two or three books and can be read
+against each other. But the chapter is located in 25 volumes and the trade table
+read in only nine of them, so most cells end up with one reading and nothing to
+check it against. Worse, the 1934 volume prints the same cell in its summary
+table and again in Tripolitania's own, and the two disagree, so even a second
+reading from the same book is not a second opinion.
+
+None of this makes the series impossible. It makes it a job that needs the pages
+opened and the totals checked by eye, volume by volume, which is perhaps fifteen
+pages of work. This index is what locates those fifteen pages.
 
 **Where it is incomplete.** The chapter is found in 25 of the 26 volumes; the
 1911 volume is the one it is not found in. Three more, 1927, 1929 and 1935,

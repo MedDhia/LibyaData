@@ -127,23 +127,21 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    then just `Colonie`, then `Impero - Colonie - Possedimenti`, then `Africa Italiana`; Libya is one
    colony, then two, then one again, then four provinces and a desert.
 
-   The series to build first from it is **maritime trade**, which runs from 1912 to 1938 and is the
-   only annual economic series here. Three things have to be handled: the unit changes (the 1932
-   volume prints lire, the 1933 volume thousands of lire), the layout changes three times (two
-   panels on a per-colony page, then all colonies as rows, then each direction split into a total
-   and the share with Italy), and the OCR is worst on the bold total lines, which it truncates
-   rather than garbles: `138 21&` for 138 215. The saving grace is that each volume prints three
-   years, so consecutive volumes overlap by two and almost every figure is printed in two or three
-   books. Read every printing separately and publish what the volumes agree on.
-3. ~~Extract table XX of the 1936 volume, the population of each locality.~~ **Done**, by
-   `scripts/extract_istat_1936_population.py`.
-4. ~~Read the 1921 census of the colonies.~~ **Done**, by
-   `scripts/extract_istat_1921_libya.py`: the 23 inhabited centres of Tripolitania and Cirenaica
-   with families, present and resident population, every column exactly as the volume prints it.
-   They are read from the summary that opens each chapter rather than from table I, whose nine
-   columns are the better table but whose Cirenaica page the scan damaged past repair. **Re-OCR of
-   PDF pages 31 and 73 would recover six more columns and the quarters of Tripoli and Bengasi**,
-   and is the cheapest unclaimed gain in this volume.
+   The series to build first from it is **maritime trade**, which runs from 1922 to 1938 and is the
+   only annual economic series here. A reader for it was written and thrown away; what it met is
+   recorded in `data/processed/CODEBOOK.md` and comes to four things. The unit changes (lire to
+   1932, thousands of lire from 1933). The layout changes four times, and one of those shapes puts
+   the two directions in stacked blocks sharing one set of year columns, so an import total is told
+   from an export total only by the words above it, which this scan sets as `I nzportaziane` and
+   `E sportaziolle`. The OCR truncates totals rather than garbling them, so a wrong figure still
+   looks right. And the cross-volume check, which should have caught all of that, is too thin: the
+   table was read in nine volumes out of twenty-five, so most cells have one reading and nothing to
+   check it against.
+
+   The conclusion is that this is not an OCR problem to be solved with a better reader. It is about
+   **fifteen pages** that need opening and checking by eye, and the index says which fifteen. Do
+   that, and the four-layout problem becomes a transcription, not an inference.
+
 5. The 1931 volume is read as far as it can be: `scripts/extract_istat_1931_libya.py` publishes its
    table I, area and the four populations by circumscription for both colonies, with Cyrenaica
    exactly as printed. Its table II, the district detail, is not machine-readable from this scan and
