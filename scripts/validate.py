@@ -1061,6 +1061,88 @@ if trade_path.exists():
                  f"total; {int((tr.agreement == 'one volume only').sum())} "
                  f"colony-years rest on a single volume")
 
+dist_path = OUT / "istat" / "libya_1931_districts.csv"
+if dist_path.exists():
+    print("\n1931 census table II, Libya by district")
+    d31 = pd.read_csv(dist_path)
+    groups = ["present", "regnicola", "straniera", "indigena"]
+
+    # The same four checks the transcription was accepted on, run again here so
+    # a hand-edited file cannot slip past them.
+    trouble = []
+    for sex in ("mf", "f"):
+        parts = d31[[f"{g}_{sex}" for g in groups[1:]]].sum(axis=1)
+        off = d31[parts != d31[f"present_{sex}"]]
+        trouble += [f"{r.name_} {sex} components" for r in
+                    off.rename(columns={"name": "name_"}).itertuples()]
+    for group in groups:
+        off = d31[d31[f"{group}_f"] > d31[f"{group}_mf"]]
+        trouble += [f"{r.Index} {group} more women than people"
+                    for r in off.itertuples()]
+    for colony, here in d31.groupby("colony"):
+        for parent, kids in here[here.parent.notna()].groupby("parent"):
+            above = here[here.name == parent]
+            if above.empty:
+                trouble.append(f"{colony}: no row named {parent}")
+                continue
+            for group in groups:
+                for sex in ("mf", "f"):
+                    if kids[f"{group}_{sex}"].sum() != above[f"{group}_{sex}"].iloc[0]:
+                        trouble.append(f"{colony} {parent} {group}_{sex}")
+        top = here[here.level_name == "commissariato"]
+        total = here[here.level_name == "colony"]
+        for group in groups:
+            for sex in ("mf", "f"):
+                if top[f"{group}_{sex}"].sum() != total[f"{group}_{sex}"].iloc[0]:
+                    trouble.append(f"{colony} total {group}_{sex}")
+    if trouble:
+        failures.append(f"1931 districts: {len(trouble)} arithmetic checks "
+                        f"fail: {trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} arithmetic checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] {len(d31)} rows: every row's three populations sum to "
+              f"its total, every parent to its children, every colony to its "
+              f"circumscriptions")
+
+    # The colony totals have to be the ones table I prints, or the two tables
+    # of the same page disagree.
+    c31 = pd.read_csv(OUT / "istat" / "libya_1931_circoscrizioni.csv")
+    clash = []
+    pairs = {"present_total": "present_mf", "present_italian": "regnicola_mf",
+             "present_foreign": "straniera_mf",
+             "present_indigenous": "indigena_mf"}
+    for colony in d31.colony.unique():
+        one = c31[(c31.colony == colony) & (c31.level == "total")]
+        two = d31[(d31.colony == colony) & (d31.level_name == "colony")]
+        for a, b in pairs.items():
+            if one.empty or two.empty:
+                continue
+            if int(one[a].iloc[0]) != int(two[b].iloc[0]):
+                clash.append(f"{colony} {a}: table I {one[a].iloc[0]} vs "
+                             f"table II {two[b].iloc[0]}")
+    if clash:
+        failures.append(f"1931 districts: {clash}")
+        print(f"  [FAIL] the two tables of one page disagree: {clash}")
+    else:
+        print("  [ok ] both colony totals are the ones table I prints")
+
+    routes = {"concordance", "asserted", "unplaced", "colony total",
+              "the concordance puts this name in the other colony"}
+    unknown = set(d31.shabiya_route) - routes
+    placed = d31[d31.shabiya_en.notna()]
+    outside = set(placed.shabiya_en) - set(cross.shabiya_en)
+    if unknown or outside:
+        failures.append(f"1931 districts: routes {unknown}, shabiyat {outside}")
+        print(f"  [FAIL] undocumented routes {unknown} or shabiyat {outside}")
+    else:
+        print(f"  [ok ] {len(placed)} of {len(d31)} rows carry a shabiya "
+              f"{d31.shabiya_route.value_counts().to_dict()}")
+
+    notes.append(f"1931 districts: {len(d31)} rows two levels below the "
+                 f"circumscription, with the sex breakdown table I does not "
+                 f"carry; transcribed by eye from two pages and bound by four "
+                 f"arithmetic checks")
+
 print()
 for n in notes:
     print(f"note: {n}")

@@ -43,6 +43,7 @@ python3 scripts/download_istat_colonial.py
 python3 scripts/extract_istat_1936_localities.py
 python3 scripts/extract_istat_1936_population.py
 python3 scripts/extract_istat_1931_libya.py
+python3 scripts/extract_istat_1931_districts.py
 python3 scripts/extract_istat_1921_libya.py
 python3 scripts/extract_istat_annuario_index.py
 python3 scripts/check_istat_annuario_trade.py
@@ -1125,232 +1126,65 @@ the whole Fezzan. The name alone is not enough to tell them apart either, which
 is why the lookup is by colony: the Gebel of Tripolitania is the Nefusa mountain
 in the west and the Gebel of Cyrenaica is the green mountain in the east.
 
-#### Table II of 1931, and why it is not here
+#### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
-Table II carries the district detail, which is the more valuable half, and it is
-**not published**. The scan runs the label and the first two figures together
-into one string, so a line arrives as `C. R. DI TRIPOLI (2). 81.98638.444
-21.47`. The wide figures can be split back apart by their thousands separators
-but they then have no column position, and assigning them in order is exactly
-what fails when the scan has dropped one. A district table keyed by guesswork
-would be worse than none. For anything below the circumscription in the colonial
-period, use the 1936 locality list above.
-
-The Tripolitanian page is also tilted: a printed row's label sits seven points
-above its own last figure, which is where the next label sits, so grouping by
-baseline hands every row's figures to the label below it and the colony's total
-comes out 11% short. The tilt is measured by trying a range of slopes and
-keeping the one that puts the most labels in a band with figures; a page that is
-not tilted is left alone.
-
-### The Italian statistical yearbook, 1911-1943
-
-#### `libya_annuario_volumes.csv` and `libya_annuario_index.csv` — a finding aid
-
-ISTAT has digitised 26 volumes of the `Annuario Statistico Italiano` covering
-the colonial period, 712 MB of scans. Every volume carries one chapter on the
-colonies. `scripts/extract_istat_annuario_index.py` finds that chapter in each
-volume, walks it page by page, and lists every table in it that says something
-about Libya. 212 tables across 22 of the 26 volumes.
-
-**This is an index, not data.** It says what exists and on which page of which
-file. Nothing in the tables themselves is extracted, and the reason is worth
-knowing before anyone starts: the chapter is three different things across the
-run, and so are its tables.
-
-| | Chapter title | Libya is | The tables |
-|---|---|---|---|
-| 1911-1919 | Possessi e Protettorati italiani | one colony, `Libia` | trade with Italy, shipping, posts, the garrison, the cost of the occupation |
-| 1922-1936 | Colonie e Possedimenti, or just Colonie | two colonies, Tripolitania and Cirenaica | maritime trade by country, shipping, posts, railways, fishing, savings banks, agricultural credit, settlement |
-| 1937-1943 | Impero - Colonie - Possedimenti, then Africa Italiana | one colony again, then four provinces and the Sahara Libico | census results, trade, shipping |
-
-`libya_annuario_volumes.csv` has one row per volume: the chapter's title as the
-volume's own index prints it, its printed page, the first and last PDF page of
-the chapter, and the offset between the two. `libya_annuario_index.csv` has one
-row per table: `scope` (the Libyan territory it covers, or `all colonies` for a
-table that carries Libya as a row), `table` in the volume's own Italian,
-`subject` as an English gloss of the recurring names, and `pdf_page`.
-
-**What this is for.** Open the volume named in `file` at the page named in
-`pdf_page`. The URLs are in `libya_annuario_volumes.csv`; the files are not
-committed.
-
-**The trade series that came out of it** is `libya_annuario_trade.csv`, below.
-It was transcribed by eye rather than read by a program, and the section on it
-says why that was the only way.
-
-**Where it is incomplete.** The chapter is found in 25 of the 26 volumes; the
-1911 volume is the one it is not found in. Three more, 1927, 1929 and 1935,
-yield no Libyan table: the chapter is followed from page to page by the running
-head it prints at the top, and in those volumes the scan lost the head after the
-first page, so only that page was read. Several other volumes have the same
-problem less severely, which is why `chapter_pdf_last` sometimes equals
-`chapter_pdf_page`. Compare it against the volumes either side before concluding
-that a year carries nothing: 1930 yields twelve tables off a single page, and
-the true chapter is longer than that.
-
-None of this is an assertion that a volume carries nothing on Libya. It is the
-scan, and every one of these volumes can be opened at the page
-`chapter_pdf_page` gives and read by eye.
-
-#### `libya_annuario_trade.csv` — the seaborne trade of Libya, 1922-1936
-
-Imports and exports of Tripolitania and Cirenaica, in **thousands of lire**, one
-row per colony and year: 30 colony-years, 29 of them with figures. It is the
-only annual economic series this repository has for the colonial period, and the
-only Libyan series of any kind that runs unbroken through the 1920s and 1930s.
+Table II of the same two pages, published by
+`scripts/extract_istat_1931_districts.py`. It goes two levels below table I and
+carries the **sex breakdown**, which table I does not have at all.
 
 | | Tripolitania | Cirenaica |
 |---|---|---|
-| Years | 1922-1936 | 1922-1935 |
-| Imports, first and last | 92,610 → 263,253 | 76,050 → 199,752 |
-| Exports, first and last | 13,654 → 31,118 | 9,774 → 25,032 |
+| Rows | 79 | 27 |
+| Commissariati and Comandi di Zona | 11 | 4 |
+| Circondari | 26 | 8 |
+| Distretti | 41 | 14 |
+| Present | 543,672, of whom 47.5% women | 160,451, of whom 45.5% women |
 
-Both colonies run a large and permanent trade deficit. Imports are a median 6.2
-times exports in Tripolitania and 7.5 times in Cirenaica, and the ratio never
-falls below 4 in either, which is what a settler colony supplied from the
-metropole looks like. Both series then climb steeply at the end: Cirenaica's
-imports rise 56% in 1935 and Tripolitania's 63% across 1935 and 1936, the years
-Italy invaded Ethiopia and moved men and supplies through Libyan ports.
+Columns are `present`, `regnicola` (Italians from the Kingdom), `straniera`
+(other foreigners) and `indigena`, each as `_mf` and `_f`, so the women of each
+population are separable. `level_name` is `commissariato`, `circondario`,
+`distretto` or `colony`; **adding levels together double-counts**, so filter to
+one. `parent` names the row above.
 
-**This file was transcribed by hand.** A reader for these tables was written and
-thrown away first; what defeated it is in the section on the finding aid above,
-and the short form is that the scan truncates bold total lines without making
-them look wrong. So each page was rendered as an image and read by eye, and then
-checked by an arithmetic the source supplies itself: **each table lists the
-trade by country, and those columns sum to the printed total**. Every figure
-here was accepted only where the countries add up to it. That check earns its
-place: it caught `211 288` where the page reads 215 266, `141 884` where it
-reads 141 634, and a row of my own misreading (Malta 1928) that was 50,000 lire
-out.
+**This table was transcribed by eye, not read by a program.** The previous
+version of this section said table II could not be read from the scan, and that
+is still true of the OCR: it runs the label and the first two figures into one
+string, so a line arrives as `C. R. DI TRIPOLI (2). 81.98638.444 21.47`. What
+changed is that the pages were rendered as images and read, the same method
+that produced `libya_annuario_trade.csv`. The transcription is committed as
+`data/raw/istat/libya_1931_table2_*.csv` and is the source; the script validates
+and publishes it.
 
-**`libya_annuario_trade_printings.csv` is the evidence.** 131 rows, one per
-printing of one figure in one volume, with the page, the exact lire where the
-volume prints lire, and a note saying how that printing was checked. 23 of the
-29 colony-years that carry figures are printed in two or more volumes and agree; `agreement` says
-which, and six years rest on a single volume:
+**Four checks make a hand transcription trustworthy.** The table is a hierarchy
+and every row splits four ways by sex, so a misread digit has nowhere to hide:
 
-- Tripolitania 1926, 1935 and 1936
-- Cirenaica 1930 (imports), 1934 and 1935
+1. `present` = `regnicola` + `straniera` + `indigena`, on every row, for the
+   whole population and for women alone.
+2. The female count never exceeds the total.
+3. Every parent equals the sum of the children printed under it.
+4. The eleven Tripolitanian and four Cirenaican circumscriptions sum to the
+   colony total the table prints.
 
-**Where the volumes disagree, the later one is published and the earlier is
-kept.** These are the source correcting itself, not the reader slipping, and
-each is marked `superseded` in the printings file with what changed:
+Together these bind about 850 figures to one another. Two errors survived the
+first reading of Tripolitania and both were the same cell: a `4/3` that checks 1
+and 3 together forced to `4/1`. Cirenaica passed on the first pass. The script
+refuses to publish if any check fails, and `validate.py` runs all four again so
+a later hand edit cannot slip past them.
 
-| | Published | Superseded | What moved |
-|---|---|---|---|
-| Tripolitania 1926 imports | 206,835 | 211,218 | the 1931 volume revises `Altri paesi` down by 4,382,850 lire |
-| Tripolitania 1927 imports | 243,849 | 246,046 | `Altri paesi` down by 2,197,580 lire |
-| Tripolitania 1927 exports | 25,005 | 24,259 | the Cirenaica row up by 746,050 lire |
-| Cirenaica 1925 | 222,066 / 36,444 | 202,191 / 38,869 | revised between the 1922-1925 and 1927 volumes |
-| Cirenaica 1930 imports | 141,634 | 151,652 | the 1933 volume's own footnote says the import figures were corrected |
+**It repairs table I.** Five cells the scan destroyed in table I are printed
+undamaged in table II, and `extract_istat_1931_libya.py` now fills them from the
+transcription: Zavia's present population and foreign population, the foreign
+population of both Gebel circumscriptions and of the Fezzan, and Cyrenaica's
+foreign total. Every population column of table I now reconciles exactly. The
+one gap left is Misurata's area, which table II does not carry.
 
-**Two misprints in the source were caught by the arithmetic**, and are recorded
-rather than silently fixed. The 1931 volume's summary table gives Cirenaica's
-1929 imports as 138,228,280 lire while its own detail table, the country column
-and the 1930 volume all give 137,228,280. And the 1928 volume's Tripolitania
-summary and detail differ by 10,000 lire on 1927, where the countries settle it
-at 246,046,377.
-
-**What is not here.** Cirenaica 1936 is blank because **the 1937 volume prints a
-question mark**: the figures had not reached Rome. The years before 1922 are not
-here either, and that is a decision rather than a gap: the volumes to 1921 print
-`Movimento commerciale con l'Italia`, which is trade with Italy alone, in whole
-lire, stated from Italy's side, so its `Importazioni in Italia dalla Libia` are
-Libya's exports. Joining that to this would reverse the direction and change the
-unit and the coverage in one step.
-
-**The unit.** Volumes to 1932 print lire, volumes from 1933 print thousands.
-Everything here is thousands, and `lire_printed` in the printings file keeps the
-exact figure wherever the volume gave one. The two halves of the run meet
-cleanly: the 1932 volume's 215,265,930 lire for Tripolitania in 1930 and the
-1933 volume's 215,266 thousand are the same number.
-
-**Checking it.** `scripts/check_istat_annuario_trade.py` re-opens all 17 cited
-pages and confirms each carries a `Commercio marittimo` table for the colony
-claimed, that the two files agree on every figure, and that no superseded
-printing is published. It also reports that 101 of the 131 figures can be found
-in the page's own text layer; the 30 that cannot are the damaged bold totals,
-which is the whole reason the series was read by eye.
-
-#### `libya_1921_localities.csv` — the earliest of the three, 27 rows
-
-The 1921 census of the colonies, read by `scripts/extract_istat_1921_libya.py`
-from the summary of inhabited centres that opens each colony's chapter, PDF page
-20 for Tripolitania and page 62 for Cirenaica. Twenty-three centres, the two
-`Sezione Mare` parts of Tripoli and Zuara, and the two colony totals.
-
-**Read the note on what this census counted before using it.** The 1921 census
-is the VI general census of the *Italian* population, extended to the colonies.
-It counted 18,566 people present in Tripolitania and 8,607 in Cirenaica. Ten
-years later the same two colonies return 543,672 and 160,451, because by 1931
-the census enumerated the indigenous population and because Italy held far more
-ground. So these are the settler and foreign inhabitants of the coastal centres,
-and **putting them in a series with 1931 or 1936 measures the growth of the
-Italian census and not the growth of Libya**. What they are good for is the
-question 1931 and 1936 cannot answer: where in Libya the colonial state actually
-sat ten years into the occupation, and how small it was.
-
-| | Tripolitania | Cirenaica |
-|---|---|---|
-| Centres | 9 | 14 |
-| Families and convivenze | 3,090 | 1,592 |
-| Present | 18,566 | 8,607 |
-| Resident | 19,332 | 9,318 |
-
-Three columns: `famiglie`, `present_total`, `resident`. `row_kind` is `centre`,
-`section` for the two `di cui nella Sezione Mare` lines, and `total` for the
-colony. **Only `centre` rows sum to the colony**; a section is part of the
-centre above it and `centre` names which one, so adding sections to centres
-double-counts Tripoli and Zuara.
-
-Tripoli alone is 16,010 of Tripolitania's 18,566 and Bengasi 6,079 of
-Cirenaica's 8,607. Four of the twenty-three centres held fewer than ten people
-each: Sormàn 4, Tilimùn 3, Driàna 2, and Zàvia Hània one family and one
-person.
-
-**How well it was read.** Every one of the six column sums equals the printed
-colony total to the unit, and the total the volume prints at the foot of each
-table reads back the same. `validate.py` fails on any shortfall at all here,
-unlike the 1931 check, because these two pages are undamaged.
-
-**What the scan did damage was the labels, not the figures.** `Sòluch` arrives
-as `Sbluél1` and `Tòcra` as `T6cx~`. The centres are printed in alphabetical
-order and the list of them is closed, so where the count of figure-carrying
-lines equals the count of centres, each line takes the centre at its own
-position and the printed label is used to **check** that assignment rather than
-to make it. `match_score` and `label_agrees` record that check on every row, and
-the two rows where the label is past recognition are named in the extractor's
-report.
-
-**Placement.** `shabiya_ar`, `shabiya_en`, `shabiya_pcode` and `shabiya_route`
-as elsewhere: 20 of 23 centres resolve through the repository's own concordance
-from their Arabic name, two are `asserted`, and Tilimùn is unplaced. A match is
-kept only if it lands in the colony the table puts the centre in, the east being
-LY01 and the north-west LY02. That check earns its place: `جنزور` on its own
-resolves to a small mahalla of Tobruk, and without the guard Zanzùr, which is a
-suburb of Tripoli, is published 1,300 km from where it is. The same correction
-has been applied to the 1936 circumscription seats, where Zanzùr and Apollonia
-were misplaced the same way.
-
-#### Table I of 1921, and why the summary is used instead
-
-Each chapter also carries a table I, `Popolazione presente, temporaneamente
-assente e residente nei Centri e Località abitate`, with **nine** columns rather
-than three: the present population split into habitual and occasional residents,
-and the temporarily absent split by whether they were elsewhere in the colonies,
-in the Kingdom or abroad. It also breaks Tripoli and Bengasi into their quarters.
-It is the better table.
-
-Its Tripolitania page reads exactly. Its Cirenaica page does not: the scan
-splits capitals off their words (`E l Merg`, `R égima`), wraps `Marsa Susa
-(Apollo-` over two lines, and leaves some centres' figures on the line below the
-name, so three of the fourteen centres cannot be attributed without guessing.
-Publishing Tripolitania from table I and Cirenaica from the summary would put
-two different readings in one file, so both colonies are read from the summary,
-which prints the same centres and reconciles exactly for both. Table I's six
-further columns, and the quarters of the two cities, are the obvious thing to
-recover from a cleaner scan.
+**Placement.** 63 of the 106 rows resolve through the concordance from their
+Arabic name and 31 are `asserted`, because the 2006 mahalla list is a list of
+neighbourhoods and does not hold every colonial district seat: Zliten, Sabratha,
+Ajdabiya and the Fezzan oases are placed by where they are, not by a name the
+concordance shares. Ten rows are unplaced and all ten are regional names that
+span several modern provinces, such as the Gefara, the Gebel and the Marmarica.
+A match is kept only if it lands in the colony the table puts it in.
 
 #### `libya_circoscrizioni_1936.csv` — 59 circumscriptions
 

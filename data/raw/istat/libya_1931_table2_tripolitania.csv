@@ -1,0 +1,80 @@
+level,parent,name,present_mf,present_f,regnicola_mf,regnicola_f,straniera_mf,straniera_f,indigena_mf,indigena_f
+1,,C. R. di Tripoli,81986,38444,21472,9073,2263,1083,58251,28288
+1,,C. R. del Confine Occidentale,37154,17384,722,235,6,5,36426,17144
+2,C. R. del Confine Occidentale,Circondario di Zuara,19566,9044,494,175,0,0,19072,8869
+3,Circondario di Zuara,Distretto di el-Hassa,6463,2949,10,0,0,0,6453,2949
+3,Circondario di Zuara,Distretto di Regdalin,5961,2741,0,0,0,0,5961,2741
+3,Circondario di Zuara,Distretto di Zuara,7142,3354,484,175,0,0,6658,3179
+2,C. R. del Confine Occidentale,Circondario di Sabratha,17588,8340,228,60,6,5,17354,8275
+3,Circondario di Sabratha,Distretto di el-Agelat,9830,4712,12,4,0,0,9818,4708
+3,Circondario di Sabratha,Distretto di el-Alalga,7758,3628,216,56,6,5,7536,3567
+1,,C. R. di Zavia,40729,19544,838,371,11,4,39880,19169
+3,C. R. di Zavia,Distretto di Sorman,10361,4878,121,48,0,0,10240,4830
+3,C. R. di Zavia,Distretto di Zavia,23600,11399,371,160,11,4,23218,11235
+3,C. R. di Zavia,Distretto di Zanzur,6768,3267,346,163,0,0,6422,3104
+1,,C. R. della Gefara,74161,35136,2254,805,6,2,71901,34329
+2,C. R. della Gefara,Circondario di es-Sahel,26923,12605,1222,390,0,0,25701,12215
+2,C. R. della Gefara,Circondario di Tagiura,14941,7120,436,175,2,1,14503,6944
+3,Circondario di Tagiura,Distretto di Tagiura,9341,4539,320,125,2,1,9019,4413
+3,Circondario di Tagiura,Distretto di Gasr Garabulli,5600,2581,116,50,0,0,5484,2531
+2,C. R. della Gefara,Circondario di el-Azizia,17539,8361,248,95,4,1,17287,8265
+2,C. R. della Gefara,Circondario di Castel Benito,14758,7050,348,145,0,0,14410,6905
+1,,C. R. di Leptis,42487,20563,433,181,48,28,42006,20354
+2,C. R. di Leptis,Circondario di Homs,30016,14496,411,176,48,28,29557,14292
+3,Circondario di Homs,Distretto di Gasr el-Chiar,6775,3213,100,41,0,0,6675,3172
+3,Circondario di Homs,Distretto di Homs,2441,1228,299,132,48,28,2094,1068
+3,Circondario di Homs,Distretto di Sciogran,6744,3112,3,0,0,0,6741,3112
+3,Circondario di Homs,Distretto di Sugh el-Chemis,14056,6943,9,3,0,0,14047,6940
+2,C. R. di Leptis,Circondario di el-Gusbat,12471,6067,22,5,0,0,12449,6062
+1,,C. R. di Misurata,78397,38218,799,164,63,25,77535,38029
+2,C. R. di Misurata,Circondario di Zliten,36068,17653,118,24,24,8,35926,17621
+2,C. R. di Misurata,Circondario di Misurata,42329,20565,681,140,39,17,41609,20408
+3,Circondario di Misurata,Distretto di Misurata,37380,18052,677,140,39,17,36664,17895
+3,Circondario di Misurata,Distretto di Tauorga,4949,2513,4,0,0,0,4945,2513
+1,,C. R. del Gebel,95897,45581,566,154,1,0,95330,45427
+2,C. R. del Gebel,Circondario di Giado,10001,4953,18,1,0,0,9983,4952
+3,Circondario di Giado,Distretto di Giado,4722,2383,18,1,0,0,4704,2382
+3,Circondario di Giado,Distretto di er-Rogeban,2228,1075,0,0,0,0,2228,1075
+3,Circondario di Giado,Distretto di er-Rehibat,3051,1495,0,0,0,0,3051,1495
+2,C. R. del Gebel,Circondario di Iefren,14681,7066,57,12,0,0,14624,7054
+3,Circondario di Iefren,Distretto di ez-Zintan,3891,1830,1,0,0,0,3890,1830
+3,Circondario di Iefren,Distretto di Iefren,7174,3481,55,12,0,0,7119,3469
+3,Circondario di Iefren,Distretto di er-Riaina,3616,1755,1,0,0,0,3615,1755
+2,C. R. del Gebel,Circondario di el-Garian,35116,16762,320,86,0,0,34796,16676
+2,C. R. del Gebel,Circondario di Tarhuna,36099,16800,171,55,1,0,35927,16745
+1,,C. Z. Sud Orientale,21098,9236,799,62,2,0,20297,9174
+2,C. Z. Sud Orientale,Circondario di Sirte,10791,4823,414,57,2,0,10375,4766
+2,C. Z. Sud Orientale,Circondario di en-Nofilia,2947,1307,75,0,0,0,2872,1307
+2,C. Z. Sud Orientale,Circondario di Giofra,4879,1985,276,5,0,0,4603,1980
+3,Circondario di Giofra,Distretto di Socna,883,416,0,0,0,0,883,416
+3,Circondario di Giofra,Distretto di Uaddan,1482,702,0,0,0,0,1482,702
+3,Circondario di Giofra,Distretto di Hon,2514,867,276,5,0,0,2238,862
+2,C. Z. Sud Orientale,Circondario di Zella,2481,1121,34,0,0,0,2447,1121
+1,,C. Z. del Gebel,24902,11556,139,16,1,0,24762,11540
+2,C. Z. del Gebel,Circondario di Mizda,10608,4902,83,5,1,0,10524,4897
+2,C. Z. del Gebel,Circondario di Orfella,14294,6654,56,11,0,0,14238,6643
+1,,C. Z. Sud Occidentale,20781,9614,216,10,4,1,20561,9603
+2,C. Z. Sud Occidentale,Circondario di Nalut,16463,7503,129,8,4,1,16330,7494
+3,Circondario di Nalut,Distretto di Haraba,3920,1953,3,0,0,0,3917,1953
+3,Circondario di Nalut,Distretto di Cabao,2852,1333,3,0,0,0,2849,1333
+3,Circondario di Nalut,Distretto di Nalut,5758,2507,120,8,4,1,5634,2498
+3,Circondario di Nalut,Distretto di el-Giosc,3933,1710,3,0,0,0,3930,1710
+2,C. Z. Sud Occidentale,Circondario di Gadames,4318,2111,87,2,0,0,4231,2109
+3,Circondario di Gadames,Distretto di Gadames,2030,1074,27,0,0,0,2003,1074
+3,Circondario di Gadames,Distretto di Sinauen,897,397,24,2,0,0,873,395
+3,Circondario di Gadames,Distretto di Derg,1391,640,36,0,0,0,1355,640
+1,,C. Z. del Fezzan,26080,12981,258,0,0,0,25822,12981
+2,C. Z. del Fezzan,Circondario di Sebha,10156,5001,127,0,0,0,10029,5001
+3,Circondario di Sebha,Distretto di Sebha,3330,1464,94,0,0,0,3236,1464
+3,Circondario di Sebha,Distretto di Umm el-Araneb,1935,1040,4,0,0,0,1931,1040
+3,Circondario di Sebha,Distretto di Uadi esc-Scerghi,1743,911,0,0,0,0,1743,911
+3,Circondario di Sebha,Distretto di Tuaregh Ubari e Uadi el-Garbi,3148,1586,29,0,0,0,3119,1586
+2,C. Z. del Fezzan,Circondario di Brach,10117,5060,42,0,0,0,10075,5060
+3,Circondario di Brach,Distretto di Brach,6952,3489,32,0,0,0,6920,3489
+3,Circondario di Brach,Distretto di Edri,1532,732,10,0,0,0,1522,732
+3,Circondario di Brach,Distretto di Berghin,1633,839,0,0,0,0,1633,839
+2,C. Z. del Fezzan,Circondario di Murzuch,3234,1684,57,0,0,0,3177,1684
+3,Circondario di Murzuch,Distretto di Murzuch,1694,820,57,0,0,0,1637,820
+3,Circondario di Murzuch,Distretto di Traghen,1540,864,0,0,0,0,1540,864
+2,C. Z. del Fezzan,Circondario di Gat,2573,1236,32,0,0,0,2541,1236
+0,,TOTALE,543672,258257,28496,11071,2405,1148,512771,246038

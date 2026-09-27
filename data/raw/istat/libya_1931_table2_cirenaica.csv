@@ -1,0 +1,28 @@
+level,parent,name,present_mf,present_f,regnicola_mf,regnicola_f,straniera_mf,straniera_f,indigena_mf,indigena_f
+1,,C. R. di Bengasi,81961,37632,10969,4385,2007,734,68985,32513
+2,C. R. di Bengasi,Circondario di Bengasi,43240,19484,10547,4278,2007,734,30686,14472
+2,C. R. di Bengasi,Circondario di Bengasi esterna,5328,2588,104,29,0,0,5224,2559
+3,Circondario di Bengasi esterna,Distretto Settentrionale di Bengasi esterna,3134,1460,30,1,0,0,3104,1459
+3,Circondario di Bengasi esterna,Distretto Meridionale di Bengasi esterna,2194,1128,74,28,0,0,2120,1100
+2,C. R. di Bengasi,Circondario di el-Abiar,3967,1798,160,48,0,0,3807,1750
+2,C. R. di Bengasi,Circondario di Soluch,19345,9001,146,28,0,0,19199,8973
+2,C. R. di Bengasi,Circondario di Sidi Ahmed el-Magrun,10081,4761,12,2,0,0,10069,4759
+1,,C. R. del Gebel,35407,16410,3525,871,358,144,31524,15395
+2,C. R. del Gebel,Circondario di Barce,13239,6064,1527,354,11,3,11701,5707
+3,Circondario di Barce,Distretto di Barce,10804,4991,1184,324,9,3,9611,4664
+3,Circondario di Barce,Distretto di Tolmeta,1165,486,272,21,2,0,891,465
+3,Circondario di Barce,Distretto di Tocra,1270,587,71,9,0,0,1199,578
+2,C. R. del Gebel,Circondario di Apollonia,10118,4427,1106,164,250,135,8762,4128
+3,Circondario di Apollonia,Distretto di Apollonia,7467,3766,559,116,244,133,6664,3517
+3,Circondario di Apollonia,Distretto di Cirene,2651,661,547,48,6,2,2098,611
+2,C. R. del Gebel,Circondario di Derna,12050,5919,892,353,97,6,11061,5560
+1,,C. Z. della Marmarica,6467,1392,1091,138,33,1,5343,1253
+3,C. Z. della Marmarica,Distretto di Tobruch,2730,1062,652,106,3,1,2075,955
+3,C. Z. della Marmarica,Distretto di Porto Bardia,3737,330,439,32,30,0,3268,298
+1,,C. Z. di Agedabia,36616,17557,519,24,4,0,36093,17533
+3,C. Z. di Agedabia,Distretto di Agedabia,9943,4579,378,15,3,0,9562,4564
+3,C. Z. di Agedabia,Distretto di Marsa Brega,9959,4571,11,0,0,0,9948,4571
+3,C. Z. di Agedabia,Distretto di el-Agheila,6443,3180,52,9,1,0,6390,3171
+3,C. Z. di Agedabia,Distretto di Gialo,4497,2372,34,0,0,0,4463,2372
+3,C. Z. di Agedabia,Distretto di Cufra,5774,2855,44,0,0,0,5730,2855
+0,,TOTALE,160451,72991,16104,5418,2402,879,141945,66694

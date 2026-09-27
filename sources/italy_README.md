@@ -142,9 +142,19 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    places where a later volume revises an earlier one, which are published as revisions rather than
    averaged away. 23 of the 29 colony-years that carry figures are printed in two or more volumes and agree.
 
-5. The 1931 volume is read as far as it can be: `scripts/extract_istat_1931_libya.py` publishes its
-   table I, area and the four populations by circumscription for both colonies, with Cyrenaica
-   exactly as printed. Its table II, the district detail, is not machine-readable from this scan and
-   is recorded as such. Re-OCR of those two pages would recover it.
+5. ~~The 1931 volume's table II, the district detail, is not machine-readable from this scan.~~
+   **Done**, by transcription rather than by re-OCR. `scripts/extract_istat_1931_districts.py`
+   publishes 106 rows two levels below the circumscription, with the sex breakdown table I does not
+   carry. The two pages were rendered as images and read by eye, and the transcription is bound by
+   four arithmetic checks the hierarchy supplies: the three populations sum to the total on every
+   row and for women alone, no female count exceeds its total, every parent equals its children, and
+   the circumscriptions sum to the colony. Those checks caught the only two errors in the first
+   reading. The transcription also repairs five cells the scan destroyed in table I, so every
+   population column of `libya_1931_circoscrizioni.csv` now reconciles exactly.
+
+   What is still unread in this volume is **table III**, which gives the resident population and the
+   temporarily absent for the Italian and foreign population by sex. It sits on the same two pages
+   and is the same kind of object, so the same method would take it.
+
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

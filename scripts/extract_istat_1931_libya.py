@@ -27,18 +27,24 @@ separately and the volume never adds them together. It gives 543,672 present in
 Tripolitania and 160,451 in Cyrenaica, of whom 512,771 and 141,945 are
 indigenous.
 
-## Table II is not here, and that is a finding about the scan
+## Table II is not read here; it is transcribed, and it repairs this table
 
-**Only table I is published.** Table II carries the district detail, which is
-the more valuable half, and it cannot be read from this scan: the OCR runs the
-label and the first two figures together into one string, so a line arrives as
-`C. R. DI TRIPOLI (2). 81.98638.444 21.47`. The wide figures can be split back
-apart by their thousands separators, but they then have no column position, and
-assigning them in order is exactly what fails when the scan has dropped one.
-Publishing a district table keyed by guesswork would be worse than publishing
-none, so the district figures of 1931 are recorded as unavailable. The 1936
-volume's locality list, which this repository does publish, is the way to get
-below the circumscription for the colonial period.
+**This script publishes table I only.** Table II carries the district detail and
+it cannot be read from this scan: the OCR runs the label and the first two
+figures together into one string, so a line arrives as `C. R. DI TRIPOLI (2).
+81.98638.444 21.47`, and the wide figures can be split back apart by their
+thousands separators but then have no column position. That is still true.
+
+Table II is nonetheless published, by `scripts/extract_istat_1931_districts.py`,
+which does not parse it either: the two pages were rendered as images and read
+by eye, and the transcription is checked against the arithmetic the hierarchy
+supplies. See that script.
+
+Five cells of table I that the scan destroyed are printed again in table II, so
+this script now **fills them from the transcription** rather than leaving them
+blank. `superficie_km2` for Misurata is the one gap that stays, because table II
+does not carry area. Every filled cell is named in the report and the column
+`filled_from_table_two` says which they are.
 
 ## Reading the page
 
@@ -349,12 +355,68 @@ def main():
         row["shabiya_pcode"] = found[2] if found else ""
         row["shabiya_route"] = route
 
+    filled = fill_from_table_two(first)
+
     OUT.mkdir(parents=True, exist_ok=True)
     write(OUT / "libya_1931_circoscrizioni.csv", first,
           ["colony", "seat", "level", "seat_ar", "shabiya_ar", "shabiya_en",
            "shabiya_pcode", "shabiya_route"] + list(TABLE_ONE)
-          + ["seat_printed", "label_printed"])
-    report(first)
+          + ["filled_from_table_two", "seat_printed", "label_printed"])
+    report(first, filled)
+
+
+# Table I's columns, and the column of table II that prints the same figure.
+FROM_TABLE_TWO = {"present_total": "present_mf", "present_italian": "regnicola_mf",
+                  "present_foreign": "straniera_mf",
+                  "present_indigenous": "indigena_mf"}
+# How a row of table I names a circumscription, against how table II does.
+LEVEL_MARK = {"commissariato_regionale": "C. R.", "comando_di_zona": "C. Z.",
+              "total": "TOTALE", "municipio": "Circondario"}
+
+
+def fill_from_table_two(rows):
+    """Put back the cells the scan destroyed, from the transcribed table II.
+
+    The same page prints each of these figures twice, once in table I and once
+    in table II, and the scan did not damage both. Only empty cells are
+    touched; a cell that read is never overwritten, and where both read they
+    are compared and a disagreement is reported rather than resolved.
+    """
+    import csv as _csv
+    source = ROOT / "data" / "raw" / "istat"
+    two = []
+    for colony, name in (("Tripolitania", "libya_1931_table2_tripolitania.csv"),
+                         ("Cirenaica", "libya_1931_table2_cirenaica.csv")):
+        path = source / name
+        if not path.exists():
+            return []
+        for line in _csv.DictReader(path.open()):
+            line["colony"] = colony
+            two.append(line)
+
+    filled = []
+    for row in rows:
+        mark = LEVEL_MARK.get(row["level"])
+        if not mark:
+            continue
+        for line in two:
+            if line["colony"] != row["colony"] or not line["name"].startswith(mark):
+                continue
+            seat = re.sub(r"^(C\. [RZ]\. (di|del|della) |Circondario di )", "",
+                          line["name"]).lower()
+            if seat != row["seat"] and not (mark == "TOTALE"
+                                            and row["seat"] == "totale"):
+                continue
+            for column, twin in FROM_TABLE_TWO.items():
+                if row.get(column) in (None, ""):
+                    row[column] = int(line[twin])
+                    filled.append(f"{row['colony']} {row['seat']} {column}")
+            break
+    for row in rows:
+        row["filled_from_table_two"] = ";".join(
+            f.split()[-1] for f in filled
+            if f.startswith(f"{row['colony']} {row['seat']} "))
+    return filled
 
 
 def write(path, rows, fields):
@@ -368,7 +430,7 @@ def write(path, rows, fields):
     print(f"{path.name:34s} {len(rows):5d} rows")
 
 
-def report(first):
+def report(first, filled=()):
     print()
     for colony, published in PUBLISHED.items():
         rows = [r for r in first if r["colony"] == colony
@@ -390,8 +452,12 @@ def report(first):
     placed = [r for r in first if r["shabiya_en"]]
     print(f"{len(placed)} of {len(first)} rows carry a shabiya "
           f"{dict(Counter(r['shabiya_route'] for r in first))}")
-    print("table II, the district detail, is not published: the scan runs its "
-          "labels and figures together")
+    if filled:
+        print(f"{len(filled)} cells the scan destroyed were filled from the "
+              f"transcribed table II: "
+              f"{', '.join(f.split(maxsplit=1)[1] for f in filled)}")
+    print("table II, the district detail, is transcribed by eye rather than "
+          "read: see scripts/extract_istat_1931_districts.py")
     print("\nnext: python3 scripts/validate.py")
 
 
