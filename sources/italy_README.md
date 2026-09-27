@@ -166,13 +166,19 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    by sex, and the 27 municipalities created by decree in 1935. All 432 figures of the municipality
    table equal the circumscriptions the volume's own footnotes say they are made of.
 
-   That leaves the 1936 volume's tables IV to XIX and XXI to XXXIV unread. Most are occupational
+   **Table IV is now read too**, by `scripts/extract_istat_1936_residents.py`: the settler
+   population present, temporarily absent and resident, by character of dimora and by where the
+   absent were. Its finding is that 52,421 of the 115,637 Italians and foreigners counted in Libya
+   in April 1936, 45% of them, had no habitual dwelling there, rising to 94% in the Circondario di
+   Tòbruch and 85% in Derna. 276 of its figures cross-check against table II.
+
+   That leaves the 1936 volume's tables V to XIX and XXI to XXXIV unread. Most are occupational
    cross-tabulations running ten pages or more each, which transcription cannot reach at a sensible
-   cost. The ones worth the effort, in order: **table IV** (present, temporarily absent and resident
-   by character of dimora, two pages, the counterpart of the 1931 table III); **tables XXI and
-   XXII** (the Libyan population by dimora, sex, age, religion, race and language, eight and four
-   pages); and **tables XXVI to XXVIII** (Muslim monogamous and polygamous households and their
-   wives by age, four pages, and unusual data by any standard).
+   cost. The ones worth the effort, in order: **tables XXI and XXII** (the Libyan population by
+   dimora, sex, age, religion, race and language, eight and four pages); **tables XXVI to XXVIII**
+   (Muslim monogamous and polygamous households and their wives by age, four pages, and unusual data
+   by any standard); and **table XIII** (the settler population by category of economic activity,
+   one page).
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

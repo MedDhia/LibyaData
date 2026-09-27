@@ -1,0 +1,70 @@
+province,level,name,parent,place_ar,shabiya_ar,shabiya_en,shabiya_pcode,shabiya_route,present_mf,present_f,habitual_mf,habitual_f,occasional_mf,occasional_f,absent_mf,absent_f,absent_libya_mf,absent_libya_f,absent_kingdom_mf,absent_kingdom_f,absent_elsewhere_mf,absent_elsewhere_f,resident_mf,resident_f,order,place_key
+Provincia di Tripoli,provincia,Provincia di Tripoli,,طرابلس,طرابلس,Tripoli,LY0211,concordance,44511,19355,38856,18864,5655,491,1934,393,1074,183,494,194,366,16,40790,19257,1,tripoli
+Provincia di Tripoli,circondario,Circondario di Zuara,Provincia di Tripoli,زوارة,النقاط الخمس,Nuqat al Khams,LY0215,concordance,1059,420,879,404,180,16,54,16,37,8,16,8,1,0,933,420,2,zuara
+Provincia di Tripoli,distretto,Distretto di Zuara,Circondario di Zuara,زوارة,النقاط الخمس,Nuqat al Khams,LY0215,concordance,618,261,556,254,62,7,34,10,19,2,15,8,0,0,590,264,3,zuara
+Provincia di Tripoli,distretto,Distretto di Sabratha,Circondario di Zuara,صبراتة,الزاوية,Zawiya,LY0213,asserted,441,159,323,150,118,9,20,6,18,6,1,0,1,0,343,156,4,sabratha
+Provincia di Tripoli,circondario,Circondario di Zavia,Provincia di Tripoli,الزاوية,الزاوية,Zawiya,LY0213,concordance,1387,612,1275,588,112,24,81,29,57,18,16,8,8,3,1356,617,5,zavia
+Provincia di Tripoli,distretto,Distretto di Sorman,Circondario di Zavia,صرمان,الزاوية,Zawiya,LY0213,concordance,254,113,243,109,11,4,13,8,11,7,2,1,0,0,256,117,6,sorman
+Provincia di Tripoli,distretto,Distretto di Zavia,Circondario di Zavia,الزاوية,الزاوية,Zawiya,LY0213,concordance,561,257,513,244,48,13,28,7,17,2,7,4,4,1,541,251,7,zavia
+Provincia di Tripoli,distretto,Distretto di Zanzur,Circondario di Zavia,جنزور,الجفارة,Jafara,LY0212,concordance,572,242,519,235,53,7,40,14,29,9,7,3,4,2,559,249,8,zanzur
+Provincia di Tripoli,circondario,Circondario di Tripoli,Provincia di Tripoli,طرابلس,طرابلس,Tripoli,LY0211,concordance,34506,15358,30044,14955,4462,403,1412,244,658,70,416,161,338,13,31456,15199,9,tripoli
+Provincia di Tripoli,circondario,Circondario di Sugh el-Giumaa,Provincia di Tripoli,سوق الجمعة,طرابلس,Tripoli,LY0211,concordance,4632,1793,4052,1764,580,29,236,68,188,59,31,9,17,0,4288,1832,10,sugh el-giumaa
+Provincia di Tripoli,residenza,Residenza di Sugh el-Giumaa,Circondario di Sugh el-Giumaa,سوق الجمعة,طرابلس,Tripoli,LY0211,concordance,2124,793,1891,773,233,20,118,37,95,34,14,3,9,0,2009,810,11,sugh el-giumaa
+Provincia di Tripoli,residenza,Residenza di el-Azizia,Circondario di Sugh el-Giumaa,العزيزية,الجفارة,Jafara,LY0212,concordance,924,420,913,417,11,3,37,14,31,9,5,5,1,0,950,431,12,el-azizia
+Provincia di Tripoli,distretto,Distretto di el-Azizia,Residenza di el-Azizia,العزيزية,الجفارة,Jafara,LY0212,concordance,461,200,452,198,9,2,19,8,14,4,4,4,1,0,471,206,13,el-azizia
+Provincia di Tripoli,distretto,Distretto di Suani ben Adem,Residenza di el-Azizia,سواني بن آدم,الجفارة,Jafara,LY0212,asserted,463,220,461,219,2,1,18,6,17,5,1,1,0,0,479,225,14,suani ben adem
+Provincia di Tripoli,residenza,Residenza di Tagiura,Circondario di Sugh el-Giumaa,تاجوراء,طرابلس,Tripoli,LY0211,concordance,1584,580,1248,574,336,6,81,17,62,16,12,1,7,0,1329,591,15,tagiura
+Provincia di Tripoli,distretto,Distretto di Castel Benito,Residenza di Tagiura,بن غشير,طرابلس,Tripoli,LY0211,asserted,689,227,486,223,203,4,34,12,29,11,4,1,1,0,520,235,16,castel benito
+Provincia di Tripoli,distretto,Distretto di Tagiura,Residenza di Tagiura,تاجوراء,طرابلس,Tripoli,LY0211,concordance,604,258,561,258,43,0,33,3,21,3,8,0,4,0,594,261,17,tagiura
+Provincia di Tripoli,distretto,Distretto di Gasr el-Garabulli,Residenza di Tagiura,القره بوللي,المرقب,Murqub,LY0210,asserted,291,95,201,93,90,2,14,2,12,2,0,0,2,0,215,95,18,gasr el-garabulli
+Provincia di Tripoli,circondario,Circondario di Nalut,Provincia di Tripoli,نالوت,نالوت,Nalut,LY0209,concordance,297,41,232,32,65,9,3,1,1,1,2,0,0,0,235,33,19,nalut
+Provincia di Tripoli,residenza,Residenza di Nalut,Circondario di Nalut,نالوت,نالوت,Nalut,LY0209,concordance,226,37,190,30,36,7,3,1,1,1,2,0,0,0,193,31,20,nalut
+Provincia di Tripoli,residenza,Residenza di Gadames,Circondario di Nalut,غدامس,نالوت,Nalut,LY0209,concordance,71,4,42,2,29,2,0,0,0,0,0,0,0,0,42,2,21,gadames
+Provincia di Tripoli,circondario,Circondario di Garian,Provincia di Tripoli,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,2630,1131,2374,1121,256,10,148,35,133,27,13,8,2,0,2522,1156,22,garian
+Provincia di Tripoli,residenza,Residenza di Garian,Circondario di Garian,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,2376,1092,2240,1085,136,7,144,35,130,27,13,8,1,0,2384,1120,23,garian
+Provincia di Tripoli,residenza,Residenza di Iefren,Circondario di Garian,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,135,28,96,25,39,3,2,0,1,0,0,0,1,0,98,25,24,iefren
+Provincia di Tripoli,distretto,Distretto di Giado,Residenza di Iefren,جادو,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,54,3,21,2,33,1,1,0,0,0,0,0,1,0,22,2,25,giado
+Provincia di Tripoli,distretto,Distretto di Iefren,Residenza di Iefren,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,81,25,75,23,6,2,1,0,1,0,0,0,0,0,76,23,26,iefren
+Provincia di Tripoli,residenza,Residenza di Mizda,Circondario di Garian,مزدة,الجبل الغربي,Jabal al Gharbi,LY0216,asserted,119,11,38,11,81,0,2,0,2,0,0,0,0,0,40,11,27,mizda
+Provincia di Misurata,provincia,Provincia di Misurata,,مصراتة,مصراته,Misrata,LY0214,concordance,3065,803,2234,767,831,36,157,61,139,55,16,6,2,0,2391,828,28,misurata
+Provincia di Misurata,circondario,Circondario di Homs,Provincia di Misurata,الخمس,المرقب,Murqub,LY0210,concordance,1198,434,929,412,269,22,71,25,65,22,6,3,0,0,1000,437,29,homs
+Provincia di Misurata,residenza,Residenza di Homs,Circondario di Homs,الخمس,المرقب,Murqub,LY0210,concordance,629,250,507,232,122,18,50,16,48,15,2,1,0,0,557,248,30,homs
+Provincia di Misurata,residenza,Residenza di el-Gusbat,Circondario di Homs,القصبات,المرقب,Murqub,LY0210,asserted,57,20,54,19,3,1,4,0,4,0,0,0,0,0,58,19,31,el-gusbat
+Provincia di Misurata,residenza,Residenza di Tarhuna,Circondario di Homs,ترهونة,المرقب,Murqub,LY0210,concordance,512,164,368,161,144,3,17,9,13,7,4,2,0,0,385,170,32,tarhuna
+Provincia di Misurata,circondario,Circondario di Zliten,Provincia di Misurata,زليتن,المرقب,Murqub,LY0210,asserted,146,26,79,26,67,0,21,12,20,12,1,0,0,0,100,38,33,zliten
+Provincia di Misurata,circondario,Circondario di Misurata,Provincia di Misurata,مصراتة,مصراته,Misrata,LY0214,concordance,1721,343,1226,329,495,14,65,24,54,21,9,3,2,0,1291,353,34,misurata
+Provincia di Misurata,residenza,Residenza di Misurata,Circondario di Misurata,مصراتة,مصراته,Misrata,LY0214,concordance,962,272,616,262,346,10,43,14,34,11,7,3,2,0,659,276,35,misurata
+Provincia di Misurata,residenza,Residenza di Beni Ulid,Circondario di Misurata,بني وليد,مصراته,Misrata,LY0214,asserted,41,7,29,7,12,0,0,0,0,0,0,0,0,0,29,7,36,beni ulid
+Provincia di Misurata,residenza,Residenza di Sirte,Circondario di Misurata,سرت,سرت,Sirte,LY0208,concordance,615,60,487,58,128,2,21,10,19,10,2,0,0,0,508,68,37,sirte
+Provincia di Misurata,residenza,Residenza di en-Nofilia,Circondario di Misurata,النوفلية,سرت,Sirte,LY0208,concordance,103,4,94,2,9,2,1,0,1,0,0,0,0,0,95,2,38,en-nofilia
+Provincia di Bengasi,provincia,Provincia di Bengasi,,بنغازي,بنغازي,Benghazi,LY0103,concordance,34802,7974,16677,7781,18125,193,874,149,465,49,254,95,155,5,17551,7930,39,bengasi
+Provincia di Bengasi,circondario,Circondario di Agedabia,Provincia di Bengasi,أجدابيا,الواحات,Al Wahat,LY0105,asserted,305,66,172,61,133,5,8,0,5,0,1,0,2,0,180,61,40,agedabia
+Provincia di Bengasi,distretto,Distretto di el-Agheila,Circondario di Agedabia,العقيلة,الواحات,Al Wahat,LY0105,concordance,96,14,34,9,62,5,0,0,0,0,0,0,0,0,34,9,41,el-agheila
+Provincia di Bengasi,distretto,Distretto di Agedabia,Circondario di Agedabia,أجدابيا,الواحات,Al Wahat,LY0105,asserted,209,52,138,52,71,0,8,0,5,0,1,0,2,0,146,52,42,agedabia
+Provincia di Bengasi,circondario,Circondario di Bengasi,Provincia di Bengasi,بنغازي,بنغازي,Benghazi,LY0103,concordance,23454,7306,14743,7134,8711,172,760,110,394,30,223,76,143,4,15503,7244,43,bengasi
+Provincia di Bengasi,residenza,Residenza di Bengasi,Circondario di Bengasi,بنغازي,بنغازي,Benghazi,LY0103,concordance,23120,7247,14548,7078,8572,169,748,104,388,25,217,75,143,4,15296,7182,44,bengasi
+Provincia di Bengasi,residenza,Residenza di Soluch,Circondario di Bengasi,سلوق,بنغازي,Benghazi,LY0103,concordance,86,27,85,26,1,1,10,5,6,5,4,0,0,0,95,31,45,soluch
+Provincia di Bengasi,residenza,Residenza di Tocra,Circondario di Bengasi,توكرة,المرج,Marj,LY0102,concordance,248,32,110,30,138,2,2,1,0,0,2,1,0,0,112,31,46,tocra
+Provincia di Bengasi,circondario,Circondario di Barce,Provincia di Bengasi,المرج,المرج,Marj,LY0102,concordance,11043,602,1762,586,9281,16,106,39,66,19,30,19,10,1,1868,625,47,barce
+Provincia di Bengasi,distretto,Distretto di el-Abiar,Circondario di Barce,الأبيار,المرج,Marj,LY0102,concordance,1544,66,175,59,1369,7,3,0,1,0,2,0,0,0,178,59,48,el-abiar
+Provincia di Bengasi,distretto,Distretto di Barce,Circondario di Barce,المرج,المرج,Marj,LY0102,concordance,9426,511,1519,502,7907,9,95,33,60,16,25,16,10,1,1614,535,49,barce
+Provincia di Bengasi,distretto,Distretto di Tolmeta,Circondario di Barce,طلميثة,المرج,Marj,LY0102,asserted,73,25,68,25,5,0,8,6,5,3,3,3,0,0,76,31,50,tolmeta
+Provincia di Derna,provincia,Provincia di Derna,,درنة,درنة,Derna,LY0101,concordance,32585,2076,5224,1994,27361,82,331,71,196,39,100,30,35,2,5555,2065,51,derna
+Provincia di Derna,circondario,Circondario di Apollonia,Provincia di Derna,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,concordance,4184,1017,2324,1007,1860,10,166,32,122,23,34,9,10,0,2490,1039,52,apollonia
+Provincia di Derna,distretto,Distretto di Beda Littoria,Circondario di Apollonia,البيضاء,الجبل الأخضر,Jabal al Akhdar,LY0106,concordance,1237,564,1231,564,6,0,68,11,52,11,11,0,5,0,1299,575,53,beda littoria
+Provincia di Derna,distretto,Distretto di Gerdes Gerrari,Circondario di Apollonia,قرضس الجرارى,الجبل الأخضر,Jabal al Akhdar,LY0106,asserted,60,7,32,7,28,0,7,0,6,0,1,0,0,0,39,7,54,gerdes gerrari
+Provincia di Derna,distretto,Distretto di Cirene,Circondario di Apollonia,شحات,الجبل الأخضر,Jabal al Akhdar,LY0106,concordance,734,320,712,317,22,3,62,14,47,8,13,6,2,0,774,331,55,cirene
+Provincia di Derna,distretto,Distretto di Apollonia,Circondario di Apollonia,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,concordance,2153,126,349,119,1804,7,29,7,17,4,9,3,3,0,378,126,56,apollonia
+Provincia di Derna,circondario,Circondario di Derna,Provincia di Derna,درنة,درنة,Derna,LY0101,concordance,13163,827,1925,774,11238,53,106,17,48,6,35,10,23,1,2031,791,57,derna
+Provincia di Derna,distretto,Distretto di Giovanni Berta,Circondario di Derna,القبة,درنة,Derna,LY0101,concordance,2233,204,516,198,1717,6,38,1,25,0,7,1,6,0,554,199,58,giovanni berta
+Provincia di Derna,distretto,Distretto di Derna,Circondario di Derna,درنة,درنة,Derna,LY0101,concordance,10930,623,1409,576,9521,47,68,16,23,6,28,9,17,1,1477,592,59,derna
+Provincia di Derna,circondario,Circondario di Tobruch,Provincia di Derna,طبرق,البطنان,Butnan,LY0104,concordance,15238,232,975,213,14263,19,59,22,26,10,31,11,2,1,1034,235,60,tobruch
+Provincia di Derna,residenza,Residenza di Tobruch,Circondario di Tobruch,طبرق,البطنان,Butnan,LY0104,concordance,12553,187,673,173,11880,14,36,16,16,9,19,6,1,1,709,189,61,tobruch
+Provincia di Derna,residenza,Residenza di Porto Bardia,Circondario di Tobruch,البردية,البطنان,Butnan,LY0104,asserted,2685,45,302,40,2383,5,23,6,10,1,12,5,1,0,325,46,62,porto bardia
+Territorio Militare del Sud,provincia,Territorio Militare del Sud,,,,,,unplaced,674,16,225,12,449,4,13,0,10,0,3,0,0,0,238,12,63,militare del sud
+Territorio Militare del Sud,sottozona,Sottozona militare di Brach,Territorio Militare del Sud,براك,وادي الشاطئ,Wadi al Shatii,LY0318,concordance,134,1,41,0,93,1,4,0,4,0,0,0,0,0,45,0,64,brach
+Territorio Militare del Sud,sottozona,Sottozona militare di Gat,Territorio Militare del Sud,غات,غات,Ghat,LY0321,concordance,100,1,31,1,69,0,3,0,1,0,2,0,0,0,34,1,65,gat
+Territorio Militare del Sud,sottozona,Sottozona militare di Murzuch,Territorio Militare del Sud,مرزق,مرزق,Murzuq,LY0322,concordance,117,0,37,0,80,0,3,0,2,0,1,0,0,0,40,0,66,murzuch
+Territorio Militare del Sud,sottozona,Sottozona militare di Hon,Territorio Militare del Sud,هون,الجفرة,Jufra,LY0317,asserted,233,14,98,11,135,3,3,0,3,0,0,0,0,0,101,11,67,hon
+Territorio Militare del Sud,sottozona,Sottozona militare di el-Giof,Territorio Militare del Sud,الجوف,الكفرة,Kufra,LY0107,concordance,90,0,18,0,72,0,0,0,0,0,0,0,0,0,18,0,68,el-giof
+,colony,LIBIA,,,,,,colony total,115637,30224,63216,29418,52421,806,3309,674,1884,326,867,325,558,23,66525,30092,0,libia

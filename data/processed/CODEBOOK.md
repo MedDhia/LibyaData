@@ -43,6 +43,7 @@ python3 scripts/download_istat_colonial.py
 python3 scripts/extract_istat_1936_localities.py
 python3 scripts/extract_istat_1936_population.py
 python3 scripts/extract_istat_1936_circumscriptions.py
+python3 scripts/extract_istat_1936_residents.py
 python3 scripts/extract_istat_1931_libya.py
 python3 scripts/extract_istat_1931_districts.py
 python3 scripts/extract_istat_1931_residents.py
@@ -1162,6 +1163,55 @@ the Ethiopian war. It is sharpest where the building was: the Circondario di
 Barce counted 11,029 Italians present against 1,854 resident, Tòbruch 15,230
 against 1,026, Derna 13,145 against 2,014. The Libyan population moves the other
 way, 732,973 present against 750,851 resident.
+
+#### `libya_1936_residents.csv` — who was passing through, 69 rows
+
+Table IV, published by `scripts/extract_istat_1936_residents.py` and transcribed
+by eye. Same 69 circumscriptions as table II, and the counterpart of the 1931
+`libya_1931_residents.csv`.
+
+**It counts only the `nazionale, straniera e assimilata` population**: Italians,
+other foreigners and a small assimilated group, 115,637 present and 66,525
+resident. The 732,973 Libyans are not in this table. Use
+`libya_1936_circumscriptions.csv` for the whole population.
+
+| Column | What it counts |
+|---|---|
+| `present_*` | counted there on census night |
+| `habitual_*` | of those, with a habitual dwelling |
+| `occasional_*` | of those, present occasionally |
+| `absent_*` | resident but temporarily elsewhere |
+| `absent_libya_*`, `absent_kingdom_*`, `absent_elsewhere_*` | where the absent were |
+| `resident_*` | whose home it was |
+
+**The one number worth taking from this table is 52,421.** That is how many of
+the 115,637 Italians and foreigners counted in Libya in April 1936 had no
+habitual dwelling there: **45% of the entire settler presence was passing
+through**. It is the Ethiopian war showing up in a census, and it is not spread
+evenly:
+
+| Circondario | Present | Habitual | Occasional |
+|---|---|---|---|
+| Tòbruch | 15,238 | 975 | 94% |
+| Derna | 13,163 | 1,925 | 85% |
+| Barce | 11,043 | 1,762 | 84% |
+| Tripoli | 34,506 | 30,044 | 13% |
+
+The eastern ports and the Barce colonisation zone were full of men who did not
+live there; Tripoli, where the settlement was thirty years older, was not. Any
+count of "Italians in Libya" in 1936 that uses the present population is
+counting a war, and any that uses the resident population is counting a colony.
+The file lets you choose, which is the point of having it.
+
+Of the 3,309 residents who were away, 1,884 were elsewhere in Libya and 867 in
+Italy.
+
+**Five checks.** Habitual and occasional add to present; the absent split by
+place adds to the absent; habitual and absent add to resident, which is the
+definition the table works to; children add to parents and provinces to Libya.
+The fifth crosses pages: the population here equals `nazionale` plus `straniera`
+in table II, row by row and for women separately, and **276 figures agree**.
+1,242 figures, and the table passed all five on the first reading.
 
 #### `libya_1936_municipalities.csv` — the 27 municipi, 27 rows
 

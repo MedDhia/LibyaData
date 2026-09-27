@@ -1293,6 +1293,80 @@ if circ36_path.exists():
                  f"hierarchy and {len(m36)} municipalities, present and "
                  f"resident by nationality and sex, transcribed by eye")
 
+res36_path = OUT / "istat" / "libya_1936_residents.csv"
+if res36_path.exists():
+    print("\n1936 census table IV, present, absent and resident")
+    r36 = pd.read_csv(res36_path)
+    blocks = ["present", "habitual", "occasional", "absent", "absent_libya",
+              "absent_kingdom", "absent_elsewhere", "resident"]
+    numbers = [f"{b}_{s}" for b in blocks for s in ("mf", "f")]
+
+    trouble = []
+    for sex in ("mf", "f"):
+        off = r36[r36[f"habitual_{sex}"] + r36[f"occasional_{sex}"]
+                  != r36[f"present_{sex}"]]
+        trouble += [f"{r.name} {sex} dimora" for r in off.itertuples()]
+        where = r36[[f"absent_{w}_{sex}" for w in
+                     ("libya", "kingdom", "elsewhere")]].sum(axis=1)
+        off = r36[where != r36[f"absent_{sex}"]]
+        trouble += [f"{r.name} {sex} place of absence" for r in off.itertuples()]
+        off = r36[r36[f"habitual_{sex}"] + r36[f"absent_{sex}"]
+                  != r36[f"resident_{sex}"]]
+        trouble += [f"{r.name} {sex} residence" for r in off.itertuples()]
+    for block in blocks:
+        off = r36[r36[f"{block}_f"] > r36[f"{block}_mf"]]
+        trouble += [f"{r.name} {block} sexes" for r in off.itertuples()]
+    for parent, kids in r36[r36.parent.notna()].groupby("parent"):
+        above = r36[r36.name == parent]
+        if above.empty:
+            trouble.append(f"no row named {parent}")
+            continue
+        for column in numbers:
+            if kids[column].sum() != above[column].iloc[0]:
+                trouble.append(f"{parent} {column}")
+    top = r36[r36.level == "provincia"]
+    total = r36[r36.level == "colony"]
+    for column in numbers:
+        if top[column].sum() != total[column].iloc[0]:
+            trouble.append(f"Libya {column}")
+    if trouble:
+        failures.append(f"1936 residents: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] {len(r36)} rows: habitual and occasional add to "
+              f"present, the absent by place to the absent, habitual and "
+              f"absent to resident, children to parents, provinces to Libya")
+
+    # Two tables from two pages, counting the same people.
+    c36 = pd.read_csv(OUT / "istat" / "libya_1936_circumscriptions.csv")
+    two = c36.set_index("name")
+    clash, checked = [], 0
+    for row in r36.itertuples():
+        if row.name not in two.index:
+            continue
+        twin = two.loc[row.name]
+        for when in ("present", "resident"):
+            for sex in ("mf", "f"):
+                want = (int(twin[f"{when}_national_{sex}"])
+                        + int(twin[f"{when}_foreign_{sex}"]))
+                if want != getattr(row, f"{when}_{sex}"):
+                    clash.append(f"{row.name} {when} {sex}")
+                else:
+                    checked += 1
+    if clash:
+        failures.append(f"1936: tables II and IV disagree: {clash[:3]}")
+        print(f"  [FAIL] tables II and IV disagree on {len(clash)} figures")
+    else:
+        print(f"  [ok ] {checked} figures agree with table II: this population "
+              f"is its Italians plus its other foreigners")
+
+    libya = r36[r36.level == "colony"].iloc[0]
+    share = libya.occasional_mf / libya.present_mf
+    notes.append(f"1936 residents: {int(libya.present_mf):,} Italians and other "
+                 f"foreigners present, {share:.0%} of them without a habitual "
+                 f"dwelling; the Libyan population is not in this table")
+
 print()
 for n in notes:
     print(f"note: {n}")
