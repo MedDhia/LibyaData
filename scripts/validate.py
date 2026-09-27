@@ -1367,6 +1367,97 @@ if res36_path.exists():
                  f"foreigners present, {share:.0%} of them without a habitual "
                  f"dwelling; the Libyan population is not in this table")
 
+lib36 = OUT / "istat" / "libya_1936_libyans_present.csv"
+res22 = OUT / "istat" / "libya_1936_libyans_resident.csv"
+if lib36.exists() and res22.exists():
+    print("\n1936 census tables XXI and XXII, the Libyan population")
+    rites = ["malechita", "other_rites", "ibadi"]
+    race21 = ["arab", "berber", "cologhli", "negro", "ao_races", "other_race"]
+    lang21 = ["lang_arabic", "lang_berber", "lang_ao", "lang_other"]
+    tables = {
+        "XXI": (pd.read_csv(lib36), ["muslim", "jewish", "copt",
+                                     "other_religion"], race21, lang21),
+        "XXII": (pd.read_csv(res22), ["muslim", "jewish", "other_religion"],
+                 [c for c in race21 if c != "ao_races"],
+                 [c for c in lang21 if c != "lang_ao"]),
+    }
+    trouble = []
+    for label, (t, religion, race, language) in tables.items():
+        off = t[t[rites].sum(axis=1) != t.muslim]
+        trouble += [f"{label} {r.name} {r.dimora} rites" for r in
+                    off.itertuples()]
+        for what, columns in (("religion", religion), ("race", race),
+                              ("language", language)):
+            off = t[t[columns].sum(axis=1) != t.mf]
+            trouble += [f"{label} {r.name} {r.dimora} {what}" for r in
+                        off.itertuples()]
+        off = t[(t.f > t.mf) | (t.italian > t.mf)]
+        trouble += [f"{label} {r.name} {r.dimora} parts" for r in
+                    off.itertuples()]
+        numbers = ["mf", "f", "muslim", "italian"] + rites + race + language
+        whole = t[t.dimora.isin(["Tot", "st"])].drop_duplicates("name")
+        for parent, kids in whole[whole.parent.notna()].groupby("parent"):
+            above = whole[whole.name == parent]
+            if above.empty:
+                trouble.append(f"{label}: no row named {parent}")
+                continue
+            for column in numbers:
+                if kids[column].sum() != above[column].iloc[0]:
+                    trouble.append(f"{label} {parent} {column}")
+        for name, lines in t.groupby("name"):
+            if "Tot" not in set(lines.dimora):
+                continue
+            parts = lines[lines.dimora != "Tot"]
+            for column in numbers:
+                if parts[column].sum() != int(
+                        lines[lines.dimora == "Tot"][column].iloc[0]):
+                    trouble.append(f"{label} {name} {column} dimora")
+    if trouble:
+        failures.append(f"1936 Libyans: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] {len(tables['XXI'][0])} rows in each: rites add to the "
+              f"Muslim population, religion, race and language each to the "
+              f"population, the dimora lines to the Tot. line, children to "
+              f"parents")
+
+    # Two more tables, from six more pages, counting the same people again.
+    c36 = pd.read_csv(OUT / "istat" / "libya_1936_circumscriptions.csv")
+    two = c36.set_index("name")
+    clash, checked = [], 0
+    for label, when in (("XXI", "present"), ("XXII", "resident")):
+        t = tables[label][0]
+        whole = t[t.dimora.isin(["Tot", "st"])].drop_duplicates("name")
+        for row in whole.itertuples():
+            if row.name not in two.index:
+                continue
+            for sex in ("mf", "f"):
+                want = int(two.loc[row.name][f"{when}_libyan_{sex}"])
+                if want != getattr(row, sex):
+                    clash.append(f"{label} {row.name} {sex}")
+                else:
+                    checked += 1
+    if clash:
+        failures.append(f"1936: table II and tables XXI/XXII disagree: "
+                        f"{clash[:3]}")
+        print(f"  [FAIL] table II and tables XXI/XXII disagree on "
+              f"{len(clash)} figures")
+    else:
+        print(f"  [ok ] {checked} figures agree with table II: this is its "
+              f"Libyan population, present and resident")
+
+    whole21 = tables["XXI"][0]
+    libya = whole21[(whole21.level == "colony") & (whole21.dimora == "Tot")
+                    ].iloc[0]
+    settled = whole21[(whole21.level == "colony")
+                      & (whole21.dimora == "st")].iloc[0]
+    moving = int(libya.mf) - int(settled.mf)
+    notes.append(f"1936 Libyans: {int(libya.mf):,} present, "
+                 f"{moving:,} ({moving / libya.mf:.0%}) of them counted "
+                 f"seminomadic or nomadic; {int(libya.ibadi):,} Ibadi and "
+                 f"{int(libya.jewish):,} Jewish")
+
 print()
 for n in notes:
     print(f"note: {n}")

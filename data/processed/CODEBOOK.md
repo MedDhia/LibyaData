@@ -1236,6 +1236,121 @@ passed on the first reading.
 shabiya, 53 through the concordance and 14 asserted. The two that do not are the
 Territorio Militare del Sud, which runs from Ghat to Kufra, and the colony line.
 
+#### `libya_1936_libyans_present.csv` and `libya_1936_libyans_resident.csv` — the other 86 per cent, 229 rows each
+
+Tables XXI and XXII, published by `scripts/extract_istat_1936_libyans.py` and
+transcribed by eye from six pages. Tables I to IV count the whole population and
+then the settlers; **these two count the `popolazione libica` on its own** —
+732,973 present and 750,851 resident — and they are the only tables in the
+volume that break it down by what it was rather than where it was.
+
+Both files run the same **83 circumscriptions plus Libya**, one level deeper
+than table II: below the five sottozone militari of the Territorio Militare del
+Sud they name the **thirteen mudirie of the Fezzan**, so Brach, Sebha, Gat,
+Murzuch, Traghen, Umm el-Aràneb, Hon and Zella each get a line. Every
+circumscription is split by `dimora`, which here is a way of life and not a
+dwelling: `Tot`, `st` (stabile, settled), `sn` (seminomade) and `n` (nomade).
+That is why there are 229 rows for 84 places, and it is the reason to have these
+tables at all.
+
+| Column | What it holds |
+|---|---|
+| `dimora` | `Tot`, `st`, `sn`, `n` — a row is one way of life, or the total |
+| `mf`, `f` | the population and the women in it (both files) |
+| `mf_u15`, `m`, `m_u15`, `f_u15` | age and sex detail (present file only) |
+| `heads` | `di cui capi famiglia`, family heads (resident file only) |
+| `muslim`, `malechita`, `other_rites`, `ibadi`, `jewish`, `copt`, `other_religion` | religion, and the Muslim population by rite |
+| `arab`, `berber`, `cologhli`, `negro`, `ao_races`, `other_race` | the census's own race categories |
+| `lang_arabic`, `lang_berber`, `lang_ao`, `lang_other` | language or dialect |
+| `italian` | `persone che parlano l'italiano`, a separate count, not a partition |
+
+The resident file drops the age and sex detail, adds `heads`, and folds the
+Africa Orientale columns into `other_race` and `lang_other`, so it has 18
+numeric columns against the present file's 24.
+
+**The race column is a colonial instrument and is published as printed.** The
+Italian names are kept — `cologhli` for the descendants of Ottoman garrison
+troops, `ao_races` for `razze varie dell'Africa Orientale` — so that nobody
+mistakes them for a modern classification. What they record is real all the
+same, and nothing later recorded it: **34,119 cologhli in Libya, 24,167 of them
+in the Provincia di Misurata alone**.
+
+**The first thing to take from these files is the dimora split.** Of the 732,973
+present, **110,830 (15%) were counted seminomadic or nomadic**, and they were
+nowhere near evenly spread:
+
+| | Present | Seminomadic or nomadic |
+|---|---|---|
+| Distretto di el-Azizìa | 21,365 | 99% |
+| Distretto di Mìzda | 7,762 | 80% |
+| Residenza di Sirte | 9,458 | 75% |
+| Circondario di Agedàbia | 12,195 | 45% |
+| Circondario di Tripoli | 66,479 | 0% |
+
+Among the circondari the range runs from Agedàbia at 45% and Tòbruch at 33% down
+to Homs, Zlìten and Bengasi at nothing at all. This is a map of nomadism in Libya
+on the eve of the colonisation programme, at a level of detail no other source
+in this repository reaches.
+
+**The second is the Ibadi Berber west, which is one circondario.** The
+Circondario di Nàlut counted **8,457 Ibadis of its 22,989 Muslims and 10,231
+Berbers of its 23,030 people** — against 29,223 Ibadis in the whole Provincia di
+Tripoli, 210 in Misurata, 22 in Derna and 2 in Bengasi. Nothing else in the 1936
+volume locates a religious minority this precisely.
+
+The **20,938 Jews of the Provincia di Tripoli**, 17,196 of them in the
+Circondario di Tripoli, are the Tripoli community counted two years before the
+racial laws; 28,191 in Libya altogether.
+
+**The third finding is the Egyptian border, and it takes two files to see it.**
+The present file records **8,359 Copts**, almost all of them in one corner:
+4,028 at the Residenza di Porto Bardìa, 4,329 in the Circondario di Tòbruch,
+2,397 in the Distretto di Apollònia. They move with the `ao_races` and `lang_ao`
+columns almost cell for cell — 9,206 and 9,153 for Libya. In the resident file
+they are gone: the whole colony records 73 people of `altre religioni`, Porto
+Bardìa and Tòbruch none at all. These were Egyptians and Sudanese present on the
+frontier in April 1936 and resident elsewhere, and the pair of tables is what
+makes them legible. It also shows what `libica` meant: not a nationality but a
+colonial legal category, wide enough to hold an Egyptian labourer at Bardia.
+
+Household size comes out of the resident file: **4.08 people per family head**
+for Libya, 4.25 in the Provincia di Tripoli, 3.68 in Bengasi.
+
+**Six checks.** The rites add to the Muslim population; religion, race and
+language each add to the population; the `st`, `sn` and `n` lines add to the
+`Tot` line in every column; children add to parents and the four provinces plus
+the military territory add to Libya. The sixth crosses to a transcription made
+from different pages: **the population here equals table II's `libica`**,
+present in table XXI and resident in table XXII, for men and women and for women
+alone, and **276 figures agree**. Table XXI also carries M + F = MF and the same
+for the under-15s, which table XXII does not print.
+
+9,618 figures in all, and the checks caught four of them. Three were in table
+XXI: the Residenza di Gadàmes prints its male under-15s in a bold glyph that
+reads 633 or 638, and the dimora lines and the Nàlut parent both give 638; the
+Residenza di Misurata's total reads 43,305 where M + F, its four children and
+its own dimora lines all give 48,305; and its `altre lingue` cell did not print
+at all, where the `st` line and the column give 1. The fourth is in table XXII,
+where the Residenza di Mìzda's `araba e arabo-berbera` reads 6,623 or 6,626 and
+the row sum, the children and the dimora lines all give 6,626. Every one of
+these is a bold figure in a worn scan; none needed a judgement call, because in
+each case two independent sums agreed on the answer.
+
+**Placement.** 82 of the 84 circumscriptions carry a shabiya, 62 through the
+concordance and 20 asserted. The mudirie of the Fezzan are new to this
+repository — the concordance placed Èdri, Brach, Sèbha, Gat, Uàdi el-Agiàl,
+Murzuch and el-Gatrùn from their Arabic names; Tràghen, Umm el-Aràneb, Hon and
+Zèlla are asserted to the shabiya of the circumscription above them and labelled
+`asserted`, so they can be dropped. The two unplaced are the Territorio Militare
+del Sud, which runs from Ghat to Kufra, and the Libya line.
+
+**Footnotes the source gives and the columns cannot hold.** Of Libya's 1,977
+Muslims of `altri riti`, 1,496 were Hanafi and 436 Shafi'i; of the 29,487
+`altre razze`, 28,189 were Israeliti, 668 Tèbu, 359 Cretans and 99 Turks; of the
+1,241 `altre lingue`, 697 spoke Tèbu and 285 Greek; and of the 169 `altre
+religioni`, 143 were Catholic. Table XXII prints the same notes with slightly
+different counts, because it is the resident population.
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

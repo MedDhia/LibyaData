@@ -47,6 +47,8 @@ Libyan sources, with a validation suite. See
 | **1936 census circumscriptions** | the administrative hierarchy, present and resident by sex | 69 |
 | 1936 census municipalities | the 27 municipi created in 1935 | 27 |
 | 1936 census present, absent and resident | settlers only; 45% had no habitual dwelling | 69 |
+| **1936 census Libyan population, present** | religion, rite, race, language and way of life | 229 |
+| 1936 census Libyan population, resident | the same, with family heads | 229 |
 | 1931 census circumscriptions | area and four populations, Tripolitania and Cyrenaica | 18 |
 | **1931 census districts** | two levels below, with the sex breakdown, transcribed by hand | 106 |
 | 1931 census present, absent and resident | the settler population only, by sex | 51 |
@@ -104,7 +106,12 @@ The Italian colonial statistics, located on 2026-09-15 and downloadable:
 - [`data/processed/istat/`](data/processed/istat/) — the 1936 locality list, extracted: 1,090
   localities, 870 of them placed in a modern shabiya and 48 joined to a mahalla of the 2006 census,
   with table XX beside it: families, population present, women, and the settled, semi-nomadic and
-  nomadic split, 2,348 rows summing to within 7% of the volume's own national total.
+  nomadic split, 2,348 rows summing to within 7% of the volume's own national total. The census
+  tables themselves are transcribed by eye and bound to each other by arithmetic: the 1936
+  administrative hierarchy and its municipi, the settler population by dimora, and tables XXI and
+  XXII, which count the 732,973 Libyans present by religion, rite, race, language and way of life at
+  a level no other source here reaches — 8,457 Ibadis in one circondario, 34,119 cologhli, and
+  110,830 people the census called seminomadic or nomadic.
 
 ## What the data shows
 

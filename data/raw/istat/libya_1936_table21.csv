@@ -1,0 +1,230 @@
+order,name,level,parent,dimora,mf,mf_u15,m,m_u15,f,f_u15,muslim,malechita,other_rites,ibadi,jewish,copt,other_religion,arab,berber,cologhli,negro,ao_races,other_race,lang_arabic,lang_berber,lang_ao,lang_other,italian
+1,Provincia di Tripoli,provincia,LIBIA,Tot,343093,147774,174881,77932,168212,69842,321886,291967,696,29223,20938,240,29,270907,33833,5578,11426,286,21063,312159,30569,277,88,22779
+1,Provincia di Tripoli,provincia,LIBIA,st,280813,120660,142351,63308,138462,57352,259606,229702,695,29209,20938,240,29,212123,31730,5578,10033,286,21063,250434,30019,277,83,22528
+1,Provincia di Tripoli,provincia,LIBIA,sn,34759,15361,18105,8363,16654,6998,34759,34744,1,14,0,0,0,34165,122,0,472,0,0,34753,6,0,0,212
+1,Provincia di Tripoli,provincia,LIBIA,n,27521,11753,14425,6261,13096,5492,27521,27521,0,0,0,0,0,24619,1981,0,921,0,0,26972,544,0,5,39
+2,Circondario di Zuara,circondario,Provincia di Tripoli,Tot,44791,21167,22551,11139,22240,10028,44054,36977,9,7068,736,1,0,35278,6641,5,2119,10,738,37733,7057,1,0,935
+2,Circondario di Zuara,circondario,Provincia di Tripoli,st,34762,16650,17319,8771,17443,7879,34025,26951,9,7065,736,1,0,25725,6638,5,1646,10,738,27707,7054,1,0,928
+2,Circondario di Zuara,circondario,Provincia di Tripoli,sn,2151,1039,1163,575,988,464,2151,2148,0,3,0,0,0,2012,3,0,136,0,0,2148,3,0,0,1
+2,Circondario di Zuara,circondario,Provincia di Tripoli,n,7878,3478,4069,1793,3809,1685,7878,7878,0,0,0,0,0,7541,0,0,337,0,0,7878,0,0,0,6
+3,Distretto di Zuara,distretto,Circondario di Zuara,Tot,24360,11181,12573,5846,11787,5335,23624,16568,0,7056,736,0,0,15629,6626,5,1364,0,736,17315,7045,0,0,709
+3,Distretto di Zuara,distretto,Circondario di Zuara,st,14331,6664,7341,3478,6990,3186,13595,6542,0,7053,736,0,0,6076,6623,5,891,0,736,7289,7042,0,0,702
+3,Distretto di Zuara,distretto,Circondario di Zuara,sn,2151,1039,1163,575,988,464,2151,2148,0,3,0,0,0,2012,3,0,136,0,0,2148,3,0,0,1
+3,Distretto di Zuara,distretto,Circondario di Zuara,n,7878,3478,4069,1793,3809,1685,7878,7878,0,0,0,0,0,7541,0,0,337,0,0,7878,0,0,0,6
+4,Distretto di Sabratha,distretto,Circondario di Zuara,st,20431,9986,9978,5293,10453,4693,20430,20409,9,12,0,1,0,19649,15,0,755,10,2,20418,12,1,0,226
+5,Circondario di Zavia,circondario,Provincia di Tripoli,Tot,50342,22241,25133,11692,25209,10549,49654,49607,0,47,683,4,1,42014,58,5030,2552,4,684,50316,21,4,1,416
+5,Circondario di Zavia,circondario,Provincia di Tripoli,st,47447,20982,23686,11018,23761,9964,46759,46717,0,42,683,4,1,39286,58,5030,2385,4,684,47421,21,4,1,415
+5,Circondario di Zavia,circondario,Provincia di Tripoli,sn,2485,1074,1239,578,1246,496,2485,2480,0,5,0,0,0,2318,0,0,167,0,0,2485,0,0,0,1
+5,Circondario di Zavia,circondario,Provincia di Tripoli,n,410,185,208,96,202,89,410,410,0,0,0,0,0,410,0,0,0,0,0,410,0,0,0,0
+6,Distretto di Sorman,distretto,Circondario di Zavia,Tot,18206,8324,9055,4352,9151,3972,18206,18186,0,20,0,0,0,17040,23,0,1143,0,0,18206,0,0,0,94
+6,Distretto di Sorman,distretto,Circondario di Zavia,st,16220,7479,8076,3908,8144,3571,16220,16205,0,15,0,0,0,15134,23,0,1063,0,0,16220,0,0,0,93
+6,Distretto di Sorman,distretto,Circondario di Zavia,sn,1576,660,771,348,805,312,1576,1571,0,5,0,0,0,1496,0,0,80,0,0,1576,0,0,0,1
+6,Distretto di Sorman,distretto,Circondario di Zavia,n,410,185,208,96,202,89,410,410,0,0,0,0,0,410,0,0,0,0,0,410,0,0,0,0
+7,Distretto di Zavia,distretto,Circondario di Zavia,Tot,19138,8522,9510,4490,9628,4032,18567,18548,0,19,566,4,1,12719,21,4923,905,4,566,19121,12,4,1,136
+7,Distretto di Zavia,distretto,Circondario di Zavia,st,18229,8108,9042,4260,9187,3848,17658,17639,0,19,566,4,1,11897,21,4923,818,4,566,18212,12,4,1,136
+7,Distretto di Zavia,distretto,Circondario di Zavia,sn,909,414,468,230,441,184,909,909,0,0,0,0,0,822,0,0,87,0,0,909,0,0,0,0
+8,Distretto di Zanzur,distretto,Circondario di Zavia,st,12998,5395,6568,2850,6430,2545,12881,12873,0,8,117,0,0,12255,14,107,504,0,118,12989,9,0,0,186
+9,Circondario di Tripoli,circondario,Provincia di Tripoli,st,66479,25699,34259,13110,32220,12589,49077,47116,624,1337,17196,186,20,43505,1660,180,3615,213,17306,65536,672,213,58,16686
+10,Circondario di Sugh el-Giumaa,circondario,Provincia di Tripoli,Tot,78681,33977,40912,18131,37769,15846,77144,77062,42,40,1488,45,4,75949,106,363,718,52,1493,78524,87,52,18,2259
+10,Circondario di Sugh el-Giumaa,circondario,Provincia di Tripoli,st,55028,23432,28592,12451,26436,10981,53491,53413,41,37,1488,45,4,52308,101,363,711,52,1493,54871,87,52,18,2050
+10,Circondario di Sugh el-Giumaa,circondario,Provincia di Tripoli,sn,23653,10545,12320,5680,11333,4865,23653,23649,1,3,0,0,0,23641,5,0,7,0,0,23653,0,0,0,209
+11,Residenza di Sugh el-Giumaa,residenza,Circondario di Sugh el-Giumaa,Tot,29131,12329,15076,6449,14055,5880,27776,27716,33,27,1313,42,0,27066,88,1,614,49,1313,28991,77,49,14,1522
+11,Residenza di Sugh el-Giumaa,residenza,Circondario di Sugh el-Giumaa,st,29028,12283,15020,6420,14008,5863,27673,27613,33,27,1313,42,0,26975,83,1,607,49,1313,28888,77,49,14,1515
+11,Residenza di Sugh el-Giumaa,residenza,Circondario di Sugh el-Giumaa,sn,103,46,56,29,47,17,103,103,0,0,0,0,0,91,5,0,7,0,0,103,0,0,0,7
+12,Residenza di el-Azizia,residenza,Circondario di Sugh el-Giumaa,Tot,23765,10523,12457,5665,11308,4858,23764,23750,1,13,1,0,0,23754,10,0,0,0,1,23755,10,0,0,273
+12,Residenza di el-Azizia,residenza,Circondario di Sugh el-Giumaa,st,215,24,193,14,22,10,214,204,0,10,1,0,0,204,10,0,0,0,1,205,10,0,0,71
+12,Residenza di el-Azizia,residenza,Circondario di Sugh el-Giumaa,sn,23550,10499,12264,5651,11286,4848,23550,23546,1,3,0,0,0,23550,0,0,0,0,0,23550,0,0,0,202
+13,Distretto di el-Azizia,distretto,Residenza di el-Azizia,Tot,21365,9385,11222,5053,10143,4332,21365,21351,1,13,0,0,0,21355,10,0,0,0,0,21355,10,0,0,224
+13,Distretto di el-Azizia,distretto,Residenza di el-Azizia,st,184,9,175,7,9,2,184,174,0,10,0,0,0,174,10,0,0,0,0,174,10,0,0,64
+13,Distretto di el-Azizia,distretto,Residenza di el-Azizia,sn,21181,9376,11047,5046,10134,4330,21181,21177,1,3,0,0,0,21181,0,0,0,0,0,21181,0,0,0,160
+14,Distretto di Suani ben Adem,distretto,Residenza di el-Azizia,Tot,2400,1138,1235,612,1165,526,2399,2399,0,0,1,0,0,2399,0,0,0,0,1,2400,0,0,0,49
+14,Distretto di Suani ben Adem,distretto,Residenza di el-Azizia,st,31,15,18,7,13,8,30,30,0,0,1,0,0,30,0,0,0,0,1,31,0,0,0,7
+14,Distretto di Suani ben Adem,distretto,Residenza di el-Azizia,sn,2369,1123,1217,605,1152,518,2369,2369,0,0,0,0,0,2369,0,0,0,0,0,2369,0,0,0,42
+15,Residenza di Tagiura,residenza,Circondario di Sugh el-Giumaa,st,25785,11125,13379,6017,12406,5108,25604,25596,8,0,174,3,4,25129,8,362,104,3,179,25778,0,3,4,464
+16,Distretto di Castel Benito,distretto,Residenza di Tagiura,st,9805,4457,5117,2422,4688,2035,9802,9802,0,0,0,3,0,9802,0,0,0,3,0,9802,0,3,0,92
+17,Distretto di Tagiura,distretto,Residenza di Tagiura,st,10136,4116,5155,2147,4981,1969,9958,9958,0,0,174,0,4,9492,0,362,103,0,179,10132,0,0,4,284
+18,Distretto di Gasr el-Garabulli,distretto,Residenza di Tagiura,st,5844,2552,3107,1448,2737,1104,5844,5836,8,0,0,0,0,5835,8,0,1,0,0,5844,0,0,0,88
+19,Circondario di Nalut,circondario,Provincia di Tripoli,Tot,23030,9651,11693,5040,11337,4611,22989,14518,14,8457,41,0,0,11213,10231,0,1544,0,42,12375,10654,0,1,796
+19,Circondario di Nalut,circondario,Provincia di Tripoli,st,18048,7671,8992,3968,9056,3703,18007,9536,14,8457,41,0,0,6985,10029,0,992,0,42,7937,10110,0,1,766
+19,Circondario di Nalut,circondario,Provincia di Tripoli,sn,28,15,15,8,13,7,28,28,0,0,0,0,0,28,0,0,0,0,0,28,0,0,0,0
+19,Circondario di Nalut,circondario,Provincia di Tripoli,n,4954,1965,2686,1064,2268,901,4954,4954,0,0,0,0,0,4200,202,0,552,0,0,4410,544,0,0,30
+20,Residenza di Nalut,residenza,Circondario di Nalut,Tot,19404,8351,10073,4402,9331,3949,19363,10915,14,8434,41,0,0,10405,8375,0,582,0,42,11160,8243,0,1,590
+20,Residenza di Nalut,residenza,Circondario di Nalut,st,14975,6599,7626,3440,7349,3159,14934,6486,14,8434,41,0,0,6181,8375,0,377,0,42,6731,8243,0,1,574
+20,Residenza di Nalut,residenza,Circondario di Nalut,sn,28,15,15,8,13,7,28,28,0,0,0,0,0,28,0,0,0,0,0,28,0,0,0,0
+20,Residenza di Nalut,residenza,Circondario di Nalut,n,4401,1737,2432,954,1969,783,4401,4401,0,0,0,0,0,4196,0,0,205,0,0,4401,0,0,0,16
+21,Residenza di Gadames,residenza,Circondario di Nalut,Tot,3626,1300,1620,638,2006,662,3626,3603,0,23,0,0,0,808,1856,0,962,0,0,1215,2411,0,0,206
+21,Residenza di Gadames,residenza,Circondario di Nalut,st,3073,1072,1366,528,1707,544,3073,3050,0,23,0,0,0,804,1654,0,615,0,0,1206,1867,0,0,192
+21,Residenza di Gadames,residenza,Circondario di Nalut,n,553,228,254,110,299,118,553,553,0,0,0,0,0,4,202,0,347,0,0,9,544,0,0,14
+22,Circondario di Garian,circondario,Provincia di Tripoli,Tot,79770,35039,40333,18820,39437,16219,78968,66687,7,12274,794,4,4,62948,15137,0,878,7,800,67675,12078,7,10,1687
+22,Circondario di Garian,circondario,Provincia di Tripoli,st,59049,26226,29503,13990,29546,12236,58247,45969,7,12271,794,4,4,44314,13244,0,684,7,800,46962,12075,7,5,1683
+22,Circondario di Garian,circondario,Provincia di Tripoli,sn,6442,2688,3368,1522,3074,1166,6442,6439,0,3,0,0,0,6166,114,0,162,0,0,6439,3,0,0,1
+22,Circondario di Garian,circondario,Provincia di Tripoli,n,14279,6125,7462,3308,6817,2817,14279,14279,0,0,0,0,0,12468,1779,0,32,0,0,14274,0,0,5,3
+23,Residenza di Garian,residenza,Circondario di Garian,Tot,39635,17146,20208,9224,19427,7922,39210,38989,4,217,419,4,2,38717,218,0,271,7,422,39594,26,7,8,1030
+23,Residenza di Garian,residenza,Circondario di Garian,st,27153,11856,13715,6292,13438,5564,26728,26507,4,217,419,4,2,26323,218,0,183,7,422,27117,26,7,3,1027
+23,Residenza di Garian,residenza,Circondario di Garian,sn,4355,1783,2263,994,2092,789,4355,4355,0,0,0,0,0,4299,0,0,56,0,0,4355,0,0,0,1
+23,Residenza di Garian,residenza,Circondario di Garian,n,8127,3507,4230,1938,3897,1569,8127,8127,0,0,0,0,0,8095,0,0,32,0,0,8122,0,0,5,2
+24,Residenza di Iefren,residenza,Circondario di Garian,Tot,30418,13826,14994,7424,15424,6402,30043,17997,1,12045,375,0,0,17626,11997,0,420,0,375,18370,12048,0,0,479
+24,Residenza di Iefren,residenza,Circondario di Garian,st,29629,13481,14579,7223,15050,6258,29254,17211,1,12042,375,0,0,16851,11994,0,409,0,375,17584,12045,0,0,479
+24,Residenza di Iefren,residenza,Circondario di Garian,sn,773,336,402,192,371,144,773,770,0,3,0,0,0,759,3,0,11,0,0,770,3,0,0,0
+24,Residenza di Iefren,residenza,Circondario di Garian,n,16,9,13,9,3,0,16,16,0,0,0,0,0,16,0,0,0,0,0,16,0,0,0,0
+25,Distretto di Giado,distretto,Residenza di Iefren,Tot,12685,5590,6207,2947,6478,2643,12685,6961,1,5723,0,0,0,6796,5700,0,188,0,1,7036,5649,0,0,187
+25,Distretto di Giado,distretto,Residenza di Iefren,st,11896,5245,5792,2746,6104,2499,11896,6175,1,5720,0,0,0,6021,5697,0,177,0,1,6250,5646,0,0,187
+25,Distretto di Giado,distretto,Residenza di Iefren,sn,773,336,402,192,371,144,773,770,0,3,0,0,0,759,3,0,11,0,0,770,3,0,0,0
+25,Distretto di Giado,distretto,Residenza di Iefren,n,16,9,13,9,3,0,16,16,0,0,0,0,0,16,0,0,0,0,0,16,0,0,0,0
+26,Distretto di Iefren,distretto,Residenza di Iefren,st,17733,8236,8787,4477,8946,3759,17358,11036,0,6322,375,0,0,10830,6297,0,232,0,374,11334,6399,0,0,292
+27,Residenza di Mizda,residenza,Circondario di Garian,Tot,9717,4067,5131,2172,4586,1895,9715,9701,2,12,0,0,2,6605,2922,0,187,0,3,9711,4,0,2,178
+27,Residenza di Mizda,residenza,Circondario di Garian,st,2267,889,1209,475,1058,414,2265,2251,2,12,0,0,2,1140,1032,0,92,0,3,2261,4,0,2,177
+27,Residenza di Mizda,residenza,Circondario di Garian,sn,1314,569,703,336,611,233,1314,1314,0,0,0,0,0,1108,111,0,95,0,0,1314,0,0,0,0
+27,Residenza di Mizda,residenza,Circondario di Garian,n,6136,2609,3219,1361,2917,1248,6136,6136,0,0,0,0,0,4357,1779,0,0,0,0,6136,0,0,0,1
+28,Distretto di Mizda,distretto,Residenza di Mizda,Tot,7762,3222,4063,1670,3699,1552,7760,7746,2,12,0,0,2,5112,2608,0,39,0,3,7756,4,0,2,157
+28,Distretto di Mizda,distretto,Residenza di Mizda,st,1561,578,814,294,747,284,1559,1545,2,12,0,0,2,690,829,0,39,0,3,1555,4,0,2,156
+28,Distretto di Mizda,distretto,Residenza di Mizda,sn,75,39,37,18,38,21,75,75,0,0,0,0,0,75,0,0,0,0,0,75,0,0,0,0
+28,Distretto di Mizda,distretto,Residenza di Mizda,n,6126,2605,3212,1358,2914,1247,6126,6126,0,0,0,0,0,4347,1779,0,0,0,0,6126,0,0,0,1
+29,Distretto di el-Gheria esc-Scerghia,distretto,Residenza di Mizda,Tot,1955,845,1068,502,887,343,1955,1955,0,0,0,0,0,1493,314,0,148,0,0,1955,0,0,0,21
+29,Distretto di el-Gheria esc-Scerghia,distretto,Residenza di Mizda,st,706,311,395,181,311,130,706,706,0,0,0,0,0,450,203,0,53,0,0,706,0,0,0,21
+29,Distretto di el-Gheria esc-Scerghia,distretto,Residenza di Mizda,sn,1239,530,666,318,573,212,1239,1239,0,0,0,0,0,1033,111,0,95,0,0,1239,0,0,0,0
+29,Distretto di el-Gheria esc-Scerghia,distretto,Residenza di Mizda,n,10,4,7,3,3,1,10,10,0,0,0,0,0,10,0,0,0,0,0,10,0,0,0,0
+30,Provincia di Misurata,provincia,LIBIA,Tot,203922,82941,103712,45183,100210,37758,200819,200586,23,210,3088,11,4,142409,27304,24167,6917,9,3116,203813,100,7,2,3572
+30,Provincia di Misurata,provincia,LIBIA,st,172438,70053,87651,38064,84787,31989,169335,169102,23,210,3088,11,4,116359,22055,24163,6736,9,3116,172332,97,7,2,3509
+30,Provincia di Misurata,provincia,LIBIA,sn,31281,12800,15948,7063,15333,5737,31281,31281,0,0,0,0,0,25847,5249,4,181,0,0,31278,3,0,0,63
+30,Provincia di Misurata,provincia,LIBIA,n,203,88,113,56,90,32,203,203,0,0,0,0,0,203,0,0,0,0,0,203,0,0,0,0
+31,Circondario di Homs,circondario,Provincia di Misurata,Tot,88984,35980,45766,19858,43218,16122,87735,87628,18,89,1244,3,2,74116,10747,2288,578,1,1254,88959,24,1,0,1342
+31,Circondario di Homs,circondario,Provincia di Misurata,st,84910,34282,43653,18888,41257,15394,83661,83554,18,89,1244,3,2,70076,10728,2287,564,1,1254,84885,24,1,0,1337
+31,Circondario di Homs,circondario,Provincia di Misurata,sn,4074,1698,2113,970,1961,728,4074,4074,0,0,0,0,0,4040,19,1,14,0,0,4074,0,0,0,5
+32,Residenza di Homs,residenza,Circondario di Homs,Tot,34871,13794,17728,7417,17143,6377,34123,34110,1,12,745,3,0,29164,2967,1559,432,0,749,34865,6,0,0,967
+32,Residenza di Homs,residenza,Circondario di Homs,st,34815,13779,17697,7407,17118,6372,34067,34054,1,12,745,3,0,29108,2967,1559,432,0,749,34809,6,0,0,967
+32,Residenza di Homs,residenza,Circondario di Homs,sn,56,15,31,10,25,5,56,56,0,0,0,0,0,56,0,0,0,0,0,56,0,0,0,0
+33,Residenza di el-Gusbat,residenza,Circondario di Homs,Tot,14842,5909,7492,3272,7350,2637,14438,14438,0,0,404,0,0,7296,6347,706,86,0,407,14842,0,0,0,185
+33,Residenza di el-Gusbat,residenza,Circondario di Homs,st,10824,4226,5410,2312,5414,1914,10420,10420,0,0,404,0,0,3312,6328,705,72,0,407,10824,0,0,0,180
+33,Residenza di el-Gusbat,residenza,Circondario di Homs,sn,4018,1683,2082,960,1936,723,4018,4018,0,0,0,0,0,3984,19,1,14,0,0,4018,0,0,0,5
+34,Residenza di Tarhuna,residenza,Circondario di Homs,st,39271,16277,20546,9169,18725,7108,39174,39080,17,77,95,0,2,37656,1433,23,60,1,98,39252,18,1,0,190
+35,Circondario di Zliten,circondario,Provincia di Misurata,Tot,39007,15378,19687,8327,19320,7051,38400,38400,0,0,607,0,0,33304,4,3951,1141,0,607,39007,0,0,0,326
+35,Circondario di Zliten,circondario,Provincia di Misurata,st,31951,12531,16042,6716,15909,5815,31344,31344,0,0,607,0,0,26275,4,3951,1114,0,607,31951,0,0,0,318
+35,Circondario di Zliten,circondario,Provincia di Misurata,sn,6853,2759,3532,1555,3321,1204,6853,6853,0,0,0,0,0,6826,0,0,27,0,0,6853,0,0,0,8
+35,Circondario di Zliten,circondario,Provincia di Misurata,n,203,88,113,56,90,32,203,203,0,0,0,0,0,203,0,0,0,0,0,203,0,0,0,0
+36,Circondario di Misurata,circondario,Provincia di Misurata,Tot,75931,31583,38259,16998,37672,14585,74684,74558,5,121,1237,8,2,34989,16553,17928,5198,8,1255,75847,76,6,2,1904
+36,Circondario di Misurata,circondario,Provincia di Misurata,st,55577,23240,27956,12460,27621,10780,54330,54204,5,121,1237,8,2,20008,11323,17925,5058,8,1255,55496,73,6,2,1854
+36,Circondario di Misurata,circondario,Provincia di Misurata,sn,20354,8343,10303,4538,10051,3805,20354,20354,0,0,0,0,0,14981,5230,3,140,0,0,20351,3,0,0,50
+37,Residenza di Misurata,residenza,Circondario di Misurata,Tot,48305,20321,24302,10843,24003,9478,47457,47351,2,104,838,8,2,22401,2672,17574,4800,8,850,48248,50,6,1,1188
+37,Residenza di Misurata,residenza,Circondario di Misurata,st,42428,17942,21304,9575,21124,8367,41580,41474,2,104,838,8,2,16530,2669,17571,4800,8,850,42371,50,6,1,1171
+37,Residenza di Misurata,residenza,Circondario di Misurata,sn,5877,2379,2998,1268,2879,1111,5877,5877,0,0,0,0,0,5871,3,3,0,0,0,5877,0,0,0,17
+38,Residenza di Beni Ulid,residenza,Circondario di Misurata,Tot,16173,6480,8359,3635,7814,2845,16115,16114,1,0,58,0,0,2726,13169,0,217,0,61,16172,0,0,1,233
+38,Residenza di Beni Ulid,residenza,Circondario di Misurata,st,10767,4264,5483,2376,5284,1888,10709,10708,1,0,58,0,0,2189,8360,0,157,0,61,10766,0,0,1,219
+38,Residenza di Beni Ulid,residenza,Circondario di Misurata,sn,5406,2216,2876,1259,2530,957,5406,5406,0,0,0,0,0,537,4809,0,60,0,0,5406,0,0,0,14
+39,Residenza di Sirte,residenza,Circondario di Misurata,Tot,9458,4035,4555,2128,4903,1907,9117,9098,2,17,341,0,0,7947,712,354,101,0,344,9432,26,0,0,443
+39,Residenza di Sirte,residenza,Circondario di Misurata,st,2318,1014,1129,498,1189,516,1977,1958,2,17,341,0,0,1225,294,354,101,0,344,2295,23,0,0,440
+39,Residenza di Sirte,residenza,Circondario di Misurata,sn,7140,3021,3426,1630,3714,1391,7140,7140,0,0,0,0,0,6722,418,0,0,0,0,7137,3,0,0,3
+40,Residenza di en-Nofilia,residenza,Circondario di Misurata,Tot,1995,747,1043,392,952,355,1995,1995,0,0,0,0,0,1915,0,0,80,0,0,1995,0,0,0,40
+40,Residenza di en-Nofilia,residenza,Circondario di Misurata,st,64,20,40,11,24,9,64,64,0,0,0,0,0,64,0,0,0,0,0,64,0,0,0,24
+40,Residenza di en-Nofilia,residenza,Circondario di Misurata,sn,1931,727,1003,381,928,346,1931,1931,0,0,0,0,0,1851,0,0,80,0,0,1931,0,0,0,16
+41,Provincia di Bengasi,provincia,LIBIA,Tot,91743,31749,47100,16946,44643,14803,87409,87092,315,2,3437,860,37,86828,18,313,232,914,3438,89417,1415,909,2,11297
+41,Provincia di Bengasi,provincia,LIBIA,st,86231,29786,44125,15852,42106,13934,81897,81595,300,2,3437,860,37,81386,17,309,167,914,3438,83906,1414,909,2,11223
+41,Provincia di Bengasi,provincia,LIBIA,sn,5512,1963,2975,1094,2537,869,5512,5497,15,0,0,0,0,5442,1,4,65,0,0,5511,1,0,0,74
+42,Circondario di Agedabia,circondario,Provincia di Bengasi,Tot,12195,4310,6293,2298,5902,2012,12088,12060,28,0,53,53,1,11841,7,25,208,60,54,10720,1415,60,0,747
+42,Circondario di Agedabia,circondario,Provincia di Bengasi,st,6683,2347,3318,1204,3365,1143,6576,6563,13,0,53,53,1,6399,6,21,143,60,54,5209,1414,60,0,673
+42,Circondario di Agedabia,circondario,Provincia di Bengasi,sn,5512,1963,2975,1094,2537,869,5512,5497,15,0,0,0,0,5442,1,4,65,0,0,5511,1,0,0,74
+43,Distretto di el-Agheila,distretto,Circondario di Agedabia,Tot,853,353,433,182,420,171,851,845,6,0,0,2,0,787,0,25,36,5,0,848,0,5,0,76
+43,Distretto di el-Agheila,distretto,Circondario di Agedabia,st,200,80,113,45,87,35,198,192,6,0,0,2,0,166,0,21,8,5,0,195,0,5,0,60
+43,Distretto di el-Agheila,distretto,Circondario di Agedabia,sn,653,273,320,137,333,136,653,653,0,0,0,0,0,621,0,4,28,0,0,653,0,0,0,16
+44,Distretto di Agedabia,distretto,Circondario di Agedabia,Tot,11342,3957,5860,2116,5482,1841,11237,11215,22,0,53,51,1,11054,7,0,172,55,54,9872,1415,55,0,671
+44,Distretto di Agedabia,distretto,Circondario di Agedabia,st,6483,2267,3205,1159,3278,1108,6378,6371,7,0,53,51,1,6233,6,0,135,55,54,5014,1414,55,0,613
+44,Distretto di Agedabia,distretto,Circondario di Agedabia,sn,4859,1690,2655,957,2204,733,4859,4844,15,0,0,0,0,4821,1,0,37,0,0,4858,1,0,0,58
+45,Circondario di Bengasi,circondario,Provincia di Bengasi,st,57916,20385,30077,10797,27839,9588,53988,53727,260,1,3103,792,33,53655,6,288,23,841,3103,57078,0,836,2,8422
+46,Residenza di Bengasi,residenza,Circondario di Bengasi,st,37945,13508,19518,6986,18427,6522,34023,33786,237,0,3098,791,33,33993,4,0,11,839,3098,37108,0,835,2,7549
+47,Residenza di Soluch,residenza,Circondario di Bengasi,st,14129,4730,7596,2653,6533,2077,14124,14115,8,1,5,0,0,13822,1,288,12,1,5,14129,0,0,0,553
+48,Residenza di Tocra,residenza,Circondario di Bengasi,st,5842,2147,2963,1158,2879,989,5841,5826,15,0,0,1,0,5840,1,0,0,1,0,5841,0,1,0,320
+49,Circondario di Barce,circondario,Provincia di Bengasi,st,21632,7054,10730,3851,10902,3203,21333,21305,27,1,281,15,3,21332,5,0,1,13,281,21619,0,13,0,2128
+50,Distretto di el-Abiar,distretto,Circondario di Barce,st,2501,857,1327,476,1174,381,2501,2501,0,0,0,0,0,2501,0,0,0,0,0,2501,0,0,0,172
+51,Distretto di Barce,distretto,Circondario di Barce,st,14251,4583,7119,2516,7132,2067,13952,13935,16,1,281,15,3,13954,2,0,1,13,281,14238,0,13,0,1587
+52,Distretto di Tolmeta,distretto,Circondario di Barce,st,4880,1614,2284,859,2596,755,4880,4869,11,0,0,0,0,4877,3,0,0,0,0,4880,0,0,0,369
+53,Provincia di Derna,provincia,LIBIA,Tot,45839,13156,27979,7035,17860,6121,38140,37228,890,22,712,6890,97,35612,339,725,390,7586,1187,37809,74,7552,404,8876
+53,Provincia di Derna,provincia,LIBIA,st,39529,11091,24658,5936,14871,5155,31830,30918,890,22,712,6890,97,29303,338,725,390,7586,1187,31499,74,7552,404,8569
+53,Provincia di Derna,provincia,LIBIA,sn,6294,2061,3311,1097,2983,964,6294,6294,0,0,0,0,0,6293,1,0,0,0,0,6294,0,0,0,307
+53,Provincia di Derna,provincia,LIBIA,n,16,4,10,2,6,2,16,16,0,0,0,0,0,16,0,0,0,0,0,16,0,0,0,0
+54,Circondario di Apollonia,circondario,Provincia di Derna,Tot,15495,4491,9216,2426,6279,2065,12909,12640,269,0,105,2408,73,12352,70,134,63,2491,385,12747,0,2491,257,3266
+54,Circondario di Apollonia,circondario,Provincia di Derna,st,15108,4362,9015,2358,6093,2004,12522,12253,269,0,105,2408,73,11966,69,134,63,2491,385,12360,0,2491,257,3235
+54,Circondario di Apollonia,circondario,Provincia di Derna,sn,387,129,201,68,186,61,387,387,0,0,0,0,0,386,1,0,0,0,0,387,0,0,0,31
+55,Distretto di Beda Littoria,distretto,Circondario di Apollonia,Tot,1741,566,889,294,852,272,1731,1728,3,0,5,5,0,1697,1,30,0,8,5,1733,0,8,0,220
+55,Distretto di Beda Littoria,distretto,Circondario di Apollonia,st,1489,481,756,250,733,231,1479,1476,3,0,5,5,0,1445,1,30,0,8,5,1481,0,8,0,190
+55,Distretto di Beda Littoria,distretto,Circondario di Apollonia,sn,252,85,133,44,119,41,252,252,0,0,0,0,0,252,0,0,0,0,0,252,0,0,0,30
+56,Distretto di Gerdes Gerrari,distretto,Circondario di Apollonia,st,3268,1104,1674,620,1594,484,3267,3263,4,0,0,1,0,3254,3,2,3,1,5,3263,0,1,4,219
+57,Distretto di Cirene,distretto,Circondario di Apollonia,Tot,5614,1937,2998,1070,2616,867,5584,5551,33,0,25,5,0,5443,45,41,21,5,59,5576,0,5,33,912
+57,Distretto di Cirene,distretto,Circondario di Apollonia,st,5479,1893,2930,1046,2549,847,5449,5416,33,0,25,5,0,5309,44,41,21,5,59,5441,0,5,33,911
+57,Distretto di Cirene,distretto,Circondario di Apollonia,sn,135,44,68,24,67,20,135,135,0,0,0,0,0,134,1,0,0,0,0,135,0,0,0,1
+58,Distretto di Apollonia,distretto,Circondario di Apollonia,st,4872,884,3655,442,1217,442,2327,2098,229,0,75,2397,73,1958,21,61,39,2477,316,2175,0,2477,220,1915
+59,Circondario di Derna,circondario,Provincia di Derna,Tot,12869,4506,6905,2445,5964,2061,12389,12244,128,17,322,153,5,11521,45,591,99,175,438,12654,32,163,20,2519
+59,Circondario di Derna,circondario,Provincia di Derna,st,12661,4447,6798,2412,5863,2035,12181,12036,128,17,322,153,5,11313,45,591,99,175,438,12446,32,163,20,2511
+59,Circondario di Derna,circondario,Provincia di Derna,sn,208,59,107,33,101,26,208,208,0,0,0,0,0,208,0,0,0,0,0,208,0,0,0,8
+60,Distretto di Giovanni Berta,distretto,Circondario di Derna,st,808,236,476,123,332,113,691,681,10,0,0,112,5,679,0,0,0,128,1,686,0,122,0,183
+61,Distretto di Derna,distretto,Circondario di Derna,Tot,12061,4270,6429,2322,5632,1948,11698,11563,118,17,322,41,0,10842,45,591,99,47,437,11968,32,41,20,2336
+61,Distretto di Derna,distretto,Circondario di Derna,st,11853,4211,6322,2289,5531,1922,11490,11355,118,17,322,41,0,10634,45,591,99,47,437,11760,32,41,20,2328
+61,Distretto di Derna,distretto,Circondario di Derna,sn,208,59,107,33,101,26,208,208,0,0,0,0,0,208,0,0,0,0,0,208,0,0,0,8
+62,Circondario di Tobruch,circondario,Provincia di Derna,Tot,17475,4159,11858,2164,5617,1995,12842,12344,493,5,285,4329,19,11739,224,0,228,4920,364,12408,42,4898,127,3091
+62,Circondario di Tobruch,circondario,Provincia di Derna,st,11760,2282,8845,1166,2915,1116,7127,6629,493,5,285,4329,19,6024,224,0,228,4920,364,6693,42,4898,127,2823
+62,Circondario di Tobruch,circondario,Provincia di Derna,sn,5699,1873,3003,996,2696,877,5699,5699,0,0,0,0,0,5699,0,0,0,0,0,5699,0,0,0,268
+62,Circondario di Tobruch,circondario,Provincia di Derna,n,16,4,10,2,6,2,16,16,0,0,0,0,0,16,0,0,0,0,0,16,0,0,0,0
+63,Residenza di Tobruch,residenza,Circondario di Tobruch,Tot,8199,2747,4391,1426,3808,1321,7658,7560,98,0,240,301,0,7430,41,0,94,330,304,7809,0,330,60,1144
+63,Residenza di Tobruch,residenza,Circondario di Tobruch,st,2628,915,1460,450,1168,465,2087,1989,98,0,240,301,0,1859,41,0,94,330,304,2238,0,330,60,880
+63,Residenza di Tobruch,residenza,Circondario di Tobruch,sn,5571,1832,2931,976,2640,856,5571,5571,0,0,0,0,0,5571,0,0,0,0,0,5571,0,0,0,264
+64,Residenza di Porto Bardia,residenza,Circondario di Tobruch,Tot,9276,1412,7467,738,1809,674,5184,4784,395,5,45,4028,19,4309,183,0,134,4590,60,4599,42,4568,67,1947
+64,Residenza di Porto Bardia,residenza,Circondario di Tobruch,st,9132,1367,7385,716,1747,651,5040,4640,395,5,45,4028,19,4165,183,0,134,4590,60,4455,42,4568,67,1943
+64,Residenza di Porto Bardia,residenza,Circondario di Tobruch,sn,128,41,72,20,56,21,128,128,0,0,0,0,0,128,0,0,0,0,0,128,0,0,0,4
+64,Residenza di Porto Bardia,residenza,Circondario di Tobruch,n,16,4,10,2,6,2,16,16,0,0,0,0,0,16,0,0,0,0,0,16,0,0,0,0
+65,Territorio Militare del Sud,territorio,LIBIA,Tot,48376,18920,23744,9947,24632,8973,48000,47863,53,84,16,358,2,26675,6857,3336,10414,411,683,42835,4388,408,745,1245
+65,Territorio Militare del Sud,territorio,LIBIA,st,43132,16931,21062,8903,22070,8028,42756,42619,53,84,16,358,2,24216,4990,3336,9904,411,275,40193,2194,408,337,1229
+65,Territorio Militare del Sud,territorio,LIBIA,sn,1961,765,1004,414,957,351,1961,1961,0,0,0,0,0,1083,218,0,252,0,408,1252,301,0,408,13
+65,Territorio Militare del Sud,territorio,LIBIA,n,3283,1224,1678,630,1605,594,3283,3283,0,0,0,0,0,1376,1649,0,258,0,0,1390,1893,0,0,3
+66,Sottozona militare di Brach,sottozona,Territorio Militare del Sud,Tot,17203,6792,8679,3670,8524,3122,17119,17023,21,75,2,80,2,12133,741,0,4227,99,3,17088,13,99,3,509
+66,Sottozona militare di Brach,sottozona,Territorio Militare del Sud,st,15497,6101,7783,3291,7714,2810,15413,15317,21,75,2,80,2,10590,741,0,4064,99,3,15382,13,99,3,496
+66,Sottozona militare di Brach,sottozona,Territorio Militare del Sud,sn,1042,421,551,234,491,187,1042,1042,0,0,0,0,0,882,0,0,160,0,0,1042,0,0,0,10
+66,Sottozona militare di Brach,sottozona,Territorio Militare del Sud,n,664,270,345,145,319,125,664,664,0,0,0,0,0,661,0,0,3,0,0,664,0,0,0,3
+67,Mudiria di Edri,mudiria,Sottozona militare di Brach,Tot,2293,827,1166,456,1127,371,2293,2292,0,1,0,0,0,1013,1,0,1279,0,0,2292,1,0,0,92
+67,Mudiria di Edri,mudiria,Sottozona militare di Brach,st,1884,698,944,382,940,316,1884,1883,0,1,0,0,0,767,1,0,1116,0,0,1883,1,0,0,81
+67,Mudiria di Edri,mudiria,Sottozona militare di Brach,sn,359,116,193,67,166,49,359,359,0,0,0,0,0,199,0,0,160,0,0,359,0,0,0,8
+67,Mudiria di Edri,mudiria,Sottozona militare di Brach,n,50,13,29,7,21,6,50,50,0,0,0,0,0,47,0,0,3,0,0,50,0,0,0,3
+68,Mudiria di Berghin,mudiria,Sottozona militare di Brach,Tot,3511,1265,1790,722,1721,543,3510,3510,0,0,0,1,0,3510,0,0,0,1,0,3510,0,1,0,6
+68,Mudiria di Berghin,mudiria,Sottozona militare di Brach,st,3436,1233,1752,703,1684,530,3435,3435,0,0,0,1,0,3435,0,0,0,1,0,3435,0,1,0,6
+68,Mudiria di Berghin,mudiria,Sottozona militare di Brach,n,75,32,38,19,37,13,75,75,0,0,0,0,0,75,0,0,0,0,0,75,0,0,0,0
+69,Mudiria di Brach,mudiria,Sottozona militare di Brach,Tot,7803,3269,3885,1741,3918,1528,7799,7793,5,1,2,2,0,5184,120,0,2494,2,3,7789,9,2,3,156
+69,Mudiria di Brach,mudiria,Sottozona militare di Brach,st,6830,2850,3377,1510,3453,1340,6826,6820,5,1,2,2,0,4211,120,0,2494,2,3,6816,9,2,3,154
+69,Mudiria di Brach,mudiria,Sottozona militare di Brach,sn,434,194,230,112,204,82,434,434,0,0,0,0,0,434,0,0,0,0,0,434,0,0,0,2
+69,Mudiria di Brach,mudiria,Sottozona militare di Brach,n,539,225,278,119,261,106,539,539,0,0,0,0,0,539,0,0,0,0,0,539,0,0,0,0
+70,Mudiria di Sebha,mudiria,Sottozona militare di Brach,Tot,3596,1431,1838,751,1758,680,3517,3428,16,73,0,77,2,2426,620,0,454,96,0,3497,3,96,0,255
+70,Mudiria di Sebha,mudiria,Sottozona militare di Brach,st,3347,1320,1710,696,1637,624,3268,3179,16,73,0,77,2,2177,620,0,454,96,0,3248,3,96,0,255
+70,Mudiria di Sebha,mudiria,Sottozona militare di Brach,sn,249,111,128,55,121,56,249,249,0,0,0,0,0,249,0,0,0,0,0,249,0,0,0,0
+71,Sottozona militare di Gat,sottozona,Territorio Militare del Sud,Tot,9458,3611,4574,1883,4884,1728,9436,9428,8,0,0,22,0,1780,2134,3327,2192,25,0,5873,3558,25,2,103
+71,Sottozona militare di Gat,sottozona,Territorio Militare del Sud,st,7554,2977,3610,1555,3944,1422,7532,7524,8,0,0,22,0,1780,485,3327,1937,25,0,5862,1665,25,2,103
+71,Sottozona militare di Gat,sottozona,Territorio Militare del Sud,n,1904,634,964,328,940,306,1904,1904,0,0,0,0,0,0,1649,0,255,0,0,11,1893,0,0,0
+72,Mudiria di Gat,mudiria,Sottozona militare di Gat,Tot,3071,1087,1512,557,1559,530,3067,3062,5,0,0,4,0,267,1197,305,1298,4,0,443,2622,4,2,74
+72,Mudiria di Gat,mudiria,Sottozona militare di Gat,st,2114,788,1037,407,1077,381,2110,2105,5,0,0,4,0,267,484,305,1054,4,0,443,1665,4,2,74
+72,Mudiria di Gat,mudiria,Sottozona militare di Gat,n,957,299,475,150,482,149,957,957,0,0,0,0,0,0,713,0,244,0,0,0,957,0,0,0
+73,Mudiria di Uadi el-Agial,mudiria,Sottozona militare di Gat,Tot,6387,2524,3062,1326,3325,1198,6369,6366,3,0,0,18,0,1513,937,3022,894,21,0,5430,936,21,0,29
+73,Mudiria di Uadi el-Agial,mudiria,Sottozona militare di Gat,st,5440,2189,2573,1148,2867,1041,5422,5419,3,0,0,18,0,1513,1,3022,883,21,0,5419,0,21,0,29
+73,Mudiria di Uadi el-Agial,mudiria,Sottozona militare di Gat,n,947,335,489,178,458,157,947,947,0,0,0,0,0,0,936,0,11,0,0,11,936,0,0,0
+74,Sottozona militare di Murzuch,sottozona,Territorio Militare del Sud,Tot,9357,3584,4300,1778,5057,1806,9354,9343,3,8,0,3,0,2460,3355,9,3087,5,441,8497,304,2,554,167
+74,Sottozona militare di Murzuch,sottozona,Territorio Militare del Sud,st,8641,3317,3956,1641,4685,1676,8638,8627,3,8,0,3,0,2460,3137,9,2997,5,33,8490,3,2,146,167
+74,Sottozona militare di Murzuch,sottozona,Territorio Militare del Sud,sn,716,267,344,137,372,130,716,716,0,0,0,0,0,0,218,0,90,0,408,7,301,0,408,0
+75,Mudiria di Uadi Etba,mudiria,Sottozona militare di Murzuch,Tot,1364,508,647,248,717,260,1364,1364,0,0,0,0,0,783,376,4,201,0,0,1063,301,0,0,0
+75,Mudiria di Uadi Etba,mudiria,Sottozona militare di Murzuch,st,1056,399,500,192,556,207,1056,1056,0,0,0,0,0,783,158,4,111,0,0,1056,0,0,0,0
+75,Mudiria di Uadi Etba,mudiria,Sottozona militare di Murzuch,sn,308,109,147,56,161,53,308,308,0,0,0,0,0,0,218,0,90,0,0,7,301,0,0,0
+76,Mudiria di Murzuch,mudiria,Sottozona militare di Murzuch,st,2752,1029,1238,509,1514,520,2749,2745,0,4,0,3,0,538,1233,5,973,3,0,2723,0,0,29,113
+77,Mudiria di Traghen,mudiria,Sottozona militare di Murzuch,st,1671,630,732,313,939,317,1671,1671,0,0,0,0,0,176,796,0,699,0,0,1671,0,0,0,10
+78,Mudiria di Umm el-Araneb,mudiria,Sottozona militare di Murzuch,st,2252,928,1071,464,1181,464,2252,2249,3,0,0,0,0,671,947,0,630,2,2,2247,0,2,3,19
+79,Mudiria di el-Gatrun,mudiria,Sottozona militare di Murzuch,Tot,1318,489,612,244,706,245,1318,1314,0,4,0,0,0,292,3,0,584,0,439,793,3,0,522,25
+79,Mudiria di el-Gatrun,mudiria,Sottozona militare di Murzuch,st,910,331,415,163,495,168,910,906,0,4,0,0,0,292,3,0,584,0,31,793,3,0,114,25
+79,Mudiria di el-Gatrun,mudiria,Sottozona militare di Murzuch,sn,408,158,197,81,211,77,408,408,0,0,0,0,0,0,0,0,0,0,408,0,0,0,408,0
+80,Sottozona militare di Hon,sottozona,Territorio Militare del Sud,Tot,7121,2913,3690,1536,3431,1377,6961,6941,19,1,14,146,0,5843,627,0,469,168,14,6428,513,168,12,317
+80,Sottozona militare di Hon,sottozona,Territorio Militare del Sud,st,6203,2516,3212,1336,2991,1180,6043,6023,19,1,14,146,0,4927,627,0,467,168,14,5510,513,168,12,314
+80,Sottozona militare di Hon,sottozona,Territorio Militare del Sud,sn,203,77,109,43,94,34,203,203,0,0,0,0,0,201,0,0,2,0,0,203,0,0,0,3
+80,Sottozona militare di Hon,sottozona,Territorio Militare del Sud,n,715,320,369,157,346,163,715,715,0,0,0,0,0,715,0,0,0,0,0,715,0,0,0,0
+81,Mudiria di Hon,mudiria,Sottozona militare di Hon,Tot,5227,2139,2736,1125,2491,1014,5097,5078,19,0,14,116,0,4461,412,0,203,137,14,4565,513,137,12,236
+81,Mudiria di Hon,mudiria,Sottozona militare di Hon,st,4512,1819,2367,968,2145,851,4382,4363,19,0,14,116,0,3746,412,0,203,137,14,3850,513,137,12,236
+81,Mudiria di Hon,mudiria,Sottozona militare di Hon,n,715,320,369,157,346,163,715,715,0,0,0,0,0,715,0,0,0,0,0,715,0,0,0,0
+82,Mudiria di Zella,mudiria,Sottozona militare di Hon,Tot,1894,774,954,411,940,363,1864,1863,0,1,0,30,0,1382,215,0,266,31,0,1863,0,31,0,81
+82,Mudiria di Zella,mudiria,Sottozona militare di Hon,st,1691,697,845,368,846,329,1661,1660,0,1,0,30,0,1181,215,0,264,31,0,1660,0,31,0,78
+82,Mudiria di Zella,mudiria,Sottozona militare di Hon,sn,203,77,109,43,94,34,203,203,0,0,0,0,0,201,0,0,2,0,0,203,0,0,0,3
+83,Sottozona militare di el-Giof,sottozona,Territorio Militare del Sud,st,5237,2020,2501,1080,2736,940,5130,5128,2,0,0,107,0,4459,0,0,439,114,225,4949,0,114,174,149
+84,LIBIA,colony,,Tot,732973,294540,377416,157043,355557,137497,696254,664736,1977,29541,28191,8359,169,562431,68351,34119,29379,9206,29487,686033,36546,9153,1241,47769
+84,LIBIA,colony,,st,622143,248521,319847,132063,302296,116458,585424,553936,1961,29527,28191,8359,169,463387,59130,34111,27230,9206,29079,578364,33798,9153,828,47058
+84,LIBIA,colony,,sn,79807,32950,41343,18031,38464,14919,79807,79777,16,14,0,0,0,72830,5591,8,970,0,408,79088,311,0,408,669
+84,LIBIA,colony,,n,31023,13069,16226,6949,14797,6120,31023,31023,0,0,0,0,0,26214,3630,0,1179,0,0,28581,2437,0,5,42

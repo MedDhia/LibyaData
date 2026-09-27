@@ -172,13 +172,25 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    in April 1936, 45% of them, had no habitual dwelling there, rising to 94% in the Circondario di
    Tòbruch and 85% in Derna. 276 of its figures cross-check against table II.
 
-   That leaves the 1936 volume's tables V to XIX and XXI to XXXIV unread. Most are occupational
+   **Tables XXI and XXII are now read too**, by `scripts/extract_istat_1936_libyans.py`: the
+   Libyan population present and resident, 229 rows each, by way of life (stabile, seminomade,
+   nomade), religion and Muslim rite, race in the census's own categories, language, and for table
+   XXI age and sex, for table XXII family heads. They go a level below table II, naming the thirteen
+   mudirie of the Fezzan. 276 of their figures cross-check against table II's `libica` columns.
+
+   Three things come out of them. **110,830 of the 732,973 Libyans present, 15%, were counted
+   seminomadic or nomadic**, from 99% in the Distretto di el-Azizìa down to nothing in the
+   Circondario di Tripoli. **The Circondario di Nàlut held 8,457 of Libya's 29,541 Ibadis and 10,231
+   of its 68,351 Berbers**, which locates the Ibadi Berber west in a single circumscription. And the
+   present and resident tables together expose the Egyptian frontier: 8,359 Copts present, 4,028 of
+   them at Porto Bardìa, and 73 people of `altre religioni` resident in the whole colony. The
+   category `libica` was wide enough to hold an Egyptian labourer at Bardia.
+
+   That leaves the 1936 volume's tables V to XIX and XXIII to XXXIV unread. Most are occupational
    cross-tabulations running ten pages or more each, which transcription cannot reach at a sensible
-   cost. The ones worth the effort, in order: **tables XXI and XXII** (the Libyan population by
-   dimora, sex, age, religion, race and language, eight and four pages); **tables XXVI to XXVIII**
-   (Muslim monogamous and polygamous households and their wives by age, four pages, and unusual data
-   by any standard); and **table XIII** (the settler population by category of economic activity,
-   one page).
+   cost. The ones worth the effort, in order: **tables XXVI to XXVIII** (Muslim monogamous and
+   polygamous households and their wives by age, four pages, and unusual data by any standard); and
+   **table XIII** (the settler population by category of economic activity, one page).
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.
