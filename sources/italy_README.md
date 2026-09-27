@@ -127,20 +127,20 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    then just `Colonie`, then `Impero - Colonie - Possedimenti`, then `Africa Italiana`; Libya is one
    colony, then two, then one again, then four provinces and a desert.
 
-   The series to build first from it is **maritime trade**, which runs from 1922 to 1938 and is the
-   only annual economic series here. A reader for it was written and thrown away; what it met is
-   recorded in `data/processed/CODEBOOK.md` and comes to four things. The unit changes (lire to
-   1932, thousands of lire from 1933). The layout changes four times, and one of those shapes puts
-   the two directions in stacked blocks sharing one set of year columns, so an import total is told
-   from an export total only by the words above it, which this scan sets as `I nzportaziane` and
-   `E sportaziolle`. The OCR truncates totals rather than garbling them, so a wrong figure still
-   looks right. And the cross-volume check, which should have caught all of that, is too thin: the
-   table was read in nine volumes out of twenty-five, so most cells have one reading and nothing to
-   check it against.
+   The series that came out of it is **seaborne trade, 1922 to 1936**, in
+   `data/processed/istat/libya_annuario_trade.csv`: imports and exports of Tripolitania and
+   Cirenaica in thousands of lire, 30 colony-years. It was **transcribed by hand**. A reader was
+   written for it first and thrown away, because the scan truncates bold total lines without making
+   them look wrong, and no tolerance loose enough to read the damage is tight enough to be trusted.
+   So the seventeen pages the index located were rendered as images and read by eye, and checked
+   against the arithmetic the source supplies itself: each table lists the trade by country, and
+   those columns sum to the printed total. Every figure was accepted only where the countries added
+   up to it.
 
-   The conclusion is that this is not an OCR problem to be solved with a better reader. It is about
-   **fifteen pages** that need opening and checking by eye, and the index says which fifteen. Do
-   that, and the four-layout problem becomes a transcription, not an inference.
+   That check is what makes the file worth having. It corrected the reader's 211,288 to 215,266 and
+   its 141,884 to 141,634; it caught two misprints in the volumes themselves; and it identified five
+   places where a later volume revises an earlier one, which are published as revisions rather than
+   averaged away. 23 of the 29 colony-years that carry figures are printed in two or more volumes and agree.
 
 5. The 1931 volume is read as far as it can be: `scripts/extract_istat_1931_libya.py` publishes its
    table I, area and the four populations by circumscription for both colonies, with Cyrenaica

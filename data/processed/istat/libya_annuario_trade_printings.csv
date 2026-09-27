@@ -1,0 +1,132 @@
+colony,year,direction,thousand_lire,lire_printed,volume,pdf_page,status,how_it_was_checked
+Cirenaica,1922,exports,9774,9773563,1922,383,published,lire 9773563; categories sum exactly; identical to the 1927 volume
+Cirenaica,1922,exports,9774,9773563,1927,354,published,lire 9773563; summary table only; no column of countries to check it against
+Cirenaica,1922,imports,76050,76049886,1922,383,published,lire 76049886; categories sum exactly; identical to the 1927 volume
+Cirenaica,1922,imports,76050,76049886,1927,354,published,lire 76049886; summary table only; no column of countries to check it against
+Cirenaica,1923,exports,17609,17608774,1922,383,published,lire 17608774; identical to the 1927 and 1928 volumes
+Cirenaica,1923,exports,17609,17608774,1928,371,published,lire 17608774; rows sum exactly (12 rows); printed twice
+Cirenaica,1923,imports,70811,70811245,1922,383,published,lire 70811245; identical to the 1927 and 1928 volumes
+Cirenaica,1923,imports,70811,70811245,1928,371,published,lire 70811245; rows sum exactly (10 rows); printed twice
+Cirenaica,1924,exports,20468,20467922,1922,383,published,lire 20467922; identical to the 1927 and 1928 volumes
+Cirenaica,1924,exports,20468,20467922,1928,371,published,lire 20467922; rows sum exactly (12 rows); printed twice
+Cirenaica,1924,imports,135830,135829936,1922,383,published,lire 135829936; identical to the 1927 and 1928 volumes
+Cirenaica,1924,imports,135830,135829936,1928,371,published,lire 135829936; rows sum exactly (10 rows); printed twice
+Cirenaica,1925,exports,38869,38868849,1922,383,superseded by the 1927 volume,lire 38868849; categories sum exactly; the 1927 and 1928 volumes both print 36443915 instead
+Cirenaica,1925,exports,36444,36443915,1927,354,published,summary table; identical to the 1928 and 1930 volumes
+Cirenaica,1925,exports,36444,36443915,1928,371,published,lire 36443915; rows sum exactly (12 rows); printed twice
+Cirenaica,1925,exports,36444,36443915,1930,522,published,rows sum exactly (12 rows); printed twice on the page
+Cirenaica,1925,imports,202191,202190603,1922,383,superseded by the 1927 volume,lire 202190603; categories sum exactly; the 1927 and 1928 volumes both print 222065690 instead
+Cirenaica,1925,imports,222066,222065690,1927,354,published,summary table; identical to the 1928 and 1930 volumes
+Cirenaica,1925,imports,222066,222065690,1928,371,published,lire 222065690; rows sum exactly (10 rows); printed twice
+Cirenaica,1925,imports,222066,222065690,1930,522,published,rows sum exactly (10 rows); printed twice on the page
+Cirenaica,1926,exports,25931,25930800,1927,354,published,summary table; identical to the 1928 1930 and 1931 volumes
+Cirenaica,1926,exports,25931,25930800,1928,371,published,lire 25930800; identical to the 1931 volume
+Cirenaica,1926,exports,25931,25930800,1930,522,published,rows sum exactly (12 rows); printed twice on the page
+Cirenaica,1926,exports,25931,25930800,1931,563,published,lire 25930800; rows sum exactly (12 rows)
+Cirenaica,1926,imports,171733,171733100,1927,354,published,summary table; identical to the 1928 1930 and 1931 volumes
+Cirenaica,1926,imports,171733,171733100,1928,371,published,lire 171733100; identical to the 1931 volume
+Cirenaica,1926,imports,171733,171733100,1930,522,published,rows sum exactly (10 rows); printed twice on the page
+Cirenaica,1926,imports,171733,171733100,1931,563,published,lire 171733100; printed twice on the page
+Cirenaica,1927,exports,14909,14908800,1928,371,published,lire 14908800; identical to the 1931 volume
+Cirenaica,1927,exports,14909,14908800,1930,522,published,rows sum exactly (12 rows); printed twice on the page
+Cirenaica,1927,exports,14909,14908800,1931,563,published,lire 14908800; rows sum exactly (12 rows)
+Cirenaica,1927,imports,178238,178238195,1928,371,published,lire 178238195; identical to the 1931 volume
+Cirenaica,1927,imports,178238,178238195,1930,522,published,rows sum exactly (10 rows); printed twice on the page
+Cirenaica,1927,imports,178238,178238195,1931,563,published,lire 178238195; rows sum exactly (10 rows)
+Cirenaica,1928,exports,24896,24896150,1930,522,published,rows sum exactly (12 rows); printed twice on the page
+Cirenaica,1928,exports,24896,24896150,1931,563,published,lire 24896150; rows sum exactly (11 rows)
+Cirenaica,1928,imports,260943,260943200,1930,522,published,rows sum exactly (10 rows); printed twice on the page
+Cirenaica,1928,imports,260943,260943200,1931,563,published,lire 260943200; rows sum exactly (10 rows)
+Cirenaica,1929,exports,21254,21253975,1930,522,published,rows sum exactly (12 rows); printed twice on the page
+Cirenaica,1929,exports,21254,21253975,1931,563,published,lire 21253975; rows sum exactly (11 rows)
+Cirenaica,1929,imports,137228,137228280,1930,522,published,rows sum exactly (10 rows); printed twice; settles the 1931 volume's misprint of 138228280
+Cirenaica,1929,imports,137228,137228280,1931,563,published,lire 137228280; rows sum exactly; the page's own summary misprints it as 138228280
+Cirenaica,1930,exports,21249,21248845,1931,563,published,lire 21248845; rows sum exactly (11 rows)
+Cirenaica,1930,exports,21249,,1933,446,published,rows sum exactly (10 rows)
+Cirenaica,1930,imports,151652,151651525,1931,563,superseded by the 1933 volume,lire 151651525; printed twice on the page; the 1933 volume's own footnote says the import figures were corrected
+Cirenaica,1930,imports,141634,,1933,446,published,rows sum exactly (9 rows)
+Cirenaica,1931,exports,19315,,1933,446,published,rows sum exactly (10 rows)
+Cirenaica,1931,exports,19315,,1934,267,published,rows sum exactly; repeated in the goods table
+Cirenaica,1931,imports,138215,,1933,446,published,rows sum exactly (9 rows)
+Cirenaica,1931,imports,138215,,1934,267,published,rows sum exactly; repeated in the goods table
+Cirenaica,1932,exports,10213,,1933,446,published,rows sum exactly (10 rows)
+Cirenaica,1932,exports,10213,,1934,267,published,rows sum exactly; repeated in the goods table
+Cirenaica,1932,imports,124051,,1933,446,published,rows sum exactly (9 rows)
+Cirenaica,1932,imports,124051,,1934,267,published,rows sum exactly; repeated in the goods table
+Cirenaica,1933,exports,14186,,1934,267,published,rows sum exactly; repeated in the goods table
+Cirenaica,1933,exports,14186,,1937,316,published,printed as Libia orientale; rows sum exactly; identical to the 1934 volume
+Cirenaica,1933,imports,125069,,1934,267,published,rows sum exactly; repeated in the goods table
+Cirenaica,1933,imports,125069,,1937,316,published,printed as Libia orientale; rows sum exactly; identical to the 1934 volume
+Cirenaica,1934,exports,17142,,1937,316,published,printed as Libia orientale; rows sum exactly (9 rows); repeated in the goods table
+Cirenaica,1934,imports,127816,,1937,316,published,printed as Libia orientale; rows sum exactly (9 rows); repeated in the goods table
+Cirenaica,1935,exports,25032,,1937,316,published,printed as Libia orientale; rows sum exactly (9 rows); repeated in the goods table
+Cirenaica,1935,imports,199752,,1937,316,published,printed as Libia orientale; rows sum exactly (9 rows); repeated in the goods table
+Tripolitania,1922,exports,13654,13654417,1922,381,published,lire 13654417; categories sum exactly; identical to the 1927 volume
+Tripolitania,1922,exports,13654,13654417,1927,352,published,lire 13654417; summary table only; no column of countries to check it against
+Tripolitania,1922,imports,92610,92610080,1922,381,published,lire 92610080; categories sum exactly; identical to the 1927 volume
+Tripolitania,1922,imports,92610,92610080,1927,352,published,lire 92610080; summary table only; no column of countries to check it against
+Tripolitania,1923,exports,22127,22126584,1922,381,published,identical to the 1927 and 1928 volumes
+Tripolitania,1923,exports,22127,22126584,1927,352,published,lire 22126584; identical to the 1928 volume
+Tripolitania,1923,exports,22127,22126584,1928,369,published,lire 22126584; rows sum exactly (15 rows); printed twice
+Tripolitania,1923,imports,142197,142197366,1922,381,published,categories sum exactly; identical to the 1927 and 1928 volumes
+Tripolitania,1923,imports,142197,142197366,1927,352,published,lire 142197366; identical to the 1928 volume
+Tripolitania,1923,imports,142197,142197366,1928,369,published,lire 142197366; rows sum exactly (12 rows); printed twice
+Tripolitania,1924,exports,25204,25204132,1922,381,published,identical to the 1927 and 1928 volumes
+Tripolitania,1924,exports,25204,25204132,1927,352,published,lire 25204132; identical to the 1928 volume
+Tripolitania,1924,exports,25204,25204132,1928,369,published,lire 25204132; rows sum exactly (15 rows); printed twice
+Tripolitania,1924,imports,198673,198673038,1922,381,published,identical to the 1927 and 1928 volumes
+Tripolitania,1924,imports,198673,198673038,1927,352,published,lire 198673038; identical to the 1928 volume
+Tripolitania,1924,imports,198673,198673038,1928,369,published,lire 198673038; rows sum exactly (12 rows); printed twice
+Tripolitania,1925,exports,38153,38153270,1922,381,published,identical to the 1927 and 1928 volumes
+Tripolitania,1925,exports,38153,38153270,1927,352,published,lire 38153270; identical to the 1928 volume
+Tripolitania,1925,exports,38153,38153270,1928,369,published,lire 38153270; rows sum exactly (15 rows); printed twice
+Tripolitania,1925,imports,185729,185729013,1922,381,published,identical to the 1927 and 1928 volumes
+Tripolitania,1925,imports,185729,185729013,1927,352,published,lire 185729013; identical to the 1928 volume
+Tripolitania,1925,imports,185729,185729013,1928,369,published,lire 185729013; rows sum exactly (12 rows); printed twice
+Tripolitania,1926,exports,45247,45246772,1931,556,published,lire 45246772; rows sum exactly (14 rows)
+Tripolitania,1926,imports,211218,211217533,1928,369,superseded by the 1931 volume,lire 211217533; the 1931 volume revises Altri paesi down by 4382850 to give 206834683
+Tripolitania,1926,imports,206835,206834683,1931,556,published,lire 206834683; rows sum to within 80 lire (one row damaged)
+Tripolitania,1927,exports,24259,24259201,1928,369,superseded by the 1931 volume,lire 24259201; the 1931 volume revises the Cirenaica row up by 746050 to give 25005251
+Tripolitania,1927,exports,25005,25005251,1931,556,published,lire 25005251; identical to the 1932 volume
+Tripolitania,1927,exports,25005,25005251,1932,558,published,lire 25005251; rows sum exactly (14 rows)
+Tripolitania,1927,imports,246046,246046377,1928,369,superseded by the 1931 volume,lire 246046377; the 1931 volume revises Altri paesi down by 2197580 to give 243848797
+Tripolitania,1927,imports,243849,243848797,1931,556,published,lire 243848797; identical to the 1932 volume
+Tripolitania,1927,imports,243849,243848797,1932,558,published,lire 243848797; rows sum exactly (12 rows)
+Tripolitania,1928,exports,28393,28393080,1931,556,published,lire 28393080; identical to the 1932 volume
+Tripolitania,1928,exports,28393,28393080,1932,558,published,lire 28393080; rows sum exactly (14 rows)
+Tripolitania,1928,imports,256375,256374870,1931,556,published,lire 256374870; identical to the 1932 volume
+Tripolitania,1928,imports,256375,256374870,1932,558,published,lire 256374870; rows sum exactly (12 rows)
+Tripolitania,1929,exports,35438,35438430,1931,556,published,lire 35438430; identical to the 1932 volume
+Tripolitania,1929,exports,35438,35438430,1932,558,published,lire 35438430; rows sum exactly (14 rows)
+Tripolitania,1929,imports,249733,249733230,1931,556,published,lire 249733230; identical to the 1932 volume
+Tripolitania,1929,imports,249733,249733230,1932,558,published,lire 249733230; rows sum exactly (12 rows)
+Tripolitania,1930,exports,36136,36136400,1931,556,published,lire 36136400; identical to the 1932 volume
+Tripolitania,1930,exports,36136,36136400,1932,558,published,lire 36136400; rows sum exactly (14 rows)
+Tripolitania,1930,exports,36136,,1933,442,published,rows sum exactly (13 rows)
+Tripolitania,1930,imports,215266,215265930,1931,556,published,lire 215265930; identical to the 1932 volume
+Tripolitania,1930,imports,215266,215265930,1932,558,published,lire 215265930; rows sum exactly (12 rows)
+Tripolitania,1930,imports,215266,,1933,442,published,rows sum exactly (12 rows)
+Tripolitania,1931,exports,29711,29710540,1932,558,published,lire 29710540; rows sum exactly (14 rows)
+Tripolitania,1931,exports,29711,,1933,442,published,rows sum exactly (13 rows)
+Tripolitania,1931,exports,29711,,1934,264,published,rows sum exactly; repeated in the goods table
+Tripolitania,1931,imports,185083,185082830,1932,558,published,lire 185082830; rows sum exactly (12 rows)
+Tripolitania,1931,imports,185083,,1933,442,published,rows sum exactly (12 rows)
+Tripolitania,1931,imports,185083,,1934,264,published,rows sum exactly; repeated in the goods table
+Tripolitania,1932,exports,29277,,1933,442,published,rows sum exactly (13 rows)
+Tripolitania,1932,exports,29277,,1934,264,published,rows sum exactly; repeated in the goods table
+Tripolitania,1932,exports,29277,,1936,260,published,rows sum exactly (12 rows); identical to the 1933 and 1934 volumes
+Tripolitania,1932,imports,160568,,1933,442,published,rows sum exactly (12 rows)
+Tripolitania,1932,imports,160568,,1934,264,published,rows sum exactly; repeated in the goods table
+Tripolitania,1932,imports,160568,,1936,260,published,rows sum exactly (12 rows); identical to the 1933 and 1934 volumes
+Tripolitania,1933,exports,28608,,1934,264,published,rows sum exactly; repeated in the goods table
+Tripolitania,1933,exports,28608,,1936,260,published,rows sum exactly (12 rows); identical to the 1934 volume
+Tripolitania,1933,imports,153043,,1934,264,published,rows sum exactly; repeated in the goods table
+Tripolitania,1933,imports,153043,,1936,260,published,rows sum exactly (12 rows); identical to the 1934 volume
+Tripolitania,1934,exports,30089,,1936,260,published,rows sum exactly (12 rows); identical to the 1937 volume
+Tripolitania,1934,exports,30089,,1937,315,published,printed as Libia occidentale; rows sum exactly (6 rows); repeated in the goods table
+Tripolitania,1934,imports,161943,,1936,260,published,rows sum exactly (12 rows); identical to the 1937 volume
+Tripolitania,1934,imports,161943,,1937,315,published,printed as Libia occidentale; rows sum exactly (16 rows); repeated in the goods table; the page says 1934 was revised
+Tripolitania,1935,exports,36129,,1937,315,published,printed as Libia occidentale; rows sum exactly (6 rows); repeated in the goods table
+Tripolitania,1935,imports,198334,,1937,315,published,printed as Libia occidentale; rows sum exactly (16 rows); repeated in the goods table
+Tripolitania,1936,exports,31118,,1937,315,published,printed as Libia occidentale; rows sum exactly (6 rows); repeated in the goods table
+Tripolitania,1936,imports,263253,,1937,315,published,printed as Libia occidentale; rows sum exactly (16 rows); repeated in the goods table

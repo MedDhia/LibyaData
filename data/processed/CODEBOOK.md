@@ -45,6 +45,7 @@ python3 scripts/extract_istat_1936_population.py
 python3 scripts/extract_istat_1931_libya.py
 python3 scripts/extract_istat_1921_libya.py
 python3 scripts/extract_istat_annuario_index.py
+python3 scripts/check_istat_annuario_trade.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1174,48 +1175,9 @@ table that carries Libya as a row), `table` in the volume's own Italian,
 `pdf_page`. The URLs are in `libya_annuario_volumes.csv`; the files are not
 committed.
 
-**Why the tables are not a panel yet, and what was tried.** Take the maritime
-trade of the two colonies, the longest-running economic series here and the
-obvious first thing to extract. A reader for it was written and then **thrown
-away**, because it could not be made to produce figures worth publishing. What
-it ran into is worth recording, because the next attempt will meet all of it.
-
-*The unit changes.* The 1932 volume prints these figures in lire, the 1933
-volume in thousands of lire. A series built without reading the unit line off
-each page is out by a factor of a thousand in the middle of itself.
-
-*The layout changes three times.* Through 1933 each colony has its own page with
-imports and exports as two side-by-side panels of year columns. From 1934 one
-table carries every colony as a row. From 1937 each direction splits again into
-a total and the share with Italy, and Libya has stopped being two colonies. The
-volumes around 1927 to 1932 use a fourth shape: **one** panel of year columns
-with the two directions stacked down the page, each under its own heading.
-
-*The stacked shape is the one that defeats it.* When the directions are stacked
-they share every column, so telling an import total from an export one rests
-entirely on recognising the words `Importazione` and `Esportazione` above it.
-This scan sets them as `I nzportaziane` and `E sportaziolle`, and they differ
-from each other in two letters out of twelve, so a tolerance loose enough to
-read the damage is loose enough to call an export an import. The reader did
-exactly that, and published Cirenaica's imports as its exports for several
-years running before the error was caught by eye.
-
-*The OCR truncates rather than garbles.* A bold total arrives as `138 21&` for
-138 215 and `1240&1` for 124 061. A shortened figure still looks like a figure,
-which is the failure mode a reader cannot see and a reviewer cannot spot in a
-column of plausible numbers.
-
-*The cross-volume check helps and is not enough.* Each volume prints two or
-three years, so most figures are printed in two or three books and can be read
-against each other. But the chapter is located in 25 volumes and the trade table
-read in only nine of them, so most cells end up with one reading and nothing to
-check it against. Worse, the 1934 volume prints the same cell in its summary
-table and again in Tripolitania's own, and the two disagree, so even a second
-reading from the same book is not a second opinion.
-
-None of this makes the series impossible. It makes it a job that needs the pages
-opened and the totals checked by eye, volume by volume, which is perhaps fifteen
-pages of work. This index is what locates those fifteen pages.
+**The trade series that came out of it** is `libya_annuario_trade.csv`, below.
+It was transcribed by eye rather than read by a program, and the section on it
+says why that was the only way.
 
 **Where it is incomplete.** The chapter is found in 25 of the 26 volumes; the
 1911 volume is the one it is not found in. Three more, 1927, 1929 and 1935,
@@ -1230,6 +1192,86 @@ the true chapter is longer than that.
 None of this is an assertion that a volume carries nothing on Libya. It is the
 scan, and every one of these volumes can be opened at the page
 `chapter_pdf_page` gives and read by eye.
+
+#### `libya_annuario_trade.csv` — the seaborne trade of Libya, 1922-1936
+
+Imports and exports of Tripolitania and Cirenaica, in **thousands of lire**, one
+row per colony and year: 30 colony-years, 29 of them with figures. It is the
+only annual economic series this repository has for the colonial period, and the
+only Libyan series of any kind that runs unbroken through the 1920s and 1930s.
+
+| | Tripolitania | Cirenaica |
+|---|---|---|
+| Years | 1922-1936 | 1922-1935 |
+| Imports, first and last | 92,610 → 263,253 | 76,050 → 199,752 |
+| Exports, first and last | 13,654 → 31,118 | 9,774 → 25,032 |
+
+Both colonies run a large and permanent trade deficit. Imports are a median 6.2
+times exports in Tripolitania and 7.5 times in Cirenaica, and the ratio never
+falls below 4 in either, which is what a settler colony supplied from the
+metropole looks like. Both series then climb steeply at the end: Cirenaica's
+imports rise 56% in 1935 and Tripolitania's 63% across 1935 and 1936, the years
+Italy invaded Ethiopia and moved men and supplies through Libyan ports.
+
+**This file was transcribed by hand.** A reader for these tables was written and
+thrown away first; what defeated it is in the section on the finding aid above,
+and the short form is that the scan truncates bold total lines without making
+them look wrong. So each page was rendered as an image and read by eye, and then
+checked by an arithmetic the source supplies itself: **each table lists the
+trade by country, and those columns sum to the printed total**. Every figure
+here was accepted only where the countries add up to it. That check earns its
+place: it caught `211 288` where the page reads 215 266, `141 884` where it
+reads 141 634, and a row of my own misreading (Malta 1928) that was 50,000 lire
+out.
+
+**`libya_annuario_trade_printings.csv` is the evidence.** 131 rows, one per
+printing of one figure in one volume, with the page, the exact lire where the
+volume prints lire, and a note saying how that printing was checked. 23 of the
+29 colony-years that carry figures are printed in two or more volumes and agree; `agreement` says
+which, and six years rest on a single volume:
+
+- Tripolitania 1926, 1935 and 1936
+- Cirenaica 1930 (imports), 1934 and 1935
+
+**Where the volumes disagree, the later one is published and the earlier is
+kept.** These are the source correcting itself, not the reader slipping, and
+each is marked `superseded` in the printings file with what changed:
+
+| | Published | Superseded | What moved |
+|---|---|---|---|
+| Tripolitania 1926 imports | 206,835 | 211,218 | the 1931 volume revises `Altri paesi` down by 4,382,850 lire |
+| Tripolitania 1927 imports | 243,849 | 246,046 | `Altri paesi` down by 2,197,580 lire |
+| Tripolitania 1927 exports | 25,005 | 24,259 | the Cirenaica row up by 746,050 lire |
+| Cirenaica 1925 | 222,066 / 36,444 | 202,191 / 38,869 | revised between the 1922-1925 and 1927 volumes |
+| Cirenaica 1930 imports | 141,634 | 151,652 | the 1933 volume's own footnote says the import figures were corrected |
+
+**Two misprints in the source were caught by the arithmetic**, and are recorded
+rather than silently fixed. The 1931 volume's summary table gives Cirenaica's
+1929 imports as 138,228,280 lire while its own detail table, the country column
+and the 1930 volume all give 137,228,280. And the 1928 volume's Tripolitania
+summary and detail differ by 10,000 lire on 1927, where the countries settle it
+at 246,046,377.
+
+**What is not here.** Cirenaica 1936 is blank because **the 1937 volume prints a
+question mark**: the figures had not reached Rome. The years before 1922 are not
+here either, and that is a decision rather than a gap: the volumes to 1921 print
+`Movimento commerciale con l'Italia`, which is trade with Italy alone, in whole
+lire, stated from Italy's side, so its `Importazioni in Italia dalla Libia` are
+Libya's exports. Joining that to this would reverse the direction and change the
+unit and the coverage in one step.
+
+**The unit.** Volumes to 1932 print lire, volumes from 1933 print thousands.
+Everything here is thousands, and `lire_printed` in the printings file keeps the
+exact figure wherever the volume gave one. The two halves of the run meet
+cleanly: the 1932 volume's 215,265,930 lire for Tripolitania in 1930 and the
+1933 volume's 215,266 thousand are the same number.
+
+**Checking it.** `scripts/check_istat_annuario_trade.py` re-opens all 17 cited
+pages and confirms each carries a `Commercio marittimo` table for the colony
+claimed, that the two files agree on every figure, and that no superseded
+printing is published. It also reports that 101 of the 131 figures can be found
+in the page's own text layer; the 30 that cannot are the damaged bold totals,
+which is the whole reason the series was read by eye.
 
 #### `libya_1921_localities.csv` — the earliest of the three, 27 rows
 

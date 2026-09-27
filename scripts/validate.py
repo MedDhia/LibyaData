@@ -997,6 +997,70 @@ if ann_path.exists():
                  f"this is a finding aid, the tables themselves are not "
                  f"extracted")
 
+trade_path = OUT / "istat" / "libya_annuario_trade.csv"
+if trade_path.exists():
+    print("\nLibyan seaborne trade 1922-1936, transcribed from the yearbook")
+    tr = pd.read_csv(trade_path)
+    pr = pd.read_csv(OUT / "istat" / "libya_annuario_trade_printings.csv")
+
+    # Every published figure must equal every printing of it that the
+    # transcription marks published. This is the whole guarantee the file
+    # offers, so it is checked here as well as in the reader's own script.
+    kept = pr[pr.status == "published"]
+    clash = []
+    for row in tr.itertuples():
+        for direction, value in (("imports", row.imports_thousand_lire),
+                                 ("exports", row.exports_thousand_lire)):
+            if pd.isna(value):
+                continue
+            here = kept[(kept.colony == row.colony) & (kept.year == row.year)
+                        & (kept.direction == direction)]
+            if here.empty or set(here.thousand_lire) != {int(value)}:
+                clash.append(f"{row.colony} {row.year} {direction}")
+    if clash:
+        failures.append(f"annuario trade: {len(clash)} figures disagree with "
+                        f"their printings: {clash[:3]}")
+        print(f"  [FAIL] {len(clash)} figures disagree with their printings")
+    else:
+        print(f"  [ok ] all {len(kept)} published printings agree with the "
+              f"{int(tr.imports_thousand_lire.notna().sum())} figures they back")
+
+    # A superseded printing is the source's own earlier word and must never be
+    # what the series publishes.
+    old = pr[pr.status != "published"]
+    leaked = [f"{r.colony} {r.year} {r.direction}" for r in old.itertuples()
+              if not kept[(kept.colony == r.colony) & (kept.year == r.year)
+                          & (kept.direction == r.direction)
+                          & (kept.thousand_lire == r.thousand_lire)].empty]
+    if leaked:
+        failures.append(f"annuario trade: superseded figures published {leaked}")
+        print(f"  [FAIL] superseded figures published: {leaked}")
+    else:
+        print(f"  [ok ] {len(old)} superseded printings kept out of the series")
+
+    # The trade of two coastal colonies, in thousands of lire, between the wars.
+    # A figure outside these bounds is a transcription slip, not history.
+    wild = tr[(tr.imports_thousand_lire.notna())
+              & ((tr.imports_thousand_lire < 10_000)
+                 | (tr.imports_thousand_lire > 1_000_000)
+                 | (tr.exports_thousand_lire < 1_000)
+                 | (tr.exports_thousand_lire > 500_000))]
+    span = (int(tr.year.min()), int(tr.year.max()))
+    if len(wild) or span != (1922, 1936):
+        failures.append(f"annuario trade: {len(wild)} figures out of range, "
+                        f"years {span}")
+        print(f"  [FAIL] {len(wild)} figures out of range, years {span}")
+    else:
+        agreed = int((tr.agreement == "agreed").sum())
+        print(f"  [ok ] {len(tr)} colony-years {span[0]}-{span[1]}, {agreed} "
+              f"confirmed by two or more volumes")
+
+    notes.append(f"annuario trade: Tripolitania and Cirenaica, imports and "
+                 f"exports 1922-1936, transcribed by eye from 17 pages and "
+                 f"checked against the column of countries that sums to each "
+                 f"total; {int((tr.agreement == 'one volume only').sum())} "
+                 f"colony-years rest on a single volume")
+
 print()
 for n in notes:
     print(f"note: {n}")

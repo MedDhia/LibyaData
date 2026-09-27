@@ -1,0 +1,31 @@
+colony,year,imports_thousand_lire,exports_thousand_lire,balance_thousand_lire,import_printings,export_printings,volumes,agreement,note
+Cirenaica,1922,76050,9774,-66276,2,2,1922 1927,agreed,"the 1922-1925 volume prints only the category table, whose rows sum to this"
+Cirenaica,1923,70811,17609,-53202,2,2,1922 1928,agreed,
+Cirenaica,1924,135830,20468,-115362,2,2,1922 1928,agreed,
+Cirenaica,1925,222066,36444,-185622,3,3,1927 1928 1930,agreed,"revised: the 1922-1925 volume prints 202,191 and 38,869 instead"
+Cirenaica,1926,171733,25931,-145802,4,4,1927 1928 1930 1931,agreed,
+Cirenaica,1927,178238,14909,-163329,3,3,1928 1930 1931,agreed,
+Cirenaica,1928,260943,24896,-236047,2,2,1930 1931,agreed,
+Cirenaica,1929,137228,21254,-115974,2,2,1930 1931,agreed,
+Cirenaica,1930,141634,21249,-120385,1,2,1931 1933,one volume only,"the 1933 volume revises the imports of 1930; the 1931 volume prints 151,652 instead"
+Cirenaica,1931,138215,19315,-118900,2,2,1933 1934,agreed,
+Cirenaica,1932,124051,10213,-113838,2,2,1933 1934,agreed,
+Cirenaica,1933,125069,14186,-110883,2,2,1934 1937,agreed,
+Cirenaica,1934,127816,17142,-110674,1,1,1937,one volume only,
+Cirenaica,1935,199752,25032,-174720,1,1,1937,one volume only,
+Cirenaica,1936,,,,0,0,1937,not available,the 1937 volume prints a question mark for eastern Libya in 1936: the figures had not reached Rome
+Tripolitania,1922,92610,13654,-78956,2,2,1922 1927,agreed,"the 1922-1925 volume prints only the category table, whose rows sum to this"
+Tripolitania,1923,142197,22127,-120070,3,3,1922 1927 1928,agreed,
+Tripolitania,1924,198673,25204,-173469,3,3,1922 1927 1928,agreed,
+Tripolitania,1925,185729,38153,-147576,3,3,1922 1927 1928,agreed,
+Tripolitania,1926,206835,45247,-161588,1,1,1931,one volume only,"the 1931 volume revises the imports of 1926 and 1927; the 1927 and 1928 volumes print 211,218 instead"
+Tripolitania,1927,243849,25005,-218844,2,2,1931 1932,agreed,"revised: the 1928 volume prints 246,046 and 24,259 instead"
+Tripolitania,1928,256375,28393,-227982,2,2,1931 1932,agreed,
+Tripolitania,1929,249733,35438,-214295,2,2,1931 1932,agreed,
+Tripolitania,1930,215266,36136,-179130,3,3,1931 1932 1933,agreed,
+Tripolitania,1931,185083,29711,-155372,3,3,1932 1933 1934,agreed,
+Tripolitania,1932,160568,29277,-131291,3,3,1933 1934 1936,agreed,
+Tripolitania,1933,153043,28608,-124435,2,2,1934 1936,agreed,
+Tripolitania,1934,161943,30089,-131854,2,2,1936 1937,agreed,
+Tripolitania,1935,198334,36129,-162205,1,1,1937,one volume only,
+Tripolitania,1936,263253,31118,-232135,1,1,1937,one volume only,
