@@ -42,6 +42,7 @@ python3 scripts/extract_bnf_libya_sources.py
 python3 scripts/download_istat_colonial.py
 python3 scripts/extract_istat_1936_localities.py
 python3 scripts/extract_istat_1936_population.py
+python3 scripts/extract_istat_1936_circumscriptions.py
 python3 scripts/extract_istat_1931_libya.py
 python3 scripts/extract_istat_1931_districts.py
 python3 scripts/extract_istat_1931_residents.py
@@ -1126,6 +1127,64 @@ Tripoli through Jafara into Murqub, and the four southern Comandi di Zona cover
 the whole Fezzan. The name alone is not enough to tell them apart either, which
 is why the lookup is by colony: the Gebel of Tripolitania is the Nefusa mountain
 in the west and the Gebel of Cyrenaica is the green mountain in the east.
+
+#### `libya_1936_circumscriptions.csv` — Libya by circumscription, 69 rows
+
+Tables I and II of the 1936 census, published by
+`scripts/extract_istat_1936_circumscriptions.py` and transcribed by eye like the
+1931 tables. The administrative hierarchy of Libya in 1936, from the colony down
+through four provinces, 15 circondari, 20 residenze, 23 distretti and the five
+military sub-zones of the south.
+
+| | Present | Resident |
+|---|---|---|
+| Libya | 848,610 (385,781 women) | 817,376 |
+| Libyans | 732,973 | 750,851 |
+| Italians | 112,694 | 63,720 |
+| Other foreigners | 2,943 | 2,805 |
+
+Every count comes as `_mf` and `_f`, so women are separable at every level, and
+each of `present` and `resident` splits into `total`, `national` (Italians),
+`foreign` (`straniera e assimilata`) and `libyan`. `superficie_km2` and
+`density_km2` are filled for the five top rows and the colony, from table I.
+
+**What it adds to the 1936 the repository already had.**
+`libya_localities_1936.csv` names 1,090 places and `libya_population_1936.csv`
+counts people in them, but the second overshoots the colony by 6.7% and neither
+carries the administrative hierarchy with its population. This does, and its
+Libyan resident total of **750,851** is the figure table XX overshoots: use this
+file for any total and table XX only for the shape within a circumscription.
+
+**The gap between present and resident is the colonial economy showing.** 112,694
+Italians were in Libya on census night against 63,720 resident: nearly half the
+Italian presence was temporary, the construction and military build-up before
+the Ethiopian war. It is sharpest where the building was: the Circondario di
+Barce counted 11,029 Italians present against 1,854 resident, Tòbruch 15,230
+against 1,026, Derna 13,145 against 2,014. The Libyan population moves the other
+way, 732,973 present against 750,851 resident.
+
+#### `libya_1936_municipalities.csv` — the 27 municipi, 27 rows
+
+Table III, the same census cut a different way. The `municipi` were created by
+decree in November 1935 and are **not** another level of the hierarchy: a
+municipality is sometimes one residenza, sometimes a circondario, and three of
+them are compounds — Sirte is the residenze of Sirte and en-Nofilìa, Bengasi is
+Bengasi and Tòcra, Bèda Littòria is the distretti of Bèda Littòria, Gèrdes
+Gerràri and Cirene. The volume's footnotes say which, and the script checks
+every municipality against the circumscriptions it is made of: **all 432 figures
+agree**, which is what makes the two transcriptions confirm each other.
+
+**Six checks.** The three populations sum to each total, for the whole
+population and for women; women never exceed the total; children sum to parents;
+the four provinces and the military territory sum to Libya; table I's areas sum
+to Libya's and its printed density is the present population over the area to
+the two decimals it gives; and every municipality equals its circumscriptions.
+1,104 figures in table II and 432 in table III, bound to each other. Both tables
+passed on the first reading.
+
+**Placement.** 67 of the 69 circumscriptions and all 27 municipalities carry a
+shabiya, 53 through the concordance and 14 asserted. The two that do not are the
+Territorio Militare del Sud, which runs from Ghat to Kufra, and the colony line.
 
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 

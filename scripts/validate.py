@@ -1211,6 +1211,88 @@ if res_path.exists():
                  f"resident by sex; the indigenous population is not in this "
                  f"table")
 
+circ36_path = OUT / "istat" / "libya_1936_circumscriptions.csv"
+if circ36_path.exists():
+    print("\n1936 census tables I-III, Libya by circumscription and municipality")
+    c36 = pd.read_csv(circ36_path)
+    m36 = pd.read_csv(OUT / "istat" / "libya_1936_municipalities.csv")
+    groups = ["national", "foreign", "libyan"]
+
+    trouble = []
+    for frame, what in ((c36, "circumscription"), (m36, "municipality")):
+        for when in ("present", "resident"):
+            for sex in ("mf", "f"):
+                parts = frame[[f"{when}_{g}_{sex}" for g in groups]].sum(axis=1)
+                off = frame[parts != frame[f"{when}_total_{sex}"]]
+                trouble += [f"{what} {r.name} {when} {sex}" for r in off.itertuples()]
+            for group in ["total"] + groups:
+                off = frame[frame[f"{when}_{group}_f"] > frame[f"{when}_{group}_mf"]]
+                trouble += [f"{what} {r.name} {when} {group} sexes"
+                            for r in off.itertuples()]
+    numbers = [f"{w}_{g}_{s}" for w in ("present", "resident")
+               for g in ["total"] + groups for s in ("mf", "f")]
+    for parent, kids in c36[c36.parent.notna()].groupby("parent"):
+        above = c36[c36.name == parent]
+        if above.empty:
+            trouble.append(f"no row named {parent}")
+            continue
+        for column in numbers:
+            if kids[column].sum() != above[column].iloc[0]:
+                trouble.append(f"{parent} {column}")
+    top = c36[c36.level == "provincia"]
+    total = c36[c36.level == "colony"]
+    for column in numbers:
+        if top[column].sum() != total[column].iloc[0]:
+            trouble.append(f"Libya {column}")
+    if trouble:
+        failures.append(f"1936 circumscriptions: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] {len(c36)} circumscriptions and {len(m36)} "
+              f"municipalities: three populations sum to each total, women "
+              f"never exceed it, children sum to parents, provinces to Libya")
+
+    # A municipality is not a level of the hierarchy; it is the circumscriptions
+    # the volume's own footnotes name, and it has to equal them.
+    made_of = {"Sirte": ["Residenza di Sirte", "Residenza di en-Nofilia"],
+               "Bengasi": ["Residenza di Bengasi", "Residenza di Tocra"],
+               "Beda Littoria": ["Distretto di Beda Littoria",
+                                 "Distretto di Gerdes Gerrari",
+                                 "Distretto di Cirene"]}
+    by_name = c36.set_index("name")
+    clash, checked = [], 0
+    for row in m36.itertuples():
+        parts = made_of.get(row.name)
+        if not parts:
+            continue
+        for column in numbers:
+            got = sum(int(by_name.loc[p, column]) for p in parts)
+            if got != getattr(row, column):
+                clash.append(f"{row.name} {column}")
+            else:
+                checked += 1
+    if clash:
+        failures.append(f"1936: municipalities disagree with their "
+                        f"circumscriptions: {clash[:3]}")
+        print(f"  [FAIL] {len(clash)} municipality figures disagree")
+    else:
+        print(f"  [ok ] {checked} figures of the three compound "
+              f"municipalities equal the circumscriptions they are made of")
+
+    # The Libyan resident total is the figure table XX overshoots.
+    libyan = int(c36[c36.level == "colony"].resident_libyan_mf.iloc[0])
+    if libyan != 750851:
+        failures.append(f"1936: Libyan resident total {libyan}, expected 750851")
+        print(f"  [FAIL] Libyan resident total {libyan:,}")
+    else:
+        print(f"  [ok ] the Libyan resident population is 750,851, the figure "
+              f"table XX overshoots by 6.7%")
+
+    notes.append(f"1936 circumscriptions: {len(c36)} rows of the administrative "
+                 f"hierarchy and {len(m36)} municipalities, present and "
+                 f"resident by nationality and sex, transcribed by eye")
+
 print()
 for n in notes:
     print(f"note: {n}")

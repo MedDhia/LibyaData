@@ -160,5 +160,19 @@ Searching OPAC SBN for those is a job for an ordinary connection.
 
    The Libyan tables of the 1931 volume are now all read.
 
+6. ~~The 1936 volume's section I.~~ **Done**, by
+   `scripts/extract_istat_1936_circumscriptions.py`: tables I, II and III transcribed by eye, giving
+   the administrative hierarchy of 1936 with the population present and resident, by nationality and
+   by sex, and the 27 municipalities created by decree in 1935. All 432 figures of the municipality
+   table equal the circumscriptions the volume's own footnotes say they are made of.
+
+   That leaves the 1936 volume's tables IV to XIX and XXI to XXXIV unread. Most are occupational
+   cross-tabulations running ten pages or more each, which transcription cannot reach at a sensible
+   cost. The ones worth the effort, in order: **table IV** (present, temporarily absent and resident
+   by character of dimora, two pages, the counterpart of the 1931 table III); **tables XXI and
+   XXII** (the Libyan population by dimora, sex, age, religion, race and language, eight and four
+   pages); and **tables XXVI to XXVIII** (Muslim monogamous and polygamous households and their
+   wives by age, four pages, and unusual data by any standard).
+
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

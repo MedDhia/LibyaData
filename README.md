@@ -44,6 +44,8 @@ Libyan sources, with a validation suite. See
 | Gazette decisions | 50 issues, laws and decisions | 109 |
 | **1936 Italian census localities** | Libya's oldest gazetteer, 870 placed in a shabiya | 1,090 |
 | 1936 census table XX population | families, present, women, absent, by dwelling type | 2,348 |
+| **1936 census circumscriptions** | the administrative hierarchy, present and resident by sex | 69 |
+| 1936 census municipalities | the 27 municipi created in 1935 | 27 |
 | 1931 census circumscriptions | area and four populations, Tripolitania and Cyrenaica | 18 |
 | **1931 census districts** | two levels below, with the sex breakdown, transcribed by hand | 106 |
 | 1931 census present, absent and resident | the settler population only, by sex | 51 |
