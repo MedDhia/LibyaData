@@ -46,6 +46,7 @@ Libyan sources, with a validation suite. See
 | 1936 census table XX population | families, present, women, absent, by dwelling type | 2,348 |
 | 1931 census circumscriptions | area and four populations, Tripolitania and Cyrenaica | 18 |
 | **1931 census districts** | two levels below, with the sex breakdown, transcribed by hand | 106 |
+| 1931 census present, absent and resident | the settler population only, by sex | 51 |
 | 1921 census inhabited centres | families, present and resident, exactly as printed | 27 |
 | Italian yearbook, Libyan tables 1911–1943 | a finding aid over 26 volumes, not the tables | 212 |
 | **Libyan seaborne trade 1922–1936** | Tripolitania and Cirenaica, transcribed by hand from 17 pages | 30 |

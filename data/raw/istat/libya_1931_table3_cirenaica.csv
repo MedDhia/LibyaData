@@ -1,0 +1,14 @@
+level,parent,name,present_mf,present_m,present_f,habitual_mf,habitual_m,habitual_f,temporary_mf,temporary_m,temporary_f,resident_mf,resident_m,resident_f,absent_mf,absent_f
+1,,C. R. di Bengasi,12976,7857,5119,12168,7083,5085,808,774,34,12640,7426,5214,472,129
+2,C. R. di Bengasi,Circondario di Bengasi,12554,7542,5012,11822,6840,4982,732,702,30,12265,7158,5107,443,125
+2,C. R. di Bengasi,Circondario di Bengasi esterna,104,75,29,104,75,29,0,0,0,105,76,29,1,0
+2,C. R. di Bengasi,Circondario di el-Abiar,160,112,48,153,106,47,7,6,1,180,129,51,27,4
+2,C. R. di Bengasi,Circondario di Soluch,146,118,28,87,60,27,59,58,1,88,61,27,1,0
+2,C. R. di Bengasi,Circondario di Sidi Ahmed el-Magrun,12,10,2,2,2,0,10,8,2,2,2,0,0,0
+1,,C. R. del Gebel,3883,2868,1015,3260,2268,992,623,600,23,3426,2393,1033,166,41
+2,C. R. del Gebel,Circondario di Barce,1538,1181,357,1399,1049,350,139,132,7,1451,1080,371,52,21
+2,C. R. del Gebel,Circondario di Apollonia,1356,1057,299,1089,798,291,267,259,8,1125,830,295,36,4
+2,C. R. del Gebel,Circondario di Derna,989,630,359,772,421,351,217,209,8,850,483,367,78,16
+1,,C. Z. della Marmarica,1124,985,139,729,597,132,395,388,7,807,652,155,78,23
+1,,C. Z. di Agedabia,523,499,24,437,416,21,86,83,3,450,424,26,13,5
+0,,TOTALE,18506,12209,6297,16594,10364,6230,1912,1845,67,17323,10895,6428,729,198

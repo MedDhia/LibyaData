@@ -152,9 +152,13 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    reading. The transcription also repairs five cells the scan destroyed in table I, so every
    population column of `libya_1931_circoscrizioni.csv` now reconciles exactly.
 
-   What is still unread in this volume is **table III**, which gives the resident population and the
-   temporarily absent for the Italian and foreign population by sex. It sits on the same two pages
-   and is the same kind of object, so the same method would take it.
+   **Table III is now read too**, by `scripts/extract_istat_1931_residents.py`: 51 rows on the
+   Italian and foreign population alone, distinguishing who was present on census night from who
+   lived there, with the temporarily absent and the whole of it by sex. It passes six checks, the
+   last of which ties it to table II across two separately transcribed pages: the population
+   present in table III is table II's Italians plus its foreigners, and 102 figures agree.
+
+   The Libyan tables of the 1931 volume are now all read.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

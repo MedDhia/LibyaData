@@ -1,0 +1,39 @@
+level,parent,name,present_mf,present_m,present_f,habitual_mf,habitual_m,habitual_f,temporary_mf,temporary_m,temporary_f,resident_mf,resident_m,resident_f,absent_mf,absent_f
+1,,C. R. di Tripoli,23735,13579,10156,22754,12867,9887,981,712,269,23392,13307,10085,638,198
+1,,C. R. del Confine Occidentale,728,488,240,561,324,237,167,164,3,589,335,254,28,17
+2,C. R. del Confine Occidentale,Circondario di Zuara,494,319,175,424,249,175,70,70,0,441,256,185,17,10
+2,C. R. del Confine Occidentale,Circondario di Sabratha,234,169,65,137,75,62,97,94,3,148,79,69,11,7
+1,,C. R. di Zavia,849,474,375,823,457,366,26,17,9,881,489,392,58,26
+1,,C. R. della Gefara,2260,1453,807,2080,1289,791,180,164,16,2193,1355,838,113,47
+2,C. R. della Gefara,Circondario di es-Sahel,1222,832,390,1115,734,381,107,98,9,1179,780,399,64,18
+2,C. R. della Gefara,Circondario di Tagiura,438,262,176,415,239,176,23,23,0,426,243,183,11,7
+2,C. R. della Gefara,Circondario di el-Azizia,252,156,96,221,131,90,31,25,6,230,137,93,9,3
+2,C. R. della Gefara,Circondario di Castel Benito,348,203,145,329,185,144,19,18,1,358,195,163,29,19
+1,,C. R. di Leptis,481,272,209,452,250,202,29,22,7,484,277,207,32,5
+2,C. R. di Leptis,Circondario di Homs,459,255,204,430,233,197,29,22,7,462,260,202,32,5
+2,C. R. di Leptis,Circondario di el-Gusbat,22,17,5,22,17,5,0,0,0,22,17,5,0,0
+1,,C. R. di Misurata,862,673,189,664,479,185,198,194,4,718,527,191,54,6
+2,C. R. di Misurata,Circondario di Zliten,142,110,32,83,52,31,59,58,1,85,54,31,2,0
+2,C. R. di Misurata,Circondario di Misurata,720,563,157,581,427,154,139,136,3,633,473,160,52,6
+1,,C. R. del Gebel,567,413,154,513,372,141,54,41,13,576,399,177,63,36
+2,C. R. del Gebel,Circondario di Giado,18,17,1,17,16,1,1,1,0,20,17,3,3,2
+2,C. R. del Gebel,Circondario di Iefren,57,45,12,56,44,12,1,1,0,61,47,14,5,2
+2,C. R. del Gebel,Circondario di el-Garian,320,234,86,291,210,81,29,24,5,333,227,106,42,25
+2,C. R. del Gebel,Circondario di Tarhuna,172,117,55,149,102,47,23,15,8,162,108,54,13,7
+1,,C. Z. Sud Orientale,801,739,62,733,672,61,68,67,1,827,752,75,94,14
+2,C. Z. Sud Orientale,Circondario di Sirte,416,359,57,368,311,57,48,48,0,406,335,71,38,14
+2,C. Z. Sud Orientale,Circondario di en-Nofilia,75,75,0,75,75,0,0,0,0,76,76,0,1,0
+2,C. Z. Sud Orientale,Circondario di Giofra,276,271,5,256,252,4,20,19,1,311,307,4,55,0
+2,C. Z. Sud Orientale,Circondario di Zella,34,34,0,34,34,0,0,0,0,34,34,0,0,0
+1,,C. Z. del Gebel,140,124,16,137,121,16,3,3,0,149,131,18,12,2
+2,C. Z. del Gebel,Circondario di Mizda,84,79,5,83,78,5,1,1,0,92,85,7,9,2
+2,C. Z. del Gebel,Circondario di Orfella,56,45,11,54,43,11,2,2,0,57,46,11,3,0
+1,,C. Z. Sud Occidentale,220,209,11,210,200,10,10,9,1,234,219,15,24,5
+2,C. Z. Sud Occidentale,Circondario di Nalut,133,124,9,126,118,8,7,6,1,143,133,10,17,2
+2,C. Z. Sud Occidentale,Circondario di Gadames,87,85,2,84,82,2,3,3,0,91,86,5,7,3
+1,,C. Z. del Fezzan,258,258,0,227,227,0,31,31,0,243,242,1,16,1
+2,C. Z. del Fezzan,Circondario di Sebha,127,127,0,114,114,0,13,13,0,119,118,1,5,1
+2,C. Z. del Fezzan,Circondario di Brach,42,42,0,42,42,0,0,0,0,46,46,0,4,0
+2,C. Z. del Fezzan,Circondario di Murzuch,57,57,0,39,39,0,18,18,0,46,46,0,7,0
+2,C. Z. del Fezzan,Circondario di Gat,32,32,0,32,32,0,0,0,0,32,32,0,0,0
+0,,TOTALE,30901,18682,12219,29154,17258,11896,1747,1424,323,30286,18033,12253,1132,357

@@ -44,6 +44,7 @@ python3 scripts/extract_istat_1936_localities.py
 python3 scripts/extract_istat_1936_population.py
 python3 scripts/extract_istat_1931_libya.py
 python3 scripts/extract_istat_1931_districts.py
+python3 scripts/extract_istat_1931_residents.py
 python3 scripts/extract_istat_1921_libya.py
 python3 scripts/extract_istat_annuario_index.py
 python3 scripts/check_istat_annuario_trade.py

@@ -1,0 +1,52 @@
+colony,level_name,name,parent,place_ar,shabiya_ar,shabiya_en,shabiya_pcode,shabiya_route,present_mf,present_m,present_f,habitual_mf,habitual_m,habitual_f,temporary_mf,temporary_m,temporary_f,resident_mf,resident_m,resident_f,absent_mf,absent_f,place_key
+Tripolitania,commissariato,C. R. di Tripoli,,طرابلس,طرابلس,Tripoli,LY0211,concordance,23735,13579,10156,22754,12867,9887,981,712,269,23392,13307,10085,638,198,tripoli
+Tripolitania,commissariato,C. R. del Confine Occidentale,,,,,,unplaced,728,488,240,561,324,237,167,164,3,589,335,254,28,17,confine occidentale
+Tripolitania,circondario,Circondario di Zuara,C. R. del Confine Occidentale,زوارة,النقاط الخمس,Nuqat al Khams,LY0215,concordance,494,319,175,424,249,175,70,70,0,441,256,185,17,10,zuara
+Tripolitania,circondario,Circondario di Sabratha,C. R. del Confine Occidentale,صبراتة,الزاوية,Zawiya,LY0213,asserted,234,169,65,137,75,62,97,94,3,148,79,69,11,7,sabratha
+Tripolitania,commissariato,C. R. di Zavia,,الزاوية,الزاوية,Zawiya,LY0213,concordance,849,474,375,823,457,366,26,17,9,881,489,392,58,26,zavia
+Tripolitania,commissariato,C. R. della Gefara,,,,,,unplaced,2260,1453,807,2080,1289,791,180,164,16,2193,1355,838,113,47,gefara
+Tripolitania,circondario,Circondario di es-Sahel,C. R. della Gefara,الساحل,الجفارة,Jafara,LY0212,asserted,1222,832,390,1115,734,381,107,98,9,1179,780,399,64,18,es-sahel
+Tripolitania,circondario,Circondario di Tagiura,C. R. della Gefara,تاجوراء,طرابلس,Tripoli,LY0211,concordance,438,262,176,415,239,176,23,23,0,426,243,183,11,7,tagiura
+Tripolitania,circondario,Circondario di el-Azizia,C. R. della Gefara,العزيزية,الجفارة,Jafara,LY0212,concordance,252,156,96,221,131,90,31,25,6,230,137,93,9,3,el-azizia
+Tripolitania,circondario,Circondario di Castel Benito,C. R. della Gefara,بن غشير,طرابلس,Tripoli,LY0211,asserted,348,203,145,329,185,144,19,18,1,358,195,163,29,19,castel benito
+Tripolitania,commissariato,C. R. di Leptis,,,,,,unplaced,481,272,209,452,250,202,29,22,7,484,277,207,32,5,leptis
+Tripolitania,circondario,Circondario di Homs,C. R. di Leptis,الخمس,المرقب,Murqub,LY0210,concordance,459,255,204,430,233,197,29,22,7,462,260,202,32,5,homs
+Tripolitania,circondario,Circondario di el-Gusbat,C. R. di Leptis,القصبات,المرقب,Murqub,LY0210,asserted,22,17,5,22,17,5,0,0,0,22,17,5,0,0,el-gusbat
+Tripolitania,commissariato,C. R. di Misurata,,مصراتة,مصراته,Misrata,LY0214,concordance,862,673,189,664,479,185,198,194,4,718,527,191,54,6,misurata
+Tripolitania,circondario,Circondario di Zliten,C. R. di Misurata,زليتن,المرقب,Murqub,LY0210,asserted,142,110,32,83,52,31,59,58,1,85,54,31,2,0,zliten
+Tripolitania,circondario,Circondario di Misurata,C. R. di Misurata,مصراتة,مصراته,Misrata,LY0214,concordance,720,563,157,581,427,154,139,136,3,633,473,160,52,6,misurata
+Tripolitania,commissariato,C. R. del Gebel,,,,,,unplaced,567,413,154,513,372,141,54,41,13,576,399,177,63,36,gebel
+Tripolitania,circondario,Circondario di Giado,C. R. del Gebel,جادو,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,18,17,1,17,16,1,1,1,0,20,17,3,3,2,giado
+Tripolitania,circondario,Circondario di Iefren,C. R. del Gebel,يفرن,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,57,45,12,56,44,12,1,1,0,61,47,14,5,2,iefren
+Tripolitania,circondario,Circondario di el-Garian,C. R. del Gebel,غريان,الجبل الغربي,Jabal al Gharbi,LY0216,concordance,320,234,86,291,210,81,29,24,5,333,227,106,42,25,el-garian
+Tripolitania,circondario,Circondario di Tarhuna,C. R. del Gebel,ترهونة,المرقب,Murqub,LY0210,concordance,172,117,55,149,102,47,23,15,8,162,108,54,13,7,tarhuna
+Tripolitania,commissariato,C. Z. Sud Orientale,,,,,,unplaced,801,739,62,733,672,61,68,67,1,827,752,75,94,14,c. z. sud orientale
+Tripolitania,circondario,Circondario di Sirte,C. Z. Sud Orientale,سرت,سرت,Sirte,LY0208,concordance,416,359,57,368,311,57,48,48,0,406,335,71,38,14,sirte
+Tripolitania,circondario,Circondario di en-Nofilia,C. Z. Sud Orientale,النوفلية,سرت,Sirte,LY0208,concordance,75,75,0,75,75,0,0,0,0,76,76,0,1,0,en-nofilia
+Tripolitania,circondario,Circondario di Giofra,C. Z. Sud Orientale,الجفرة,الجفرة,Jufra,LY0317,concordance,276,271,5,256,252,4,20,19,1,311,307,4,55,0,giofra
+Tripolitania,circondario,Circondario di Zella,C. Z. Sud Orientale,زلة,الجفرة,Jufra,LY0317,asserted,34,34,0,34,34,0,0,0,0,34,34,0,0,0,zella
+Tripolitania,commissariato,C. Z. del Gebel,,,,,,unplaced,140,124,16,137,121,16,3,3,0,149,131,18,12,2,gebel
+Tripolitania,circondario,Circondario di Mizda,C. Z. del Gebel,مزدة,الجبل الغربي,Jabal al Gharbi,LY0216,asserted,84,79,5,83,78,5,1,1,0,92,85,7,9,2,mizda
+Tripolitania,circondario,Circondario di Orfella,C. Z. del Gebel,بني وليد,مصراته,Misrata,LY0214,asserted,56,45,11,54,43,11,2,2,0,57,46,11,3,0,orfella
+Tripolitania,commissariato,C. Z. Sud Occidentale,,,,,,unplaced,220,209,11,210,200,10,10,9,1,234,219,15,24,5,c. z. sud occidentale
+Tripolitania,circondario,Circondario di Nalut,C. Z. Sud Occidentale,نالوت,نالوت,Nalut,LY0209,concordance,133,124,9,126,118,8,7,6,1,143,133,10,17,2,nalut
+Tripolitania,circondario,Circondario di Gadames,C. Z. Sud Occidentale,غدامس,نالوت,Nalut,LY0209,concordance,87,85,2,84,82,2,3,3,0,91,86,5,7,3,gadames
+Tripolitania,commissariato,C. Z. del Fezzan,,,,,,unplaced,258,258,0,227,227,0,31,31,0,243,242,1,16,1,fezzan
+Tripolitania,circondario,Circondario di Sebha,C. Z. del Fezzan,سبها,سبها,Sabha,LY0319,concordance,127,127,0,114,114,0,13,13,0,119,118,1,5,1,sebha
+Tripolitania,circondario,Circondario di Brach,C. Z. del Fezzan,براك,وادي الشاطئ,Wadi al Shatii,LY0318,concordance,42,42,0,42,42,0,0,0,0,46,46,0,4,0,brach
+Tripolitania,circondario,Circondario di Murzuch,C. Z. del Fezzan,مرزق,مرزق,Murzuq,LY0322,concordance,57,57,0,39,39,0,18,18,0,46,46,0,7,0,murzuch
+Tripolitania,circondario,Circondario di Gat,C. Z. del Fezzan,غات,غات,Ghat,LY0321,concordance,32,32,0,32,32,0,0,0,0,32,32,0,0,0,gat
+Tripolitania,colony,TOTALE,,,,,,colony total,30901,18682,12219,29154,17258,11896,1747,1424,323,30286,18033,12253,1132,357,totale
+Cirenaica,commissariato,C. R. di Bengasi,,بنغازي,بنغازي,Benghazi,LY0103,concordance,12976,7857,5119,12168,7083,5085,808,774,34,12640,7426,5214,472,129,bengasi
+Cirenaica,circondario,Circondario di Bengasi,C. R. di Bengasi,بنغازي,بنغازي,Benghazi,LY0103,concordance,12554,7542,5012,11822,6840,4982,732,702,30,12265,7158,5107,443,125,bengasi
+Cirenaica,circondario,Circondario di Bengasi esterna,C. R. di Bengasi,بنغازي,بنغازي,Benghazi,LY0103,concordance,104,75,29,104,75,29,0,0,0,105,76,29,1,0,bengasi esterna
+Cirenaica,circondario,Circondario di el-Abiar,C. R. di Bengasi,الأبيار,المرج,Marj,LY0102,concordance,160,112,48,153,106,47,7,6,1,180,129,51,27,4,el-abiar
+Cirenaica,circondario,Circondario di Soluch,C. R. di Bengasi,سلوق,بنغازي,Benghazi,LY0103,concordance,146,118,28,87,60,27,59,58,1,88,61,27,1,0,soluch
+Cirenaica,circondario,Circondario di Sidi Ahmed el-Magrun,C. R. di Bengasi,سيدي أحمد المقرون,بنغازي,Benghazi,LY0103,asserted,12,10,2,2,2,0,10,8,2,2,2,0,0,0,sidi ahmed el-magrun
+Cirenaica,commissariato,C. R. del Gebel,,,,,,unplaced,3883,2868,1015,3260,2268,992,623,600,23,3426,2393,1033,166,41,gebel
+Cirenaica,circondario,Circondario di Barce,C. R. del Gebel,المرج,المرج,Marj,LY0102,concordance,1538,1181,357,1399,1049,350,139,132,7,1451,1080,371,52,21,barce
+Cirenaica,circondario,Circondario di Apollonia,C. R. del Gebel,سوسة,الجبل الأخضر,Jabal al Akhdar,LY0106,concordance,1356,1057,299,1089,798,291,267,259,8,1125,830,295,36,4,apollonia
+Cirenaica,circondario,Circondario di Derna,C. R. del Gebel,درنة,درنة,Derna,LY0101,concordance,989,630,359,772,421,351,217,209,8,850,483,367,78,16,derna
+Cirenaica,commissariato,C. Z. della Marmarica,,,,,,unplaced,1124,985,139,729,597,132,395,388,7,807,652,155,78,23,marmarica
+Cirenaica,commissariato,C. Z. di Agedabia,,أجدابيا,الواحات,Al Wahat,LY0105,asserted,523,499,24,437,416,21,86,83,3,450,424,26,13,5,agedabia
+Cirenaica,colony,TOTALE,,,,,,colony total,18506,12209,6297,16594,10364,6230,1912,1845,67,17323,10895,6428,729,198,totale

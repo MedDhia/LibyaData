@@ -1143,6 +1143,74 @@ if dist_path.exists():
                  f"carry; transcribed by eye from two pages and bound by four "
                  f"arithmetic checks")
 
+res_path = OUT / "istat" / "libya_1931_residents.csv"
+if res_path.exists():
+    print("\n1931 census table III, present, absent and resident")
+    r31 = pd.read_csv(res_path)
+    blocks = ["present", "habitual", "temporary", "resident"]
+
+    trouble = []
+    for block in blocks:
+        off = r31[r31[f"{block}_mf"] != r31[f"{block}_m"] + r31[f"{block}_f"]]
+        trouble += [f"{r.name} {block} sexes" for r in off.itertuples()]
+    for sex in ("mf", "m", "f"):
+        off = r31[r31[f"habitual_{sex}"] + r31[f"temporary_{sex}"]
+                  != r31[f"present_{sex}"]]
+        trouble += [f"{r.name} {sex} dimora" for r in off.itertuples()]
+    for sex, absent in (("mf", "absent_mf"), ("f", "absent_f")):
+        off = r31[r31[f"habitual_{sex}"] + r31[absent] != r31[f"resident_{sex}"]]
+        trouble += [f"{r.name} {sex} residence" for r in off.itertuples()]
+    numbers = ([f"{b}_{s}" for b in blocks for s in ("mf", "m", "f")]
+               + ["absent_mf", "absent_f"])
+    for colony, here in r31.groupby("colony"):
+        for parent, kids in here[here.parent.notna()].groupby("parent"):
+            above = here[here.name == parent]
+            if above.empty:
+                trouble.append(f"{colony}: no row named {parent}")
+                continue
+            for column in numbers:
+                if kids[column].sum() != above[column].iloc[0]:
+                    trouble.append(f"{colony} {parent} {column}")
+        top = here[here.level_name == "commissariato"]
+        total = here[here.level_name == "colony"]
+        for column in numbers:
+            if top[column].sum() != total[column].iloc[0]:
+                trouble.append(f"{colony} total {column}")
+    if trouble:
+        failures.append(f"1931 residents: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] {len(r31)} rows: men and women add to every total, "
+              f"habitual and temporary to present, habitual and absent to "
+              f"resident, children to parents, circumscriptions to colonies")
+
+    # Two tables on two pages, transcribed separately, counting the same people.
+    d31 = pd.read_csv(OUT / "istat" / "libya_1931_districts.csv")
+    two = d31.set_index(["colony", "name"])
+    clash, checked = [], 0
+    for row in r31.itertuples():
+        if (row.colony, row.name) not in two.index:
+            continue
+        twin = two.loc[(row.colony, row.name)]
+        for sex in ("mf", "f"):
+            want = int(twin[f"regnicola_{sex}"]) + int(twin[f"straniera_{sex}"])
+            if want != getattr(row, f"present_{sex}"):
+                clash.append(f"{row.colony} {row.name} {sex}")
+            else:
+                checked += 1
+    if clash:
+        failures.append(f"1931: tables II and III disagree: {clash[:3]}")
+        print(f"  [FAIL] tables II and III disagree on {len(clash)} figures")
+    else:
+        print(f"  [ok ] {checked} figures agree with table II: the population "
+              f"present here is its Italians plus its foreigners")
+
+    notes.append(f"1931 residents: {len(r31)} rows on the Italian and foreign "
+                 f"population only, with present, temporarily absent and "
+                 f"resident by sex; the indigenous population is not in this "
+                 f"table")
+
 print()
 for n in notes:
     print(f"note: {n}")
