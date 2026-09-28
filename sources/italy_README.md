@@ -121,8 +121,14 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    extracting that is the obvious next step.
 2. ~~Pull the Libya chapter out of each yearbook volume from 1911 to 1943.~~ **Half done**, by
    `scripts/extract_istat_annuario_index.py`, which finds the colonial chapter in each of the 26
-   volumes and lists every table in it that concerns Libya: 131 tables, with the file and page of
-   each. The chapter is **not** a fixed structure across volumes, which is why this is an index and
+   volumes and lists every table in it that concerns Libya: 292 tables, with the file and page of
+   each. A second pass repaired three faults. The 1922 to 1930 volumes open the chapter with a
+   contents page that the first pass read as tables. The running head that marks the chapter's
+   pages is damaged or reduced to `Colonie` in several scans, which cut the 1938 chapter off before
+   its market prices, credit and school tables. And the Aegean section of 1937 and 1938 was filed
+   under Libya. The chapter is now followed by its title matched loosely, or by its numeral, and
+   the rows of 1915, 1922, 1930, 1937 and 1938 were checked against the page images. The chapter
+   is **not** a fixed structure across volumes, which is why this is an index and
    not yet a panel. It is called `Possessi e Protettorati italiani`, then `Colonie e Possedimenti`,
    then just `Colonie`, then `Impero - Colonie - Possedimenti`, then `Africa Italiana`; Libya is one
    colony, then two, then one again, then four provinces and a desert.

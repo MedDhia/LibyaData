@@ -66,6 +66,7 @@ import re
 import sys
 import urllib.request
 from collections import Counter
+from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -100,12 +101,13 @@ def is_chapter(line):
 # close one by opening somebody else's. Libya is one colony, then two, then
 # four provinces and a desert, so the first list grows with the run.
 LIBYAN = re.compile(
-    r"^(libia|tripolitania|cirenaica|tripolitaniaecirenaica|"
+    r"^(libia|tripo[l1i]{1,3}tania|cirena[il1]ca|tripolitaniaecirenaica|"
     r"africasettentrionale\w*|provinci\w*dellalibia|saharalibico|"
     r"libiaesaharalibico)$", re.I)
 FOREIGN = re.compile(
     r"^(eritrea|somalia\w*|africaorientale\w*|etiopia|isoleegee|"
-    r"possedimento\w*dellisoleegee|isoleitaliane\w*|concessionedi\w*|"
+    r"possedimento\w*dellisoleegee|possedimentodelleisole\w*|"
+    r"isoleitaliane\w*|concessionedi\w*|"
     r"tientsin|tiensin|saseno|isoladisaseno|albania|"
     r"coloniaeritrea|somaliaitaliana)", re.I)
 
@@ -234,7 +236,50 @@ def find_chapter(pdf):
     return printed, None, line_seen
 
 
-def chapter_pages(pdf, start, limit=30):
+def title_core(line_seen):
+    """The chapter's title as the running head prints it: the general index
+    line without its numeral, leader dots and page, reduced to letters."""
+    core = NUMERAL.sub("", line_seen or "")
+    core = re.sub(r"[\s.\u00b7\u2022»,\"'-]*[\d\u00b0lIoO]{0,4}\s*$", "",
+                  core)
+    return re.sub(r"[^a-z]", "", core.lower())
+
+
+def title_numeral(line_seen):
+    """The chapter's Roman numeral, `XIX` in `XIX. Africa Italiana`."""
+    match = re.match(r"\s*([IVXL]{2,6})\s*\.", line_seen or "")
+    return match.group(1) if match else ""
+
+
+def carries_head(head, core, numeral=""):
+    """Whether a page's first lines carry the chapter's running head.
+
+    The scans damage the head (`AfricA I~ltaDa - poasedlmentl`, `Coloni, SII`,
+    `COlonf,8`), so the test is the chapter's numeral where the head prints
+    it, or how much of the chapter title can be matched, in order, inside one
+    of the first three lines: seven letters in ten.
+    """
+    if CHAPTER.search(flat(head)) or any(is_chapter(line)
+                                         for line in head.splitlines()[:3]):
+        return True
+    # A head too damaged to read still carries the chapter's numeral.
+    if numeral and any(re.search(rf"(^|[\s:;,|]){numeral}\s*\.", line)
+                       for line in head.splitlines()[:2]):
+        return True
+    if len(core) < 6:
+        return False
+    for line in head.splitlines()[:3]:
+        letters = re.sub(r"[^a-z]", "", line.lower())
+        if len(letters) < len(core) * 0.6:
+            continue
+        blocks = SequenceMatcher(None, core, letters,
+                                 autojunk=False).get_matching_blocks()
+        if sum(b.size for b in blocks) >= 0.7 * len(core):
+            return True
+    return False
+
+
+def chapter_pages(pdf, start, line_seen="", limit=40):
     """The pages of the colonial chapter, from its opening to its last.
 
     The chapter is followed to its end by its own running head: every page of it
@@ -242,23 +287,22 @@ def chapter_pages(pdf, start, limit=30):
     carrying it belongs to whatever comes next. Two pages in a row without it
     end the chapter, because a full-page table sometimes drops the head.
     """
+    core, numeral = title_core(line_seen), title_numeral(line_seen)
     found, misses = [], 0
     for i in range(start, min(start + limit, len(pdf.pages))):
         text = pdf.pages[i].extract_text() or ""
         head = text[:300]
-        if (i == start or CHAPTER.search(flat(head))
-                or any(is_chapter(line) for line in head.splitlines()[:3])):
-            found.append((i, text))
+        if i == start or carries_head(head, core, numeral):
+            found.append((i, text, True))
             misses = 0
         else:
             misses += 1
             if misses >= 2:
                 break
-            found.append((i, text))
-    while len(found) > 1 and not CHAPTER.search(flat(found[-1][1][:300])):
+            found.append((i, text, False))
+    while len(found) > 1 and not found[-1][2]:
         found.pop()
-    
-    return found
+    return [(i, text) for i, text, _ in found]
 
 
 # A table heading: `2. Commercio marittimo`, `A. Notizie generali`, `b. Popola-
@@ -279,8 +323,8 @@ SEGUE = re.compile(r"^(segue|seguo|sesue)", re.I)
 
 # A row label naming Libya in a table that runs the colonies down the side. The
 # scans break the words, so this is matched against flattened text.
-LIBYAN_ROW = re.compile(r"tripo[l1i]{1,3}tania|cirenaica|\blibia\b|"
-                        r"saharalibico|libico", re.I)
+LIBYAN_ROW = re.compile(r"tripo[l1i]{1,3}tania|cirena[il1]ca|\blibia\b|"
+                        r"saharalibico|libico|dallalibia|perlalibia", re.I)
 
 
 def chapter_tables(pages):
@@ -300,6 +344,10 @@ def chapter_tables(pages):
         # chapter and give page numbers in the volume's printing rather than
         # the file's. A page with six entries ending in a page number is it.
         if sum(1 for line in lines if LEADERS.search(line)) >= 6:
+            continue
+        # The 1930 contents page prints its page numbers without leader dots,
+        # and says what it is in its own head.
+        if any(flat(line).lower() == "indice" for line in lines[:4]):
             continue
         # Which tables on this page have a Libyan row, by the heading above
         # each line that names one.
@@ -349,6 +397,8 @@ def normalise(scope):
              "africasettentrionale": "Africa Settentrionale Italiana",
              "provincie": "Provincie italiane della Libia",
              "provincia": "Provincie italiane della Libia"}
+    key = re.sub(r"^cirena[l1]ca", "cirenaica", key)
+    key = re.sub(r"^tripo[l1i]{1,3}tania", "tripolitania", key)
     for name, full in names.items():
         if key.startswith(name):
             return full
@@ -387,7 +437,7 @@ def main():
             printed, start, line_seen = find_chapter(pdf)
             entries, pages = [], []
             if start is not None:
-                pages = chapter_pages(pdf, start)
+                pages = chapter_pages(pdf, start, line_seen)
                 entries = chapter_tables(pages)
             books.append({
                 "year_from": volume["year_from"], "year_to": volume["year_to"],

@@ -16,10 +16,9 @@ year_from,year_to,scope,table,subject,pdf_page,pdf_pages,order_in_chapter,file
 1914,1914,Libia,Movimento commerciale con l'Italia,trade,475,475,3,RAV0040597ASI1914.pdf
 1914,1914,Libia,Movimento della navigazione con l'Italia (a),shipping,477,477,4,RAV0040597ASI1914.pdf
 1914,1914,Libia,Poste e telegrafi (b),posts and telegraphs,477,477,5,RAV0040597ASI1914.pdf
-1915,1915,all colonies,Possessi e Protettorati in Africa,,378,378,1,RAV0040597ASI1915.pdf
-1915,1915,Libia,Movimento commerciale con l'Italia,trade,378,378,2,RAV0040597ASI1915.pdf
-1915,1915,Libia,Movimento della navigazione con l'Italia (a),shipping,382,382,3,RAV0040597ASI1915.pdf
-1915,1915,Libia,Poste e telegrafi (b),posts and telegraphs,382,382,4,RAV0040597ASI1915.pdf
+1915,1915,all colonies,Movimento commerciale con l'italia (c),trade,380,380,1,RAV0040597ASI1915.pdf
+1915,1915,Libia,Movimento della navigazione con l'Italia (a),shipping,382,382,2,RAV0040597ASI1915.pdf
+1915,1915,Libia,Poste e telegrafi (b),posts and telegraphs,382,382,3,RAV0040597ASI1915.pdf
 1916,1916,all colonies,TERRITORI POSSEDUTI E PROTETTI,,448,448,1,RAV0040597ASI1916.pdf
 1916,1916,Libia,Commercio con l'Italia (c),,448,448,2,RAV0040597ASI1916.pdf
 1916,1916,Libia,MOYlmento della navigazione con l'italia (a),,450,450,3,RAV0040597ASI1916.pdf
@@ -30,29 +29,71 @@ year_from,year_to,scope,table,subject,pdf_page,pdf_pages,order_in_chapter,file
 1919,1921,Libia,Commercio marittimo . . • • • . . • . . . . . . . . . . . . . . • ..) 483,maritime trade,484,484,1,RAV0040597ASI1919_1921.pdf
 1919,1921,Libia,Movimento della navigazione con 1'Italia • . . . . . . . • . . ..) 483,shipping,484,484,2,RAV0040597ASI1919_1921.pdf
 1919,1921,Libia,"Poste e telegrafi. . . . . • ."". • . . . . . . . . . . . . . . . . . . ..)) 484",posts and telegraphs,484,484,3,RAV0040597ASI1919_1921.pdf
-1922,1925,Tripolitania,Commercio marittimo . . . . . . . . . . . . 374-375,maritime trade,379,379,1,RAV0040597ASI1922_1925.pdf
-1922,1925,Cirenaica,Navigazione marittima 377-378,shipping,379,379,2,RAV0040597ASI1922_1925.pdf
-1922,1925,Cirenaica,Poste e telegrafi 378,posts and telegraphs,379,379,3,RAV0040597ASI1922_1925.pdf
-1928,1928,Cirenaica,Commercio marittimo. 17(l-377,maritime trade,368,368,1,RAV0040597ASI1928.pdf
-1928,1928,Cirenaica,Navigazione marittima 377-378,shipping,368,368,2,RAV0040597ASI1928.pdf
-1928,1928,Cirenaica,Poste e telegrafi 378,posts and telegraphs,368,368,3,RAV0040597ASI1928.pdf
-1928,1928,Cirenaica,Commercio marittimo .......... . :}79-3S0,maritime trade,368,368,4,RAV0040597ASI1928.pdf
-1928,1928,Cirenaica,Commercio caro\'aniero. . . . . . . . . . 3Sn,,368,368,5,RAV0040597ASI1928.pdf
-1928,1928,Cirenaica,Poste e telegrafi ............. . 38r,posts and telegraphs,368,368,6,RAV0040597ASI1928.pdf
-1930,1930,Tripolitania,Commercio marittimo 510-111,maritime trade,516,516,1,RAV0040597ASI1930.pdf
-1930,1930,Tripolitania,N a vigazione marittima 512,shipping,516,516,2,RAV0040597ASI1930.pdf
-1930,1930,Tripolitania,Traffico ferroviario . . . 512*,railway traffic,516,516,3,RAV0040597ASI1930.pdf
-1930,1930,Tripolitania,Autoveicoli in circolazione 513*,motor vehicles,516,516,4,RAV0040597ASI1930.pdf
-1930,1930,Tripolitania,Pesca delle spugne. . . . 513*,sponge fishing,516,516,5,RAV0040597ASI1930.pdf
-1930,1930,Tripolitania,Pe::ca del tonno . . . . 513*,,516,516,6,RAV0040597ASI1930.pdf
-1930,1930,Tripolitania,Colonizzazione agraria . 514*,agrarian settlement,516,516,7,RAV0040597ASI1930.pdf
-1930,1930,Tripolitania,Con sistenza del bestiame 514*,livestock,516,516,8,RAV0040597ASI1930.pdf
-1930,1930,Cirenaica,Commercio marittimo. SIS-SI6,maritime trade,516,516,9,RAV0040597ASI1930.pdf
-1930,1930,Cirenaica,Navigazione marittima 517,shipping,516,516,10,RAV0040597ASI1930.pdf
-1930,1930,Cirenaica,Traffico ferroviario. SI7*,railway traffic,516,516,11,RAV0040597ASI1930.pdf
-1930,1930,Cirenaica,Pesca delle spugne. SI7*,sponge fishing,516,516,12,RAV0040597ASI1930.pdf
+1919,1921,Libia,Commercio marittimo (a),maritime trade,485,485,4,RAV0040597ASI1919_1921.pdf
+1919,1921,Libia,Movimento della navigazione con l'italia (a),shipping,486,486,5,RAV0040597ASI1919_1921.pdf
+1919,1921,Libia,Poste e telegrafi (a),posts and telegraphs,487,487,6,RAV0040597ASI1919_1921.pdf
+1919,1921,Libia,Commercio marittimo {a),maritime trade,488,488,7,RAV0040597ASI1919_1921.pdf
+1922,1925,all colonies,DATI STATISTICI SULLE SINGOLE COLONIE,,380,380,1,RAV0040597ASI1922_1925.pdf
+1922,1925,Tripolitania,Commercio marittimo,maritime trade,380,380,2,RAV0040597ASI1922_1925.pdf
+1922,1925,Tripolitania,Navigazione mariHima,,381,381,3,RAV0040597ASI1922_1925.pdf
+1922,1925,Tripolitania,Poste e telegrafi,posts and telegraphs,381,381,4,RAV0040597ASI1922_1925.pdf
+1922,1925,Cirenaica,Commercio marittimo,maritime trade,382,382,5,RAV0040597ASI1922_1925.pdf
+1922,1925,Cirenaica,Navigazione marittima,shipping,383,383,6,RAV0040597ASI1922_1925.pdf
+1922,1925,all colonies,CONTO CONSUNTIVO,colonial budget,392,392,7,RAV0040597ASI1922_1925.pdf
+1922,1925,all colonies,"Legge 9 luglio 1916, n. 843), compresi gli assegni ai",,392,392,8,RAV0040597ASI1922_1925.pdf
+1927,1927,Tripolitania,Commercio marittimo,maritime trade,352,352,1,RAV0040597ASI1927.pdf
+1927,1927,Tripolitania,Navigazione marittima,shipping,353,353,2,RAV0040597ASI1927.pdf
+1927,1927,Tripolitania,Poste e telegrafi,posts and telegraphs,353,353,3,RAV0040597ASI1927.pdf
+1927,1927,Cirenaica,Commercio marittimo,maritime trade,354,354,4,RAV0040597ASI1927.pdf
+1927,1927,Cirenaica,Navigazione marittima,shipping,355,355,5,RAV0040597ASI1927.pdf
+1927,1927,Cirenaica,Poste e telegrafi,posts and telegraphs,356,356,6,RAV0040597ASI1927.pdf
+1927,1927,all colonies,"I.egge 9 luglio 1916, n. 843), compresi gli assegni ai",,362,362,7,RAV0040597ASI1927.pdf
+1928,1928,Tripolitania,Commercio marittimo,maritime trade,369,369,1,RAV0040597ASI1928.pdf
+1928,1928,Tripolitania,Navigazione marittim~,,370,370,2,RAV0040597ASI1928.pdf
+1928,1928,Tripolitania,Poste e telegrafi,posts and telegraphs,370,370,3,RAV0040597ASI1928.pdf
+1928,1928,Cirenaica,Commercio marittimo,maritime trade,371,371,4,RAV0040597ASI1928.pdf
+1928,1928,Cirenaica,Navigazione marittima,shipping,372,372,5,RAV0040597ASI1928.pdf
+1928,1928,Cirenaica,Poste e telegrafi,posts and telegraphs,373,373,6,RAV0040597ASI1928.pdf
+1928,1928,all colonies,"Legge 9 luglio 1916, n. 843), compresi gli assegni ai",,379,379,7,RAV0040597ASI1928.pdf
+1929,1929,Tripolitania,Commercio marittimo,maritime trade,466,466,1,RAV0040597ASI1929.pdf
+1929,1929,Tripolitania,Navigazione marittima,shipping,467,467,2,RAV0040597ASI1929.pdf
+1929,1929,Tripolitania,Poste e telegrafi,posts and telegraphs,467,467,3,RAV0040597ASI1929.pdf
+1929,1929,Tripolitania,Autoveicoli in circolazione,motor vehicles,467,467,4,RAV0040597ASI1929.pdf
+1929,1929,Cirenaica,Commercio marittimo,maritime trade,468,468,5,RAV0040597ASI1929.pdf
+1929,1929,Cirenaica,Navigazione marittima,shipping,469,469,6,RAV0040597ASI1929.pdf
+1929,1929,Cirenaica,Poste e telegrafi,posts and telegraphs,470,470,7,RAV0040597ASI1929.pdf
+1930,1930,Tripolitania,Commercio marittimo,maritime trade,517,517,1,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Navigazione marittima,shipping,519,519,2,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Poste e telegrafi,posts and telegraphs,519,519,3,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Traffico ferroviario (a),railway traffic,519,519,4,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Pesca delle spugne,sponge fishing,520,520,5,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Pesca del tonno,fishing,520,520,6,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Colonizzazione agraria,agrarian settlement,521,521,7,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Pozzi trivellati N. 202 della resa complessiva di m3 ora,,521,521,8,RAV0040597ASI1930.pdf
+1930,1930,Tripolitania,Consistenza del bestiame,livestock,521,521,9,RAV0040597ASI1930.pdf
+1930,1930,Cirenaica,Commercio marittimo,maritime trade,522,522,10,RAV0040597ASI1930.pdf
+1930,1930,Cirenaica,Navigazione marittima,shipping,524,524,11,RAV0040597ASI1930.pdf
+1930,1930,Cirenaica,Poste e telegrafi,posts and telegraphs,524,524,12,RAV0040597ASI1930.pdf
+1930,1930,Cirenaica,Traffico ferroviario. (a),railway traffic,524,524,13,RAV0040597ASI1930.pdf
+1930,1930,Cirenaica,Pesca delle spugne,sponge fishing,524,524,14,RAV0040597ASI1930.pdf
 1931,1931,Tripolitania,Dati me~eorolDglcl dell'annata alrarl. 1923-30 (a),,554,554,1,RAV0040597ASI1931.pdf
 1931,1931,Tripolitania,"RIepilogo ,enwale delle popolazioni (a)",,555,555,2,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Commercio marittimo,maritime trade,556,556,3,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Navigazione marittima,shipping,558,558,4,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Poste e telegrafi,posts and telegraphs,558,558,5,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Traflle. ferroviario (a),,559,559,6,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Autoveicoli in circolazione,motor vehicles,559,559,7,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Pesca del h spugne,fishing,559,559,8,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Pesca del tonno e di aUri pesci,fishing,559,559,9,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,C O I O n I z z a z I o n e a g r a r i a,,560,560,10,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Pozzi trivellati N. 310 della resa compl~ssiva di m'ara,,560,560,11,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Consistenza del bestiame,livestock,560,560,12,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Censimento Industriala della Tripolitania (a),,561,561,13,RAV0040597ASI1931.pdf
+1931,1931,Tripolitania,Numero de'1li eserci7i e degli ar.detti riparti' i per classi,,561,561,14,RAV0040597ASI1931.pdf
+1931,1931,Cirenaica,Commercio marittimo,maritime trade,563,563,15,RAV0040597ASI1931.pdf
+1931,1931,Cirenaica,Navigazione marittima,shipping,565,565,16,RAV0040597ASI1931.pdf
+1931,1931,Cirenaica,Poste e telegrafi,posts and telegraphs,565,565,17,RAV0040597ASI1931.pdf
+1931,1931,Cirenaica,Traffico ferroviario. (a),railway traffic,565,565,18,RAV0040597ASI1931.pdf
 1932,1932,Tripolitania,Commercio marittimo,maritime trade,558,558,1,RAV0040597ASI1932.pdf
 1932,1932,Tripolitania,Poste e telegrafi,posts and telegraphs,560,560,2,RAV0040597ASI1932.pdf
 1932,1932,Tripolitania,Traftlco ferroviario (a),,561,561,3,RAV0040597ASI1932.pdf
@@ -60,6 +101,11 @@ year_from,year_to,scope,table,subject,pdf_page,pdf_pages,order_in_chapter,file
 1932,1932,Tripolitania,Pesca delle spugne,sponge fishing,561,561,5,RAV0040597ASI1932.pdf
 1932,1932,Tripolitania,Pesca del tonno e di altri pesci,fishing,561,561,6,RAV0040597ASI1932.pdf
 1932,1932,Tripolitania,Depositi presso la Cassa di risparmio della TripDlitania,savings bank,561,561,7,RAV0040597ASI1932.pdf
+1932,1932,Cirenaica,Navigulone marittima,,566,566,8,RAV0040597ASI1932.pdf
+1932,1932,Cirenaica,Poste e telegrafi,posts and telegraphs,566,566,9,RAV0040597ASI1932.pdf
+1932,1932,Cirenaica,Traffico ferroviario. (a),railway traffic,566,566,10,RAV0040597ASI1932.pdf
+1932,1932,Cirenaica,Pesca delle spugne,sponge fishing,566,566,11,RAV0040597ASI1932.pdf
+1932,1932,Cirenaica,Depositi presso la Cassa di risparmio della Cirenaica,savings bank,566,566,12,RAV0040597ASI1932.pdf
 1933,1933,all colonies,Superficie • popolazione presente,area and population,441,441,1,RAV0040597ASI1933.pdf
 1933,1933,all colonies,Popolazione indigena secondo la religione (e),population,441,441,2,RAV0040597ASI1933.pdf
 1933,1933,Tripolitania,"D a ti m e t e o r o lo ,I c I (f)",,441,441,3,RAV0040597ASI1933.pdf
@@ -87,6 +133,18 @@ year_from,year_to,scope,table,subject,pdf_page,pdf_pages,order_in_chapter,file
 1934,1934,Tripolitania,Importazione ed esportazione secondo i Paesi di provenienza o di destinazione,,264,264,8,RAV0040597ASI1934.pdf
 1934,1934,Tripolitania,Merci importate ed esportate,,264,264,9,RAV0040597ASI1934.pdf
 1934,1934,Tripolitania,Navigazione marittima,shipping,264,264,10,RAV0040597ASI1934.pdf
+1934,1934,Tripolitania,Credito agrario (a),agricultural credit,266,266,11,RAV0040597ASI1934.pdf
+1934,1934,Tripolitania,Prestiti concessi daUa Cassa di Risparmio della Tripolitan ia,savings bank,266,266,12,RAV0040597ASI1934.pdf
+1934,1934,Tripolitania,I Amm~ntare N. I Amm~ntare N. I Ammontare N. I Ammontare,,266,266,13,RAV0040597ASI1934.pdf
+1934,1934,Tripolitania,Scopi pei quali le somme vennero assegnate,,266,266,14,RAV0040597ASI1934.pdf
+1934,1934,Tripolitania,Depositi presso la Cassa di Risparmio 7. Pesca,fishing,266,266,15,RAV0040597ASI1934.pdf
+1934,1934,Tripolitania,Poste e telegrafi,posts and telegraphs,266,266,16,RAV0040597ASI1934.pdf
+1934,1934,Cirenaica,Commercio marittimo,maritime trade,267,267,17,RAV0040597ASI1934.pdf
+1934,1934,Cirenaica,Importazione ed esportazione secondo i Paesi di provenienza o di destinazione,,267,267,18,RAV0040597ASI1934.pdf
+1934,1934,Cirenaica,Merci importate ed esportate,,267,267,19,RAV0040597ASI1934.pdf
+1934,1934,Cirenaica,Movimento della navigazione marittima nell 'anno 1933,shipping,267,267,20,RAV0040597ASI1934.pdf
+1934,1934,Cirenaica,Depositi presso la Cassa di Risparmio 4. Pesca delle spugne,sponge fishing,267,267,21,RAV0040597ASI1934.pdf
+1934,1934,Cirenaica,Poste e telegrafi,posts and telegraphs,268,268,22,RAV0040597ASI1934.pdf
 1936,1936,all colonies,Climatologia (a),,255,255,1,RAV0040597ASI1936.pdf
 1936,1936,all colonies,Superficie e popolazione,area and population,256,256,2,RAV0040597ASI1936.pdf
 1936,1936,all colonies,Commercio marittimo,maritime trade,256,256,3,RAV0040597ASI1936.pdf
@@ -121,61 +179,48 @@ year_from,year_to,scope,table,subject,pdf_page,pdf_pages,order_in_chapter,file
 1936,1936,Libia,Operazioni di credito agrario effettuate dalla Cassa di Risparmio della Cirenaica (a),savings bank,265,265,32,RAV0040597ASI1936.pdf
 1936,1936,Libia,Opere pubbli~he (a),,266,266,33,RAV0040597ASI1936.pdf
 1936,1936,Libia,Trlpolitania,,266,266,34,RAV0040597ASI1936.pdf
-1937,1937,all colonies,Traffico ferroviario (a),railway traffic,299,299,1,RAV0040597ASI1937.pdf
-1937,1937,Libia,Oomunicazioni e trasporti,,300,300,2,RAV0040597ASI1937.pdf
-1937,1937,Libia,Navigazione marittima (a),shipping,300,300,3,RAV0040597ASI1937.pdf
-1937,1937,all colonies,Commercio marittimo (a),maritime trade,301,301,4,RAV0040597ASI1937.pdf
-1937,1937,Libia,Credito,,301,301-302,5,RAV0040597ASI1937.pdf
-1937,1937,Libia,Depositi nelle Casse di Risparmio Postali (a),,301,301,6,RAV0040597ASI1937.pdf
-1937,1937,Libia,Depositi nelle Casse di Risparmio ordinarie e negli Istituti di credito ordinario (a),,301,301,7,RAV0040597ASI1937.pdf
-1937,1937,Libia,Principali operazioni effettuate dalla Banca d'Italia (a),,302,302,9,RAV0040597ASI1937.pdf
-1937,1937,Libia,"Migliaia N. Migliaia N. Migliaia N. 1 Mi""gl""ia""ia N. 1Mi~""a""i""a N. 1}I:I""@''""ai'a'",,302,302,10,RAV0040597ASI1937.pdf
-1937,1937,all colonies,Credito fondiario-agrario (a),,302,302,11,RAV0040597ASI1937.pdf
-1937,1937,Libia,Opere pubbliche (a),,303,303,12,RAV0040597ASI1937.pdf
-1937,1937,Libia,Popolazione,population,311,311,13,RAV0040597ASI1937.pdf
-1937,1937,Libia,Colonizzazione agraria nella Libia occidentale (a),agrarian settlement,311,311,14,RAV0040597ASI1937.pdf
-1937,1937,Libia,Famiglie coloniche,,311,311,15,RAV0040597ASI1937.pdf
-1937,1937,Libia,Colonizzazione agraria nella Libia orientale,agrarian settlement,312,312,16,RAV0040597ASI1937.pdf
-1937,1937,Libia,Valorizzazione fondiario-agraria (b),,312,312,17,RAV0040597ASI1937.pdf
-1937,1937,Libia,Superflcle seminata nelle circoscrizioni della Libia orientale nell'ann:tta 1934-35 (b),,312,312,18,RAV0040597ASI1937.pdf
-1937,1937,Libia,Pesca (a),fishing,312,312,19,RAV0040597ASI1937.pdf
-1937,1937,Libia,Libia occidentale,,312,312,20,RAV0040597ASI1937.pdf
-1937,1937,Libia,Libia orientale,,312,312,21,RAV0040597ASI1937.pdf
-1937,1937,Libia,Movimento della navigazione nei porti della Libia occidentale (a),shipping,313,313,22,RAV0040597ASI1937.pdf
-1937,1937,Libia,Mo vimento della navigazione nei porti della Libia occidentale,shipping,314,314,23,RAV0040597ASI1937.pdf
-1937,1937,Libia,Movimento della navigazione nei porti della Libia orientale (a),shipping,314,314,24,RAV0040597ASI1937.pdf
-1937,1937,Libia,Commercio marittimo della Libia occidentale (a),maritime trade,315,315,25,RAV0040597ASI1937.pdf
-1937,1937,Libia,Importazione ed esportazione secondo i Paesi di provenienza o di destinazione,,315,315-316,26,RAV0040597ASI1937.pdf
-1937,1937,Libia,Merci importate ed esportate,,315,315-316,27,RAV0040597ASI1937.pdf
-1937,1937,Libia,Commercio marittimo della Libia orientale (a),maritime trade,316,316,28,RAV0040597ASI1937.pdf
-1937,1937,Libia,Credito fondiario-agrario,,316,316,31,RAV0040597ASI1937.pdf
-1937,1937,Libia,Mutui fondiario-agrari,,316,316,32,RAV0040597ASI1937.pdf
-1937,1937,Libia,Credito agrario,agricultural credit,317,317,33,RAV0040597ASI1937.pdf
-1937,1937,Libia,Prestiti per miglioramenti agrari e prestiti di esercizio,,317,317,34,RAV0040597ASI1937.pdf
-1937,1937,Libia,Assicurazioni sociali,,317,317,35,RAV0040597ASI1937.pdf
-1937,1937,Libia,Istruzione (a),schooling,318,318,36,RAV0040597ASI1937.pdf
-1937,1937,Libia,Associazioni sindacali,,318,318,37,RAV0040597ASI1937.pdf
-1937,1937,Libia,Possedimento delle Isole Italiane dell'Egeo,,319,319,38,RAV0040597ASI1937.pdf
-1937,1937,Libia,Superficie e popolazione,area and population,319,319,39,RAV0040597ASI1937.pdf
-1937,1937,Libia,Produzione agraria (a),farm output,319,319,40,RAV0040597ASI1937.pdf
-1937,1937,Libia,Consistenza del bestiame (a),livestock,319,319,41,RAV0040597ASI1937.pdf
-1937,1937,Libia,Censimento degli esercizi industriali e commerciali al dicembre 1933 (a),,319,319,42,RAV0040597ASI1937.pdf
-1937,1937,Libia,Movimento della navigazione nei porti del Possedimen.to (a),shipping,320,320,43,RAV0040597ASI1937.pdf
-1937,1937,Libia,Servizi pubblici automobilistici (a),,320,320,44,RAV0040597ASI1937.pdf
-1937,1937,Libia,Rete stradale al 31 dicembre 1936 (a),,320,320,45,RAV0040597ASI1937.pdf
-1937,1937,Libia,Movi mento commerciale (a),trade,321,321,46,RAV0040597ASI1937.pdf
-1937,1937,Libia,Movimento commerciale di ciascuna isola,trade,321,321,47,RAV0040597ASI1937.pdf
-1937,1937,Libia,Valore delle merci importate,,321,321,48,RAV0040597ASI1937.pdf
-1937,1937,Libia,Movimento commerciale,trade,322,322,49,RAV0040597ASI1937.pdf
-1937,1937,Libia,Valore delle merci esportate e in transito,,322,322,50,RAV0040597ASI1937.pdf
-1937,1937,Libia,Credito agrario,agricultural credit,322,322,51,RAV0040597ASI1937.pdf
-1937,1937,Libia,Istruzione (a),schooling,323,323,52,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Climatologia (a),,298,298,1,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Superficie e pop_olazione (a),area and population,299,299,2,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Servizi postelegraflci (a),,299,299,3,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Traffico ferroviario (a),railway traffic,299,299,4,RAV0040597ASI1937.pdf
+1937,1937,Libia,Oomunicazioni e trasporti,,300,300,5,RAV0040597ASI1937.pdf
+1937,1937,Libia,Navigazione marittima (a),shipping,300,300,6,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Commercio marittimo (a),maritime trade,301,301,7,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Depositi nelle Casse di Risparmio Postali (a),,301,301,8,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Depositi nelle Casse di Risparmio ordinarie e negli Istituti di credito ordinario (a),,301,301,9,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Principali operazioni effettuate dalla Banca d'Italia (a),,302,302,10,RAV0040597ASI1937.pdf
+1937,1937,Libia,"Migliaia N. Migliaia N. Migliaia N. 1 Mi""gl""ia""ia N. 1Mi~""a""i""a N. 1}I:I""@''""ai'a'",,302,302,11,RAV0040597ASI1937.pdf
+1937,1937,all colonies,Credito fondiario-agrario (a),,302,302,12,RAV0040597ASI1937.pdf
+1937,1937,Libia,Opere pubbliche (a),,303,303,13,RAV0040597ASI1937.pdf
+1937,1937,Libia,Popolazione,population,311,311,14,RAV0040597ASI1937.pdf
+1937,1937,Libia,Colonizzazione agraria nella Libia occidentale (a),agrarian settlement,311,311,15,RAV0040597ASI1937.pdf
+1937,1937,Libia,Famiglie coloniche,,311,311,16,RAV0040597ASI1937.pdf
+1937,1937,Libia,Colonizzazione agraria nella Libia orientale,agrarian settlement,312,312,17,RAV0040597ASI1937.pdf
+1937,1937,Libia,Valorizzazione fondiario-agraria (b),,312,312,18,RAV0040597ASI1937.pdf
+1937,1937,Libia,Superflcle seminata nelle circoscrizioni della Libia orientale nell'ann:tta 1934-35 (b),,312,312,19,RAV0040597ASI1937.pdf
+1937,1937,Libia,Pesca (a),fishing,312,312,20,RAV0040597ASI1937.pdf
+1937,1937,Libia,Libia occidentale,,312,312,21,RAV0040597ASI1937.pdf
+1937,1937,Libia,Libia orientale,,312,312,22,RAV0040597ASI1937.pdf
+1937,1937,Libia,Movimento della navigazione nei porti della Libia occidentale (a),shipping,313,313,23,RAV0040597ASI1937.pdf
+1937,1937,Libia,Mo vimento della navigazione nei porti della Libia occidentale,shipping,314,314,24,RAV0040597ASI1937.pdf
+1937,1937,Libia,Movimento della navigazione nei porti della Libia orientale (a),shipping,314,314,25,RAV0040597ASI1937.pdf
+1937,1937,Libia,Commercio marittimo della Libia occidentale (a),maritime trade,315,315,26,RAV0040597ASI1937.pdf
+1937,1937,Libia,Importazione ed esportazione secondo i Paesi di provenienza o di destinazione,,315,315-316,27,RAV0040597ASI1937.pdf
+1937,1937,Libia,Merci importate ed esportate,,315,315-316,28,RAV0040597ASI1937.pdf
+1937,1937,Libia,Commercio marittimo della Libia orientale (a),maritime trade,316,316,29,RAV0040597ASI1937.pdf
+1937,1937,Libia,Credito fondiario-agrario,,316,316,32,RAV0040597ASI1937.pdf
+1937,1937,Libia,Mutui fondiario-agrari,,316,316,33,RAV0040597ASI1937.pdf
+1937,1937,Libia,Credito agrario,agricultural credit,317,317,34,RAV0040597ASI1937.pdf
+1937,1937,Libia,Prestiti per miglioramenti agrari e prestiti di esercizio,,317,317,35,RAV0040597ASI1937.pdf
+1937,1937,Libia,Assicurazioni sociali,,317,317,36,RAV0040597ASI1937.pdf
+1937,1937,Libia,Istruzione (a),schooling,318,318,37,RAV0040597ASI1937.pdf
+1937,1937,Libia,Associazioni sindacali,,318,318,38,RAV0040597ASI1937.pdf
 1938,1938,Libia,Superficie e popolazione (a),area and population,311,311,1,RAV0040597ASI1938.pdf
 1938,1938,Libia,Comunicazioni e trasporti,,311,311,2,RAV0040597ASI1938.pdf
 1938,1938,Libia,"Poste, Telegrafi e Telefoni (a)",posts and telegraphs,311,311,3,RAV0040597ASI1938.pdf
 1938,1938,Libia,Oomunicazioni e trasporti,,312,312,4,RAV0040597ASI1938.pdf
 1938,1938,Libia,Navigazione marittima (a),shipping,312,312,5,RAV0040597ASI1938.pdf
-1938,1938,Libia,Traffico ferroviario (a),railway traffic,312,312,6,RAV0040597ASI1938.pdf
+1938,1938,all colonies,Traffico ferroviario (a),railway traffic,312,312,6,RAV0040597ASI1938.pdf
 1938,1938,Libia,Linee aeree civili (a),,312,312,7,RAV0040597ASI1938.pdf
 1938,1938,Libia,Commercio con l'Estero (a),,313,313,8,RAV0040597ASI1938.pdf
 1938,1938,Libia,Credito,,313,313-314,9,RAV0040597ASI1938.pdf
@@ -189,6 +234,38 @@ year_from,year_to,scope,table,subject,pdf_page,pdf_pages,order_in_chapter,file
 1938,1938,Libia,Censimento delle aziende agricole metropolitane al 21 aprile 1937 (a),,325,325,18,RAV0040597ASI1938.pdf
 1938,1938,Libia,Numero e superfiCie delle aziende,,325,325,19,RAV0040597ASI1938.pdf
 1938,1938,Libia,"Numero e superficie delle aziende secondo le classi"" di ampiezza",,325,325,20,RAV0040597ASI1938.pdf
+1938,1938,Libia,Censimento delle aziende agricole metropolitane al 21 aprile 1937,,326,326,21,RAV0040597ASI1938.pdf
+1938,1938,Libia,Superficie produttiva e i mproduttiva delle aziende,,326,326,22,RAV0040597ASI1938.pdf
+1938,1938,Libia,SuperfiCie delle piantagioni in coltura asciutta e semi irrigua,,326,326,23,RAV0040597ASI1938.pdf
+1938,1938,Libia,Numero delle piante legnose in coltura asciutta e semi irrigua I,,326,326,24,RAV0040597ASI1938.pdf
+1938,1938,Libia,Censimento dèlle aziende agricole metropoHtane al 21 aprile 1937,,327,327,25,RAV0040597ASI1938.pdf
+1938,1938,Libia,Macchine acrlcole In dotazione delle ulende,,327,327,26,RAV0040597ASI1938.pdf
+1938,1938,Libia,Opere Idriche e mezzi di .ollevamento dell'acqua,,327,327,27,RAV0040597ASI1938.pdf
+1938,1938,Libia,Coat ruzionl rurali e opere di reclnzlone,,327,327,28,RAV0040597ASI1938.pdf
+1938,1938,Libia,Oensimento delle aziende agricole metropolitane al 21 aprile 1937,,328,328,29,RAV0040597ASI1938.pdf
+1938,1938,Libia,Popolazione nelle aziende metropolitane censite,population,328,328,30,RAV0040597ASI1938.pdf
+1938,1938,Libia,N. N. N. N. N. N. N. N. N. N. N. N,,328,328,31,RAV0040597ASI1938.pdf
+1938,1938,Libia,Bestiame delle aziende,,328,328,32,RAV0040597ASI1938.pdf
+1938,1938,Libia,Pesca (a),fishing,328,328,33,RAV0040597ASI1938.pdf
+1938,1938,Libia,Libia occidentale,,328,328,34,RAV0040597ASI1938.pdf
+1938,1938,Libia,Libia orientale,,328,328,35,RAV0040597ASI1938.pdf
+1938,1938,Libia,Movimento della navigazione nei porti della Libia occidentale nell'an no 1937 (a),shipping,329,329,36,RAV0040597ASI1938.pdf
+1938,1938,Libia,Movimento della navicazione nei porti detta Libia orientale (.),,330,330,37,RAV0040597ASI1938.pdf
+1938,1938,Libia,Commercio con l'Estero (a),,331,331,38,RAV0040597ASI1938.pdf
+1938,1938,Libia,Importazioni ed esportazioni secondo i principali Paesi di provenienza e di destinazione,,331,331,39,RAV0040597ASI1938.pdf
+1938,1938,Libia,Principali merci importate ed esportate,,331,331,40,RAV0040597ASI1938.pdf
+1938,1938,Libia,Quantità e prezzi dei prodotti venduti in alcuni mercati nell'anno 1937 (a),,332,332,41,RAV0040597ASI1938.pdf
+1938,1938,Libia,Quantità dei prodotti venduti,,332,332,42,RAV0040597ASI1938.pdf
+1938,1938,Libia,Prezzi massimi e minimi,,332,332,43,RAV0040597ASI1938.pdf
+1938,1938,Libia,Credito agrario,agricultural credit,333,333,44,RAV0040597ASI1938.pdf
+1938,1938,Libia,Credito di miglioramento (mutui ipotecari),,333,333,45,RAV0040597ASI1938.pdf
+1938,1938,Libia,Credito di miglioramento (Cambiali garantite da ipoteca) e Credito di esercizio,,333,333,46,RAV0040597ASI1938.pdf
+1938,1938,Libia,Assicurazioni sociali,,333,333-334,47,RAV0040597ASI1938.pdf
+1938,1938,Libia,Assicurazione per la invalidità e la vecchiaia,,333,333,48,RAV0040597ASI1938.pdf
+1938,1938,Libia,Istruzione (a),schooling,334,334,50,RAV0040597ASI1938.pdf
+1938,1938,Libia,Associazioni sindacali,,335,335,51,RAV0040597ASI1938.pdf
+1938,1938,Libia,Opere pubbliche (a),,335,335,52,RAV0040597ASI1938.pdf
+1938,1938,Libia,MIglIala N. MtgUala N. N. -operato,,335,335,53,RAV0040597ASI1938.pdf
 1939,1939,all colonies,"Popolazione libica residente secondo la religione, la razza e la lingua",population,360,360,1,RAV0040597ASI1939.pdf
 1939,1939,all colonies,Popolazione libica residente dell'Africa Settentrionale Italiana,population,361,361,2,RAV0040597ASI1939.pdf
 1939,1939,all colonies,Depositi nelle Casse di Risparmio Postali (a),,362,362,3,RAV0040597ASI1939.pdf
@@ -203,6 +280,9 @@ year_from,year_to,scope,table,subject,pdf_page,pdf_pages,order_in_chapter,file
 1939,1939,Sahara Libico,Istruzione elementare (a),schooling,365,365,12,RAV0040597ASI1939.pdf
 1940,1940,all colonies,Superficie e popolazione,area and population,112,112,1,RAV0040597ASI1940.pdf
 1940,1940,all colonies,Popolazione libica residente secondo il sesso e lo stato civile,population,112,112,2,RAV0040597ASI1940.pdf
+1940,1940,Sahara Libico,Popolazione residente in complesso,population,114,114,3,RAV0040597ASI1940.pdf
+1940,1940,Sahara Libico,"Popolazione libica residente secondo ii tipo della dimora,",population,114,114,4,RAV0040597ASI1940.pdf
+1940,1940,Sahara Libico,Istruzione elementare (aj,schooling,114,114,5,RAV0040597ASI1940.pdf
 1941,1941,all colonies,Depositi nelle Casse di Risparmio Postali (a),,350,350,1,RAV0040597ASI1941.pdf
 1942,1942,all colonies,POPQìazione iib !c:~ residzlTt\J E:econdo n se~:;so E\ Io stato cìvHe,,202,202,1,RAV0040597ASI1942.pdf
 1943,1943,Africa Settentrionale Italiana,Popolazione libica residente dell'Africa Settentrionale Italiana,population,214,214-215,1,RAV0040597ASI1943.pdf
