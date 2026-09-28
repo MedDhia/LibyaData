@@ -50,6 +50,7 @@ python3 scripts/extract_istat_1931_residents.py
 python3 scripts/extract_istat_1921_libya.py
 python3 scripts/extract_istat_annuario_index.py
 python3 scripts/check_istat_annuario_trade.py
+python3 scripts/extract_istat_annuario_shipping.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1732,6 +1733,67 @@ transliterates, the shabiya, how that shabiya was reached, and how many
 localities it holds. Distretto, Residenza, Mudiria and Circondario are the four
 kinds, which is the colonial hierarchy: 462 localities sit in a Residenza, 284
 in a Distretto, 95 in a Mudiria and 23 in a Circondario.
+
+#### `libya_annuario_shipping.csv`: ports of Libya 1921 to 1937, 884 rows
+
+Published by `scripts/extract_istat_annuario_shipping.py` from the shipping
+tables of the `Annuario Statistico Italiano`, transcribed by eye from 25 pages
+in twelve volumes (1922-1925 to 1938). The transcription is
+`data/raw/istat/libya_annuario_shipping.csv`, one row per printing, and is the
+source.
+
+One row per `colony`, `port`, `year`, `flag` (`all` or `italian`),
+`propulsion` (`steam`, `sail` or `all`) and `direction` (`arrived` or
+`departed`): `vessels`, `net_tonnage` (net registered tons), `cargo_tonnes`
+(landed for arrivals, loaded for departures) and `passengers` (landed or
+embarked). `port` is `all ports` for a colony total. `printings` counts the
+volumes that print the line, `volumes` names them, and `agreement` is
+`agree`, `single printing` or `revised`.
+
+What each volume prints differs, so the series is not a balanced panel:
+
+| Years | Tripolitania | Cirenaica |
+|---|---|---|
+| 1921-1931 | Tripoli only, steam and sail | five to seven principal ports, all vessels, no colony total |
+| 1932-1933 | Tripoli, steam and sail; colony totals from the summary tables | ports and colony totals |
+| 1934-1937 | every port by steam and sail, all flags and Italian | the same |
+
+A blank is a figure the volume does not print, not a zero: the summary tables
+give tonnage, cargo and passengers but no count of vessels. The 1913 to 1921
+tables of `Movimento della navigazione con l'Italia` count traffic between
+Italy and Libya from the Italian side and are left out, as they were for trade.
+
+`libya_annuario_shipping_printings.csv` holds every printing of every figure:
+`value` as published, `printed` as the page has it, `volume`, `pdf_page`, and
+`status`, which is `published` or `superseded by the N volume`.
+
+**Tripoli grew fivefold in tonnage and more than threefold in cargo.** Ships
+arriving at Tripoli had 285,842 net tons in 1923 and 1,417,043 in 1937, and
+landed 103,416 tonnes of cargo against 353,636. Cargo loaded for export stayed
+between 24,000 and 58,000 tonnes a year throughout: the port imported for the
+colony and exported little.
+
+**Checks.** Steam plus sail equals the whole for every measure wherever a
+table prints all three; the ports add to the colony total wherever both are
+printed; Italian-flag figures never exceed all flags; 1,586 sums in all. A
+figure printed in more than one volume must agree across them, and 184 of the
+884 lines are printed more than once. Four sets of lines differ between
+volumes, and in each the later volume's footnote says it corrected figures
+published in the previous yearbook: Tripoli 1929 (revised in 1933), Cirenaica
+1932 and 1933 (revised in 1936), and Tripolitania's 1936 departures (revised in
+1938). The latest printing is published and the earlier ones are kept as
+`superseded`. A difference anywhere else would fail the script.
+
+The 1938 volume misprints Apollonia's 1937 sail tonnage, departures, all
+flags, as 2 964. Steam plus sail must give the printed whole (105 334 - 102 380)
+and the ports must give the printed colony total 34 023; both need 2 954,
+which is published with a `note`. Some bold total lines of the 1938 volume are
+smudged; they were read from the sum of the ports, which agrees with every
+legible digit and, for all flags, with the same volume's summary table.
+
+About 276 of the 4,898 figures cannot be tested by any of these checks: the
+Cyrenaican port lines of 1921 and 1929 to 1932, printed once and without a
+colony total. They rest on a single reading at high magnification.
 
 ---
 

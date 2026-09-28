@@ -1061,6 +1061,45 @@ if trade_path.exists():
                  f"total; {int((tr.agreement == 'one volume only').sum())} "
                  f"colony-years rest on a single volume")
 
+ship_path = OUT / "istat" / "libya_annuario_shipping.csv"
+if ship_path.exists():
+    print("\nShipping in the ports of Libya 1921-1937, from the yearbook")
+    sh = pd.read_csv(ship_path)
+    pr = pd.read_csv(OUT / "istat" / "libya_annuario_shipping_printings.csv")
+    trouble = []
+    key = ["colony", "port", "year", "flag", "direction"]
+    m = ["vessels", "net_tonnage", "cargo_tonnes", "passengers"]
+    wide = sh.pivot_table(index=key, columns="propulsion", values=m)
+    for col in m:
+        w = wide[col].dropna()
+        if {"steam", "sail", "all"} <= set(w.columns) and not (
+                w.steam + w.sail).equals(w["all"]):
+            trouble.append(f"steam + sail != all for {col}")
+    pub = pr[pr.status == "published"]
+    merged = pub.merge(sh.melt(id_vars=key + ["propulsion"], value_vars=m,
+                               var_name="measure", value_name="series"),
+                       on=key + ["propulsion", "measure"])
+    if not (merged.value == merged.series).all():
+        trouble.append("a published printing differs from the series")
+    stale = pr[pr.status.str.startswith("superseded")]
+    if len(stale.merge(sh.melt(id_vars=key + ["propulsion"], value_vars=m,
+                               var_name="measure", value_name="value"),
+                       on=key + ["propulsion", "measure", "value"])):
+        trouble.append("a superseded printing is published")
+    if not sh.year.between(1921, 1937).all():
+        trouble.append("years outside 1921-1937")
+    if trouble:
+        failures.append(f"annuario shipping: {trouble[:3]}")
+        print(f"  [FAIL] {trouble[:3]}")
+    else:
+        print(f"  [ok ] steam and sail add to the whole; all {len(pub):,} "
+              f"published printings equal the series, "
+              f"{len(stale)} superseded printings kept out")
+    notes.append(f"annuario shipping: {len(sh)} lines, "
+                 f"{int((sh.agreement == 'revised').sum())} revised by a "
+                 f"later volume; the Cyrenaican port lines of 1921 and "
+                 f"1929-1932 rest on a single reading")
+
 dist_path = OUT / "istat" / "libya_1931_districts.csv"
 if dist_path.exists():
     print("\n1931 census table II, Libya by district")

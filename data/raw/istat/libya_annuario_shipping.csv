@@ -1,0 +1,1233 @@
+volume,pdf_page,colony,port,year,flag,propulsion,direction,vessels,net_tonnage,cargo_tonnes,passengers
+1922-1925,381,Tripolitania,Tripoli,1923,all,steam,arrived,360,270258,82658,31778
+1922-1925,381,Tripolitania,Tripoli,1923,all,sail,arrived,338,15584,20758,71
+1922-1925,381,Tripolitania,Tripoli,1923,all,all,arrived,698,285842,103416,31849
+1922-1925,381,Tripolitania,Tripoli,1923,all,steam,departed,364,274145,20196,20850
+1922-1925,381,Tripolitania,Tripoli,1923,all,sail,departed,323,13919,6247,51
+1922-1925,381,Tripolitania,Tripoli,1923,all,all,departed,687,288064,26443,20901
+1922-1925,381,Tripolitania,Tripoli,1924,all,steam,arrived,435,325892,122909,30330
+1922-1925,381,Tripolitania,Tripoli,1924,all,sail,arrived,411,26061,29012,105
+1922-1925,381,Tripolitania,Tripoli,1924,all,all,arrived,846,351953,151921,30435
+1922-1925,381,Tripolitania,Tripoli,1924,all,steam,departed,432,327014,28847,29152
+1922-1925,381,Tripolitania,Tripoli,1924,all,sail,departed,395,26748,23407,65
+1922-1925,381,Tripolitania,Tripoli,1924,all,all,departed,827,353762,52254,29217
+1922-1925,381,Tripolitania,Tripoli,1925,all,steam,arrived,404,319249,90113,27891
+1922-1925,381,Tripolitania,Tripoli,1925,all,sail,arrived,302,11221,12557,115
+1922-1925,381,Tripolitania,Tripoli,1925,all,all,arrived,706,330470,102670,28006
+1922-1925,381,Tripolitania,Tripoli,1925,all,steam,departed,403,311317,27697,25210
+1922-1925,381,Tripolitania,Tripoli,1925,all,sail,departed,304,11303,10414,66
+1922-1925,381,Tripolitania,Tripoli,1925,all,all,departed,707,322620,38111,25276
+1922-1925,383,Cirenaica,Bengasi,1921,all,all,arrived,301,161429,30531,14240
+1922-1925,383,Cirenaica,Bengasi,1921,all,all,departed,307,159847,13913,11710
+1922-1925,383,Cirenaica,Derna,1921,all,all,arrived,163,46729,6093,3160
+1922-1925,383,Cirenaica,Derna,1921,all,all,departed,164,46996,3509,3019
+1922-1925,383,Cirenaica,Tobruk,1921,all,all,arrived,84,41595,2943,2141
+1922-1925,383,Cirenaica,Tobruk,1921,all,all,departed,87,41872,3656,1504
+1922-1925,383,Cirenaica,Apollonia,1921,all,all,arrived,142,31868,2293,1721
+1922-1925,383,Cirenaica,Apollonia,1921,all,all,departed,130,31868,2198,1078
+1922-1925,383,Cirenaica,Tolmetta,1921,all,all,arrived,65,28648,828,390
+1922-1925,383,Cirenaica,Tolmetta,1921,all,all,departed,65,28648,543,72
+1922-1925,383,Cirenaica,Bengasi,1922,all,all,arrived,410,243557,37950,16128
+1922-1925,383,Cirenaica,Bengasi,1922,all,all,departed,394,240502,37145,16192
+1922-1925,383,Cirenaica,Derna,1922,all,all,arrived,236,81170,8258,4660
+1922-1925,383,Cirenaica,Derna,1922,all,all,departed,235,81101,2924,4383
+1922-1925,383,Cirenaica,Tobruk,1922,all,all,arrived,156,71047,2926,1819
+1922-1925,383,Cirenaica,Tobruk,1922,all,all,departed,178,75655,1747,2066
+1922-1925,383,Cirenaica,Apollonia,1922,all,all,arrived,158,43781,5259,2484
+1922-1925,383,Cirenaica,Apollonia,1922,all,all,departed,158,43680,746,1040
+1922-1925,383,Cirenaica,Tolmetta,1922,all,all,arrived,99,37918,1551,291
+1922-1925,383,Cirenaica,Tolmetta,1922,all,all,departed,99,37918,727,317
+1922-1925,384,Cirenaica,Bengasi,1923,all,all,arrived,529,236714,49999,25420
+1922-1925,384,Cirenaica,Bengasi,1923,all,all,departed,529,247214,36423,23090
+1922-1925,384,Cirenaica,Derna,1923,all,all,arrived,182,74837,4275,3046
+1922-1925,384,Cirenaica,Derna,1923,all,all,departed,177,71877,3511,3756
+1922-1925,384,Cirenaica,Tobruk,1923,all,all,arrived,111,26421,2999,2313
+1922-1925,384,Cirenaica,Tobruk,1923,all,all,departed,112,25334,2163,2932
+1922-1925,384,Cirenaica,Apollonia,1923,all,all,arrived,112,29144,5018,2074
+1922-1925,384,Cirenaica,Apollonia,1923,all,all,departed,112,27144,977,1495
+1922-1925,384,Cirenaica,Tolmetta,1923,all,all,arrived,94,29288,2670,1150
+1922-1925,384,Cirenaica,Tolmetta,1923,all,all,departed,94,29288,1090,460
+1922-1925,384,Cirenaica,Bengasi,1924,all,all,arrived,477,331239,65356,38298
+1922-1925,384,Cirenaica,Bengasi,1924,all,all,departed,471,310908,44469,34478
+1922-1925,384,Cirenaica,Derna,1924,all,all,arrived,218,91605,7467,5954
+1922-1925,384,Cirenaica,Derna,1924,all,all,departed,211,98300,6274,5006
+1922-1925,384,Cirenaica,Tobruk,1924,all,all,arrived,124,56823,6442,3332
+1922-1925,384,Cirenaica,Tobruk,1924,all,all,departed,124,52139,1260,2894
+1922-1925,384,Cirenaica,Apollonia,1924,all,all,arrived,153,66510,7046,4259
+1922-1925,384,Cirenaica,Apollonia,1924,all,all,departed,153,67427,1260,3712
+1922-1925,384,Cirenaica,Tolmetta,1924,all,all,arrived,111,46590,4584,1794
+1922-1925,384,Cirenaica,Tolmetta,1924,all,all,departed,109,44972,958,934
+1922-1925,384,Cirenaica,Bengasi,1925,all,all,arrived,479,302436,76008,35552
+1922-1925,384,Cirenaica,Bengasi,1925,all,all,departed,474,301609,42957,32239
+1922-1925,384,Cirenaica,Derna,1925,all,all,arrived,302,114131,9150,5317
+1922-1925,384,Cirenaica,Derna,1925,all,all,departed,310,113813,1936,5967
+1922-1925,384,Cirenaica,Tobruk,1925,all,all,arrived,185,76759,17678,4570
+1922-1925,384,Cirenaica,Tobruk,1925,all,all,departed,185,73171,2881,3636
+1922-1925,384,Cirenaica,Apollonia,1925,all,all,arrived,172,98560,7809,3677
+1922-1925,384,Cirenaica,Apollonia,1925,all,all,departed,175,87274,784,3475
+1922-1925,384,Cirenaica,Tolmetta,1925,all,all,arrived,143,53773,6156,598
+1922-1925,384,Cirenaica,Tolmetta,1925,all,all,departed,142,51948,357,874
+1927,353,Tripolitania,Tripoli,1924,all,steam,arrived,435,325892,122909,30330
+1927,353,Tripolitania,Tripoli,1924,all,steam,departed,432,327014,28847,29152
+1927,353,Tripolitania,Tripoli,1924,all,sail,arrived,411,26061,29012,105
+1927,353,Tripolitania,Tripoli,1924,all,sail,departed,395,26748,23407,65
+1927,353,Tripolitania,Tripoli,1924,all,all,arrived,846,351953,151921,30435
+1927,353,Tripolitania,Tripoli,1924,all,all,departed,827,353762,52254,29217
+1927,353,Tripolitania,Tripoli,1925,all,steam,arrived,404,319249,90113,27891
+1927,353,Tripolitania,Tripoli,1925,all,steam,departed,403,311317,27697,25210
+1927,353,Tripolitania,Tripoli,1925,all,sail,arrived,302,11221,12557,115
+1927,353,Tripolitania,Tripoli,1925,all,sail,departed,304,11303,10414,66
+1927,353,Tripolitania,Tripoli,1925,all,all,arrived,706,330470,102670,28006
+1927,353,Tripolitania,Tripoli,1925,all,all,departed,707,322620,38111,25276
+1927,353,Tripolitania,Tripoli,1926,all,steam,arrived,427,524912,91891,27621
+1927,353,Tripolitania,Tripoli,1926,all,steam,departed,431,526921,23667,26212
+1927,353,Tripolitania,Tripoli,1926,all,sail,arrived,320,10557,11724,62
+1927,353,Tripolitania,Tripoli,1926,all,sail,departed,305,10290,9018,45
+1927,353,Tripolitania,Tripoli,1926,all,all,arrived,747,535469,103615,27683
+1927,353,Tripolitania,Tripoli,1926,all,all,departed,736,537211,32685,26257
+1927,355,Cirenaica,Bengasi,1922,all,all,arrived,410,243557,37950,16128
+1927,355,Cirenaica,Bengasi,1922,all,all,departed,394,240502,37145,16192
+1927,355,Cirenaica,Derna,1922,all,all,arrived,236,81170,8258,4660
+1927,355,Cirenaica,Derna,1922,all,all,departed,235,81101,2924,4383
+1927,355,Cirenaica,Tobruk,1922,all,all,arrived,156,71047,2926,1819
+1927,355,Cirenaica,Tobruk,1922,all,all,departed,178,75655,1747,2066
+1927,355,Cirenaica,Apollonia,1922,all,all,arrived,158,43781,5259,2484
+1927,355,Cirenaica,Apollonia,1922,all,all,departed,158,43680,746,1040
+1927,355,Cirenaica,Tolmetta,1922,all,all,arrived,99,37918,1551,291
+1927,355,Cirenaica,Tolmetta,1922,all,all,departed,99,37918,727,317
+1927,355,Cirenaica,Bengasi,1923,all,all,arrived,529,236714,49999,25420
+1927,355,Cirenaica,Bengasi,1923,all,all,departed,529,247214,36423,23090
+1927,355,Cirenaica,Derna,1923,all,all,arrived,182,74837,4275,3046
+1927,355,Cirenaica,Derna,1923,all,all,departed,177,71877,3511,3756
+1927,355,Cirenaica,Tobruk,1923,all,all,arrived,111,26421,2999,2313
+1927,355,Cirenaica,Tobruk,1923,all,all,departed,112,25334,2163,2932
+1927,355,Cirenaica,Apollonia,1923,all,all,arrived,112,29144,5018,2074
+1927,355,Cirenaica,Apollonia,1923,all,all,departed,112,27144,977,1495
+1927,355,Cirenaica,Tolmetta,1923,all,all,arrived,94,29288,2670,1150
+1927,355,Cirenaica,Tolmetta,1923,all,all,departed,94,29288,1090,460
+1927,356,Cirenaica,Bengasi,1924,all,all,arrived,477,331239,65356,38298
+1927,356,Cirenaica,Bengasi,1924,all,all,departed,471,310908,44469,34478
+1927,356,Cirenaica,Derna,1924,all,all,arrived,218,91605,7467,5954
+1927,356,Cirenaica,Derna,1924,all,all,departed,211,98300,6274,5006
+1927,356,Cirenaica,Tobruk,1924,all,all,arrived,124,56823,6442,3332
+1927,356,Cirenaica,Tobruk,1924,all,all,departed,124,52139,1260,2894
+1927,356,Cirenaica,Apollonia,1924,all,all,arrived,153,66510,7046,4259
+1927,356,Cirenaica,Apollonia,1924,all,all,departed,153,67427,1260,3712
+1927,356,Cirenaica,Tolmetta,1924,all,all,arrived,111,46590,4584,1794
+1927,356,Cirenaica,Tolmetta,1924,all,all,departed,109,44972,958,934
+1927,356,Cirenaica,Bengasi,1925,all,all,arrived,479,302436,76008,35552
+1927,356,Cirenaica,Bengasi,1925,all,all,departed,474,301609,42957,32239
+1927,356,Cirenaica,Derna,1925,all,all,arrived,302,114131,9150,5317
+1927,356,Cirenaica,Derna,1925,all,all,departed,310,113813,1936,5967
+1927,356,Cirenaica,Tobruk,1925,all,all,arrived,185,76759,17678,4570
+1927,356,Cirenaica,Tobruk,1925,all,all,departed,185,73171,2881,3636
+1927,356,Cirenaica,Apollonia,1925,all,all,arrived,172,98560,7809,3677
+1927,356,Cirenaica,Apollonia,1925,all,all,departed,175,87274,784,3475
+1927,356,Cirenaica,Tolmetta,1925,all,all,arrived,143,53773,6156,598
+1927,356,Cirenaica,Tolmetta,1925,all,all,departed,142,51948,357,874
+1927,356,Cirenaica,Bengasi,1926,all,all,arrived,374,281540,67608,33886
+1927,356,Cirenaica,Bengasi,1926,all,all,departed,369,271698,26208,33057
+1927,356,Cirenaica,Derna,1926,all,all,arrived,259,104479,8463,9177
+1927,356,Cirenaica,Derna,1926,all,all,departed,259,104479,2710,6009
+1927,356,Cirenaica,Tobruk,1926,all,all,arrived,144,68372,6022,4750
+1927,356,Cirenaica,Tobruk,1926,all,all,departed,140,66683,2470,3872
+1927,356,Cirenaica,Apollonia,1926,all,all,arrived,144,61134,7197,5096
+1927,356,Cirenaica,Apollonia,1926,all,all,departed,144,60378,1086,4176
+1927,356,Cirenaica,Tolmetta,1926,all,all,arrived,100,49472,4148,1178
+1927,356,Cirenaica,Tolmetta,1926,all,all,departed,98,50496,214,1584
+1928,370,Tripolitania,Tripoli,1926,all,steam,arrived,427,524912,91891,27621
+1928,370,Tripolitania,Tripoli,1926,all,steam,departed,431,526921,23667,26212
+1928,370,Tripolitania,Tripoli,1926,all,sail,arrived,320,10557,11724,62
+1928,370,Tripolitania,Tripoli,1926,all,sail,departed,305,10290,9018,45
+1928,370,Tripolitania,Tripoli,1926,all,all,arrived,747,535469,103615,27683
+1928,370,Tripolitania,Tripoli,1926,all,all,departed,736,537211,32685,26257
+1928,370,Tripolitania,Tripoli,1927,all,steam,arrived,525,579432,108743,29512
+1928,370,Tripolitania,Tripoli,1927,all,steam,departed,525,580916,32931,29142
+1928,370,Tripolitania,Tripoli,1927,all,sail,arrived,273,10940,11896,30
+1928,370,Tripolitania,Tripoli,1927,all,sail,departed,280,11482,9917,41
+1928,370,Tripolitania,Tripoli,1927,all,all,arrived,798,590372,120639,29542
+1928,370,Tripolitania,Tripoli,1927,all,all,departed,805,592398,42848,29183
+1928,372,Cirenaica,Bengasi,1923,all,all,arrived,529,236714,49999,25420
+1928,372,Cirenaica,Bengasi,1923,all,all,departed,529,247214,36423,23090
+1928,372,Cirenaica,Derna,1923,all,all,arrived,182,74837,4275,3046
+1928,372,Cirenaica,Derna,1923,all,all,departed,177,71877,3511,3756
+1928,372,Cirenaica,Tobruk,1923,all,all,arrived,111,26421,2999,2313
+1928,372,Cirenaica,Tobruk,1923,all,all,departed,112,25334,2163,2932
+1928,372,Cirenaica,Apollonia,1923,all,all,arrived,112,29144,5018,2074
+1928,372,Cirenaica,Apollonia,1923,all,all,departed,112,27144,977,1495
+1928,372,Cirenaica,Tolmetta,1923,all,all,arrived,94,29288,2670,1150
+1928,372,Cirenaica,Tolmetta,1923,all,all,departed,94,29288,1090,460
+1928,372,Cirenaica,Bengasi,1924,all,all,arrived,477,331239,65356,38298
+1928,372,Cirenaica,Bengasi,1924,all,all,departed,471,310908,44469,34478
+1928,372,Cirenaica,Derna,1924,all,all,arrived,218,91605,7467,5954
+1928,372,Cirenaica,Derna,1924,all,all,departed,211,98300,6274,5006
+1928,372,Cirenaica,Tobruk,1924,all,all,arrived,124,56823,6442,3332
+1928,372,Cirenaica,Tobruk,1924,all,all,departed,124,52139,1260,2894
+1928,372,Cirenaica,Apollonia,1924,all,all,arrived,153,66510,7046,4259
+1928,372,Cirenaica,Apollonia,1924,all,all,departed,153,67427,1260,3712
+1928,372,Cirenaica,Tolmetta,1924,all,all,arrived,111,46590,4584,1794
+1928,372,Cirenaica,Tolmetta,1924,all,all,departed,109,44972,958,934
+1928,373,Cirenaica,Bengasi,1925,all,all,arrived,479,302436,76008,35552
+1928,373,Cirenaica,Bengasi,1925,all,all,departed,474,301609,42957,32239
+1928,373,Cirenaica,Derna,1925,all,all,arrived,302,114131,9150,5317
+1928,373,Cirenaica,Derna,1925,all,all,departed,310,113813,1936,5967
+1928,373,Cirenaica,Tobruk,1925,all,all,arrived,185,76759,17678,4570
+1928,373,Cirenaica,Tobruk,1925,all,all,departed,185,73171,2881,3636
+1928,373,Cirenaica,Apollonia,1925,all,all,arrived,172,98560,7809,3677
+1928,373,Cirenaica,Apollonia,1925,all,all,departed,175,87274,784,3475
+1928,373,Cirenaica,Tolmetta,1925,all,all,arrived,143,53773,6156,598
+1928,373,Cirenaica,Tolmetta,1925,all,all,departed,142,51948,357,874
+1928,373,Cirenaica,Bengasi,1926,all,all,arrived,374,281540,67608,33886
+1928,373,Cirenaica,Bengasi,1926,all,all,departed,369,271698,26208,33057
+1928,373,Cirenaica,Derna,1926,all,all,arrived,259,104479,8463,9177
+1928,373,Cirenaica,Derna,1926,all,all,departed,259,104479,2710,6009
+1928,373,Cirenaica,Tobruk,1926,all,all,arrived,144,68372,6022,4750
+1928,373,Cirenaica,Tobruk,1926,all,all,departed,140,66683,2470,3872
+1928,373,Cirenaica,Apollonia,1926,all,all,arrived,144,61134,7197,5096
+1928,373,Cirenaica,Apollonia,1926,all,all,departed,144,60378,1086,4176
+1928,373,Cirenaica,Tolmetta,1926,all,all,arrived,100,49472,4148,1178
+1928,373,Cirenaica,Tolmetta,1926,all,all,departed,98,50496,214,1584
+1928,373,Cirenaica,Bengasi,1927,all,all,arrived,448,324672,105801,29259
+1928,373,Cirenaica,Bengasi,1927,all,all,departed,443,316791,28751,31595
+1928,373,Cirenaica,Derna,1927,all,all,arrived,187,104114,11417,6580
+1928,373,Cirenaica,Derna,1927,all,all,departed,187,104114,2843,7392
+1928,373,Cirenaica,Tobruk,1927,all,all,arrived,169,56424,6755,3449
+1928,373,Cirenaica,Tobruk,1927,all,all,departed,169,56424,1092,3609
+1928,373,Cirenaica,Apollonia,1927,all,all,arrived,132,63081,9896,4247
+1928,373,Cirenaica,Apollonia,1927,all,all,departed,132,63081,387,5504
+1928,373,Cirenaica,Tolmetta,1927,all,all,arrived,72,44571,3511,1706
+1928,373,Cirenaica,Tolmetta,1927,all,all,departed,72,44571,181,493
+1929,467,Tripolitania,Tripoli,1928,all,steam,arrived,550,658664,121507,28033
+1929,467,Tripolitania,Tripoli,1928,all,steam,departed,551,661785,31881,27156
+1929,467,Tripolitania,Tripoli,1928,all,sail,arrived,359,14538,13900,79
+1929,467,Tripolitania,Tripoli,1928,all,sail,departed,350,13117,6862,49
+1929,467,Tripolitania,Tripoli,1928,all,all,arrived,909,673202,135407,28112
+1929,467,Tripolitania,Tripoli,1928,all,all,departed,901,674902,38743,27205
+1929,469,Cirenaica,Bengasi,1924,all,all,arrived,477,331239,65356,38298
+1929,469,Cirenaica,Bengasi,1924,all,all,departed,471,310908,44469,34478
+1929,469,Cirenaica,Derna,1924,all,all,arrived,218,91605,7467,5954
+1929,469,Cirenaica,Derna,1924,all,all,departed,211,98300,6274,5006
+1929,469,Cirenaica,Tobruk,1924,all,all,arrived,124,56823,6442,3332
+1929,469,Cirenaica,Tobruk,1924,all,all,departed,124,52139,1260,2894
+1929,469,Cirenaica,Apollonia,1924,all,all,arrived,153,66510,7046,4259
+1929,469,Cirenaica,Apollonia,1924,all,all,departed,153,67427,1260,3712
+1929,469,Cirenaica,Tolmetta,1924,all,all,arrived,111,46590,4584,1794
+1929,469,Cirenaica,Tolmetta,1924,all,all,departed,109,44972,958,934
+1929,469,Cirenaica,Bengasi,1925,all,all,arrived,479,302436,76008,35552
+1929,469,Cirenaica,Bengasi,1925,all,all,departed,474,301609,42957,32239
+1929,469,Cirenaica,Derna,1925,all,all,arrived,302,114131,9150,5317
+1929,469,Cirenaica,Derna,1925,all,all,departed,310,113813,1936,5967
+1929,469,Cirenaica,Tobruk,1925,all,all,arrived,185,76759,17678,4570
+1929,469,Cirenaica,Tobruk,1925,all,all,departed,185,73171,2881,3636
+1929,469,Cirenaica,Apollonia,1925,all,all,arrived,172,98560,7809,3677
+1929,469,Cirenaica,Apollonia,1925,all,all,departed,175,87274,784,3475
+1929,469,Cirenaica,Tolmetta,1925,all,all,arrived,143,53773,6156,598
+1929,469,Cirenaica,Tolmetta,1925,all,all,departed,142,51948,357,874
+1929,470,Cirenaica,Bengasi,1926,all,all,arrived,374,281540,67608,33886
+1929,470,Cirenaica,Bengasi,1926,all,all,departed,369,271698,26208,33057
+1929,470,Cirenaica,Derna,1926,all,all,arrived,259,104479,8463,9177
+1929,470,Cirenaica,Derna,1926,all,all,departed,259,104479,2710,6009
+1929,470,Cirenaica,Tobruk,1926,all,all,arrived,144,68372,6022,4750
+1929,470,Cirenaica,Tobruk,1926,all,all,departed,140,66683,2470,3872
+1929,470,Cirenaica,Apollonia,1926,all,all,arrived,144,61134,7197,5096
+1929,470,Cirenaica,Apollonia,1926,all,all,departed,144,60378,1086,4176
+1929,470,Cirenaica,Tolmetta,1926,all,all,arrived,100,49472,4148,1178
+1929,470,Cirenaica,Tolmetta,1926,all,all,departed,98,50496,214,1584
+1929,470,Cirenaica,Bengasi,1927,all,all,arrived,448,324672,105801,29259
+1929,470,Cirenaica,Bengasi,1927,all,all,departed,443,316791,28751,31595
+1929,470,Cirenaica,Derna,1927,all,all,arrived,187,104114,11417,6580
+1929,470,Cirenaica,Derna,1927,all,all,departed,187,104114,2843,7392
+1929,470,Cirenaica,Tobruk,1927,all,all,arrived,169,56424,6755,3449
+1929,470,Cirenaica,Tobruk,1927,all,all,departed,169,56424,1092,3609
+1929,470,Cirenaica,Apollonia,1927,all,all,arrived,132,63081,9896,4247
+1929,470,Cirenaica,Apollonia,1927,all,all,departed,132,63081,387,5504
+1929,470,Cirenaica,Tolmetta,1927,all,all,arrived,72,44571,3511,1706
+1929,470,Cirenaica,Tolmetta,1927,all,all,departed,72,44571,181,493
+1929,470,Cirenaica,Bengasi,1928,all,all,arrived,533,330588,90106,50580
+1929,470,Cirenaica,Bengasi,1928,all,all,departed,541,329246,49115,28138
+1929,470,Cirenaica,Derna,1928,all,all,arrived,196,111110,11201,3611
+1929,470,Cirenaica,Derna,1928,all,all,departed,195,110239,1934,5294
+1929,470,Cirenaica,Tobruk,1928,all,all,arrived,207,57503,8404,2806
+1929,470,Cirenaica,Tobruk,1928,all,all,departed,186,57083,973,2464
+1929,470,Cirenaica,Apollonia,1928,all,all,arrived,129,65463,10280,2919
+1929,470,Cirenaica,Apollonia,1928,all,all,departed,129,65462,728,3827
+1929,470,Cirenaica,Tolmetta,1928,all,all,arrived,49,30189,1190,244
+1929,470,Cirenaica,Tolmetta,1928,all,all,departed,48,28934,125,355
+1930,519,Tripolitania,Tripoli,1925,all,steam,arrived,404,319249,90113,27891
+1930,519,Tripolitania,Tripoli,1925,all,steam,departed,403,311317,27697,25210
+1930,519,Tripolitania,Tripoli,1925,all,sail,arrived,302,11221,12557,115
+1930,519,Tripolitania,Tripoli,1925,all,sail,departed,304,11303,10414,66
+1930,519,Tripolitania,Tripoli,1925,all,all,arrived,706,330470,102670,28006
+1930,519,Tripolitania,Tripoli,1925,all,all,departed,707,322620,38111,25276
+1930,519,Tripolitania,Tripoli,1926,all,steam,arrived,427,524912,91891,27621
+1930,519,Tripolitania,Tripoli,1926,all,steam,departed,431,526921,23667,26212
+1930,519,Tripolitania,Tripoli,1926,all,sail,arrived,320,10557,11724,62
+1930,519,Tripolitania,Tripoli,1926,all,sail,departed,305,10290,9018,45
+1930,519,Tripolitania,Tripoli,1926,all,all,arrived,747,535469,103615,27683
+1930,519,Tripolitania,Tripoli,1926,all,all,departed,736,537211,32685,26257
+1930,519,Tripolitania,Tripoli,1927,all,steam,arrived,525,579432,108743,29512
+1930,519,Tripolitania,Tripoli,1927,all,steam,departed,525,580916,32931,29142
+1930,519,Tripolitania,Tripoli,1927,all,sail,arrived,273,10940,11896,30
+1930,519,Tripolitania,Tripoli,1927,all,sail,departed,280,11482,9917,41
+1930,519,Tripolitania,Tripoli,1927,all,all,arrived,798,590372,120639,29542
+1930,519,Tripolitania,Tripoli,1927,all,all,departed,805,592398,42848,29183
+1930,519,Tripolitania,Tripoli,1928,all,steam,arrived,550,658664,121507,28033
+1930,519,Tripolitania,Tripoli,1928,all,steam,departed,551,661785,31881,27156
+1930,519,Tripolitania,Tripoli,1928,all,sail,arrived,359,14538,13900,79
+1930,519,Tripolitania,Tripoli,1928,all,sail,departed,350,13117,6862,49
+1930,519,Tripolitania,Tripoli,1928,all,all,arrived,909,673202,135407,28112
+1930,519,Tripolitania,Tripoli,1928,all,all,departed,901,674902,38743,27205
+1930,519,Tripolitania,Tripoli,1929,all,steam,arrived,601,750320,142436,25963
+1930,519,Tripolitania,Tripoli,1929,all,steam,departed,598,747092,15743,26364
+1930,519,Tripolitania,Tripoli,1929,all,sail,arrived,219,9526,6908,53
+1930,519,Tripolitania,Tripoli,1929,all,sail,departed,243,10198,8528,26
+1930,519,Tripolitania,Tripoli,1929,all,all,arrived,820,759846,149344,26016
+1930,519,Tripolitania,Tripoli,1929,all,all,departed,841,757290,24271,26390
+1930,524,Cirenaica,Bengasi,1928,all,all,arrived,533,330588,90106,50580
+1930,524,Cirenaica,Bengasi,1928,all,all,departed,541,329246,49115,28138
+1930,524,Cirenaica,Derna,1928,all,all,arrived,196,111110,11201,3611
+1930,524,Cirenaica,Derna,1928,all,all,departed,195,110239,1934,5294
+1930,524,Cirenaica,Tobruk,1928,all,all,arrived,207,57503,8404,2806
+1930,524,Cirenaica,Tobruk,1928,all,all,departed,186,57083,973,2464
+1930,524,Cirenaica,Apollonia,1928,all,all,arrived,129,65463,10280,2919
+1930,524,Cirenaica,Apollonia,1928,all,all,departed,129,65462,728,3827
+1930,524,Cirenaica,Tolmetta,1928,all,all,arrived,49,30189,1190,244
+1930,524,Cirenaica,Tolmetta,1928,all,all,departed,48,28934,125,355
+1930,524,Cirenaica,Bengasi,1929,all,all,arrived,363,357206,58500,18522
+1930,524,Cirenaica,Bengasi,1929,all,all,departed,358,359248,14737,17103
+1930,524,Cirenaica,Derna,1929,all,all,arrived,247,173675,6161,3127
+1930,524,Cirenaica,Derna,1929,all,all,departed,247,173675,1139,3486
+1930,524,Cirenaica,Tobruk,1929,all,all,arrived,154,51111,4077,1114
+1930,524,Cirenaica,Tobruk,1929,all,all,departed,154,51111,1470,2126
+1930,524,Cirenaica,Apollonia,1929,all,all,arrived,104,58364,5083,2370
+1930,524,Cirenaica,Apollonia,1929,all,all,departed,102,57088,842,2791
+1930,524,Cirenaica,Tolmetta,1929,all,all,arrived,47,31489,599,56
+1930,524,Cirenaica,Tolmetta,1929,all,all,departed,48,31991,14,17
+1931,558,Tripolitania,Tripoli,1926,all,steam,arrived,427,524912,91891,27621
+1931,558,Tripolitania,Tripoli,1926,all,steam,departed,431,526921,23667,26212
+1931,558,Tripolitania,Tripoli,1926,all,sail,arrived,320,10557,11724,62
+1931,558,Tripolitania,Tripoli,1926,all,sail,departed,305,10290,9018,45
+1931,558,Tripolitania,Tripoli,1926,all,all,arrived,747,535469,103615,27683
+1931,558,Tripolitania,Tripoli,1926,all,all,departed,736,537211,32685,26257
+1931,558,Tripolitania,Tripoli,1927,all,steam,arrived,525,579432,108743,29512
+1931,558,Tripolitania,Tripoli,1927,all,steam,departed,525,580916,32931,29142
+1931,558,Tripolitania,Tripoli,1927,all,sail,arrived,273,10940,11896,30
+1931,558,Tripolitania,Tripoli,1927,all,sail,departed,280,11482,9917,41
+1931,558,Tripolitania,Tripoli,1927,all,all,arrived,798,590372,120639,29542
+1931,558,Tripolitania,Tripoli,1927,all,all,departed,805,592398,42848,29183
+1931,558,Tripolitania,Tripoli,1928,all,steam,arrived,550,658664,121507,28033
+1931,558,Tripolitania,Tripoli,1928,all,steam,departed,551,661785,31881,27156
+1931,558,Tripolitania,Tripoli,1928,all,sail,arrived,359,14538,13900,79
+1931,558,Tripolitania,Tripoli,1928,all,sail,departed,350,13117,6862,49
+1931,558,Tripolitania,Tripoli,1928,all,all,arrived,909,673202,135407,28112
+1931,558,Tripolitania,Tripoli,1928,all,all,departed,901,674902,38743,27205
+1931,558,Tripolitania,Tripoli,1929,all,steam,arrived,601,750320,142436,25963
+1931,558,Tripolitania,Tripoli,1929,all,steam,departed,598,747092,15743,26364
+1931,558,Tripolitania,Tripoli,1929,all,sail,arrived,219,9526,6908,53
+1931,558,Tripolitania,Tripoli,1929,all,sail,departed,243,10198,8528,26
+1931,558,Tripolitania,Tripoli,1929,all,all,arrived,820,759846,149344,26016
+1931,558,Tripolitania,Tripoli,1929,all,all,departed,841,757290,24271,26390
+1931,558,Tripolitania,Tripoli,1930,all,steam,arrived,558,885627,151603,25065
+1931,558,Tripolitania,Tripoli,1930,all,steam,departed,558,886879,38750,23487
+1931,558,Tripolitania,Tripoli,1930,all,sail,arrived,269,14096,10541,7
+1931,558,Tripolitania,Tripoli,1930,all,sail,departed,274,15283,7747,8
+1931,558,Tripolitania,Tripoli,1930,all,all,arrived,827,899723,162144,25072
+1931,558,Tripolitania,Tripoli,1930,all,all,departed,832,902162,46497,23495
+1931,565,Cirenaica,Porto Bardia,1930,all,all,arrived,30,32556,1004,997
+1931,565,Cirenaica,Porto Bardia,1930,all,all,departed,30,32556,493,1608
+1931,565,Cirenaica,Zuetina,1930,all,all,arrived,53,15352,7571,10578
+1931,565,Cirenaica,Zuetina,1930,all,all,departed,53,15352,483,342
+1931,565,Cirenaica,Bengasi,1930,all,all,arrived,395,423190,73521,26008
+1931,565,Cirenaica,Bengasi,1930,all,all,departed,398,417811,27417,17372
+1931,565,Cirenaica,Derna,1930,all,all,arrived,226,174917,7684,4637
+1931,565,Cirenaica,Derna,1930,all,all,departed,226,174917,2257,6815
+1931,565,Cirenaica,Tobruk,1930,all,all,arrived,151,85650,6154,2423
+1931,565,Cirenaica,Tobruk,1930,all,all,departed,150,85548,1961,2439
+1931,565,Cirenaica,Apollonia,1930,all,all,arrived,100,76764,9261,4832
+1931,565,Cirenaica,Apollonia,1930,all,all,departed,101,77322,480,4998
+1931,565,Cirenaica,Tolmetta,1930,all,all,arrived,70,57982,3662,1818
+1931,565,Cirenaica,Tolmetta,1930,all,all,departed,70,57982,1483,8407
+1932,560,Tripolitania,Tripoli,1927,all,steam,arrived,525,579432,108743,29512
+1932,560,Tripolitania,Tripoli,1927,all,steam,departed,525,580916,32931,29142
+1932,560,Tripolitania,Tripoli,1927,all,sail,arrived,273,10940,11896,30
+1932,560,Tripolitania,Tripoli,1927,all,sail,departed,280,11482,9917,41
+1932,560,Tripolitania,Tripoli,1927,all,all,arrived,798,590372,120639,29542
+1932,560,Tripolitania,Tripoli,1927,all,all,departed,805,592398,42848,29183
+1932,560,Tripolitania,Tripoli,1928,all,steam,arrived,550,658664,121507,28033
+1932,560,Tripolitania,Tripoli,1928,all,steam,departed,551,661785,31881,27156
+1932,560,Tripolitania,Tripoli,1928,all,sail,arrived,359,14538,13900,79
+1932,560,Tripolitania,Tripoli,1928,all,sail,departed,350,13117,6862,49
+1932,560,Tripolitania,Tripoli,1928,all,all,arrived,909,673202,135407,28112
+1932,560,Tripolitania,Tripoli,1928,all,all,departed,901,674902,38743,27205
+1932,560,Tripolitania,Tripoli,1929,all,steam,arrived,601,750320,142436,25963
+1932,560,Tripolitania,Tripoli,1929,all,steam,departed,598,747092,15743,26364
+1932,560,Tripolitania,Tripoli,1929,all,sail,arrived,219,9526,6908,53
+1932,560,Tripolitania,Tripoli,1929,all,sail,departed,243,10198,8528,26
+1932,560,Tripolitania,Tripoli,1929,all,all,arrived,820,759846,149344,26016
+1932,560,Tripolitania,Tripoli,1929,all,all,departed,841,757290,24271,26390
+1932,560,Tripolitania,Tripoli,1930,all,steam,arrived,558,885627,151603,25065
+1932,560,Tripolitania,Tripoli,1930,all,steam,departed,558,886879,38750,23487
+1932,560,Tripolitania,Tripoli,1930,all,sail,arrived,269,14096,10541,7
+1932,560,Tripolitania,Tripoli,1930,all,sail,departed,274,15283,7747,8
+1932,560,Tripolitania,Tripoli,1930,all,all,arrived,827,899723,162144,25072
+1932,560,Tripolitania,Tripoli,1930,all,all,departed,832,902162,46497,23495
+1932,560,Tripolitania,Tripoli,1931,all,steam,arrived,537,939485,160130,23277
+1932,560,Tripolitania,Tripoli,1931,all,steam,departed,537,938255,43693,20444
+1932,560,Tripolitania,Tripoli,1931,all,sail,arrived,151,9259,8387,2
+1932,560,Tripolitania,Tripoli,1931,all,sail,departed,149,9039,3260,0
+1932,560,Tripolitania,Tripoli,1931,all,all,arrived,688,948744,168517,23279
+1932,560,Tripolitania,Tripoli,1931,all,all,departed,686,947294,46953,20444
+1932,566,Cirenaica,Porto Bardia,1931,all,all,arrived,166,180561,24941,7447
+1932,566,Cirenaica,Porto Bardia,1931,all,all,departed,167,178942,1883,4682
+1932,566,Cirenaica,Zuetina,1931,all,all,arrived,87,10991,4015,105
+1932,566,Cirenaica,Zuetina,1931,all,all,departed,87,10991,1966,4164
+1932,566,Cirenaica,Bengasi,1931,all,all,arrived,478,434061,110166,17528
+1932,566,Cirenaica,Bengasi,1931,all,all,departed,466,436650,33518,16122
+1932,566,Cirenaica,Derna,1931,all,all,arrived,178,201658,9422,4823
+1932,566,Cirenaica,Derna,1931,all,all,departed,178,201658,1309,3777
+1932,566,Cirenaica,Tobruk,1931,all,all,arrived,102,92618,8630,2136
+1932,566,Cirenaica,Tobruk,1931,all,all,departed,100,90959,1973,4564
+1932,566,Cirenaica,Apollonia,1931,all,all,arrived,108,88874,9848,2058
+1932,566,Cirenaica,Apollonia,1931,all,all,departed,104,86382,696,2710
+1932,566,Cirenaica,Tolmetta,1931,all,all,arrived,51,67318,575,238
+1932,566,Cirenaica,Tolmetta,1931,all,all,departed,51,67318,199,234
+1933,443,Tripolitania,Tripoli,1928,all,steam,arrived,550,658664,121507,28033
+1933,443,Tripolitania,Tripoli,1928,all,steam,departed,551,661785,31881,27156
+1933,443,Tripolitania,Tripoli,1928,all,sail,arrived,359,14538,13900,79
+1933,443,Tripolitania,Tripoli,1928,all,sail,departed,350,13117,6862,49
+1933,443,Tripolitania,Tripoli,1928,all,all,arrived,909,673202,135407,28112
+1933,443,Tripolitania,Tripoli,1928,all,all,departed,901,674902,38743,27205
+1933,443,Tripolitania,Tripoli,1929,all,steam,arrived,601,750320,142436,25963
+1933,443,Tripolitania,Tripoli,1929,all,steam,departed,598,747092,45743,26364
+1933,443,Tripolitania,Tripoli,1929,all,sail,arrived,239,9525,7412,53
+1933,443,Tripolitania,Tripoli,1929,all,sail,departed,243,10198,8528,26
+1933,443,Tripolitania,Tripoli,1929,all,all,arrived,840,759845,149848,26016
+1933,443,Tripolitania,Tripoli,1929,all,all,departed,841,757290,54271,26390
+1933,443,Tripolitania,Tripoli,1930,all,steam,arrived,558,885627,151603,25065
+1933,443,Tripolitania,Tripoli,1930,all,steam,departed,558,886879,38750,23487
+1933,443,Tripolitania,Tripoli,1930,all,sail,arrived,269,14096,10541,7
+1933,443,Tripolitania,Tripoli,1930,all,sail,departed,274,15283,7747,8
+1933,443,Tripolitania,Tripoli,1930,all,all,arrived,827,899723,162144,25072
+1933,443,Tripolitania,Tripoli,1930,all,all,departed,832,902162,46497,23495
+1933,443,Tripolitania,Tripoli,1931,all,steam,arrived,537,939485,160130,23277
+1933,443,Tripolitania,Tripoli,1931,all,steam,departed,537,938255,43693,20444
+1933,443,Tripolitania,Tripoli,1931,all,sail,arrived,151,9259,8387,2
+1933,443,Tripolitania,Tripoli,1931,all,sail,departed,149,9039,3260,0
+1933,443,Tripolitania,Tripoli,1931,all,all,arrived,688,948744,168517,23279
+1933,443,Tripolitania,Tripoli,1931,all,all,departed,686,947294,46953,20444
+1933,443,Tripolitania,Tripoli,1932,all,steam,arrived,552,893222,155183,21856
+1933,443,Tripolitania,Tripoli,1932,all,steam,departed,548,892533,30693,17383
+1933,443,Tripolitania,Tripoli,1932,all,sail,arrived,168,13626,13640,3
+1933,443,Tripolitania,Tripoli,1932,all,sail,departed,164,12877,2817,0
+1933,443,Tripolitania,Tripoli,1932,all,all,arrived,720,906848,168823,21859
+1933,443,Tripolitania,Tripoli,1932,all,all,departed,712,905410,33510,17383
+1933,447,Cirenaica,Porto Bardia,1932,all,all,arrived,83,77866,3729,2025
+1933,447,Cirenaica,Porto Bardia,1932,all,all,departed,83,77866,357,2462
+1933,447,Cirenaica,Zuetina,1932,all,all,arrived,51,7545,1483,273
+1933,447,Cirenaica,Zuetina,1932,all,all,departed,51,7545,159,527
+1933,447,Cirenaica,Bengasi,1932,all,all,arrived,513,451761,115009,17489
+1933,447,Cirenaica,Bengasi,1932,all,all,departed,515,447531,15295,14510
+1933,447,Cirenaica,Derna,1932,all,all,arrived,228,214555,8354,2673
+1933,447,Cirenaica,Derna,1932,all,all,departed,227,214524,1372,2758
+1933,447,Cirenaica,Tobruk,1932,all,all,arrived,123,116494,18770,3230
+1933,447,Cirenaica,Tobruk,1932,all,all,departed,125,118275,1836,2586
+1933,447,Cirenaica,Apollonia,1932,all,all,arrived,128,95991,7825,1022
+1933,447,Cirenaica,Apollonia,1932,all,all,departed,128,95991,741,1383
+1933,447,Cirenaica,Tolmetta,1932,all,all,arrived,45,61354,290,25
+1933,447,Cirenaica,Tolmetta,1932,all,all,departed,45,61354,3,11
+1934,264,Tripolitania,Tripoli,1929,all,steam,arrived,601,750320,142436,25963
+1934,264,Tripolitania,Tripoli,1929,all,steam,departed,598,747092,45743,26364
+1934,264,Tripolitania,Tripoli,1930,all,steam,arrived,558,885627,151603,25065
+1934,264,Tripolitania,Tripoli,1930,all,steam,departed,558,886879,38750,23487
+1934,264,Tripolitania,Tripoli,1931,all,steam,arrived,537,939485,160130,23277
+1934,264,Tripolitania,Tripoli,1931,all,steam,departed,537,938255,43693,20444
+1934,264,Tripolitania,Tripoli,1932,all,steam,arrived,552,893222,155183,21856
+1934,264,Tripolitania,Tripoli,1932,all,steam,departed,548,892533,30693,17383
+1934,264,Tripolitania,Tripoli,1933,all,steam,arrived,553,923874,161571,28304
+1934,264,Tripolitania,Tripoli,1933,all,steam,departed,554,925272,31084,24199
+1934,264,Tripolitania,Tripoli,1929,all,sail,arrived,239,9525,7412,53
+1934,264,Tripolitania,Tripoli,1929,all,sail,departed,243,10198,8528,26
+1934,264,Tripolitania,Tripoli,1930,all,sail,arrived,269,14096,10541,7
+1934,264,Tripolitania,Tripoli,1930,all,sail,departed,274,15283,7747,8
+1934,264,Tripolitania,Tripoli,1931,all,sail,arrived,151,9259,8387,2
+1934,264,Tripolitania,Tripoli,1931,all,sail,departed,149,9039,3260,0
+1934,264,Tripolitania,Tripoli,1932,all,sail,arrived,168,13626,13640,3
+1934,264,Tripolitania,Tripoli,1932,all,sail,departed,164,12877,2817,0
+1934,264,Tripolitania,Tripoli,1933,all,sail,arrived,128,11823,11389,0
+1934,264,Tripolitania,Tripoli,1933,all,sail,departed,132,12551,1994,3
+1934,262,Tripolitania,Tripoli,1933,all,all,arrived,,935697,172960,28304
+1934,262,Tripolitania,Tripoli,1933,all,all,departed,,937823,33078,24202
+1934,262,Tripolitania,Tripoli,1932,all,all,arrived,,906848,168823,21859
+1934,262,Tripolitania,Tripoli,1932,all,all,departed,,905410,33510,17383
+1934,262,Cirenaica,all ports,1933,all,all,arrived,,870793,152194,28196
+1934,262,Cirenaica,all ports,1933,all,all,departed,,870346,18227,16819
+1934,262,Cirenaica,all ports,1932,all,all,arrived,,1025566,155460,26737
+1934,262,Cirenaica,all ports,1932,all,all,departed,,1023086,19763,24237
+1934,267,Cirenaica,Porto Bardia,1933,all,all,arrived,64,47900,2762,2684
+1934,267,Cirenaica,Porto Bardia,1933,all,all,departed,64,47531,218,1429
+1934,267,Cirenaica,Zuetina,1933,all,all,arrived,31,2035,602,0
+1934,267,Cirenaica,Zuetina,1933,all,all,departed,31,2035,13,0
+1934,267,Cirenaica,Bengasi,1933,all,all,arrived,511,434249,125123,13989
+1934,267,Cirenaica,Bengasi,1933,all,all,departed,520,435341,16174,11848
+1934,267,Cirenaica,Derna,1933,all,all,arrived,215,192107,13583,1525
+1934,267,Cirenaica,Derna,1933,all,all,departed,231,192592,714,1226
+1934,267,Cirenaica,Tobruk,1933,all,all,arrived,135,104919,6052,9193
+1934,267,Cirenaica,Tobruk,1933,all,all,departed,132,103264,496,1729
+1934,267,Cirenaica,Apollonia,1933,all,all,arrived,90,83272,3777,805
+1934,267,Cirenaica,Apollonia,1933,all,all,departed,90,83272,612,587
+1934,267,Cirenaica,Tolmetta,1933,all,all,arrived,9,6311,295,0
+1934,267,Cirenaica,Tolmetta,1933,all,all,departed,9,6311,0,0
+1936,262,Tripolitania,Tripoli,1934,all,steam,arrived,585,1079046,184968,34402
+1936,262,Tripolitania,Tripoli,1934,all,sail,arrived,127,14757,13046,3
+1936,262,Tripolitania,Tripoli,1934,all,all,arrived,712,1093803,198014,34405
+1936,262,Tripolitania,Tripoli,1934,italian,steam,arrived,496,879703,154375,31367
+1936,262,Tripolitania,Tripoli,1934,italian,sail,arrived,100,13014,11657,1
+1936,262,Tripolitania,Tripoli,1934,italian,all,arrived,596,892717,166032,31368
+1936,262,Tripolitania,Homs,1934,all,steam,arrived,92,100322,1869,420
+1936,262,Tripolitania,Homs,1934,all,sail,arrived,11,421,94,0
+1936,262,Tripolitania,Homs,1934,all,all,arrived,103,100743,1963,420
+1936,262,Tripolitania,Homs,1934,italian,steam,arrived,91,95615,1869,207
+1936,262,Tripolitania,Homs,1934,italian,sail,arrived,11,421,94,0
+1936,262,Tripolitania,Homs,1934,italian,all,arrived,102,96036,1963,207
+1936,262,Tripolitania,Sliten,1934,all,steam,arrived,90,91192,1756,167
+1936,262,Tripolitania,Sliten,1934,all,sail,arrived,3,93,122,0
+1936,262,Tripolitania,Sliten,1934,all,all,arrived,93,91285,1878,167
+1936,262,Tripolitania,Sliten,1934,italian,steam,arrived,90,91192,1756,167
+1936,262,Tripolitania,Sliten,1934,italian,sail,arrived,3,93,122,0
+1936,262,Tripolitania,Sliten,1934,italian,all,arrived,93,91285,1878,167
+1936,262,Tripolitania,Misurata,1934,all,steam,arrived,109,107825,4190,416
+1936,262,Tripolitania,Misurata,1934,all,sail,arrived,17,227,95,1
+1936,262,Tripolitania,Misurata,1934,all,all,arrived,126,108052,4285,417
+1936,262,Tripolitania,Misurata,1934,italian,steam,arrived,109,107825,4190,416
+1936,262,Tripolitania,Misurata,1934,italian,sail,arrived,16,220,92,1
+1936,262,Tripolitania,Misurata,1934,italian,all,arrived,125,108045,4282,417
+1936,262,Tripolitania,Sirte,1934,all,steam,arrived,114,102332,3042,553
+1936,262,Tripolitania,Sirte,1934,all,sail,arrived,16,2715,247,0
+1936,262,Tripolitania,Sirte,1934,all,all,arrived,130,105047,3289,553
+1936,262,Tripolitania,Sirte,1934,italian,steam,arrived,114,102332,3042,553
+1936,262,Tripolitania,Sirte,1934,italian,sail,arrived,15,2708,245,0
+1936,262,Tripolitania,Sirte,1934,italian,all,arrived,129,105040,3287,553
+1936,262,Tripolitania,Altri porti,1934,all,steam,arrived,91,86987,6287,270
+1936,262,Tripolitania,Altri porti,1934,all,sail,arrived,48,852,561,0
+1936,262,Tripolitania,Altri porti,1934,all,all,arrived,139,87839,6848,270
+1936,262,Tripolitania,Altri porti,1934,italian,steam,arrived,91,86987,6287,270
+1936,262,Tripolitania,Altri porti,1934,italian,sail,arrived,35,767,515,0
+1936,262,Tripolitania,Altri porti,1934,italian,all,arrived,126,87754,6802,270
+1936,262,Tripolitania,all ports,1934,all,steam,arrived,1081,1567704,202112,36228
+1936,262,Tripolitania,all ports,1934,all,sail,arrived,222,19065,14165,4
+1936,262,Tripolitania,all ports,1934,all,all,arrived,1303,1586769,216277,36232
+1936,262,Tripolitania,all ports,1934,italian,steam,arrived,991,1363654,171519,32980
+1936,262,Tripolitania,all ports,1934,italian,sail,arrived,180,17223,12725,2
+1936,262,Tripolitania,all ports,1934,italian,all,arrived,1171,1380877,184244,32982
+1936,262,Tripolitania,all ports,1933,all,steam,arrived,1032,1383972,179554,30851
+1936,262,Tripolitania,all ports,1933,all,sail,arrived,246,16402,13116,8
+1936,262,Tripolitania,all ports,1933,all,all,arrived,1278,1400374,192670,30859
+1936,262,Tripolitania,all ports,1933,italian,steam,arrived,960,1237980,145054,29895
+1936,262,Tripolitania,all ports,1933,italian,sail,arrived,181,15120,12155,1
+1936,262,Tripolitania,all ports,1933,italian,all,arrived,1141,1253100,157209,29896
+1936,262,Tripolitania,all ports,1932,all,steam,arrived,1025,1328249,178332,25397
+1936,262,Tripolitania,all ports,1932,all,sail,arrived,441,18087,16178,10
+1936,262,Tripolitania,all ports,1932,all,all,arrived,1466,1346336,194510,25407
+1936,262,Tripolitania,all ports,1932,italian,steam,arrived,949,1178673,152338,24382
+1936,262,Tripolitania,all ports,1932,italian,sail,arrived,309,16367,14994,3
+1936,262,Tripolitania,all ports,1932,italian,all,arrived,1258,1195040,167332,24385
+1936,262,Tripolitania,Tripoli,1934,all,steam,departed,582,1074754,38624,30926
+1936,262,Tripolitania,Tripoli,1934,all,sail,departed,123,13469,2654,2
+1936,262,Tripolitania,Tripoli,1934,all,all,departed,705,1088223,41278,30928
+1936,262,Tripolitania,Tripoli,1934,italian,steam,departed,494,876164,20595,28025
+1936,262,Tripolitania,Tripoli,1934,italian,sail,departed,96,11725,2647,2
+1936,262,Tripolitania,Tripoli,1934,italian,all,departed,590,887889,23242,28027
+1936,262,Tripolitania,Homs,1934,all,steam,departed,92,100322,663,300
+1936,262,Tripolitania,Homs,1934,all,sail,departed,11,421,175,0
+1936,262,Tripolitania,Homs,1934,all,all,departed,103,100743,838,300
+1936,262,Tripolitania,Homs,1934,italian,steam,departed,91,95615,663,87
+1936,262,Tripolitania,Homs,1934,italian,sail,departed,11,421,175,0
+1936,262,Tripolitania,Homs,1934,italian,all,departed,102,96036,838,87
+1936,262,Tripolitania,Sliten,1934,all,steam,departed,90,91192,2466,91
+1936,262,Tripolitania,Sliten,1934,all,sail,departed,3,93,55,0
+1936,262,Tripolitania,Sliten,1934,all,all,departed,93,91285,2521,91
+1936,262,Tripolitania,Sliten,1934,italian,steam,departed,90,91192,2466,91
+1936,262,Tripolitania,Sliten,1934,italian,sail,departed,3,93,55,0
+1936,262,Tripolitania,Sliten,1934,italian,all,departed,93,91285,2521,91
+1936,262,Tripolitania,Misurata,1934,all,steam,departed,109,107825,1803,329
+1936,262,Tripolitania,Misurata,1934,all,sail,departed,17,227,18,0
+1936,262,Tripolitania,Misurata,1934,all,all,departed,126,108052,1821,329
+1936,262,Tripolitania,Misurata,1934,italian,steam,departed,109,107825,1803,329
+1936,262,Tripolitania,Misurata,1934,italian,sail,departed,16,220,15,0
+1936,262,Tripolitania,Misurata,1934,italian,all,departed,125,108045,1818,329
+1936,262,Tripolitania,Sirte,1934,all,steam,departed,114,102332,555,1285
+1936,262,Tripolitania,Sirte,1934,all,sail,departed,16,2715,76,0
+1936,262,Tripolitania,Sirte,1934,all,all,departed,130,105047,631,1285
+1936,262,Tripolitania,Sirte,1934,italian,steam,departed,114,102332,555,1285
+1936,262,Tripolitania,Sirte,1934,italian,sail,departed,15,2708,75,0
+1936,262,Tripolitania,Sirte,1934,italian,all,departed,129,105040,630,1285
+1936,262,Tripolitania,Altri porti,1934,all,steam,departed,91,86987,6161,212
+1936,262,Tripolitania,Altri porti,1934,all,sail,departed,48,852,115,0
+1936,262,Tripolitania,Altri porti,1934,all,all,departed,139,87839,6276,212
+1936,262,Tripolitania,Altri porti,1934,italian,steam,departed,91,86987,6161,212
+1936,262,Tripolitania,Altri porti,1934,italian,sail,departed,35,767,114,0
+1936,262,Tripolitania,Altri porti,1934,italian,all,departed,126,87754,6275,212
+1936,262,Tripolitania,all ports,1934,all,steam,departed,1078,1563412,50272,33143
+1936,262,Tripolitania,all ports,1934,all,sail,departed,218,17777,3093,2
+1936,262,Tripolitania,all ports,1934,all,all,departed,1296,1581189,53365,33145
+1936,262,Tripolitania,all ports,1934,italian,steam,departed,989,1360115,32243,30029
+1936,262,Tripolitania,all ports,1934,italian,sail,departed,176,15934,3081,2
+1936,262,Tripolitania,all ports,1934,italian,all,departed,1165,1376049,35324,30031
+1936,262,Tripolitania,all ports,1933,all,steam,departed,1032,1385166,38754,26077
+1936,262,Tripolitania,all ports,1933,all,sail,departed,249,17121,2366,5
+1936,262,Tripolitania,all ports,1933,all,all,departed,1281,1402287,41120,26082
+1936,262,Tripolitania,all ports,1933,italian,steam,departed,959,1237558,28879,25120
+1936,262,Tripolitania,all ports,1933,italian,sail,departed,184,15839,2360,4
+1936,262,Tripolitania,all ports,1933,italian,all,departed,1143,1253397,31239,25124
+1936,262,Tripolitania,all ports,1932,all,steam,departed,1021,1327560,40558,20227
+1936,262,Tripolitania,all ports,1932,all,sail,departed,429,17247,4060,1
+1936,262,Tripolitania,all ports,1932,all,all,departed,1450,1344807,44618,20228
+1936,262,Tripolitania,all ports,1932,italian,steam,departed,946,1179599,40182,19241
+1936,262,Tripolitania,all ports,1932,italian,sail,departed,296,15587,3960,0
+1936,262,Tripolitania,all ports,1932,italian,all,departed,1242,1195186,44142,19241
+1936,262,Cirenaica,Bengasi,1934,all,steam,arrived,374,420932,126559,14224
+1936,262,Cirenaica,Bengasi,1934,all,sail,arrived,120,11088,7901,16
+1936,262,Cirenaica,Bengasi,1934,all,all,arrived,494,432020,134460,14240
+1936,262,Cirenaica,Bengasi,1934,italian,steam,arrived,350,403441,107156,14222
+1936,262,Cirenaica,Bengasi,1934,italian,sail,arrived,107,10160,6880,7
+1936,262,Cirenaica,Bengasi,1934,italian,all,arrived,457,413601,114036,14229
+1936,262,Cirenaica,Apollonia,1934,all,steam,arrived,71,88875,6433,149
+1936,262,Cirenaica,Apollonia,1934,all,sail,arrived,27,2651,457,0
+1936,262,Cirenaica,Apollonia,1934,all,all,arrived,98,91526,6890,149
+1936,262,Cirenaica,Apollonia,1934,italian,steam,arrived,70,88606,6432,149
+1936,262,Cirenaica,Apollonia,1934,italian,sail,arrived,25,2621,448,0
+1936,262,Cirenaica,Apollonia,1934,italian,all,arrived,95,91227,6880,149
+1936,262,Cirenaica,Derna,1934,all,steam,arrived,155,201337,19869,1673
+1936,262,Cirenaica,Derna,1934,all,sail,arrived,143,5182,2114,7
+1936,262,Cirenaica,Derna,1934,all,all,arrived,298,206519,21983,1680
+1936,262,Cirenaica,Derna,1934,italian,steam,arrived,149,197114,18271,1670
+1936,262,Cirenaica,Derna,1934,italian,sail,arrived,110,4497,1907,5
+1936,262,Cirenaica,Derna,1934,italian,all,arrived,259,201611,20178,1675
+1936,262,Cirenaica,Tobruk,1934,all,steam,arrived,81,104949,12435,1124
+1936,262,Cirenaica,Tobruk,1934,all,sail,arrived,49,4161,2141,1
+1936,262,Cirenaica,Tobruk,1934,all,all,arrived,130,109110,14576,1125
+1936,262,Cirenaica,Tobruk,1934,italian,steam,arrived,78,102538,12279,1124
+1936,262,Cirenaica,Tobruk,1934,italian,sail,arrived,46,3771,1999,1
+1936,262,Cirenaica,Tobruk,1934,italian,all,arrived,124,106309,14278,1125
+1936,262,Cirenaica,Altri porti,1934,all,steam,arrived,46,55229,2201,785
+1936,262,Cirenaica,Altri porti,1934,all,sail,arrived,31,1571,766,0
+1936,262,Cirenaica,Altri porti,1934,all,all,arrived,77,56800,2967,785
+1936,262,Cirenaica,Altri porti,1934,italian,steam,arrived,46,55229,2201,785
+1936,262,Cirenaica,Altri porti,1934,italian,sail,arrived,30,1513,756,0
+1936,262,Cirenaica,Altri porti,1934,italian,all,arrived,76,56742,2957,785
+1936,262,Cirenaica,all ports,1934,all,steam,arrived,727,871322,167497,17955
+1936,262,Cirenaica,all ports,1934,all,sail,arrived,370,24653,13379,24
+1936,262,Cirenaica,all ports,1934,all,all,arrived,1097,895975,180876,17979
+1936,262,Cirenaica,all ports,1934,italian,steam,arrived,693,846928,146339,17950
+1936,262,Cirenaica,all ports,1934,italian,sail,arrived,318,22562,11990,13
+1936,262,Cirenaica,all ports,1934,italian,all,arrived,1011,869490,158329,17963
+1936,262,Cirenaica,all ports,1933,all,steam,arrived,752,860155,142343,28181
+1936,262,Cirenaica,all ports,1933,all,sail,arrived,355,19365,11816,15
+1936,262,Cirenaica,all ports,1933,all,all,arrived,1107,879520,154159,28196
+1936,262,Cirenaica,all ports,1933,italian,steam,arrived,732,841225,127128,28180
+1936,262,Cirenaica,all ports,1933,italian,sail,arrived,315,17312,9773,3
+1936,262,Cirenaica,all ports,1933,italian,all,arrived,1047,858537,136901,28183
+1936,262,Cirenaica,all ports,1932,all,steam,arrived,962,1024457,146089,27373
+1936,262,Cirenaica,all ports,1932,all,sail,arrived,296,18484,11958,27
+1936,262,Cirenaica,all ports,1932,all,all,arrived,1258,1042941,158047,27400
+1936,262,Cirenaica,all ports,1932,italian,steam,arrived,935,993135,129748,27322
+1936,262,Cirenaica,all ports,1932,italian,sail,arrived,244,16203,9972,7
+1936,262,Cirenaica,all ports,1932,italian,all,arrived,1179,1009338,139720,27329
+1936,263,Cirenaica,Bengasi,1934,all,steam,departed,378,442174,16854,13130
+1936,263,Cirenaica,Bengasi,1934,all,sail,departed,122,10459,2920,14
+1936,263,Cirenaica,Bengasi,1934,all,all,departed,500,452633,19774,13144
+1936,263,Cirenaica,Bengasi,1934,italian,steam,departed,354,425132,16854,13127
+1936,263,Cirenaica,Bengasi,1934,italian,sail,departed,110,9940,2907,9
+1936,263,Cirenaica,Bengasi,1934,italian,all,departed,464,435072,19761,13136
+1936,263,Cirenaica,Apollonia,1934,all,steam,departed,71,88875,184,58
+1936,263,Cirenaica,Apollonia,1934,all,sail,departed,27,2651,226,0
+1936,263,Cirenaica,Apollonia,1934,all,all,departed,98,91526,410,58
+1936,263,Cirenaica,Apollonia,1934,italian,steam,departed,70,88606,184,58
+1936,263,Cirenaica,Apollonia,1934,italian,sail,departed,25,2621,226,0
+1936,263,Cirenaica,Apollonia,1934,italian,all,departed,95,91227,410,58
+1936,263,Cirenaica,Derna,1934,all,steam,departed,155,201161,757,1901
+1936,263,Cirenaica,Derna,1934,all,sail,departed,133,4455,183,2
+1936,263,Cirenaica,Derna,1934,all,all,departed,288,205616,940,1903
+1936,263,Cirenaica,Derna,1934,italian,steam,departed,149,196938,739,1901
+1936,263,Cirenaica,Derna,1934,italian,sail,departed,107,3944,175,0
+1936,263,Cirenaica,Derna,1934,italian,all,departed,256,200882,914,1901
+1936,263,Cirenaica,Tobruk,1934,all,steam,departed,82,105532,304,1764
+1936,263,Cirenaica,Tobruk,1934,all,sail,departed,52,4041,117,0
+1936,263,Cirenaica,Tobruk,1934,all,all,departed,134,109573,421,1764
+1936,263,Cirenaica,Tobruk,1934,italian,steam,departed,77,102259,264,1764
+1936,263,Cirenaica,Tobruk,1934,italian,sail,departed,49,3651,92,0
+1936,263,Cirenaica,Tobruk,1934,italian,all,departed,126,105910,356,1764
+1936,263,Cirenaica,Altri porti,1934,all,steam,departed,46,55229,856,925
+1936,263,Cirenaica,Altri porti,1934,all,sail,departed,31,1571,368,2
+1936,263,Cirenaica,Altri porti,1934,all,all,departed,77,56800,1224,927
+1936,263,Cirenaica,Altri porti,1934,italian,steam,departed,46,55229,856,925
+1936,263,Cirenaica,Altri porti,1934,italian,sail,departed,30,1513,365,2
+1936,263,Cirenaica,Altri porti,1934,italian,all,departed,76,56742,1221,927
+1936,263,Cirenaica,all ports,1934,all,steam,departed,732,892971,18955,17778
+1936,263,Cirenaica,all ports,1934,all,sail,departed,365,23177,3814,18
+1936,263,Cirenaica,all ports,1934,all,all,departed,1097,916148,22769,17796
+1936,263,Cirenaica,all ports,1934,italian,steam,departed,696,868164,18897,17775
+1936,263,Cirenaica,all ports,1934,italian,sail,departed,321,21669,3765,11
+1936,263,Cirenaica,all ports,1934,italian,all,departed,1017,889833,22662,17786
+1936,263,Cirenaica,all ports,1933,all,steam,departed,747,857973,15596,24007
+1936,263,Cirenaica,all ports,1933,all,sail,departed,372,21100,3083,40
+1936,263,Cirenaica,all ports,1933,all,all,departed,1119,879073,18679,24047
+1936,263,Cirenaica,all ports,1933,italian,steam,departed,728,840287,15586,24006
+1936,263,Cirenaica,all ports,1933,italian,sail,departed,332,19034,2988,22
+1936,263,Cirenaica,all ports,1933,italian,all,departed,1060,859321,18574,24028
+1936,263,Cirenaica,all ports,1932,all,steam,departed,963,1021127,16693,26248
+1936,263,Cirenaica,all ports,1932,all,sail,departed,298,18652,3672,20
+1936,263,Cirenaica,all ports,1932,all,all,departed,1261,1039779,20365,26268
+1936,263,Cirenaica,all ports,1932,italian,steam,departed,935,989581,16638,26198
+1936,263,Cirenaica,all ports,1932,italian,sail,departed,249,16543,3573,11
+1936,263,Cirenaica,all ports,1932,italian,all,departed,1184,1006124,20211,26209
+1936,256,Tripolitania,all ports,1934,all,all,arrived,,1586769,216277,36232
+1936,256,Tripolitania,all ports,1934,all,all,departed,,1581189,53365,33145
+1936,256,Tripolitania,all ports,1933,all,all,arrived,,1400374,192670,30859
+1936,256,Tripolitania,all ports,1933,all,all,departed,,1402287,41120,26082
+1936,256,Cirenaica,all ports,1934,all,all,arrived,,895975,180876,17979
+1936,256,Cirenaica,all ports,1934,all,all,departed,,916148,22769,17796
+1936,256,Cirenaica,all ports,1933,all,all,arrived,,879520,154159,28196
+1936,256,Cirenaica,all ports,1933,all,all,departed,,879073,18679,24047
+1937,313,Tripolitania,Tripoli,1935,all,steam,arrived,601,1132464,230175,43693
+1937,313,Tripolitania,Tripoli,1935,all,sail,arrived,105,12612,12645,5
+1937,313,Tripolitania,Tripoli,1935,all,all,arrived,706,1145076,242820,43698
+1937,313,Tripolitania,Tripoli,1935,italian,steam,arrived,508,895205,197208,38019
+1937,313,Tripolitania,Tripoli,1935,italian,sail,arrived,85,10566,10920,2
+1937,313,Tripolitania,Tripoli,1935,italian,all,arrived,593,905771,208128,38021
+1937,313,Tripolitania,Homs,1935,all,steam,arrived,94,99605,1581,491
+1937,313,Tripolitania,Homs,1935,all,sail,arrived,5,129,144,0
+1937,313,Tripolitania,Homs,1935,all,all,arrived,99,99734,1725,491
+1937,313,Tripolitania,Homs,1935,italian,steam,arrived,93,98115,1581,491
+1937,313,Tripolitania,Homs,1935,italian,sail,arrived,4,120,134,0
+1937,313,Tripolitania,Homs,1935,italian,all,arrived,97,98235,1715,491
+1937,313,Tripolitania,Sliten,1935,all,steam,arrived,90,92089,1760,56
+1937,313,Tripolitania,Sliten,1935,all,sail,arrived,2,66,75,0
+1937,313,Tripolitania,Sliten,1935,all,all,arrived,92,92155,1835,56
+1937,313,Tripolitania,Sliten,1935,italian,steam,arrived,89,90599,1760,56
+1937,313,Tripolitania,Sliten,1935,italian,sail,arrived,2,66,75,0
+1937,313,Tripolitania,Sliten,1935,italian,all,arrived,91,90665,1835,56
+1937,313,Tripolitania,Misurata,1935,all,steam,arrived,122,136012,6035,3683
+1937,313,Tripolitania,Misurata,1935,all,sail,arrived,5,326,361,0
+1937,313,Tripolitania,Misurata,1935,all,all,arrived,127,136338,6396,3683
+1937,313,Tripolitania,Misurata,1935,italian,steam,arrived,122,136012,6035,3683
+1937,313,Tripolitania,Misurata,1935,italian,sail,arrived,4,319,355,0
+1937,313,Tripolitania,Misurata,1935,italian,all,arrived,126,136331,6390,3683
+1937,313,Tripolitania,Sirte,1935,all,steam,arrived,96,101192,3834,251
+1937,313,Tripolitania,Sirte,1935,all,sail,arrived,16,2601,400,0
+1937,313,Tripolitania,Sirte,1935,all,all,arrived,112,103793,4234,251
+1937,313,Tripolitania,Sirte,1935,italian,steam,arrived,96,101192,3834,251
+1937,313,Tripolitania,Sirte,1935,italian,sail,arrived,16,2601,400,0
+1937,313,Tripolitania,Sirte,1935,italian,all,arrived,112,103793,4234,251
+1937,313,Tripolitania,Altri porti,1935,all,steam,arrived,76,82098,3932,86
+1937,313,Tripolitania,Altri porti,1935,all,sail,arrived,60,1137,500,6
+1937,313,Tripolitania,Altri porti,1935,all,all,arrived,136,83235,4432,92
+1937,313,Tripolitania,Altri porti,1935,italian,steam,arrived,76,82098,3932,86
+1937,313,Tripolitania,Altri porti,1935,italian,sail,arrived,37,919,315,0
+1937,313,Tripolitania,Altri porti,1935,italian,all,arrived,113,83017,4247,86
+1937,313,Tripolitania,all ports,1935,all,steam,arrived,1079,1643460,247317,48260
+1937,313,Tripolitania,all ports,1935,all,sail,arrived,193,16871,14125,11
+1937,313,Tripolitania,all ports,1935,all,all,arrived,1272,1660331,261442,48271
+1937,313,Tripolitania,all ports,1935,italian,steam,arrived,984,1403221,214350,42586
+1937,313,Tripolitania,all ports,1935,italian,sail,arrived,148,14591,12199,2
+1937,313,Tripolitania,all ports,1935,italian,all,arrived,1132,1417812,226549,42588
+1937,313,Tripolitania,Tripoli,1935,all,steam,departed,600,1132682,53131,41170
+1937,313,Tripolitania,Tripoli,1935,all,sail,departed,107,13351,2538,2
+1937,313,Tripolitania,Tripoli,1935,all,all,departed,707,1146033,55669,41172
+1937,313,Tripolitania,Tripoli,1935,italian,steam,departed,505,894560,30765,35586
+1937,313,Tripolitania,Tripoli,1935,italian,sail,departed,86,11265,2533,2
+1937,313,Tripolitania,Tripoli,1935,italian,all,departed,591,905825,33298,35588
+1937,313,Tripolitania,Homs,1935,all,steam,departed,94,99605,1759,479
+1937,313,Tripolitania,Homs,1935,all,sail,departed,5,129,0,0
+1937,313,Tripolitania,Homs,1935,all,all,departed,99,99734,1759,479
+1937,313,Tripolitania,Homs,1935,italian,steam,departed,93,98115,1159,479
+1937,313,Tripolitania,Homs,1935,italian,sail,departed,4,120,0,0
+1937,313,Tripolitania,Homs,1935,italian,all,departed,97,98235,1159,479
+1937,313,Tripolitania,Sliten,1935,all,steam,departed,90,92089,5457,25
+1937,313,Tripolitania,Sliten,1935,all,sail,departed,2,66,50,0
+1937,313,Tripolitania,Sliten,1935,all,all,departed,92,92155,5507,25
+1937,313,Tripolitania,Sliten,1935,italian,steam,departed,89,90599,5142,25
+1937,313,Tripolitania,Sliten,1935,italian,sail,departed,2,66,50,0
+1937,313,Tripolitania,Sliten,1935,italian,all,departed,91,90665,5192,25
+1937,313,Tripolitania,Misurata,1935,all,steam,departed,121,135262,1888,381
+1937,313,Tripolitania,Misurata,1935,all,sail,departed,5,326,30,0
+1937,313,Tripolitania,Misurata,1935,all,all,departed,126,135588,1918,381
+1937,313,Tripolitania,Misurata,1935,italian,steam,departed,121,135262,1888,381
+1937,313,Tripolitania,Misurata,1935,italian,sail,departed,4,319,30,0
+1937,313,Tripolitania,Misurata,1935,italian,all,departed,125,135581,1918,381
+1937,313,Tripolitania,Sirte,1935,all,steam,departed,96,101192,821,1020
+1937,313,Tripolitania,Sirte,1935,all,sail,departed,16,2601,103,0
+1937,313,Tripolitania,Sirte,1935,all,all,departed,112,103793,924,1020
+1937,313,Tripolitania,Sirte,1935,italian,steam,departed,96,101192,821,1020
+1937,313,Tripolitania,Sirte,1935,italian,sail,departed,16,2601,103,0
+1937,313,Tripolitania,Sirte,1935,italian,all,departed,112,103793,924,1020
+1937,313,Tripolitania,Altri porti,1935,all,steam,departed,76,82098,4208,168
+1937,313,Tripolitania,Altri porti,1935,all,sail,departed,61,1300,129,0
+1937,313,Tripolitania,Altri porti,1935,all,all,departed,137,83398,4337,168
+1937,313,Tripolitania,Altri porti,1935,italian,steam,departed,76,82098,4208,168
+1937,313,Tripolitania,Altri porti,1935,italian,sail,departed,38,1082,129,0
+1937,313,Tripolitania,Altri porti,1935,italian,all,departed,114,83180,4337,168
+1937,313,Tripolitania,all ports,1935,all,steam,departed,1077,1642928,67264,43243
+1937,313,Tripolitania,all ports,1935,all,sail,departed,196,17773,2850,2
+1937,313,Tripolitania,all ports,1935,all,all,departed,1273,1660701,70114,43245
+1937,313,Tripolitania,all ports,1935,italian,steam,departed,980,1401826,43983,37659
+1937,313,Tripolitania,all ports,1935,italian,sail,departed,150,15453,2845,2
+1937,313,Tripolitania,all ports,1935,italian,all,departed,1130,1417279,46828,37661
+1937,313,Tripolitania,Tripoli,1936,all,steam,arrived,634,1073458,248789,40855
+1937,313,Tripolitania,Tripoli,1936,all,sail,arrived,156,22621,25811,1
+1937,313,Tripolitania,Tripoli,1936,all,all,arrived,790,1096079,274600,40856
+1937,313,Tripolitania,Tripoli,1936,italian,steam,arrived,550,939239,199113,39128
+1937,313,Tripolitania,Tripoli,1936,italian,sail,arrived,142,21241,24434,0
+1937,313,Tripolitania,Tripoli,1936,italian,all,arrived,692,960480,223547,39128
+1937,313,Tripolitania,Homs,1936,all,steam,arrived,96,105215,2295,215
+1937,313,Tripolitania,Homs,1936,all,sail,arrived,5,772,135,0
+1937,313,Tripolitania,Homs,1936,all,all,arrived,101,105987,2430,215
+1937,313,Tripolitania,Homs,1936,italian,steam,arrived,96,105215,2295,215
+1937,313,Tripolitania,Homs,1936,italian,sail,arrived,5,772,135,0
+1937,313,Tripolitania,Homs,1936,italian,all,arrived,101,105987,2430,215
+1937,313,Tripolitania,Sliten,1936,all,steam,arrived,100,101444,3668,254
+1937,313,Tripolitania,Sliten,1936,all,sail,arrived,3,71,145,1
+1937,313,Tripolitania,Sliten,1936,all,all,arrived,103,101515,3813,255
+1937,313,Tripolitania,Sliten,1936,italian,steam,arrived,100,101444,3668,254
+1937,313,Tripolitania,Sliten,1936,italian,sail,arrived,3,71,145,1
+1937,313,Tripolitania,Sliten,1936,italian,all,arrived,103,101515,3813,255
+1937,313,Tripolitania,Misurata,1936,all,steam,arrived,122,120786,14103,905
+1937,313,Tripolitania,Misurata,1936,all,sail,arrived,7,460,547,0
+1937,313,Tripolitania,Misurata,1936,all,all,arrived,129,121246,14650,905
+1937,313,Tripolitania,Misurata,1936,italian,steam,arrived,119,119072,13778,904
+1937,313,Tripolitania,Misurata,1936,italian,sail,arrived,7,460,547,0
+1937,313,Tripolitania,Misurata,1936,italian,all,arrived,126,119532,14325,904
+1937,313,Tripolitania,Sirte,1936,all,steam,arrived,112,110255,11868,518
+1937,313,Tripolitania,Sirte,1936,all,sail,arrived,63,5880,4117,0
+1937,313,Tripolitania,Sirte,1936,all,all,arrived,175,116135,15985,518
+1937,313,Tripolitania,Sirte,1936,italian,steam,arrived,112,110255,11868,518
+1937,313,Tripolitania,Sirte,1936,italian,sail,arrived,63,5880,4117,0
+1937,313,Tripolitania,Sirte,1936,italian,all,arrived,175,116135,15985,518
+1937,313,Tripolitania,Altri porti,1936,all,steam,arrived,77,86549,5048,36
+1937,313,Tripolitania,Altri porti,1936,all,sail,arrived,40,2191,2150,7
+1937,313,Tripolitania,Altri porti,1936,all,all,arrived,117,88740,7198,43
+1937,313,Tripolitania,Altri porti,1936,italian,steam,arrived,77,86549,5048,36
+1937,313,Tripolitania,Altri porti,1936,italian,sail,arrived,33,2144,2146,3
+1937,313,Tripolitania,Altri porti,1936,italian,all,arrived,110,88693,7194,39
+1937,313,Tripolitania,all ports,1936,all,steam,arrived,1141,1597707,285771,42783
+1937,313,Tripolitania,all ports,1936,all,sail,arrived,274,31995,32905,9
+1937,313,Tripolitania,all ports,1936,all,all,arrived,1415,1629702,318676,42792
+1937,313,Tripolitania,all ports,1936,italian,steam,arrived,1054,1461774,235770,41055
+1937,313,Tripolitania,all ports,1936,italian,sail,arrived,253,30568,31524,4
+1937,313,Tripolitania,all ports,1936,italian,all,arrived,1307,1492342,267294,41059
+1937,314,Tripolitania,Tripoli,1936,all,steam,departed,630,1068933,42471,47360
+1937,314,Tripolitania,Tripoli,1936,all,sail,departed,161,23591,5157,1
+1937,314,Tripolitania,Tripoli,1936,all,all,departed,791,1092524,47628,47361
+1937,314,Tripolitania,Tripoli,1936,italian,steam,departed,547,936368,35763,44999
+1937,314,Tripolitania,Tripoli,1936,italian,sail,departed,147,22211,5153,1
+1937,314,Tripolitania,Tripoli,1936,italian,all,departed,694,958579,40916,45000
+1937,314,Tripolitania,Homs,1936,all,steam,departed,96,105215,136,115
+1937,314,Tripolitania,Homs,1936,all,sail,departed,5,772,683,0
+1937,314,Tripolitania,Homs,1936,all,all,departed,101,105987,819,115
+1937,314,Tripolitania,Homs,1936,italian,steam,departed,96,105215,136,115
+1937,314,Tripolitania,Homs,1936,italian,sail,departed,5,772,683,0
+1937,314,Tripolitania,Homs,1936,italian,all,departed,101,105987,819,115
+1937,314,Tripolitania,Sliten,1936,all,steam,departed,100,101444,2106,268
+1937,314,Tripolitania,Sliten,1936,all,sail,departed,3,71,14,1
+1937,314,Tripolitania,Sliten,1936,all,all,departed,103,101515,2120,269
+1937,314,Tripolitania,Sliten,1936,italian,steam,departed,100,101444,2106,268
+1937,314,Tripolitania,Sliten,1936,italian,sail,departed,3,71,14,1
+1937,314,Tripolitania,Sliten,1936,italian,all,departed,103,101515,2120,269
+1937,314,Tripolitania,Misurata,1936,all,steam,departed,123,121536,2731,1249
+1937,314,Tripolitania,Misurata,1936,all,sail,departed,7,460,0,0
+1937,314,Tripolitania,Misurata,1936,all,all,departed,130,121996,2731,1249
+1937,314,Tripolitania,Misurata,1936,italian,steam,departed,120,119822,2578,1193
+1937,314,Tripolitania,Misurata,1936,italian,sail,departed,7,460,0,0
+1937,314,Tripolitania,Misurata,1936,italian,all,departed,127,120282,2578,1193
+1937,314,Tripolitania,Sirte,1936,all,steam,departed,112,110255,404,258
+1937,314,Tripolitania,Sirte,1936,all,sail,departed,63,5880,248,0
+1937,314,Tripolitania,Sirte,1936,all,all,departed,175,116135,652,258
+1937,314,Tripolitania,Sirte,1936,italian,steam,departed,112,110255,404,258
+1937,314,Tripolitania,Sirte,1936,italian,sail,departed,63,5880,248,0
+1937,314,Tripolitania,Sirte,1936,italian,all,departed,175,116135,652,258
+1937,314,Tripolitania,Altri porti,1936,all,steam,departed,77,86542,2953,264
+1937,314,Tripolitania,Altri porti,1936,all,sail,departed,40,2191,289,3
+1937,314,Tripolitania,Altri porti,1936,all,all,departed,117,88733,3242,267
+1937,314,Tripolitania,Altri porti,1936,italian,steam,departed,77,86542,2953,264
+1937,314,Tripolitania,Altri porti,1936,italian,sail,departed,33,2144,289,3
+1937,314,Tripolitania,Altri porti,1936,italian,all,departed,110,88686,3242,267
+1937,314,Tripolitania,all ports,1936,all,steam,departed,1138,1593925,50801,49514
+1937,314,Tripolitania,all ports,1936,all,sail,departed,279,32965,6391,5
+1937,314,Tripolitania,all ports,1936,all,all,departed,1417,1626890,57192,49519
+1937,314,Tripolitania,all ports,1936,italian,steam,departed,1052,1459646,43940,47097
+1937,314,Tripolitania,all ports,1936,italian,sail,departed,258,31538,6387,5
+1937,314,Tripolitania,all ports,1936,italian,all,departed,1310,1491184,50327,47102
+1937,314,Cirenaica,Bengasi,1935,all,steam,arrived,413,623135,121899,33934
+1937,314,Cirenaica,Bengasi,1935,all,sail,arrived,96,8962,7486,11
+1937,314,Cirenaica,Bengasi,1935,all,all,arrived,509,632097,129385,33945
+1937,314,Cirenaica,Bengasi,1935,italian,steam,arrived,398,607894,106253,33897
+1937,314,Cirenaica,Bengasi,1935,italian,sail,arrived,90,7902,6528,11
+1937,314,Cirenaica,Bengasi,1935,italian,all,arrived,488,615796,112781,33908
+1937,314,Cirenaica,Apollonia,1935,all,steam,arrived,52,75588,3562,1377
+1937,314,Cirenaica,Apollonia,1935,all,sail,arrived,14,1685,372,0
+1937,314,Cirenaica,Apollonia,1935,all,all,arrived,66,77273,3934,1377
+1937,314,Cirenaica,Apollonia,1935,italian,steam,arrived,51,74877,3163,1377
+1937,314,Cirenaica,Apollonia,1935,italian,sail,arrived,14,1685,372,0
+1937,314,Cirenaica,Apollonia,1935,italian,all,arrived,65,76562,3535,1377
+1937,314,Cirenaica,Derna,1935,all,steam,arrived,180,271541,23536,10194
+1937,314,Cirenaica,Derna,1935,all,sail,arrived,46,3511,1729,2
+1937,314,Cirenaica,Derna,1935,all,all,arrived,226,275052,25265,10196
+1937,314,Cirenaica,Derna,1935,italian,steam,arrived,177,269062,22946,10194
+1937,314,Cirenaica,Derna,1935,italian,sail,arrived,42,3178,1723,2
+1937,314,Cirenaica,Derna,1935,italian,all,arrived,219,272240,24669,10196
+1937,314,Cirenaica,Tobruk,1935,all,steam,arrived,116,218887,26009,10606
+1937,314,Cirenaica,Tobruk,1935,all,sail,arrived,71,4611,3380,4
+1937,314,Cirenaica,Tobruk,1935,all,all,arrived,187,223498,29389,10610
+1937,314,Cirenaica,Tobruk,1935,italian,steam,arrived,115,218176,24452,10606
+1937,314,Cirenaica,Tobruk,1935,italian,sail,arrived,65,4364,3360,2
+1937,314,Cirenaica,Tobruk,1935,italian,all,arrived,180,222540,27812,10608
+1937,314,Cirenaica,Altri porti,1935,all,steam,arrived,39,57304,3953,3150
+1937,314,Cirenaica,Altri porti,1935,all,sail,arrived,26,1091,1132,0
+1937,314,Cirenaica,Altri porti,1935,all,all,arrived,65,58395,5085,3150
+1937,314,Cirenaica,Altri porti,1935,italian,steam,arrived,38,55999,3953,3150
+1937,314,Cirenaica,Altri porti,1935,italian,sail,arrived,25,1012,1045,0
+1937,314,Cirenaica,Altri porti,1935,italian,all,arrived,63,57011,4998,3150
+1937,314,Cirenaica,all ports,1935,all,steam,arrived,800,1246455,178959,59261
+1937,314,Cirenaica,all ports,1935,all,sail,arrived,253,19860,14099,17
+1937,314,Cirenaica,all ports,1935,all,all,arrived,1053,1266315,193058,59278
+1937,314,Cirenaica,all ports,1935,italian,steam,arrived,779,1226008,160767,59224
+1937,314,Cirenaica,all ports,1935,italian,sail,arrived,236,18141,13028,15
+1937,314,Cirenaica,all ports,1935,italian,all,arrived,1015,1244149,173795,59239
+1937,314,Cirenaica,all ports,1934,all,steam,arrived,727,871322,167497,17955
+1937,314,Cirenaica,all ports,1934,all,sail,arrived,370,24653,13379,24
+1937,314,Cirenaica,all ports,1934,all,all,arrived,1097,895975,180876,17979
+1937,314,Cirenaica,all ports,1934,italian,steam,arrived,693,846928,146339,17950
+1937,314,Cirenaica,all ports,1934,italian,sail,arrived,318,22562,11990,13
+1937,314,Cirenaica,all ports,1934,italian,all,arrived,1011,869490,158329,17963
+1937,314,Cirenaica,all ports,1933,all,steam,arrived,752,860155,142343,28181
+1937,314,Cirenaica,all ports,1933,all,sail,arrived,355,19365,11816,15
+1937,314,Cirenaica,all ports,1933,all,all,arrived,1107,879520,154159,28196
+1937,314,Cirenaica,all ports,1933,italian,steam,arrived,732,841225,127128,28180
+1937,314,Cirenaica,all ports,1933,italian,sail,arrived,315,17312,9773,3
+1937,314,Cirenaica,all ports,1933,italian,all,arrived,1047,858537,136901,28183
+1937,314,Cirenaica,all ports,1932,all,steam,arrived,962,1024457,146089,27373
+1937,314,Cirenaica,all ports,1932,all,sail,arrived,296,18484,11958,27
+1937,314,Cirenaica,all ports,1932,all,all,arrived,1258,1042941,158047,27400
+1937,314,Cirenaica,all ports,1932,italian,steam,arrived,935,993135,129748,27322
+1937,314,Cirenaica,all ports,1932,italian,sail,arrived,244,16203,9972,7
+1937,314,Cirenaica,all ports,1932,italian,all,arrived,1179,1009338,139720,27329
+1937,314,Cirenaica,Bengasi,1935,all,steam,departed,414,610062,21087,24082
+1937,314,Cirenaica,Bengasi,1935,all,sail,departed,111,8902,3543,9
+1937,314,Cirenaica,Bengasi,1935,all,all,departed,525,618964,24630,24091
+1937,314,Cirenaica,Bengasi,1935,italian,steam,departed,400,596375,21045,24082
+1937,314,Cirenaica,Bengasi,1935,italian,sail,departed,104,7825,3537,4
+1937,314,Cirenaica,Bengasi,1935,italian,all,departed,504,604200,24582,24086
+1937,314,Cirenaica,Apollonia,1935,all,steam,departed,52,75588,464,368
+1937,314,Cirenaica,Apollonia,1935,all,sail,departed,14,1685,67,0
+1937,314,Cirenaica,Apollonia,1935,all,all,departed,66,77273,531,368
+1937,314,Cirenaica,Apollonia,1935,italian,steam,departed,51,74877,464,368
+1937,314,Cirenaica,Apollonia,1935,italian,sail,departed,14,1685,67,0
+1937,314,Cirenaica,Apollonia,1935,italian,all,departed,65,76562,531,368
+1937,314,Cirenaica,Derna,1935,all,steam,departed,176,268615,2495,885
+1937,314,Cirenaica,Derna,1935,all,sail,departed,46,3512,171,0
+1937,314,Cirenaica,Derna,1935,all,all,departed,222,272127,2666,885
+1937,314,Cirenaica,Derna,1935,italian,steam,departed,173,266136,2275,885
+1937,314,Cirenaica,Derna,1935,italian,sail,departed,42,3179,169,0
+1937,314,Cirenaica,Derna,1935,italian,all,departed,215,269315,2444,885
+1937,314,Cirenaica,Tobruk,1935,all,steam,departed,115,213208,623,4255
+1937,314,Cirenaica,Tobruk,1935,all,sail,departed,69,4677,242,9
+1937,314,Cirenaica,Tobruk,1935,all,all,departed,184,217885,865,4264
+1937,314,Cirenaica,Tobruk,1935,italian,steam,departed,114,212497,623,4255
+1937,314,Cirenaica,Tobruk,1935,italian,sail,departed,63,4422,232,8
+1937,314,Cirenaica,Tobruk,1935,italian,all,departed,177,216919,855,4263
+1937,314,Cirenaica,Altri porti,1935,all,steam,departed,39,57304,204,2591
+1937,314,Cirenaica,Altri porti,1935,all,sail,departed,27,1121,83,0
+1937,314,Cirenaica,Altri porti,1935,all,all,departed,66,58425,287,2591
+1937,314,Cirenaica,Altri porti,1935,italian,steam,departed,38,55999,204,2591
+1937,314,Cirenaica,Altri porti,1935,italian,sail,departed,26,1042,83,0
+1937,314,Cirenaica,Altri porti,1935,italian,all,departed,64,57041,287,2591
+1937,314,Cirenaica,all ports,1935,all,steam,departed,796,1224777,24873,32181
+1937,314,Cirenaica,all ports,1935,all,sail,departed,267,19897,4106,18
+1937,314,Cirenaica,all ports,1935,all,all,departed,1063,1244674,28979,32199
+1937,314,Cirenaica,all ports,1935,italian,steam,departed,776,1205884,24611,32181
+1937,314,Cirenaica,all ports,1935,italian,sail,departed,249,18153,4088,12
+1937,314,Cirenaica,all ports,1935,italian,all,departed,1025,1224037,28699,32193
+1937,314,Cirenaica,all ports,1934,all,steam,departed,732,892971,18955,17778
+1937,314,Cirenaica,all ports,1934,all,sail,departed,365,23177,3814,18
+1937,314,Cirenaica,all ports,1934,all,all,departed,1097,916148,22769,17796
+1937,314,Cirenaica,all ports,1934,italian,steam,departed,696,868164,18897,17775
+1937,314,Cirenaica,all ports,1934,italian,sail,departed,321,21669,3765,11
+1937,314,Cirenaica,all ports,1934,italian,all,departed,1017,889833,22662,17786
+1937,314,Cirenaica,all ports,1933,all,steam,departed,747,857973,15596,24007
+1937,314,Cirenaica,all ports,1933,all,sail,departed,372,21100,3083,40
+1937,314,Cirenaica,all ports,1933,all,all,departed,1119,879073,18679,24047
+1937,314,Cirenaica,all ports,1933,italian,steam,departed,728,840287,15586,24006
+1937,314,Cirenaica,all ports,1933,italian,sail,departed,332,19034,2988,22
+1937,314,Cirenaica,all ports,1933,italian,all,departed,1060,859321,18574,24028
+1937,314,Cirenaica,all ports,1932,all,steam,departed,963,1021127,16693,26248
+1937,314,Cirenaica,all ports,1932,all,sail,departed,298,18652,3672,20
+1937,314,Cirenaica,all ports,1932,all,all,departed,1261,1039779,20365,26268
+1937,314,Cirenaica,all ports,1932,italian,steam,departed,935,989581,16638,26198
+1937,314,Cirenaica,all ports,1932,italian,sail,departed,249,16543,3573,11
+1937,314,Cirenaica,all ports,1932,italian,all,departed,1184,1006124,20211,26209
+1937,300,Tripolitania,all ports,1936,all,all,arrived,,1629702,318676,42792
+1937,300,Tripolitania,all ports,1936,all,all,departed,,1626890,57192,49519
+1937,300,Tripolitania,all ports,1935,all,all,arrived,,1660331,261442,48271
+1937,300,Tripolitania,all ports,1935,all,all,departed,,1660701,70114,43245
+1937,300,Cirenaica,all ports,1935,all,all,arrived,,1266315,193058,59278
+1937,300,Cirenaica,all ports,1935,all,all,departed,,1244674,28979,32199
+1938,312,Tripolitania,all ports,1937,all,all,arrived,,1893350,385604,59039
+1938,312,Tripolitania,all ports,1937,all,all,departed,,1865967,66779,47910
+1938,312,Tripolitania,all ports,1936,all,all,arrived,,1629702,318676,42792
+1938,312,Tripolitania,all ports,1936,all,all,departed,,1626890,57229,49519
+1938,312,Cirenaica,all ports,1937,all,all,arrived,,1412928,203889,33217
+1938,312,Cirenaica,all ports,1937,all,all,departed,,1420500,54732,32704
+1938,312,Cirenaica,all ports,1936,all,all,arrived,,2079066,353870,81742
+1938,312,Cirenaica,all ports,1936,all,all,departed,,2098057,122131,99256
+1938,329,Tripolitania,Tripoli,1937,all,steam,arrived,727,1386286,313833,58086
+1938,329,Tripolitania,Tripoli,1937,all,sail,arrived,202,30757,39803,12
+1938,329,Tripolitania,Tripoli,1937,all,all,arrived,929,1417043,353636,58098
+1938,329,Tripolitania,Tripoli,1937,italian,steam,arrived,659,1223770,279325,56175
+1938,329,Tripolitania,Tripoli,1937,italian,sail,arrived,168,29350,38800,0
+1938,329,Tripolitania,Tripoli,1937,italian,all,arrived,827,1253120,318125,56175
+1938,329,Tripolitania,Homs,1937,all,steam,arrived,88,91346,5251,125
+1938,329,Tripolitania,Homs,1937,all,sail,arrived,4,217,300,0
+1938,329,Tripolitania,Homs,1937,all,all,arrived,92,91563,5551,125
+1938,329,Tripolitania,Homs,1937,italian,steam,arrived,87,90370,5251,125
+1938,329,Tripolitania,Homs,1937,italian,sail,arrived,3,210,297,0
+1938,329,Tripolitania,Homs,1937,italian,all,arrived,90,90580,5548,125
+1938,329,Tripolitania,Sliten,1937,all,steam,arrived,68,75138,2260,36
+1938,329,Tripolitania,Sliten,1937,all,sail,arrived,4,83,70,0
+1938,329,Tripolitania,Sliten,1937,all,all,arrived,72,75221,2330,36
+1938,329,Tripolitania,Sliten,1937,italian,steam,arrived,67,74196,2260,36
+1938,329,Tripolitania,Sliten,1937,italian,sail,arrived,3,74,66,0
+1938,329,Tripolitania,Sliten,1937,italian,all,arrived,70,74270,2326,36
+1938,329,Tripolitania,Misurata,1937,all,steam,arrived,111,108320,13597,218
+1938,329,Tripolitania,Misurata,1937,all,sail,arrived,7,1040,1670,1
+1938,329,Tripolitania,Misurata,1937,all,all,arrived,118,109360,15267,219
+1938,329,Tripolitania,Misurata,1937,italian,steam,arrived,111,108320,13597,218
+1938,329,Tripolitania,Misurata,1937,italian,sail,arrived,6,1031,1666,1
+1938,329,Tripolitania,Misurata,1937,italian,all,arrived,117,109351,15263,219
+1938,329,Tripolitania,Sirte,1937,all,steam,arrived,95,97849,2957,527
+1938,329,Tripolitania,Sirte,1937,all,sail,arrived,21,3114,725,0
+1938,329,Tripolitania,Sirte,1937,all,all,arrived,116,100963,3682,527
+1938,329,Tripolitania,Sirte,1937,italian,steam,arrived,95,97849,2957,527
+1938,329,Tripolitania,Sirte,1937,italian,sail,arrived,21,3114,725,0
+1938,329,Tripolitania,Sirte,1937,italian,all,arrived,116,100963,3682,527
+1938,329,Tripolitania,Altri porti,1937,all,steam,arrived,92,98567,4712,33
+1938,329,Tripolitania,Altri porti,1937,all,sail,arrived,19,633,426,1
+1938,329,Tripolitania,Altri porti,1937,all,all,arrived,111,99200,5138,34
+1938,329,Tripolitania,Altri porti,1937,italian,steam,arrived,92,98567,4712,33
+1938,329,Tripolitania,Altri porti,1937,italian,sail,arrived,15,551,423,1
+1938,329,Tripolitania,Altri porti,1937,italian,all,arrived,107,99118,5135,34
+1938,329,Tripolitania,all ports,1937,all,steam,arrived,1181,1857506,342610,59025
+1938,329,Tripolitania,all ports,1937,all,sail,arrived,257,35844,42994,14
+1938,329,Tripolitania,all ports,1937,all,all,arrived,1438,1893350,385604,59039
+1938,329,Tripolitania,all ports,1937,italian,steam,arrived,1111,1693072,308102,57114
+1938,329,Tripolitania,all ports,1937,italian,sail,arrived,216,34330,41977,2
+1938,329,Tripolitania,all ports,1937,italian,all,arrived,1327,1727402,350079,57116
+1938,329,Tripolitania,all ports,1936,all,steam,arrived,1141,1597707,285771,42783
+1938,329,Tripolitania,all ports,1936,all,sail,arrived,274,31995,32905,9
+1938,329,Tripolitania,all ports,1936,all,all,arrived,1415,1629702,318676,42792
+1938,329,Tripolitania,all ports,1936,italian,steam,arrived,1054,1461774,235770,41055
+1938,329,Tripolitania,all ports,1936,italian,sail,arrived,253,30568,31524,4
+1938,329,Tripolitania,all ports,1936,italian,all,arrived,1307,1492342,267294,41059
+1938,329,Tripolitania,all ports,1935,all,steam,arrived,1079,1643460,247317,48260
+1938,329,Tripolitania,all ports,1935,all,sail,arrived,193,16871,14125,11
+1938,329,Tripolitania,all ports,1935,all,all,arrived,1272,1660331,261442,48271
+1938,329,Tripolitania,all ports,1935,italian,steam,arrived,984,1403221,214350,42586
+1938,329,Tripolitania,all ports,1935,italian,sail,arrived,148,14591,12199,2
+1938,329,Tripolitania,all ports,1935,italian,all,arrived,1132,1417812,226549,42588
+1938,329,Tripolitania,Tripoli,1937,all,steam,departed,718,1357295,53371,47261
+1938,329,Tripolitania,Tripoli,1937,all,sail,departed,200,31283,4503,1
+1938,329,Tripolitania,Tripoli,1937,all,all,departed,918,1388578,57874,47262
+1938,329,Tripolitania,Tripoli,1937,italian,steam,departed,650,1193725,37707,45494
+1938,329,Tripolitania,Tripoli,1937,italian,sail,departed,165,29866,4502,1
+1938,329,Tripolitania,Tripoli,1937,italian,all,departed,815,1223591,42209,45495
+1938,329,Tripolitania,Homs,1937,all,steam,departed,88,91346,2285,81
+1938,329,Tripolitania,Homs,1937,all,sail,departed,4,217,0,0
+1938,329,Tripolitania,Homs,1937,all,all,departed,92,91563,2285,81
+1938,329,Tripolitania,Homs,1937,italian,steam,departed,87,90370,885,81
+1938,329,Tripolitania,Homs,1937,italian,sail,departed,3,210,0,0
+1938,329,Tripolitania,Homs,1937,italian,all,departed,90,90580,885,81
+1938,329,Tripolitania,Sliten,1937,all,steam,departed,68,75138,1830,40
+1938,329,Tripolitania,Sliten,1937,all,sail,departed,3,73,0,0
+1938,329,Tripolitania,Sliten,1937,all,all,departed,71,75211,1830,40
+1938,329,Tripolitania,Sliten,1937,italian,steam,departed,67,74196,1229,40
+1938,329,Tripolitania,Sliten,1937,italian,sail,departed,2,64,0,0
+1938,329,Tripolitania,Sliten,1937,italian,all,departed,69,74260,1229,40
+1938,329,Tripolitania,Misurata,1937,all,steam,departed,110,109461,1329,347
+1938,329,Tripolitania,Misurata,1937,all,sail,departed,7,1040,0,0
+1938,329,Tripolitania,Misurata,1937,all,all,departed,117,110501,1329,347
+1938,329,Tripolitania,Misurata,1937,italian,steam,departed,110,109461,1329,347
+1938,329,Tripolitania,Misurata,1937,italian,sail,departed,6,1031,0,0
+1938,329,Tripolitania,Misurata,1937,italian,all,departed,116,110492,1329,347
+1938,329,Tripolitania,Sirte,1937,all,steam,departed,95,97849,694,152
+1938,329,Tripolitania,Sirte,1937,all,sail,departed,21,3114,457,0
+1938,329,Tripolitania,Sirte,1937,all,all,departed,116,100963,1151,152
+1938,329,Tripolitania,Sirte,1937,italian,steam,departed,95,97849,694,152
+1938,329,Tripolitania,Sirte,1937,italian,sail,departed,21,3114,457,0
+1938,329,Tripolitania,Sirte,1937,italian,all,departed,116,100963,1151,152
+1938,329,Tripolitania,Altri porti,1937,all,steam,departed,92,98567,2050,28
+1938,329,Tripolitania,Altri porti,1937,all,sail,departed,16,584,260,0
+1938,329,Tripolitania,Altri porti,1937,all,all,departed,108,99151,2310,28
+1938,329,Tripolitania,Altri porti,1937,italian,steam,departed,92,98567,2050,28
+1938,329,Tripolitania,Altri porti,1937,italian,sail,departed,13,520,259,0
+1938,329,Tripolitania,Altri porti,1937,italian,all,departed,105,99087,2309,28
+1938,329,Tripolitania,all ports,1937,all,steam,departed,1171,1829656,61559,47909
+1938,329,Tripolitania,all ports,1937,all,sail,departed,251,36311,5220,1
+1938,329,Tripolitania,all ports,1937,all,all,departed,1422,1865967,66779,47910
+1938,329,Tripolitania,all ports,1937,italian,steam,departed,1101,1664168,43894,46142
+1938,329,Tripolitania,all ports,1937,italian,sail,departed,210,34805,5218,1
+1938,329,Tripolitania,all ports,1937,italian,all,departed,1311,1698973,49112,46143
+1938,329,Tripolitania,all ports,1936,all,steam,departed,1138,1593925,50838,49514
+1938,329,Tripolitania,all ports,1936,all,sail,departed,279,32965,6391,5
+1938,329,Tripolitania,all ports,1936,all,all,departed,1417,1626890,57229,49519
+1938,329,Tripolitania,all ports,1936,italian,steam,departed,1052,1459646,43977,47097
+1938,329,Tripolitania,all ports,1936,italian,sail,departed,258,31538,6387,5
+1938,329,Tripolitania,all ports,1936,italian,all,departed,1310,1491184,50364,47102
+1938,329,Tripolitania,all ports,1935,all,steam,departed,1077,1642928,67264,43243
+1938,329,Tripolitania,all ports,1935,all,sail,departed,196,17773,2850,2
+1938,329,Tripolitania,all ports,1935,all,all,departed,1273,1660701,70114,43245
+1938,329,Tripolitania,all ports,1935,italian,steam,departed,980,1401826,43983,37659
+1938,329,Tripolitania,all ports,1935,italian,sail,departed,150,15453,2845,2
+1938,329,Tripolitania,all ports,1935,italian,all,departed,1130,1417279,46828,37661
+1938,330,Cirenaica,Bengasi,1936,all,steam,arrived,533,800352,142289,40642
+1938,330,Cirenaica,Bengasi,1936,all,sail,arrived,212,19533,14631,2
+1938,330,Cirenaica,Bengasi,1936,all,all,arrived,745,819885,156920,40644
+1938,330,Cirenaica,Bengasi,1936,italian,steam,arrived,499,763847,121409,40002
+1938,330,Cirenaica,Bengasi,1936,italian,sail,arrived,206,18242,13400,2
+1938,330,Cirenaica,Bengasi,1936,italian,all,arrived,705,782089,134809,40004
+1938,330,Cirenaica,Apollonia,1936,all,steam,arrived,79,99794,4328,1756
+1938,330,Cirenaica,Apollonia,1936,all,sail,arrived,18,2663,664,0
+1938,330,Cirenaica,Apollonia,1936,all,all,arrived,97,102457,4992,1756
+1938,330,Cirenaica,Apollonia,1936,italian,steam,arrived,78,98931,4110,1756
+1938,330,Cirenaica,Apollonia,1936,italian,sail,arrived,18,2663,664,0
+1938,330,Cirenaica,Apollonia,1936,italian,all,arrived,96,101594,4774,1756
+1938,330,Cirenaica,Derna,1936,all,steam,arrived,257,502182,33761,14835
+1938,330,Cirenaica,Derna,1936,all,sail,arrived,82,9808,4779,0
+1938,330,Cirenaica,Derna,1936,all,all,arrived,339,511990,38540,14835
+1938,330,Cirenaica,Derna,1936,italian,steam,arrived,253,498376,32104,14835
+1938,330,Cirenaica,Derna,1936,italian,sail,arrived,82,9808,4779,0
+1938,330,Cirenaica,Derna,1936,italian,all,arrived,335,508184,36883,14835
+1938,330,Cirenaica,Tobruk,1936,all,steam,arrived,278,506702,117180,19519
+1938,330,Cirenaica,Tobruk,1936,all,sail,arrived,131,10986,9295,6
+1938,330,Cirenaica,Tobruk,1936,all,all,arrived,409,517688,126475,19525
+1938,330,Cirenaica,Tobruk,1936,italian,steam,arrived,274,503833,115829,19519
+1938,330,Cirenaica,Tobruk,1936,italian,sail,arrived,130,10863,9003,6
+1938,330,Cirenaica,Tobruk,1936,italian,all,arrived,404,514696,124832,19525
+1938,330,Cirenaica,Altri porti,1936,all,steam,arrived,90,123037,20349,4982
+1938,330,Cirenaica,Altri porti,1936,all,sail,arrived,75,4009,6594,0
+1938,330,Cirenaica,Altri porti,1936,all,all,arrived,165,127046,26943,4982
+1938,330,Cirenaica,Altri porti,1936,italian,steam,arrived,88,121039,19270,4982
+1938,330,Cirenaica,Altri porti,1936,italian,sail,arrived,75,4009,6594,0
+1938,330,Cirenaica,Altri porti,1936,italian,all,arrived,163,125048,25864,4982
+1938,330,Cirenaica,all ports,1936,all,steam,arrived,1237,2032067,317907,81734
+1938,330,Cirenaica,all ports,1936,all,sail,arrived,518,46999,35963,8
+1938,330,Cirenaica,all ports,1936,all,all,arrived,1755,2079066,353870,81742
+1938,330,Cirenaica,all ports,1936,italian,steam,arrived,1192,1986026,292722,81094
+1938,330,Cirenaica,all ports,1936,italian,sail,arrived,511,45585,34440,8
+1938,330,Cirenaica,all ports,1936,italian,all,arrived,1703,2031611,327162,81102
+1938,330,Cirenaica,Bengasi,1936,all,steam,departed,532,805323,77791,39889
+1938,330,Cirenaica,Bengasi,1936,all,sail,departed,210,19309,14149,5
+1938,330,Cirenaica,Bengasi,1936,all,all,departed,742,824632,91940,39894
+1938,330,Cirenaica,Bengasi,1936,italian,steam,departed,498,767763,60275,39875
+1938,330,Cirenaica,Bengasi,1936,italian,sail,departed,206,18161,14134,3
+1938,330,Cirenaica,Bengasi,1936,italian,all,departed,704,785924,74409,39878
+1938,330,Cirenaica,Apollonia,1936,all,steam,departed,78,99794,2103,7
+1938,330,Cirenaica,Apollonia,1936,all,sail,departed,18,2653,136,0
+1938,330,Cirenaica,Apollonia,1936,all,all,departed,96,102447,2239,7
+1938,330,Cirenaica,Apollonia,1936,italian,steam,departed,77,98931,2085,7
+1938,330,Cirenaica,Apollonia,1936,italian,sail,departed,18,2653,136,0
+1938,330,Cirenaica,Apollonia,1936,italian,all,departed,95,101584,2221,7
+1938,330,Cirenaica,Derna,1936,all,steam,departed,254,512794,8985,30295
+1938,330,Cirenaica,Derna,1936,all,sail,departed,80,8607,1341,0
+1938,330,Cirenaica,Derna,1936,all,all,departed,334,521401,10326,30295
+1938,330,Cirenaica,Derna,1936,italian,steam,departed,250,508988,8985,30295
+1938,330,Cirenaica,Derna,1936,italian,sail,departed,80,8607,1341,0
+1938,330,Cirenaica,Derna,1936,italian,all,departed,330,517595,10326,30295
+1938,330,Cirenaica,Tobruk,1936,all,steam,departed,277,511337,11047,24644
+1938,330,Cirenaica,Tobruk,1936,all,sail,departed,132,11491,5110,9
+1938,330,Cirenaica,Tobruk,1936,all,all,departed,409,522828,16157,24653
+1938,330,Cirenaica,Tobruk,1936,italian,steam,departed,273,508468,11047,24644
+1938,330,Cirenaica,Tobruk,1936,italian,sail,departed,131,11368,5110,9
+1938,330,Cirenaica,Tobruk,1936,italian,all,departed,404,519836,16157,24653
+1938,330,Cirenaica,Altri porti,1936,all,steam,departed,88,122830,1263,4407
+1938,330,Cirenaica,Altri porti,1936,all,sail,departed,75,3919,206,0
+1938,330,Cirenaica,Altri porti,1936,all,all,departed,163,126749,1469,4407
+1938,330,Cirenaica,Altri porti,1936,italian,steam,departed,86,120832,1263,4407
+1938,330,Cirenaica,Altri porti,1936,italian,sail,departed,75,3919,206,0
+1938,330,Cirenaica,Altri porti,1936,italian,all,departed,161,124751,1469,4407
+1938,330,Cirenaica,Bengasi,1937,all,steam,arrived,483,710718,106191,26874
+1938,330,Cirenaica,Bengasi,1937,all,sail,arrived,94,11398,10409,8
+1938,330,Cirenaica,Bengasi,1937,all,all,arrived,577,722116,116600,26882
+1938,330,Cirenaica,Bengasi,1937,italian,steam,arrived,472,695212,100398,26778
+1938,330,Cirenaica,Bengasi,1937,italian,sail,arrived,89,10399,9384,4
+1938,330,Cirenaica,Bengasi,1937,italian,all,arrived,561,705611,109782,26782
+1938,330,Cirenaica,Apollonia,1937,all,steam,arrived,105,102320,5006,500
+1938,330,Cirenaica,Apollonia,1937,all,sail,arrived,13,2954,292,0
+1938,330,Cirenaica,Apollonia,1937,all,all,arrived,118,105274,5298,500
+1938,330,Cirenaica,Apollonia,1937,italian,steam,arrived,105,102320,5006,500
+1938,330,Cirenaica,Apollonia,1937,italian,sail,arrived,13,2954,292,0
+1938,330,Cirenaica,Apollonia,1937,italian,all,arrived,118,105274,5298,500
+1938,330,Cirenaica,Derna,1937,all,steam,arrived,205,289465,30088,4498
+1938,330,Cirenaica,Derna,1937,all,sail,arrived,48,7761,5548,0
+1938,330,Cirenaica,Derna,1937,all,all,arrived,253,297226,35636,4498
+1938,330,Cirenaica,Derna,1937,italian,steam,arrived,201,285693,29361,4496
+1938,330,Cirenaica,Derna,1937,italian,sail,arrived,48,7761,5548,0
+1938,330,Cirenaica,Derna,1937,italian,all,arrived,249,293454,34909,4496
+1938,330,Cirenaica,Tobruk,1937,all,steam,arrived,167,183528,36451,988
+1938,330,Cirenaica,Tobruk,1937,all,sail,arrived,86,6776,5059,0
+1938,330,Cirenaica,Tobruk,1937,all,all,arrived,253,190304,41510,988
+1938,330,Cirenaica,Tobruk,1937,italian,steam,arrived,162,177729,33099,988
+1938,330,Cirenaica,Tobruk,1937,italian,sail,arrived,86,6776,5059,0
+1938,330,Cirenaica,Tobruk,1937,italian,all,arrived,248,184505,38158,988
+1938,330,Cirenaica,Altri porti,1937,all,steam,arrived,91,97219,4439,349
+1938,330,Cirenaica,Altri porti,1937,all,sail,arrived,21,789,406,0
+1938,330,Cirenaica,Altri porti,1937,all,all,arrived,112,98008,4845,349
+1938,330,Cirenaica,Altri porti,1937,italian,steam,arrived,90,96508,2989,349
+1938,330,Cirenaica,Altri porti,1937,italian,sail,arrived,20,786,406,0
+1938,330,Cirenaica,Altri porti,1937,italian,all,arrived,110,97294,3395,349
+1938,330,Cirenaica,all ports,1936,all,steam,departed,1229,2052078,101189,99242
+1938,330,Cirenaica,all ports,1936,all,sail,departed,515,45979,20942,14
+1938,330,Cirenaica,all ports,1936,all,all,departed,1744,2098057,122131,99256
+1938,330,Cirenaica,all ports,1936,italian,steam,departed,1184,2004982,83655,99228
+1938,330,Cirenaica,all ports,1936,italian,sail,departed,510,44708,20927,12
+1938,330,Cirenaica,all ports,1936,italian,all,departed,1694,2049690,104582,99240
+1938,330,Cirenaica,all ports,1937,all,steam,arrived,1051,1383250,182175,33209
+1938,330,Cirenaica,all ports,1937,all,sail,arrived,262,29678,21714,8
+1938,330,Cirenaica,all ports,1937,all,all,arrived,1313,1412928,203889,33217
+1938,330,Cirenaica,Bengasi,1937,all,steam,departed,488,712457,29945,25236
+1938,330,Cirenaica,Bengasi,1937,all,sail,departed,93,14440,3953,12
+1938,330,Cirenaica,Bengasi,1937,all,all,departed,581,726897,33898,25248
+1938,330,Cirenaica,Bengasi,1937,italian,steam,departed,476,696164,29945,25079
+1938,330,Cirenaica,Bengasi,1937,italian,sail,departed,88,13468,3932,2
+1938,330,Cirenaica,Bengasi,1937,italian,all,departed,564,709632,33877,25081
+1938,330,Cirenaica,Apollonia,1937,all,steam,departed,105,102380,1448,46
+1938,330,Cirenaica,Apollonia,1937,all,sail,departed,13,2964,66,0
+1938,330,Cirenaica,Apollonia,1937,all,all,departed,118,105334,1514,46
+1938,330,Cirenaica,Apollonia,1937,italian,steam,departed,105,102380,1448,46
+1938,330,Cirenaica,Apollonia,1937,italian,sail,departed,13,2954,66,0
+1938,330,Cirenaica,Apollonia,1937,italian,all,departed,118,105334,1514,46
+1938,330,Cirenaica,Derna,1937,all,steam,departed,203,287612,5230,3565
+1938,330,Cirenaica,Derna,1937,all,sail,departed,50,8944,131,0
+1938,330,Cirenaica,Derna,1937,all,all,departed,253,296556,5361,3565
+1938,330,Cirenaica,Derna,1937,italian,steam,departed,199,283840,5230,3565
+1938,330,Cirenaica,Derna,1937,italian,sail,departed,50,8944,131,0
+1938,330,Cirenaica,Derna,1937,italian,all,departed,249,292784,5361,3565
+1938,330,Cirenaica,Tobruk,1937,all,steam,departed,168,186442,13272,2968
+1938,330,Cirenaica,Tobruk,1937,all,sail,departed,88,6896,216,3
+1938,330,Cirenaica,Tobruk,1937,all,all,departed,256,193338,13488,2971
+1938,330,Cirenaica,Tobruk,1937,italian,steam,departed,163,180643,13272,2968
+1938,330,Cirenaica,Tobruk,1937,italian,sail,departed,88,6896,216,3
+1938,330,Cirenaica,Tobruk,1937,italian,all,departed,251,187539,13488,2971
+1938,330,Cirenaica,Altri porti,1937,all,steam,departed,92,97586,404,874
+1938,330,Cirenaica,Altri porti,1937,all,sail,departed,21,789,67,0
+1938,330,Cirenaica,Altri porti,1937,all,all,departed,113,98375,471,874
+1938,330,Cirenaica,Altri porti,1937,italian,steam,departed,91,96875,404,874
+1938,330,Cirenaica,Altri porti,1937,italian,sail,departed,20,786,67,0
+1938,330,Cirenaica,Altri porti,1937,italian,all,departed,111,97661,471,874
+1938,330,Cirenaica,all ports,1937,all,steam,departed,1056,1386477,50299,32689
+1938,330,Cirenaica,all ports,1937,all,sail,departed,265,34023,4433,15
+1938,330,Cirenaica,all ports,1937,all,all,departed,1321,1420500,54732,32704
+1938,330,Cirenaica,all ports,1937,italian,steam,departed,1034,1359902,50299,32532
+1938,330,Cirenaica,all ports,1937,italian,sail,departed,259,33048,4412,5
+1938,330,Cirenaica,all ports,1937,italian,all,departed,1293,1392950,54711,32537
+1938,330,Cirenaica,all ports,1937,italian,steam,arrived,1030,1357462,170853,33111
+1938,330,Cirenaica,all ports,1937,italian,sail,arrived,256,28676,20689,4
+1938,330,Cirenaica,all ports,1937,italian,all,arrived,1286,1386138,191542,33115

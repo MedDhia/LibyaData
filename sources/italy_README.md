@@ -148,6 +148,15 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    places where a later volume revises an earlier one, which are published as revisions rather than
    averaged away. 23 of the 29 colony-years that carry figures are printed in two or more volumes and agree.
 
+   **Shipping, 1921 to 1937**, is the second series, in
+   `data/processed/istat/libya_annuario_shipping.csv`, published by
+   `scripts/extract_istat_annuario_shipping.py` from 25 pages in twelve volumes: vessels, net
+   tonnage, cargo and passengers by port, flag and propulsion. Steam and sail add to the whole and
+   the ports to the colony in 1,586 sums, and the four places where volumes disagree are each a
+   revision the later volume's footnote announces. Ships arriving at Tripoli carried 285,842 net
+   tons in 1923 and 1,417,043 in 1937. Population movement, market prices by city, credit and
+   schools come next.
+
 5. ~~The 1931 volume's table II, the district detail, is not machine-readable from this scan.~~
    **Done**, by transcription rather than by re-OCR. `scripts/extract_istat_1931_districts.py`
    publishes 106 rows two levels below the circumscription, with the sex breakdown table I does not
