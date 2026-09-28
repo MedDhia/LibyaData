@@ -1,0 +1,109 @@
+area,husband_age,husbands,wives,w13,w14,w15_19,w20_24,w25_29,w30_34,w35_39,w40_44,w45_49,w50_54,w55_59,w60_64,w65plus
+Libia,20-24,14,28,0,0,9,18,1,0,0,0,0,0,0,0,0
+Libia,25-29,103,206,0,0,37,78,63,16,6,3,1,1,0,1,0
+Libia,30-34,256,517,0,0,44,123,192,91,25,27,6,7,0,2,0
+Libia,35-39,462,932,1,0,57,146,258,273,121,54,13,7,0,1,1
+Libia,40-44,636,1293,1,1,35,97,213,351,352,157,44,36,2,3,1
+Libia,45-49,683,1396,0,0,29,59,161,275,375,338,87,54,9,7,2
+Libia,50-54,839,1715,0,1,16,36,110,246,317,478,341,123,29,16,2
+Libia,55-59,678,1404,0,0,11,20,66,146,210,319,287,260,52,26,7
+Libia,60-64,721,1496,0,1,7,19,44,117,150,286,236,391,165,64,16
+Libia,65+,1115,2318,1,1,1,10,28,98,145,307,347,492,235,383,270
+Libia,Totale,5507,11305,3,4,246,606,1136,1613,1701,1969,1362,1371,492,503,299
+Provincia di Tripoli,20-24,6,12,0,0,6,6,0,0,0,0,0,0,0,0,0
+Provincia di Tripoli,25-29,55,110,0,0,21,45,32,5,2,2,1,1,0,1,0
+Provincia di Tripoli,30-34,91,182,0,0,17,44,75,26,8,9,3,0,0,0,0
+Provincia di Tripoli,35-39,186,373,0,0,20,45,112,123,53,14,3,3,0,0,0
+Provincia di Tripoli,40-44,258,520,0,1,14,34,87,143,149,65,17,8,0,1,1
+Provincia di Tripoli,45-49,287,582,0,0,11,23,49,106,171,164,39,13,3,2,1
+Provincia di Tripoli,50-54,345,701,0,0,4,13,37,99,121,209,161,41,11,4,1
+Provincia di Tripoli,55-59,259,535,0,0,3,4,17,49,71,109,128,123,21,9,1
+Provincia di Tripoli,60-64,331,681,0,1,2,5,13,40,67,138,99,190,82,36,8
+Provincia di Tripoli,65+,514,1066,1,0,1,5,4,34,46,137,152,248,115,188,135
+Provincia di Tripoli,Totale,2332,4762,1,2,99,224,426,625,688,847,603,627,232,241,147
+di cui municipio di Tripoli,20-24,1,2,0,0,1,1,0,0,0,0,0,0,0,0,0
+di cui municipio di Tripoli,25-29,4,8,0,0,4,2,2,0,0,0,0,0,0,0,0
+di cui municipio di Tripoli,30-34,5,10,0,0,3,0,1,3,1,2,0,0,0,0,0
+di cui municipio di Tripoli,35-39,13,26,0,0,3,2,7,11,2,1,0,0,0,0,0
+di cui municipio di Tripoli,40-44,14,28,0,0,0,4,2,10,6,6,0,0,0,0,0
+di cui municipio di Tripoli,45-49,13,26,0,0,1,3,0,4,9,6,2,0,1,0,0
+di cui municipio di Tripoli,50-54,28,56,0,0,2,1,4,6,9,14,15,3,0,1,1
+di cui municipio di Tripoli,55-59,9,18,0,0,2,0,2,2,7,1,2,1,0,1,0
+di cui municipio di Tripoli,60-64,18,37,0,0,0,0,1,2,4,7,2,11,4,4,2
+di cui municipio di Tripoli,65+,28,58,0,0,0,0,0,3,4,12,6,11,7,7,8
+di cui municipio di Tripoli,Totale,133,269,0,0,16,13,19,41,42,49,27,26,12,13,11
+Provincia di Misurata,20-24,2,4,0,0,3,1,0,0,0,0,0,0,0,0,0
+Provincia di Misurata,25-29,18,36,0,0,5,14,14,3,0,0,0,0,0,0,0
+Provincia di Misurata,30-34,57,116,0,0,11,28,45,20,3,4,2,3,0,0,0
+Provincia di Misurata,35-39,118,240,0,0,12,45,57,78,28,11,7,2,0,0,0
+Provincia di Misurata,40-44,177,362,0,0,4,25,57,98,114,43,7,13,0,1,0
+Provincia di Misurata,45-49,183,372,0,0,3,16,46,62,101,99,27,14,2,1,1
+Provincia di Misurata,50-54,256,527,0,0,3,12,31,64,93,150,119,41,8,6,0
+Provincia di Misurata,55-59,240,499,0,0,2,6,19,50,75,124,102,88,22,9,2
+Provincia di Misurata,60-64,224,467,0,0,1,7,9,28,38,83,90,137,54,14,6
+Provincia di Misurata,65+,389,808,0,1,0,1,3,24,44,101,124,163,91,155,101
+Provincia di Misurata,Totale,1664,3431,0,1,44,155,281,427,496,615,478,461,177,186,110
+di cui municipio di Misurata,20-24,1,2,0,0,1,1,0,0,0,0,0,0,0,0,0
+di cui municipio di Misurata,25-29,1,2,0,0,0,1,1,0,0,0,0,0,0,0,0
+di cui municipio di Misurata,30-34,7,14,0,0,0,1,8,3,1,1,0,0,0,0,0
+di cui municipio di Misurata,35-39,32,65,0,0,1,5,13,31,9,3,1,2,0,0,0
+di cui municipio di Misurata,40-44,49,101,0,0,1,5,9,26,43,7,3,7,0,0,0
+di cui municipio di Misurata,45-49,49,101,0,0,0,2,12,14,26,31,12,2,2,0,0
+di cui municipio di Misurata,50-54,54,112,0,0,1,2,6,9,18,27,36,9,3,1,0
+di cui municipio di Misurata,55-59,61,125,0,0,0,1,1,10,17,31,32,26,5,2,0
+di cui municipio di Misurata,60-64,52,109,0,0,0,0,2,3,8,12,29,29,19,4,3
+di cui municipio di Misurata,65+,74,158,0,0,0,0,3,3,6,17,25,27,24,31,22
+di cui municipio di Misurata,Totale,380,789,0,0,4,18,55,99,128,129,138,102,53,38,25
+Provincia di Bengasi,20-24,4,8,0,0,0,7,1,0,0,0,0,0,0,0,0
+Provincia di Bengasi,25-29,4,8,0,0,2,4,1,1,0,0,0,0,0,0,0
+Provincia di Bengasi,30-34,41,82,0,0,5,14,32,20,5,6,0,0,0,0,0
+Provincia di Bengasi,35-39,51,102,1,0,11,19,26,21,10,12,0,0,0,1,1
+Provincia di Bengasi,40-44,74,149,0,0,9,19,25,37,27,21,4,6,1,0,0
+Provincia di Bengasi,45-49,67,143,0,0,6,9,15,33,33,27,8,10,0,2,0
+Provincia di Bengasi,50-54,97,196,0,0,3,9,19,29,46,48,16,18,6,2,0
+Provincia di Bengasi,55-59,94,195,0,0,3,6,15,24,36,42,29,29,3,4,4
+Provincia di Bengasi,60-64,89,188,0,0,4,4,12,19,27,38,25,35,17,7,0
+Provincia di Bengasi,65+,125,259,0,0,0,1,11,24,32,39,40,49,17,26,20
+Provincia di Bengasi,Totale,646,1330,1,0,43,92,157,208,216,233,122,147,44,42,25
+di cui municipio di Bengasi,20-24,3,6,0,0,0,6,0,0,0,0,0,0,0,0,0
+di cui municipio di Bengasi,25-29,4,8,0,0,2,4,1,1,0,0,0,0,0,0,0
+di cui municipio di Bengasi,30-34,16,32,0,0,2,6,12,10,1,1,0,0,0,0,0
+di cui municipio di Bengasi,35-39,26,52,1,0,7,10,14,8,5,7,0,0,0,0,0
+di cui municipio di Bengasi,40-44,37,75,0,0,8,13,12,18,12,8,3,1,0,0,0
+di cui municipio di Bengasi,45-49,27,60,0,0,4,3,5,13,16,13,4,2,0,0,0
+di cui municipio di Bengasi,50-54,41,83,0,0,2,6,9,9,19,20,8,7,3,0,0
+di cui municipio di Bengasi,55-59,40,85,0,0,3,3,5,12,16,19,9,13,2,1,2
+di cui municipio di Bengasi,60-64,32,70,0,0,2,0,5,7,7,15,15,12,7,0,0
+di cui municipio di Bengasi,65+,37,76,0,0,0,0,1,4,8,13,9,18,9,8,6
+di cui municipio di Bengasi,Totale,263,547,1,0,30,51,64,82,84,96,48,53,21,9,8
+Provincia di Derna,25-29,5,10,0,0,3,2,4,1,0,0,0,0,0,0,0
+Provincia di Derna,30-34,26,53,0,0,5,13,19,12,2,2,0,0,0,0,0
+Provincia di Derna,35-39,39,78,0,0,8,13,22,21,9,4,0,1,0,0,0
+Provincia di Derna,40-44,35,74,0,0,8,3,9,19,20,10,3,1,0,1,0
+Provincia di Derna,45-49,47,94,0,0,4,1,15,25,26,16,4,3,0,0,0
+Provincia di Derna,50-54,54,111,0,0,4,2,4,16,25,30,18,10,0,2,0
+Provincia di Derna,55-59,30,60,0,0,1,1,6,9,12,13,10,6,2,0,0
+Provincia di Derna,60-64,24,49,0,0,0,2,1,7,9,6,6,10,5,3,0
+Provincia di Derna,65+,31,65,0,0,0,0,3,4,12,10,15,9,5,4,3
+Provincia di Derna,Totale,291,594,0,0,33,37,83,114,115,91,56,40,12,10,3
+di cui municipio di Derna,25-29,2,4,0,0,2,0,2,0,0,0,0,0,0,0,0
+di cui municipio di Derna,30-34,10,20,0,0,2,3,8,6,1,0,0,0,0,0,0
+di cui municipio di Derna,35-39,18,36,0,0,2,5,13,9,4,2,0,1,0,0,0
+di cui municipio di Derna,40-44,19,38,0,0,5,2,5,9,8,7,1,0,0,1,0
+di cui municipio di Derna,45-49,15,30,0,0,0,1,8,8,9,2,0,2,0,0,0
+di cui municipio di Derna,50-54,25,51,0,0,2,0,2,7,7,16,8,8,0,1,0
+di cui municipio di Derna,55-59,9,18,0,0,0,0,3,1,5,3,3,2,1,0,0
+di cui municipio di Derna,60-64,11,22,0,0,0,0,0,4,5,3,1,5,2,2,0
+di cui municipio di Derna,65+,14,29,0,0,0,0,1,2,2,5,7,4,3,3,2
+di cui municipio di Derna,Totale,123,248,0,0,13,11,42,46,41,38,20,22,6,7,2
+Territorio Militare del Sud,20-24,2,4,0,0,0,4,0,0,0,0,0,0,0,0,0
+Territorio Militare del Sud,25-29,21,42,0,0,6,13,12,6,4,1,0,0,0,0,0
+Territorio Militare del Sud,30-34,41,84,0,0,6,24,21,13,7,6,1,4,0,2,0
+Territorio Militare del Sud,35-39,68,139,0,0,6,24,41,30,21,13,3,1,0,0,0
+Territorio Militare del Sud,40-44,92,188,1,0,0,16,35,54,42,18,13,8,1,0,0
+Territorio Militare del Sud,45-49,99,205,0,0,5,10,36,49,44,32,9,14,4,2,0
+Territorio Militare del Sud,50-54,87,180,0,1,2,0,19,38,32,41,27,13,4,2,1
+Territorio Militare del Sud,55-59,55,115,0,0,2,3,9,14,16,31,18,14,4,4,0
+Territorio Militare del Sud,60-64,53,111,0,0,0,1,9,23,9,21,16,19,7,4,2
+Territorio Militare del Sud,65+,56,120,0,0,0,3,7,12,11,20,16,23,7,10,11
+Territorio Militare del Sud,Totale,574,1188,1,1,27,98,189,239,186,183,103,96,27,24,14

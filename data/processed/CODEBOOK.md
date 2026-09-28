@@ -1351,6 +1351,61 @@ Muslims of `altri riti`, 1,496 were Hanafi and 436 Shafi'i; of the 29,487
 religioni`, 143 were Catholic. Table XXII prints the same notes with slightly
 different counts, because it is the resident population.
 
+#### Libyan families, marriage and institutions — tables XXIII to XXIX, five files
+
+Published by `scripts/extract_istat_1936_libyan_families.py` from six tables
+transcribed by eye from four pages. All five files are long: one row per cell of
+the printed table, so every cross-tabulation stays a single tidy file.
+
+| File | Table | One row per |
+|---|---|---|
+| `libya_1936_libyan_families.csv` | XXIII | religion of the head, area, activity of the head: `families`, `members` |
+| `libya_1936_libyan_family_size.csv` | XXIV | religion, activity of the head, `members_in_family` (1 to 19, `20+`): `families` |
+| `libya_1936_muslim_marriages.csv` | XXVI, XXVII | `union` (monogamous or polygamous), area, husband's age, wife's age: `husbands` in that age class, `wives` in that cell |
+| `libya_1936_polygamous_husbands.csv` | XXVIII | area, `wives_per_husband` (2, 3, 4, `Totale`), husband's age: `husbands` |
+| `libya_1936_libyan_institutions.csv` | XXIX | kind of institution, role, sex, area: `institutions`, `persons` |
+
+`religion` is that of the head of family: `all` includes the few of another or
+unknown religion the volume does not detail. Areas are the four provinces, the
+Territorio Militare del Sud, Libya, and the four municipi printed as `di cui`
+lines, which are part of their province and are not summed with it.
+
+**184,137 Libyan families with 750,851 members, 4.08 each; 69% headed by someone
+in agriculture.** The Jewish families, 6,485 of them, were headed in industry
+(2,314) and commerce (2,546), and 4,012 lived in the municipio di Tripoli.
+
+**The marriage tables are the reason to have this batch.** They are a count of
+polygamy in a Muslim society, by the age of both spouses and by province, taken
+in 1936, and nothing comparable exists for Libya before or after. The census
+counted **142,993 monogamous Muslim heads of family and 5,507 polygamous
+husbands, 3.7% of the two together**, with 11,305 wives between them: 5,232 men
+with two wives, 259 with three, 16 with four. Polygamy rose with age, from 0.4%
+of married men aged 20 to 24 to 6.2% of those 55 and over, and was nearly twice
+as common in the Territorio Militare del Sud (6.5%) as in any province (3.4% to
+3.7%). The monogamous table records 154 wives under fifteen.
+
+The polygamous husbands appear in two tables, by the ages of their wives in
+XXVII and by the number of their wives in XXVIII. **The two agree in every
+cell**, including the check that matters: two wives times the men with two,
+plus three times the men with three, plus four times the men with four, equals
+the wives XXVII counts, for every age class and every area. 220 figures.
+
+**Table XXIX, the convivenze**, counts 18,677 Libyans in 443 hospitals, schools,
+hospices, prisons and other collective quarters, 980 of them in prison. Its
+`altre` line holds the surprise: 9,289 people in 63 convivenze in the Provincia
+di Derna, 9,210 of them men, half the colony's total. Derna is also where
+table XXI counts 6,890 Copts present and table XXII none resident: a large male
+population in collective quarters on the Egyptian frontier that did not live
+there.
+
+**Checks.** Every printed identity holds: activities to families and members,
+size classes to families, members consistent with sizes, wives by age to their
+total, ages to the Totale line, provinces to Libya, 2 + 3 + 4 wives to all
+polygamous husbands, M + F to MF, the kinds of institution to the whole. Across
+tables, families and members per province equal table XXII's family heads and
+residents; XXIV's categories equal XXIII's; and XXVIII equals XXVII as above.
+About 5,100 figures, all passing on the first reading.
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

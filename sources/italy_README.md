@@ -186,11 +186,15 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    them at Porto Bardìa, and 73 people of `altre religioni` resident in the whole colony. The
    category `libica` was wide enough to hold an Egyptian labourer at Bardia.
 
-   That leaves the 1936 volume's tables V to XIX and XXIII to XXXIV unread. Most are occupational
-   cross-tabulations running ten pages or more each, which transcription cannot reach at a sensible
-   cost. The ones worth the effort, in order: **tables XXVI to XXVIII** (Muslim monogamous and
-   polygamous households and their wives by age, four pages, and unusual data by any standard); and
-   **table XIII** (the settler population by category of economic activity, one page).
+   **Tables XXIII, XXIV and XXVI to XXIX are read too**, by
+   `scripts/extract_istat_1936_libyan_families.py`: Libyan families by the activity and religion of
+   the head and by size, Muslim marriage by the age of both spouses, polygamous husbands by number of
+   wives, and the Libyans living in institutions. 142,993 monogamous heads and 5,507 polygamous
+   husbands, 3.7%; the two polygamy tables agree in every cell, including the wives implied by the
+   number each man had.
+
+   The rest of the volume's Libyan tables are being transcribed in batches: XXX to XXXIV and XXV
+   for the Libyan population, then V to XIX for the settlers.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

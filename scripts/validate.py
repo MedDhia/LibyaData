@@ -1458,6 +1458,81 @@ if lib36.exists() and res22.exists():
                  f"seminomadic or nomadic; {int(libya.ibadi):,} Ibadi and "
                  f"{int(libya.jewish):,} Jewish")
 
+fam36 = OUT / "istat" / "libya_1936_libyan_families.csv"
+if fam36.exists():
+    print("\n1936 census tables XXIII to XXIX, Libyan families and marriage")
+    fam = pd.read_csv(fam36)
+    size = pd.read_csv(OUT / "istat" / "libya_1936_libyan_family_size.csv")
+    mar = pd.read_csv(OUT / "istat" / "libya_1936_muslim_marriages.csv")
+    poly = pd.read_csv(OUT / "istat" / "libya_1936_polygamous_husbands.csv")
+    inst = pd.read_csv(OUT / "istat" / "libya_1936_libyan_institutions.csv")
+    trouble = []
+    parts = fam[fam.activity_of_head != "all"].groupby(
+        ["religion", "area"])[["families", "members"]].sum()
+    whole = fam[fam.activity_of_head == "all"].set_index(
+        ["religion", "area"])[["families", "members"]]
+    if not parts.sort_index().equals(whole.sort_index()):
+        trouble.append("XXIII activities do not sum to the families")
+    provinces = ["Provincia di Tripoli", "Provincia di Misurata",
+                 "Provincia di Bengasi", "Provincia di Derna",
+                 "Territorio Militare del Sud"]
+    top = fam[fam.area.isin(provinces)].groupby(
+        ["religion", "activity_of_head"])[["families", "members"]].sum()
+    libya = fam[fam.area == "LIBIA"].set_index(
+        ["religion", "activity_of_head"])[["families", "members"]]
+    if not top.sort_index().equals(libya.sort_index()):
+        trouble.append("XXIII provinces do not sum to Libya")
+    by_size = size.groupby(["religion", "activity_of_head"]).families.sum()
+    for (religion, activity), n in by_size.items():
+        key = "all" if activity == "totale" else activity
+        want = libya.loc[(religion, key), "families"]
+        if n != want:
+            trouble.append(f"XXIV {religion} {activity}: {n} vs XXIII {want}")
+    wives = mar[mar.union == "polygamous"].groupby(
+        ["area", "husband_age"]).wives.sum()
+    count = poly.copy()
+    count["implied"] = count.husbands * pd.to_numeric(
+        count.wives_per_husband, errors="coerce")
+    implied = count[count.wives_per_husband != "Totale"].groupby(
+        ["area", "husband_age"]).implied.sum()
+    for key, n in implied.items():
+        if wives.get(key, 0) != n:
+            trouble.append(f"XXVIII {key}: implies {n} wives, "
+                           f"XXVII {wives.get(key, 0)}")
+    mf = inst[inst.sex == "MF"].set_index(["kind", "role", "area"]).persons
+    m = inst[inst.sex == "M"].set_index(["kind", "role", "area"]).persons
+    f = inst[inst.sex == "F"].set_index(["kind", "role", "area"]).persons
+    if not (m + f).equals(mf):
+        trouble.append("XXIX M + F != MF")
+    res36 = OUT / "istat" / "libya_1936_libyans_resident.csv"
+    checked = 0
+    if res36.exists():
+        res = pd.read_csv(res36)
+        heads = res[res.dimora.isin(["Tot", "st"])].drop_duplicates("name")
+        heads = heads.set_index("name")
+        for area in provinces + ["LIBIA"]:
+            row = whole.loc[("all", area)]
+            if (row.families, row.members) != (heads.loc[area, "heads"],
+                                               heads.loc[area, "mf"]):
+                trouble.append(f"XXIII {area} disagrees with table XXII")
+            else:
+                checked += 2
+    if trouble:
+        failures.append(f"1936 Libyan families: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] activities, sizes, provinces, sexes and the wives "
+              f"implied by XXVIII all reconcile; {checked} figures agree with "
+              f"table XXII")
+    mono = mar[(mar.union == "monogamous") & (mar.area == "Libia")
+               & (mar.husband_age == "Totale")].husbands.iloc[0]
+    polyn = poly[(poly.area == "Libia") & (poly.wives_per_husband == "Totale")
+                 ].husbands.sum()
+    notes.append(f"1936 Libyan families: {int(whole.loc[('all', 'LIBIA'), 'families']):,} "
+                 f"families; {int(mono):,} monogamous Muslim heads and "
+                 f"{int(polyn):,} polygamous husbands")
+
 print()
 for n in notes:
     print(f"note: {n}")

@@ -1,0 +1,211 @@
+kind,role,sex,area,institutions,persons
+cura,componenti,MF,LIBIA,6,417
+cura,componenti,MF,di cui municipio di Tripoli,2,178
+cura,componenti,MF,Provincia di Tripoli,2,178
+cura,componenti,MF,Provincia di Misurata,1,3
+cura,componenti,MF,Provincia di Bengasi,2,169
+cura,componenti,MF,Provincia di Derna,1,67
+cura,componenti,MF,Territorio Militare del Sud,0,0
+cura,componenti,M,LIBIA,,336
+cura,componenti,M,di cui municipio di Tripoli,,147
+cura,componenti,M,Provincia di Tripoli,,147
+cura,componenti,M,Provincia di Misurata,,3
+cura,componenti,M,Provincia di Bengasi,,138
+cura,componenti,M,Provincia di Derna,,48
+cura,componenti,M,Territorio Militare del Sud,,0
+cura,componenti,F,LIBIA,,81
+cura,componenti,F,di cui municipio di Tripoli,,31
+cura,componenti,F,Provincia di Tripoli,,31
+cura,componenti,F,Provincia di Misurata,,0
+cura,componenti,F,Provincia di Bengasi,,31
+cura,componenti,F,Provincia di Derna,,19
+cura,componenti,F,Territorio Militare del Sud,,0
+cura,malati,MF,LIBIA,,416
+cura,malati,MF,di cui municipio di Tripoli,,177
+cura,malati,MF,Provincia di Tripoli,,177
+cura,malati,MF,Provincia di Misurata,,3
+cura,malati,MF,Provincia di Bengasi,,169
+cura,malati,MF,Provincia di Derna,,67
+cura,malati,MF,Territorio Militare del Sud,,0
+cura,malati,M,LIBIA,,335
+cura,malati,M,di cui municipio di Tripoli,,146
+cura,malati,M,Provincia di Tripoli,,146
+cura,malati,M,Provincia di Misurata,,3
+cura,malati,M,Provincia di Bengasi,,138
+cura,malati,M,Provincia di Derna,,48
+cura,malati,M,Territorio Militare del Sud,,0
+cura,malati,F,LIBIA,,81
+cura,malati,F,di cui municipio di Tripoli,,31
+cura,malati,F,Provincia di Tripoli,,31
+cura,malati,F,Provincia di Misurata,,0
+cura,malati,F,Provincia di Bengasi,,31
+cura,malati,F,Provincia di Derna,,19
+cura,malati,F,Territorio Militare del Sud,,0
+educazione,componenti,MF,LIBIA,9,443
+educazione,componenti,MF,di cui municipio di Tripoli,4,196
+educazione,componenti,MF,Provincia di Tripoli,7,213
+educazione,componenti,MF,Provincia di Misurata,1,4
+educazione,componenti,MF,Provincia di Bengasi,1,226
+educazione,componenti,MF,Provincia di Derna,0,0
+educazione,componenti,MF,Territorio Militare del Sud,0,0
+educazione,componenti,M,LIBIA,,426
+educazione,componenti,M,di cui municipio di Tripoli,,179
+educazione,componenti,M,Provincia di Tripoli,,196
+educazione,componenti,M,Provincia di Misurata,,4
+educazione,componenti,M,Provincia di Bengasi,,226
+educazione,componenti,M,Provincia di Derna,,0
+educazione,componenti,M,Territorio Militare del Sud,,0
+educazione,componenti,F,LIBIA,,17
+educazione,componenti,F,di cui municipio di Tripoli,,17
+educazione,componenti,F,Provincia di Tripoli,,17
+educazione,componenti,F,Provincia di Misurata,,0
+educazione,componenti,F,Provincia di Bengasi,,0
+educazione,componenti,F,Provincia di Derna,,0
+educazione,componenti,F,Territorio Militare del Sud,,0
+educazione,alunni,MF,LIBIA,,439
+educazione,alunni,MF,di cui municipio di Tripoli,,192
+educazione,alunni,MF,Provincia di Tripoli,,209
+educazione,alunni,MF,Provincia di Misurata,,4
+educazione,alunni,MF,Provincia di Bengasi,,226
+educazione,alunni,MF,Provincia di Derna,,0
+educazione,alunni,MF,Territorio Militare del Sud,,0
+educazione,alunni,M,LIBIA,,423
+educazione,alunni,M,di cui municipio di Tripoli,,176
+educazione,alunni,M,Provincia di Tripoli,,193
+educazione,alunni,M,Provincia di Misurata,,4
+educazione,alunni,M,Provincia di Bengasi,,226
+educazione,alunni,M,Provincia di Derna,,0
+educazione,alunni,M,Territorio Militare del Sud,,0
+educazione,alunni,F,LIBIA,,16
+educazione,alunni,F,di cui municipio di Tripoli,,16
+educazione,alunni,F,Provincia di Tripoli,,16
+educazione,alunni,F,Provincia di Misurata,,0
+educazione,alunni,F,Provincia di Bengasi,,0
+educazione,alunni,F,Provincia di Derna,,0
+educazione,alunni,F,Territorio Militare del Sud,,0
+assistenza,componenti,MF,LIBIA,2,60
+assistenza,componenti,MF,di cui municipio di Tripoli,1,52
+assistenza,componenti,MF,Provincia di Tripoli,1,52
+assistenza,componenti,MF,Provincia di Misurata,0,0
+assistenza,componenti,MF,Provincia di Bengasi,1,8
+assistenza,componenti,MF,Provincia di Derna,0,0
+assistenza,componenti,MF,Territorio Militare del Sud,0,0
+assistenza,componenti,M,LIBIA,,45
+assistenza,componenti,M,di cui municipio di Tripoli,,37
+assistenza,componenti,M,Provincia di Tripoli,,37
+assistenza,componenti,M,Provincia di Misurata,,0
+assistenza,componenti,M,Provincia di Bengasi,,8
+assistenza,componenti,M,Provincia di Derna,,0
+assistenza,componenti,M,Territorio Militare del Sud,,0
+assistenza,componenti,F,LIBIA,,15
+assistenza,componenti,F,di cui municipio di Tripoli,,15
+assistenza,componenti,F,Provincia di Tripoli,,15
+assistenza,componenti,F,Provincia di Misurata,,0
+assistenza,componenti,F,Provincia di Bengasi,,0
+assistenza,componenti,F,Provincia di Derna,,0
+assistenza,componenti,F,Territorio Militare del Sud,,0
+assistenza,ricoverati,MF,LIBIA,,60
+assistenza,ricoverati,MF,di cui municipio di Tripoli,,52
+assistenza,ricoverati,MF,Provincia di Tripoli,,52
+assistenza,ricoverati,MF,Provincia di Misurata,,0
+assistenza,ricoverati,MF,Provincia di Bengasi,,8
+assistenza,ricoverati,MF,Provincia di Derna,,0
+assistenza,ricoverati,MF,Territorio Militare del Sud,,0
+assistenza,ricoverati,M,LIBIA,,45
+assistenza,ricoverati,M,di cui municipio di Tripoli,,37
+assistenza,ricoverati,M,Provincia di Tripoli,,37
+assistenza,ricoverati,M,Provincia di Misurata,,0
+assistenza,ricoverati,M,Provincia di Bengasi,,8
+assistenza,ricoverati,M,Provincia di Derna,,0
+assistenza,ricoverati,M,Territorio Militare del Sud,,0
+assistenza,ricoverati,F,LIBIA,,15
+assistenza,ricoverati,F,di cui municipio di Tripoli,,15
+assistenza,ricoverati,F,Provincia di Tripoli,,15
+assistenza,ricoverati,F,Provincia di Misurata,,0
+assistenza,ricoverati,F,Provincia di Bengasi,,0
+assistenza,ricoverati,F,Provincia di Derna,,0
+assistenza,ricoverati,F,Territorio Militare del Sud,,0
+carcerari,componenti,MF,LIBIA,10,980
+carcerari,componenti,MF,di cui municipio di Tripoli,1,314
+carcerari,componenti,MF,Provincia di Tripoli,4,710
+carcerari,componenti,MF,Provincia di Misurata,1,17
+carcerari,componenti,MF,Provincia di Bengasi,4,206
+carcerari,componenti,MF,Provincia di Derna,1,47
+carcerari,componenti,MF,Territorio Militare del Sud,0,0
+carcerari,componenti,M,LIBIA,,963
+carcerari,componenti,M,di cui municipio di Tripoli,,303
+carcerari,componenti,M,Provincia di Tripoli,,699
+carcerari,componenti,M,Provincia di Misurata,,17
+carcerari,componenti,M,Provincia di Bengasi,,202
+carcerari,componenti,M,Provincia di Derna,,45
+carcerari,componenti,M,Territorio Militare del Sud,,0
+carcerari,componenti,F,LIBIA,,17
+carcerari,componenti,F,di cui municipio di Tripoli,,11
+carcerari,componenti,F,Provincia di Tripoli,,11
+carcerari,componenti,F,Provincia di Misurata,,0
+carcerari,componenti,F,Provincia di Bengasi,,4
+carcerari,componenti,F,Provincia di Derna,,2
+carcerari,componenti,F,Territorio Militare del Sud,,0
+carcerari,detenuti,MF,LIBIA,,978
+carcerari,detenuti,MF,di cui municipio di Tripoli,,314
+carcerari,detenuti,MF,Provincia di Tripoli,,710
+carcerari,detenuti,MF,Provincia di Misurata,,17
+carcerari,detenuti,MF,Provincia di Bengasi,,204
+carcerari,detenuti,MF,Provincia di Derna,,47
+carcerari,detenuti,MF,Territorio Militare del Sud,,0
+carcerari,detenuti,M,LIBIA,,961
+carcerari,detenuti,M,di cui municipio di Tripoli,,303
+carcerari,detenuti,M,Provincia di Tripoli,,699
+carcerari,detenuti,M,Provincia di Misurata,,17
+carcerari,detenuti,M,Provincia di Bengasi,,200
+carcerari,detenuti,M,Provincia di Derna,,45
+carcerari,detenuti,M,Territorio Militare del Sud,,0
+carcerari,detenuti,F,LIBIA,,17
+carcerari,detenuti,F,di cui municipio di Tripoli,,11
+carcerari,detenuti,F,Provincia di Tripoli,,11
+carcerari,detenuti,F,Provincia di Misurata,,0
+carcerari,detenuti,F,Provincia di Bengasi,,4
+carcerari,detenuti,F,Provincia di Derna,,2
+carcerari,detenuti,F,Territorio Militare del Sud,,0
+altre,componenti,MF,LIBIA,416,16777
+altre,componenti,MF,di cui municipio di Tripoli,134,1685
+altre,componenti,MF,Provincia di Tripoli,195,3517
+altre,componenti,MF,Provincia di Misurata,44,1514
+altre,componenti,MF,Provincia di Bengasi,77,1507
+altre,componenti,MF,Provincia di Derna,63,9289
+altre,componenti,MF,Territorio Militare del Sud,37,950
+altre,componenti,M,LIBIA,,16365
+altre,componenti,M,di cui municipio di Tripoli,,1613
+altre,componenti,M,Provincia di Tripoli,,3403
+altre,componenti,M,Provincia di Misurata,,1474
+altre,componenti,M,Provincia di Bengasi,,1372
+altre,componenti,M,Provincia di Derna,,9210
+altre,componenti,M,Territorio Militare del Sud,,906
+altre,componenti,F,LIBIA,,412
+altre,componenti,F,di cui municipio di Tripoli,,72
+altre,componenti,F,Provincia di Tripoli,,114
+altre,componenti,F,Provincia di Misurata,,40
+altre,componenti,F,Provincia di Bengasi,,135
+altre,componenti,F,Provincia di Derna,,79
+altre,componenti,F,Territorio Militare del Sud,,44
+complesso,componenti,MF,LIBIA,443,18677
+complesso,componenti,MF,di cui municipio di Tripoli,142,2425
+complesso,componenti,MF,Provincia di Tripoli,209,4670
+complesso,componenti,MF,Provincia di Misurata,47,1538
+complesso,componenti,MF,Provincia di Bengasi,85,2116
+complesso,componenti,MF,Provincia di Derna,65,9403
+complesso,componenti,MF,Territorio Militare del Sud,37,950
+complesso,componenti,M,LIBIA,,18135
+complesso,componenti,M,di cui municipio di Tripoli,,2279
+complesso,componenti,M,Provincia di Tripoli,,4482
+complesso,componenti,M,Provincia di Misurata,,1498
+complesso,componenti,M,Provincia di Bengasi,,1946
+complesso,componenti,M,Provincia di Derna,,9303
+complesso,componenti,M,Territorio Militare del Sud,,906
+complesso,componenti,F,LIBIA,,542
+complesso,componenti,F,di cui municipio di Tripoli,,146
+complesso,componenti,F,Provincia di Tripoli,,188
+complesso,componenti,F,Provincia di Misurata,,40
+complesso,componenti,F,Provincia di Bengasi,,170
+complesso,componenti,F,Provincia di Derna,,100
+complesso,componenti,F,Territorio Militare del Sud,,44
