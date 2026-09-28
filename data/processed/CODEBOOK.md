@@ -1525,6 +1525,33 @@ reason in `note`. Three cells of XXXIV were misread and corrected where two
 sums agreed: 17,086 men of 65 and over in agriculture, 1,285 men of 15 to 17
 without a stated profession, 13 women tailors aged 21 to 24.
 
+#### `libya_1936_libyan_children.csv` — families by number of children, 7,200 rows
+
+Table XXV, published by `scripts/extract_istat_1936_libyan_children.py` and
+transcribed by eye from six pages. Long: one row per area, `measure`
+(`families` or `children`), `religion` of the head (`complesso`, `mussulmani`,
+`ebrei`), `activity_of_head` (the nine categories or `totale`),
+`children_age` and `number_of_children` (1 to 8, `9+`, `total`).
+
+`children_age` is one of four nested limits: co-resident unmarried children
+under 6, under 15, under 21, or of any age. A family counted under 6 is counted
+again under 15, 21 and any age. Families without such children are not in the
+table, so the totals are families *with* children: 125,079 of table XXIII's
+184,137. Three areas only: Libya and the municipi of Tripoli and Bengasi.
+
+The Muslim families with children had 2.58 each on average and the Jewish
+families 3.21; 216 Muslim and 37 Jewish families had nine or more at home.
+
+**Checks.** The number-of-children classes add to the total for each age limit;
+the nine activities add to the Totale; the children in families with k children
+are exactly k times those families for k = 1 to 8, in every cell, and families
+of nine or more hold at least nine; the four limits nest on every line; Muslim
+and Jewish never exceed the whole; and no activity has more families with
+children than table XXIII has families. 7,200 figures. Three bold totals were
+misread and corrected where the row, the column and the k-times identity
+agreed: Libya's families with three children under 15 (23,883), and with three
+and seven children under 21 (24,706 and 1,061).
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

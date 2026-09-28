@@ -51,6 +51,7 @@ Libyan sources, with a validation suite. See
 | 1936 census Libyan population, resident | the same, with family heads | 229 |
 | **1936 census Muslim marriages** | monogamous and polygamous, by age of husband and wife | 2,604 |
 | 1936 census Libyan families | by activity and religion of the head, and by size | 900 |
+| 1936 census Libyan families by children | number of children in four age limits, by activity and religion | 7,200 |
 | 1936 census Libyans in institutions | hospitals, schools, prisons, work camps | 210 |
 | **1936 census Libyans by age and civil status** | by sex and religion, per province | 7,182 |
 | 1936 census Libyans by economic activity | by sex and religion; and by circumscription and way of life | 1,129 |

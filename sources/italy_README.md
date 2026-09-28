@@ -205,8 +205,11 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    91 professions by province and sex, and by age. They carry the one misprint found so far in the
    volume, 363 for 263 meat sellers in Bengasi, kept in the raw file and corrected with a note.
 
-   The rest of the volume's Libyan tables are being transcribed in batches: XXV for the Libyan
-   population, then V to XIX for the settlers.
+   **Table XXV is read too**, by `scripts/extract_istat_1936_libyan_children.py`: families by the
+   number of co-resident children under 6, 15, 21 and of any age. With it every Libyan table of the
+   volume except XX is transcribed and cross-checked, and XX keeps its automated extraction.
+
+   The settler tables V to XIX are being transcribed next.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

@@ -1688,6 +1688,51 @@ if prof36.exists():
     notes.append(f"1936 Libyan professions: 91 professions; {len(flagged)} "
                  f"source misprint corrected and flagged in the note column")
 
+kid36 = OUT / "istat" / "libya_1936_libyan_children.csv"
+if kid36.exists():
+    print("\n1936 census table XXV, Libyan families by number of children")
+    k = pd.read_csv(kid36)
+    trouble = []
+    parts = k[k.number_of_children != "total"].groupby(
+        ["area", "measure", "religion", "activity_of_head",
+         "children_age"]).value.sum()
+    whole = k[k.number_of_children == "total"].set_index(
+        ["area", "measure", "religion", "activity_of_head",
+         "children_age"]).value
+    if not parts.sort_index().equals(whole.sort_index()):
+        trouble.append("sizes do not add to the total")
+    acts = k[k.activity_of_head != "totale"].groupby(
+        ["area", "measure", "religion", "children_age",
+         "number_of_children"]).value.sum()
+    tot = k[k.activity_of_head == "totale"].set_index(
+        ["area", "measure", "religion", "children_age",
+         "number_of_children"]).value
+    if not acts.sort_index().equals(tot.sort_index()):
+        trouble.append("activities do not add to the Totale")
+    fam = k[(k.measure == "families") & ~k.number_of_children.isin(
+        ["total", "9+"])].set_index(
+        ["area", "religion", "activity_of_head", "children_age",
+         "number_of_children"]).value
+    kids = k[(k.measure == "children") & ~k.number_of_children.isin(
+        ["total", "9+"])].set_index(
+        ["area", "religion", "activity_of_head", "children_age",
+         "number_of_children"]).value
+    n = fam.index.get_level_values("number_of_children").astype(int)
+    if not (fam * n).equals(kids.reindex(fam.index)):
+        trouble.append("children are not k times the families")
+    if trouble:
+        failures.append(f"1936 Libyan children: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] {len(k)} rows: sizes, activities and the k-times "
+              f"identity reconcile")
+    top = k[(k.area == "Libia") & (k.religion == "complesso")
+            & (k.activity_of_head == "totale") & (k.children_age == "any age")
+            & (k.number_of_children == "total")].set_index("measure").value
+    notes.append(f"1936 Libyan children: {top['families']:,} families with "
+                 f"{top['children']:,} co-resident unmarried children")
+
 print()
 for n in notes:
     print(f"note: {n}")
