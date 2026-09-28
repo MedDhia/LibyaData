@@ -209,7 +209,12 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    number of co-resident children under 6, 15, 21 and of any age. With it every Libyan table of the
    volume except XX is transcribed and cross-checked, and XX keeps its automated extraction.
 
-   The settler tables V to XIX are being transcribed next.
+   **Tables V to XII are read too**, by `scripts/extract_istat_1936_settlers.py`: settler
+   families by the social condition of the head, by size and by children; the convivenze; the
+   population present and resident by single year of age; and foreigners by country. The present
+   table counts 30,430 men aged 20 to 24 against 2,946 women.
+
+   The occupational tables XIII to XIX are being transcribed next.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

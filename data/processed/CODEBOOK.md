@@ -1552,6 +1552,51 @@ misread and corrected where the row, the column and the k-times identity
 agreed: Libya's families with three children under 15 (23,883), and with three
 and seven children under 21 (24,706 and 1,061).
 
+#### The settler population — tables V to XII, five files
+
+Published by `scripts/extract_istat_1936_settlers.py`, transcribed by eye from
+nine pages. `Settler` is shorthand for the volume's `popolazione nazionale,
+straniera e assimilata`: Italians, other foreigners and a small assimilated
+group. All five files are long.
+
+| File | Tables | One row per |
+|---|---|---|
+| `libya_1936_settler_families.csv` | V, VI | table, `measure` (families, members, families headed by a woman), area, `members_in_family` (1 to 15 or `all`), `condition_of_head`: `value` |
+| `libya_1936_settler_children.csv` | VII | measure (families or children), condition of the head, `children_age` (under 6, 15, 21, any), number of children: `value` |
+| `libya_1936_settler_institutions.csv` | VIII | kind of institution, role, `scope` (all, or those of 15 members or fewer), area: `institutions`, `persons_mf`, `persons_f` |
+| `libya_1936_settler_age.csv` | IX, X | `population` (present or resident), area (Libya or the municipio di Tripoli), single year of `age` (and the census's `gruppo` lines), civil status, sex: `persons` |
+| `libya_1936_foreigners.csv` | XI, XII | XI: country, dwelling (all present or habitual), area, sex. XII: nationality, `breakdown` (age, civil status, activity), line, sex |
+
+`condition_of_head` is the census's social condition: `padroni` (owners and
+employers), `artigiani` (with the `coloni parziari`, the sharecropping colonists
+of the settlement schemes), `liberi_professionisti`, `dirigenti`, `impiegati`,
+`operai`, `personale_servizio`, `altre`, with `di cui` lines for agriculture,
+the armed forces and religion that are part of their condition and not added to
+the total.
+
+**The single-year age table is the Ethiopian war again, seen from another
+side.** 30,430 men aged 20 to 24 were present against 2,946 women, and 10,904 men
+of 22 alone: the class of 1914 under arms. The resident table has 36,433 men and
+30,092 women; the present table 85,413 and 30,224. Table VIII counts 55,271
+people in 900 convivenze, 48,513 of them in `altre specie`, which is where the
+barracks and work camps are, and 4,266 aboard ships.
+
+The 2,943 foreigners present were above all British subjects (1,990) and Greeks
+(360).
+
+**Checks.** V's conditions add to the total and its provinces to Libya. VI's
+sizes add to the families and, exactly, size times families gives the members;
+VI equals V for Libya and Tripoli. VII's children in families with k children
+are k times those families. VIII's provinces and kinds add up and the small
+institutions are a subset. IX and X: M + F, civil states, single ages and the
+special age groups all reconcile. XI's countries add to continents and to the
+whole; XII's ages, civil states and activities each add to the whole, which
+equals XI's foreigners with a habitual dwelling, and XII's French, British and
+Greek columns equal XI's lines for them. Across tables: IX's totals are table
+IV's present population and X's its resident population, for Libya and
+Tripoli, and XI's total is table II's `straniera`. Every figure passed on the
+first reading.
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

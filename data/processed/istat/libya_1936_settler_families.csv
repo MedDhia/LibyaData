@@ -1,0 +1,981 @@
+table,measure,area,members_in_family,condition_of_head,value
+V,families,Provincia di Tripoli,all,totale,9398
+V,families,Provincia di Tripoli,all,padroni,1327
+V,families,Provincia di Tripoli,all,padroni_piccoli,104
+V,families,Provincia di Tripoli,all,padroni_agricoltura,116
+V,families,Provincia di Tripoli,all,artigiani,1380
+V,families,Provincia di Tripoli,all,artigiani_coloni_parziari,316
+V,families,Provincia di Tripoli,all,artigiani_agricoltura_altri,609
+V,families,Provincia di Tripoli,all,liberi_professionisti,92
+V,families,Provincia di Tripoli,all,dirigenti,133
+V,families,Provincia di Tripoli,all,dirigenti_agricoltura,30
+V,families,Provincia di Tripoli,all,dirigenti_forze_armate,11
+V,families,Provincia di Tripoli,all,impiegati,2297
+V,families,Provincia di Tripoli,all,impiegati_agricoltura,54
+V,families,Provincia di Tripoli,all,impiegati_forze_armate,545
+V,families,Provincia di Tripoli,all,impiegati_culto,7
+V,families,Provincia di Tripoli,all,operai,3277
+V,families,Provincia di Tripoli,all,operai_agricoltura,399
+V,families,Provincia di Tripoli,all,operai_forze_armate,8
+V,families,Provincia di Tripoli,all,personale_servizio,261
+V,families,Provincia di Tripoli,all,altre,631
+V,families,di cui municipio di Tripoli,all,totale,7383
+V,families,di cui municipio di Tripoli,all,padroni,1180
+V,families,di cui municipio di Tripoli,all,padroni_piccoli,104
+V,families,di cui municipio di Tripoli,all,padroni_agricoltura,64
+V,families,di cui municipio di Tripoli,all,artigiani,487
+V,families,di cui municipio di Tripoli,all,artigiani_coloni_parziari,28
+V,families,di cui municipio di Tripoli,all,artigiani_agricoltura_altri,50
+V,families,di cui municipio di Tripoli,all,liberi_professionisti,90
+V,families,di cui municipio di Tripoli,all,dirigenti,98
+V,families,di cui municipio di Tripoli,all,dirigenti_agricoltura,6
+V,families,di cui municipio di Tripoli,all,dirigenti_forze_armate,9
+V,families,di cui municipio di Tripoli,all,impiegati,2011
+V,families,di cui municipio di Tripoli,all,impiegati_agricoltura,18
+V,families,di cui municipio di Tripoli,all,impiegati_forze_armate,492
+V,families,di cui municipio di Tripoli,all,impiegati_culto,5
+V,families,di cui municipio di Tripoli,all,operai,2666
+V,families,di cui municipio di Tripoli,all,operai_agricoltura,67
+V,families,di cui municipio di Tripoli,all,operai_forze_armate,6
+V,families,di cui municipio di Tripoli,all,personale_servizio,240
+V,families,di cui municipio di Tripoli,all,altre,611
+V,families,Provincia di Misurata,all,totale,586
+V,families,Provincia di Misurata,all,padroni,72
+V,families,Provincia di Misurata,all,padroni_piccoli,1
+V,families,Provincia di Misurata,all,padroni_agricoltura,1
+V,families,Provincia di Misurata,all,artigiani,55
+V,families,Provincia di Misurata,all,artigiani_coloni_parziari,0
+V,families,Provincia di Misurata,all,artigiani_agricoltura_altri,28
+V,families,Provincia di Misurata,all,liberi_professionisti,3
+V,families,Provincia di Misurata,all,dirigenti,6
+V,families,Provincia di Misurata,all,dirigenti_agricoltura,2
+V,families,Provincia di Misurata,all,dirigenti_forze_armate,0
+V,families,Provincia di Misurata,all,impiegati,210
+V,families,Provincia di Misurata,all,impiegati_agricoltura,8
+V,families,Provincia di Misurata,all,impiegati_forze_armate,50
+V,families,Provincia di Misurata,all,impiegati_culto,2
+V,families,Provincia di Misurata,all,operai,218
+V,families,Provincia di Misurata,all,operai_agricoltura,86
+V,families,Provincia di Misurata,all,operai_forze_armate,0
+V,families,Provincia di Misurata,all,personale_servizio,12
+V,families,Provincia di Misurata,all,altre,10
+V,families,Provincia di Bengasi,all,totale,4155
+V,families,Provincia di Bengasi,all,padroni,598
+V,families,Provincia di Bengasi,all,padroni_piccoli,41
+V,families,Provincia di Bengasi,all,padroni_agricoltura,8
+V,families,Provincia di Bengasi,all,artigiani,324
+V,families,Provincia di Bengasi,all,artigiani_coloni_parziari,10
+V,families,Provincia di Bengasi,all,artigiani_agricoltura_altri,65
+V,families,Provincia di Bengasi,all,liberi_professionisti,39
+V,families,Provincia di Bengasi,all,dirigenti,76
+V,families,Provincia di Bengasi,all,dirigenti_agricoltura,7
+V,families,Provincia di Bengasi,all,dirigenti_forze_armate,8
+V,families,Provincia di Bengasi,all,impiegati,1258
+V,families,Provincia di Bengasi,all,impiegati_agricoltura,23
+V,families,Provincia di Bengasi,all,impiegati_forze_armate,351
+V,families,Provincia di Bengasi,all,impiegati_culto,4
+V,families,Provincia di Bengasi,all,operai,1539
+V,families,Provincia di Bengasi,all,operai_agricoltura,79
+V,families,Provincia di Bengasi,all,operai_forze_armate,9
+V,families,Provincia di Bengasi,all,personale_servizio,89
+V,families,Provincia di Bengasi,all,altre,232
+V,families,Provincia di Derna,all,totale,1200
+V,families,Provincia di Derna,all,padroni,166
+V,families,Provincia di Derna,all,padroni_piccoli,2
+V,families,Provincia di Derna,all,padroni_agricoltura,0
+V,families,Provincia di Derna,all,artigiani,383
+V,families,Provincia di Derna,all,artigiani_coloni_parziari,303
+V,families,Provincia di Derna,all,artigiani_agricoltura_altri,12
+V,families,Provincia di Derna,all,liberi_professionisti,1
+V,families,Provincia di Derna,all,dirigenti,17
+V,families,Provincia di Derna,all,dirigenti_agricoltura,2
+V,families,Provincia di Derna,all,dirigenti_forze_armate,3
+V,families,Provincia di Derna,all,impiegati,298
+V,families,Provincia di Derna,all,impiegati_agricoltura,8
+V,families,Provincia di Derna,all,impiegati_forze_armate,62
+V,families,Provincia di Derna,all,impiegati_culto,4
+V,families,Provincia di Derna,all,operai,303
+V,families,Provincia di Derna,all,operai_agricoltura,15
+V,families,Provincia di Derna,all,operai_forze_armate,4
+V,families,Provincia di Derna,all,personale_servizio,10
+V,families,Provincia di Derna,all,altre,22
+V,families,Territorio Militare del Sud,all,totale,37
+V,families,Territorio Militare del Sud,all,padroni,7
+V,families,Territorio Militare del Sud,all,padroni_piccoli,0
+V,families,Territorio Militare del Sud,all,padroni_agricoltura,0
+V,families,Territorio Militare del Sud,all,artigiani,0
+V,families,Territorio Militare del Sud,all,artigiani_coloni_parziari,0
+V,families,Territorio Militare del Sud,all,artigiani_agricoltura_altri,0
+V,families,Territorio Militare del Sud,all,liberi_professionisti,0
+V,families,Territorio Militare del Sud,all,dirigenti,0
+V,families,Territorio Militare del Sud,all,dirigenti_agricoltura,0
+V,families,Territorio Militare del Sud,all,dirigenti_forze_armate,0
+V,families,Territorio Militare del Sud,all,impiegati,19
+V,families,Territorio Militare del Sud,all,impiegati_agricoltura,0
+V,families,Territorio Militare del Sud,all,impiegati_forze_armate,7
+V,families,Territorio Militare del Sud,all,impiegati_culto,0
+V,families,Territorio Militare del Sud,all,operai,11
+V,families,Territorio Militare del Sud,all,operai_agricoltura,0
+V,families,Territorio Militare del Sud,all,operai_forze_armate,0
+V,families,Territorio Militare del Sud,all,personale_servizio,0
+V,families,Territorio Militare del Sud,all,altre,0
+V,families,Libia,all,totale,15376
+V,families,Libia,all,padroni,2170
+V,families,Libia,all,padroni_piccoli,148
+V,families,Libia,all,padroni_agricoltura,125
+V,families,Libia,all,artigiani,2142
+V,families,Libia,all,artigiani_coloni_parziari,629
+V,families,Libia,all,artigiani_agricoltura_altri,714
+V,families,Libia,all,liberi_professionisti,135
+V,families,Libia,all,dirigenti,232
+V,families,Libia,all,dirigenti_agricoltura,41
+V,families,Libia,all,dirigenti_forze_armate,22
+V,families,Libia,all,impiegati,4082
+V,families,Libia,all,impiegati_agricoltura,93
+V,families,Libia,all,impiegati_forze_armate,1015
+V,families,Libia,all,impiegati_culto,17
+V,families,Libia,all,operai,5348
+V,families,Libia,all,operai_agricoltura,579
+V,families,Libia,all,operai_forze_armate,21
+V,families,Libia,all,personale_servizio,372
+V,families,Libia,all,altre,895
+V,members,Provincia di Tripoli,all,totale,38802
+V,members,Provincia di Tripoli,all,padroni,5990
+V,members,Provincia di Tripoli,all,padroni_piccoli,473
+V,members,Provincia di Tripoli,all,padroni_agricoltura,530
+V,members,Provincia di Tripoli,all,artigiani,6785
+V,members,Provincia di Tripoli,all,artigiani_coloni_parziari,1581
+V,members,Provincia di Tripoli,all,artigiani_agricoltura_altri,3329
+V,members,Provincia di Tripoli,all,liberi_professionisti,306
+V,members,Provincia di Tripoli,all,dirigenti,520
+V,members,Provincia di Tripoli,all,dirigenti_agricoltura,102
+V,members,Provincia di Tripoli,all,dirigenti_forze_armate,35
+V,members,Provincia di Tripoli,all,impiegati,8573
+V,members,Provincia di Tripoli,all,impiegati_agricoltura,159
+V,members,Provincia di Tripoli,all,impiegati_forze_armate,2051
+V,members,Provincia di Tripoli,all,impiegati_culto,25
+V,members,Provincia di Tripoli,all,operai,13306
+V,members,Provincia di Tripoli,all,operai_agricoltura,1779
+V,members,Provincia di Tripoli,all,operai_forze_armate,31
+V,members,Provincia di Tripoli,all,personale_servizio,1093
+V,members,Provincia di Tripoli,all,altre,2229
+V,members,di cui municipio di Tripoli,all,totale,30045
+V,members,di cui municipio di Tripoli,all,padroni,5380
+V,members,di cui municipio di Tripoli,all,padroni_piccoli,473
+V,members,di cui municipio di Tripoli,all,padroni_agricoltura,311
+V,members,di cui municipio di Tripoli,all,artigiani,2071
+V,members,di cui municipio di Tripoli,all,artigiani_coloni_parziari,115
+V,members,di cui municipio di Tripoli,all,artigiani_agricoltura_altri,231
+V,members,di cui municipio di Tripoli,all,liberi_professionisti,298
+V,members,di cui municipio di Tripoli,all,dirigenti,395
+V,members,di cui municipio di Tripoli,all,dirigenti_agricoltura,28
+V,members,di cui municipio di Tripoli,all,dirigenti_forze_armate,30
+V,members,di cui municipio di Tripoli,all,impiegati,7760
+V,members,di cui municipio di Tripoli,all,impiegati_agricoltura,62
+V,members,di cui municipio di Tripoli,all,impiegati_forze_armate,1852
+V,members,di cui municipio di Tripoli,all,impiegati_culto,23
+V,members,di cui municipio di Tripoli,all,operai,10958
+V,members,di cui municipio di Tripoli,all,operai_agricoltura,294
+V,members,di cui municipio di Tripoli,all,operai_forze_armate,25
+V,members,di cui municipio di Tripoli,all,personale_servizio,1023
+V,members,di cui municipio di Tripoli,all,altre,2160
+V,members,Provincia di Misurata,all,totale,1835
+V,members,Provincia di Misurata,all,padroni,260
+V,members,Provincia di Misurata,all,padroni_piccoli,1
+V,members,Provincia di Misurata,all,padroni_agricoltura,1
+V,members,Provincia di Misurata,all,artigiani,239
+V,members,Provincia di Misurata,all,artigiani_coloni_parziari,0
+V,members,Provincia di Misurata,all,artigiani_agricoltura_altri,155
+V,members,Provincia di Misurata,all,liberi_professionisti,5
+V,members,Provincia di Misurata,all,dirigenti,26
+V,members,Provincia di Misurata,all,dirigenti_agricoltura,8
+V,members,Provincia di Misurata,all,dirigenti_forze_armate,0
+V,members,Provincia di Misurata,all,impiegati,544
+V,members,Provincia di Misurata,all,impiegati_agricoltura,13
+V,members,Provincia di Misurata,all,impiegati_forze_armate,111
+V,members,Provincia di Misurata,all,impiegati_culto,2
+V,members,Provincia di Misurata,all,operai,672
+V,members,Provincia di Misurata,all,operai_agricoltura,333
+V,members,Provincia di Misurata,all,operai_forze_armate,0
+V,members,Provincia di Misurata,all,personale_servizio,53
+V,members,Provincia di Misurata,all,altre,36
+V,members,Provincia di Bengasi,all,totale,15794
+V,members,Provincia di Bengasi,all,padroni,2702
+V,members,Provincia di Bengasi,all,padroni_piccoli,194
+V,members,Provincia di Bengasi,all,padroni_agricoltura,47
+V,members,Provincia di Bengasi,all,artigiani,1314
+V,members,Provincia di Bengasi,all,artigiani_coloni_parziari,55
+V,members,Provincia di Bengasi,all,artigiani_agricoltura_altri,281
+V,members,Provincia di Bengasi,all,liberi_professionisti,141
+V,members,Provincia di Bengasi,all,dirigenti,271
+V,members,Provincia di Bengasi,all,dirigenti_agricoltura,32
+V,members,Provincia di Bengasi,all,dirigenti_forze_armate,17
+V,members,Provincia di Bengasi,all,impiegati,4369
+V,members,Provincia di Bengasi,all,impiegati_agricoltura,49
+V,members,Provincia di Bengasi,all,impiegati_forze_armate,1181
+V,members,Provincia di Bengasi,all,impiegati_culto,6
+V,members,Provincia di Bengasi,all,operai,5884
+V,members,Provincia di Bengasi,all,operai_agricoltura,307
+V,members,Provincia di Bengasi,all,operai_forze_armate,20
+V,members,Provincia di Bengasi,all,personale_servizio,354
+V,members,Provincia di Bengasi,all,altre,759
+V,members,Provincia di Derna,all,totale,4738
+V,members,Provincia di Derna,all,padroni,676
+V,members,Provincia di Derna,all,padroni_piccoli,7
+V,members,Provincia di Derna,all,padroni_agricoltura,0
+V,members,Provincia di Derna,all,artigiani,2457
+V,members,Provincia di Derna,all,artigiani_coloni_parziari,2200
+V,members,Provincia di Derna,all,artigiani_agricoltura_altri,37
+V,members,Provincia di Derna,all,liberi_professionisti,3
+V,members,Provincia di Derna,all,dirigenti,49
+V,members,Provincia di Derna,all,dirigenti_agricoltura,5
+V,members,Provincia di Derna,all,dirigenti_forze_armate,6
+V,members,Provincia di Derna,all,impiegati,740
+V,members,Provincia di Derna,all,impiegati_agricoltura,23
+V,members,Provincia di Derna,all,impiegati_forze_armate,178
+V,members,Provincia di Derna,all,impiegati_culto,5
+V,members,Provincia di Derna,all,operai,726
+V,members,Provincia di Derna,all,operai_agricoltura,46
+V,members,Provincia di Derna,all,operai_forze_armate,6
+V,members,Provincia di Derna,all,personale_servizio,28
+V,members,Provincia di Derna,all,altre,59
+V,members,Territorio Militare del Sud,all,totale,58
+V,members,Territorio Militare del Sud,all,padroni,15
+V,members,Territorio Militare del Sud,all,padroni_piccoli,0
+V,members,Territorio Militare del Sud,all,padroni_agricoltura,0
+V,members,Territorio Militare del Sud,all,artigiani,0
+V,members,Territorio Militare del Sud,all,artigiani_coloni_parziari,0
+V,members,Territorio Militare del Sud,all,artigiani_agricoltura_altri,0
+V,members,Territorio Militare del Sud,all,liberi_professionisti,0
+V,members,Territorio Militare del Sud,all,dirigenti,0
+V,members,Territorio Militare del Sud,all,dirigenti_agricoltura,0
+V,members,Territorio Militare del Sud,all,dirigenti_forze_armate,0
+V,members,Territorio Militare del Sud,all,impiegati,23
+V,members,Territorio Militare del Sud,all,impiegati_agricoltura,0
+V,members,Territorio Militare del Sud,all,impiegati_forze_armate,7
+V,members,Territorio Militare del Sud,all,impiegati_culto,0
+V,members,Territorio Militare del Sud,all,operai,20
+V,members,Territorio Militare del Sud,all,operai_agricoltura,0
+V,members,Territorio Militare del Sud,all,operai_forze_armate,0
+V,members,Territorio Militare del Sud,all,personale_servizio,0
+V,members,Territorio Militare del Sud,all,altre,0
+V,members,Libia,all,totale,61227
+V,members,Libia,all,padroni,9643
+V,members,Libia,all,padroni_piccoli,675
+V,members,Libia,all,padroni_agricoltura,578
+V,members,Libia,all,artigiani,10795
+V,members,Libia,all,artigiani_coloni_parziari,3836
+V,members,Libia,all,artigiani_agricoltura_altri,3802
+V,members,Libia,all,liberi_professionisti,455
+V,members,Libia,all,dirigenti,866
+V,members,Libia,all,dirigenti_agricoltura,147
+V,members,Libia,all,dirigenti_forze_armate,58
+V,members,Libia,all,impiegati,14249
+V,members,Libia,all,impiegati_agricoltura,244
+V,members,Libia,all,impiegati_forze_armate,3528
+V,members,Libia,all,impiegati_culto,38
+V,members,Libia,all,operai,20608
+V,members,Libia,all,operai_agricoltura,2465
+V,members,Libia,all,operai_forze_armate,57
+V,members,Libia,all,personale_servizio,1528
+V,members,Libia,all,altre,3083
+VI,families,Libia,1,totale,2261
+VI,families,Libia,1,padroni,174
+VI,families,Libia,1,padroni_piccoli,9
+VI,families,Libia,1,padroni_agricoltura,8
+VI,families,Libia,1,artigiani,171
+VI,families,Libia,1,artigiani_coloni_parziari,20
+VI,families,Libia,1,artigiani_agricoltura_altri,33
+VI,families,Libia,1,liberi_professionisti,30
+VI,families,Libia,1,dirigenti,38
+VI,families,Libia,1,dirigenti_agricoltura,8
+VI,families,Libia,1,dirigenti_forze_armate,11
+VI,families,Libia,1,impiegati,720
+VI,families,Libia,1,impiegati_agricoltura,37
+VI,families,Libia,1,impiegati_forze_armate,121
+VI,families,Libia,1,impiegati_culto,10
+VI,families,Libia,1,operai,918
+VI,families,Libia,1,operai_agricoltura,81
+VI,families,Libia,1,operai_forze_armate,6
+VI,families,Libia,1,personale_servizio,71
+VI,families,Libia,1,altre,139
+VI,families,Libia,2,totale,2294
+VI,families,Libia,2,padroni,301
+VI,families,Libia,2,padroni_piccoli,30
+VI,families,Libia,2,padroni_agricoltura,11
+VI,families,Libia,2,artigiani,226
+VI,families,Libia,2,artigiani_coloni_parziari,33
+VI,families,Libia,2,artigiani_agricoltura_altri,64
+VI,families,Libia,2,liberi_professionisti,23
+VI,families,Libia,2,dirigenti,30
+VI,families,Libia,2,dirigenti_agricoltura,4
+VI,families,Libia,2,dirigenti_forze_armate,0
+VI,families,Libia,2,impiegati,690
+VI,families,Libia,2,impiegati_agricoltura,16
+VI,families,Libia,2,impiegati_forze_armate,209
+VI,families,Libia,2,impiegati_culto,3
+VI,families,Libia,2,operai,752
+VI,families,Libia,2,operai_agricoltura,62
+VI,families,Libia,2,operai_forze_armate,3
+VI,families,Libia,2,personale_servizio,44
+VI,families,Libia,2,altre,228
+VI,families,Libia,3,totale,2586
+VI,families,Libia,3,padroni,344
+VI,families,Libia,3,padroni_piccoli,16
+VI,families,Libia,3,padroni_agricoltura,25
+VI,families,Libia,3,artigiani,237
+VI,families,Libia,3,artigiani_coloni_parziari,43
+VI,families,Libia,3,artigiani_agricoltura_altri,77
+VI,families,Libia,3,liberi_professionisti,29
+VI,families,Libia,3,dirigenti,36
+VI,families,Libia,3,dirigenti_agricoltura,9
+VI,families,Libia,3,dirigenti_forze_armate,3
+VI,families,Libia,3,impiegati,820
+VI,families,Libia,3,impiegati_agricoltura,14
+VI,families,Libia,3,impiegati_forze_armate,230
+VI,families,Libia,3,impiegati_culto,1
+VI,families,Libia,3,operai,904
+VI,families,Libia,3,operai_agricoltura,84
+VI,families,Libia,3,operai_forze_armate,8
+VI,families,Libia,3,personale_servizio,50
+VI,families,Libia,3,altre,166
+VI,families,Libia,4,totale,2534
+VI,families,Libia,4,padroni,383
+VI,families,Libia,4,padroni_piccoli,20
+VI,families,Libia,4,padroni_agricoltura,25
+VI,families,Libia,4,artigiani,305
+VI,families,Libia,4,artigiani_coloni_parziari,76
+VI,families,Libia,4,artigiani_agricoltura_altri,81
+VI,families,Libia,4,liberi_professionisti,17
+VI,families,Libia,4,dirigenti,53
+VI,families,Libia,4,dirigenti_agricoltura,11
+VI,families,Libia,4,dirigenti_forze_armate,3
+VI,families,Libia,4,impiegati,736
+VI,families,Libia,4,impiegati_agricoltura,11
+VI,families,Libia,4,impiegati_forze_armate,214
+VI,families,Libia,4,impiegati_culto,1
+VI,families,Libia,4,operai,865
+VI,families,Libia,4,operai_agricoltura,104
+VI,families,Libia,4,operai_forze_armate,2
+VI,families,Libia,4,personale_servizio,51
+VI,families,Libia,4,altre,124
+VI,families,Libia,5,totale,2071
+VI,families,Libia,5,padroni,328
+VI,families,Libia,5,padroni_piccoli,23
+VI,families,Libia,5,padroni_agricoltura,19
+VI,families,Libia,5,artigiani,327
+VI,families,Libia,5,artigiani_coloni_parziari,86
+VI,families,Libia,5,artigiani_agricoltura_altri,140
+VI,families,Libia,5,liberi_professionisti,17
+VI,families,Libia,5,dirigenti,38
+VI,families,Libia,5,dirigenti_agricoltura,6
+VI,families,Libia,5,dirigenti_forze_armate,4
+VI,families,Libia,5,impiegati,516
+VI,families,Libia,5,impiegati_agricoltura,8
+VI,families,Libia,5,impiegati_forze_armate,119
+VI,families,Libia,5,impiegati_culto,0
+VI,families,Libia,5,operai,701
+VI,families,Libia,5,operai_agricoltura,85
+VI,families,Libia,5,operai_forze_armate,1
+VI,families,Libia,5,personale_servizio,57
+VI,families,Libia,5,altre,87
+VI,families,Libia,6,totale,1528
+VI,families,Libia,6,padroni,259
+VI,families,Libia,6,padroni_piccoli,21
+VI,families,Libia,6,padroni_agricoltura,14
+VI,families,Libia,6,artigiani,278
+VI,families,Libia,6,artigiani_coloni_parziari,96
+VI,families,Libia,6,artigiani_agricoltura_altri,105
+VI,families,Libia,6,liberi_professionisti,8
+VI,families,Libia,6,dirigenti,16
+VI,families,Libia,6,dirigenti_agricoltura,0
+VI,families,Libia,6,dirigenti_forze_armate,1
+VI,families,Libia,6,impiegati,306
+VI,families,Libia,6,impiegati_agricoltura,5
+VI,families,Libia,6,impiegati_forze_armate,61
+VI,families,Libia,6,impiegati_culto,0
+VI,families,Libia,6,operai,555
+VI,families,Libia,6,operai_agricoltura,71
+VI,families,Libia,6,operai_forze_armate,0
+VI,families,Libia,6,personale_servizio,36
+VI,families,Libia,6,altre,70
+VI,families,Libia,7,totale,957
+VI,families,Libia,7,padroni,164
+VI,families,Libia,7,padroni_piccoli,13
+VI,families,Libia,7,padroni_agricoltura,10
+VI,families,Libia,7,artigiani,244
+VI,families,Libia,7,artigiani_coloni_parziari,99
+VI,families,Libia,7,artigiani_agricoltura_altri,90
+VI,families,Libia,7,liberi_professionisti,7
+VI,families,Libia,7,dirigenti,14
+VI,families,Libia,7,dirigenti_agricoltura,0
+VI,families,Libia,7,dirigenti_forze_armate,0
+VI,families,Libia,7,impiegati,144
+VI,families,Libia,7,impiegati_agricoltura,0
+VI,families,Libia,7,impiegati_forze_armate,32
+VI,families,Libia,7,impiegati_culto,1
+VI,families,Libia,7,operai,319
+VI,families,Libia,7,operai_agricoltura,42
+VI,families,Libia,7,operai_forze_armate,0
+VI,families,Libia,7,personale_servizio,27
+VI,families,Libia,7,altre,38
+VI,families,Libia,8,totale,534
+VI,families,Libia,8,padroni,95
+VI,families,Libia,8,padroni_piccoli,6
+VI,families,Libia,8,padroni_agricoltura,5
+VI,families,Libia,8,artigiani,149
+VI,families,Libia,8,artigiani_coloni_parziari,70
+VI,families,Libia,8,artigiani_agricoltura_altri,53
+VI,families,Libia,8,liberi_professionisti,1
+VI,families,Libia,8,dirigenti,3
+VI,families,Libia,8,dirigenti_agricoltura,1
+VI,families,Libia,8,dirigenti_forze_armate,0
+VI,families,Libia,8,impiegati,80
+VI,families,Libia,8,impiegati_agricoltura,0
+VI,families,Libia,8,impiegati_forze_armate,13
+VI,families,Libia,8,impiegati_culto,1
+VI,families,Libia,8,operai,171
+VI,families,Libia,8,operai_agricoltura,20
+VI,families,Libia,8,operai_forze_armate,1
+VI,families,Libia,8,personale_servizio,12
+VI,families,Libia,8,altre,23
+VI,families,Libia,9,totale,314
+VI,families,Libia,9,padroni,60
+VI,families,Libia,9,padroni_piccoli,3
+VI,families,Libia,9,padroni_agricoltura,2
+VI,families,Libia,9,artigiani,93
+VI,families,Libia,9,artigiani_coloni_parziari,49
+VI,families,Libia,9,artigiani_agricoltura_altri,32
+VI,families,Libia,9,liberi_professionisti,1
+VI,families,Libia,9,dirigenti,2
+VI,families,Libia,9,dirigenti_agricoltura,0
+VI,families,Libia,9,dirigenti_forze_armate,0
+VI,families,Libia,9,impiegati,36
+VI,families,Libia,9,impiegati_agricoltura,1
+VI,families,Libia,9,impiegati_forze_armate,9
+VI,families,Libia,9,impiegati_culto,0
+VI,families,Libia,9,operai,95
+VI,families,Libia,9,operai_agricoltura,16
+VI,families,Libia,9,operai_forze_armate,0
+VI,families,Libia,9,personale_servizio,13
+VI,families,Libia,9,altre,14
+VI,families,Libia,10,totale,175
+VI,families,Libia,10,padroni,38
+VI,families,Libia,10,padroni_piccoli,6
+VI,families,Libia,10,padroni_agricoltura,4
+VI,families,Libia,10,artigiani,60
+VI,families,Libia,10,artigiani_coloni_parziari,31
+VI,families,Libia,10,artigiani_agricoltura_altri,21
+VI,families,Libia,10,liberi_professionisti,0
+VI,families,Libia,10,dirigenti,1
+VI,families,Libia,10,dirigenti_agricoltura,1
+VI,families,Libia,10,dirigenti_forze_armate,0
+VI,families,Libia,10,impiegati,22
+VI,families,Libia,10,impiegati_agricoltura,1
+VI,families,Libia,10,impiegati_forze_armate,5
+VI,families,Libia,10,impiegati_culto,0
+VI,families,Libia,10,operai,42
+VI,families,Libia,10,operai_agricoltura,11
+VI,families,Libia,10,operai_forze_armate,0
+VI,families,Libia,10,personale_servizio,9
+VI,families,Libia,10,altre,3
+VI,families,Libia,11,totale,78
+VI,families,Libia,11,padroni,13
+VI,families,Libia,11,padroni_piccoli,1
+VI,families,Libia,11,padroni_agricoltura,0
+VI,families,Libia,11,artigiani,35
+VI,families,Libia,11,artigiani_coloni_parziari,15
+VI,families,Libia,11,artigiani_agricoltura_altri,14
+VI,families,Libia,11,liberi_professionisti,0
+VI,families,Libia,11,dirigenti,0
+VI,families,Libia,11,dirigenti_agricoltura,0
+VI,families,Libia,11,dirigenti_forze_armate,0
+VI,families,Libia,11,impiegati,8
+VI,families,Libia,11,impiegati_agricoltura,0
+VI,families,Libia,11,impiegati_forze_armate,1
+VI,families,Libia,11,impiegati_culto,0
+VI,families,Libia,11,operai,17
+VI,families,Libia,11,operai_agricoltura,3
+VI,families,Libia,11,operai_forze_armate,0
+VI,families,Libia,11,personale_servizio,2
+VI,families,Libia,11,altre,3
+VI,families,Libia,12,totale,25
+VI,families,Libia,12,padroni,6
+VI,families,Libia,12,padroni_piccoli,0
+VI,families,Libia,12,padroni_agricoltura,0
+VI,families,Libia,12,artigiani,9
+VI,families,Libia,12,artigiani_coloni_parziari,4
+VI,families,Libia,12,artigiani_agricoltura_altri,3
+VI,families,Libia,12,liberi_professionisti,1
+VI,families,Libia,12,dirigenti,1
+VI,families,Libia,12,dirigenti_agricoltura,1
+VI,families,Libia,12,dirigenti_forze_armate,0
+VI,families,Libia,12,impiegati,3
+VI,families,Libia,12,impiegati_agricoltura,0
+VI,families,Libia,12,impiegati_forze_armate,1
+VI,families,Libia,12,impiegati_culto,0
+VI,families,Libia,12,operai,5
+VI,families,Libia,12,operai_agricoltura,0
+VI,families,Libia,12,operai_forze_armate,0
+VI,families,Libia,12,personale_servizio,0
+VI,families,Libia,12,altre,0
+VI,families,Libia,13,totale,12
+VI,families,Libia,13,padroni,4
+VI,families,Libia,13,padroni_piccoli,0
+VI,families,Libia,13,padroni_agricoltura,2
+VI,families,Libia,13,artigiani,5
+VI,families,Libia,13,artigiani_coloni_parziari,5
+VI,families,Libia,13,artigiani_agricoltura_altri,0
+VI,families,Libia,13,liberi_professionisti,1
+VI,families,Libia,13,dirigenti,0
+VI,families,Libia,13,dirigenti_agricoltura,0
+VI,families,Libia,13,dirigenti_forze_armate,0
+VI,families,Libia,13,impiegati,1
+VI,families,Libia,13,impiegati_agricoltura,0
+VI,families,Libia,13,impiegati_forze_armate,0
+VI,families,Libia,13,impiegati_culto,0
+VI,families,Libia,13,operai,1
+VI,families,Libia,13,operai_agricoltura,0
+VI,families,Libia,13,operai_forze_armate,0
+VI,families,Libia,13,personale_servizio,0
+VI,families,Libia,13,altre,0
+VI,families,Libia,14,totale,5
+VI,families,Libia,14,padroni,1
+VI,families,Libia,14,padroni_piccoli,0
+VI,families,Libia,14,padroni_agricoltura,0
+VI,families,Libia,14,artigiani,2
+VI,families,Libia,14,artigiani_coloni_parziari,1
+VI,families,Libia,14,artigiani_agricoltura_altri,1
+VI,families,Libia,14,liberi_professionisti,0
+VI,families,Libia,14,dirigenti,0
+VI,families,Libia,14,dirigenti_agricoltura,0
+VI,families,Libia,14,dirigenti_forze_armate,0
+VI,families,Libia,14,impiegati,0
+VI,families,Libia,14,impiegati_agricoltura,0
+VI,families,Libia,14,impiegati_forze_armate,0
+VI,families,Libia,14,impiegati_culto,0
+VI,families,Libia,14,operai,2
+VI,families,Libia,14,operai_agricoltura,0
+VI,families,Libia,14,operai_forze_armate,0
+VI,families,Libia,14,personale_servizio,0
+VI,families,Libia,14,altre,0
+VI,families,Libia,15,totale,2
+VI,families,Libia,15,padroni,0
+VI,families,Libia,15,padroni_piccoli,0
+VI,families,Libia,15,padroni_agricoltura,0
+VI,families,Libia,15,artigiani,1
+VI,families,Libia,15,artigiani_coloni_parziari,1
+VI,families,Libia,15,artigiani_agricoltura_altri,0
+VI,families,Libia,15,liberi_professionisti,0
+VI,families,Libia,15,dirigenti,0
+VI,families,Libia,15,dirigenti_agricoltura,0
+VI,families,Libia,15,dirigenti_forze_armate,0
+VI,families,Libia,15,impiegati,0
+VI,families,Libia,15,impiegati_agricoltura,0
+VI,families,Libia,15,impiegati_forze_armate,0
+VI,families,Libia,15,impiegati_culto,0
+VI,families,Libia,15,operai,1
+VI,families,Libia,15,operai_agricoltura,0
+VI,families,Libia,15,operai_forze_armate,0
+VI,families,Libia,15,personale_servizio,0
+VI,families,Libia,15,altre,0
+VI,families,Libia,all,totale,15376
+VI,families,Libia,all,padroni,2170
+VI,families,Libia,all,padroni_piccoli,148
+VI,families,Libia,all,padroni_agricoltura,125
+VI,families,Libia,all,artigiani,2142
+VI,families,Libia,all,artigiani_coloni_parziari,629
+VI,families,Libia,all,artigiani_agricoltura_altri,714
+VI,families,Libia,all,liberi_professionisti,135
+VI,families,Libia,all,dirigenti,232
+VI,families,Libia,all,dirigenti_agricoltura,41
+VI,families,Libia,all,dirigenti_forze_armate,22
+VI,families,Libia,all,impiegati,4082
+VI,families,Libia,all,impiegati_agricoltura,93
+VI,families,Libia,all,impiegati_forze_armate,1015
+VI,families,Libia,all,impiegati_culto,17
+VI,families,Libia,all,operai,5348
+VI,families,Libia,all,operai_agricoltura,579
+VI,families,Libia,all,operai_forze_armate,21
+VI,families,Libia,all,personale_servizio,372
+VI,families,Libia,all,altre,895
+VI,families headed by a woman,Libia,all,totale,1054
+VI,families headed by a woman,Libia,all,padroni,114
+VI,families headed by a woman,Libia,all,padroni_piccoli,21
+VI,families headed by a woman,Libia,all,padroni_agricoltura,7
+VI,families headed by a woman,Libia,all,artigiani,88
+VI,families headed by a woman,Libia,all,artigiani_coloni_parziari,6
+VI,families headed by a woman,Libia,all,artigiani_agricoltura_altri,18
+VI,families headed by a woman,Libia,all,liberi_professionisti,13
+VI,families headed by a woman,Libia,all,dirigenti,2
+VI,families headed by a woman,Libia,all,dirigenti_agricoltura,0
+VI,families headed by a woman,Libia,all,dirigenti_forze_armate,0
+VI,families headed by a woman,Libia,all,impiegati,134
+VI,families headed by a woman,Libia,all,impiegati_agricoltura,0
+VI,families headed by a woman,Libia,all,impiegati_forze_armate,0
+VI,families headed by a woman,Libia,all,impiegati_culto,0
+VI,families headed by a woman,Libia,all,operai,80
+VI,families headed by a woman,Libia,all,operai_agricoltura,2
+VI,families headed by a woman,Libia,all,operai_forze_armate,0
+VI,families headed by a woman,Libia,all,personale_servizio,56
+VI,families headed by a woman,Libia,all,altre,567
+VI,members,Libia,all,totale,61227
+VI,members,Libia,all,padroni,9643
+VI,members,Libia,all,padroni_piccoli,675
+VI,members,Libia,all,padroni_agricoltura,578
+VI,members,Libia,all,artigiani,10795
+VI,members,Libia,all,artigiani_coloni_parziari,3836
+VI,members,Libia,all,artigiani_agricoltura_altri,3802
+VI,members,Libia,all,liberi_professionisti,455
+VI,members,Libia,all,dirigenti,866
+VI,members,Libia,all,dirigenti_agricoltura,147
+VI,members,Libia,all,dirigenti_forze_armate,58
+VI,members,Libia,all,impiegati,14249
+VI,members,Libia,all,impiegati_agricoltura,244
+VI,members,Libia,all,impiegati_forze_armate,3528
+VI,members,Libia,all,impiegati_culto,38
+VI,members,Libia,all,operai,20608
+VI,members,Libia,all,operai_agricoltura,2465
+VI,members,Libia,all,operai_forze_armate,57
+VI,members,Libia,all,personale_servizio,1528
+VI,members,Libia,all,altre,3083
+VI,families,di cui municipio di Tripoli,1,totale,761
+VI,families,di cui municipio di Tripoli,1,padroni,70
+VI,families,di cui municipio di Tripoli,1,padroni_piccoli,5
+VI,families,di cui municipio di Tripoli,1,padroni_agricoltura,1
+VI,families,di cui municipio di Tripoli,1,artigiani,50
+VI,families,di cui municipio di Tripoli,1,artigiani_coloni_parziari,4
+VI,families,di cui municipio di Tripoli,1,artigiani_agricoltura_altri,4
+VI,families,di cui municipio di Tripoli,1,liberi_professionisti,18
+VI,families,di cui municipio di Tripoli,1,dirigenti,8
+VI,families,di cui municipio di Tripoli,1,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,1,dirigenti_forze_armate,3
+VI,families,di cui municipio di Tripoli,1,impiegati,188
+VI,families,di cui municipio di Tripoli,1,impiegati_agricoltura,4
+VI,families,di cui municipio di Tripoli,1,impiegati_forze_armate,33
+VI,families,di cui municipio di Tripoli,1,impiegati_culto,1
+VI,families,di cui municipio di Tripoli,1,operai,299
+VI,families,di cui municipio di Tripoli,1,operai_agricoltura,6
+VI,families,di cui municipio di Tripoli,1,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,1,personale_servizio,41
+VI,families,di cui municipio di Tripoli,1,altre,87
+VI,families,di cui municipio di Tripoli,2,totale,1158
+VI,families,di cui municipio di Tripoli,2,padroni,157
+VI,families,di cui municipio di Tripoli,2,padroni_piccoli,22
+VI,families,di cui municipio di Tripoli,2,padroni_agricoltura,4
+VI,families,di cui municipio di Tripoli,2,artigiani,75
+VI,families,di cui municipio di Tripoli,2,artigiani_coloni_parziari,2
+VI,families,di cui municipio di Tripoli,2,artigiani_agricoltura_altri,9
+VI,families,di cui municipio di Tripoli,2,liberi_professionisti,17
+VI,families,di cui municipio di Tripoli,2,dirigenti,13
+VI,families,di cui municipio di Tripoli,2,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,2,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,2,impiegati,324
+VI,families,di cui municipio di Tripoli,2,impiegati_agricoltura,1
+VI,families,di cui municipio di Tripoli,2,impiegati_forze_armate,99
+VI,families,di cui municipio di Tripoli,2,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,2,operai,397
+VI,families,di cui municipio di Tripoli,2,operai_agricoltura,7
+VI,families,di cui municipio di Tripoli,2,operai_forze_armate,1
+VI,families,di cui municipio di Tripoli,2,personale_servizio,28
+VI,families,di cui municipio di Tripoli,2,altre,147
+VI,families,di cui municipio di Tripoli,3,totale,1359
+VI,families,di cui municipio di Tripoli,3,padroni,187
+VI,families,di cui municipio di Tripoli,3,padroni_piccoli,9
+VI,families,di cui municipio di Tripoli,3,padroni_agricoltura,12
+VI,families,di cui municipio di Tripoli,3,artigiani,56
+VI,families,di cui municipio di Tripoli,3,artigiani_coloni_parziari,1
+VI,families,di cui municipio di Tripoli,3,artigiani_agricoltura_altri,3
+VI,families,di cui municipio di Tripoli,3,liberi_professionisti,20
+VI,families,di cui municipio di Tripoli,3,dirigenti,16
+VI,families,di cui municipio di Tripoli,3,dirigenti_agricoltura,2
+VI,families,di cui municipio di Tripoli,3,dirigenti_forze_armate,2
+VI,families,di cui municipio di Tripoli,3,impiegati,451
+VI,families,di cui municipio di Tripoli,3,impiegati_agricoltura,4
+VI,families,di cui municipio di Tripoli,3,impiegati_forze_armate,116
+VI,families,di cui municipio di Tripoli,3,impiegati_culto,1
+VI,families,di cui municipio di Tripoli,3,operai,479
+VI,families,di cui municipio di Tripoli,3,operai_agricoltura,8
+VI,families,di cui municipio di Tripoli,3,operai_forze_armate,2
+VI,families,di cui municipio di Tripoli,3,personale_servizio,32
+VI,families,di cui municipio di Tripoli,3,altre,118
+VI,families,di cui municipio di Tripoli,4,totale,1335
+VI,families,di cui municipio di Tripoli,4,padroni,225
+VI,families,di cui municipio di Tripoli,4,padroni_piccoli,19
+VI,families,di cui municipio di Tripoli,4,padroni_agricoltura,17
+VI,families,di cui municipio di Tripoli,4,artigiani,110
+VI,families,di cui municipio di Tripoli,4,artigiani_coloni_parziari,10
+VI,families,di cui municipio di Tripoli,4,artigiani_agricoltura_altri,8
+VI,families,di cui municipio di Tripoli,4,liberi_professionisti,10
+VI,families,di cui municipio di Tripoli,4,dirigenti,23
+VI,families,di cui municipio di Tripoli,4,dirigenti_agricoltura,1
+VI,families,di cui municipio di Tripoli,4,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,4,impiegati,392
+VI,families,di cui municipio di Tripoli,4,impiegati_agricoltura,4
+VI,families,di cui municipio di Tripoli,4,impiegati_forze_armate,109
+VI,families,di cui municipio di Tripoli,4,impiegati_culto,1
+VI,families,di cui municipio di Tripoli,4,operai,455
+VI,families,di cui municipio di Tripoli,4,operai_agricoltura,19
+VI,families,di cui municipio di Tripoli,4,operai_forze_armate,1
+VI,families,di cui municipio di Tripoli,4,personale_servizio,31
+VI,families,di cui municipio di Tripoli,4,altre,89
+VI,families,di cui municipio di Tripoli,5,totale,1043
+VI,families,di cui municipio di Tripoli,5,padroni,184
+VI,families,di cui municipio di Tripoli,5,padroni_piccoli,13
+VI,families,di cui municipio di Tripoli,5,padroni_agricoltura,9
+VI,families,di cui municipio di Tripoli,5,artigiani,64
+VI,families,di cui municipio di Tripoli,5,artigiani_coloni_parziari,4
+VI,families,di cui municipio di Tripoli,5,artigiani_agricoltura_altri,9
+VI,families,di cui municipio di Tripoli,5,liberi_professionisti,16
+VI,families,di cui municipio di Tripoli,5,dirigenti,20
+VI,families,di cui municipio di Tripoli,5,dirigenti_agricoltura,2
+VI,families,di cui municipio di Tripoli,5,dirigenti_forze_armate,3
+VI,families,di cui municipio di Tripoli,5,impiegati,294
+VI,families,di cui municipio di Tripoli,5,impiegati_agricoltura,2
+VI,families,di cui municipio di Tripoli,5,impiegati_forze_armate,65
+VI,families,di cui municipio di Tripoli,5,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,5,operai,368
+VI,families,di cui municipio di Tripoli,5,operai_agricoltura,10
+VI,families,di cui municipio di Tripoli,5,operai_forze_armate,1
+VI,families,di cui municipio di Tripoli,5,personale_servizio,38
+VI,families,di cui municipio di Tripoli,5,altre,59
+VI,families,di cui municipio di Tripoli,6,totale,741
+VI,families,di cui municipio di Tripoli,6,padroni,143
+VI,families,di cui municipio di Tripoli,6,padroni_piccoli,15
+VI,families,di cui municipio di Tripoli,6,padroni_agricoltura,9
+VI,families,di cui municipio di Tripoli,6,artigiani,55
+VI,families,di cui municipio di Tripoli,6,artigiani_coloni_parziari,5
+VI,families,di cui municipio di Tripoli,6,artigiani_agricoltura_altri,7
+VI,families,di cui municipio di Tripoli,6,liberi_professionisti,3
+VI,families,di cui municipio di Tripoli,6,dirigenti,8
+VI,families,di cui municipio di Tripoli,6,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,6,dirigenti_forze_armate,1
+VI,families,di cui municipio di Tripoli,6,impiegati,181
+VI,families,di cui municipio di Tripoli,6,impiegati_agricoltura,3
+VI,families,di cui municipio di Tripoli,6,impiegati_forze_armate,26
+VI,families,di cui municipio di Tripoli,6,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,6,operai,275
+VI,families,di cui municipio di Tripoli,6,operai_agricoltura,7
+VI,families,di cui municipio di Tripoli,6,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,6,personale_servizio,23
+VI,families,di cui municipio di Tripoli,6,altre,53
+VI,families,di cui municipio di Tripoli,7,totale,453
+VI,families,di cui municipio di Tripoli,7,padroni,85
+VI,families,di cui municipio di Tripoli,7,padroni_piccoli,11
+VI,families,di cui municipio di Tripoli,7,padroni_agricoltura,6
+VI,families,di cui municipio di Tripoli,7,artigiani,39
+VI,families,di cui municipio di Tripoli,7,artigiani_coloni_parziari,2
+VI,families,di cui municipio di Tripoli,7,artigiani_agricoltura_altri,4
+VI,families,di cui municipio di Tripoli,7,liberi_professionisti,4
+VI,families,di cui municipio di Tripoli,7,dirigenti,7
+VI,families,di cui municipio di Tripoli,7,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,7,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,7,impiegati,83
+VI,families,di cui municipio di Tripoli,7,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,7,impiegati_forze_armate,20
+VI,families,di cui municipio di Tripoli,7,impiegati_culto,1
+VI,families,di cui municipio di Tripoli,7,operai,186
+VI,families,di cui municipio di Tripoli,7,operai_agricoltura,4
+VI,families,di cui municipio di Tripoli,7,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,7,personale_servizio,21
+VI,families,di cui municipio di Tripoli,7,altre,28
+VI,families,di cui municipio di Tripoli,8,totale,264
+VI,families,di cui municipio di Tripoli,8,padroni,54
+VI,families,di cui municipio di Tripoli,8,padroni_piccoli,4
+VI,families,di cui municipio di Tripoli,8,padroni_agricoltura,1
+VI,families,di cui municipio di Tripoli,8,artigiani,19
+VI,families,di cui municipio di Tripoli,8,artigiani_coloni_parziari,0
+VI,families,di cui municipio di Tripoli,8,artigiani_agricoltura_altri,2
+VI,families,di cui municipio di Tripoli,8,liberi_professionisti,1
+VI,families,di cui municipio di Tripoli,8,dirigenti,3
+VI,families,di cui municipio di Tripoli,8,dirigenti_agricoltura,1
+VI,families,di cui municipio di Tripoli,8,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,8,impiegati,49
+VI,families,di cui municipio di Tripoli,8,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,8,impiegati_forze_armate,9
+VI,families,di cui municipio di Tripoli,8,impiegati_culto,1
+VI,families,di cui municipio di Tripoli,8,operai,111
+VI,families,di cui municipio di Tripoli,8,operai_agricoltura,3
+VI,families,di cui municipio di Tripoli,8,operai_forze_armate,1
+VI,families,di cui municipio di Tripoli,8,personale_servizio,10
+VI,families,di cui municipio di Tripoli,8,altre,17
+VI,families,di cui municipio di Tripoli,9,totale,150
+VI,families,di cui municipio di Tripoli,9,padroni,35
+VI,families,di cui municipio di Tripoli,9,padroni_piccoli,3
+VI,families,di cui municipio di Tripoli,9,padroni_agricoltura,1
+VI,families,di cui municipio di Tripoli,9,artigiani,9
+VI,families,di cui municipio di Tripoli,9,artigiani_coloni_parziari,0
+VI,families,di cui municipio di Tripoli,9,artigiani_agricoltura_altri,3
+VI,families,di cui municipio di Tripoli,9,liberi_professionisti,0
+VI,families,di cui municipio di Tripoli,9,dirigenti,0
+VI,families,di cui municipio di Tripoli,9,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,9,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,9,impiegati,30
+VI,families,di cui municipio di Tripoli,9,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,9,impiegati_forze_armate,9
+VI,families,di cui municipio di Tripoli,9,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,9,operai,57
+VI,families,di cui municipio di Tripoli,9,operai_agricoltura,1
+VI,families,di cui municipio di Tripoli,9,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,9,personale_servizio,11
+VI,families,di cui municipio di Tripoli,9,altre,8
+VI,families,di cui municipio di Tripoli,10,totale,74
+VI,families,di cui municipio di Tripoli,10,padroni,31
+VI,families,di cui municipio di Tripoli,10,padroni_piccoli,3
+VI,families,di cui municipio di Tripoli,10,padroni_agricoltura,4
+VI,families,di cui municipio di Tripoli,10,artigiani,5
+VI,families,di cui municipio di Tripoli,10,artigiani_coloni_parziari,0
+VI,families,di cui municipio di Tripoli,10,artigiani_agricoltura_altri,1
+VI,families,di cui municipio di Tripoli,10,liberi_professionisti,0
+VI,families,di cui municipio di Tripoli,10,dirigenti,0
+VI,families,di cui municipio di Tripoli,10,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,10,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,10,impiegati,10
+VI,families,di cui municipio di Tripoli,10,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,10,impiegati_forze_armate,4
+VI,families,di cui municipio di Tripoli,10,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,10,operai,22
+VI,families,di cui municipio di Tripoli,10,operai_agricoltura,1
+VI,families,di cui municipio di Tripoli,10,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,10,personale_servizio,3
+VI,families,di cui municipio di Tripoli,10,altre,3
+VI,families,di cui municipio di Tripoli,11,totale,28
+VI,families,di cui municipio di Tripoli,11,padroni,5
+VI,families,di cui municipio di Tripoli,11,padroni_piccoli,0
+VI,families,di cui municipio di Tripoli,11,padroni_agricoltura,0
+VI,families,di cui municipio di Tripoli,11,artigiani,3
+VI,families,di cui municipio di Tripoli,11,artigiani_coloni_parziari,0
+VI,families,di cui municipio di Tripoli,11,artigiani_agricoltura_altri,0
+VI,families,di cui municipio di Tripoli,11,liberi_professionisti,0
+VI,families,di cui municipio di Tripoli,11,dirigenti,0
+VI,families,di cui municipio di Tripoli,11,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,11,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,11,impiegati,5
+VI,families,di cui municipio di Tripoli,11,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,11,impiegati_forze_armate,1
+VI,families,di cui municipio di Tripoli,11,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,11,operai,11
+VI,families,di cui municipio di Tripoli,11,operai_agricoltura,1
+VI,families,di cui municipio di Tripoli,11,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,11,personale_servizio,2
+VI,families,di cui municipio di Tripoli,11,altre,2
+VI,families,di cui municipio di Tripoli,12,totale,13
+VI,families,di cui municipio di Tripoli,12,padroni,2
+VI,families,di cui municipio di Tripoli,12,padroni_piccoli,0
+VI,families,di cui municipio di Tripoli,12,padroni_agricoltura,0
+VI,families,di cui municipio di Tripoli,12,artigiani,2
+VI,families,di cui municipio di Tripoli,12,artigiani_coloni_parziari,0
+VI,families,di cui municipio di Tripoli,12,artigiani_agricoltura_altri,0
+VI,families,di cui municipio di Tripoli,12,liberi_professionisti,1
+VI,families,di cui municipio di Tripoli,12,dirigenti,0
+VI,families,di cui municipio di Tripoli,12,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,12,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,12,impiegati,3
+VI,families,di cui municipio di Tripoli,12,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,12,impiegati_forze_armate,1
+VI,families,di cui municipio di Tripoli,12,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,12,operai,5
+VI,families,di cui municipio di Tripoli,12,operai_agricoltura,0
+VI,families,di cui municipio di Tripoli,12,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,12,personale_servizio,0
+VI,families,di cui municipio di Tripoli,12,altre,0
+VI,families,di cui municipio di Tripoli,13,totale,3
+VI,families,di cui municipio di Tripoli,13,padroni,2
+VI,families,di cui municipio di Tripoli,13,padroni_piccoli,0
+VI,families,di cui municipio di Tripoli,13,padroni_agricoltura,0
+VI,families,di cui municipio di Tripoli,13,artigiani,0
+VI,families,di cui municipio di Tripoli,13,artigiani_coloni_parziari,0
+VI,families,di cui municipio di Tripoli,13,artigiani_agricoltura_altri,0
+VI,families,di cui municipio di Tripoli,13,liberi_professionisti,0
+VI,families,di cui municipio di Tripoli,13,dirigenti,0
+VI,families,di cui municipio di Tripoli,13,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,13,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,13,impiegati,1
+VI,families,di cui municipio di Tripoli,13,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,13,impiegati_forze_armate,0
+VI,families,di cui municipio di Tripoli,13,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,13,operai,0
+VI,families,di cui municipio di Tripoli,13,operai_agricoltura,0
+VI,families,di cui municipio di Tripoli,13,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,13,personale_servizio,0
+VI,families,di cui municipio di Tripoli,13,altre,0
+VI,families,di cui municipio di Tripoli,14,totale,1
+VI,families,di cui municipio di Tripoli,14,padroni,0
+VI,families,di cui municipio di Tripoli,14,padroni_piccoli,0
+VI,families,di cui municipio di Tripoli,14,padroni_agricoltura,0
+VI,families,di cui municipio di Tripoli,14,artigiani,0
+VI,families,di cui municipio di Tripoli,14,artigiani_coloni_parziari,0
+VI,families,di cui municipio di Tripoli,14,artigiani_agricoltura_altri,0
+VI,families,di cui municipio di Tripoli,14,liberi_professionisti,0
+VI,families,di cui municipio di Tripoli,14,dirigenti,0
+VI,families,di cui municipio di Tripoli,14,dirigenti_agricoltura,0
+VI,families,di cui municipio di Tripoli,14,dirigenti_forze_armate,0
+VI,families,di cui municipio di Tripoli,14,impiegati,0
+VI,families,di cui municipio di Tripoli,14,impiegati_agricoltura,0
+VI,families,di cui municipio di Tripoli,14,impiegati_forze_armate,0
+VI,families,di cui municipio di Tripoli,14,impiegati_culto,0
+VI,families,di cui municipio di Tripoli,14,operai,1
+VI,families,di cui municipio di Tripoli,14,operai_agricoltura,0
+VI,families,di cui municipio di Tripoli,14,operai_forze_armate,0
+VI,families,di cui municipio di Tripoli,14,personale_servizio,0
+VI,families,di cui municipio di Tripoli,14,altre,0
+VI,families,di cui municipio di Tripoli,all,totale,7383
+VI,families,di cui municipio di Tripoli,all,padroni,1180
+VI,families,di cui municipio di Tripoli,all,padroni_piccoli,104
+VI,families,di cui municipio di Tripoli,all,padroni_agricoltura,64
+VI,families,di cui municipio di Tripoli,all,artigiani,487
+VI,families,di cui municipio di Tripoli,all,artigiani_coloni_parziari,28
+VI,families,di cui municipio di Tripoli,all,artigiani_agricoltura_altri,50
+VI,families,di cui municipio di Tripoli,all,liberi_professionisti,90
+VI,families,di cui municipio di Tripoli,all,dirigenti,98
+VI,families,di cui municipio di Tripoli,all,dirigenti_agricoltura,6
+VI,families,di cui municipio di Tripoli,all,dirigenti_forze_armate,9
+VI,families,di cui municipio di Tripoli,all,impiegati,2011
+VI,families,di cui municipio di Tripoli,all,impiegati_agricoltura,18
+VI,families,di cui municipio di Tripoli,all,impiegati_forze_armate,492
+VI,families,di cui municipio di Tripoli,all,impiegati_culto,5
+VI,families,di cui municipio di Tripoli,all,operai,2666
+VI,families,di cui municipio di Tripoli,all,operai_agricoltura,67
+VI,families,di cui municipio di Tripoli,all,operai_forze_armate,6
+VI,families,di cui municipio di Tripoli,all,personale_servizio,240
+VI,families,di cui municipio di Tripoli,all,altre,611
+VI,families headed by a woman,di cui municipio di Tripoli,all,totale,647
+VI,families headed by a woman,di cui municipio di Tripoli,all,padroni,56
+VI,families headed by a woman,di cui municipio di Tripoli,all,padroni_piccoli,9
+VI,families headed by a woman,di cui municipio di Tripoli,all,padroni_agricoltura,2
+VI,families headed by a woman,di cui municipio di Tripoli,all,artigiani,36
+VI,families headed by a woman,di cui municipio di Tripoli,all,artigiani_coloni_parziari,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,artigiani_agricoltura_altri,1
+VI,families headed by a woman,di cui municipio di Tripoli,all,liberi_professionisti,11
+VI,families headed by a woman,di cui municipio di Tripoli,all,dirigenti,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,dirigenti_agricoltura,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,dirigenti_forze_armate,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,impiegati,66
+VI,families headed by a woman,di cui municipio di Tripoli,all,impiegati_agricoltura,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,impiegati_forze_armate,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,impiegati_culto,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,operai,53
+VI,families headed by a woman,di cui municipio di Tripoli,all,operai_agricoltura,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,operai_forze_armate,0
+VI,families headed by a woman,di cui municipio di Tripoli,all,personale_servizio,38
+VI,families headed by a woman,di cui municipio di Tripoli,all,altre,387
+VI,members,di cui municipio di Tripoli,all,totale,30045
+VI,members,di cui municipio di Tripoli,all,padroni,5380
+VI,members,di cui municipio di Tripoli,all,padroni_piccoli,473
+VI,members,di cui municipio di Tripoli,all,padroni_agricoltura,311
+VI,members,di cui municipio di Tripoli,all,artigiani,2071
+VI,members,di cui municipio di Tripoli,all,artigiani_coloni_parziari,115
+VI,members,di cui municipio di Tripoli,all,artigiani_agricoltura_altri,231
+VI,members,di cui municipio di Tripoli,all,liberi_professionisti,298
+VI,members,di cui municipio di Tripoli,all,dirigenti,395
+VI,members,di cui municipio di Tripoli,all,dirigenti_agricoltura,28
+VI,members,di cui municipio di Tripoli,all,dirigenti_forze_armate,30
+VI,members,di cui municipio di Tripoli,all,impiegati,7760
+VI,members,di cui municipio di Tripoli,all,impiegati_agricoltura,62
+VI,members,di cui municipio di Tripoli,all,impiegati_forze_armate,1852
+VI,members,di cui municipio di Tripoli,all,impiegati_culto,23
+VI,members,di cui municipio di Tripoli,all,operai,10958
+VI,members,di cui municipio di Tripoli,all,operai_agricoltura,294
+VI,members,di cui municipio di Tripoli,all,operai_forze_armate,25
+VI,members,di cui municipio di Tripoli,all,personale_servizio,1023
+VI,members,di cui municipio di Tripoli,all,altre,2160

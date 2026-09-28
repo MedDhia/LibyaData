@@ -1,0 +1,677 @@
+table,continent,state,breakdown,line,dwelling,area,sex,persons
+XI,Europa,San Marino,,,all present,Libia,MF,2
+XI,Europa,San Marino,,,all present,Libia,F,1
+XI,Europa,San Marino,,,all present,di cui municipio di Tripoli,MF,2
+XI,Europa,San Marino,,,all present,di cui municipio di Tripoli,F,1
+XI,Europa,San Marino,,,habitual,Libia,MF,2
+XI,Europa,San Marino,,,habitual,Libia,F,1
+XI,Europa,San Marino,,,habitual,di cui municipio di Tripoli,MF,2
+XI,Europa,San Marino,,,habitual,di cui municipio di Tripoli,F,1
+XI,Europa,Albania,,,all present,Libia,MF,20
+XI,Europa,Albania,,,all present,Libia,F,7
+XI,Europa,Albania,,,all present,di cui municipio di Tripoli,MF,18
+XI,Europa,Albania,,,all present,di cui municipio di Tripoli,F,6
+XI,Europa,Albania,,,habitual,Libia,MF,20
+XI,Europa,Albania,,,habitual,Libia,F,7
+XI,Europa,Albania,,,habitual,di cui municipio di Tripoli,MF,18
+XI,Europa,Albania,,,habitual,di cui municipio di Tripoli,F,6
+XI,Europa,Austria,,,all present,Libia,MF,31
+XI,Europa,Austria,,,all present,Libia,F,22
+XI,Europa,Austria,,,all present,di cui municipio di Tripoli,MF,18
+XI,Europa,Austria,,,all present,di cui municipio di Tripoli,F,12
+XI,Europa,Austria,,,habitual,Libia,MF,28
+XI,Europa,Austria,,,habitual,Libia,F,21
+XI,Europa,Austria,,,habitual,di cui municipio di Tripoli,MF,17
+XI,Europa,Austria,,,habitual,di cui municipio di Tripoli,F,12
+XI,Europa,Belgio,,,all present,Libia,MF,2
+XI,Europa,Belgio,,,all present,Libia,F,0
+XI,Europa,Belgio,,,all present,di cui municipio di Tripoli,MF,0
+XI,Europa,Belgio,,,all present,di cui municipio di Tripoli,F,0
+XI,Europa,Belgio,,,habitual,Libia,MF,2
+XI,Europa,Belgio,,,habitual,Libia,F,0
+XI,Europa,Belgio,,,habitual,di cui municipio di Tripoli,MF,0
+XI,Europa,Belgio,,,habitual,di cui municipio di Tripoli,F,0
+XI,Europa,Bulgaria,,,all present,Libia,MF,3
+XI,Europa,Bulgaria,,,all present,Libia,F,2
+XI,Europa,Bulgaria,,,all present,di cui municipio di Tripoli,MF,3
+XI,Europa,Bulgaria,,,all present,di cui municipio di Tripoli,F,2
+XI,Europa,Bulgaria,,,habitual,Libia,MF,3
+XI,Europa,Bulgaria,,,habitual,Libia,F,2
+XI,Europa,Bulgaria,,,habitual,di cui municipio di Tripoli,MF,3
+XI,Europa,Bulgaria,,,habitual,di cui municipio di Tripoli,F,2
+XI,Europa,Cecoslovacchia,,,all present,Libia,MF,5
+XI,Europa,Cecoslovacchia,,,all present,Libia,F,3
+XI,Europa,Cecoslovacchia,,,all present,di cui municipio di Tripoli,MF,5
+XI,Europa,Cecoslovacchia,,,all present,di cui municipio di Tripoli,F,3
+XI,Europa,Cecoslovacchia,,,habitual,Libia,MF,4
+XI,Europa,Cecoslovacchia,,,habitual,Libia,F,3
+XI,Europa,Cecoslovacchia,,,habitual,di cui municipio di Tripoli,MF,4
+XI,Europa,Cecoslovacchia,,,habitual,di cui municipio di Tripoli,F,3
+XI,Europa,Francia,,,all present,Libia,MF,118
+XI,Europa,Francia,,,all present,Libia,F,60
+XI,Europa,Francia,,,all present,di cui municipio di Tripoli,MF,88
+XI,Europa,Francia,,,all present,di cui municipio di Tripoli,F,41
+XI,Europa,Francia,,,habitual,Libia,MF,114
+XI,Europa,Francia,,,habitual,Libia,F,59
+XI,Europa,Francia,,,habitual,di cui municipio di Tripoli,MF,85
+XI,Europa,Francia,,,habitual,di cui municipio di Tripoli,F,40
+XI,Europa,Germania,,,all present,Libia,MF,41
+XI,Europa,Germania,,,all present,Libia,F,30
+XI,Europa,Germania,,,all present,di cui municipio di Tripoli,MF,30
+XI,Europa,Germania,,,all present,di cui municipio di Tripoli,F,23
+XI,Europa,Germania,,,habitual,Libia,MF,32
+XI,Europa,Germania,,,habitual,Libia,F,23
+XI,Europa,Germania,,,habitual,di cui municipio di Tripoli,MF,21
+XI,Europa,Germania,,,habitual,di cui municipio di Tripoli,F,16
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,all present,Libia,MF,1990
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,all present,Libia,F,958
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,all present,di cui municipio di Tripoli,MF,1733
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,all present,di cui municipio di Tripoli,F,848
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,habitual,Libia,MF,1963
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,habitual,Libia,F,951
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,habitual,di cui municipio di Tripoli,MF,1723
+XI,Europa,Gran Bretagna e Irlanda del Nord,,,habitual,di cui municipio di Tripoli,F,843
+XI,Europa,Grecia,,,all present,Libia,MF,360
+XI,Europa,Grecia,,,all present,Libia,F,152
+XI,Europa,Grecia,,,all present,di cui municipio di Tripoli,MF,214
+XI,Europa,Grecia,,,all present,di cui municipio di Tripoli,F,86
+XI,Europa,Grecia,,,habitual,Libia,MF,317
+XI,Europa,Grecia,,,habitual,Libia,F,150
+XI,Europa,Grecia,,,habitual,di cui municipio di Tripoli,MF,187
+XI,Europa,Grecia,,,habitual,di cui municipio di Tripoli,F,86
+XI,Europa,Iugoslavia,,,all present,Libia,MF,33
+XI,Europa,Iugoslavia,,,all present,Libia,F,1
+XI,Europa,Iugoslavia,,,all present,di cui municipio di Tripoli,MF,1
+XI,Europa,Iugoslavia,,,all present,di cui municipio di Tripoli,F,1
+XI,Europa,Iugoslavia,,,habitual,Libia,MF,1
+XI,Europa,Iugoslavia,,,habitual,Libia,F,1
+XI,Europa,Iugoslavia,,,habitual,di cui municipio di Tripoli,MF,1
+XI,Europa,Iugoslavia,,,habitual,di cui municipio di Tripoli,F,1
+XI,Europa,Polonia,,,all present,Libia,MF,10
+XI,Europa,Polonia,,,all present,Libia,F,6
+XI,Europa,Polonia,,,all present,di cui municipio di Tripoli,MF,7
+XI,Europa,Polonia,,,all present,di cui municipio di Tripoli,F,4
+XI,Europa,Polonia,,,habitual,Libia,MF,9
+XI,Europa,Polonia,,,habitual,Libia,F,6
+XI,Europa,Polonia,,,habitual,di cui municipio di Tripoli,MF,7
+XI,Europa,Polonia,,,habitual,di cui municipio di Tripoli,F,4
+XI,Europa,Romania,,,all present,Libia,MF,4
+XI,Europa,Romania,,,all present,Libia,F,4
+XI,Europa,Romania,,,all present,di cui municipio di Tripoli,MF,1
+XI,Europa,Romania,,,all present,di cui municipio di Tripoli,F,1
+XI,Europa,Romania,,,habitual,Libia,MF,4
+XI,Europa,Romania,,,habitual,Libia,F,4
+XI,Europa,Romania,,,habitual,di cui municipio di Tripoli,MF,1
+XI,Europa,Romania,,,habitual,di cui municipio di Tripoli,F,1
+XI,Europa,Spagna,,,all present,Libia,MF,22
+XI,Europa,Spagna,,,all present,Libia,F,13
+XI,Europa,Spagna,,,all present,di cui municipio di Tripoli,MF,21
+XI,Europa,Spagna,,,all present,di cui municipio di Tripoli,F,12
+XI,Europa,Spagna,,,habitual,Libia,MF,21
+XI,Europa,Spagna,,,habitual,Libia,F,12
+XI,Europa,Spagna,,,habitual,di cui municipio di Tripoli,MF,20
+XI,Europa,Spagna,,,habitual,di cui municipio di Tripoli,F,11
+XI,Europa,Svizzera,,,all present,Libia,MF,21
+XI,Europa,Svizzera,,,all present,Libia,F,11
+XI,Europa,Svizzera,,,all present,di cui municipio di Tripoli,MF,15
+XI,Europa,Svizzera,,,all present,di cui municipio di Tripoli,F,8
+XI,Europa,Svizzera,,,habitual,Libia,MF,17
+XI,Europa,Svizzera,,,habitual,Libia,F,7
+XI,Europa,Svizzera,,,habitual,di cui municipio di Tripoli,MF,11
+XI,Europa,Svizzera,,,habitual,di cui municipio di Tripoli,F,4
+XI,Europa,Turchia (parte europea),,,all present,Libia,MF,67
+XI,Europa,Turchia (parte europea),,,all present,Libia,F,36
+XI,Europa,Turchia (parte europea),,,all present,di cui municipio di Tripoli,MF,57
+XI,Europa,Turchia (parte europea),,,all present,di cui municipio di Tripoli,F,32
+XI,Europa,Turchia (parte europea),,,habitual,Libia,MF,66
+XI,Europa,Turchia (parte europea),,,habitual,Libia,F,35
+XI,Europa,Turchia (parte europea),,,habitual,di cui municipio di Tripoli,MF,56
+XI,Europa,Turchia (parte europea),,,habitual,di cui municipio di Tripoli,F,31
+XI,Europa,Ungheria,,,all present,Libia,MF,10
+XI,Europa,Ungheria,,,all present,Libia,F,6
+XI,Europa,Ungheria,,,all present,di cui municipio di Tripoli,MF,10
+XI,Europa,Ungheria,,,all present,di cui municipio di Tripoli,F,6
+XI,Europa,Ungheria,,,habitual,Libia,MF,6
+XI,Europa,Ungheria,,,habitual,Libia,F,4
+XI,Europa,Ungheria,,,habitual,di cui municipio di Tripoli,MF,6
+XI,Europa,Ungheria,,,habitual,di cui municipio di Tripoli,F,4
+XI,Europa,URSS (parte europea),,,all present,Libia,MF,1
+XI,Europa,URSS (parte europea),,,all present,Libia,F,0
+XI,Europa,URSS (parte europea),,,all present,di cui municipio di Tripoli,MF,1
+XI,Europa,URSS (parte europea),,,all present,di cui municipio di Tripoli,F,0
+XI,Europa,URSS (parte europea),,,habitual,Libia,MF,0
+XI,Europa,URSS (parte europea),,,habitual,Libia,F,0
+XI,Europa,URSS (parte europea),,,habitual,di cui municipio di Tripoli,MF,0
+XI,Europa,URSS (parte europea),,,habitual,di cui municipio di Tripoli,F,0
+XI,Europa,Totale,,,all present,Libia,MF,2740
+XI,Europa,Totale,,,all present,Libia,F,1312
+XI,Europa,Totale,,,all present,di cui municipio di Tripoli,MF,2224
+XI,Europa,Totale,,,all present,di cui municipio di Tripoli,F,1086
+XI,Europa,Totale,,,habitual,Libia,MF,2609
+XI,Europa,Totale,,,habitual,Libia,F,1286
+XI,Europa,Totale,,,habitual,di cui municipio di Tripoli,MF,2162
+XI,Europa,Totale,,,habitual,di cui municipio di Tripoli,F,1065
+XI,Asia,India Britannica,,,all present,Libia,MF,5
+XI,Asia,India Britannica,,,all present,Libia,F,0
+XI,Asia,India Britannica,,,all present,di cui municipio di Tripoli,MF,0
+XI,Asia,India Britannica,,,all present,di cui municipio di Tripoli,F,0
+XI,Asia,India Britannica,,,habitual,Libia,MF,4
+XI,Asia,India Britannica,,,habitual,Libia,F,0
+XI,Asia,India Britannica,,,habitual,di cui municipio di Tripoli,MF,0
+XI,Asia,India Britannica,,,habitual,di cui municipio di Tripoli,F,0
+XI,Asia,Turchia (parte asiatica),,,all present,Libia,MF,8
+XI,Asia,Turchia (parte asiatica),,,all present,Libia,F,5
+XI,Asia,Turchia (parte asiatica),,,all present,di cui municipio di Tripoli,MF,8
+XI,Asia,Turchia (parte asiatica),,,all present,di cui municipio di Tripoli,F,5
+XI,Asia,Turchia (parte asiatica),,,habitual,Libia,MF,8
+XI,Asia,Turchia (parte asiatica),,,habitual,Libia,F,5
+XI,Asia,Turchia (parte asiatica),,,habitual,di cui municipio di Tripoli,MF,8
+XI,Asia,Turchia (parte asiatica),,,habitual,di cui municipio di Tripoli,F,5
+XI,Asia,Possedimenti britannici,,,all present,Libia,MF,10
+XI,Asia,Possedimenti britannici,,,all present,Libia,F,0
+XI,Asia,Possedimenti britannici,,,all present,di cui municipio di Tripoli,MF,10
+XI,Asia,Possedimenti britannici,,,all present,di cui municipio di Tripoli,F,0
+XI,Asia,Possedimenti britannici,,,habitual,Libia,MF,10
+XI,Asia,Possedimenti britannici,,,habitual,Libia,F,0
+XI,Asia,Possedimenti britannici,,,habitual,di cui municipio di Tripoli,MF,10
+XI,Asia,Possedimenti britannici,,,habitual,di cui municipio di Tripoli,F,0
+XI,Asia,Possedimenti francesi,,,all present,Libia,MF,10
+XI,Asia,Possedimenti francesi,,,all present,Libia,F,5
+XI,Asia,Possedimenti francesi,,,all present,di cui municipio di Tripoli,MF,10
+XI,Asia,Possedimenti francesi,,,all present,di cui municipio di Tripoli,F,5
+XI,Asia,Possedimenti francesi,,,habitual,Libia,MF,10
+XI,Asia,Possedimenti francesi,,,habitual,Libia,F,5
+XI,Asia,Possedimenti francesi,,,habitual,di cui municipio di Tripoli,MF,10
+XI,Asia,Possedimenti francesi,,,habitual,di cui municipio di Tripoli,F,5
+XI,Asia,Totale,,,all present,Libia,MF,33
+XI,Asia,Totale,,,all present,Libia,F,10
+XI,Asia,Totale,,,all present,di cui municipio di Tripoli,MF,28
+XI,Asia,Totale,,,all present,di cui municipio di Tripoli,F,10
+XI,Asia,Totale,,,habitual,Libia,MF,32
+XI,Asia,Totale,,,habitual,Libia,F,10
+XI,Asia,Totale,,,habitual,di cui municipio di Tripoli,MF,28
+XI,Asia,Totale,,,habitual,di cui municipio di Tripoli,F,10
+XI,Africa,Egitto,,,all present,Libia,MF,8
+XI,Africa,Egitto,,,all present,Libia,F,4
+XI,Africa,Egitto,,,all present,di cui municipio di Tripoli,MF,2
+XI,Africa,Egitto,,,all present,di cui municipio di Tripoli,F,0
+XI,Africa,Egitto,,,habitual,Libia,MF,7
+XI,Africa,Egitto,,,habitual,Libia,F,4
+XI,Africa,Egitto,,,habitual,di cui municipio di Tripoli,MF,2
+XI,Africa,Egitto,,,habitual,di cui municipio di Tripoli,F,0
+XI,Africa,Possedimenti francesi,,,all present,Libia,MF,45
+XI,Africa,Possedimenti francesi,,,all present,Libia,F,26
+XI,Africa,Possedimenti francesi,,,all present,di cui municipio di Tripoli,MF,44
+XI,Africa,Possedimenti francesi,,,all present,di cui municipio di Tripoli,F,25
+XI,Africa,Possedimenti francesi,,,habitual,Libia,MF,45
+XI,Africa,Possedimenti francesi,,,habitual,Libia,F,26
+XI,Africa,Possedimenti francesi,,,habitual,di cui municipio di Tripoli,MF,44
+XI,Africa,Possedimenti francesi,,,habitual,di cui municipio di Tripoli,F,25
+XI,Africa,Totale,,,all present,Libia,MF,53
+XI,Africa,Totale,,,all present,Libia,F,30
+XI,Africa,Totale,,,all present,di cui municipio di Tripoli,MF,46
+XI,Africa,Totale,,,all present,di cui municipio di Tripoli,F,25
+XI,Africa,Totale,,,habitual,Libia,MF,52
+XI,Africa,Totale,,,habitual,Libia,F,30
+XI,Africa,Totale,,,habitual,di cui municipio di Tripoli,MF,46
+XI,Africa,Totale,,,habitual,di cui municipio di Tripoli,F,25
+XI,America,Argentina,,,all present,Libia,MF,2
+XI,America,Argentina,,,all present,Libia,F,2
+XI,America,Argentina,,,all present,di cui municipio di Tripoli,MF,2
+XI,America,Argentina,,,all present,di cui municipio di Tripoli,F,2
+XI,America,Argentina,,,habitual,Libia,MF,2
+XI,America,Argentina,,,habitual,Libia,F,2
+XI,America,Argentina,,,habitual,di cui municipio di Tripoli,MF,2
+XI,America,Argentina,,,habitual,di cui municipio di Tripoli,F,2
+XI,America,Stati Uniti,,,all present,Libia,MF,8
+XI,America,Stati Uniti,,,all present,Libia,F,4
+XI,America,Stati Uniti,,,all present,di cui municipio di Tripoli,MF,6
+XI,America,Stati Uniti,,,all present,di cui municipio di Tripoli,F,4
+XI,America,Stati Uniti,,,habitual,Libia,MF,2
+XI,America,Stati Uniti,,,habitual,Libia,F,1
+XI,America,Stati Uniti,,,habitual,di cui municipio di Tripoli,MF,2
+XI,America,Stati Uniti,,,habitual,di cui municipio di Tripoli,F,1
+XI,America,Totale,,,all present,Libia,MF,10
+XI,America,Totale,,,all present,Libia,F,6
+XI,America,Totale,,,all present,di cui municipio di Tripoli,MF,8
+XI,America,Totale,,,all present,di cui municipio di Tripoli,F,6
+XI,America,Totale,,,habitual,Libia,MF,4
+XI,America,Totale,,,habitual,Libia,F,3
+XI,America,Totale,,,habitual,di cui municipio di Tripoli,MF,4
+XI,America,Totale,,,habitual,di cui municipio di Tripoli,F,3
+XI,Apolidi,Apolidi,,,all present,Libia,MF,107
+XI,Apolidi,Apolidi,,,all present,Libia,F,62
+XI,Apolidi,Apolidi,,,all present,di cui municipio di Tripoli,MF,61
+XI,Apolidi,Apolidi,,,all present,di cui municipio di Tripoli,F,36
+XI,Apolidi,Apolidi,,,habitual,Libia,MF,106
+XI,Apolidi,Apolidi,,,habitual,Libia,F,62
+XI,Apolidi,Apolidi,,,habitual,di cui municipio di Tripoli,MF,61
+XI,Apolidi,Apolidi,,,habitual,di cui municipio di Tripoli,F,36
+XI,Complesso,Complesso,,,all present,Libia,MF,2943
+XI,Complesso,Complesso,,,all present,Libia,F,1420
+XI,Complesso,Complesso,,,all present,di cui municipio di Tripoli,MF,2367
+XI,Complesso,Complesso,,,all present,di cui municipio di Tripoli,F,1163
+XI,Complesso,Complesso,,,habitual,Libia,MF,2803
+XI,Complesso,Complesso,,,habitual,Libia,F,1391
+XI,Complesso,Complesso,,,habitual,di cui municipio di Tripoli,MF,2301
+XI,Complesso,Complesso,,,habitual,di cui municipio di Tripoli,F,1139
+XII,,all,eta,0-14,habitual,Libia,MF,822
+XII,,all,eta,0-14,habitual,Libia,M,418
+XII,,all,eta,0-14,habitual,Libia,F,404
+XII,,all,eta,0-14,habitual,di cui municipio di Tripoli,MF,702
+XII,,all,eta,0-14,habitual,di cui municipio di Tripoli,M,363
+XII,,all,eta,0-14,habitual,di cui municipio di Tripoli,F,339
+XII,,francia,eta,0-14,habitual,Libia,MF,37
+XII,,francia,eta,0-14,habitual,Libia,F,18
+XII,,gran_bretagna,eta,0-14,habitual,Libia,MF,630
+XII,,gran_bretagna,eta,0-14,habitual,Libia,F,301
+XII,,grecia,eta,0-14,habitual,Libia,MF,72
+XII,,grecia,eta,0-14,habitual,Libia,F,32
+XII,,turchia,eta,0-14,habitual,Libia,MF,22
+XII,,turchia,eta,0-14,habitual,Libia,F,14
+XII,,possedimenti_francesi_africa,eta,0-14,habitual,Libia,MF,16
+XII,,possedimenti_francesi_africa,eta,0-14,habitual,Libia,F,9
+XII,,altri,eta,0-14,habitual,Libia,MF,17
+XII,,altri,eta,0-14,habitual,Libia,F,11
+XII,,apolidi,eta,0-14,habitual,Libia,MF,28
+XII,,apolidi,eta,0-14,habitual,Libia,F,19
+XII,,all,eta,15-64,habitual,Libia,MF,1826
+XII,,all,eta,15-64,habitual,Libia,M,931
+XII,,all,eta,15-64,habitual,Libia,F,895
+XII,,all,eta,15-64,habitual,di cui municipio di Tripoli,MF,1470
+XII,,all,eta,15-64,habitual,di cui municipio di Tripoli,M,745
+XII,,all,eta,15-64,habitual,di cui municipio di Tripoli,F,725
+XII,,francia,eta,15-64,habitual,Libia,MF,72
+XII,,francia,eta,15-64,habitual,Libia,F,38
+XII,,gran_bretagna,eta,15-64,habitual,Libia,MF,1219
+XII,,gran_bretagna,eta,15-64,habitual,Libia,F,579
+XII,,grecia,eta,15-64,habitual,Libia,MF,230
+XII,,grecia,eta,15-64,habitual,Libia,F,111
+XII,,turchia,eta,15-64,habitual,Libia,MF,46
+XII,,turchia,eta,15-64,habitual,Libia,F,24
+XII,,possedimenti_francesi_africa,eta,15-64,habitual,Libia,MF,27
+XII,,possedimenti_francesi_africa,eta,15-64,habitual,Libia,F,16
+XII,,altri,eta,15-64,habitual,Libia,MF,164
+XII,,altri,eta,15-64,habitual,Libia,F,90
+XII,,apolidi,eta,15-64,habitual,Libia,MF,68
+XII,,apolidi,eta,15-64,habitual,Libia,F,37
+XII,,all,eta,65+,habitual,Libia,MF,154
+XII,,all,eta,65+,habitual,Libia,M,62
+XII,,all,eta,65+,habitual,Libia,F,92
+XII,,all,eta,65+,habitual,di cui municipio di Tripoli,MF,128
+XII,,all,eta,65+,habitual,di cui municipio di Tripoli,M,53
+XII,,all,eta,65+,habitual,di cui municipio di Tripoli,F,75
+XII,,francia,eta,65+,habitual,Libia,MF,5
+XII,,francia,eta,65+,habitual,Libia,F,3
+XII,,gran_bretagna,eta,65+,habitual,Libia,MF,113
+XII,,gran_bretagna,eta,65+,habitual,Libia,F,71
+XII,,grecia,eta,65+,habitual,Libia,MF,15
+XII,,grecia,eta,65+,habitual,Libia,F,7
+XII,,turchia,eta,65+,habitual,Libia,MF,6
+XII,,turchia,eta,65+,habitual,Libia,F,2
+XII,,possedimenti_francesi_africa,eta,65+,habitual,Libia,MF,2
+XII,,possedimenti_francesi_africa,eta,65+,habitual,Libia,F,1
+XII,,altri,eta,65+,habitual,Libia,MF,3
+XII,,altri,eta,65+,habitual,Libia,F,2
+XII,,apolidi,eta,65+,habitual,Libia,MF,10
+XII,,apolidi,eta,65+,habitual,Libia,F,6
+XII,,all,eta,ignota,habitual,Libia,MF,1
+XII,,all,eta,ignota,habitual,Libia,M,1
+XII,,all,eta,ignota,habitual,Libia,F,0
+XII,,all,eta,ignota,habitual,di cui municipio di Tripoli,MF,1
+XII,,all,eta,ignota,habitual,di cui municipio di Tripoli,M,1
+XII,,all,eta,ignota,habitual,di cui municipio di Tripoli,F,0
+XII,,francia,eta,ignota,habitual,Libia,MF,0
+XII,,francia,eta,ignota,habitual,Libia,F,0
+XII,,gran_bretagna,eta,ignota,habitual,Libia,MF,1
+XII,,gran_bretagna,eta,ignota,habitual,Libia,F,0
+XII,,grecia,eta,ignota,habitual,Libia,MF,0
+XII,,grecia,eta,ignota,habitual,Libia,F,0
+XII,,turchia,eta,ignota,habitual,Libia,MF,0
+XII,,turchia,eta,ignota,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,eta,ignota,habitual,Libia,MF,0
+XII,,possedimenti_francesi_africa,eta,ignota,habitual,Libia,F,0
+XII,,altri,eta,ignota,habitual,Libia,MF,0
+XII,,altri,eta,ignota,habitual,Libia,F,0
+XII,,apolidi,eta,ignota,habitual,Libia,MF,0
+XII,,apolidi,eta,ignota,habitual,Libia,F,0
+XII,,all,stato,celibi,habitual,Libia,MF,1628
+XII,,all,stato,celibi,habitual,Libia,M,872
+XII,,all,stato,celibi,habitual,Libia,F,756
+XII,,all,stato,celibi,habitual,di cui municipio di Tripoli,MF,1326
+XII,,all,stato,celibi,habitual,di cui municipio di Tripoli,M,715
+XII,,all,stato,celibi,habitual,di cui municipio di Tripoli,F,611
+XII,,francia,stato,celibi,habitual,Libia,MF,74
+XII,,francia,stato,celibi,habitual,Libia,F,39
+XII,,gran_bretagna,stato,celibi,habitual,Libia,MF,1138
+XII,,gran_bretagna,stato,celibi,habitual,Libia,F,502
+XII,,grecia,stato,celibi,habitual,Libia,MF,182
+XII,,grecia,stato,celibi,habitual,Libia,F,76
+XII,,turchia,stato,celibi,habitual,Libia,MF,42
+XII,,turchia,stato,celibi,habitual,Libia,F,22
+XII,,possedimenti_francesi_africa,stato,celibi,habitual,Libia,MF,26
+XII,,possedimenti_francesi_africa,stato,celibi,habitual,Libia,F,14
+XII,,altri,stato,celibi,habitual,Libia,MF,107
+XII,,altri,stato,celibi,habitual,Libia,F,68
+XII,,apolidi,stato,celibi,habitual,Libia,MF,59
+XII,,apolidi,stato,celibi,habitual,Libia,F,35
+XII,,all,stato,coniugati,habitual,Libia,MF,968
+XII,,all,stato,coniugati,habitual,Libia,M,497
+XII,,all,stato,coniugati,habitual,Libia,F,471
+XII,,all,stato,coniugati,habitual,di cui municipio di Tripoli,MF,812
+XII,,all,stato,coniugati,habitual,di cui municipio di Tripoli,M,412
+XII,,all,stato,coniugati,habitual,di cui municipio di Tripoli,F,400
+XII,,francia,stato,coniugati,habitual,Libia,MF,36
+XII,,francia,stato,coniugati,habitual,Libia,F,17
+XII,,gran_bretagna,stato,coniugati,habitual,Libia,MF,678
+XII,,gran_bretagna,stato,coniugati,habitual,Libia,F,334
+XII,,grecia,stato,coniugati,habitual,Libia,MF,112
+XII,,grecia,stato,coniugati,habitual,Libia,F,55
+XII,,turchia,stato,coniugati,habitual,Libia,MF,26
+XII,,turchia,stato,coniugati,habitual,Libia,F,13
+XII,,possedimenti_francesi_africa,stato,coniugati,habitual,Libia,MF,15
+XII,,possedimenti_francesi_africa,stato,coniugati,habitual,Libia,F,9
+XII,,altri,stato,coniugati,habitual,Libia,MF,65
+XII,,altri,stato,coniugati,habitual,Libia,F,25
+XII,,apolidi,stato,coniugati,habitual,Libia,MF,36
+XII,,apolidi,stato,coniugati,habitual,Libia,F,18
+XII,,all,stato,vedovi,habitual,Libia,MF,197
+XII,,all,stato,vedovi,habitual,Libia,M,39
+XII,,all,stato,vedovi,habitual,Libia,F,158
+XII,,all,stato,vedovi,habitual,di cui municipio di Tripoli,MF,153
+XII,,all,stato,vedovi,habitual,di cui municipio di Tripoli,M,31
+XII,,all,stato,vedovi,habitual,di cui municipio di Tripoli,F,122
+XII,,francia,stato,vedovi,habitual,Libia,MF,4
+XII,,francia,stato,vedovi,habitual,Libia,F,3
+XII,,gran_bretagna,stato,vedovi,habitual,Libia,MF,143
+XII,,gran_bretagna,stato,vedovi,habitual,Libia,F,113
+XII,,grecia,stato,vedovi,habitual,Libia,MF,22
+XII,,grecia,stato,vedovi,habitual,Libia,F,19
+XII,,turchia,stato,vedovi,habitual,Libia,MF,6
+XII,,turchia,stato,vedovi,habitual,Libia,F,5
+XII,,possedimenti_francesi_africa,stato,vedovi,habitual,Libia,MF,3
+XII,,possedimenti_francesi_africa,stato,vedovi,habitual,Libia,F,2
+XII,,altri,stato,vedovi,habitual,Libia,MF,8
+XII,,altri,stato,vedovi,habitual,Libia,F,7
+XII,,apolidi,stato,vedovi,habitual,Libia,MF,11
+XII,,apolidi,stato,vedovi,habitual,Libia,F,9
+XII,,all,stato,divorziati,habitual,Libia,MF,10
+XII,,all,stato,divorziati,habitual,Libia,M,4
+XII,,all,stato,divorziati,habitual,Libia,F,6
+XII,,all,stato,divorziati,habitual,di cui municipio di Tripoli,MF,10
+XII,,all,stato,divorziati,habitual,di cui municipio di Tripoli,M,4
+XII,,all,stato,divorziati,habitual,di cui municipio di Tripoli,F,6
+XII,,francia,stato,divorziati,habitual,Libia,MF,0
+XII,,francia,stato,divorziati,habitual,Libia,F,0
+XII,,gran_bretagna,stato,divorziati,habitual,Libia,MF,4
+XII,,gran_bretagna,stato,divorziati,habitual,Libia,F,2
+XII,,grecia,stato,divorziati,habitual,Libia,MF,1
+XII,,grecia,stato,divorziati,habitual,Libia,F,0
+XII,,turchia,stato,divorziati,habitual,Libia,MF,0
+XII,,turchia,stato,divorziati,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,stato,divorziati,habitual,Libia,MF,1
+XII,,possedimenti_francesi_africa,stato,divorziati,habitual,Libia,F,1
+XII,,altri,stato,divorziati,habitual,Libia,MF,4
+XII,,altri,stato,divorziati,habitual,Libia,F,3
+XII,,apolidi,stato,divorziati,habitual,Libia,MF,0
+XII,,apolidi,stato,divorziati,habitual,Libia,F,0
+XII,,all,stato,ignoto,habitual,Libia,MF,0
+XII,,all,stato,ignoto,habitual,Libia,M,0
+XII,,all,stato,ignoto,habitual,Libia,F,0
+XII,,all,stato,ignoto,habitual,di cui municipio di Tripoli,MF,0
+XII,,all,stato,ignoto,habitual,di cui municipio di Tripoli,M,0
+XII,,all,stato,ignoto,habitual,di cui municipio di Tripoli,F,0
+XII,,francia,stato,ignoto,habitual,Libia,MF,0
+XII,,francia,stato,ignoto,habitual,Libia,F,0
+XII,,gran_bretagna,stato,ignoto,habitual,Libia,MF,0
+XII,,gran_bretagna,stato,ignoto,habitual,Libia,F,0
+XII,,grecia,stato,ignoto,habitual,Libia,MF,0
+XII,,grecia,stato,ignoto,habitual,Libia,F,0
+XII,,turchia,stato,ignoto,habitual,Libia,MF,0
+XII,,turchia,stato,ignoto,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,stato,ignoto,habitual,Libia,MF,0
+XII,,possedimenti_francesi_africa,stato,ignoto,habitual,Libia,F,0
+XII,,altri,stato,ignoto,habitual,Libia,MF,0
+XII,,altri,stato,ignoto,habitual,Libia,F,0
+XII,,apolidi,stato,ignoto,habitual,Libia,MF,0
+XII,,apolidi,stato,ignoto,habitual,Libia,F,0
+XII,,all,attivita,agricoltura,habitual,Libia,MF,101
+XII,,all,attivita,agricoltura,habitual,Libia,M,100
+XII,,all,attivita,agricoltura,habitual,Libia,F,1
+XII,,all,attivita,agricoltura,habitual,di cui municipio di Tripoli,MF,91
+XII,,all,attivita,agricoltura,habitual,di cui municipio di Tripoli,M,91
+XII,,all,attivita,agricoltura,habitual,di cui municipio di Tripoli,F,0
+XII,,francia,attivita,agricoltura,habitual,Libia,MF,0
+XII,,francia,attivita,agricoltura,habitual,Libia,F,0
+XII,,gran_bretagna,attivita,agricoltura,habitual,Libia,MF,85
+XII,,gran_bretagna,attivita,agricoltura,habitual,Libia,F,1
+XII,,grecia,attivita,agricoltura,habitual,Libia,MF,13
+XII,,grecia,attivita,agricoltura,habitual,Libia,F,0
+XII,,turchia,attivita,agricoltura,habitual,Libia,MF,0
+XII,,turchia,attivita,agricoltura,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,agricoltura,habitual,Libia,MF,0
+XII,,possedimenti_francesi_africa,attivita,agricoltura,habitual,Libia,F,0
+XII,,altri,attivita,agricoltura,habitual,Libia,MF,3
+XII,,altri,attivita,agricoltura,habitual,Libia,F,0
+XII,,apolidi,attivita,agricoltura,habitual,Libia,MF,0
+XII,,apolidi,attivita,agricoltura,habitual,Libia,F,0
+XII,,all,attivita,industria,habitual,Libia,MF,519
+XII,,all,attivita,industria,habitual,Libia,M,462
+XII,,all,attivita,industria,habitual,Libia,F,57
+XII,,all,attivita,industria,habitual,di cui municipio di Tripoli,MF,433
+XII,,all,attivita,industria,habitual,di cui municipio di Tripoli,M,386
+XII,,all,attivita,industria,habitual,di cui municipio di Tripoli,F,47
+XII,,francia,attivita,industria,habitual,Libia,MF,16
+XII,,francia,attivita,industria,habitual,Libia,F,1
+XII,,gran_bretagna,attivita,industria,habitual,Libia,MF,402
+XII,,gran_bretagna,attivita,industria,habitual,Libia,F,37
+XII,,grecia,attivita,industria,habitual,Libia,MF,33
+XII,,grecia,attivita,industria,habitual,Libia,F,6
+XII,,turchia,attivita,industria,habitual,Libia,MF,9
+XII,,turchia,attivita,industria,habitual,Libia,F,2
+XII,,possedimenti_francesi_africa,attivita,industria,habitual,Libia,MF,5
+XII,,possedimenti_francesi_africa,attivita,industria,habitual,Libia,F,0
+XII,,altri,attivita,industria,habitual,Libia,MF,25
+XII,,altri,attivita,industria,habitual,Libia,F,7
+XII,,apolidi,attivita,industria,habitual,Libia,MF,29
+XII,,apolidi,attivita,industria,habitual,Libia,F,4
+XII,,all,attivita,di cui botteghe artigiane,habitual,Libia,MF,143
+XII,,all,attivita,di cui botteghe artigiane,habitual,Libia,M,127
+XII,,all,attivita,di cui botteghe artigiane,habitual,Libia,F,16
+XII,,all,attivita,di cui botteghe artigiane,habitual,di cui municipio di Tripoli,MF,119
+XII,,all,attivita,di cui botteghe artigiane,habitual,di cui municipio di Tripoli,M,108
+XII,,all,attivita,di cui botteghe artigiane,habitual,di cui municipio di Tripoli,F,11
+XII,,francia,attivita,di cui botteghe artigiane,habitual,Libia,MF,3
+XII,,francia,attivita,di cui botteghe artigiane,habitual,Libia,F,0
+XII,,gran_bretagna,attivita,di cui botteghe artigiane,habitual,Libia,MF,109
+XII,,gran_bretagna,attivita,di cui botteghe artigiane,habitual,Libia,F,8
+XII,,grecia,attivita,di cui botteghe artigiane,habitual,Libia,MF,8
+XII,,grecia,attivita,di cui botteghe artigiane,habitual,Libia,F,2
+XII,,turchia,attivita,di cui botteghe artigiane,habitual,Libia,MF,5
+XII,,turchia,attivita,di cui botteghe artigiane,habitual,Libia,F,1
+XII,,possedimenti_francesi_africa,attivita,di cui botteghe artigiane,habitual,Libia,MF,1
+XII,,possedimenti_francesi_africa,attivita,di cui botteghe artigiane,habitual,Libia,F,0
+XII,,altri,attivita,di cui botteghe artigiane,habitual,Libia,MF,4
+XII,,altri,attivita,di cui botteghe artigiane,habitual,Libia,F,3
+XII,,apolidi,attivita,di cui botteghe artigiane,habitual,Libia,MF,13
+XII,,apolidi,attivita,di cui botteghe artigiane,habitual,Libia,F,2
+XII,,all,attivita,trasporti,habitual,Libia,MF,74
+XII,,all,attivita,trasporti,habitual,Libia,M,74
+XII,,all,attivita,trasporti,habitual,Libia,F,0
+XII,,all,attivita,trasporti,habitual,di cui municipio di Tripoli,MF,57
+XII,,all,attivita,trasporti,habitual,di cui municipio di Tripoli,M,57
+XII,,all,attivita,trasporti,habitual,di cui municipio di Tripoli,F,0
+XII,,francia,attivita,trasporti,habitual,Libia,MF,3
+XII,,francia,attivita,trasporti,habitual,Libia,F,0
+XII,,gran_bretagna,attivita,trasporti,habitual,Libia,MF,56
+XII,,gran_bretagna,attivita,trasporti,habitual,Libia,F,0
+XII,,grecia,attivita,trasporti,habitual,Libia,MF,12
+XII,,grecia,attivita,trasporti,habitual,Libia,F,0
+XII,,turchia,attivita,trasporti,habitual,Libia,MF,0
+XII,,turchia,attivita,trasporti,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,trasporti,habitual,Libia,MF,1
+XII,,possedimenti_francesi_africa,attivita,trasporti,habitual,Libia,F,0
+XII,,altri,attivita,trasporti,habitual,Libia,MF,2
+XII,,altri,attivita,trasporti,habitual,Libia,F,0
+XII,,apolidi,attivita,trasporti,habitual,Libia,MF,0
+XII,,apolidi,attivita,trasporti,habitual,Libia,F,0
+XII,,all,attivita,commercio,habitual,Libia,MF,307
+XII,,all,attivita,commercio,habitual,Libia,M,273
+XII,,all,attivita,commercio,habitual,Libia,F,34
+XII,,all,attivita,commercio,habitual,di cui municipio di Tripoli,MF,217
+XII,,all,attivita,commercio,habitual,di cui municipio di Tripoli,M,197
+XII,,all,attivita,commercio,habitual,di cui municipio di Tripoli,F,20
+XII,,francia,attivita,commercio,habitual,Libia,MF,20
+XII,,francia,attivita,commercio,habitual,Libia,F,7
+XII,,gran_bretagna,attivita,commercio,habitual,Libia,MF,152
+XII,,gran_bretagna,attivita,commercio,habitual,Libia,F,7
+XII,,grecia,attivita,commercio,habitual,Libia,MF,61
+XII,,grecia,attivita,commercio,habitual,Libia,F,4
+XII,,turchia,attivita,commercio,habitual,Libia,MF,13
+XII,,turchia,attivita,commercio,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,commercio,habitual,Libia,MF,4
+XII,,possedimenti_francesi_africa,attivita,commercio,habitual,Libia,F,0
+XII,,altri,attivita,commercio,habitual,Libia,MF,47
+XII,,altri,attivita,commercio,habitual,Libia,F,15
+XII,,apolidi,attivita,commercio,habitual,Libia,MF,10
+XII,,apolidi,attivita,commercio,habitual,Libia,F,1
+XII,,all,attivita,credito,habitual,Libia,MF,9
+XII,,all,attivita,credito,habitual,Libia,M,8
+XII,,all,attivita,credito,habitual,Libia,F,1
+XII,,all,attivita,credito,habitual,di cui municipio di Tripoli,MF,8
+XII,,all,attivita,credito,habitual,di cui municipio di Tripoli,M,7
+XII,,all,attivita,credito,habitual,di cui municipio di Tripoli,F,1
+XII,,francia,attivita,credito,habitual,Libia,MF,0
+XII,,francia,attivita,credito,habitual,Libia,F,0
+XII,,gran_bretagna,attivita,credito,habitual,Libia,MF,5
+XII,,gran_bretagna,attivita,credito,habitual,Libia,F,0
+XII,,grecia,attivita,credito,habitual,Libia,MF,3
+XII,,grecia,attivita,credito,habitual,Libia,F,1
+XII,,turchia,attivita,credito,habitual,Libia,MF,0
+XII,,turchia,attivita,credito,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,credito,habitual,Libia,MF,1
+XII,,possedimenti_francesi_africa,attivita,credito,habitual,Libia,F,0
+XII,,altri,attivita,credito,habitual,Libia,MF,0
+XII,,altri,attivita,credito,habitual,Libia,F,0
+XII,,apolidi,attivita,credito,habitual,Libia,MF,0
+XII,,apolidi,attivita,credito,habitual,Libia,F,0
+XII,,all,attivita,liberi professionisti e culto,habitual,Libia,MF,24
+XII,,all,attivita,liberi professionisti e culto,habitual,Libia,M,18
+XII,,all,attivita,liberi professionisti e culto,habitual,Libia,F,6
+XII,,all,attivita,liberi professionisti e culto,habitual,di cui municipio di Tripoli,MF,19
+XII,,all,attivita,liberi professionisti e culto,habitual,di cui municipio di Tripoli,M,14
+XII,,all,attivita,liberi professionisti e culto,habitual,di cui municipio di Tripoli,F,5
+XII,,francia,attivita,liberi professionisti e culto,habitual,Libia,MF,1
+XII,,francia,attivita,liberi professionisti e culto,habitual,Libia,F,1
+XII,,gran_bretagna,attivita,liberi professionisti e culto,habitual,Libia,MF,9
+XII,,gran_bretagna,attivita,liberi professionisti e culto,habitual,Libia,F,2
+XII,,grecia,attivita,liberi professionisti e culto,habitual,Libia,MF,2
+XII,,grecia,attivita,liberi professionisti e culto,habitual,Libia,F,0
+XII,,turchia,attivita,liberi professionisti e culto,habitual,Libia,MF,1
+XII,,turchia,attivita,liberi professionisti e culto,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,liberi professionisti e culto,habitual,Libia,MF,0
+XII,,possedimenti_francesi_africa,attivita,liberi professionisti e culto,habitual,Libia,F,0
+XII,,altri,attivita,liberi professionisti e culto,habitual,Libia,MF,10
+XII,,altri,attivita,liberi professionisti e culto,habitual,Libia,F,2
+XII,,apolidi,attivita,liberi professionisti e culto,habitual,Libia,MF,1
+XII,,apolidi,attivita,liberi professionisti e culto,habitual,Libia,F,1
+XII,,all,attivita,amministrazione pubblica,habitual,Libia,MF,23
+XII,,all,attivita,amministrazione pubblica,habitual,Libia,M,15
+XII,,all,attivita,amministrazione pubblica,habitual,Libia,F,8
+XII,,all,attivita,amministrazione pubblica,habitual,di cui municipio di Tripoli,MF,21
+XII,,all,attivita,amministrazione pubblica,habitual,di cui municipio di Tripoli,M,13
+XII,,all,attivita,amministrazione pubblica,habitual,di cui municipio di Tripoli,F,8
+XII,,francia,attivita,amministrazione pubblica,habitual,Libia,MF,3
+XII,,francia,attivita,amministrazione pubblica,habitual,Libia,F,0
+XII,,gran_bretagna,attivita,amministrazione pubblica,habitual,Libia,MF,9
+XII,,gran_bretagna,attivita,amministrazione pubblica,habitual,Libia,F,4
+XII,,grecia,attivita,amministrazione pubblica,habitual,Libia,MF,4
+XII,,grecia,attivita,amministrazione pubblica,habitual,Libia,F,1
+XII,,turchia,attivita,amministrazione pubblica,habitual,Libia,MF,0
+XII,,turchia,attivita,amministrazione pubblica,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,amministrazione pubblica,habitual,Libia,MF,0
+XII,,possedimenti_francesi_africa,attivita,amministrazione pubblica,habitual,Libia,F,0
+XII,,altri,attivita,amministrazione pubblica,habitual,Libia,MF,7
+XII,,altri,attivita,amministrazione pubblica,habitual,Libia,F,3
+XII,,apolidi,attivita,amministrazione pubblica,habitual,Libia,MF,0
+XII,,apolidi,attivita,amministrazione pubblica,habitual,Libia,F,0
+XII,,all,attivita,amministrazione privata,habitual,Libia,MF,6
+XII,,all,attivita,amministrazione privata,habitual,Libia,M,4
+XII,,all,attivita,amministrazione privata,habitual,Libia,F,2
+XII,,all,attivita,amministrazione privata,habitual,di cui municipio di Tripoli,MF,6
+XII,,all,attivita,amministrazione privata,habitual,di cui municipio di Tripoli,M,4
+XII,,all,attivita,amministrazione privata,habitual,di cui municipio di Tripoli,F,2
+XII,,francia,attivita,amministrazione privata,habitual,Libia,MF,0
+XII,,francia,attivita,amministrazione privata,habitual,Libia,F,0
+XII,,gran_bretagna,attivita,amministrazione privata,habitual,Libia,MF,4
+XII,,gran_bretagna,attivita,amministrazione privata,habitual,Libia,F,1
+XII,,grecia,attivita,amministrazione privata,habitual,Libia,MF,1
+XII,,grecia,attivita,amministrazione privata,habitual,Libia,F,0
+XII,,turchia,attivita,amministrazione privata,habitual,Libia,MF,0
+XII,,turchia,attivita,amministrazione privata,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,amministrazione privata,habitual,Libia,MF,0
+XII,,possedimenti_francesi_africa,attivita,amministrazione privata,habitual,Libia,F,0
+XII,,altri,attivita,amministrazione privata,habitual,Libia,MF,1
+XII,,altri,attivita,amministrazione privata,habitual,Libia,F,1
+XII,,apolidi,attivita,amministrazione privata,habitual,Libia,MF,0
+XII,,apolidi,attivita,amministrazione privata,habitual,Libia,F,0
+XII,,all,attivita,economia domestica,habitual,Libia,MF,48
+XII,,all,attivita,economia domestica,habitual,Libia,M,3
+XII,,all,attivita,economia domestica,habitual,Libia,F,45
+XII,,all,attivita,economia domestica,habitual,di cui municipio di Tripoli,MF,40
+XII,,all,attivita,economia domestica,habitual,di cui municipio di Tripoli,M,3
+XII,,all,attivita,economia domestica,habitual,di cui municipio di Tripoli,F,37
+XII,,francia,attivita,economia domestica,habitual,Libia,MF,1
+XII,,francia,attivita,economia domestica,habitual,Libia,F,1
+XII,,gran_bretagna,attivita,economia domestica,habitual,Libia,MF,32
+XII,,gran_bretagna,attivita,economia domestica,habitual,Libia,F,32
+XII,,grecia,attivita,economia domestica,habitual,Libia,MF,1
+XII,,grecia,attivita,economia domestica,habitual,Libia,F,1
+XII,,turchia,attivita,economia domestica,habitual,Libia,MF,0
+XII,,turchia,attivita,economia domestica,habitual,Libia,F,0
+XII,,possedimenti_francesi_africa,attivita,economia domestica,habitual,Libia,MF,0
+XII,,possedimenti_francesi_africa,attivita,economia domestica,habitual,Libia,F,0
+XII,,altri,attivita,economia domestica,habitual,Libia,MF,13
+XII,,altri,attivita,economia domestica,habitual,Libia,F,11
+XII,,apolidi,attivita,economia domestica,habitual,Libia,MF,1
+XII,,apolidi,attivita,economia domestica,habitual,Libia,F,0
+XII,,all,attivita,condizioni non professionali,habitual,Libia,MF,1692
+XII,,all,attivita,condizioni non professionali,habitual,Libia,M,455
+XII,,all,attivita,condizioni non professionali,habitual,Libia,F,1237
+XII,,all,attivita,condizioni non professionali,habitual,di cui municipio di Tripoli,MF,1409
+XII,,all,attivita,condizioni non professionali,habitual,di cui municipio di Tripoli,M,390
+XII,,all,attivita,condizioni non professionali,habitual,di cui municipio di Tripoli,F,1019
+XII,,francia,attivita,condizioni non professionali,habitual,Libia,MF,70
+XII,,francia,attivita,condizioni non professionali,habitual,Libia,F,49
+XII,,gran_bretagna,attivita,condizioni non professionali,habitual,Libia,MF,1209
+XII,,gran_bretagna,attivita,condizioni non professionali,habitual,Libia,F,867
+XII,,grecia,attivita,condizioni non professionali,habitual,Libia,MF,187
+XII,,grecia,attivita,condizioni non professionali,habitual,Libia,F,137
+XII,,turchia,attivita,condizioni non professionali,habitual,Libia,MF,51
+XII,,turchia,attivita,condizioni non professionali,habitual,Libia,F,38
+XII,,possedimenti_francesi_africa,attivita,condizioni non professionali,habitual,Libia,MF,34
+XII,,possedimenti_francesi_africa,attivita,condizioni non professionali,habitual,Libia,F,26
+XII,,altri,attivita,condizioni non professionali,habitual,Libia,MF,76
+XII,,altri,attivita,condizioni non professionali,habitual,Libia,F,64
+XII,,apolidi,attivita,condizioni non professionali,habitual,Libia,MF,65
+XII,,apolidi,attivita,condizioni non professionali,habitual,Libia,F,56
+XII,,all,totale,complesso,habitual,Libia,MF,2803
+XII,,all,totale,complesso,habitual,Libia,M,1412
+XII,,all,totale,complesso,habitual,Libia,F,1391
+XII,,all,totale,complesso,habitual,di cui municipio di Tripoli,MF,2301
+XII,,all,totale,complesso,habitual,di cui municipio di Tripoli,M,1162
+XII,,all,totale,complesso,habitual,di cui municipio di Tripoli,F,1139
+XII,,francia,totale,complesso,habitual,Libia,MF,114
+XII,,francia,totale,complesso,habitual,Libia,F,59
+XII,,gran_bretagna,totale,complesso,habitual,Libia,MF,1963
+XII,,gran_bretagna,totale,complesso,habitual,Libia,F,951
+XII,,grecia,totale,complesso,habitual,Libia,MF,317
+XII,,grecia,totale,complesso,habitual,Libia,F,150
+XII,,turchia,totale,complesso,habitual,Libia,MF,74
+XII,,turchia,totale,complesso,habitual,Libia,F,40
+XII,,possedimenti_francesi_africa,totale,complesso,habitual,Libia,MF,45
+XII,,possedimenti_francesi_africa,totale,complesso,habitual,Libia,F,26
+XII,,altri,totale,complesso,habitual,Libia,MF,184
+XII,,altri,totale,complesso,habitual,Libia,F,103
+XII,,apolidi,totale,complesso,habitual,Libia,MF,106
+XII,,apolidi,totale,complesso,habitual,Libia,F,62

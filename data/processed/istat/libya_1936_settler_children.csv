@@ -1,0 +1,1681 @@
+measure,condition_of_head,children_age,number_of_children,value
+families,padroni,under 6,1,385
+families,padroni,under 6,2,225
+families,padroni,under 6,3,88
+families,padroni,under 6,4,5
+families,padroni,under 6,5,0
+families,padroni,under 6,6,0
+families,padroni,under 6,7,0
+families,padroni,under 6,8,0
+families,padroni,under 6,9+,0
+families,padroni,under 6,total,703
+families,padroni,under 15,1,363
+families,padroni,under 15,2,324
+families,padroni,under 15,3,235
+families,padroni,under 15,4,126
+families,padroni,under 15,5,62
+families,padroni,under 15,6,38
+families,padroni,under 15,7,9
+families,padroni,under 15,8,3
+families,padroni,under 15,9+,0
+families,padroni,under 15,total,1160
+families,padroni,under 21,1,352
+families,padroni,under 21,2,360
+families,padroni,under 21,3,260
+families,padroni,under 21,4,163
+families,padroni,under 21,5,103
+families,padroni,under 21,6,48
+families,padroni,under 21,7,26
+families,padroni,under 21,8,17
+families,padroni,under 21,9+,3
+families,padroni,under 21,total,1332
+families,padroni,any age,1,352
+families,padroni,any age,2,402
+families,padroni,any age,3,300
+families,padroni,any age,4,195
+families,padroni,any age,5,116
+families,padroni,any age,6,76
+families,padroni,any age,7,35
+families,padroni,any age,8,19
+families,padroni,any age,9+,13
+families,padroni,any age,total,1508
+families,piccoli padroni,under 6,1,25
+families,piccoli padroni,under 6,2,28
+families,piccoli padroni,under 6,3,8
+families,piccoli padroni,under 6,4,0
+families,piccoli padroni,under 6,5,0
+families,piccoli padroni,under 6,6,0
+families,piccoli padroni,under 6,7,0
+families,piccoli padroni,under 6,8,0
+families,piccoli padroni,under 6,9+,0
+families,piccoli padroni,under 6,total,61
+families,piccoli padroni,under 15,1,25
+families,piccoli padroni,under 15,2,18
+families,piccoli padroni,under 15,3,23
+families,piccoli padroni,under 15,4,8
+families,piccoli padroni,under 15,5,10
+families,piccoli padroni,under 15,6,2
+families,piccoli padroni,under 15,7,0
+families,piccoli padroni,under 15,8,1
+families,piccoli padroni,under 15,9+,0
+families,piccoli padroni,under 15,total,87
+families,piccoli padroni,under 21,1,18
+families,piccoli padroni,under 21,2,25
+families,piccoli padroni,under 21,3,24
+families,piccoli padroni,under 21,4,12
+families,piccoli padroni,under 21,5,12
+families,piccoli padroni,under 21,6,2
+families,piccoli padroni,under 21,7,1
+families,piccoli padroni,under 21,8,2
+families,piccoli padroni,under 21,9+,1
+families,piccoli padroni,under 21,total,97
+families,piccoli padroni,any age,1,21
+families,piccoli padroni,any age,2,20
+families,piccoli padroni,any age,3,28
+families,piccoli padroni,any age,4,13
+families,piccoli padroni,any age,5,12
+families,piccoli padroni,any age,6,5
+families,piccoli padroni,any age,7,3
+families,piccoli padroni,any age,8,3
+families,piccoli padroni,any age,9+,1
+families,piccoli padroni,any age,total,106
+families,padroni agricoltura,under 6,1,21
+families,padroni agricoltura,under 6,2,5
+families,padroni agricoltura,under 6,3,5
+families,padroni agricoltura,under 6,4,0
+families,padroni agricoltura,under 6,5,0
+families,padroni agricoltura,under 6,6,0
+families,padroni agricoltura,under 6,7,0
+families,padroni agricoltura,under 6,8,0
+families,padroni agricoltura,under 6,9+,0
+families,padroni agricoltura,under 6,total,31
+families,padroni agricoltura,under 15,1,19
+families,padroni agricoltura,under 15,2,16
+families,padroni agricoltura,under 15,3,16
+families,padroni agricoltura,under 15,4,7
+families,padroni agricoltura,under 15,5,1
+families,padroni agricoltura,under 15,6,2
+families,padroni agricoltura,under 15,7,0
+families,padroni agricoltura,under 15,8,0
+families,padroni agricoltura,under 15,9+,0
+families,padroni agricoltura,under 15,total,61
+families,padroni agricoltura,under 21,1,25
+families,padroni agricoltura,under 21,2,18
+families,padroni agricoltura,under 21,3,19
+families,padroni agricoltura,under 21,4,5
+families,padroni agricoltura,under 21,5,5
+families,padroni agricoltura,under 21,6,2
+families,padroni agricoltura,under 21,7,1
+families,padroni agricoltura,under 21,8,1
+families,padroni agricoltura,under 21,9+,0
+families,padroni agricoltura,under 21,total,76
+families,padroni agricoltura,any age,1,21
+families,padroni agricoltura,any age,2,31
+families,padroni agricoltura,any age,3,23
+families,padroni agricoltura,any age,4,11
+families,padroni agricoltura,any age,5,5
+families,padroni agricoltura,any age,6,4
+families,padroni agricoltura,any age,7,0
+families,padroni agricoltura,any age,8,1
+families,padroni agricoltura,any age,9+,1
+families,padroni agricoltura,any age,total,97
+families,artigiani,under 6,1,458
+families,artigiani,under 6,2,318
+families,artigiani,under 6,3,102
+families,artigiani,under 6,4,14
+families,artigiani,under 6,5,0
+families,artigiani,under 6,6,0
+families,artigiani,under 6,7,0
+families,artigiani,under 6,8,0
+families,artigiani,under 6,9+,0
+families,artigiani,under 6,total,892
+families,artigiani,under 15,1,326
+families,artigiani,under 15,2,360
+families,artigiani,under 15,3,321
+families,artigiani,under 15,4,195
+families,artigiani,under 15,5,109
+families,artigiani,under 15,6,61
+families,artigiani,under 15,7,20
+families,artigiani,under 15,8,7
+families,artigiani,under 15,9+,1
+families,artigiani,under 15,total,1400
+families,artigiani,under 21,1,285
+families,artigiani,under 21,2,353
+families,artigiani,under 21,3,320
+families,artigiani,under 21,4,247
+families,artigiani,under 21,5,162
+families,artigiani,under 21,6,90
+families,artigiani,under 21,7,58
+families,artigiani,under 21,8,28
+families,artigiani,under 21,9+,10
+families,artigiani,under 21,total,1553
+families,artigiani,any age,1,265
+families,artigiani,any age,2,324
+families,artigiani,any age,3,326
+families,artigiani,any age,4,256
+families,artigiani,any age,5,204
+families,artigiani,any age,6,120
+families,artigiani,any age,7,75
+families,artigiani,any age,8,45
+families,artigiani,any age,9+,24
+families,artigiani,any age,total,1639
+families,coloni parziari,under 6,1,151
+families,coloni parziari,under 6,2,119
+families,coloni parziari,under 6,3,30
+families,coloni parziari,under 6,4,6
+families,coloni parziari,under 6,5,0
+families,coloni parziari,under 6,6,0
+families,coloni parziari,under 6,7,0
+families,coloni parziari,under 6,8,0
+families,coloni parziari,under 6,9+,0
+families,coloni parziari,under 6,total,306
+families,coloni parziari,under 15,1,105
+families,coloni parziari,under 15,2,122
+families,coloni parziari,under 15,3,109
+families,coloni parziari,under 15,4,78
+families,coloni parziari,under 15,5,50
+families,coloni parziari,under 15,6,22
+families,coloni parziari,under 15,7,9
+families,coloni parziari,under 15,8,4
+families,coloni parziari,under 15,9+,1
+families,coloni parziari,under 15,total,500
+families,coloni parziari,under 21,1,76
+families,coloni parziari,under 21,2,103
+families,coloni parziari,under 21,3,110
+families,coloni parziari,under 21,4,101
+families,coloni parziari,under 21,5,64
+families,coloni parziari,under 21,6,47
+families,coloni parziari,under 21,7,31
+families,coloni parziari,under 21,8,9
+families,coloni parziari,under 21,9+,7
+families,coloni parziari,under 21,total,548
+families,coloni parziari,any age,1,54
+families,coloni parziari,any age,2,88
+families,coloni parziari,any age,3,102
+families,coloni parziari,any age,4,91
+families,coloni parziari,any age,5,92
+families,coloni parziari,any age,6,58
+families,coloni parziari,any age,7,41
+families,coloni parziari,any age,8,20
+families,coloni parziari,any age,9+,15
+families,coloni parziari,any age,total,561
+families,artigiani agricoltura altri,under 6,1,166
+families,artigiani agricoltura altri,under 6,2,106
+families,artigiani agricoltura altri,under 6,3,47
+families,artigiani agricoltura altri,under 6,4,6
+families,artigiani agricoltura altri,under 6,5,0
+families,artigiani agricoltura altri,under 6,6,0
+families,artigiani agricoltura altri,under 6,7,0
+families,artigiani agricoltura altri,under 6,8,0
+families,artigiani agricoltura altri,under 6,9+,0
+families,artigiani agricoltura altri,under 6,total,325
+families,artigiani agricoltura altri,under 15,1,101
+families,artigiani agricoltura altri,under 15,2,105
+families,artigiani agricoltura altri,under 15,3,130
+families,artigiani agricoltura altri,under 15,4,76
+families,artigiani agricoltura altri,under 15,5,40
+families,artigiani agricoltura altri,under 15,6,32
+families,artigiani agricoltura altri,under 15,7,8
+families,artigiani agricoltura altri,under 15,8,1
+families,artigiani agricoltura altri,under 15,9+,0
+families,artigiani agricoltura altri,under 15,total,493
+families,artigiani agricoltura altri,under 21,1,101
+families,artigiani agricoltura altri,under 21,2,99
+families,artigiani agricoltura altri,under 21,3,122
+families,artigiani agricoltura altri,under 21,4,97
+families,artigiani agricoltura altri,under 21,5,60
+families,artigiani agricoltura altri,under 21,6,33
+families,artigiani agricoltura altri,under 21,7,23
+families,artigiani agricoltura altri,under 21,8,14
+families,artigiani agricoltura altri,under 21,9+,2
+families,artigiani agricoltura altri,under 21,total,551
+families,artigiani agricoltura altri,any age,1,92
+families,artigiani agricoltura altri,any age,2,90
+families,artigiani agricoltura altri,any age,3,136
+families,artigiani agricoltura altri,any age,4,96
+families,artigiani agricoltura altri,any age,5,72
+families,artigiani agricoltura altri,any age,6,49
+families,artigiani agricoltura altri,any age,7,25
+families,artigiani agricoltura altri,any age,8,16
+families,artigiani agricoltura altri,any age,9+,7
+families,artigiani agricoltura altri,any age,total,583
+families,liberi professionisti,under 6,1,17
+families,liberi professionisti,under 6,2,4
+families,liberi professionisti,under 6,3,0
+families,liberi professionisti,under 6,4,1
+families,liberi professionisti,under 6,5,0
+families,liberi professionisti,under 6,6,0
+families,liberi professionisti,under 6,7,0
+families,liberi professionisti,under 6,8,0
+families,liberi professionisti,under 6,9+,0
+families,liberi professionisti,under 6,total,22
+families,liberi professionisti,under 15,1,24
+families,liberi professionisti,under 15,2,12
+families,liberi professionisti,under 15,3,7
+families,liberi professionisti,under 15,4,2
+families,liberi professionisti,under 15,5,1
+families,liberi professionisti,under 15,6,0
+families,liberi professionisti,under 15,7,0
+families,liberi professionisti,under 15,8,0
+families,liberi professionisti,under 15,9+,0
+families,liberi professionisti,under 15,total,46
+families,liberi professionisti,under 21,1,26
+families,liberi professionisti,under 21,2,10
+families,liberi professionisti,under 21,3,10
+families,liberi professionisti,under 21,4,5
+families,liberi professionisti,under 21,5,3
+families,liberi professionisti,under 21,6,1
+families,liberi professionisti,under 21,7,0
+families,liberi professionisti,under 21,8,0
+families,liberi professionisti,under 21,9+,0
+families,liberi professionisti,under 21,total,55
+families,liberi professionisti,any age,1,34
+families,liberi professionisti,any age,2,12
+families,liberi professionisti,any age,3,9
+families,liberi professionisti,any age,4,6
+families,liberi professionisti,any age,5,1
+families,liberi professionisti,any age,6,1
+families,liberi professionisti,any age,7,1
+families,liberi professionisti,any age,8,2
+families,liberi professionisti,any age,9+,0
+families,liberi professionisti,any age,total,66
+families,dirigenti,under 6,1,43
+families,dirigenti,under 6,2,16
+families,dirigenti,under 6,3,0
+families,dirigenti,under 6,4,0
+families,dirigenti,under 6,5,0
+families,dirigenti,under 6,6,0
+families,dirigenti,under 6,7,0
+families,dirigenti,under 6,8,0
+families,dirigenti,under 6,9+,0
+families,dirigenti,under 6,total,59
+families,dirigenti,under 15,1,42
+families,dirigenti,under 15,2,35
+families,dirigenti,under 15,3,15
+families,dirigenti,under 15,4,7
+families,dirigenti,under 15,5,1
+families,dirigenti,under 15,6,0
+families,dirigenti,under 15,7,0
+families,dirigenti,under 15,8,0
+families,dirigenti,under 15,9+,0
+families,dirigenti,under 15,total,100
+families,dirigenti,under 21,1,41
+families,dirigenti,under 21,2,42
+families,dirigenti,under 21,3,22
+families,dirigenti,under 21,4,12
+families,dirigenti,under 21,5,1
+families,dirigenti,under 21,6,0
+families,dirigenti,under 21,7,0
+families,dirigenti,under 21,8,0
+families,dirigenti,under 21,9+,0
+families,dirigenti,under 21,total,118
+families,dirigenti,any age,1,37
+families,dirigenti,any age,2,43
+families,dirigenti,any age,3,30
+families,dirigenti,any age,4,10
+families,dirigenti,any age,5,2
+families,dirigenti,any age,6,2
+families,dirigenti,any age,7,0
+families,dirigenti,any age,8,0
+families,dirigenti,any age,9+,0
+families,dirigenti,any age,total,124
+families,dirigenti agricoltura,under 6,1,14
+families,dirigenti agricoltura,under 6,2,1
+families,dirigenti agricoltura,under 6,3,0
+families,dirigenti agricoltura,under 6,4,0
+families,dirigenti agricoltura,under 6,5,0
+families,dirigenti agricoltura,under 6,6,0
+families,dirigenti agricoltura,under 6,7,0
+families,dirigenti agricoltura,under 6,8,0
+families,dirigenti agricoltura,under 6,9+,0
+families,dirigenti agricoltura,under 6,total,15
+families,dirigenti agricoltura,under 15,1,14
+families,dirigenti agricoltura,under 15,2,7
+families,dirigenti agricoltura,under 15,3,2
+families,dirigenti agricoltura,under 15,4,0
+families,dirigenti agricoltura,under 15,5,1
+families,dirigenti agricoltura,under 15,6,0
+families,dirigenti agricoltura,under 15,7,0
+families,dirigenti agricoltura,under 15,8,0
+families,dirigenti agricoltura,under 15,9+,0
+families,dirigenti agricoltura,under 15,total,24
+families,dirigenti agricoltura,under 21,1,15
+families,dirigenti agricoltura,under 21,2,6
+families,dirigenti agricoltura,under 21,3,3
+families,dirigenti agricoltura,under 21,4,1
+families,dirigenti agricoltura,under 21,5,1
+families,dirigenti agricoltura,under 21,6,0
+families,dirigenti agricoltura,under 21,7,0
+families,dirigenti agricoltura,under 21,8,0
+families,dirigenti agricoltura,under 21,9+,0
+families,dirigenti agricoltura,under 21,total,26
+families,dirigenti agricoltura,any age,1,14
+families,dirigenti agricoltura,any age,2,7
+families,dirigenti agricoltura,any age,3,3
+families,dirigenti agricoltura,any age,4,0
+families,dirigenti agricoltura,any age,5,1
+families,dirigenti agricoltura,any age,6,1
+families,dirigenti agricoltura,any age,7,0
+families,dirigenti agricoltura,any age,8,0
+families,dirigenti agricoltura,any age,9+,0
+families,dirigenti agricoltura,any age,total,26
+families,dirigenti forze armate,under 6,1,1
+families,dirigenti forze armate,under 6,2,2
+families,dirigenti forze armate,under 6,3,0
+families,dirigenti forze armate,under 6,4,0
+families,dirigenti forze armate,under 6,5,0
+families,dirigenti forze armate,under 6,6,0
+families,dirigenti forze armate,under 6,7,0
+families,dirigenti forze armate,under 6,8,0
+families,dirigenti forze armate,under 6,9+,0
+families,dirigenti forze armate,under 6,total,3
+families,dirigenti forze armate,under 15,1,3
+families,dirigenti forze armate,under 15,2,1
+families,dirigenti forze armate,under 15,3,1
+families,dirigenti forze armate,under 15,4,0
+families,dirigenti forze armate,under 15,5,0
+families,dirigenti forze armate,under 15,6,0
+families,dirigenti forze armate,under 15,7,0
+families,dirigenti forze armate,under 15,8,0
+families,dirigenti forze armate,under 15,9+,0
+families,dirigenti forze armate,under 15,total,5
+families,dirigenti forze armate,under 21,1,3
+families,dirigenti forze armate,under 21,2,3
+families,dirigenti forze armate,under 21,3,1
+families,dirigenti forze armate,under 21,4,1
+families,dirigenti forze armate,under 21,5,0
+families,dirigenti forze armate,under 21,6,0
+families,dirigenti forze armate,under 21,7,0
+families,dirigenti forze armate,under 21,8,0
+families,dirigenti forze armate,under 21,9+,0
+families,dirigenti forze armate,under 21,total,8
+families,dirigenti forze armate,any age,1,3
+families,dirigenti forze armate,any age,2,4
+families,dirigenti forze armate,any age,3,1
+families,dirigenti forze armate,any age,4,1
+families,dirigenti forze armate,any age,5,0
+families,dirigenti forze armate,any age,6,0
+families,dirigenti forze armate,any age,7,0
+families,dirigenti forze armate,any age,8,0
+families,dirigenti forze armate,any age,9+,0
+families,dirigenti forze armate,any age,total,9
+families,impiegati,under 6,1,968
+families,impiegati,under 6,2,369
+families,impiegati,under 6,3,87
+families,impiegati,under 6,4,13
+families,impiegati,under 6,5,0
+families,impiegati,under 6,6,0
+families,impiegati,under 6,7,0
+families,impiegati,under 6,8,0
+families,impiegati,under 6,9+,0
+families,impiegati,under 6,total,1437
+families,impiegati,under 15,1,921
+families,impiegati,under 15,2,662
+families,impiegati,under 15,3,335
+families,impiegati,under 15,4,131
+families,impiegati,under 15,5,56
+families,impiegati,under 15,6,17
+families,impiegati,under 15,7,7
+families,impiegati,under 15,8,1
+families,impiegati,under 15,9+,0
+families,impiegati,under 15,total,2130
+families,impiegati,under 21,1,928
+families,impiegati,under 21,2,687
+families,impiegati,under 21,3,386
+families,impiegati,under 21,4,160
+families,impiegati,under 21,5,69
+families,impiegati,under 21,6,33
+families,impiegati,under 21,7,26
+families,impiegati,under 21,8,2
+families,impiegati,under 21,9+,1
+families,impiegati,under 21,total,2292
+families,impiegati,any age,1,905
+families,impiegati,any age,2,704
+families,impiegati,any age,3,419
+families,impiegati,any age,4,180
+families,impiegati,any age,5,81
+families,impiegati,any age,6,39
+families,impiegati,any age,7,27
+families,impiegati,any age,8,8
+families,impiegati,any age,9+,3
+families,impiegati,any age,total,2366
+families,impiegati agricoltura,under 6,1,12
+families,impiegati agricoltura,under 6,2,8
+families,impiegati agricoltura,under 6,3,0
+families,impiegati agricoltura,under 6,4,1
+families,impiegati agricoltura,under 6,5,0
+families,impiegati agricoltura,under 6,6,0
+families,impiegati agricoltura,under 6,7,0
+families,impiegati agricoltura,under 6,8,0
+families,impiegati agricoltura,under 6,9+,0
+families,impiegati agricoltura,under 6,total,21
+families,impiegati agricoltura,under 15,1,9
+families,impiegati agricoltura,under 15,2,11
+families,impiegati agricoltura,under 15,3,7
+families,impiegati agricoltura,under 15,4,2
+families,impiegati agricoltura,under 15,5,0
+families,impiegati agricoltura,under 15,6,1
+families,impiegati agricoltura,under 15,7,1
+families,impiegati agricoltura,under 15,8,0
+families,impiegati agricoltura,under 15,9+,0
+families,impiegati agricoltura,under 15,total,31
+families,impiegati agricoltura,under 21,1,10
+families,impiegati agricoltura,under 21,2,13
+families,impiegati agricoltura,under 21,3,5
+families,impiegati agricoltura,under 21,4,2
+families,impiegati agricoltura,under 21,5,0
+families,impiegati agricoltura,under 21,6,0
+families,impiegati agricoltura,under 21,7,2
+families,impiegati agricoltura,under 21,8,0
+families,impiegati agricoltura,under 21,9+,0
+families,impiegati agricoltura,under 21,total,32
+families,impiegati agricoltura,any age,1,11
+families,impiegati agricoltura,any age,2,10
+families,impiegati agricoltura,any age,3,7
+families,impiegati agricoltura,any age,4,4
+families,impiegati agricoltura,any age,5,0
+families,impiegati agricoltura,any age,6,0
+families,impiegati agricoltura,any age,7,2
+families,impiegati agricoltura,any age,8,0
+families,impiegati agricoltura,any age,9+,0
+families,impiegati agricoltura,any age,total,34
+families,impiegati forze armate,under 6,1,281
+families,impiegati forze armate,under 6,2,84
+families,impiegati forze armate,under 6,3,24
+families,impiegati forze armate,under 6,4,2
+families,impiegati forze armate,under 6,5,0
+families,impiegati forze armate,under 6,6,0
+families,impiegati forze armate,under 6,7,0
+families,impiegati forze armate,under 6,8,0
+families,impiegati forze armate,under 6,9+,0
+families,impiegati forze armate,under 6,total,391
+families,impiegati forze armate,under 15,1,268
+families,impiegati forze armate,under 15,2,174
+families,impiegati forze armate,under 15,3,78
+families,impiegati forze armate,under 15,4,41
+families,impiegati forze armate,under 15,5,11
+families,impiegati forze armate,under 15,6,4
+families,impiegati forze armate,under 15,7,1
+families,impiegati forze armate,under 15,8,1
+families,impiegati forze armate,under 15,9+,0
+families,impiegati forze armate,under 15,total,578
+families,impiegati forze armate,under 21,1,267
+families,impiegati forze armate,under 21,2,171
+families,impiegati forze armate,under 21,3,82
+families,impiegati forze armate,under 21,4,49
+families,impiegati forze armate,under 21,5,16
+families,impiegati forze armate,under 21,6,5
+families,impiegati forze armate,under 21,7,8
+families,impiegati forze armate,under 21,8,2
+families,impiegati forze armate,under 21,9+,0
+families,impiegati forze armate,under 21,total,600
+families,impiegati forze armate,any age,1,266
+families,impiegati forze armate,any age,2,170
+families,impiegati forze armate,any age,3,87
+families,impiegati forze armate,any age,4,48
+families,impiegati forze armate,any age,5,17
+families,impiegati forze armate,any age,6,5
+families,impiegati forze armate,any age,7,8
+families,impiegati forze armate,any age,8,3
+families,impiegati forze armate,any age,9+,0
+families,impiegati forze armate,any age,total,604
+families,impiegati culto,under 6,1,0
+families,impiegati culto,under 6,2,0
+families,impiegati culto,under 6,3,0
+families,impiegati culto,under 6,4,0
+families,impiegati culto,under 6,5,0
+families,impiegati culto,under 6,6,0
+families,impiegati culto,under 6,7,0
+families,impiegati culto,under 6,8,0
+families,impiegati culto,under 6,9+,0
+families,impiegati culto,under 6,total,0
+families,impiegati culto,under 15,1,0
+families,impiegati culto,under 15,2,0
+families,impiegati culto,under 15,3,0
+families,impiegati culto,under 15,4,0
+families,impiegati culto,under 15,5,0
+families,impiegati culto,under 15,6,0
+families,impiegati culto,under 15,7,0
+families,impiegati culto,under 15,8,0
+families,impiegati culto,under 15,9+,0
+families,impiegati culto,under 15,total,0
+families,impiegati culto,under 21,1,1
+families,impiegati culto,under 21,2,1
+families,impiegati culto,under 21,3,0
+families,impiegati culto,under 21,4,0
+families,impiegati culto,under 21,5,0
+families,impiegati culto,under 21,6,0
+families,impiegati culto,under 21,7,0
+families,impiegati culto,under 21,8,0
+families,impiegati culto,under 21,9+,0
+families,impiegati culto,under 21,total,2
+families,impiegati culto,any age,1,0
+families,impiegati culto,any age,2,1
+families,impiegati culto,any age,3,0
+families,impiegati culto,any age,4,0
+families,impiegati culto,any age,5,1
+families,impiegati culto,any age,6,0
+families,impiegati culto,any age,7,0
+families,impiegati culto,any age,8,0
+families,impiegati culto,any age,9+,0
+families,impiegati culto,any age,total,2
+families,operai,under 6,1,1264
+families,operai,under 6,2,779
+families,operai,under 6,3,216
+families,operai,under 6,4,26
+families,operai,under 6,5,0
+families,operai,under 6,6,0
+families,operai,under 6,7,0
+families,operai,under 6,8,0
+families,operai,under 6,9+,0
+families,operai,under 6,total,2285
+families,operai,under 15,1,997
+families,operai,under 15,2,906
+families,operai,under 15,3,581
+families,operai,under 15,4,377
+families,operai,under 15,5,191
+families,operai,under 15,6,59
+families,operai,under 15,7,18
+families,operai,under 15,8,4
+families,operai,under 15,9+,0
+families,operai,under 15,total,3133
+families,operai,under 21,1,954
+families,operai,under 21,2,908
+families,operai,under 21,3,639
+families,operai,under 21,4,451
+families,operai,under 21,5,224
+families,operai,under 21,6,104
+families,operai,under 21,7,53
+families,operai,under 21,8,10
+families,operai,under 21,9+,6
+families,operai,under 21,total,3349
+families,operai,any age,1,920
+families,operai,any age,2,897
+families,operai,any age,3,649
+families,operai,any age,4,492
+families,operai,any age,5,262
+families,operai,any age,6,129
+families,operai,any age,7,77
+families,operai,any age,8,23
+families,operai,any age,9+,15
+families,operai,any age,total,3464
+families,operai agricoltura,under 6,1,139
+families,operai agricoltura,under 6,2,92
+families,operai agricoltura,under 6,3,28
+families,operai agricoltura,under 6,4,1
+families,operai agricoltura,under 6,5,0
+families,operai agricoltura,under 6,6,0
+families,operai agricoltura,under 6,7,0
+families,operai agricoltura,under 6,8,0
+families,operai agricoltura,under 6,9+,0
+families,operai agricoltura,under 6,total,260
+families,operai agricoltura,under 15,1,116
+families,operai agricoltura,under 15,2,112
+families,operai agricoltura,under 15,3,62
+families,operai agricoltura,under 15,4,48
+families,operai agricoltura,under 15,5,27
+families,operai agricoltura,under 15,6,7
+families,operai agricoltura,under 15,7,3
+families,operai agricoltura,under 15,8,0
+families,operai agricoltura,under 15,9+,0
+families,operai agricoltura,under 15,total,375
+families,operai agricoltura,under 21,1,107
+families,operai agricoltura,under 21,2,110
+families,operai agricoltura,under 21,3,84
+families,operai agricoltura,under 21,4,60
+families,operai agricoltura,under 21,5,28
+families,operai agricoltura,under 21,6,13
+families,operai agricoltura,under 21,7,10
+families,operai agricoltura,under 21,8,3
+families,operai agricoltura,under 21,9+,0
+families,operai agricoltura,under 21,total,415
+families,operai agricoltura,any age,1,98
+families,operai agricoltura,any age,2,102
+families,operai agricoltura,any age,3,76
+families,operai agricoltura,any age,4,74
+families,operai agricoltura,any age,5,37
+families,operai agricoltura,any age,6,16
+families,operai agricoltura,any age,7,15
+families,operai agricoltura,any age,8,7
+families,operai agricoltura,any age,9+,2
+families,operai agricoltura,any age,total,427
+families,operai forze armate,under 6,1,6
+families,operai forze armate,under 6,2,1
+families,operai forze armate,under 6,3,0
+families,operai forze armate,under 6,4,0
+families,operai forze armate,under 6,5,0
+families,operai forze armate,under 6,6,0
+families,operai forze armate,under 6,7,0
+families,operai forze armate,under 6,8,0
+families,operai forze armate,under 6,9+,0
+families,operai forze armate,under 6,total,7
+families,operai forze armate,under 15,1,6
+families,operai forze armate,under 15,2,1
+families,operai forze armate,under 15,3,0
+families,operai forze armate,under 15,4,0
+families,operai forze armate,under 15,5,0
+families,operai forze armate,under 15,6,0
+families,operai forze armate,under 15,7,0
+families,operai forze armate,under 15,8,0
+families,operai forze armate,under 15,9+,0
+families,operai forze armate,under 15,total,7
+families,operai forze armate,under 21,1,6
+families,operai forze armate,under 21,2,1
+families,operai forze armate,under 21,3,0
+families,operai forze armate,under 21,4,0
+families,operai forze armate,under 21,5,0
+families,operai forze armate,under 21,6,0
+families,operai forze armate,under 21,7,0
+families,operai forze armate,under 21,8,0
+families,operai forze armate,under 21,9+,0
+families,operai forze armate,under 21,total,7
+families,operai forze armate,any age,1,6
+families,operai forze armate,any age,2,1
+families,operai forze armate,any age,3,0
+families,operai forze armate,any age,4,0
+families,operai forze armate,any age,5,0
+families,operai forze armate,any age,6,0
+families,operai forze armate,any age,7,0
+families,operai forze armate,any age,8,0
+families,operai forze armate,any age,9+,0
+families,operai forze armate,any age,total,7
+families,personale di servizio,under 6,1,81
+families,personale di servizio,under 6,2,54
+families,personale di servizio,under 6,3,19
+families,personale di servizio,under 6,4,3
+families,personale di servizio,under 6,5,0
+families,personale di servizio,under 6,6,0
+families,personale di servizio,under 6,7,0
+families,personale di servizio,under 6,8,0
+families,personale di servizio,under 6,9+,0
+families,personale di servizio,under 6,total,157
+families,personale di servizio,under 15,1,54
+families,personale di servizio,under 15,2,52
+families,personale di servizio,under 15,3,51
+families,personale di servizio,under 15,4,28
+families,personale di servizio,under 15,5,13
+families,personale di servizio,under 15,6,8
+families,personale di servizio,under 15,7,2
+families,personale di servizio,under 15,8,0
+families,personale di servizio,under 15,9+,2
+families,personale di servizio,under 15,total,210
+families,personale di servizio,under 21,1,59
+families,personale di servizio,under 21,2,56
+families,personale di servizio,under 21,3,44
+families,personale di servizio,under 21,4,30
+families,personale di servizio,under 21,5,21
+families,personale di servizio,under 21,6,9
+families,personale di servizio,under 21,7,8
+families,personale di servizio,under 21,8,0
+families,personale di servizio,under 21,9+,2
+families,personale di servizio,under 21,total,229
+families,personale di servizio,any age,1,56
+families,personale di servizio,any age,2,62
+families,personale di servizio,any age,3,48
+families,personale di servizio,any age,4,31
+families,personale di servizio,any age,5,22
+families,personale di servizio,any age,6,9
+families,personale di servizio,any age,7,11
+families,personale di servizio,any age,8,1
+families,personale di servizio,any age,9+,2
+families,personale di servizio,any age,total,242
+families,altre,under 6,1,49
+families,altre,under 6,2,13
+families,altre,under 6,3,4
+families,altre,under 6,4,2
+families,altre,under 6,5,0
+families,altre,under 6,6,0
+families,altre,under 6,7,0
+families,altre,under 6,8,0
+families,altre,under 6,9+,0
+families,altre,under 6,total,68
+families,altre,under 15,1,100
+families,altre,under 15,2,63
+families,altre,under 15,3,30
+families,altre,under 15,4,15
+families,altre,under 15,5,7
+families,altre,under 15,6,3
+families,altre,under 15,7,0
+families,altre,under 15,8,0
+families,altre,under 15,9+,0
+families,altre,under 15,total,218
+families,altre,under 21,1,139
+families,altre,under 21,2,82
+families,altre,under 21,3,56
+families,altre,under 21,4,31
+families,altre,under 21,5,21
+families,altre,under 21,6,9
+families,altre,under 21,7,1
+families,altre,under 21,8,1
+families,altre,under 21,9+,1
+families,altre,under 21,total,341
+families,altre,any age,1,186
+families,altre,any age,2,164
+families,altre,any age,3,103
+families,altre,any age,4,64
+families,altre,any age,5,37
+families,altre,any age,6,22
+families,altre,any age,7,7
+families,altre,any age,8,5
+families,altre,any age,9+,1
+families,altre,any age,total,589
+families,totale,under 6,1,3265
+families,totale,under 6,2,1778
+families,totale,under 6,3,516
+families,totale,under 6,4,64
+families,totale,under 6,5,0
+families,totale,under 6,6,0
+families,totale,under 6,7,0
+families,totale,under 6,8,0
+families,totale,under 6,9+,0
+families,totale,under 6,total,5623
+families,totale,under 15,1,2827
+families,totale,under 15,2,2414
+families,totale,under 15,3,1575
+families,totale,under 15,4,881
+families,totale,under 15,5,440
+families,totale,under 15,6,186
+families,totale,under 15,7,56
+families,totale,under 15,8,15
+families,totale,under 15,9+,3
+families,totale,under 15,total,8397
+families,totale,under 21,1,2784
+families,totale,under 21,2,2498
+families,totale,under 21,3,1737
+families,totale,under 21,4,1099
+families,totale,under 21,5,604
+families,totale,under 21,6,294
+families,totale,under 21,7,172
+families,totale,under 21,8,58
+families,totale,under 21,9+,23
+families,totale,under 21,total,9269
+families,totale,any age,1,2755
+families,totale,any age,2,2608
+families,totale,any age,3,1884
+families,totale,any age,4,1234
+families,totale,any age,5,725
+families,totale,any age,6,398
+families,totale,any age,7,233
+families,totale,any age,8,103
+families,totale,any age,9+,58
+families,totale,any age,total,9998
+families,municipio di Tripoli,under 6,1,1573
+families,municipio di Tripoli,under 6,2,851
+families,municipio di Tripoli,under 6,3,260
+families,municipio di Tripoli,under 6,4,30
+families,municipio di Tripoli,under 6,5,0
+families,municipio di Tripoli,under 6,6,0
+families,municipio di Tripoli,under 6,7,0
+families,municipio di Tripoli,under 6,8,0
+families,municipio di Tripoli,under 6,9+,0
+families,municipio di Tripoli,under 6,total,2714
+families,municipio di Tripoli,under 15,1,1429
+families,municipio di Tripoli,under 15,2,1208
+families,municipio di Tripoli,under 15,3,741
+families,municipio di Tripoli,under 15,4,393
+families,municipio di Tripoli,under 15,5,214
+families,municipio di Tripoli,under 15,6,86
+families,municipio di Tripoli,under 15,7,24
+families,municipio di Tripoli,under 15,8,8
+families,municipio di Tripoli,under 15,9+,2
+families,municipio di Tripoli,under 15,total,4105
+families,municipio di Tripoli,under 21,1,1444
+families,municipio di Tripoli,under 21,2,1277
+families,municipio di Tripoli,under 21,3,835
+families,municipio di Tripoli,under 21,4,496
+families,municipio di Tripoli,under 21,5,292
+families,municipio di Tripoli,under 21,6,132
+families,municipio di Tripoli,under 21,7,83
+families,municipio di Tripoli,under 21,8,23
+families,municipio di Tripoli,under 21,9+,9
+families,municipio di Tripoli,under 21,total,4591
+families,municipio di Tripoli,any age,1,1457
+families,municipio di Tripoli,any age,2,1381
+families,municipio di Tripoli,any age,3,930
+families,municipio di Tripoli,any age,4,586
+families,municipio di Tripoli,any age,5,351
+families,municipio di Tripoli,any age,6,186
+families,municipio di Tripoli,any age,7,110
+families,municipio di Tripoli,any age,8,41
+families,municipio di Tripoli,any age,9+,21
+families,municipio di Tripoli,any age,total,5063
+children,padroni,under 6,1,385
+children,padroni,under 6,2,450
+children,padroni,under 6,3,264
+children,padroni,under 6,4,20
+children,padroni,under 6,5,0
+children,padroni,under 6,6,0
+children,padroni,under 6,7,0
+children,padroni,under 6,8,0
+children,padroni,under 6,9+,0
+children,padroni,under 6,total,1119
+children,padroni,under 15,1,363
+children,padroni,under 15,2,648
+children,padroni,under 15,3,705
+children,padroni,under 15,4,504
+children,padroni,under 15,5,310
+children,padroni,under 15,6,228
+children,padroni,under 15,7,63
+children,padroni,under 15,8,24
+children,padroni,under 15,9+,0
+children,padroni,under 15,total,2845
+children,padroni,under 21,1,352
+children,padroni,under 21,2,720
+children,padroni,under 21,3,780
+children,padroni,under 21,4,652
+children,padroni,under 21,5,515
+children,padroni,under 21,6,288
+children,padroni,under 21,7,182
+children,padroni,under 21,8,136
+children,padroni,under 21,9+,27
+children,padroni,under 21,total,3652
+children,padroni,any age,1,352
+children,padroni,any age,2,804
+children,padroni,any age,3,900
+children,padroni,any age,4,780
+children,padroni,any age,5,580
+children,padroni,any age,6,456
+children,padroni,any age,7,245
+children,padroni,any age,8,152
+children,padroni,any age,9+,120
+children,padroni,any age,total,4389
+children,piccoli padroni,under 6,1,25
+children,piccoli padroni,under 6,2,56
+children,piccoli padroni,under 6,3,24
+children,piccoli padroni,under 6,4,0
+children,piccoli padroni,under 6,5,0
+children,piccoli padroni,under 6,6,0
+children,piccoli padroni,under 6,7,0
+children,piccoli padroni,under 6,8,0
+children,piccoli padroni,under 6,9+,0
+children,piccoli padroni,under 6,total,105
+children,piccoli padroni,under 15,1,25
+children,piccoli padroni,under 15,2,36
+children,piccoli padroni,under 15,3,69
+children,piccoli padroni,under 15,4,32
+children,piccoli padroni,under 15,5,50
+children,piccoli padroni,under 15,6,12
+children,piccoli padroni,under 15,7,0
+children,piccoli padroni,under 15,8,8
+children,piccoli padroni,under 15,9+,0
+children,piccoli padroni,under 15,total,232
+children,piccoli padroni,under 21,1,18
+children,piccoli padroni,under 21,2,50
+children,piccoli padroni,under 21,3,72
+children,piccoli padroni,under 21,4,48
+children,piccoli padroni,under 21,5,60
+children,piccoli padroni,under 21,6,12
+children,piccoli padroni,under 21,7,7
+children,piccoli padroni,under 21,8,16
+children,piccoli padroni,under 21,9+,9
+children,piccoli padroni,under 21,total,292
+children,piccoli padroni,any age,1,21
+children,piccoli padroni,any age,2,40
+children,piccoli padroni,any age,3,84
+children,piccoli padroni,any age,4,52
+children,piccoli padroni,any age,5,60
+children,piccoli padroni,any age,6,30
+children,piccoli padroni,any age,7,21
+children,piccoli padroni,any age,8,24
+children,piccoli padroni,any age,9+,9
+children,piccoli padroni,any age,total,341
+children,padroni agricoltura,under 6,1,21
+children,padroni agricoltura,under 6,2,10
+children,padroni agricoltura,under 6,3,15
+children,padroni agricoltura,under 6,4,0
+children,padroni agricoltura,under 6,5,0
+children,padroni agricoltura,under 6,6,0
+children,padroni agricoltura,under 6,7,0
+children,padroni agricoltura,under 6,8,0
+children,padroni agricoltura,under 6,9+,0
+children,padroni agricoltura,under 6,total,46
+children,padroni agricoltura,under 15,1,19
+children,padroni agricoltura,under 15,2,32
+children,padroni agricoltura,under 15,3,48
+children,padroni agricoltura,under 15,4,28
+children,padroni agricoltura,under 15,5,5
+children,padroni agricoltura,under 15,6,12
+children,padroni agricoltura,under 15,7,0
+children,padroni agricoltura,under 15,8,0
+children,padroni agricoltura,under 15,9+,0
+children,padroni agricoltura,under 15,total,144
+children,padroni agricoltura,under 21,1,25
+children,padroni agricoltura,under 21,2,36
+children,padroni agricoltura,under 21,3,57
+children,padroni agricoltura,under 21,4,20
+children,padroni agricoltura,under 21,5,25
+children,padroni agricoltura,under 21,6,12
+children,padroni agricoltura,under 21,7,7
+children,padroni agricoltura,under 21,8,8
+children,padroni agricoltura,under 21,9+,0
+children,padroni agricoltura,under 21,total,190
+children,padroni agricoltura,any age,1,21
+children,padroni agricoltura,any age,2,62
+children,padroni agricoltura,any age,3,69
+children,padroni agricoltura,any age,4,44
+children,padroni agricoltura,any age,5,25
+children,padroni agricoltura,any age,6,24
+children,padroni agricoltura,any age,7,0
+children,padroni agricoltura,any age,8,8
+children,padroni agricoltura,any age,9+,9
+children,padroni agricoltura,any age,total,262
+children,artigiani,under 6,1,458
+children,artigiani,under 6,2,636
+children,artigiani,under 6,3,306
+children,artigiani,under 6,4,56
+children,artigiani,under 6,5,0
+children,artigiani,under 6,6,0
+children,artigiani,under 6,7,0
+children,artigiani,under 6,8,0
+children,artigiani,under 6,9+,0
+children,artigiani,under 6,total,1456
+children,artigiani,under 15,1,326
+children,artigiani,under 15,2,720
+children,artigiani,under 15,3,963
+children,artigiani,under 15,4,780
+children,artigiani,under 15,5,545
+children,artigiani,under 15,6,366
+children,artigiani,under 15,7,140
+children,artigiani,under 15,8,56
+children,artigiani,under 15,9+,9
+children,artigiani,under 15,total,3905
+children,artigiani,under 21,1,285
+children,artigiani,under 21,2,706
+children,artigiani,under 21,3,960
+children,artigiani,under 21,4,988
+children,artigiani,under 21,5,810
+children,artigiani,under 21,6,540
+children,artigiani,under 21,7,406
+children,artigiani,under 21,8,224
+children,artigiani,under 21,9+,93
+children,artigiani,under 21,total,5012
+children,artigiani,any age,1,265
+children,artigiani,any age,2,648
+children,artigiani,any age,3,978
+children,artigiani,any age,4,1024
+children,artigiani,any age,5,1020
+children,artigiani,any age,6,720
+children,artigiani,any age,7,525
+children,artigiani,any age,8,360
+children,artigiani,any age,9+,226
+children,artigiani,any age,total,5766
+children,coloni parziari,under 6,1,151
+children,coloni parziari,under 6,2,238
+children,coloni parziari,under 6,3,90
+children,coloni parziari,under 6,4,24
+children,coloni parziari,under 6,5,0
+children,coloni parziari,under 6,6,0
+children,coloni parziari,under 6,7,0
+children,coloni parziari,under 6,8,0
+children,coloni parziari,under 6,9+,0
+children,coloni parziari,under 6,total,503
+children,coloni parziari,under 15,1,105
+children,coloni parziari,under 15,2,244
+children,coloni parziari,under 15,3,327
+children,coloni parziari,under 15,4,312
+children,coloni parziari,under 15,5,250
+children,coloni parziari,under 15,6,132
+children,coloni parziari,under 15,7,63
+children,coloni parziari,under 15,8,32
+children,coloni parziari,under 15,9+,9
+children,coloni parziari,under 15,total,1474
+children,coloni parziari,under 21,1,76
+children,coloni parziari,under 21,2,206
+children,coloni parziari,under 21,3,330
+children,coloni parziari,under 21,4,404
+children,coloni parziari,under 21,5,320
+children,coloni parziari,under 21,6,282
+children,coloni parziari,under 21,7,217
+children,coloni parziari,under 21,8,72
+children,coloni parziari,under 21,9+,66
+children,coloni parziari,under 21,total,1973
+children,coloni parziari,any age,1,54
+children,coloni parziari,any age,2,176
+children,coloni parziari,any age,3,306
+children,coloni parziari,any age,4,364
+children,coloni parziari,any age,5,460
+children,coloni parziari,any age,6,348
+children,coloni parziari,any age,7,287
+children,coloni parziari,any age,8,160
+children,coloni parziari,any age,9+,144
+children,coloni parziari,any age,total,2299
+children,artigiani agricoltura altri,under 6,1,166
+children,artigiani agricoltura altri,under 6,2,212
+children,artigiani agricoltura altri,under 6,3,141
+children,artigiani agricoltura altri,under 6,4,24
+children,artigiani agricoltura altri,under 6,5,0
+children,artigiani agricoltura altri,under 6,6,0
+children,artigiani agricoltura altri,under 6,7,0
+children,artigiani agricoltura altri,under 6,8,0
+children,artigiani agricoltura altri,under 6,9+,0
+children,artigiani agricoltura altri,under 6,total,543
+children,artigiani agricoltura altri,under 15,1,101
+children,artigiani agricoltura altri,under 15,2,210
+children,artigiani agricoltura altri,under 15,3,390
+children,artigiani agricoltura altri,under 15,4,304
+children,artigiani agricoltura altri,under 15,5,200
+children,artigiani agricoltura altri,under 15,6,192
+children,artigiani agricoltura altri,under 15,7,56
+children,artigiani agricoltura altri,under 15,8,8
+children,artigiani agricoltura altri,under 15,9+,0
+children,artigiani agricoltura altri,under 15,total,1461
+children,artigiani agricoltura altri,under 21,1,101
+children,artigiani agricoltura altri,under 21,2,198
+children,artigiani agricoltura altri,under 21,3,366
+children,artigiani agricoltura altri,under 21,4,388
+children,artigiani agricoltura altri,under 21,5,300
+children,artigiani agricoltura altri,under 21,6,198
+children,artigiani agricoltura altri,under 21,7,161
+children,artigiani agricoltura altri,under 21,8,112
+children,artigiani agricoltura altri,under 21,9+,18
+children,artigiani agricoltura altri,under 21,total,1842
+children,artigiani agricoltura altri,any age,1,92
+children,artigiani agricoltura altri,any age,2,180
+children,artigiani agricoltura altri,any age,3,408
+children,artigiani agricoltura altri,any age,4,384
+children,artigiani agricoltura altri,any age,5,360
+children,artigiani agricoltura altri,any age,6,294
+children,artigiani agricoltura altri,any age,7,175
+children,artigiani agricoltura altri,any age,8,128
+children,artigiani agricoltura altri,any age,9+,63
+children,artigiani agricoltura altri,any age,total,2084
+children,liberi professionisti,under 6,1,17
+children,liberi professionisti,under 6,2,8
+children,liberi professionisti,under 6,3,0
+children,liberi professionisti,under 6,4,4
+children,liberi professionisti,under 6,5,0
+children,liberi professionisti,under 6,6,0
+children,liberi professionisti,under 6,7,0
+children,liberi professionisti,under 6,8,0
+children,liberi professionisti,under 6,9+,0
+children,liberi professionisti,under 6,total,29
+children,liberi professionisti,under 15,1,24
+children,liberi professionisti,under 15,2,24
+children,liberi professionisti,under 15,3,21
+children,liberi professionisti,under 15,4,8
+children,liberi professionisti,under 15,5,5
+children,liberi professionisti,under 15,6,0
+children,liberi professionisti,under 15,7,0
+children,liberi professionisti,under 15,8,0
+children,liberi professionisti,under 15,9+,0
+children,liberi professionisti,under 15,total,82
+children,liberi professionisti,under 21,1,26
+children,liberi professionisti,under 21,2,20
+children,liberi professionisti,under 21,3,30
+children,liberi professionisti,under 21,4,20
+children,liberi professionisti,under 21,5,15
+children,liberi professionisti,under 21,6,6
+children,liberi professionisti,under 21,7,0
+children,liberi professionisti,under 21,8,0
+children,liberi professionisti,under 21,9+,0
+children,liberi professionisti,under 21,total,117
+children,liberi professionisti,any age,1,34
+children,liberi professionisti,any age,2,24
+children,liberi professionisti,any age,3,27
+children,liberi professionisti,any age,4,24
+children,liberi professionisti,any age,5,5
+children,liberi professionisti,any age,6,6
+children,liberi professionisti,any age,7,7
+children,liberi professionisti,any age,8,16
+children,liberi professionisti,any age,9+,0
+children,liberi professionisti,any age,total,143
+children,dirigenti,under 6,1,43
+children,dirigenti,under 6,2,32
+children,dirigenti,under 6,3,0
+children,dirigenti,under 6,4,0
+children,dirigenti,under 6,5,0
+children,dirigenti,under 6,6,0
+children,dirigenti,under 6,7,0
+children,dirigenti,under 6,8,0
+children,dirigenti,under 6,9+,0
+children,dirigenti,under 6,total,75
+children,dirigenti,under 15,1,42
+children,dirigenti,under 15,2,70
+children,dirigenti,under 15,3,45
+children,dirigenti,under 15,4,28
+children,dirigenti,under 15,5,5
+children,dirigenti,under 15,6,0
+children,dirigenti,under 15,7,0
+children,dirigenti,under 15,8,0
+children,dirigenti,under 15,9+,0
+children,dirigenti,under 15,total,190
+children,dirigenti,under 21,1,41
+children,dirigenti,under 21,2,84
+children,dirigenti,under 21,3,66
+children,dirigenti,under 21,4,48
+children,dirigenti,under 21,5,5
+children,dirigenti,under 21,6,0
+children,dirigenti,under 21,7,0
+children,dirigenti,under 21,8,0
+children,dirigenti,under 21,9+,0
+children,dirigenti,under 21,total,244
+children,dirigenti,any age,1,37
+children,dirigenti,any age,2,86
+children,dirigenti,any age,3,90
+children,dirigenti,any age,4,40
+children,dirigenti,any age,5,10
+children,dirigenti,any age,6,12
+children,dirigenti,any age,7,0
+children,dirigenti,any age,8,0
+children,dirigenti,any age,9+,0
+children,dirigenti,any age,total,275
+children,dirigenti agricoltura,under 6,1,14
+children,dirigenti agricoltura,under 6,2,2
+children,dirigenti agricoltura,under 6,3,0
+children,dirigenti agricoltura,under 6,4,0
+children,dirigenti agricoltura,under 6,5,0
+children,dirigenti agricoltura,under 6,6,0
+children,dirigenti agricoltura,under 6,7,0
+children,dirigenti agricoltura,under 6,8,0
+children,dirigenti agricoltura,under 6,9+,0
+children,dirigenti agricoltura,under 6,total,16
+children,dirigenti agricoltura,under 15,1,14
+children,dirigenti agricoltura,under 15,2,14
+children,dirigenti agricoltura,under 15,3,6
+children,dirigenti agricoltura,under 15,4,0
+children,dirigenti agricoltura,under 15,5,5
+children,dirigenti agricoltura,under 15,6,0
+children,dirigenti agricoltura,under 15,7,0
+children,dirigenti agricoltura,under 15,8,0
+children,dirigenti agricoltura,under 15,9+,0
+children,dirigenti agricoltura,under 15,total,39
+children,dirigenti agricoltura,under 21,1,15
+children,dirigenti agricoltura,under 21,2,12
+children,dirigenti agricoltura,under 21,3,9
+children,dirigenti agricoltura,under 21,4,4
+children,dirigenti agricoltura,under 21,5,5
+children,dirigenti agricoltura,under 21,6,0
+children,dirigenti agricoltura,under 21,7,0
+children,dirigenti agricoltura,under 21,8,0
+children,dirigenti agricoltura,under 21,9+,0
+children,dirigenti agricoltura,under 21,total,45
+children,dirigenti agricoltura,any age,1,14
+children,dirigenti agricoltura,any age,2,14
+children,dirigenti agricoltura,any age,3,9
+children,dirigenti agricoltura,any age,4,0
+children,dirigenti agricoltura,any age,5,5
+children,dirigenti agricoltura,any age,6,6
+children,dirigenti agricoltura,any age,7,0
+children,dirigenti agricoltura,any age,8,0
+children,dirigenti agricoltura,any age,9+,0
+children,dirigenti agricoltura,any age,total,48
+children,dirigenti forze armate,under 6,1,1
+children,dirigenti forze armate,under 6,2,4
+children,dirigenti forze armate,under 6,3,0
+children,dirigenti forze armate,under 6,4,0
+children,dirigenti forze armate,under 6,5,0
+children,dirigenti forze armate,under 6,6,0
+children,dirigenti forze armate,under 6,7,0
+children,dirigenti forze armate,under 6,8,0
+children,dirigenti forze armate,under 6,9+,0
+children,dirigenti forze armate,under 6,total,5
+children,dirigenti forze armate,under 15,1,3
+children,dirigenti forze armate,under 15,2,2
+children,dirigenti forze armate,under 15,3,3
+children,dirigenti forze armate,under 15,4,0
+children,dirigenti forze armate,under 15,5,0
+children,dirigenti forze armate,under 15,6,0
+children,dirigenti forze armate,under 15,7,0
+children,dirigenti forze armate,under 15,8,0
+children,dirigenti forze armate,under 15,9+,0
+children,dirigenti forze armate,under 15,total,8
+children,dirigenti forze armate,under 21,1,3
+children,dirigenti forze armate,under 21,2,6
+children,dirigenti forze armate,under 21,3,3
+children,dirigenti forze armate,under 21,4,4
+children,dirigenti forze armate,under 21,5,0
+children,dirigenti forze armate,under 21,6,0
+children,dirigenti forze armate,under 21,7,0
+children,dirigenti forze armate,under 21,8,0
+children,dirigenti forze armate,under 21,9+,0
+children,dirigenti forze armate,under 21,total,16
+children,dirigenti forze armate,any age,1,3
+children,dirigenti forze armate,any age,2,8
+children,dirigenti forze armate,any age,3,3
+children,dirigenti forze armate,any age,4,4
+children,dirigenti forze armate,any age,5,0
+children,dirigenti forze armate,any age,6,0
+children,dirigenti forze armate,any age,7,0
+children,dirigenti forze armate,any age,8,0
+children,dirigenti forze armate,any age,9+,0
+children,dirigenti forze armate,any age,total,18
+children,impiegati,under 6,1,968
+children,impiegati,under 6,2,738
+children,impiegati,under 6,3,261
+children,impiegati,under 6,4,52
+children,impiegati,under 6,5,0
+children,impiegati,under 6,6,0
+children,impiegati,under 6,7,0
+children,impiegati,under 6,8,0
+children,impiegati,under 6,9+,0
+children,impiegati,under 6,total,2019
+children,impiegati,under 15,1,921
+children,impiegati,under 15,2,1324
+children,impiegati,under 15,3,1005
+children,impiegati,under 15,4,524
+children,impiegati,under 15,5,280
+children,impiegati,under 15,6,102
+children,impiegati,under 15,7,49
+children,impiegati,under 15,8,8
+children,impiegati,under 15,9+,0
+children,impiegati,under 15,total,4213
+children,impiegati,under 21,1,928
+children,impiegati,under 21,2,1374
+children,impiegati,under 21,3,1158
+children,impiegati,under 21,4,640
+children,impiegati,under 21,5,345
+children,impiegati,under 21,6,198
+children,impiegati,under 21,7,182
+children,impiegati,under 21,8,16
+children,impiegati,under 21,9+,9
+children,impiegati,under 21,total,4850
+children,impiegati,any age,1,905
+children,impiegati,any age,2,1408
+children,impiegati,any age,3,1257
+children,impiegati,any age,4,720
+children,impiegati,any age,5,405
+children,impiegati,any age,6,234
+children,impiegati,any age,7,189
+children,impiegati,any age,8,64
+children,impiegati,any age,9+,28
+children,impiegati,any age,total,5210
+children,impiegati agricoltura,under 6,1,12
+children,impiegati agricoltura,under 6,2,16
+children,impiegati agricoltura,under 6,3,0
+children,impiegati agricoltura,under 6,4,4
+children,impiegati agricoltura,under 6,5,0
+children,impiegati agricoltura,under 6,6,0
+children,impiegati agricoltura,under 6,7,0
+children,impiegati agricoltura,under 6,8,0
+children,impiegati agricoltura,under 6,9+,0
+children,impiegati agricoltura,under 6,total,32
+children,impiegati agricoltura,under 15,1,9
+children,impiegati agricoltura,under 15,2,22
+children,impiegati agricoltura,under 15,3,21
+children,impiegati agricoltura,under 15,4,8
+children,impiegati agricoltura,under 15,5,0
+children,impiegati agricoltura,under 15,6,6
+children,impiegati agricoltura,under 15,7,7
+children,impiegati agricoltura,under 15,8,0
+children,impiegati agricoltura,under 15,9+,0
+children,impiegati agricoltura,under 15,total,73
+children,impiegati agricoltura,under 21,1,10
+children,impiegati agricoltura,under 21,2,26
+children,impiegati agricoltura,under 21,3,15
+children,impiegati agricoltura,under 21,4,8
+children,impiegati agricoltura,under 21,5,0
+children,impiegati agricoltura,under 21,6,0
+children,impiegati agricoltura,under 21,7,14
+children,impiegati agricoltura,under 21,8,0
+children,impiegati agricoltura,under 21,9+,0
+children,impiegati agricoltura,under 21,total,73
+children,impiegati agricoltura,any age,1,11
+children,impiegati agricoltura,any age,2,20
+children,impiegati agricoltura,any age,3,21
+children,impiegati agricoltura,any age,4,16
+children,impiegati agricoltura,any age,5,0
+children,impiegati agricoltura,any age,6,0
+children,impiegati agricoltura,any age,7,14
+children,impiegati agricoltura,any age,8,0
+children,impiegati agricoltura,any age,9+,0
+children,impiegati agricoltura,any age,total,82
+children,impiegati forze armate,under 6,1,281
+children,impiegati forze armate,under 6,2,168
+children,impiegati forze armate,under 6,3,72
+children,impiegati forze armate,under 6,4,8
+children,impiegati forze armate,under 6,5,0
+children,impiegati forze armate,under 6,6,0
+children,impiegati forze armate,under 6,7,0
+children,impiegati forze armate,under 6,8,0
+children,impiegati forze armate,under 6,9+,0
+children,impiegati forze armate,under 6,total,529
+children,impiegati forze armate,under 15,1,268
+children,impiegati forze armate,under 15,2,348
+children,impiegati forze armate,under 15,3,234
+children,impiegati forze armate,under 15,4,164
+children,impiegati forze armate,under 15,5,55
+children,impiegati forze armate,under 15,6,24
+children,impiegati forze armate,under 15,7,7
+children,impiegati forze armate,under 15,8,8
+children,impiegati forze armate,under 15,9+,0
+children,impiegati forze armate,under 15,total,1108
+children,impiegati forze armate,under 21,1,267
+children,impiegati forze armate,under 21,2,342
+children,impiegati forze armate,under 21,3,246
+children,impiegati forze armate,under 21,4,196
+children,impiegati forze armate,under 21,5,80
+children,impiegati forze armate,under 21,6,30
+children,impiegati forze armate,under 21,7,56
+children,impiegati forze armate,under 21,8,16
+children,impiegati forze armate,under 21,9+,0
+children,impiegati forze armate,under 21,total,1233
+children,impiegati forze armate,any age,1,266
+children,impiegati forze armate,any age,2,340
+children,impiegati forze armate,any age,3,261
+children,impiegati forze armate,any age,4,192
+children,impiegati forze armate,any age,5,85
+children,impiegati forze armate,any age,6,30
+children,impiegati forze armate,any age,7,56
+children,impiegati forze armate,any age,8,24
+children,impiegati forze armate,any age,9+,0
+children,impiegati forze armate,any age,total,1254
+children,impiegati culto,under 6,1,0
+children,impiegati culto,under 6,2,0
+children,impiegati culto,under 6,3,0
+children,impiegati culto,under 6,4,0
+children,impiegati culto,under 6,5,0
+children,impiegati culto,under 6,6,0
+children,impiegati culto,under 6,7,0
+children,impiegati culto,under 6,8,0
+children,impiegati culto,under 6,9+,0
+children,impiegati culto,under 6,total,0
+children,impiegati culto,under 15,1,0
+children,impiegati culto,under 15,2,0
+children,impiegati culto,under 15,3,0
+children,impiegati culto,under 15,4,0
+children,impiegati culto,under 15,5,0
+children,impiegati culto,under 15,6,0
+children,impiegati culto,under 15,7,0
+children,impiegati culto,under 15,8,0
+children,impiegati culto,under 15,9+,0
+children,impiegati culto,under 15,total,0
+children,impiegati culto,under 21,1,1
+children,impiegati culto,under 21,2,2
+children,impiegati culto,under 21,3,0
+children,impiegati culto,under 21,4,0
+children,impiegati culto,under 21,5,0
+children,impiegati culto,under 21,6,0
+children,impiegati culto,under 21,7,0
+children,impiegati culto,under 21,8,0
+children,impiegati culto,under 21,9+,0
+children,impiegati culto,under 21,total,3
+children,impiegati culto,any age,1,0
+children,impiegati culto,any age,2,2
+children,impiegati culto,any age,3,0
+children,impiegati culto,any age,4,0
+children,impiegati culto,any age,5,5
+children,impiegati culto,any age,6,0
+children,impiegati culto,any age,7,0
+children,impiegati culto,any age,8,0
+children,impiegati culto,any age,9+,0
+children,impiegati culto,any age,total,7
+children,operai,under 6,1,1264
+children,operai,under 6,2,1558
+children,operai,under 6,3,648
+children,operai,under 6,4,104
+children,operai,under 6,5,0
+children,operai,under 6,6,0
+children,operai,under 6,7,0
+children,operai,under 6,8,0
+children,operai,under 6,9+,0
+children,operai,under 6,total,3574
+children,operai,under 15,1,997
+children,operai,under 15,2,1812
+children,operai,under 15,3,1743
+children,operai,under 15,4,1508
+children,operai,under 15,5,955
+children,operai,under 15,6,354
+children,operai,under 15,7,126
+children,operai,under 15,8,32
+children,operai,under 15,9+,0
+children,operai,under 15,total,7527
+children,operai,under 21,1,954
+children,operai,under 21,2,1816
+children,operai,under 21,3,1917
+children,operai,under 21,4,1804
+children,operai,under 21,5,1120
+children,operai,under 21,6,624
+children,operai,under 21,7,371
+children,operai,under 21,8,80
+children,operai,under 21,9+,56
+children,operai,under 21,total,8742
+children,operai,any age,1,920
+children,operai,any age,2,1794
+children,operai,any age,3,1947
+children,operai,any age,4,1968
+children,operai,any age,5,1310
+children,operai,any age,6,774
+children,operai,any age,7,539
+children,operai,any age,8,184
+children,operai,any age,9+,138
+children,operai,any age,total,9574
+children,operai agricoltura,under 6,1,139
+children,operai agricoltura,under 6,2,184
+children,operai agricoltura,under 6,3,84
+children,operai agricoltura,under 6,4,4
+children,operai agricoltura,under 6,5,0
+children,operai agricoltura,under 6,6,0
+children,operai agricoltura,under 6,7,0
+children,operai agricoltura,under 6,8,0
+children,operai agricoltura,under 6,9+,0
+children,operai agricoltura,under 6,total,411
+children,operai agricoltura,under 15,1,116
+children,operai agricoltura,under 15,2,224
+children,operai agricoltura,under 15,3,186
+children,operai agricoltura,under 15,4,192
+children,operai agricoltura,under 15,5,135
+children,operai agricoltura,under 15,6,42
+children,operai agricoltura,under 15,7,21
+children,operai agricoltura,under 15,8,0
+children,operai agricoltura,under 15,9+,0
+children,operai agricoltura,under 15,total,916
+children,operai agricoltura,under 21,1,107
+children,operai agricoltura,under 21,2,220
+children,operai agricoltura,under 21,3,252
+children,operai agricoltura,under 21,4,240
+children,operai agricoltura,under 21,5,140
+children,operai agricoltura,under 21,6,78
+children,operai agricoltura,under 21,7,70
+children,operai agricoltura,under 21,8,24
+children,operai agricoltura,under 21,9+,0
+children,operai agricoltura,under 21,total,1131
+children,operai agricoltura,any age,1,98
+children,operai agricoltura,any age,2,204
+children,operai agricoltura,any age,3,228
+children,operai agricoltura,any age,4,296
+children,operai agricoltura,any age,5,185
+children,operai agricoltura,any age,6,96
+children,operai agricoltura,any age,7,105
+children,operai agricoltura,any age,8,56
+children,operai agricoltura,any age,9+,18
+children,operai agricoltura,any age,total,1286
+children,operai forze armate,under 6,1,6
+children,operai forze armate,under 6,2,2
+children,operai forze armate,under 6,3,0
+children,operai forze armate,under 6,4,0
+children,operai forze armate,under 6,5,0
+children,operai forze armate,under 6,6,0
+children,operai forze armate,under 6,7,0
+children,operai forze armate,under 6,8,0
+children,operai forze armate,under 6,9+,0
+children,operai forze armate,under 6,total,8
+children,operai forze armate,under 15,1,6
+children,operai forze armate,under 15,2,2
+children,operai forze armate,under 15,3,0
+children,operai forze armate,under 15,4,0
+children,operai forze armate,under 15,5,0
+children,operai forze armate,under 15,6,0
+children,operai forze armate,under 15,7,0
+children,operai forze armate,under 15,8,0
+children,operai forze armate,under 15,9+,0
+children,operai forze armate,under 15,total,8
+children,operai forze armate,under 21,1,6
+children,operai forze armate,under 21,2,2
+children,operai forze armate,under 21,3,0
+children,operai forze armate,under 21,4,0
+children,operai forze armate,under 21,5,0
+children,operai forze armate,under 21,6,0
+children,operai forze armate,under 21,7,0
+children,operai forze armate,under 21,8,0
+children,operai forze armate,under 21,9+,0
+children,operai forze armate,under 21,total,8
+children,operai forze armate,any age,1,6
+children,operai forze armate,any age,2,2
+children,operai forze armate,any age,3,0
+children,operai forze armate,any age,4,0
+children,operai forze armate,any age,5,0
+children,operai forze armate,any age,6,0
+children,operai forze armate,any age,7,0
+children,operai forze armate,any age,8,0
+children,operai forze armate,any age,9+,0
+children,operai forze armate,any age,total,8
+children,personale di servizio,under 6,1,81
+children,personale di servizio,under 6,2,108
+children,personale di servizio,under 6,3,57
+children,personale di servizio,under 6,4,12
+children,personale di servizio,under 6,5,0
+children,personale di servizio,under 6,6,0
+children,personale di servizio,under 6,7,0
+children,personale di servizio,under 6,8,0
+children,personale di servizio,under 6,9+,0
+children,personale di servizio,under 6,total,258
+children,personale di servizio,under 15,1,54
+children,personale di servizio,under 15,2,104
+children,personale di servizio,under 15,3,153
+children,personale di servizio,under 15,4,112
+children,personale di servizio,under 15,5,65
+children,personale di servizio,under 15,6,48
+children,personale di servizio,under 15,7,14
+children,personale di servizio,under 15,8,0
+children,personale di servizio,under 15,9+,18
+children,personale di servizio,under 15,total,568
+children,personale di servizio,under 21,1,59
+children,personale di servizio,under 21,2,112
+children,personale di servizio,under 21,3,132
+children,personale di servizio,under 21,4,120
+children,personale di servizio,under 21,5,105
+children,personale di servizio,under 21,6,54
+children,personale di servizio,under 21,7,56
+children,personale di servizio,under 21,8,0
+children,personale di servizio,under 21,9+,18
+children,personale di servizio,under 21,total,656
+children,personale di servizio,any age,1,56
+children,personale di servizio,any age,2,124
+children,personale di servizio,any age,3,144
+children,personale di servizio,any age,4,124
+children,personale di servizio,any age,5,110
+children,personale di servizio,any age,6,54
+children,personale di servizio,any age,7,77
+children,personale di servizio,any age,8,8
+children,personale di servizio,any age,9+,18
+children,personale di servizio,any age,total,715
+children,altre,under 6,1,49
+children,altre,under 6,2,26
+children,altre,under 6,3,12
+children,altre,under 6,4,8
+children,altre,under 6,5,0
+children,altre,under 6,6,0
+children,altre,under 6,7,0
+children,altre,under 6,8,0
+children,altre,under 6,9+,0
+children,altre,under 6,total,95
+children,altre,under 15,1,100
+children,altre,under 15,2,126
+children,altre,under 15,3,90
+children,altre,under 15,4,60
+children,altre,under 15,5,35
+children,altre,under 15,6,18
+children,altre,under 15,7,0
+children,altre,under 15,8,0
+children,altre,under 15,9+,0
+children,altre,under 15,total,429
+children,altre,under 21,1,139
+children,altre,under 21,2,164
+children,altre,under 21,3,168
+children,altre,under 21,4,124
+children,altre,under 21,5,105
+children,altre,under 21,6,54
+children,altre,under 21,7,7
+children,altre,under 21,8,8
+children,altre,under 21,9+,9
+children,altre,under 21,total,778
+children,altre,any age,1,186
+children,altre,any age,2,328
+children,altre,any age,3,309
+children,altre,any age,4,256
+children,altre,any age,5,185
+children,altre,any age,6,132
+children,altre,any age,7,49
+children,altre,any age,8,40
+children,altre,any age,9+,9
+children,altre,any age,total,1494
+children,totale,under 6,1,3265
+children,totale,under 6,2,3556
+children,totale,under 6,3,1548
+children,totale,under 6,4,256
+children,totale,under 6,5,0
+children,totale,under 6,6,0
+children,totale,under 6,7,0
+children,totale,under 6,8,0
+children,totale,under 6,9+,0
+children,totale,under 6,total,8625
+children,totale,under 15,1,2827
+children,totale,under 15,2,4828
+children,totale,under 15,3,4725
+children,totale,under 15,4,3524
+children,totale,under 15,5,2200
+children,totale,under 15,6,1116
+children,totale,under 15,7,392
+children,totale,under 15,8,120
+children,totale,under 15,9+,27
+children,totale,under 15,total,19759
+children,totale,under 21,1,2784
+children,totale,under 21,2,4996
+children,totale,under 21,3,5211
+children,totale,under 21,4,4396
+children,totale,under 21,5,3020
+children,totale,under 21,6,1764
+children,totale,under 21,7,1204
+children,totale,under 21,8,464
+children,totale,under 21,9+,212
+children,totale,under 21,total,24051
+children,totale,any age,1,2755
+children,totale,any age,2,5216
+children,totale,any age,3,5652
+children,totale,any age,4,4936
+children,totale,any age,5,3625
+children,totale,any age,6,2388
+children,totale,any age,7,1631
+children,totale,any age,8,824
+children,totale,any age,9+,539
+children,totale,any age,total,27566
+children,municipio di Tripoli,under 6,1,1573
+children,municipio di Tripoli,under 6,2,1702
+children,municipio di Tripoli,under 6,3,780
+children,municipio di Tripoli,under 6,4,120
+children,municipio di Tripoli,under 6,5,0
+children,municipio di Tripoli,under 6,6,0
+children,municipio di Tripoli,under 6,7,0
+children,municipio di Tripoli,under 6,8,0
+children,municipio di Tripoli,under 6,9+,0
+children,municipio di Tripoli,under 6,total,4175
+children,municipio di Tripoli,under 15,1,1429
+children,municipio di Tripoli,under 15,2,2416
+children,municipio di Tripoli,under 15,3,2223
+children,municipio di Tripoli,under 15,4,1572
+children,municipio di Tripoli,under 15,5,1070
+children,municipio di Tripoli,under 15,6,516
+children,municipio di Tripoli,under 15,7,168
+children,municipio di Tripoli,under 15,8,64
+children,municipio di Tripoli,under 15,9+,18
+children,municipio di Tripoli,under 15,total,9476
+children,municipio di Tripoli,under 21,1,1444
+children,municipio di Tripoli,under 21,2,2554
+children,municipio di Tripoli,under 21,3,2505
+children,municipio di Tripoli,under 21,4,1984
+children,municipio di Tripoli,under 21,5,1460
+children,municipio di Tripoli,under 21,6,792
+children,municipio di Tripoli,under 21,7,581
+children,municipio di Tripoli,under 21,8,184
+children,municipio di Tripoli,under 21,9+,83
+children,municipio di Tripoli,under 21,total,11587
+children,municipio di Tripoli,any age,1,1457
+children,municipio di Tripoli,any age,2,2762
+children,municipio di Tripoli,any age,3,2790
+children,municipio di Tripoli,any age,4,2344
+children,municipio di Tripoli,any age,5,1755
+children,municipio di Tripoli,any age,6,1116
+children,municipio di Tripoli,any age,7,770
+children,municipio di Tripoli,any age,8,328
+children,municipio di Tripoli,any age,9+,194
+children,municipio di Tripoli,any age,total,13516

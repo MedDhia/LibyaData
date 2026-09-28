@@ -47,6 +47,9 @@ Libyan sources, with a validation suite. See
 | **1936 census circumscriptions** | the administrative hierarchy, present and resident by sex | 69 |
 | 1936 census municipalities | the 27 municipi created in 1935 | 27 |
 | 1936 census present, absent and resident | settlers only; 45% had no habitual dwelling | 69 |
+| 1936 census settlers by single year of age | present and resident, by sex and civil status | 6,138 |
+| 1936 census settler families and institutions | by social condition of the head, size, children | 2,926 |
+| 1936 census foreigners | by country, and by age, civil status and activity | 676 |
 | **1936 census Libyan population, present** | religion, rite, race, language and way of life | 229 |
 | 1936 census Libyan population, resident | the same, with family heads | 229 |
 | **1936 census Muslim marriages** | monogamous and polygamous, by age of husband and wife | 2,604 |

@@ -1733,6 +1733,53 @@ if kid36.exists():
     notes.append(f"1936 Libyan children: {top['families']:,} families with "
                  f"{top['children']:,} co-resident unmarried children")
 
+set36 = OUT / "istat" / "libya_1936_settler_age.csv"
+if set36.exists():
+    print("\n1936 census tables V to XII, the settler population")
+    sa = pd.read_csv(set36)
+    trouble = []
+    wide = sa.pivot_table(index=["population", "area", "age", "civil_status"],
+                          columns="sex", values="persons", aggfunc="sum")
+    if not (wide.M + wide.F).equals(wide.MF):
+        trouble.append("IX/X M + F != MF")
+    single = sa[~sa.age.str.startswith("gruppo") & (sa.age != "Totale")]
+    ages = single.groupby(["population", "area", "civil_status",
+                           "sex"]).persons.sum()
+    tot = sa[sa.age == "Totale"].set_index(
+        ["population", "area", "civil_status", "sex"]).persons
+    if not ages.sort_index().equals(tot.sort_index()):
+        trouble.append("IX/X ages do not add to the Complesso")
+    iv = pd.read_csv(OUT.parent / "raw" / "istat" /
+                     "libya_1936_table4.csv").set_index("name")
+    checked = 0
+    for pop, when in (("present", "present"), ("resident", "resident")):
+        for area, name in (("Libia", "LIBIA"),
+                           ("di cui municipio di Tripoli",
+                            "Circondario di Tripoli")):
+            for sex, col in (("MF", "mf"), ("F", "f")):
+                got = tot[(pop, area, "all", sex)]
+                if got != iv.loc[name, f"{when}_{col}"]:
+                    trouble.append(f"{pop} {area} {sex} vs table IV")
+                else:
+                    checked += 1
+    fam = pd.read_csv(OUT / "istat" / "libya_1936_settler_families.csv")
+    v = fam[(fam.table == "V")].set_index(
+        ["measure", "area", "condition_of_head"]).value
+    vi = fam[(fam.table == "VI") & (fam.members_in_family == "all")
+             & fam.measure.isin(["families", "members"])].set_index(
+        ["measure", "area", "condition_of_head"]).value
+    if not vi.equals(v.reindex(vi.index)):
+        trouble.append("VI totals differ from V")
+    if trouble:
+        failures.append(f"1936 settlers: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] sexes, civil states and ages reconcile, VI equals V; "
+              f"{checked} totals agree with table IV")
+    notes.append("1936 settlers: families, institutions, single-year ages and "
+                 "foreigners by country, tied to tables II and IV")
+
 print()
 for n in notes:
     print(f"note: {n}")
