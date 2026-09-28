@@ -1,0 +1,133 @@
+order,level,name,libia_mf,libia_f,tripoli_m,tripoli_f,mun_tripoli_m,mun_tripoli_f,misurata_m,misurata_f,mun_misurata_m,mun_misurata_f,bengasi_m,bengasi_f,mun_bengasi_m,mun_bengasi_f,derna_m,derna_f,mun_derna_m,mun_derna_f,territorio_m,territorio_f
+1,categoria,"agricoltura, caccia e pesca",190692,12264,78259,276,1866,9,64806,3945,15115,23,16240,105,3008,6,6335,19,1778,6,12788,7919
+2,classe_parziale,agricoltura,175425,11242,74271,249,1676,9,61919,3935,14477,22,12827,80,2388,5,3822,10,1337,4,11344,6968
+3,professione,"orticultori, floricultori, giardinieri",3023,37,35,1,24,1,248,1,12,0,2045,14,619,1,452,1,240,0,206,20
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",118,2,36,0,2,0,0,0,0,0,5,0,0,0,74,2,73,1,1,0
+5,classe,zootecnia,14921,1022,3776,27,21,0,2846,10,618,1,3329,25,541,1,2504,9,434,2,1444,951
+6,professione,allevatori di bestiame e pastori,14921,1022,3776,27,21,0,2846,10,618,1,3329,25,541,1,2504,9,434,2,1444,951
+7,classe,caccia,3,0,2,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+8,professione,cacciatori,3,0,2,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+9,classe,pesca,343,0,210,0,169,0,40,0,19,0,84,0,79,0,9,0,7,0,0,0
+10,professione,pescatori,343,0,210,0,169,0,40,0,19,0,84,0,79,0,9,0,7,0,0,0
+11,categoria,industria,34863,4303,14651,1951,9266,287,2097,1385,426,1,7611,74,5385,48,5491,13,1869,5,710,880
+12,classe,lavorazione del legno e affini,1022,178,565,7,472,7,87,0,24,0,131,0,119,0,34,0,18,0,27,171
+13,professione,"falegnami, ebanisti, carpentieri in legno",760,0,493,0,401,0,87,0,24,0,127,0,115,0,34,0,18,0,19,0
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",262,178,72,7,71,7,0,0,0,0,4,0,4,0,0,0,0,0,8,171
+15,classe,industrie alimentari,830,12,545,1,402,1,78,0,19,0,158,6,101,5,18,0,1,0,19,5
+16,professione,distillatori,18,1,9,1,9,1,0,0,0,0,8,0,8,0,0,0,0,0,0,0
+17,professione,mugnai,33,0,16,0,6,0,9,0,5,0,7,0,6,0,1,0,1,0,0,0
+18,professione,"fornai, panettieri, pastai",779,11,520,0,387,0,69,0,14,0,143,6,87,5,17,0,0,0,19,5
+19,classe,lavorazione delle spoglie animali,285,4,200,2,139,2,28,0,1,0,40,0,39,0,10,0,10,0,3,2
+20,professione,conciatori di pelli,113,2,80,2,29,2,3,0,1,0,17,0,17,0,10,0,10,0,1,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",172,2,120,0,110,0,25,0,0,0,23,0,22,0,0,0,0,0,2,2
+22,classe,industrie poligrafiche,65,0,46,0,45,0,1,0,0,0,18,0,18,0,0,0,0,0,0,0
+23,professione,fotografi,8,0,7,0,7,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+24,professione,tipografi e legatori,57,0,39,0,38,0,1,0,0,0,17,0,17,0,0,0,0,0,0,0
+25,classe,lavorazione dei metalli,1073,0,748,0,530,0,105,0,30,0,152,0,104,0,37,0,20,0,31,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",563,0,354,0,152,0,91,0,26,0,66,0,42,0,22,0,9,0,30,0
+27,professione,meccanici,176,0,94,0,83,0,8,0,1,0,63,0,44,0,11,0,8,0,0,0
+28,professione,"orafi, argentieri, incisori, orologiai",334,0,300,0,295,0,6,0,3,0,23,0,18,0,4,0,3,0,1,0
+29,classe,lavorazione dei minerali non metallici,111,14,87,2,80,1,1,0,1,0,8,0,7,0,0,0,0,0,1,12
+30,professione,"marmisti, scalpellini",46,0,46,0,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,professione,fabbricanti di oggetti in cemento,10,1,4,1,4,1,0,0,0,0,5,0,4,0,0,0,0,0,0,0
+32,professione,"terracottai, vasai",29,13,13,1,6,0,1,0,1,0,1,0,1,0,0,0,0,0,1,12
+33,professione,vetrai,26,0,24,0,24,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0
+34,classe,costruzioni edilizie e stradali,6461,6,3439,4,3277,4,218,0,38,0,2280,2,1944,2,331,0,299,0,187,0
+35,professione,"muratori, cementisti",780,0,357,0,260,0,102,0,35,0,204,0,157,0,78,0,55,0,39,0
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",5458,6,2927,4,2865,4,97,0,2,0,2028,2,1748,2,252,0,243,0,148,0
+37,professione,decoratori e pittori,223,0,155,0,152,0,19,0,1,0,48,0,39,0,1,0,1,0,0,0
+38,classe,istallatori impianti,276,0,144,0,117,0,25,0,9,0,98,0,89,0,9,0,5,0,0,0
+39,professione,elettricisti,123,0,57,0,56,0,2,0,0,0,60,0,52,0,4,0,2,0,0,0
+40,professione,"idraulici, stagnini",153,0,87,0,61,0,23,0,9,0,38,0,37,0,5,0,3,0,0,0
+41,classe,industrie tessili,4963,3517,1391,1683,1305,87,14,1332,1,0,8,3,8,3,30,2,30,2,3,497
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",4758,3315,1388,1487,1304,31,14,1332,1,0,8,3,8,3,30,2,30,2,3,491
+43,professione,filatori,205,202,3,196,1,56,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+44,classe,"industrie del vestiario, abbigliamento e arredamento",2617,443,1305,225,1136,164,194,52,31,1,417,53,336,33,170,8,89,2,88,105
+45,professione,sarti,1174,184,696,101,601,53,57,8,14,1,168,21,144,14,51,0,18,0,18,54
+46,professione,ricamatori,110,21,80,2,76,2,3,2,1,0,0,0,0,0,0,0,0,0,6,17
+47,professione,"calzolai, ciabattini",1034,2,484,1,414,1,133,0,15,0,237,0,180,0,118,0,70,0,60,1
+48,professione,"tappezzieri, materassai",42,20,14,1,14,1,1,19,1,0,6,0,6,0,1,0,1,0,0,0
+49,professione,"tintori, lavandaie, stiratrici",257,216,31,120,31,107,0,23,0,0,6,32,6,19,0,8,0,2,4,33
+50,classe,igiene ed estetica della persona,385,0,245,0,217,0,46,0,18,0,74,0,61,0,19,0,12,0,1,0
+51,professione,barbieri,316,0,190,0,162,0,43,0,16,0,64,0,51,0,18,0,11,0,1,0
+52,professione,lustrascarpe,69,0,55,0,55,0,3,0,2,0,10,0,10,0,1,0,1,0,0,0
+53,classe,industrie chimiche,21,2,18,2,18,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,21,2,18,2,18,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+55,classe,industrie estrattive,11,0,0,0,0,0,0,0,0,0,9,0,6,0,2,0,0,0,0,0
+56,professione,minatori,11,0,0,0,0,0,0,0,0,0,9,0,6,0,2,0,0,0,0,0
+57,classe,industrie non specificate,25,0,21,0,18,0,4,0,3,0,0,0,0,0,0,0,0,0,0,0
+58,professione,"appaltatori, impresari, industriali",25,0,21,0,18,0,4,0,3,0,0,0,0,0,0,0,0,0,0,0
+59,classe,operai non qualificati,16718,127,5897,25,1510,19,1295,1,250,0,4218,10,2553,5,4831,3,1385,1,350,88
+60,professione,"operai, facchini, garzoni, apprendisti",16718,127,5897,25,1510,19,1295,1,250,0,4218,10,2553,5,4831,3,1385,1,350,88
+61,categoria,trasporti e comunicazioni,3520,2,1206,0,935,0,160,0,73,0,1324,0,1144,0,601,0,227,0,227,2
+62,classe,trasporti,3468,2,1178,0,915,0,159,0,72,0,1308,0,1134,0,598,0,224,0,223,2
+63,professione,trasporti automobilistici,381,0,93,0,76,0,17,0,12,0,182,0,160,0,89,0,55,0,0,0
+64,professione,"cammellieri, carovanieri",271,2,46,0,3,0,0,0,0,0,1,0,1,0,0,0,0,0,222,2
+65,professione,carrettieri,748,0,349,0,285,0,14,0,9,0,362,0,304,0,23,0,6,0,0,0
+66,professione,cocchieri,404,0,241,0,193,0,5,0,1,0,144,0,144,0,14,0,13,0,0,0
+67,professione,trasporti ferroviari e tramviari,133,0,70,0,69,0,0,0,0,0,62,0,39,0,1,0,1,0,0,0
+68,professione,trasporti marittimi,408,0,87,0,85,0,57,0,25,0,185,0,182,0,79,0,66,0,0,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",1061,0,245,0,157,0,65,0,25,0,358,0,290,0,392,0,83,0,1,0
+70,professione,servizi sussidiari dei trasporti,62,0,47,0,47,0,1,0,0,0,14,0,14,0,0,0,0,0,0,0
+71,classe,comunicazioni,52,0,28,0,20,0,1,0,1,0,16,0,10,0,3,0,3,0,4,0
+72,professione,"servizi postali, telegrafici e telefonici",52,0,28,0,20,0,1,0,1,0,16,0,10,0,3,0,3,0,4,0
+73,categoria,commercio,11735,183,6084,109,3926,93,1439,7,507,3,2958,22,2153,19,811,3,527,2,260,42
+74,classe,commercio di generi alimentari,2882,22,1817,18,1409,10,143,0,41,0,734,1,513,1,150,1,108,1,16,2
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",1275,1,834,1,691,1,97,0,29,0,363,0,199,0,65,0,41,0,15,0
+76,professione,vendita di latte,133,2,129,1,92,1,0,0,0,0,2,0,2,0,0,1,0,1,0,0
+77,professione,vendita di pane,167,0,62,0,33,0,13,0,1,0,51,0,44,0,41,0,36,0,0,0
+78,professione,"vendita di frutta, erbaggi e legumi",678,8,402,8,289,0,18,0,9,0,220,0,106,0,30,0,24,0,0,0
+79,professione,vendita di olio,51,0,43,0,35,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",21,0,15,0,14,0,1,0,0,0,4,0,3,0,1,0,1,0,0,0
+81,professione,"vendita di droghe, dolci e simili",111,3,71,3,70,3,0,0,0,0,29,0,24,0,8,0,5,0,0,0
+82,professione,vendita di acqua e gassose,110,8,35,5,31,5,4,0,1,0,57,1,52,1,5,0,1,0,1,2
+83,professione,vendita di generi alimentari diversi,336,0,226,0,154,0,2,0,1,0,108,0,83,0,0,0,0,0,0,0
+84,classe,commercio di generi non alimentari,464,10,202,4,199,4,12,0,1,0,219,1,176,0,13,0,10,0,8,5
+85,professione,vendita di bestiame,7,0,3,0,3,0,0,0,0,0,4,0,4,0,0,0,0,0,0,0
+86,professione,"vendita di metalli, macchine, utensili",18,0,9,0,8,0,1,0,0,0,8,0,7,0,0,0,0,0,0,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",81,2,29,2,29,2,1,0,0,0,46,0,22,0,1,0,1,0,2,0
+88,professione,vendita di oggetti di arredamento,43,7,18,2,18,2,1,0,0,0,14,0,14,0,2,0,2,0,1,5
+89,professione,vendita di prodotti chimici e farmaceutici,261,1,97,0,95,0,8,0,1,0,140,1,122,0,10,0,7,0,5,0
+90,professione,"vendita di cartoleria, riviste e giornali",28,0,26,0,26,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+91,professione,vendita di oggetti usati,26,0,20,0,20,0,0,0,0,0,6,0,6,0,0,0,0,0,0,0
+92,classe,esercizi pubblici,1002,24,463,12,400,8,72,2,21,0,319,10,238,10,113,0,69,0,11,0
+93,professione,"alberghi, locande, affittacamere",181,15,51,5,49,5,6,0,1,0,79,10,63,10,30,0,26,0,0,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",307,9,190,7,169,3,26,2,10,0,63,0,42,0,11,0,7,0,8,0
+95,professione,"caffe, gelaterie, bar",514,0,222,0,182,0,40,0,10,0,177,0,133,0,72,0,36,0,3,0
+96,classe,attivita ausiliarie del commercio,607,9,245,1,184,1,61,0,22,0,213,1,180,1,75,1,49,1,4,6
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",456,8,215,0,161,0,41,0,13,0,136,1,123,1,54,1,40,1,2,6
+98,professione,banditori,137,1,28,1,21,1,17,0,9,0,77,0,57,0,12,0,9,0,2,0
+99,professione,guardiani depositi generali,14,0,2,0,2,0,3,0,0,0,0,0,0,0,9,0,0,0,0,0
+100,classe,attivita commerciali non specificate,6780,118,3357,74,1734,70,1151,5,422,3,1473,9,1046,7,460,1,291,0,221,29
+101,professione,"commercianti, bottegai, mercanti",5300,44,2441,12,1069,9,1026,4,389,2,1180,5,786,3,428,1,271,0,181,22
+102,professione,venditori ambulanti,890,21,582,9,332,8,110,1,33,1,118,4,91,4,19,0,14,0,40,7
+103,professione,commessi di negozio,590,53,334,53,333,53,15,0,0,0,175,0,169,0,13,0,6,0,0,0
+104,categoria,"attivita ed arti libere, culto",935,45,490,11,209,10,173,32,49,0,143,2,88,2,41,0,14,0,43,0
+105,classe,attivita ed arti libere,103,41,34,10,24,9,4,30,3,0,19,1,15,1,4,0,3,0,1,0
+106,professione,attivita ed arti libere (professione),103,41,34,10,24,9,4,30,3,0,19,1,15,1,4,0,3,0,1,0
+107,classe,piccoli mestieri autonomi,59,4,32,1,28,1,19,2,0,0,0,1,0,1,0,0,0,0,4,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",59,4,32,1,28,1,19,2,0,0,0,1,0,1,0,0,0,0,4,0
+109,classe,culto,773,0,424,0,157,0,150,0,46,0,124,0,73,0,37,0,11,0,38,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",476,0,291,0,139,0,101,0,42,0,47,0,37,0,12,0,5,0,25,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",297,0,133,0,18,0,49,0,4,0,77,0,36,0,25,0,6,0,13,0
+112,categoria,amministrazione pubblica e privata,16167,62,9054,50,2942,46,751,1,82,1,4643,10,1440,9,1119,1,455,1,538,0
+113,classe_parziale,amministrazione pubblica,15908,61,8916,49,2850,45,729,1,75,1,4557,10,1369,9,1113,1,454,1,532,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",492,0,270,0,11,0,99,0,5,0,37,0,22,0,28,0,4,0,58,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,81,0,38,0,6,0,9,0,2,0,18,0,10,0,8,0,2,0,8,0
+116,professione,insegnanti,473,17,211,11,95,9,68,0,13,0,112,5,67,5,35,1,25,1,30,0
+117,professione,interpreti,18,0,7,0,5,0,2,0,0,0,5,0,4,0,3,0,0,0,1,0
+118,professione,"assistenti sanitari, infermieri",166,15,89,13,66,13,10,0,3,0,37,2,32,1,13,0,9,0,2,0
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",805,14,507,13,429,13,39,0,10,0,163,1,115,1,55,0,31,0,27,0
+120,professione,"bidelli, uscieri, custodi, fattorini",1272,15,673,12,514,10,76,1,21,1,353,2,239,2,133,0,61,0,22,0
+121,classe,amministrazione privata,259,1,138,1,92,1,22,0,7,0,86,0,71,0,6,0,1,0,6,0
+122,professione,amministrazione privata (professione),259,1,138,1,92,1,22,0,7,0,86,0,71,0,6,0,1,0,6,0
+123,categoria,economia domestica,1795,1280,250,719,156,623,43,96,14,9,148,251,109,191,21,29,17,17,53,185
+124,professione,addetti ai servizi domestici,1795,1280,250,719,156,623,43,96,14,9,148,251,109,191,21,29,17,17,53,185
+125,categoria,condizioni non professionali,248578,237061,6779,112494,3756,21955,934,66695,235,17033,2136,34667,1599,15478,1022,14662,662,5480,646,8543
+126,professione,proprietari e benestanti,745,94,182,54,165,47,52,9,7,6,210,8,191,5,48,1,35,1,159,22
+127,professione,"scolari, studenti, studiosi di corano",9729,1033,5436,724,3174,662,693,64,221,12,1383,113,1004,111,778,123,551,97,406,9
+128,professione,attendenti alle cure domestiche,233477,233477,0,110648,0,21067,0,65989,0,17000,0,34094,0,15187,0,14355,0,5325,0,8391
+129,professione,altre condizioni non professionali,4627,2457,1161,1068,417,179,189,633,7,15,543,452,404,175,196,183,76,57,81,121
+130,categoria,senza indicazione di attivita professionale,21628,335,8873,197,641,64,6971,82,1050,18,2935,23,1116,13,1438,11,525,8,1076,22
+131,professione,persone senza indicazione di professione o condizione,21628,335,8873,197,641,64,6971,82,1050,18,2935,23,1116,13,1438,11,525,8,1076,22
+132,totale,totale generale,529913,255535,125646,115807,23697,23087,77374,72243,17551,17088,38138,35154,16042,15766,16879,14738,6074,5519,16341,17593

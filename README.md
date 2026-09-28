@@ -54,6 +54,7 @@ Libyan sources, with a validation suite. See
 | 1936 census Libyans in institutions | hospitals, schools, prisons, work camps | 210 |
 | **1936 census Libyans by age and civil status** | by sex and religion, per province | 7,182 |
 | 1936 census Libyans by economic activity | by sex and religion; and by circumscription and way of life | 1,129 |
+| 1936 census Libyans by profession | 91 professions, by province and sex, and by age | 5,280 |
 | 1931 census circumscriptions | area and four populations, Tripolitania and Cyrenaica | 18 |
 | **1931 census districts** | two levels below, with the sex breakdown, transcribed by hand | 106 |
 | 1931 census present, absent and resident | the settler population only, by sex | 51 |

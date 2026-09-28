@@ -1482,6 +1482,49 @@ under ten. One cell corrected: the Circondario di Barce's agriculture prints a
 worn bold figure that reads 4,319; its row, its three distretti and its
 province each give 4,819.
 
+#### Libyans by profession — tables XXXIII and XXXIV, two files
+
+Published by `scripts/extract_istat_1936_libyan_professions.py`, transcribed by
+eye from eight pages. Both files are long and share `order`, `level` and
+`profession`: 132 lines, being 9 categories of activity, 30 classes, 91
+numbered professions or conditions and the grand total.
+
+| File | Table | One row per |
+|---|---|---|
+| `libya_1936_libyan_professions.csv` | XXXIII | profession, area, sex: `persons`. Areas are Libya (MF and F printed), each province and the Territorio (M and F), and the four municipi as `di cui` lines. A `note` column carries the one correction to the source |
+| `libya_1936_libyan_professions_age.csv` | XXXIV | profession, age class (10-14, 15-17, 18-20, 21-24, 25-34, 35-44, 45-54, 55-64, 65+, `ignota`), sex: `persons`. Libya only |
+
+`level` is `categoria`, `classe`, `classe_parziale`, `professione` or `totale`.
+A `classe_parziale` (agriculture, public administration) lists its professions
+only `di cui`, so they do not add up to it; every other class does. All lines
+count Libyans resident aged 10 and over.
+
+These are the occupations the census chose to name, and several belong to
+Libya alone: 271 camel drivers and caravan men, 222 of them in the Territorio;
+118 palm tappers who drew `leghbi`; 297 Quran teachers and 476 mosque heads,
+imams, muezzins and rabbis; 492 mudirs, muktars, cabila heads and heads of
+zawiya in the native administration; 81 judges and clerks of the sharia and
+rabbinical courts. 4,758 weavers, 3,315 of them women; 16,718 unskilled
+labourers, porters and apprentices; 233,477 women counted as attending to the
+household.
+
+**Checks.** In XXXIII, Libya's MF equals its F plus the men of the four
+provinces and the Territorio, its F equals the women of the five, and no
+municipio exceeds its province. In both tables professions add to their class,
+classes and conditions to their category, categories to the total. XXXIV's age
+classes add to every line's MF and F, which equal XXXIII's. Across tables,
+XXXIII's nine categories and its total equal table XXXI's for every area and
+sex (200 figures), and XXXIV's grand total by age equals table XXX's
+population once XXX's five-year classes are grouped (16 figures).
+
+**One misprint in the source.** XXXIII prints 363 men selling meat, poultry,
+eggs and fish in the Provincia di Bengasi, clearly; the Libyan total for that
+line, the class of food commerce and the category of commerce all require 263.
+The raw file keeps the printed 363; the published file carries 263 with the
+reason in `note`. Three cells of XXXIV were misread and corrected where two
+sums agreed: 17,086 men of 65 and over in agriculture, 1,285 men of 15 to 17
+without a stated profession, 13 women tailors aged 21 to 24.
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

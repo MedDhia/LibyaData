@@ -201,8 +201,12 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    the Libyan population by category of economic activity, by sex and religion, and by
    circumscription and dimora. All 229 lines of XXXII carry table XXII's residents.
 
-   The rest of the volume's Libyan tables are being transcribed in batches: XXXIII, XXXIV and XXV
-   for the Libyan population, then V to XIX for the settlers.
+   **Tables XXXIII and XXXIV are read too**, by `scripts/extract_istat_1936_libyan_professions.py`:
+   91 professions by province and sex, and by age. They carry the one misprint found so far in the
+   volume, 363 for 263 meat sellers in Bengasi, kept in the raw file and corrected with a note.
+
+   The rest of the volume's Libyan tables are being transcribed in batches: XXV for the Libyan
+   population, then V to XIX for the settlers.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

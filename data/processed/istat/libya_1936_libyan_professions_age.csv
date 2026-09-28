@@ -1,0 +1,2641 @@
+order,level,profession,age,sex,persons
+1,categoria,"agricoltura, caccia e pesca",10-14,M,17376
+1,categoria,"agricoltura, caccia e pesca",10-14,F,1018
+1,categoria,"agricoltura, caccia e pesca",15-17,M,9880
+1,categoria,"agricoltura, caccia e pesca",15-17,F,606
+1,categoria,"agricoltura, caccia e pesca",18-20,M,11124
+1,categoria,"agricoltura, caccia e pesca",18-20,F,1081
+1,categoria,"agricoltura, caccia e pesca",21-24,M,6483
+1,categoria,"agricoltura, caccia e pesca",21-24,F,712
+1,categoria,"agricoltura, caccia e pesca",25-34,M,33675
+1,categoria,"agricoltura, caccia e pesca",25-34,F,3003
+1,categoria,"agricoltura, caccia e pesca",35-44,M,34560
+1,categoria,"agricoltura, caccia e pesca",35-44,F,2449
+1,categoria,"agricoltura, caccia e pesca",45-54,M,28245
+1,categoria,"agricoltura, caccia e pesca",45-54,F,1788
+1,categoria,"agricoltura, caccia e pesca",55-64,M,19913
+1,categoria,"agricoltura, caccia e pesca",55-64,F,1020
+1,categoria,"agricoltura, caccia e pesca",65+,M,17086
+1,categoria,"agricoltura, caccia e pesca",65+,F,575
+1,categoria,"agricoltura, caccia e pesca",ignota,M,86
+1,categoria,"agricoltura, caccia e pesca",ignota,F,12
+2,classe_parziale,agricoltura,10-14,M,15152
+2,classe_parziale,agricoltura,10-14,F,873
+2,classe_parziale,agricoltura,15-17,M,8618
+2,classe_parziale,agricoltura,15-17,F,526
+2,classe_parziale,agricoltura,18-20,M,10075
+2,classe_parziale,agricoltura,18-20,F,983
+2,classe_parziale,agricoltura,21-24,M,5905
+2,classe_parziale,agricoltura,21-24,F,634
+2,classe_parziale,agricoltura,25-34,M,30832
+2,classe_parziale,agricoltura,25-34,F,2787
+2,classe_parziale,agricoltura,35-44,M,32070
+2,classe_parziale,agricoltura,35-44,F,2269
+2,classe_parziale,agricoltura,45-54,M,26514
+2,classe_parziale,agricoltura,45-54,F,1656
+2,classe_parziale,agricoltura,55-64,M,18683
+2,classe_parziale,agricoltura,55-64,F,962
+2,classe_parziale,agricoltura,65+,M,16260
+2,classe_parziale,agricoltura,65+,F,541
+2,classe_parziale,agricoltura,ignota,M,74
+2,classe_parziale,agricoltura,ignota,F,11
+3,professione,"orticultori, floricultori, giardinieri",10-14,M,185
+3,professione,"orticultori, floricultori, giardinieri",10-14,F,6
+3,professione,"orticultori, floricultori, giardinieri",15-17,M,145
+3,professione,"orticultori, floricultori, giardinieri",15-17,F,3
+3,professione,"orticultori, floricultori, giardinieri",18-20,M,154
+3,professione,"orticultori, floricultori, giardinieri",18-20,F,2
+3,professione,"orticultori, floricultori, giardinieri",21-24,M,102
+3,professione,"orticultori, floricultori, giardinieri",21-24,F,3
+3,professione,"orticultori, floricultori, giardinieri",25-34,M,545
+3,professione,"orticultori, floricultori, giardinieri",25-34,F,7
+3,professione,"orticultori, floricultori, giardinieri",35-44,M,593
+3,professione,"orticultori, floricultori, giardinieri",35-44,F,8
+3,professione,"orticultori, floricultori, giardinieri",45-54,M,564
+3,professione,"orticultori, floricultori, giardinieri",45-54,F,6
+3,professione,"orticultori, floricultori, giardinieri",55-64,M,398
+3,professione,"orticultori, floricultori, giardinieri",55-64,F,1
+3,professione,"orticultori, floricultori, giardinieri",65+,M,299
+3,professione,"orticultori, floricultori, giardinieri",65+,F,1
+3,professione,"orticultori, floricultori, giardinieri",ignota,M,1
+3,professione,"orticultori, floricultori, giardinieri",ignota,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",10-14,M,1
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",10-14,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",15-17,M,1
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",15-17,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",18-20,M,1
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",18-20,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",21-24,M,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",21-24,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",25-34,M,22
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",25-34,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",35-44,M,40
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",35-44,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",45-54,M,35
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",45-54,F,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",55-64,M,8
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",55-64,F,1
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",65+,M,8
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",65+,F,1
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",ignota,M,0
+4,professione,"boscaioli, piantatori di palme, incisori di palme per il leghbi",ignota,F,0
+5,classe,zootecnia,10-14,M,2221
+5,classe,zootecnia,10-14,F,145
+5,classe,zootecnia,15-17,M,1257
+5,classe,zootecnia,15-17,F,80
+5,classe,zootecnia,18-20,M,1036
+5,classe,zootecnia,18-20,F,98
+5,classe,zootecnia,21-24,M,569
+5,classe,zootecnia,21-24,F,78
+5,classe,zootecnia,25-34,M,2764
+5,classe,zootecnia,25-34,F,216
+5,classe,zootecnia,35-44,M,2391
+5,classe,zootecnia,35-44,F,180
+5,classe,zootecnia,45-54,M,1671
+5,classe,zootecnia,45-54,F,132
+5,classe,zootecnia,55-64,M,1187
+5,classe,zootecnia,55-64,F,58
+5,classe,zootecnia,65+,M,793
+5,classe,zootecnia,65+,F,34
+5,classe,zootecnia,ignota,M,10
+5,classe,zootecnia,ignota,F,1
+6,professione,allevatori di bestiame e pastori,10-14,M,2221
+6,professione,allevatori di bestiame e pastori,10-14,F,145
+6,professione,allevatori di bestiame e pastori,15-17,M,1257
+6,professione,allevatori di bestiame e pastori,15-17,F,80
+6,professione,allevatori di bestiame e pastori,18-20,M,1036
+6,professione,allevatori di bestiame e pastori,18-20,F,98
+6,professione,allevatori di bestiame e pastori,21-24,M,569
+6,professione,allevatori di bestiame e pastori,21-24,F,78
+6,professione,allevatori di bestiame e pastori,25-34,M,2764
+6,professione,allevatori di bestiame e pastori,25-34,F,216
+6,professione,allevatori di bestiame e pastori,35-44,M,2391
+6,professione,allevatori di bestiame e pastori,35-44,F,180
+6,professione,allevatori di bestiame e pastori,45-54,M,1671
+6,professione,allevatori di bestiame e pastori,45-54,F,132
+6,professione,allevatori di bestiame e pastori,55-64,M,1187
+6,professione,allevatori di bestiame e pastori,55-64,F,58
+6,professione,allevatori di bestiame e pastori,65+,M,793
+6,professione,allevatori di bestiame e pastori,65+,F,34
+6,professione,allevatori di bestiame e pastori,ignota,M,10
+6,professione,allevatori di bestiame e pastori,ignota,F,1
+7,classe,caccia,10-14,M,0
+7,classe,caccia,10-14,F,0
+7,classe,caccia,15-17,M,0
+7,classe,caccia,15-17,F,0
+7,classe,caccia,18-20,M,0
+7,classe,caccia,18-20,F,0
+7,classe,caccia,21-24,M,0
+7,classe,caccia,21-24,F,0
+7,classe,caccia,25-34,M,0
+7,classe,caccia,25-34,F,0
+7,classe,caccia,35-44,M,2
+7,classe,caccia,35-44,F,0
+7,classe,caccia,45-54,M,1
+7,classe,caccia,45-54,F,0
+7,classe,caccia,55-64,M,0
+7,classe,caccia,55-64,F,0
+7,classe,caccia,65+,M,0
+7,classe,caccia,65+,F,0
+7,classe,caccia,ignota,M,0
+7,classe,caccia,ignota,F,0
+8,professione,cacciatori,10-14,M,0
+8,professione,cacciatori,10-14,F,0
+8,professione,cacciatori,15-17,M,0
+8,professione,cacciatori,15-17,F,0
+8,professione,cacciatori,18-20,M,0
+8,professione,cacciatori,18-20,F,0
+8,professione,cacciatori,21-24,M,0
+8,professione,cacciatori,21-24,F,0
+8,professione,cacciatori,25-34,M,0
+8,professione,cacciatori,25-34,F,0
+8,professione,cacciatori,35-44,M,2
+8,professione,cacciatori,35-44,F,0
+8,professione,cacciatori,45-54,M,1
+8,professione,cacciatori,45-54,F,0
+8,professione,cacciatori,55-64,M,0
+8,professione,cacciatori,55-64,F,0
+8,professione,cacciatori,65+,M,0
+8,professione,cacciatori,65+,F,0
+8,professione,cacciatori,ignota,M,0
+8,professione,cacciatori,ignota,F,0
+9,classe,pesca,10-14,M,3
+9,classe,pesca,10-14,F,0
+9,classe,pesca,15-17,M,5
+9,classe,pesca,15-17,F,0
+9,classe,pesca,18-20,M,13
+9,classe,pesca,18-20,F,0
+9,classe,pesca,21-24,M,9
+9,classe,pesca,21-24,F,0
+9,classe,pesca,25-34,M,79
+9,classe,pesca,25-34,F,0
+9,classe,pesca,35-44,M,97
+9,classe,pesca,35-44,F,0
+9,classe,pesca,45-54,M,59
+9,classe,pesca,45-54,F,0
+9,classe,pesca,55-64,M,43
+9,classe,pesca,55-64,F,0
+9,classe,pesca,65+,M,33
+9,classe,pesca,65+,F,0
+9,classe,pesca,ignota,M,2
+9,classe,pesca,ignota,F,0
+10,professione,pescatori,10-14,M,3
+10,professione,pescatori,10-14,F,0
+10,professione,pescatori,15-17,M,5
+10,professione,pescatori,15-17,F,0
+10,professione,pescatori,18-20,M,13
+10,professione,pescatori,18-20,F,0
+10,professione,pescatori,21-24,M,9
+10,professione,pescatori,21-24,F,0
+10,professione,pescatori,25-34,M,79
+10,professione,pescatori,25-34,F,0
+10,professione,pescatori,35-44,M,97
+10,professione,pescatori,35-44,F,0
+10,professione,pescatori,45-54,M,59
+10,professione,pescatori,45-54,F,0
+10,professione,pescatori,55-64,M,43
+10,professione,pescatori,55-64,F,0
+10,professione,pescatori,65+,M,33
+10,professione,pescatori,65+,F,0
+10,professione,pescatori,ignota,M,2
+10,professione,pescatori,ignota,F,0
+11,categoria,industria,10-14,M,1676
+11,categoria,industria,10-14,F,405
+11,categoria,industria,15-17,M,2109
+11,categoria,industria,15-17,F,293
+11,categoria,industria,18-20,M,2508
+11,categoria,industria,18-20,F,361
+11,categoria,industria,21-24,M,1762
+11,categoria,industria,21-24,F,146
+11,categoria,industria,25-34,M,7518
+11,categoria,industria,25-34,F,971
+11,categoria,industria,35-44,M,6496
+11,categoria,industria,35-44,F,901
+11,categoria,industria,45-54,M,4518
+11,categoria,industria,45-54,F,603
+11,categoria,industria,55-64,M,2493
+11,categoria,industria,55-64,F,350
+11,categoria,industria,65+,M,1460
+11,categoria,industria,65+,F,269
+11,categoria,industria,ignota,M,20
+11,categoria,industria,ignota,F,4
+12,classe,lavorazione del legno e affini,10-14,M,45
+12,classe,lavorazione del legno e affini,10-14,F,17
+12,classe,lavorazione del legno e affini,15-17,M,56
+12,classe,lavorazione del legno e affini,15-17,F,18
+12,classe,lavorazione del legno e affini,18-20,M,71
+12,classe,lavorazione del legno e affini,18-20,F,17
+12,classe,lavorazione del legno e affini,21-24,M,61
+12,classe,lavorazione del legno e affini,21-24,F,10
+12,classe,lavorazione del legno e affini,25-34,M,149
+12,classe,lavorazione del legno e affini,25-34,F,41
+12,classe,lavorazione del legno e affini,35-44,M,145
+12,classe,lavorazione del legno e affini,35-44,F,25
+12,classe,lavorazione del legno e affini,45-54,M,137
+12,classe,lavorazione del legno e affini,45-54,F,23
+12,classe,lavorazione del legno e affini,55-64,M,101
+12,classe,lavorazione del legno e affini,55-64,F,18
+12,classe,lavorazione del legno e affini,65+,M,79
+12,classe,lavorazione del legno e affini,65+,F,9
+12,classe,lavorazione del legno e affini,ignota,M,0
+12,classe,lavorazione del legno e affini,ignota,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",10-14,M,34
+13,professione,"falegnami, ebanisti, carpentieri in legno",10-14,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",15-17,M,52
+13,professione,"falegnami, ebanisti, carpentieri in legno",15-17,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",18-20,M,68
+13,professione,"falegnami, ebanisti, carpentieri in legno",18-20,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",21-24,M,60
+13,professione,"falegnami, ebanisti, carpentieri in legno",21-24,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",25-34,M,146
+13,professione,"falegnami, ebanisti, carpentieri in legno",25-34,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",35-44,M,136
+13,professione,"falegnami, ebanisti, carpentieri in legno",35-44,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",45-54,M,116
+13,professione,"falegnami, ebanisti, carpentieri in legno",45-54,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",55-64,M,87
+13,professione,"falegnami, ebanisti, carpentieri in legno",55-64,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",65+,M,61
+13,professione,"falegnami, ebanisti, carpentieri in legno",65+,F,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",ignota,M,0
+13,professione,"falegnami, ebanisti, carpentieri in legno",ignota,F,0
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",10-14,M,11
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",10-14,F,17
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",15-17,M,4
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",15-17,F,18
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",18-20,M,3
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",18-20,F,17
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",21-24,M,1
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",21-24,F,10
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",25-34,M,3
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",25-34,F,41
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",35-44,M,9
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",35-44,F,25
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",45-54,M,21
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",45-54,F,23
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",55-64,M,14
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",55-64,F,18
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",65+,M,18
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",65+,F,9
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",ignota,M,0
+14,professione,"cestai, lavoranti in vimini, fabbricanti di scope e stuoie",ignota,F,0
+15,classe,industrie alimentari,10-14,M,20
+15,classe,industrie alimentari,10-14,F,0
+15,classe,industrie alimentari,15-17,M,28
+15,classe,industrie alimentari,15-17,F,0
+15,classe,industrie alimentari,18-20,M,50
+15,classe,industrie alimentari,18-20,F,1
+15,classe,industrie alimentari,21-24,M,53
+15,classe,industrie alimentari,21-24,F,0
+15,classe,industrie alimentari,25-34,M,187
+15,classe,industrie alimentari,25-34,F,1
+15,classe,industrie alimentari,35-44,M,198
+15,classe,industrie alimentari,35-44,F,3
+15,classe,industrie alimentari,45-54,M,156
+15,classe,industrie alimentari,45-54,F,3
+15,classe,industrie alimentari,55-64,M,87
+15,classe,industrie alimentari,55-64,F,2
+15,classe,industrie alimentari,65+,M,37
+15,classe,industrie alimentari,65+,F,2
+15,classe,industrie alimentari,ignota,M,2
+15,classe,industrie alimentari,ignota,F,0
+16,professione,distillatori,10-14,M,0
+16,professione,distillatori,10-14,F,0
+16,professione,distillatori,15-17,M,0
+16,professione,distillatori,15-17,F,0
+16,professione,distillatori,18-20,M,0
+16,professione,distillatori,18-20,F,0
+16,professione,distillatori,21-24,M,1
+16,professione,distillatori,21-24,F,0
+16,professione,distillatori,25-34,M,3
+16,professione,distillatori,25-34,F,0
+16,professione,distillatori,35-44,M,4
+16,professione,distillatori,35-44,F,0
+16,professione,distillatori,45-54,M,8
+16,professione,distillatori,45-54,F,0
+16,professione,distillatori,55-64,M,1
+16,professione,distillatori,55-64,F,0
+16,professione,distillatori,65+,M,0
+16,professione,distillatori,65+,F,1
+16,professione,distillatori,ignota,M,0
+16,professione,distillatori,ignota,F,0
+17,professione,mugnai,10-14,M,1
+17,professione,mugnai,10-14,F,0
+17,professione,mugnai,15-17,M,2
+17,professione,mugnai,15-17,F,0
+17,professione,mugnai,18-20,M,0
+17,professione,mugnai,18-20,F,0
+17,professione,mugnai,21-24,M,3
+17,professione,mugnai,21-24,F,0
+17,professione,mugnai,25-34,M,5
+17,professione,mugnai,25-34,F,0
+17,professione,mugnai,35-44,M,5
+17,professione,mugnai,35-44,F,0
+17,professione,mugnai,45-54,M,6
+17,professione,mugnai,45-54,F,0
+17,professione,mugnai,55-64,M,4
+17,professione,mugnai,55-64,F,0
+17,professione,mugnai,65+,M,7
+17,professione,mugnai,65+,F,0
+17,professione,mugnai,ignota,M,0
+17,professione,mugnai,ignota,F,0
+18,professione,"fornai, panettieri, pastai",10-14,M,19
+18,professione,"fornai, panettieri, pastai",10-14,F,0
+18,professione,"fornai, panettieri, pastai",15-17,M,26
+18,professione,"fornai, panettieri, pastai",15-17,F,0
+18,professione,"fornai, panettieri, pastai",18-20,M,50
+18,professione,"fornai, panettieri, pastai",18-20,F,1
+18,professione,"fornai, panettieri, pastai",21-24,M,49
+18,professione,"fornai, panettieri, pastai",21-24,F,0
+18,professione,"fornai, panettieri, pastai",25-34,M,179
+18,professione,"fornai, panettieri, pastai",25-34,F,1
+18,professione,"fornai, panettieri, pastai",35-44,M,189
+18,professione,"fornai, panettieri, pastai",35-44,F,3
+18,professione,"fornai, panettieri, pastai",45-54,M,142
+18,professione,"fornai, panettieri, pastai",45-54,F,3
+18,professione,"fornai, panettieri, pastai",55-64,M,82
+18,professione,"fornai, panettieri, pastai",55-64,F,2
+18,professione,"fornai, panettieri, pastai",65+,M,30
+18,professione,"fornai, panettieri, pastai",65+,F,1
+18,professione,"fornai, panettieri, pastai",ignota,M,2
+18,professione,"fornai, panettieri, pastai",ignota,F,0
+19,classe,lavorazione delle spoglie animali,10-14,M,3
+19,classe,lavorazione delle spoglie animali,10-14,F,0
+19,classe,lavorazione delle spoglie animali,15-17,M,20
+19,classe,lavorazione delle spoglie animali,15-17,F,1
+19,classe,lavorazione delle spoglie animali,18-20,M,16
+19,classe,lavorazione delle spoglie animali,18-20,F,0
+19,classe,lavorazione delle spoglie animali,21-24,M,11
+19,classe,lavorazione delle spoglie animali,21-24,F,0
+19,classe,lavorazione delle spoglie animali,25-34,M,63
+19,classe,lavorazione delle spoglie animali,25-34,F,0
+19,classe,lavorazione delle spoglie animali,35-44,M,49
+19,classe,lavorazione delle spoglie animali,35-44,F,1
+19,classe,lavorazione delle spoglie animali,45-54,M,51
+19,classe,lavorazione delle spoglie animali,45-54,F,0
+19,classe,lavorazione delle spoglie animali,55-64,M,31
+19,classe,lavorazione delle spoglie animali,55-64,F,1
+19,classe,lavorazione delle spoglie animali,65+,M,37
+19,classe,lavorazione delle spoglie animali,65+,F,1
+19,classe,lavorazione delle spoglie animali,ignota,M,0
+19,classe,lavorazione delle spoglie animali,ignota,F,0
+20,professione,conciatori di pelli,10-14,M,1
+20,professione,conciatori di pelli,10-14,F,0
+20,professione,conciatori di pelli,15-17,M,9
+20,professione,conciatori di pelli,15-17,F,0
+20,professione,conciatori di pelli,18-20,M,5
+20,professione,conciatori di pelli,18-20,F,0
+20,professione,conciatori di pelli,21-24,M,0
+20,professione,conciatori di pelli,21-24,F,0
+20,professione,conciatori di pelli,25-34,M,18
+20,professione,conciatori di pelli,25-34,F,0
+20,professione,conciatori di pelli,35-44,M,10
+20,professione,conciatori di pelli,35-44,F,0
+20,professione,conciatori di pelli,45-54,M,28
+20,professione,conciatori di pelli,45-54,F,0
+20,professione,conciatori di pelli,55-64,M,21
+20,professione,conciatori di pelli,55-64,F,1
+20,professione,conciatori di pelli,65+,M,19
+20,professione,conciatori di pelli,65+,F,1
+20,professione,conciatori di pelli,ignota,M,0
+20,professione,conciatori di pelli,ignota,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",10-14,M,2
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",10-14,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",15-17,M,11
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",15-17,F,1
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",18-20,M,11
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",18-20,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",21-24,M,11
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",21-24,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",25-34,M,45
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",25-34,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",35-44,M,39
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",35-44,F,1
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",45-54,M,23
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",45-54,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",55-64,M,10
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",55-64,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",65+,M,18
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",65+,F,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",ignota,M,0
+21,professione,"sellai, cucitori di ghirbe, fabbricanti di cinghie e borse",ignota,F,0
+22,classe,industrie poligrafiche,10-14,M,0
+22,classe,industrie poligrafiche,10-14,F,0
+22,classe,industrie poligrafiche,15-17,M,8
+22,classe,industrie poligrafiche,15-17,F,0
+22,classe,industrie poligrafiche,18-20,M,12
+22,classe,industrie poligrafiche,18-20,F,0
+22,classe,industrie poligrafiche,21-24,M,12
+22,classe,industrie poligrafiche,21-24,F,0
+22,classe,industrie poligrafiche,25-34,M,20
+22,classe,industrie poligrafiche,25-34,F,0
+22,classe,industrie poligrafiche,35-44,M,10
+22,classe,industrie poligrafiche,35-44,F,0
+22,classe,industrie poligrafiche,45-54,M,1
+22,classe,industrie poligrafiche,45-54,F,0
+22,classe,industrie poligrafiche,55-64,M,0
+22,classe,industrie poligrafiche,55-64,F,0
+22,classe,industrie poligrafiche,65+,M,2
+22,classe,industrie poligrafiche,65+,F,0
+22,classe,industrie poligrafiche,ignota,M,0
+22,classe,industrie poligrafiche,ignota,F,0
+23,professione,fotografi,10-14,M,0
+23,professione,fotografi,10-14,F,0
+23,professione,fotografi,15-17,M,2
+23,professione,fotografi,15-17,F,0
+23,professione,fotografi,18-20,M,2
+23,professione,fotografi,18-20,F,0
+23,professione,fotografi,21-24,M,1
+23,professione,fotografi,21-24,F,0
+23,professione,fotografi,25-34,M,2
+23,professione,fotografi,25-34,F,0
+23,professione,fotografi,35-44,M,1
+23,professione,fotografi,35-44,F,0
+23,professione,fotografi,45-54,M,0
+23,professione,fotografi,45-54,F,0
+23,professione,fotografi,55-64,M,0
+23,professione,fotografi,55-64,F,0
+23,professione,fotografi,65+,M,0
+23,professione,fotografi,65+,F,0
+23,professione,fotografi,ignota,M,0
+23,professione,fotografi,ignota,F,0
+24,professione,tipografi e legatori,10-14,M,0
+24,professione,tipografi e legatori,10-14,F,0
+24,professione,tipografi e legatori,15-17,M,6
+24,professione,tipografi e legatori,15-17,F,0
+24,professione,tipografi e legatori,18-20,M,10
+24,professione,tipografi e legatori,18-20,F,0
+24,professione,tipografi e legatori,21-24,M,11
+24,professione,tipografi e legatori,21-24,F,0
+24,professione,tipografi e legatori,25-34,M,18
+24,professione,tipografi e legatori,25-34,F,0
+24,professione,tipografi e legatori,35-44,M,9
+24,professione,tipografi e legatori,35-44,F,0
+24,professione,tipografi e legatori,45-54,M,1
+24,professione,tipografi e legatori,45-54,F,0
+24,professione,tipografi e legatori,55-64,M,0
+24,professione,tipografi e legatori,55-64,F,0
+24,professione,tipografi e legatori,65+,M,2
+24,professione,tipografi e legatori,65+,F,0
+24,professione,tipografi e legatori,ignota,M,0
+24,professione,tipografi e legatori,ignota,F,0
+25,classe,lavorazione dei metalli,10-14,M,38
+25,classe,lavorazione dei metalli,10-14,F,0
+25,classe,lavorazione dei metalli,15-17,M,82
+25,classe,lavorazione dei metalli,15-17,F,0
+25,classe,lavorazione dei metalli,18-20,M,84
+25,classe,lavorazione dei metalli,18-20,F,0
+25,classe,lavorazione dei metalli,21-24,M,75
+25,classe,lavorazione dei metalli,21-24,F,0
+25,classe,lavorazione dei metalli,25-34,M,216
+25,classe,lavorazione dei metalli,25-34,F,0
+25,classe,lavorazione dei metalli,35-44,M,197
+25,classe,lavorazione dei metalli,35-44,F,0
+25,classe,lavorazione dei metalli,45-54,M,162
+25,classe,lavorazione dei metalli,45-54,F,0
+25,classe,lavorazione dei metalli,55-64,M,124
+25,classe,lavorazione dei metalli,55-64,F,0
+25,classe,lavorazione dei metalli,65+,M,94
+25,classe,lavorazione dei metalli,65+,F,0
+25,classe,lavorazione dei metalli,ignota,M,1
+25,classe,lavorazione dei metalli,ignota,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",10-14,M,26
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",10-14,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",15-17,M,37
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",15-17,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",18-20,M,39
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",18-20,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",21-24,M,23
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",21-24,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",25-34,M,85
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",25-34,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",35-44,M,99
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",35-44,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",45-54,M,104
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",45-54,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",55-64,M,77
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",55-64,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",65+,M,72
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",65+,F,0
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",ignota,M,1
+26,professione,"fabbriferrai, maniscalchi, ramai, calderai",ignota,F,0
+27,professione,meccanici,10-14,M,5
+27,professione,meccanici,10-14,F,0
+27,professione,meccanici,15-17,M,19
+27,professione,meccanici,15-17,F,0
+27,professione,meccanici,18-20,M,24
+27,professione,meccanici,18-20,F,0
+27,professione,meccanici,21-24,M,22
+27,professione,meccanici,21-24,F,0
+27,professione,meccanici,25-34,M,56
+27,professione,meccanici,25-34,F,0
+27,professione,meccanici,35-44,M,34
+27,professione,meccanici,35-44,F,0
+27,professione,meccanici,45-54,M,11
+27,professione,meccanici,45-54,F,0
+27,professione,meccanici,55-64,M,3
+27,professione,meccanici,55-64,F,0
+27,professione,meccanici,65+,M,2
+27,professione,meccanici,65+,F,0
+27,professione,meccanici,ignota,M,0
+27,professione,meccanici,ignota,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",10-14,M,7
+28,professione,"orafi, argentieri, incisori, orologiai",10-14,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",15-17,M,26
+28,professione,"orafi, argentieri, incisori, orologiai",15-17,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",18-20,M,21
+28,professione,"orafi, argentieri, incisori, orologiai",18-20,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",21-24,M,30
+28,professione,"orafi, argentieri, incisori, orologiai",21-24,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",25-34,M,75
+28,professione,"orafi, argentieri, incisori, orologiai",25-34,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",35-44,M,64
+28,professione,"orafi, argentieri, incisori, orologiai",35-44,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",45-54,M,47
+28,professione,"orafi, argentieri, incisori, orologiai",45-54,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",55-64,M,44
+28,professione,"orafi, argentieri, incisori, orologiai",55-64,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",65+,M,20
+28,professione,"orafi, argentieri, incisori, orologiai",65+,F,0
+28,professione,"orafi, argentieri, incisori, orologiai",ignota,M,0
+28,professione,"orafi, argentieri, incisori, orologiai",ignota,F,0
+29,classe,lavorazione dei minerali non metallici,10-14,M,2
+29,classe,lavorazione dei minerali non metallici,10-14,F,1
+29,classe,lavorazione dei minerali non metallici,15-17,M,8
+29,classe,lavorazione dei minerali non metallici,15-17,F,1
+29,classe,lavorazione dei minerali non metallici,18-20,M,11
+29,classe,lavorazione dei minerali non metallici,18-20,F,1
+29,classe,lavorazione dei minerali non metallici,21-24,M,6
+29,classe,lavorazione dei minerali non metallici,21-24,F,1
+29,classe,lavorazione dei minerali non metallici,25-34,M,23
+29,classe,lavorazione dei minerali non metallici,25-34,F,1
+29,classe,lavorazione dei minerali non metallici,35-44,M,21
+29,classe,lavorazione dei minerali non metallici,35-44,F,3
+29,classe,lavorazione dei minerali non metallici,45-54,M,9
+29,classe,lavorazione dei minerali non metallici,45-54,F,3
+29,classe,lavorazione dei minerali non metallici,55-64,M,13
+29,classe,lavorazione dei minerali non metallici,55-64,F,2
+29,classe,lavorazione dei minerali non metallici,65+,M,4
+29,classe,lavorazione dei minerali non metallici,65+,F,1
+29,classe,lavorazione dei minerali non metallici,ignota,M,0
+29,classe,lavorazione dei minerali non metallici,ignota,F,0
+30,professione,"marmisti, scalpellini",10-14,M,1
+30,professione,"marmisti, scalpellini",10-14,F,0
+30,professione,"marmisti, scalpellini",15-17,M,4
+30,professione,"marmisti, scalpellini",15-17,F,0
+30,professione,"marmisti, scalpellini",18-20,M,3
+30,professione,"marmisti, scalpellini",18-20,F,0
+30,professione,"marmisti, scalpellini",21-24,M,2
+30,professione,"marmisti, scalpellini",21-24,F,0
+30,professione,"marmisti, scalpellini",25-34,M,13
+30,professione,"marmisti, scalpellini",25-34,F,0
+30,professione,"marmisti, scalpellini",35-44,M,9
+30,professione,"marmisti, scalpellini",35-44,F,0
+30,professione,"marmisti, scalpellini",45-54,M,3
+30,professione,"marmisti, scalpellini",45-54,F,0
+30,professione,"marmisti, scalpellini",55-64,M,8
+30,professione,"marmisti, scalpellini",55-64,F,0
+30,professione,"marmisti, scalpellini",65+,M,3
+30,professione,"marmisti, scalpellini",65+,F,0
+30,professione,"marmisti, scalpellini",ignota,M,0
+30,professione,"marmisti, scalpellini",ignota,F,0
+31,professione,fabbricanti di oggetti in cemento,10-14,M,0
+31,professione,fabbricanti di oggetti in cemento,10-14,F,0
+31,professione,fabbricanti di oggetti in cemento,15-17,M,1
+31,professione,fabbricanti di oggetti in cemento,15-17,F,0
+31,professione,fabbricanti di oggetti in cemento,18-20,M,1
+31,professione,fabbricanti di oggetti in cemento,18-20,F,1
+31,professione,fabbricanti di oggetti in cemento,21-24,M,1
+31,professione,fabbricanti di oggetti in cemento,21-24,F,0
+31,professione,fabbricanti di oggetti in cemento,25-34,M,1
+31,professione,fabbricanti di oggetti in cemento,25-34,F,0
+31,professione,fabbricanti di oggetti in cemento,35-44,M,3
+31,professione,fabbricanti di oggetti in cemento,35-44,F,0
+31,professione,fabbricanti di oggetti in cemento,45-54,M,2
+31,professione,fabbricanti di oggetti in cemento,45-54,F,0
+31,professione,fabbricanti di oggetti in cemento,55-64,M,0
+31,professione,fabbricanti di oggetti in cemento,55-64,F,0
+31,professione,fabbricanti di oggetti in cemento,65+,M,0
+31,professione,fabbricanti di oggetti in cemento,65+,F,0
+31,professione,fabbricanti di oggetti in cemento,ignota,M,0
+31,professione,fabbricanti di oggetti in cemento,ignota,F,0
+32,professione,"terracottai, vasai",10-14,M,1
+32,professione,"terracottai, vasai",10-14,F,1
+32,professione,"terracottai, vasai",15-17,M,1
+32,professione,"terracottai, vasai",15-17,F,1
+32,professione,"terracottai, vasai",18-20,M,0
+32,professione,"terracottai, vasai",18-20,F,0
+32,professione,"terracottai, vasai",21-24,M,0
+32,professione,"terracottai, vasai",21-24,F,1
+32,professione,"terracottai, vasai",25-34,M,2
+32,professione,"terracottai, vasai",25-34,F,1
+32,professione,"terracottai, vasai",35-44,M,4
+32,professione,"terracottai, vasai",35-44,F,3
+32,professione,"terracottai, vasai",45-54,M,4
+32,professione,"terracottai, vasai",45-54,F,3
+32,professione,"terracottai, vasai",55-64,M,3
+32,professione,"terracottai, vasai",55-64,F,2
+32,professione,"terracottai, vasai",65+,M,1
+32,professione,"terracottai, vasai",65+,F,1
+32,professione,"terracottai, vasai",ignota,M,0
+32,professione,"terracottai, vasai",ignota,F,0
+33,professione,vetrai,10-14,M,0
+33,professione,vetrai,10-14,F,0
+33,professione,vetrai,15-17,M,2
+33,professione,vetrai,15-17,F,0
+33,professione,vetrai,18-20,M,7
+33,professione,vetrai,18-20,F,0
+33,professione,vetrai,21-24,M,3
+33,professione,vetrai,21-24,F,0
+33,professione,vetrai,25-34,M,7
+33,professione,vetrai,25-34,F,0
+33,professione,vetrai,35-44,M,5
+33,professione,vetrai,35-44,F,0
+33,professione,vetrai,45-54,M,0
+33,professione,vetrai,45-54,F,0
+33,professione,vetrai,55-64,M,2
+33,professione,vetrai,55-64,F,0
+33,professione,vetrai,65+,M,0
+33,professione,vetrai,65+,F,0
+33,professione,vetrai,ignota,M,0
+33,professione,vetrai,ignota,F,0
+34,classe,costruzioni edilizie e stradali,10-14,M,248
+34,classe,costruzioni edilizie e stradali,10-14,F,0
+34,classe,costruzioni edilizie e stradali,15-17,M,394
+34,classe,costruzioni edilizie e stradali,15-17,F,1
+34,classe,costruzioni edilizie e stradali,18-20,M,496
+34,classe,costruzioni edilizie e stradali,18-20,F,0
+34,classe,costruzioni edilizie e stradali,21-24,M,283
+34,classe,costruzioni edilizie e stradali,21-24,F,0
+34,classe,costruzioni edilizie e stradali,25-34,M,1519
+34,classe,costruzioni edilizie e stradali,25-34,F,1
+34,classe,costruzioni edilizie e stradali,35-44,M,1523
+34,classe,costruzioni edilizie e stradali,35-44,F,1
+34,classe,costruzioni edilizie e stradali,45-54,M,1090
+34,classe,costruzioni edilizie e stradali,45-54,F,1
+34,classe,costruzioni edilizie e stradali,55-64,M,560
+34,classe,costruzioni edilizie e stradali,55-64,F,0
+34,classe,costruzioni edilizie e stradali,65+,M,337
+34,classe,costruzioni edilizie e stradali,65+,F,2
+34,classe,costruzioni edilizie e stradali,ignota,M,5
+34,classe,costruzioni edilizie e stradali,ignota,F,0
+35,professione,"muratori, cementisti",10-14,M,7
+35,professione,"muratori, cementisti",10-14,F,0
+35,professione,"muratori, cementisti",15-17,M,25
+35,professione,"muratori, cementisti",15-17,F,0
+35,professione,"muratori, cementisti",18-20,M,34
+35,professione,"muratori, cementisti",18-20,F,0
+35,professione,"muratori, cementisti",21-24,M,32
+35,professione,"muratori, cementisti",21-24,F,0
+35,professione,"muratori, cementisti",25-34,M,197
+35,professione,"muratori, cementisti",25-34,F,0
+35,professione,"muratori, cementisti",35-44,M,180
+35,professione,"muratori, cementisti",35-44,F,0
+35,professione,"muratori, cementisti",45-54,M,136
+35,professione,"muratori, cementisti",45-54,F,0
+35,professione,"muratori, cementisti",55-64,M,102
+35,professione,"muratori, cementisti",55-64,F,0
+35,professione,"muratori, cementisti",65+,M,67
+35,professione,"muratori, cementisti",65+,F,0
+35,professione,"muratori, cementisti",ignota,M,0
+35,professione,"muratori, cementisti",ignota,F,0
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",10-14,M,235
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",10-14,F,0
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",15-17,M,350
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",15-17,F,1
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",18-20,M,446
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",18-20,F,0
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",21-24,M,231
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",21-24,F,0
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",25-34,M,1247
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",25-34,F,1
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",35-44,M,1305
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",35-44,F,1
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",45-54,M,935
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",45-54,F,1
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",55-64,M,443
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",55-64,F,0
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",65+,M,255
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",65+,F,2
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",ignota,M,5
+36,professione,"manovali edili, sterratori, terrazzieri, spaccapietre",ignota,F,0
+37,professione,decoratori e pittori,10-14,M,6
+37,professione,decoratori e pittori,10-14,F,0
+37,professione,decoratori e pittori,15-17,M,19
+37,professione,decoratori e pittori,15-17,F,0
+37,professione,decoratori e pittori,18-20,M,16
+37,professione,decoratori e pittori,18-20,F,0
+37,professione,decoratori e pittori,21-24,M,20
+37,professione,decoratori e pittori,21-24,F,0
+37,professione,decoratori e pittori,25-34,M,75
+37,professione,decoratori e pittori,25-34,F,0
+37,professione,decoratori e pittori,35-44,M,38
+37,professione,decoratori e pittori,35-44,F,0
+37,professione,decoratori e pittori,45-54,M,19
+37,professione,decoratori e pittori,45-54,F,0
+37,professione,decoratori e pittori,55-64,M,15
+37,professione,decoratori e pittori,55-64,F,0
+37,professione,decoratori e pittori,65+,M,15
+37,professione,decoratori e pittori,65+,F,0
+37,professione,decoratori e pittori,ignota,M,0
+37,professione,decoratori e pittori,ignota,F,0
+38,classe,istallatori impianti,10-14,M,14
+38,classe,istallatori impianti,10-14,F,0
+38,classe,istallatori impianti,15-17,M,12
+38,classe,istallatori impianti,15-17,F,0
+38,classe,istallatori impianti,18-20,M,32
+38,classe,istallatori impianti,18-20,F,0
+38,classe,istallatori impianti,21-24,M,28
+38,classe,istallatori impianti,21-24,F,0
+38,classe,istallatori impianti,25-34,M,65
+38,classe,istallatori impianti,25-34,F,0
+38,classe,istallatori impianti,35-44,M,71
+38,classe,istallatori impianti,35-44,F,0
+38,classe,istallatori impianti,45-54,M,38
+38,classe,istallatori impianti,45-54,F,0
+38,classe,istallatori impianti,55-64,M,11
+38,classe,istallatori impianti,55-64,F,0
+38,classe,istallatori impianti,65+,M,4
+38,classe,istallatori impianti,65+,F,0
+38,classe,istallatori impianti,ignota,M,1
+38,classe,istallatori impianti,ignota,F,0
+39,professione,elettricisti,10-14,M,8
+39,professione,elettricisti,10-14,F,0
+39,professione,elettricisti,15-17,M,8
+39,professione,elettricisti,15-17,F,0
+39,professione,elettricisti,18-20,M,22
+39,professione,elettricisti,18-20,F,0
+39,professione,elettricisti,21-24,M,19
+39,professione,elettricisti,21-24,F,0
+39,professione,elettricisti,25-34,M,33
+39,professione,elettricisti,25-34,F,0
+39,professione,elettricisti,35-44,M,27
+39,professione,elettricisti,35-44,F,0
+39,professione,elettricisti,45-54,M,6
+39,professione,elettricisti,45-54,F,0
+39,professione,elettricisti,55-64,M,0
+39,professione,elettricisti,55-64,F,0
+39,professione,elettricisti,65+,M,0
+39,professione,elettricisti,65+,F,0
+39,professione,elettricisti,ignota,M,0
+39,professione,elettricisti,ignota,F,0
+40,professione,"idraulici, stagnini",10-14,M,6
+40,professione,"idraulici, stagnini",10-14,F,0
+40,professione,"idraulici, stagnini",15-17,M,4
+40,professione,"idraulici, stagnini",15-17,F,0
+40,professione,"idraulici, stagnini",18-20,M,10
+40,professione,"idraulici, stagnini",18-20,F,0
+40,professione,"idraulici, stagnini",21-24,M,9
+40,professione,"idraulici, stagnini",21-24,F,0
+40,professione,"idraulici, stagnini",25-34,M,32
+40,professione,"idraulici, stagnini",25-34,F,0
+40,professione,"idraulici, stagnini",35-44,M,44
+40,professione,"idraulici, stagnini",35-44,F,0
+40,professione,"idraulici, stagnini",45-54,M,32
+40,professione,"idraulici, stagnini",45-54,F,0
+40,professione,"idraulici, stagnini",55-64,M,11
+40,professione,"idraulici, stagnini",55-64,F,0
+40,professione,"idraulici, stagnini",65+,M,4
+40,professione,"idraulici, stagnini",65+,F,0
+40,professione,"idraulici, stagnini",ignota,M,1
+40,professione,"idraulici, stagnini",ignota,F,0
+41,classe,industrie tessili,10-14,M,99
+41,classe,industrie tessili,10-14,F,352
+41,classe,industrie tessili,15-17,M,102
+41,classe,industrie tessili,15-17,F,237
+41,classe,industrie tessili,18-20,M,135
+41,classe,industrie tessili,18-20,F,312
+41,classe,industrie tessili,21-24,M,98
+41,classe,industrie tessili,21-24,F,113
+41,classe,industrie tessili,25-34,M,211
+41,classe,industrie tessili,25-34,F,832
+41,classe,industrie tessili,35-44,M,238
+41,classe,industrie tessili,35-44,F,704
+41,classe,industrie tessili,45-54,M,249
+41,classe,industrie tessili,45-54,F,476
+41,classe,industrie tessili,55-64,M,174
+41,classe,industrie tessili,55-64,F,269
+41,classe,industrie tessili,65+,M,139
+41,classe,industrie tessili,65+,F,218
+41,classe,industrie tessili,ignota,M,1
+41,classe,industrie tessili,ignota,F,4
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",10-14,M,98
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",10-14,F,319
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",15-17,M,102
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",15-17,F,225
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",18-20,M,135
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",18-20,F,306
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",21-24,M,98
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",21-24,F,108
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",25-34,M,209
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",25-34,F,797
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",35-44,M,238
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",35-44,F,678
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",45-54,M,249
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",45-54,F,454
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",55-64,M,174
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",55-64,F,241
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",65+,M,139
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",65+,F,183
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",ignota,M,1
+42,professione,"tessitori in lana, canapa, ecc., tessitori di tappeti",ignota,F,4
+43,professione,filatori,10-14,M,1
+43,professione,filatori,10-14,F,33
+43,professione,filatori,15-17,M,0
+43,professione,filatori,15-17,F,12
+43,professione,filatori,18-20,M,0
+43,professione,filatori,18-20,F,6
+43,professione,filatori,21-24,M,0
+43,professione,filatori,21-24,F,5
+43,professione,filatori,25-34,M,2
+43,professione,filatori,25-34,F,35
+43,professione,filatori,35-44,M,0
+43,professione,filatori,35-44,F,26
+43,professione,filatori,45-54,M,0
+43,professione,filatori,45-54,F,22
+43,professione,filatori,55-64,M,0
+43,professione,filatori,55-64,F,28
+43,professione,filatori,65+,M,0
+43,professione,filatori,65+,F,35
+43,professione,filatori,ignota,M,0
+43,professione,filatori,ignota,F,0
+44,classe,"industrie del vestiario, abbigliamento e arredamento",10-14,M,71
+44,classe,"industrie del vestiario, abbigliamento e arredamento",10-14,F,22
+44,classe,"industrie del vestiario, abbigliamento e arredamento",15-17,M,168
+44,classe,"industrie del vestiario, abbigliamento e arredamento",15-17,F,31
+44,classe,"industrie del vestiario, abbigliamento e arredamento",18-20,M,167
+44,classe,"industrie del vestiario, abbigliamento e arredamento",18-20,F,26
+44,classe,"industrie del vestiario, abbigliamento e arredamento",21-24,M,190
+44,classe,"industrie del vestiario, abbigliamento e arredamento",21-24,F,16
+44,classe,"industrie del vestiario, abbigliamento e arredamento",25-34,M,598
+44,classe,"industrie del vestiario, abbigliamento e arredamento",25-34,F,77
+44,classe,"industrie del vestiario, abbigliamento e arredamento",35-44,M,397
+44,classe,"industrie del vestiario, abbigliamento e arredamento",35-44,F,121
+44,classe,"industrie del vestiario, abbigliamento e arredamento",45-54,M,290
+44,classe,"industrie del vestiario, abbigliamento e arredamento",45-54,F,83
+44,classe,"industrie del vestiario, abbigliamento e arredamento",55-64,M,180
+44,classe,"industrie del vestiario, abbigliamento e arredamento",55-64,F,43
+44,classe,"industrie del vestiario, abbigliamento e arredamento",65+,M,108
+44,classe,"industrie del vestiario, abbigliamento e arredamento",65+,F,24
+44,classe,"industrie del vestiario, abbigliamento e arredamento",ignota,M,5
+44,classe,"industrie del vestiario, abbigliamento e arredamento",ignota,F,0
+45,professione,sarti,10-14,M,39
+45,professione,sarti,10-14,F,21
+45,professione,sarti,15-17,M,106
+45,professione,sarti,15-17,F,30
+45,professione,sarti,18-20,M,113
+45,professione,sarti,18-20,F,19
+45,professione,sarti,21-24,M,119
+45,professione,sarti,21-24,F,13
+45,professione,sarti,25-34,M,343
+45,professione,sarti,25-34,F,37
+45,professione,sarti,35-44,M,149
+45,professione,sarti,35-44,F,32
+45,professione,sarti,45-54,M,75
+45,professione,sarti,45-54,F,22
+45,professione,sarti,55-64,M,30
+45,professione,sarti,55-64,F,8
+45,professione,sarti,65+,M,15
+45,professione,sarti,65+,F,2
+45,professione,sarti,ignota,M,1
+45,professione,sarti,ignota,F,0
+46,professione,ricamatori,10-14,M,9
+46,professione,ricamatori,10-14,F,0
+46,professione,ricamatori,15-17,M,4
+46,professione,ricamatori,15-17,F,0
+46,professione,ricamatori,18-20,M,11
+46,professione,ricamatori,18-20,F,2
+46,professione,ricamatori,21-24,M,14
+46,professione,ricamatori,21-24,F,0
+46,professione,ricamatori,25-34,M,23
+46,professione,ricamatori,25-34,F,4
+46,professione,ricamatori,35-44,M,9
+46,professione,ricamatori,35-44,F,11
+46,professione,ricamatori,45-54,M,8
+46,professione,ricamatori,45-54,F,1
+46,professione,ricamatori,55-64,M,5
+46,professione,ricamatori,55-64,F,2
+46,professione,ricamatori,65+,M,6
+46,professione,ricamatori,65+,F,1
+46,professione,ricamatori,ignota,M,0
+46,professione,ricamatori,ignota,F,0
+47,professione,"calzolai, ciabattini",10-14,M,22
+47,professione,"calzolai, ciabattini",10-14,F,0
+47,professione,"calzolai, ciabattini",15-17,M,56
+47,professione,"calzolai, ciabattini",15-17,F,0
+47,professione,"calzolai, ciabattini",18-20,M,40
+47,professione,"calzolai, ciabattini",18-20,F,0
+47,professione,"calzolai, ciabattini",21-24,M,52
+47,professione,"calzolai, ciabattini",21-24,F,0
+47,professione,"calzolai, ciabattini",25-34,M,220
+47,professione,"calzolai, ciabattini",25-34,F,0
+47,professione,"calzolai, ciabattini",35-44,M,222
+47,professione,"calzolai, ciabattini",35-44,F,0
+47,professione,"calzolai, ciabattini",45-54,M,192
+47,professione,"calzolai, ciabattini",45-54,F,1
+47,professione,"calzolai, ciabattini",55-64,M,139
+47,professione,"calzolai, ciabattini",55-64,F,1
+47,professione,"calzolai, ciabattini",65+,M,85
+47,professione,"calzolai, ciabattini",65+,F,0
+47,professione,"calzolai, ciabattini",ignota,M,4
+47,professione,"calzolai, ciabattini",ignota,F,0
+48,professione,"tappezzieri, materassai",10-14,M,1
+48,professione,"tappezzieri, materassai",10-14,F,0
+48,professione,"tappezzieri, materassai",15-17,M,1
+48,professione,"tappezzieri, materassai",15-17,F,0
+48,professione,"tappezzieri, materassai",18-20,M,2
+48,professione,"tappezzieri, materassai",18-20,F,0
+48,professione,"tappezzieri, materassai",21-24,M,3
+48,professione,"tappezzieri, materassai",21-24,F,0
+48,professione,"tappezzieri, materassai",25-34,M,7
+48,professione,"tappezzieri, materassai",25-34,F,4
+48,professione,"tappezzieri, materassai",35-44,M,4
+48,professione,"tappezzieri, materassai",35-44,F,6
+48,professione,"tappezzieri, materassai",45-54,M,2
+48,professione,"tappezzieri, materassai",45-54,F,4
+48,professione,"tappezzieri, materassai",55-64,M,2
+48,professione,"tappezzieri, materassai",55-64,F,4
+48,professione,"tappezzieri, materassai",65+,M,0
+48,professione,"tappezzieri, materassai",65+,F,2
+48,professione,"tappezzieri, materassai",ignota,M,0
+48,professione,"tappezzieri, materassai",ignota,F,0
+49,professione,"tintori, lavandaie, stiratrici",10-14,M,0
+49,professione,"tintori, lavandaie, stiratrici",10-14,F,1
+49,professione,"tintori, lavandaie, stiratrici",15-17,M,1
+49,professione,"tintori, lavandaie, stiratrici",15-17,F,1
+49,professione,"tintori, lavandaie, stiratrici",18-20,M,1
+49,professione,"tintori, lavandaie, stiratrici",18-20,F,5
+49,professione,"tintori, lavandaie, stiratrici",21-24,M,2
+49,professione,"tintori, lavandaie, stiratrici",21-24,F,3
+49,professione,"tintori, lavandaie, stiratrici",25-34,M,5
+49,professione,"tintori, lavandaie, stiratrici",25-34,F,32
+49,professione,"tintori, lavandaie, stiratrici",35-44,M,13
+49,professione,"tintori, lavandaie, stiratrici",35-44,F,72
+49,professione,"tintori, lavandaie, stiratrici",45-54,M,13
+49,professione,"tintori, lavandaie, stiratrici",45-54,F,55
+49,professione,"tintori, lavandaie, stiratrici",55-64,M,4
+49,professione,"tintori, lavandaie, stiratrici",55-64,F,28
+49,professione,"tintori, lavandaie, stiratrici",65+,M,2
+49,professione,"tintori, lavandaie, stiratrici",65+,F,19
+49,professione,"tintori, lavandaie, stiratrici",ignota,M,0
+49,professione,"tintori, lavandaie, stiratrici",ignota,F,0
+50,classe,igiene ed estetica della persona,10-14,M,22
+50,classe,igiene ed estetica della persona,10-14,F,0
+50,classe,igiene ed estetica della persona,15-17,M,29
+50,classe,igiene ed estetica della persona,15-17,F,0
+50,classe,igiene ed estetica della persona,18-20,M,25
+50,classe,igiene ed estetica della persona,18-20,F,0
+50,classe,igiene ed estetica della persona,21-24,M,34
+50,classe,igiene ed estetica della persona,21-24,F,0
+50,classe,igiene ed estetica della persona,25-34,M,84
+50,classe,igiene ed estetica della persona,25-34,F,0
+50,classe,igiene ed estetica della persona,35-44,M,69
+50,classe,igiene ed estetica della persona,35-44,F,0
+50,classe,igiene ed estetica della persona,45-54,M,55
+50,classe,igiene ed estetica della persona,45-54,F,0
+50,classe,igiene ed estetica della persona,55-64,M,40
+50,classe,igiene ed estetica della persona,55-64,F,0
+50,classe,igiene ed estetica della persona,65+,M,26
+50,classe,igiene ed estetica della persona,65+,F,0
+50,classe,igiene ed estetica della persona,ignota,M,1
+50,classe,igiene ed estetica della persona,ignota,F,0
+51,professione,barbieri,10-14,M,21
+51,professione,barbieri,10-14,F,0
+51,professione,barbieri,15-17,M,19
+51,professione,barbieri,15-17,F,0
+51,professione,barbieri,18-20,M,22
+51,professione,barbieri,18-20,F,0
+51,professione,barbieri,21-24,M,25
+51,professione,barbieri,21-24,F,0
+51,professione,barbieri,25-34,M,73
+51,professione,barbieri,25-34,F,0
+51,professione,barbieri,35-44,M,46
+51,professione,barbieri,35-44,F,0
+51,professione,barbieri,45-54,M,46
+51,professione,barbieri,45-54,F,0
+51,professione,barbieri,55-64,M,39
+51,professione,barbieri,55-64,F,0
+51,professione,barbieri,65+,M,24
+51,professione,barbieri,65+,F,0
+51,professione,barbieri,ignota,M,1
+51,professione,barbieri,ignota,F,0
+52,professione,lustrascarpe,10-14,M,1
+52,professione,lustrascarpe,10-14,F,0
+52,professione,lustrascarpe,15-17,M,10
+52,professione,lustrascarpe,15-17,F,0
+52,professione,lustrascarpe,18-20,M,3
+52,professione,lustrascarpe,18-20,F,0
+52,professione,lustrascarpe,21-24,M,9
+52,professione,lustrascarpe,21-24,F,0
+52,professione,lustrascarpe,25-34,M,11
+52,professione,lustrascarpe,25-34,F,0
+52,professione,lustrascarpe,35-44,M,23
+52,professione,lustrascarpe,35-44,F,0
+52,professione,lustrascarpe,45-54,M,9
+52,professione,lustrascarpe,45-54,F,0
+52,professione,lustrascarpe,55-64,M,1
+52,professione,lustrascarpe,55-64,F,0
+52,professione,lustrascarpe,65+,M,2
+52,professione,lustrascarpe,65+,F,0
+52,professione,lustrascarpe,ignota,M,0
+52,professione,lustrascarpe,ignota,F,0
+53,classe,industrie chimiche,10-14,M,1
+53,classe,industrie chimiche,10-14,F,0
+53,classe,industrie chimiche,15-17,M,6
+53,classe,industrie chimiche,15-17,F,0
+53,classe,industrie chimiche,18-20,M,2
+53,classe,industrie chimiche,18-20,F,1
+53,classe,industrie chimiche,21-24,M,1
+53,classe,industrie chimiche,21-24,F,1
+53,classe,industrie chimiche,25-34,M,1
+53,classe,industrie chimiche,25-34,F,0
+53,classe,industrie chimiche,35-44,M,4
+53,classe,industrie chimiche,35-44,F,0
+53,classe,industrie chimiche,45-54,M,2
+53,classe,industrie chimiche,45-54,F,0
+53,classe,industrie chimiche,55-64,M,1
+53,classe,industrie chimiche,55-64,F,0
+53,classe,industrie chimiche,65+,M,0
+53,classe,industrie chimiche,65+,F,0
+53,classe,industrie chimiche,ignota,M,1
+53,classe,industrie chimiche,ignota,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,10-14,M,1
+54,professione,addetti alla lavorazione e confezione dei tabacchi,10-14,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,15-17,M,6
+54,professione,addetti alla lavorazione e confezione dei tabacchi,15-17,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,18-20,M,2
+54,professione,addetti alla lavorazione e confezione dei tabacchi,18-20,F,1
+54,professione,addetti alla lavorazione e confezione dei tabacchi,21-24,M,1
+54,professione,addetti alla lavorazione e confezione dei tabacchi,21-24,F,1
+54,professione,addetti alla lavorazione e confezione dei tabacchi,25-34,M,1
+54,professione,addetti alla lavorazione e confezione dei tabacchi,25-34,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,35-44,M,4
+54,professione,addetti alla lavorazione e confezione dei tabacchi,35-44,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,45-54,M,2
+54,professione,addetti alla lavorazione e confezione dei tabacchi,45-54,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,55-64,M,1
+54,professione,addetti alla lavorazione e confezione dei tabacchi,55-64,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,65+,M,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,65+,F,0
+54,professione,addetti alla lavorazione e confezione dei tabacchi,ignota,M,1
+54,professione,addetti alla lavorazione e confezione dei tabacchi,ignota,F,0
+55,classe,industrie estrattive,10-14,M,0
+55,classe,industrie estrattive,10-14,F,0
+55,classe,industrie estrattive,15-17,M,0
+55,classe,industrie estrattive,15-17,F,0
+55,classe,industrie estrattive,18-20,M,0
+55,classe,industrie estrattive,18-20,F,0
+55,classe,industrie estrattive,21-24,M,1
+55,classe,industrie estrattive,21-24,F,0
+55,classe,industrie estrattive,25-34,M,2
+55,classe,industrie estrattive,25-34,F,0
+55,classe,industrie estrattive,35-44,M,4
+55,classe,industrie estrattive,35-44,F,0
+55,classe,industrie estrattive,45-54,M,2
+55,classe,industrie estrattive,45-54,F,0
+55,classe,industrie estrattive,55-64,M,1
+55,classe,industrie estrattive,55-64,F,0
+55,classe,industrie estrattive,65+,M,1
+55,classe,industrie estrattive,65+,F,0
+55,classe,industrie estrattive,ignota,M,0
+55,classe,industrie estrattive,ignota,F,0
+56,professione,minatori,10-14,M,0
+56,professione,minatori,10-14,F,0
+56,professione,minatori,15-17,M,0
+56,professione,minatori,15-17,F,0
+56,professione,minatori,18-20,M,0
+56,professione,minatori,18-20,F,0
+56,professione,minatori,21-24,M,1
+56,professione,minatori,21-24,F,0
+56,professione,minatori,25-34,M,2
+56,professione,minatori,25-34,F,0
+56,professione,minatori,35-44,M,4
+56,professione,minatori,35-44,F,0
+56,professione,minatori,45-54,M,2
+56,professione,minatori,45-54,F,0
+56,professione,minatori,55-64,M,1
+56,professione,minatori,55-64,F,0
+56,professione,minatori,65+,M,1
+56,professione,minatori,65+,F,0
+56,professione,minatori,ignota,M,0
+56,professione,minatori,ignota,F,0
+57,classe,industrie non specificate,10-14,M,1
+57,classe,industrie non specificate,10-14,F,0
+57,classe,industrie non specificate,15-17,M,0
+57,classe,industrie non specificate,15-17,F,0
+57,classe,industrie non specificate,18-20,M,0
+57,classe,industrie non specificate,18-20,F,0
+57,classe,industrie non specificate,21-24,M,2
+57,classe,industrie non specificate,21-24,F,0
+57,classe,industrie non specificate,25-34,M,5
+57,classe,industrie non specificate,25-34,F,0
+57,classe,industrie non specificate,35-44,M,7
+57,classe,industrie non specificate,35-44,F,0
+57,classe,industrie non specificate,45-54,M,4
+57,classe,industrie non specificate,45-54,F,0
+57,classe,industrie non specificate,55-64,M,3
+57,classe,industrie non specificate,55-64,F,0
+57,classe,industrie non specificate,65+,M,3
+57,classe,industrie non specificate,65+,F,0
+57,classe,industrie non specificate,ignota,M,0
+57,classe,industrie non specificate,ignota,F,0
+58,professione,"appaltatori, impresari, industriali",10-14,M,1
+58,professione,"appaltatori, impresari, industriali",10-14,F,0
+58,professione,"appaltatori, impresari, industriali",15-17,M,0
+58,professione,"appaltatori, impresari, industriali",15-17,F,0
+58,professione,"appaltatori, impresari, industriali",18-20,M,0
+58,professione,"appaltatori, impresari, industriali",18-20,F,0
+58,professione,"appaltatori, impresari, industriali",21-24,M,2
+58,professione,"appaltatori, impresari, industriali",21-24,F,0
+58,professione,"appaltatori, impresari, industriali",25-34,M,5
+58,professione,"appaltatori, impresari, industriali",25-34,F,0
+58,professione,"appaltatori, impresari, industriali",35-44,M,7
+58,professione,"appaltatori, impresari, industriali",35-44,F,0
+58,professione,"appaltatori, impresari, industriali",45-54,M,4
+58,professione,"appaltatori, impresari, industriali",45-54,F,0
+58,professione,"appaltatori, impresari, industriali",55-64,M,3
+58,professione,"appaltatori, impresari, industriali",55-64,F,0
+58,professione,"appaltatori, impresari, industriali",65+,M,3
+58,professione,"appaltatori, impresari, industriali",65+,F,0
+58,professione,"appaltatori, impresari, industriali",ignota,M,0
+58,professione,"appaltatori, impresari, industriali",ignota,F,0
+59,classe,operai non qualificati,10-14,M,1112
+59,classe,operai non qualificati,10-14,F,13
+59,classe,operai non qualificati,15-17,M,1196
+59,classe,operai non qualificati,15-17,F,4
+59,classe,operai non qualificati,18-20,M,1407
+59,classe,operai non qualificati,18-20,F,3
+59,classe,operai non qualificati,21-24,M,907
+59,classe,operai non qualificati,21-24,F,5
+59,classe,operai non qualificati,25-34,M,4375
+59,classe,operai non qualificati,25-34,F,18
+59,classe,operai non qualificati,35-44,M,3563
+59,classe,operai non qualificati,35-44,F,43
+59,classe,operai non qualificati,45-54,M,2272
+59,classe,operai non qualificati,45-54,F,14
+59,classe,operai non qualificati,55-64,M,1167
+59,classe,operai non qualificati,55-64,F,15
+59,classe,operai non qualificati,65+,M,589
+59,classe,operai non qualificati,65+,F,12
+59,classe,operai non qualificati,ignota,M,3
+59,classe,operai non qualificati,ignota,F,0
+60,professione,"operai, facchini, garzoni, apprendisti",10-14,M,1112
+60,professione,"operai, facchini, garzoni, apprendisti",10-14,F,13
+60,professione,"operai, facchini, garzoni, apprendisti",15-17,M,1196
+60,professione,"operai, facchini, garzoni, apprendisti",15-17,F,4
+60,professione,"operai, facchini, garzoni, apprendisti",18-20,M,1407
+60,professione,"operai, facchini, garzoni, apprendisti",18-20,F,3
+60,professione,"operai, facchini, garzoni, apprendisti",21-24,M,907
+60,professione,"operai, facchini, garzoni, apprendisti",21-24,F,5
+60,professione,"operai, facchini, garzoni, apprendisti",25-34,M,4375
+60,professione,"operai, facchini, garzoni, apprendisti",25-34,F,18
+60,professione,"operai, facchini, garzoni, apprendisti",35-44,M,3563
+60,professione,"operai, facchini, garzoni, apprendisti",35-44,F,43
+60,professione,"operai, facchini, garzoni, apprendisti",45-54,M,2272
+60,professione,"operai, facchini, garzoni, apprendisti",45-54,F,14
+60,professione,"operai, facchini, garzoni, apprendisti",55-64,M,1167
+60,professione,"operai, facchini, garzoni, apprendisti",55-64,F,15
+60,professione,"operai, facchini, garzoni, apprendisti",65+,M,589
+60,professione,"operai, facchini, garzoni, apprendisti",65+,F,12
+60,professione,"operai, facchini, garzoni, apprendisti",ignota,M,3
+60,professione,"operai, facchini, garzoni, apprendisti",ignota,F,0
+61,categoria,trasporti e comunicazioni,10-14,M,152
+61,categoria,trasporti e comunicazioni,10-14,F,0
+61,categoria,trasporti e comunicazioni,15-17,M,152
+61,categoria,trasporti e comunicazioni,15-17,F,0
+61,categoria,trasporti e comunicazioni,18-20,M,210
+61,categoria,trasporti e comunicazioni,18-20,F,1
+61,categoria,trasporti e comunicazioni,21-24,M,179
+61,categoria,trasporti e comunicazioni,21-24,F,0
+61,categoria,trasporti e comunicazioni,25-34,M,1080
+61,categoria,trasporti e comunicazioni,25-34,F,1
+61,categoria,trasporti e comunicazioni,35-44,M,898
+61,categoria,trasporti e comunicazioni,35-44,F,0
+61,categoria,trasporti e comunicazioni,45-54,M,518
+61,categoria,trasporti e comunicazioni,45-54,F,0
+61,categoria,trasporti e comunicazioni,55-64,M,223
+61,categoria,trasporti e comunicazioni,55-64,F,0
+61,categoria,trasporti e comunicazioni,65+,M,103
+61,categoria,trasporti e comunicazioni,65+,F,0
+61,categoria,trasporti e comunicazioni,ignota,M,3
+61,categoria,trasporti e comunicazioni,ignota,F,0
+62,classe,trasporti,10-14,M,152
+62,classe,trasporti,10-14,F,0
+62,classe,trasporti,15-17,M,146
+62,classe,trasporti,15-17,F,0
+62,classe,trasporti,18-20,M,204
+62,classe,trasporti,18-20,F,1
+62,classe,trasporti,21-24,M,176
+62,classe,trasporti,21-24,F,0
+62,classe,trasporti,25-34,M,1065
+62,classe,trasporti,25-34,F,1
+62,classe,trasporti,35-44,M,888
+62,classe,trasporti,35-44,F,0
+62,classe,trasporti,45-54,M,508
+62,classe,trasporti,45-54,F,0
+62,classe,trasporti,55-64,M,222
+62,classe,trasporti,55-64,F,0
+62,classe,trasporti,65+,M,102
+62,classe,trasporti,65+,F,0
+62,classe,trasporti,ignota,M,3
+62,classe,trasporti,ignota,F,0
+63,professione,trasporti automobilistici,10-14,M,1
+63,professione,trasporti automobilistici,10-14,F,0
+63,professione,trasporti automobilistici,15-17,M,8
+63,professione,trasporti automobilistici,15-17,F,0
+63,professione,trasporti automobilistici,18-20,M,21
+63,professione,trasporti automobilistici,18-20,F,0
+63,professione,trasporti automobilistici,21-24,M,48
+63,professione,trasporti automobilistici,21-24,F,0
+63,professione,trasporti automobilistici,25-34,M,232
+63,professione,trasporti automobilistici,25-34,F,0
+63,professione,trasporti automobilistici,35-44,M,64
+63,professione,trasporti automobilistici,35-44,F,0
+63,professione,trasporti automobilistici,45-54,M,6
+63,professione,trasporti automobilistici,45-54,F,0
+63,professione,trasporti automobilistici,55-64,M,1
+63,professione,trasporti automobilistici,55-64,F,0
+63,professione,trasporti automobilistici,65+,M,0
+63,professione,trasporti automobilistici,65+,F,0
+63,professione,trasporti automobilistici,ignota,M,0
+63,professione,trasporti automobilistici,ignota,F,0
+64,professione,"cammellieri, carovanieri",10-14,M,9
+64,professione,"cammellieri, carovanieri",10-14,F,0
+64,professione,"cammellieri, carovanieri",15-17,M,17
+64,professione,"cammellieri, carovanieri",15-17,F,0
+64,professione,"cammellieri, carovanieri",18-20,M,48
+64,professione,"cammellieri, carovanieri",18-20,F,1
+64,professione,"cammellieri, carovanieri",21-24,M,4
+64,professione,"cammellieri, carovanieri",21-24,F,0
+64,professione,"cammellieri, carovanieri",25-34,M,46
+64,professione,"cammellieri, carovanieri",25-34,F,1
+64,professione,"cammellieri, carovanieri",35-44,M,48
+64,professione,"cammellieri, carovanieri",35-44,F,0
+64,professione,"cammellieri, carovanieri",45-54,M,50
+64,professione,"cammellieri, carovanieri",45-54,F,0
+64,professione,"cammellieri, carovanieri",55-64,M,40
+64,professione,"cammellieri, carovanieri",55-64,F,0
+64,professione,"cammellieri, carovanieri",65+,M,7
+64,professione,"cammellieri, carovanieri",65+,F,0
+64,professione,"cammellieri, carovanieri",ignota,M,0
+64,professione,"cammellieri, carovanieri",ignota,F,0
+65,professione,carrettieri,10-14,M,3
+65,professione,carrettieri,10-14,F,0
+65,professione,carrettieri,15-17,M,11
+65,professione,carrettieri,15-17,F,0
+65,professione,carrettieri,18-20,M,30
+65,professione,carrettieri,18-20,F,0
+65,professione,carrettieri,21-24,M,27
+65,professione,carrettieri,21-24,F,0
+65,professione,carrettieri,25-34,M,206
+65,professione,carrettieri,25-34,F,0
+65,professione,carrettieri,35-44,M,248
+65,professione,carrettieri,35-44,F,0
+65,professione,carrettieri,45-54,M,134
+65,professione,carrettieri,45-54,F,0
+65,professione,carrettieri,55-64,M,62
+65,professione,carrettieri,55-64,F,0
+65,professione,carrettieri,65+,M,24
+65,professione,carrettieri,65+,F,0
+65,professione,carrettieri,ignota,M,3
+65,professione,carrettieri,ignota,F,0
+66,professione,cocchieri,10-14,M,0
+66,professione,cocchieri,10-14,F,0
+66,professione,cocchieri,15-17,M,6
+66,professione,cocchieri,15-17,F,0
+66,professione,cocchieri,18-20,M,16
+66,professione,cocchieri,18-20,F,0
+66,professione,cocchieri,21-24,M,23
+66,professione,cocchieri,21-24,F,0
+66,professione,cocchieri,25-34,M,152
+66,professione,cocchieri,25-34,F,0
+66,professione,cocchieri,35-44,M,138
+66,professione,cocchieri,35-44,F,0
+66,professione,cocchieri,45-54,M,52
+66,professione,cocchieri,45-54,F,0
+66,professione,cocchieri,55-64,M,13
+66,professione,cocchieri,55-64,F,0
+66,professione,cocchieri,65+,M,4
+66,professione,cocchieri,65+,F,0
+66,professione,cocchieri,ignota,M,0
+66,professione,cocchieri,ignota,F,0
+67,professione,trasporti ferroviari e tramviari,10-14,M,1
+67,professione,trasporti ferroviari e tramviari,10-14,F,0
+67,professione,trasporti ferroviari e tramviari,15-17,M,3
+67,professione,trasporti ferroviari e tramviari,15-17,F,0
+67,professione,trasporti ferroviari e tramviari,18-20,M,7
+67,professione,trasporti ferroviari e tramviari,18-20,F,0
+67,professione,trasporti ferroviari e tramviari,21-24,M,9
+67,professione,trasporti ferroviari e tramviari,21-24,F,0
+67,professione,trasporti ferroviari e tramviari,25-34,M,41
+67,professione,trasporti ferroviari e tramviari,25-34,F,0
+67,professione,trasporti ferroviari e tramviari,35-44,M,51
+67,professione,trasporti ferroviari e tramviari,35-44,F,0
+67,professione,trasporti ferroviari e tramviari,45-54,M,15
+67,professione,trasporti ferroviari e tramviari,45-54,F,0
+67,professione,trasporti ferroviari e tramviari,55-64,M,2
+67,professione,trasporti ferroviari e tramviari,55-64,F,0
+67,professione,trasporti ferroviari e tramviari,65+,M,4
+67,professione,trasporti ferroviari e tramviari,65+,F,0
+67,professione,trasporti ferroviari e tramviari,ignota,M,0
+67,professione,trasporti ferroviari e tramviari,ignota,F,0
+68,professione,trasporti marittimi,10-14,M,1
+68,professione,trasporti marittimi,10-14,F,0
+68,professione,trasporti marittimi,15-17,M,4
+68,professione,trasporti marittimi,15-17,F,0
+68,professione,trasporti marittimi,18-20,M,6
+68,professione,trasporti marittimi,18-20,F,0
+68,professione,trasporti marittimi,21-24,M,21
+68,professione,trasporti marittimi,21-24,F,0
+68,professione,trasporti marittimi,25-34,M,129
+68,professione,trasporti marittimi,25-34,F,0
+68,professione,trasporti marittimi,35-44,M,122
+68,professione,trasporti marittimi,35-44,F,0
+68,professione,trasporti marittimi,45-54,M,74
+68,professione,trasporti marittimi,45-54,F,0
+68,professione,trasporti marittimi,55-64,M,34
+68,professione,trasporti marittimi,55-64,F,0
+68,professione,trasporti marittimi,65+,M,17
+68,professione,trasporti marittimi,65+,F,0
+68,professione,trasporti marittimi,ignota,M,0
+68,professione,trasporti marittimi,ignota,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",10-14,M,137
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",10-14,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",15-17,M,93
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",15-17,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",18-20,M,70
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",18-20,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",21-24,M,38
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",21-24,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",25-34,M,234
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",25-34,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",35-44,M,204
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",35-44,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",45-54,M,171
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",45-54,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",55-64,M,68
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",55-64,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",65+,M,46
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",65+,F,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",ignota,M,0
+69,professione,"lavori di carico e scarico nei porti, servizi di facchinaggio",ignota,F,0
+70,professione,servizi sussidiari dei trasporti,10-14,M,0
+70,professione,servizi sussidiari dei trasporti,10-14,F,0
+70,professione,servizi sussidiari dei trasporti,15-17,M,4
+70,professione,servizi sussidiari dei trasporti,15-17,F,0
+70,professione,servizi sussidiari dei trasporti,18-20,M,6
+70,professione,servizi sussidiari dei trasporti,18-20,F,0
+70,professione,servizi sussidiari dei trasporti,21-24,M,6
+70,professione,servizi sussidiari dei trasporti,21-24,F,0
+70,professione,servizi sussidiari dei trasporti,25-34,M,25
+70,professione,servizi sussidiari dei trasporti,25-34,F,0
+70,professione,servizi sussidiari dei trasporti,35-44,M,13
+70,professione,servizi sussidiari dei trasporti,35-44,F,0
+70,professione,servizi sussidiari dei trasporti,45-54,M,6
+70,professione,servizi sussidiari dei trasporti,45-54,F,0
+70,professione,servizi sussidiari dei trasporti,55-64,M,2
+70,professione,servizi sussidiari dei trasporti,55-64,F,0
+70,professione,servizi sussidiari dei trasporti,65+,M,0
+70,professione,servizi sussidiari dei trasporti,65+,F,0
+70,professione,servizi sussidiari dei trasporti,ignota,M,0
+70,professione,servizi sussidiari dei trasporti,ignota,F,0
+71,classe,comunicazioni,10-14,M,0
+71,classe,comunicazioni,10-14,F,0
+71,classe,comunicazioni,15-17,M,6
+71,classe,comunicazioni,15-17,F,0
+71,classe,comunicazioni,18-20,M,6
+71,classe,comunicazioni,18-20,F,0
+71,classe,comunicazioni,21-24,M,3
+71,classe,comunicazioni,21-24,F,0
+71,classe,comunicazioni,25-34,M,15
+71,classe,comunicazioni,25-34,F,0
+71,classe,comunicazioni,35-44,M,10
+71,classe,comunicazioni,35-44,F,0
+71,classe,comunicazioni,45-54,M,10
+71,classe,comunicazioni,45-54,F,0
+71,classe,comunicazioni,55-64,M,1
+71,classe,comunicazioni,55-64,F,0
+71,classe,comunicazioni,65+,M,1
+71,classe,comunicazioni,65+,F,0
+71,classe,comunicazioni,ignota,M,0
+71,classe,comunicazioni,ignota,F,0
+72,professione,"servizi postali, telegrafici e telefonici",10-14,M,0
+72,professione,"servizi postali, telegrafici e telefonici",10-14,F,0
+72,professione,"servizi postali, telegrafici e telefonici",15-17,M,6
+72,professione,"servizi postali, telegrafici e telefonici",15-17,F,0
+72,professione,"servizi postali, telegrafici e telefonici",18-20,M,6
+72,professione,"servizi postali, telegrafici e telefonici",18-20,F,0
+72,professione,"servizi postali, telegrafici e telefonici",21-24,M,3
+72,professione,"servizi postali, telegrafici e telefonici",21-24,F,0
+72,professione,"servizi postali, telegrafici e telefonici",25-34,M,15
+72,professione,"servizi postali, telegrafici e telefonici",25-34,F,0
+72,professione,"servizi postali, telegrafici e telefonici",35-44,M,10
+72,professione,"servizi postali, telegrafici e telefonici",35-44,F,0
+72,professione,"servizi postali, telegrafici e telefonici",45-54,M,10
+72,professione,"servizi postali, telegrafici e telefonici",45-54,F,0
+72,professione,"servizi postali, telegrafici e telefonici",55-64,M,1
+72,professione,"servizi postali, telegrafici e telefonici",55-64,F,0
+72,professione,"servizi postali, telegrafici e telefonici",65+,M,1
+72,professione,"servizi postali, telegrafici e telefonici",65+,F,0
+72,professione,"servizi postali, telegrafici e telefonici",ignota,M,0
+72,professione,"servizi postali, telegrafici e telefonici",ignota,F,0
+73,categoria,commercio,10-14,M,265
+73,categoria,commercio,10-14,F,20
+73,categoria,commercio,15-17,M,440
+73,categoria,commercio,15-17,F,16
+73,categoria,commercio,18-20,M,539
+73,categoria,commercio,18-20,F,15
+73,categoria,commercio,21-24,M,510
+73,categoria,commercio,21-24,F,5
+73,categoria,commercio,25-34,M,2386
+73,categoria,commercio,25-34,F,19
+73,categoria,commercio,35-44,M,2941
+73,categoria,commercio,35-44,F,21
+73,categoria,commercio,45-54,M,2206
+73,categoria,commercio,45-54,F,27
+73,categoria,commercio,55-64,M,1415
+73,categoria,commercio,55-64,F,30
+73,categoria,commercio,65+,M,845
+73,categoria,commercio,65+,F,29
+73,categoria,commercio,ignota,M,5
+73,categoria,commercio,ignota,F,1
+74,classe,commercio di generi alimentari,10-14,M,67
+74,classe,commercio di generi alimentari,10-14,F,0
+74,classe,commercio di generi alimentari,15-17,M,89
+74,classe,commercio di generi alimentari,15-17,F,2
+74,classe,commercio di generi alimentari,18-20,M,137
+74,classe,commercio di generi alimentari,18-20,F,0
+74,classe,commercio di generi alimentari,21-24,M,104
+74,classe,commercio di generi alimentari,21-24,F,0
+74,classe,commercio di generi alimentari,25-34,M,530
+74,classe,commercio di generi alimentari,25-34,F,0
+74,classe,commercio di generi alimentari,35-44,M,741
+74,classe,commercio di generi alimentari,35-44,F,1
+74,classe,commercio di generi alimentari,45-54,M,568
+74,classe,commercio di generi alimentari,45-54,F,7
+74,classe,commercio di generi alimentari,55-64,M,384
+74,classe,commercio di generi alimentari,55-64,F,3
+74,classe,commercio di generi alimentari,65+,M,240
+74,classe,commercio di generi alimentari,65+,F,9
+74,classe,commercio di generi alimentari,ignota,M,0
+74,classe,commercio di generi alimentari,ignota,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",10-14,M,19
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",10-14,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",15-17,M,38
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",15-17,F,1
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",18-20,M,49
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",18-20,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",21-24,M,41
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",21-24,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",25-34,M,227
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",25-34,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",35-44,M,297
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",35-44,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",45-54,M,282
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",45-54,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",55-64,M,198
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",55-64,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",65+,M,123
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",65+,F,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",ignota,M,0
+75,professione,"vendita di carne, salumi, uova, pollame e pesce",ignota,F,0
+76,professione,vendita di latte,10-14,M,4
+76,professione,vendita di latte,10-14,F,0
+76,professione,vendita di latte,15-17,M,8
+76,professione,vendita di latte,15-17,F,1
+76,professione,vendita di latte,18-20,M,14
+76,professione,vendita di latte,18-20,F,0
+76,professione,vendita di latte,21-24,M,10
+76,professione,vendita di latte,21-24,F,0
+76,professione,vendita di latte,25-34,M,50
+76,professione,vendita di latte,25-34,F,0
+76,professione,vendita di latte,35-44,M,31
+76,professione,vendita di latte,35-44,F,1
+76,professione,vendita di latte,45-54,M,8
+76,professione,vendita di latte,45-54,F,0
+76,professione,vendita di latte,55-64,M,4
+76,professione,vendita di latte,55-64,F,0
+76,professione,vendita di latte,65+,M,2
+76,professione,vendita di latte,65+,F,0
+76,professione,vendita di latte,ignota,M,0
+76,professione,vendita di latte,ignota,F,0
+77,professione,vendita di pane,10-14,M,3
+77,professione,vendita di pane,10-14,F,0
+77,professione,vendita di pane,15-17,M,4
+77,professione,vendita di pane,15-17,F,0
+77,professione,vendita di pane,18-20,M,11
+77,professione,vendita di pane,18-20,F,0
+77,professione,vendita di pane,21-24,M,6
+77,professione,vendita di pane,21-24,F,0
+77,professione,vendita di pane,25-34,M,41
+77,professione,vendita di pane,25-34,F,0
+77,professione,vendita di pane,35-44,M,54
+77,professione,vendita di pane,35-44,F,0
+77,professione,vendita di pane,45-54,M,26
+77,professione,vendita di pane,45-54,F,0
+77,professione,vendita di pane,55-64,M,17
+77,professione,vendita di pane,55-64,F,0
+77,professione,vendita di pane,65+,M,5
+77,professione,vendita di pane,65+,F,0
+77,professione,vendita di pane,ignota,M,0
+77,professione,vendita di pane,ignota,F,0
+78,professione,"vendita di frutta, erbaggi e legumi",10-14,M,30
+78,professione,"vendita di frutta, erbaggi e legumi",10-14,F,0
+78,professione,"vendita di frutta, erbaggi e legumi",15-17,M,26
+78,professione,"vendita di frutta, erbaggi e legumi",15-17,F,0
+78,professione,"vendita di frutta, erbaggi e legumi",18-20,M,34
+78,professione,"vendita di frutta, erbaggi e legumi",18-20,F,0
+78,professione,"vendita di frutta, erbaggi e legumi",21-24,M,21
+78,professione,"vendita di frutta, erbaggi e legumi",21-24,F,0
+78,professione,"vendita di frutta, erbaggi e legumi",25-34,M,88
+78,professione,"vendita di frutta, erbaggi e legumi",25-34,F,0
+78,professione,"vendita di frutta, erbaggi e legumi",35-44,M,187
+78,professione,"vendita di frutta, erbaggi e legumi",35-44,F,0
+78,professione,"vendita di frutta, erbaggi e legumi",45-54,M,121
+78,professione,"vendita di frutta, erbaggi e legumi",45-54,F,3
+78,professione,"vendita di frutta, erbaggi e legumi",55-64,M,93
+78,professione,"vendita di frutta, erbaggi e legumi",55-64,F,1
+78,professione,"vendita di frutta, erbaggi e legumi",65+,M,70
+78,professione,"vendita di frutta, erbaggi e legumi",65+,F,4
+78,professione,"vendita di frutta, erbaggi e legumi",ignota,M,0
+78,professione,"vendita di frutta, erbaggi e legumi",ignota,F,0
+79,professione,vendita di olio,10-14,M,0
+79,professione,vendita di olio,10-14,F,0
+79,professione,vendita di olio,15-17,M,1
+79,professione,vendita di olio,15-17,F,0
+79,professione,vendita di olio,18-20,M,1
+79,professione,vendita di olio,18-20,F,0
+79,professione,vendita di olio,21-24,M,0
+79,professione,vendita di olio,21-24,F,0
+79,professione,vendita di olio,25-34,M,4
+79,professione,vendita di olio,25-34,F,0
+79,professione,vendita di olio,35-44,M,16
+79,professione,vendita di olio,35-44,F,0
+79,professione,vendita di olio,45-54,M,18
+79,professione,vendita di olio,45-54,F,0
+79,professione,vendita di olio,55-64,M,7
+79,professione,vendita di olio,55-64,F,0
+79,professione,vendita di olio,65+,M,4
+79,professione,vendita di olio,65+,F,0
+79,professione,vendita di olio,ignota,M,0
+79,professione,vendita di olio,ignota,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",10-14,M,1
+80,professione,"vendita di sale, tabacchi e generi di monopolio",10-14,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",15-17,M,3
+80,professione,"vendita di sale, tabacchi e generi di monopolio",15-17,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",18-20,M,4
+80,professione,"vendita di sale, tabacchi e generi di monopolio",18-20,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",21-24,M,1
+80,professione,"vendita di sale, tabacchi e generi di monopolio",21-24,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",25-34,M,3
+80,professione,"vendita di sale, tabacchi e generi di monopolio",25-34,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",35-44,M,5
+80,professione,"vendita di sale, tabacchi e generi di monopolio",35-44,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",45-54,M,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",45-54,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",55-64,M,2
+80,professione,"vendita di sale, tabacchi e generi di monopolio",55-64,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",65+,M,2
+80,professione,"vendita di sale, tabacchi e generi di monopolio",65+,F,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",ignota,M,0
+80,professione,"vendita di sale, tabacchi e generi di monopolio",ignota,F,0
+81,professione,"vendita di droghe, dolci e simili",10-14,M,3
+81,professione,"vendita di droghe, dolci e simili",10-14,F,0
+81,professione,"vendita di droghe, dolci e simili",15-17,M,4
+81,professione,"vendita di droghe, dolci e simili",15-17,F,0
+81,professione,"vendita di droghe, dolci e simili",18-20,M,3
+81,professione,"vendita di droghe, dolci e simili",18-20,F,0
+81,professione,"vendita di droghe, dolci e simili",21-24,M,4
+81,professione,"vendita di droghe, dolci e simili",21-24,F,0
+81,professione,"vendita di droghe, dolci e simili",25-34,M,23
+81,professione,"vendita di droghe, dolci e simili",25-34,F,0
+81,professione,"vendita di droghe, dolci e simili",35-44,M,28
+81,professione,"vendita di droghe, dolci e simili",35-44,F,0
+81,professione,"vendita di droghe, dolci e simili",45-54,M,17
+81,professione,"vendita di droghe, dolci e simili",45-54,F,1
+81,professione,"vendita di droghe, dolci e simili",55-64,M,20
+81,professione,"vendita di droghe, dolci e simili",55-64,F,1
+81,professione,"vendita di droghe, dolci e simili",65+,M,6
+81,professione,"vendita di droghe, dolci e simili",65+,F,1
+81,professione,"vendita di droghe, dolci e simili",ignota,M,0
+81,professione,"vendita di droghe, dolci e simili",ignota,F,0
+82,professione,vendita di acqua e gassose,10-14,M,2
+82,professione,vendita di acqua e gassose,10-14,F,0
+82,professione,vendita di acqua e gassose,15-17,M,3
+82,professione,vendita di acqua e gassose,15-17,F,0
+82,professione,vendita di acqua e gassose,18-20,M,5
+82,professione,vendita di acqua e gassose,18-20,F,0
+82,professione,vendita di acqua e gassose,21-24,M,3
+82,professione,vendita di acqua e gassose,21-24,F,0
+82,professione,vendita di acqua e gassose,25-34,M,18
+82,professione,vendita di acqua e gassose,25-34,F,0
+82,professione,vendita di acqua e gassose,35-44,M,28
+82,professione,vendita di acqua e gassose,35-44,F,0
+82,professione,vendita di acqua e gassose,45-54,M,25
+82,professione,vendita di acqua e gassose,45-54,F,3
+82,professione,vendita di acqua e gassose,55-64,M,15
+82,professione,vendita di acqua e gassose,55-64,F,1
+82,professione,vendita di acqua e gassose,65+,M,3
+82,professione,vendita di acqua e gassose,65+,F,4
+82,professione,vendita di acqua e gassose,ignota,M,0
+82,professione,vendita di acqua e gassose,ignota,F,0
+83,professione,vendita di generi alimentari diversi,10-14,M,5
+83,professione,vendita di generi alimentari diversi,10-14,F,0
+83,professione,vendita di generi alimentari diversi,15-17,M,2
+83,professione,vendita di generi alimentari diversi,15-17,F,0
+83,professione,vendita di generi alimentari diversi,18-20,M,16
+83,professione,vendita di generi alimentari diversi,18-20,F,0
+83,professione,vendita di generi alimentari diversi,21-24,M,18
+83,professione,vendita di generi alimentari diversi,21-24,F,0
+83,professione,vendita di generi alimentari diversi,25-34,M,76
+83,professione,vendita di generi alimentari diversi,25-34,F,0
+83,professione,vendita di generi alimentari diversi,35-44,M,95
+83,professione,vendita di generi alimentari diversi,35-44,F,0
+83,professione,vendita di generi alimentari diversi,45-54,M,71
+83,professione,vendita di generi alimentari diversi,45-54,F,0
+83,professione,vendita di generi alimentari diversi,55-64,M,28
+83,professione,vendita di generi alimentari diversi,55-64,F,0
+83,professione,vendita di generi alimentari diversi,65+,M,25
+83,professione,vendita di generi alimentari diversi,65+,F,0
+83,professione,vendita di generi alimentari diversi,ignota,M,0
+83,professione,vendita di generi alimentari diversi,ignota,F,0
+84,classe,commercio di generi non alimentari,10-14,M,15
+84,classe,commercio di generi non alimentari,10-14,F,0
+84,classe,commercio di generi non alimentari,15-17,M,14
+84,classe,commercio di generi non alimentari,15-17,F,0
+84,classe,commercio di generi non alimentari,18-20,M,18
+84,classe,commercio di generi non alimentari,18-20,F,0
+84,classe,commercio di generi non alimentari,21-24,M,14
+84,classe,commercio di generi non alimentari,21-24,F,0
+84,classe,commercio di generi non alimentari,25-34,M,70
+84,classe,commercio di generi non alimentari,25-34,F,3
+84,classe,commercio di generi non alimentari,35-44,M,104
+84,classe,commercio di generi non alimentari,35-44,F,1
+84,classe,commercio di generi non alimentari,45-54,M,78
+84,classe,commercio di generi non alimentari,45-54,F,3
+84,classe,commercio di generi non alimentari,55-64,M,85
+84,classe,commercio di generi non alimentari,55-64,F,2
+84,classe,commercio di generi non alimentari,65+,M,56
+84,classe,commercio di generi non alimentari,65+,F,1
+84,classe,commercio di generi non alimentari,ignota,M,0
+84,classe,commercio di generi non alimentari,ignota,F,0
+85,professione,vendita di bestiame,10-14,M,0
+85,professione,vendita di bestiame,10-14,F,0
+85,professione,vendita di bestiame,15-17,M,0
+85,professione,vendita di bestiame,15-17,F,0
+85,professione,vendita di bestiame,18-20,M,0
+85,professione,vendita di bestiame,18-20,F,0
+85,professione,vendita di bestiame,21-24,M,1
+85,professione,vendita di bestiame,21-24,F,0
+85,professione,vendita di bestiame,25-34,M,1
+85,professione,vendita di bestiame,25-34,F,0
+85,professione,vendita di bestiame,35-44,M,2
+85,professione,vendita di bestiame,35-44,F,0
+85,professione,vendita di bestiame,45-54,M,1
+85,professione,vendita di bestiame,45-54,F,0
+85,professione,vendita di bestiame,55-64,M,1
+85,professione,vendita di bestiame,55-64,F,0
+85,professione,vendita di bestiame,65+,M,1
+85,professione,vendita di bestiame,65+,F,0
+85,professione,vendita di bestiame,ignota,M,0
+85,professione,vendita di bestiame,ignota,F,0
+86,professione,"vendita di metalli, macchine, utensili",10-14,M,1
+86,professione,"vendita di metalli, macchine, utensili",10-14,F,0
+86,professione,"vendita di metalli, macchine, utensili",15-17,M,2
+86,professione,"vendita di metalli, macchine, utensili",15-17,F,0
+86,professione,"vendita di metalli, macchine, utensili",18-20,M,4
+86,professione,"vendita di metalli, macchine, utensili",18-20,F,0
+86,professione,"vendita di metalli, macchine, utensili",21-24,M,2
+86,professione,"vendita di metalli, macchine, utensili",21-24,F,0
+86,professione,"vendita di metalli, macchine, utensili",25-34,M,3
+86,professione,"vendita di metalli, macchine, utensili",25-34,F,0
+86,professione,"vendita di metalli, macchine, utensili",35-44,M,4
+86,professione,"vendita di metalli, macchine, utensili",35-44,F,0
+86,professione,"vendita di metalli, macchine, utensili",45-54,M,1
+86,professione,"vendita di metalli, macchine, utensili",45-54,F,0
+86,professione,"vendita di metalli, macchine, utensili",55-64,M,1
+86,professione,"vendita di metalli, macchine, utensili",55-64,F,0
+86,professione,"vendita di metalli, macchine, utensili",65+,M,0
+86,professione,"vendita di metalli, macchine, utensili",65+,F,0
+86,professione,"vendita di metalli, macchine, utensili",ignota,M,0
+86,professione,"vendita di metalli, macchine, utensili",ignota,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",10-14,M,2
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",10-14,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",15-17,M,3
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",15-17,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",18-20,M,1
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",18-20,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",21-24,M,4
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",21-24,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",25-34,M,8
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",25-34,F,1
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",35-44,M,18
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",35-44,F,1
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",45-54,M,12
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",45-54,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",55-64,M,19
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",55-64,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",65+,M,12
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",65+,F,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",ignota,M,0
+87,professione,"vendita di filati, tessuti e oggetti di vestiario",ignota,F,0
+88,professione,vendita di oggetti di arredamento,10-14,M,0
+88,professione,vendita di oggetti di arredamento,10-14,F,0
+88,professione,vendita di oggetti di arredamento,15-17,M,3
+88,professione,vendita di oggetti di arredamento,15-17,F,0
+88,professione,vendita di oggetti di arredamento,18-20,M,1
+88,professione,vendita di oggetti di arredamento,18-20,F,0
+88,professione,vendita di oggetti di arredamento,21-24,M,2
+88,professione,vendita di oggetti di arredamento,21-24,F,0
+88,professione,vendita di oggetti di arredamento,25-34,M,10
+88,professione,vendita di oggetti di arredamento,25-34,F,2
+88,professione,vendita di oggetti di arredamento,35-44,M,6
+88,professione,vendita di oggetti di arredamento,35-44,F,0
+88,professione,vendita di oggetti di arredamento,45-54,M,5
+88,professione,vendita di oggetti di arredamento,45-54,F,2
+88,professione,vendita di oggetti di arredamento,55-64,M,5
+88,professione,vendita di oggetti di arredamento,55-64,F,2
+88,professione,vendita di oggetti di arredamento,65+,M,4
+88,professione,vendita di oggetti di arredamento,65+,F,1
+88,professione,vendita di oggetti di arredamento,ignota,M,0
+88,professione,vendita di oggetti di arredamento,ignota,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,10-14,M,3
+89,professione,vendita di prodotti chimici e farmaceutici,10-14,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,15-17,M,3
+89,professione,vendita di prodotti chimici e farmaceutici,15-17,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,18-20,M,9
+89,professione,vendita di prodotti chimici e farmaceutici,18-20,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,21-24,M,4
+89,professione,vendita di prodotti chimici e farmaceutici,21-24,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,25-34,M,37
+89,professione,vendita di prodotti chimici e farmaceutici,25-34,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,35-44,M,65
+89,professione,vendita di prodotti chimici e farmaceutici,35-44,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,45-54,M,51
+89,professione,vendita di prodotti chimici e farmaceutici,45-54,F,1
+89,professione,vendita di prodotti chimici e farmaceutici,55-64,M,52
+89,professione,vendita di prodotti chimici e farmaceutici,55-64,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,65+,M,36
+89,professione,vendita di prodotti chimici e farmaceutici,65+,F,0
+89,professione,vendita di prodotti chimici e farmaceutici,ignota,M,0
+89,professione,vendita di prodotti chimici e farmaceutici,ignota,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",10-14,M,8
+90,professione,"vendita di cartoleria, riviste e giornali",10-14,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",15-17,M,3
+90,professione,"vendita di cartoleria, riviste e giornali",15-17,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",18-20,M,3
+90,professione,"vendita di cartoleria, riviste e giornali",18-20,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",21-24,M,1
+90,professione,"vendita di cartoleria, riviste e giornali",21-24,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",25-34,M,7
+90,professione,"vendita di cartoleria, riviste e giornali",25-34,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",35-44,M,2
+90,professione,"vendita di cartoleria, riviste e giornali",35-44,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",45-54,M,2
+90,professione,"vendita di cartoleria, riviste e giornali",45-54,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",55-64,M,1
+90,professione,"vendita di cartoleria, riviste e giornali",55-64,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",65+,M,1
+90,professione,"vendita di cartoleria, riviste e giornali",65+,F,0
+90,professione,"vendita di cartoleria, riviste e giornali",ignota,M,0
+90,professione,"vendita di cartoleria, riviste e giornali",ignota,F,0
+91,professione,vendita di oggetti usati,10-14,M,1
+91,professione,vendita di oggetti usati,10-14,F,0
+91,professione,vendita di oggetti usati,15-17,M,0
+91,professione,vendita di oggetti usati,15-17,F,0
+91,professione,vendita di oggetti usati,18-20,M,0
+91,professione,vendita di oggetti usati,18-20,F,0
+91,professione,vendita di oggetti usati,21-24,M,0
+91,professione,vendita di oggetti usati,21-24,F,0
+91,professione,vendita di oggetti usati,25-34,M,4
+91,professione,vendita di oggetti usati,25-34,F,0
+91,professione,vendita di oggetti usati,35-44,M,7
+91,professione,vendita di oggetti usati,35-44,F,0
+91,professione,vendita di oggetti usati,45-54,M,6
+91,professione,vendita di oggetti usati,45-54,F,0
+91,professione,vendita di oggetti usati,55-64,M,6
+91,professione,vendita di oggetti usati,55-64,F,0
+91,professione,vendita di oggetti usati,65+,M,2
+91,professione,vendita di oggetti usati,65+,F,0
+91,professione,vendita di oggetti usati,ignota,M,0
+91,professione,vendita di oggetti usati,ignota,F,0
+92,classe,esercizi pubblici,10-14,M,38
+92,classe,esercizi pubblici,10-14,F,0
+92,classe,esercizi pubblici,15-17,M,62
+92,classe,esercizi pubblici,15-17,F,1
+92,classe,esercizi pubblici,18-20,M,76
+92,classe,esercizi pubblici,18-20,F,1
+92,classe,esercizi pubblici,21-24,M,89
+92,classe,esercizi pubblici,21-24,F,2
+92,classe,esercizi pubblici,25-34,M,265
+92,classe,esercizi pubblici,25-34,F,4
+92,classe,esercizi pubblici,35-44,M,217
+92,classe,esercizi pubblici,35-44,F,7
+92,classe,esercizi pubblici,45-54,M,127
+92,classe,esercizi pubblici,45-54,F,5
+92,classe,esercizi pubblici,55-64,M,63
+92,classe,esercizi pubblici,55-64,F,2
+92,classe,esercizi pubblici,65+,M,41
+92,classe,esercizi pubblici,65+,F,2
+92,classe,esercizi pubblici,ignota,M,0
+92,classe,esercizi pubblici,ignota,F,0
+93,professione,"alberghi, locande, affittacamere",10-14,M,18
+93,professione,"alberghi, locande, affittacamere",10-14,F,0
+93,professione,"alberghi, locande, affittacamere",15-17,M,15
+93,professione,"alberghi, locande, affittacamere",15-17,F,1
+93,professione,"alberghi, locande, affittacamere",18-20,M,23
+93,professione,"alberghi, locande, affittacamere",18-20,F,1
+93,professione,"alberghi, locande, affittacamere",21-24,M,30
+93,professione,"alberghi, locande, affittacamere",21-24,F,2
+93,professione,"alberghi, locande, affittacamere",25-34,M,52
+93,professione,"alberghi, locande, affittacamere",25-34,F,4
+93,professione,"alberghi, locande, affittacamere",35-44,M,22
+93,professione,"alberghi, locande, affittacamere",35-44,F,3
+93,professione,"alberghi, locande, affittacamere",45-54,M,3
+93,professione,"alberghi, locande, affittacamere",45-54,F,3
+93,professione,"alberghi, locande, affittacamere",55-64,M,1
+93,professione,"alberghi, locande, affittacamere",55-64,F,0
+93,professione,"alberghi, locande, affittacamere",65+,M,2
+93,professione,"alberghi, locande, affittacamere",65+,F,1
+93,professione,"alberghi, locande, affittacamere",ignota,M,0
+93,professione,"alberghi, locande, affittacamere",ignota,F,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",10-14,M,9
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",10-14,F,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",15-17,M,20
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",15-17,F,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",18-20,M,17
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",18-20,F,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",21-24,M,21
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",21-24,F,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",25-34,M,71
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",25-34,F,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",35-44,M,75
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",35-44,F,4
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",45-54,M,43
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",45-54,F,2
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",55-64,M,23
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",55-64,F,2
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",65+,M,19
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",65+,F,1
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",ignota,M,0
+94,professione,"trattorie, rosticcerie, osterie, cantine, friggitorie",ignota,F,0
+95,professione,"caffe, gelaterie, bar",10-14,M,11
+95,professione,"caffe, gelaterie, bar",10-14,F,0
+95,professione,"caffe, gelaterie, bar",15-17,M,27
+95,professione,"caffe, gelaterie, bar",15-17,F,0
+95,professione,"caffe, gelaterie, bar",18-20,M,36
+95,professione,"caffe, gelaterie, bar",18-20,F,0
+95,professione,"caffe, gelaterie, bar",21-24,M,38
+95,professione,"caffe, gelaterie, bar",21-24,F,0
+95,professione,"caffe, gelaterie, bar",25-34,M,142
+95,professione,"caffe, gelaterie, bar",25-34,F,0
+95,professione,"caffe, gelaterie, bar",35-44,M,120
+95,professione,"caffe, gelaterie, bar",35-44,F,0
+95,professione,"caffe, gelaterie, bar",45-54,M,81
+95,professione,"caffe, gelaterie, bar",45-54,F,0
+95,professione,"caffe, gelaterie, bar",55-64,M,39
+95,professione,"caffe, gelaterie, bar",55-64,F,0
+95,professione,"caffe, gelaterie, bar",65+,M,20
+95,professione,"caffe, gelaterie, bar",65+,F,0
+95,professione,"caffe, gelaterie, bar",ignota,M,0
+95,professione,"caffe, gelaterie, bar",ignota,F,0
+96,classe,attivita ausiliarie del commercio,10-14,M,2
+96,classe,attivita ausiliarie del commercio,10-14,F,0
+96,classe,attivita ausiliarie del commercio,15-17,M,3
+96,classe,attivita ausiliarie del commercio,15-17,F,0
+96,classe,attivita ausiliarie del commercio,18-20,M,7
+96,classe,attivita ausiliarie del commercio,18-20,F,0
+96,classe,attivita ausiliarie del commercio,21-24,M,11
+96,classe,attivita ausiliarie del commercio,21-24,F,0
+96,classe,attivita ausiliarie del commercio,25-34,M,104
+96,classe,attivita ausiliarie del commercio,25-34,F,0
+96,classe,attivita ausiliarie del commercio,35-44,M,124
+96,classe,attivita ausiliarie del commercio,35-44,F,0
+96,classe,attivita ausiliarie del commercio,45-54,M,122
+96,classe,attivita ausiliarie del commercio,45-54,F,2
+96,classe,attivita ausiliarie del commercio,55-64,M,122
+96,classe,attivita ausiliarie del commercio,55-64,F,3
+96,classe,attivita ausiliarie del commercio,65+,M,103
+96,classe,attivita ausiliarie del commercio,65+,F,3
+96,classe,attivita ausiliarie del commercio,ignota,M,0
+96,classe,attivita ausiliarie del commercio,ignota,F,1
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",10-14,M,2
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",10-14,F,0
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",15-17,M,3
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",15-17,F,0
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",18-20,M,7
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",18-20,F,0
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",21-24,M,10
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",21-24,F,0
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",25-34,M,98
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",25-34,F,0
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",35-44,M,107
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",35-44,F,0
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",45-54,M,91
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",45-54,F,2
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",55-64,M,76
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",55-64,F,3
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",65+,M,54
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",65+,F,3
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",ignota,M,0
+97,professione,"mediatori, sensali, agenti commerciali, rappresentanti",ignota,F,0
+98,professione,banditori,10-14,M,0
+98,professione,banditori,10-14,F,0
+98,professione,banditori,15-17,M,0
+98,professione,banditori,15-17,F,0
+98,professione,banditori,18-20,M,0
+98,professione,banditori,18-20,F,0
+98,professione,banditori,21-24,M,1
+98,professione,banditori,21-24,F,0
+98,professione,banditori,25-34,M,6
+98,professione,banditori,25-34,F,0
+98,professione,banditori,35-44,M,16
+98,professione,banditori,35-44,F,0
+98,professione,banditori,45-54,M,27
+98,professione,banditori,45-54,F,0
+98,professione,banditori,55-64,M,43
+98,professione,banditori,55-64,F,0
+98,professione,banditori,65+,M,43
+98,professione,banditori,65+,F,0
+98,professione,banditori,ignota,M,0
+98,professione,banditori,ignota,F,1
+99,professione,guardiani depositi generali,10-14,M,0
+99,professione,guardiani depositi generali,10-14,F,0
+99,professione,guardiani depositi generali,15-17,M,0
+99,professione,guardiani depositi generali,15-17,F,0
+99,professione,guardiani depositi generali,18-20,M,0
+99,professione,guardiani depositi generali,18-20,F,0
+99,professione,guardiani depositi generali,21-24,M,0
+99,professione,guardiani depositi generali,21-24,F,0
+99,professione,guardiani depositi generali,25-34,M,0
+99,professione,guardiani depositi generali,25-34,F,0
+99,professione,guardiani depositi generali,35-44,M,1
+99,professione,guardiani depositi generali,35-44,F,0
+99,professione,guardiani depositi generali,45-54,M,4
+99,professione,guardiani depositi generali,45-54,F,0
+99,professione,guardiani depositi generali,55-64,M,3
+99,professione,guardiani depositi generali,55-64,F,0
+99,professione,guardiani depositi generali,65+,M,6
+99,professione,guardiani depositi generali,65+,F,0
+99,professione,guardiani depositi generali,ignota,M,0
+99,professione,guardiani depositi generali,ignota,F,0
+100,classe,attivita commerciali non specificate,10-14,M,143
+100,classe,attivita commerciali non specificate,10-14,F,20
+100,classe,attivita commerciali non specificate,15-17,M,272
+100,classe,attivita commerciali non specificate,15-17,F,13
+100,classe,attivita commerciali non specificate,18-20,M,301
+100,classe,attivita commerciali non specificate,18-20,F,14
+100,classe,attivita commerciali non specificate,21-24,M,292
+100,classe,attivita commerciali non specificate,21-24,F,3
+100,classe,attivita commerciali non specificate,25-34,M,1417
+100,classe,attivita commerciali non specificate,25-34,F,12
+100,classe,attivita commerciali non specificate,35-44,M,1755
+100,classe,attivita commerciali non specificate,35-44,F,12
+100,classe,attivita commerciali non specificate,45-54,M,1311
+100,classe,attivita commerciali non specificate,45-54,F,10
+100,classe,attivita commerciali non specificate,55-64,M,761
+100,classe,attivita commerciali non specificate,55-64,F,20
+100,classe,attivita commerciali non specificate,65+,M,405
+100,classe,attivita commerciali non specificate,65+,F,14
+100,classe,attivita commerciali non specificate,ignota,M,5
+100,classe,attivita commerciali non specificate,ignota,F,0
+101,professione,"commercianti, bottegai, mercanti",10-14,M,29
+101,professione,"commercianti, bottegai, mercanti",10-14,F,1
+101,professione,"commercianti, bottegai, mercanti",15-17,M,112
+101,professione,"commercianti, bottegai, mercanti",15-17,F,2
+101,professione,"commercianti, bottegai, mercanti",18-20,M,187
+101,professione,"commercianti, bottegai, mercanti",18-20,F,2
+101,professione,"commercianti, bottegai, mercanti",21-24,M,207
+101,professione,"commercianti, bottegai, mercanti",21-24,F,1
+101,professione,"commercianti, bottegai, mercanti",25-34,M,1163
+101,professione,"commercianti, bottegai, mercanti",25-34,F,9
+101,professione,"commercianti, bottegai, mercanti",35-44,M,1504
+101,professione,"commercianti, bottegai, mercanti",35-44,F,8
+101,professione,"commercianti, bottegai, mercanti",45-54,M,1118
+101,professione,"commercianti, bottegai, mercanti",45-54,F,7
+101,professione,"commercianti, bottegai, mercanti",55-64,M,621
+101,professione,"commercianti, bottegai, mercanti",55-64,F,11
+101,professione,"commercianti, bottegai, mercanti",65+,M,313
+101,professione,"commercianti, bottegai, mercanti",65+,F,3
+101,professione,"commercianti, bottegai, mercanti",ignota,M,2
+101,professione,"commercianti, bottegai, mercanti",ignota,F,0
+102,professione,venditori ambulanti,10-14,M,8
+102,professione,venditori ambulanti,10-14,F,1
+102,professione,venditori ambulanti,15-17,M,18
+102,professione,venditori ambulanti,15-17,F,0
+102,professione,venditori ambulanti,18-20,M,31
+102,professione,venditori ambulanti,18-20,F,1
+102,professione,venditori ambulanti,21-24,M,36
+102,professione,venditori ambulanti,21-24,F,0
+102,professione,venditori ambulanti,25-34,M,167
+102,professione,venditori ambulanti,25-34,F,3
+102,professione,venditori ambulanti,35-44,M,210
+102,professione,venditori ambulanti,35-44,F,2
+102,professione,venditori ambulanti,45-54,M,178
+102,professione,venditori ambulanti,45-54,F,1
+102,professione,venditori ambulanti,55-64,M,132
+102,professione,venditori ambulanti,55-64,F,6
+102,professione,venditori ambulanti,65+,M,88
+102,professione,venditori ambulanti,65+,F,7
+102,professione,venditori ambulanti,ignota,M,1
+102,professione,venditori ambulanti,ignota,F,0
+103,professione,commessi di negozio,10-14,M,106
+103,professione,commessi di negozio,10-14,F,18
+103,professione,commessi di negozio,15-17,M,142
+103,professione,commessi di negozio,15-17,F,11
+103,professione,commessi di negozio,18-20,M,83
+103,professione,commessi di negozio,18-20,F,11
+103,professione,commessi di negozio,21-24,M,49
+103,professione,commessi di negozio,21-24,F,2
+103,professione,commessi di negozio,25-34,M,87
+103,professione,commessi di negozio,25-34,F,0
+103,professione,commessi di negozio,35-44,M,41
+103,professione,commessi di negozio,35-44,F,2
+103,professione,commessi di negozio,45-54,M,15
+103,professione,commessi di negozio,45-54,F,2
+103,professione,commessi di negozio,55-64,M,8
+103,professione,commessi di negozio,55-64,F,3
+103,professione,commessi di negozio,65+,M,4
+103,professione,commessi di negozio,65+,F,4
+103,professione,commessi di negozio,ignota,M,2
+103,professione,commessi di negozio,ignota,F,0
+104,categoria,"attivita ed arti libere, culto",10-14,M,3
+104,categoria,"attivita ed arti libere, culto",10-14,F,0
+104,categoria,"attivita ed arti libere, culto",15-17,M,4
+104,categoria,"attivita ed arti libere, culto",15-17,F,0
+104,categoria,"attivita ed arti libere, culto",18-20,M,13
+104,categoria,"attivita ed arti libere, culto",18-20,F,0
+104,categoria,"attivita ed arti libere, culto",21-24,M,16
+104,categoria,"attivita ed arti libere, culto",21-24,F,0
+104,categoria,"attivita ed arti libere, culto",25-34,M,114
+104,categoria,"attivita ed arti libere, culto",25-34,F,2
+104,categoria,"attivita ed arti libere, culto",35-44,M,148
+104,categoria,"attivita ed arti libere, culto",35-44,F,4
+104,categoria,"attivita ed arti libere, culto",45-54,M,178
+104,categoria,"attivita ed arti libere, culto",45-54,F,9
+104,categoria,"attivita ed arti libere, culto",55-64,M,199
+104,categoria,"attivita ed arti libere, culto",55-64,F,8
+104,categoria,"attivita ed arti libere, culto",65+,M,214
+104,categoria,"attivita ed arti libere, culto",65+,F,22
+104,categoria,"attivita ed arti libere, culto",ignota,M,1
+104,categoria,"attivita ed arti libere, culto",ignota,F,0
+105,classe,attivita ed arti libere,10-14,M,1
+105,classe,attivita ed arti libere,10-14,F,0
+105,classe,attivita ed arti libere,15-17,M,2
+105,classe,attivita ed arti libere,15-17,F,0
+105,classe,attivita ed arti libere,18-20,M,6
+105,classe,attivita ed arti libere,18-20,F,0
+105,classe,attivita ed arti libere,21-24,M,3
+105,classe,attivita ed arti libere,21-24,F,0
+105,classe,attivita ed arti libere,25-34,M,17
+105,classe,attivita ed arti libere,25-34,F,2
+105,classe,attivita ed arti libere,35-44,M,11
+105,classe,attivita ed arti libere,35-44,F,4
+105,classe,attivita ed arti libere,45-54,M,10
+105,classe,attivita ed arti libere,45-54,F,6
+105,classe,attivita ed arti libere,55-64,M,9
+105,classe,attivita ed arti libere,55-64,F,8
+105,classe,attivita ed arti libere,65+,M,3
+105,classe,attivita ed arti libere,65+,F,21
+105,classe,attivita ed arti libere,ignota,M,0
+105,classe,attivita ed arti libere,ignota,F,0
+106,professione,attivita ed arti libere (professione),10-14,M,1
+106,professione,attivita ed arti libere (professione),10-14,F,0
+106,professione,attivita ed arti libere (professione),15-17,M,2
+106,professione,attivita ed arti libere (professione),15-17,F,0
+106,professione,attivita ed arti libere (professione),18-20,M,6
+106,professione,attivita ed arti libere (professione),18-20,F,0
+106,professione,attivita ed arti libere (professione),21-24,M,3
+106,professione,attivita ed arti libere (professione),21-24,F,0
+106,professione,attivita ed arti libere (professione),25-34,M,17
+106,professione,attivita ed arti libere (professione),25-34,F,2
+106,professione,attivita ed arti libere (professione),35-44,M,11
+106,professione,attivita ed arti libere (professione),35-44,F,4
+106,professione,attivita ed arti libere (professione),45-54,M,10
+106,professione,attivita ed arti libere (professione),45-54,F,6
+106,professione,attivita ed arti libere (professione),55-64,M,9
+106,professione,attivita ed arti libere (professione),55-64,F,8
+106,professione,attivita ed arti libere (professione),65+,M,3
+106,professione,attivita ed arti libere (professione),65+,F,21
+106,professione,attivita ed arti libere (professione),ignota,M,0
+106,professione,attivita ed arti libere (professione),ignota,F,0
+107,classe,piccoli mestieri autonomi,10-14,M,1
+107,classe,piccoli mestieri autonomi,10-14,F,0
+107,classe,piccoli mestieri autonomi,15-17,M,1
+107,classe,piccoli mestieri autonomi,15-17,F,0
+107,classe,piccoli mestieri autonomi,18-20,M,0
+107,classe,piccoli mestieri autonomi,18-20,F,0
+107,classe,piccoli mestieri autonomi,21-24,M,2
+107,classe,piccoli mestieri autonomi,21-24,F,0
+107,classe,piccoli mestieri autonomi,25-34,M,7
+107,classe,piccoli mestieri autonomi,25-34,F,0
+107,classe,piccoli mestieri autonomi,35-44,M,8
+107,classe,piccoli mestieri autonomi,35-44,F,0
+107,classe,piccoli mestieri autonomi,45-54,M,11
+107,classe,piccoli mestieri autonomi,45-54,F,3
+107,classe,piccoli mestieri autonomi,55-64,M,10
+107,classe,piccoli mestieri autonomi,55-64,F,0
+107,classe,piccoli mestieri autonomi,65+,M,15
+107,classe,piccoli mestieri autonomi,65+,F,1
+107,classe,piccoli mestieri autonomi,ignota,M,0
+107,classe,piccoli mestieri autonomi,ignota,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",10-14,M,1
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",10-14,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",15-17,M,1
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",15-17,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",18-20,M,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",18-20,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",21-24,M,2
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",21-24,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",25-34,M,7
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",25-34,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",35-44,M,8
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",35-44,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",45-54,M,11
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",45-54,F,3
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",55-64,M,10
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",55-64,F,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",65+,M,15
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",65+,F,1
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",ignota,M,0
+108,professione,"suonatori ambulanti, chiromanti, giocolieri, tatuatrici",ignota,F,0
+109,classe,culto,10-14,M,1
+109,classe,culto,10-14,F,0
+109,classe,culto,15-17,M,1
+109,classe,culto,15-17,F,0
+109,classe,culto,18-20,M,7
+109,classe,culto,18-20,F,0
+109,classe,culto,21-24,M,11
+109,classe,culto,21-24,F,0
+109,classe,culto,25-34,M,90
+109,classe,culto,25-34,F,0
+109,classe,culto,35-44,M,129
+109,classe,culto,35-44,F,0
+109,classe,culto,45-54,M,157
+109,classe,culto,45-54,F,0
+109,classe,culto,55-64,M,180
+109,classe,culto,55-64,F,0
+109,classe,culto,65+,M,196
+109,classe,culto,65+,F,0
+109,classe,culto,ignota,M,1
+109,classe,culto,ignota,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",10-14,M,1
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",10-14,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",15-17,M,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",15-17,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",18-20,M,5
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",18-20,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",21-24,M,6
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",21-24,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",25-34,M,57
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",25-34,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",35-44,M,75
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",35-44,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",45-54,M,103
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",45-54,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",55-64,M,116
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",55-64,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",65+,M,112
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",65+,F,0
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",ignota,M,1
+110,professione,"capi moschea, religiosi, imam, predicatori, muezzin, rabbini",ignota,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",10-14,M,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",10-14,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",15-17,M,1
+111,professione,"coranisti, dottori di corano, insegnanti di corano",15-17,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",18-20,M,2
+111,professione,"coranisti, dottori di corano, insegnanti di corano",18-20,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",21-24,M,5
+111,professione,"coranisti, dottori di corano, insegnanti di corano",21-24,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",25-34,M,33
+111,professione,"coranisti, dottori di corano, insegnanti di corano",25-34,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",35-44,M,54
+111,professione,"coranisti, dottori di corano, insegnanti di corano",35-44,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",45-54,M,54
+111,professione,"coranisti, dottori di corano, insegnanti di corano",45-54,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",55-64,M,64
+111,professione,"coranisti, dottori di corano, insegnanti di corano",55-64,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",65+,M,84
+111,professione,"coranisti, dottori di corano, insegnanti di corano",65+,F,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",ignota,M,0
+111,professione,"coranisti, dottori di corano, insegnanti di corano",ignota,F,0
+112,categoria,amministrazione pubblica e privata,10-14,M,66
+112,categoria,amministrazione pubblica e privata,10-14,F,2
+112,categoria,amministrazione pubblica e privata,15-17,M,257
+112,categoria,amministrazione pubblica e privata,15-17,F,5
+112,categoria,amministrazione pubblica e privata,18-20,M,1422
+112,categoria,amministrazione pubblica e privata,18-20,F,15
+112,categoria,amministrazione pubblica e privata,21-24,M,1405
+112,categoria,amministrazione pubblica e privata,21-24,F,8
+112,categoria,amministrazione pubblica e privata,25-34,M,6796
+112,categoria,amministrazione pubblica e privata,25-34,F,10
+112,categoria,amministrazione pubblica e privata,35-44,M,3928
+112,categoria,amministrazione pubblica e privata,35-44,F,12
+112,categoria,amministrazione pubblica e privata,45-54,M,1374
+112,categoria,amministrazione pubblica e privata,45-54,F,5
+112,categoria,amministrazione pubblica e privata,55-64,M,551
+112,categoria,amministrazione pubblica e privata,55-64,F,4
+112,categoria,amministrazione pubblica e privata,65+,M,297
+112,categoria,amministrazione pubblica e privata,65+,F,1
+112,categoria,amministrazione pubblica e privata,ignota,M,9
+112,categoria,amministrazione pubblica e privata,ignota,F,0
+113,classe_parziale,amministrazione pubblica,10-14,M,65
+113,classe_parziale,amministrazione pubblica,10-14,F,2
+113,classe_parziale,amministrazione pubblica,15-17,M,254
+113,classe_parziale,amministrazione pubblica,15-17,F,5
+113,classe_parziale,amministrazione pubblica,18-20,M,1412
+113,classe_parziale,amministrazione pubblica,18-20,F,15
+113,classe_parziale,amministrazione pubblica,21-24,M,1392
+113,classe_parziale,amministrazione pubblica,21-24,F,8
+113,classe_parziale,amministrazione pubblica,25-34,M,6747
+113,classe_parziale,amministrazione pubblica,25-34,F,9
+113,classe_parziale,amministrazione pubblica,35-44,M,3869
+113,classe_parziale,amministrazione pubblica,35-44,F,12
+113,classe_parziale,amministrazione pubblica,45-54,M,1333
+113,classe_parziale,amministrazione pubblica,45-54,F,5
+113,classe_parziale,amministrazione pubblica,55-64,M,510
+113,classe_parziale,amministrazione pubblica,55-64,F,4
+113,classe_parziale,amministrazione pubblica,65+,M,257
+113,classe_parziale,amministrazione pubblica,65+,F,1
+113,classe_parziale,amministrazione pubblica,ignota,M,8
+113,classe_parziale,amministrazione pubblica,ignota,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",10-14,M,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",10-14,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",15-17,M,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",15-17,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",18-20,M,1
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",18-20,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",21-24,M,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",21-24,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",25-34,M,38
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",25-34,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",35-44,M,109
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",35-44,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",45-54,M,126
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",45-54,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",55-64,M,136
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",55-64,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",65+,M,82
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",65+,F,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",ignota,M,0
+114,professione,"capi paese, capi distretto (mudir), capi quartiere (muctar), capi cabila, capi zauia",ignota,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,10-14,M,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,10-14,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,15-17,M,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,15-17,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,18-20,M,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,18-20,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,21-24,M,1
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,21-24,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,25-34,M,9
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,25-34,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,35-44,M,17
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,35-44,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,45-54,M,18
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,45-54,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,55-64,M,23
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,55-64,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,65+,M,13
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,65+,F,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,ignota,M,0
+115,professione,giudici e cancellieri del tribunale sciaraitico e rabbinico,ignota,F,0
+116,professione,insegnanti,10-14,M,0
+116,professione,insegnanti,10-14,F,0
+116,professione,insegnanti,15-17,M,0
+116,professione,insegnanti,15-17,F,0
+116,professione,insegnanti,18-20,M,16
+116,professione,insegnanti,18-20,F,3
+116,professione,insegnanti,21-24,M,37
+116,professione,insegnanti,21-24,F,3
+116,professione,insegnanti,25-34,M,92
+116,professione,insegnanti,25-34,F,3
+116,professione,insegnanti,35-44,M,68
+116,professione,insegnanti,35-44,F,5
+116,professione,insegnanti,45-54,M,89
+116,professione,insegnanti,45-54,F,2
+116,professione,insegnanti,55-64,M,84
+116,professione,insegnanti,55-64,F,1
+116,professione,insegnanti,65+,M,70
+116,professione,insegnanti,65+,F,0
+116,professione,insegnanti,ignota,M,0
+116,professione,insegnanti,ignota,F,0
+117,professione,interpreti,10-14,M,0
+117,professione,interpreti,10-14,F,0
+117,professione,interpreti,15-17,M,0
+117,professione,interpreti,15-17,F,0
+117,professione,interpreti,18-20,M,0
+117,professione,interpreti,18-20,F,0
+117,professione,interpreti,21-24,M,0
+117,professione,interpreti,21-24,F,0
+117,professione,interpreti,25-34,M,7
+117,professione,interpreti,25-34,F,0
+117,professione,interpreti,35-44,M,4
+117,professione,interpreti,35-44,F,0
+117,professione,interpreti,45-54,M,4
+117,professione,interpreti,45-54,F,0
+117,professione,interpreti,55-64,M,3
+117,professione,interpreti,55-64,F,0
+117,professione,interpreti,65+,M,0
+117,professione,interpreti,65+,F,0
+117,professione,interpreti,ignota,M,0
+117,professione,interpreti,ignota,F,0
+118,professione,"assistenti sanitari, infermieri",10-14,M,2
+118,professione,"assistenti sanitari, infermieri",10-14,F,1
+118,professione,"assistenti sanitari, infermieri",15-17,M,5
+118,professione,"assistenti sanitari, infermieri",15-17,F,1
+118,professione,"assistenti sanitari, infermieri",18-20,M,19
+118,professione,"assistenti sanitari, infermieri",18-20,F,7
+118,professione,"assistenti sanitari, infermieri",21-24,M,18
+118,professione,"assistenti sanitari, infermieri",21-24,F,3
+118,professione,"assistenti sanitari, infermieri",25-34,M,50
+118,professione,"assistenti sanitari, infermieri",25-34,F,1
+118,professione,"assistenti sanitari, infermieri",35-44,M,37
+118,professione,"assistenti sanitari, infermieri",35-44,F,2
+118,professione,"assistenti sanitari, infermieri",45-54,M,18
+118,professione,"assistenti sanitari, infermieri",45-54,F,0
+118,professione,"assistenti sanitari, infermieri",55-64,M,2
+118,professione,"assistenti sanitari, infermieri",55-64,F,0
+118,professione,"assistenti sanitari, infermieri",65+,M,0
+118,professione,"assistenti sanitari, infermieri",65+,F,0
+118,professione,"assistenti sanitari, infermieri",ignota,M,0
+118,professione,"assistenti sanitari, infermieri",ignota,F,0
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",10-14,M,12
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",10-14,F,1
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",15-17,M,56
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",15-17,F,3
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",18-20,M,79
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",18-20,F,5
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",21-24,M,109
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",21-24,F,1
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",25-34,M,207
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",25-34,F,3
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",35-44,M,156
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",35-44,F,1
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",45-54,M,99
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",45-54,F,0
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",55-64,M,50
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",55-64,F,0
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",65+,M,23
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",65+,F,0
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",ignota,M,0
+119,professione,"segretari, contabili, esattori, dattilografi, scrivani",ignota,F,0
+120,professione,"bidelli, uscieri, custodi, fattorini",10-14,M,41
+120,professione,"bidelli, uscieri, custodi, fattorini",10-14,F,0
+120,professione,"bidelli, uscieri, custodi, fattorini",15-17,M,46
+120,professione,"bidelli, uscieri, custodi, fattorini",15-17,F,1
+120,professione,"bidelli, uscieri, custodi, fattorini",18-20,M,75
+120,professione,"bidelli, uscieri, custodi, fattorini",18-20,F,0
+120,professione,"bidelli, uscieri, custodi, fattorini",21-24,M,73
+120,professione,"bidelli, uscieri, custodi, fattorini",21-24,F,1
+120,professione,"bidelli, uscieri, custodi, fattorini",25-34,M,384
+120,professione,"bidelli, uscieri, custodi, fattorini",25-34,F,2
+120,professione,"bidelli, uscieri, custodi, fattorini",35-44,M,340
+120,professione,"bidelli, uscieri, custodi, fattorini",35-44,F,4
+120,professione,"bidelli, uscieri, custodi, fattorini",45-54,M,174
+120,professione,"bidelli, uscieri, custodi, fattorini",45-54,F,3
+120,professione,"bidelli, uscieri, custodi, fattorini",55-64,M,68
+120,professione,"bidelli, uscieri, custodi, fattorini",55-64,F,3
+120,professione,"bidelli, uscieri, custodi, fattorini",65+,M,55
+120,professione,"bidelli, uscieri, custodi, fattorini",65+,F,1
+120,professione,"bidelli, uscieri, custodi, fattorini",ignota,M,1
+120,professione,"bidelli, uscieri, custodi, fattorini",ignota,F,0
+121,classe,amministrazione privata,10-14,M,1
+121,classe,amministrazione privata,10-14,F,0
+121,classe,amministrazione privata,15-17,M,3
+121,classe,amministrazione privata,15-17,F,0
+121,classe,amministrazione privata,18-20,M,10
+121,classe,amministrazione privata,18-20,F,0
+121,classe,amministrazione privata,21-24,M,13
+121,classe,amministrazione privata,21-24,F,0
+121,classe,amministrazione privata,25-34,M,49
+121,classe,amministrazione privata,25-34,F,1
+121,classe,amministrazione privata,35-44,M,59
+121,classe,amministrazione privata,35-44,F,0
+121,classe,amministrazione privata,45-54,M,41
+121,classe,amministrazione privata,45-54,F,0
+121,classe,amministrazione privata,55-64,M,41
+121,classe,amministrazione privata,55-64,F,0
+121,classe,amministrazione privata,65+,M,40
+121,classe,amministrazione privata,65+,F,0
+121,classe,amministrazione privata,ignota,M,1
+121,classe,amministrazione privata,ignota,F,0
+122,professione,amministrazione privata (professione),10-14,M,1
+122,professione,amministrazione privata (professione),10-14,F,0
+122,professione,amministrazione privata (professione),15-17,M,3
+122,professione,amministrazione privata (professione),15-17,F,0
+122,professione,amministrazione privata (professione),18-20,M,10
+122,professione,amministrazione privata (professione),18-20,F,0
+122,professione,amministrazione privata (professione),21-24,M,13
+122,professione,amministrazione privata (professione),21-24,F,0
+122,professione,amministrazione privata (professione),25-34,M,49
+122,professione,amministrazione privata (professione),25-34,F,1
+122,professione,amministrazione privata (professione),35-44,M,59
+122,professione,amministrazione privata (professione),35-44,F,0
+122,professione,amministrazione privata (professione),45-54,M,41
+122,professione,amministrazione privata (professione),45-54,F,0
+122,professione,amministrazione privata (professione),55-64,M,41
+122,professione,amministrazione privata (professione),55-64,F,0
+122,professione,amministrazione privata (professione),65+,M,40
+122,professione,amministrazione privata (professione),65+,F,0
+122,professione,amministrazione privata (professione),ignota,M,1
+122,professione,amministrazione privata (professione),ignota,F,0
+123,categoria,economia domestica,10-14,M,209
+123,categoria,economia domestica,10-14,F,339
+123,categoria,economia domestica,15-17,M,63
+123,categoria,economia domestica,15-17,F,221
+123,categoria,economia domestica,18-20,M,50
+123,categoria,economia domestica,18-20,F,125
+123,categoria,economia domestica,21-24,M,22
+123,categoria,economia domestica,21-24,F,45
+123,categoria,economia domestica,25-34,M,68
+123,categoria,economia domestica,25-34,F,135
+123,categoria,economia domestica,35-44,M,37
+123,categoria,economia domestica,35-44,F,115
+123,categoria,economia domestica,45-54,M,33
+123,categoria,economia domestica,45-54,F,103
+123,categoria,economia domestica,55-64,M,12
+123,categoria,economia domestica,55-64,F,87
+123,categoria,economia domestica,65+,M,21
+123,categoria,economia domestica,65+,F,104
+123,categoria,economia domestica,ignota,M,0
+123,categoria,economia domestica,ignota,F,6
+124,professione,addetti ai servizi domestici,10-14,M,209
+124,professione,addetti ai servizi domestici,10-14,F,339
+124,professione,addetti ai servizi domestici,15-17,M,63
+124,professione,addetti ai servizi domestici,15-17,F,221
+124,professione,addetti ai servizi domestici,18-20,M,50
+124,professione,addetti ai servizi domestici,18-20,F,125
+124,professione,addetti ai servizi domestici,21-24,M,22
+124,professione,addetti ai servizi domestici,21-24,F,45
+124,professione,addetti ai servizi domestici,25-34,M,68
+124,professione,addetti ai servizi domestici,25-34,F,135
+124,professione,addetti ai servizi domestici,35-44,M,37
+124,professione,addetti ai servizi domestici,35-44,F,115
+124,professione,addetti ai servizi domestici,45-54,M,33
+124,professione,addetti ai servizi domestici,45-54,F,103
+124,professione,addetti ai servizi domestici,55-64,M,12
+124,professione,addetti ai servizi domestici,55-64,F,87
+124,professione,addetti ai servizi domestici,65+,M,21
+124,professione,addetti ai servizi domestici,65+,F,104
+124,professione,addetti ai servizi domestici,ignota,M,0
+124,professione,addetti ai servizi domestici,ignota,F,6
+125,categoria,condizioni non professionali,10-14,M,7007
+125,categoria,condizioni non professionali,10-14,F,31608
+125,categoria,condizioni non professionali,15-17,M,1090
+125,categoria,condizioni non professionali,15-17,F,11687
+125,categoria,condizioni non professionali,18-20,M,387
+125,categoria,condizioni non professionali,18-20,F,18380
+125,categoria,condizioni non professionali,21-24,M,171
+125,categoria,condizioni non professionali,21-24,F,9090
+125,categoria,condizioni non professionali,25-34,M,298
+125,categoria,condizioni non professionali,25-34,F,52455
+125,categoria,condizioni non professionali,35-44,M,219
+125,categoria,condizioni non professionali,35-44,F,45599
+125,categoria,condizioni non professionali,45-54,M,250
+125,categoria,condizioni non professionali,45-54,F,31400
+125,categoria,condizioni non professionali,55-64,M,369
+125,categoria,condizioni non professionali,55-64,F,18824
+125,categoria,condizioni non professionali,65+,M,1711
+125,categoria,condizioni non professionali,65+,F,17873
+125,categoria,condizioni non professionali,ignota,M,15
+125,categoria,condizioni non professionali,ignota,F,145
+126,professione,proprietari e benestanti,10-14,M,6
+126,professione,proprietari e benestanti,10-14,F,3
+126,professione,proprietari e benestanti,15-17,M,17
+126,professione,proprietari e benestanti,15-17,F,1
+126,professione,proprietari e benestanti,18-20,M,25
+126,professione,proprietari e benestanti,18-20,F,2
+126,professione,proprietari e benestanti,21-24,M,17
+126,professione,proprietari e benestanti,21-24,F,1
+126,professione,proprietari e benestanti,25-34,M,61
+126,professione,proprietari e benestanti,25-34,F,8
+126,professione,proprietari e benestanti,35-44,M,80
+126,professione,proprietari e benestanti,35-44,F,21
+126,professione,proprietari e benestanti,45-54,M,86
+126,professione,proprietari e benestanti,45-54,F,15
+126,professione,proprietari e benestanti,55-64,M,152
+126,professione,proprietari e benestanti,55-64,F,15
+126,professione,proprietari e benestanti,65+,M,207
+126,professione,proprietari e benestanti,65+,F,28
+126,professione,proprietari e benestanti,ignota,M,0
+126,professione,proprietari e benestanti,ignota,F,0
+127,professione,"scolari, studenti, studiosi di corano",10-14,M,6976
+127,professione,"scolari, studenti, studiosi di corano",10-14,F,930
+127,professione,"scolari, studenti, studiosi di corano",15-17,M,1054
+127,professione,"scolari, studenti, studiosi di corano",15-17,F,74
+127,professione,"scolari, studenti, studiosi di corano",18-20,M,332
+127,professione,"scolari, studenti, studiosi di corano",18-20,F,12
+127,professione,"scolari, studenti, studiosi di corano",21-24,M,137
+127,professione,"scolari, studenti, studiosi di corano",21-24,F,3
+127,professione,"scolari, studenti, studiosi di corano",25-34,M,128
+127,professione,"scolari, studenti, studiosi di corano",25-34,F,3
+127,professione,"scolari, studenti, studiosi di corano",35-44,M,37
+127,professione,"scolari, studenti, studiosi di corano",35-44,F,1
+127,professione,"scolari, studenti, studiosi di corano",45-54,M,8
+127,professione,"scolari, studenti, studiosi di corano",45-54,F,2
+127,professione,"scolari, studenti, studiosi di corano",55-64,M,6
+127,professione,"scolari, studenti, studiosi di corano",55-64,F,1
+127,professione,"scolari, studenti, studiosi di corano",65+,M,4
+127,professione,"scolari, studenti, studiosi di corano",65+,F,1
+127,professione,"scolari, studenti, studiosi di corano",ignota,M,14
+127,professione,"scolari, studenti, studiosi di corano",ignota,F,6
+128,professione,attendenti alle cure domestiche,10-14,M,0
+128,professione,attendenti alle cure domestiche,10-14,F,30674
+128,professione,attendenti alle cure domestiche,15-17,M,0
+128,professione,attendenti alle cure domestiche,15-17,F,11607
+128,professione,attendenti alle cure domestiche,18-20,M,0
+128,professione,attendenti alle cure domestiche,18-20,F,18360
+128,professione,attendenti alle cure domestiche,21-24,M,0
+128,professione,attendenti alle cure domestiche,21-24,F,9081
+128,professione,attendenti alle cure domestiche,25-34,M,0
+128,professione,attendenti alle cure domestiche,25-34,F,52405
+128,professione,attendenti alle cure domestiche,35-44,M,0
+128,professione,attendenti alle cure domestiche,35-44,F,45554
+128,professione,attendenti alle cure domestiche,45-54,M,0
+128,professione,attendenti alle cure domestiche,45-54,F,31343
+128,professione,attendenti alle cure domestiche,55-64,M,0
+128,professione,attendenti alle cure domestiche,55-64,F,18707
+128,professione,attendenti alle cure domestiche,65+,M,0
+128,professione,attendenti alle cure domestiche,65+,F,15607
+128,professione,attendenti alle cure domestiche,ignota,M,0
+128,professione,attendenti alle cure domestiche,ignota,F,139
+129,professione,altre condizioni non professionali,10-14,M,25
+129,professione,altre condizioni non professionali,10-14,F,1
+129,professione,altre condizioni non professionali,15-17,M,19
+129,professione,altre condizioni non professionali,15-17,F,5
+129,professione,altre condizioni non professionali,18-20,M,30
+129,professione,altre condizioni non professionali,18-20,F,6
+129,professione,altre condizioni non professionali,21-24,M,17
+129,professione,altre condizioni non professionali,21-24,F,5
+129,professione,altre condizioni non professionali,25-34,M,109
+129,professione,altre condizioni non professionali,25-34,F,39
+129,professione,altre condizioni non professionali,35-44,M,102
+129,professione,altre condizioni non professionali,35-44,F,23
+129,professione,altre condizioni non professionali,45-54,M,156
+129,professione,altre condizioni non professionali,45-54,F,40
+129,professione,altre condizioni non professionali,55-64,M,211
+129,professione,altre condizioni non professionali,55-64,F,101
+129,professione,altre condizioni non professionali,65+,M,1500
+129,professione,altre condizioni non professionali,65+,F,2237
+129,professione,altre condizioni non professionali,ignota,M,1
+129,professione,altre condizioni non professionali,ignota,F,0
+130,categoria,senza indicazione di attivita professionale,10-14,M,18357
+130,categoria,senza indicazione di attivita professionale,10-14,F,163
+130,categoria,senza indicazione di attivita professionale,15-17,M,1285
+130,categoria,senza indicazione di attivita professionale,15-17,F,6
+130,categoria,senza indicazione di attivita professionale,18-20,M,423
+130,categoria,senza indicazione di attivita professionale,18-20,F,3
+130,categoria,senza indicazione di attivita professionale,21-24,M,142
+130,categoria,senza indicazione di attivita professionale,21-24,F,2
+130,categoria,senza indicazione di attivita professionale,25-34,M,357
+130,categoria,senza indicazione di attivita professionale,25-34,F,6
+130,categoria,senza indicazione di attivita professionale,35-44,M,189
+130,categoria,senza indicazione di attivita professionale,35-44,F,8
+130,categoria,senza indicazione di attivita professionale,45-54,M,146
+130,categoria,senza indicazione di attivita professionale,45-54,F,6
+130,categoria,senza indicazione di attivita professionale,55-64,M,167
+130,categoria,senza indicazione di attivita professionale,55-64,F,21
+130,categoria,senza indicazione di attivita professionale,65+,M,132
+130,categoria,senza indicazione di attivita professionale,65+,F,39
+130,categoria,senza indicazione di attivita professionale,ignota,M,95
+130,categoria,senza indicazione di attivita professionale,ignota,F,81
+131,professione,persone senza indicazione di professione o condizione,10-14,M,18357
+131,professione,persone senza indicazione di professione o condizione,10-14,F,163
+131,professione,persone senza indicazione di professione o condizione,15-17,M,1285
+131,professione,persone senza indicazione di professione o condizione,15-17,F,6
+131,professione,persone senza indicazione di professione o condizione,18-20,M,423
+131,professione,persone senza indicazione di professione o condizione,18-20,F,3
+131,professione,persone senza indicazione di professione o condizione,21-24,M,142
+131,professione,persone senza indicazione di professione o condizione,21-24,F,2
+131,professione,persone senza indicazione di professione o condizione,25-34,M,357
+131,professione,persone senza indicazione di professione o condizione,25-34,F,6
+131,professione,persone senza indicazione di professione o condizione,35-44,M,189
+131,professione,persone senza indicazione di professione o condizione,35-44,F,8
+131,professione,persone senza indicazione di professione o condizione,45-54,M,146
+131,professione,persone senza indicazione di professione o condizione,45-54,F,6
+131,professione,persone senza indicazione di professione o condizione,55-64,M,167
+131,professione,persone senza indicazione di professione o condizione,55-64,F,21
+131,professione,persone senza indicazione di professione o condizione,65+,M,132
+131,professione,persone senza indicazione di professione o condizione,65+,F,39
+131,professione,persone senza indicazione di professione o condizione,ignota,M,95
+131,professione,persone senza indicazione di professione o condizione,ignota,F,81
+132,totale,totale generale,10-14,M,45111
+132,totale,totale generale,10-14,F,33555
+132,totale,totale generale,15-17,M,15280
+132,totale,totale generale,15-17,F,12834
+132,totale,totale generale,18-20,M,16676
+132,totale,totale generale,18-20,F,19981
+132,totale,totale generale,21-24,M,10690
+132,totale,totale generale,21-24,F,10008
+132,totale,totale generale,25-34,M,52292
+132,totale,totale generale,25-34,F,56602
+132,totale,totale generale,35-44,M,49416
+132,totale,totale generale,35-44,F,49109
+132,totale,totale generale,45-54,M,37468
+132,totale,totale generale,45-54,F,33941
+132,totale,totale generale,55-64,M,25342
+132,totale,totale generale,55-64,F,20344
+132,totale,totale generale,65+,M,21869
+132,totale,totale generale,65+,F,18912
+132,totale,totale generale,ignota,M,234
+132,totale,totale generale,ignota,F,249

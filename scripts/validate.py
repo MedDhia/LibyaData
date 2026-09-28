@@ -1639,6 +1639,55 @@ if act36.exists():
                  f"{int(libya.residents):,}, {libya.agricoltura / libya.active:.0%} "
                  f"of them in agriculture")
 
+prof36 = OUT / "istat" / "libya_1936_libyan_professions.csv"
+if prof36.exists():
+    print("\n1936 census tables XXXIII and XXXIV, Libyans by profession")
+    pa = pd.read_csv(prof36)
+    pg = pd.read_csv(OUT / "istat" / "libya_1936_libyan_professions_age.csv")
+    trouble = []
+    provinces = ["Provincia di Tripoli", "Provincia di Misurata",
+                 "Provincia di Bengasi", "Provincia di Derna",
+                 "Territorio Militare del Sud"]
+    lib = pa[pa.area == "Libia"].pivot(index="order", columns="sex",
+                                       values="persons")
+    men = pa[pa.area.isin(provinces) & (pa.sex == "M")].groupby(
+        "order").persons.sum()
+    women = pa[pa.area.isin(provinces) & (pa.sex == "F")].groupby(
+        "order").persons.sum()
+    if not (lib.F + men).equals(lib.MF):
+        trouble.append("XXXIII Libya MF != F + provinces' men")
+    if not women.equals(lib.F):
+        trouble.append("XXXIII Libya F != provinces' women")
+    ages = pg.groupby("order").persons.sum()
+    if not ages.equals(lib.MF):
+        trouble.append("XXXIV ages do not add to XXXIII's MF")
+    total = pa[pa.level == "totale"]
+    cats = pa[pa.level == "categoria"].groupby(["area", "sex"]).persons.sum()
+    if not cats.sort_index().equals(
+            total.set_index(["area", "sex"]).persons.sort_index()):
+        trouble.append("XXXIII categories do not add to the total")
+    act = OUT / "istat" / "libya_1936_libyan_activity.csv"
+    checked = 0
+    if act.exists():
+        a = pd.read_csv(act)
+        whole = a[(a.religion == "complesso") & (a.activity == "all")]
+        whole = whole.set_index(["area", "sex"]).persons
+        for (area, sex), n in total.set_index(["area", "sex"]).persons.items():
+            if whole.get((area, sex)) != n:
+                trouble.append(f"XXXIII total {area} {sex} vs table XXXI")
+            else:
+                checked += 1
+    if trouble:
+        failures.append(f"1936 Libyan professions: {len(trouble)} checks "
+                        f"fail: {trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] line totals, sexes, categories and ages reconcile; "
+              f"{checked} totals agree with table XXXI")
+    flagged = pa[pa.note.notna() & (pa.note != "")]
+    notes.append(f"1936 Libyan professions: 91 professions; {len(flagged)} "
+                 f"source misprint corrected and flagged in the note column")
+
 print()
 for n in notes:
     print(f"note: {n}")
