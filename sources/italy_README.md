@@ -167,7 +167,8 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    **Market prices** are the fourth, in `data/processed/istat/libya_annuario_market_prices.csv`:
    quantities sold and lowest and highest prices of 23 products in Tripoli, Misurata, Bengasi and
    Derna in 1937, and average prices in five Sahara markets in 1938 and 1939. No other volume in
-   the run prints market prices for Libya. Credit, schools and the smaller series come next.
+   the run prints market prices for Libya. **Railway traffic**, 1923-24 to 1935-36, is the fifth.
+   Credit, schools and the smaller series come next.
 
 5. ~~The 1931 volume's table II, the district detail, is not machine-readable from this scan.~~
    **Done**, by transcription rather than by re-OCR. `scripts/extract_istat_1931_districts.py`

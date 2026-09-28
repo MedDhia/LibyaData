@@ -1157,6 +1157,30 @@ if mkt_path.exists():
     notes.append("annuario market prices: no totals to check against; every "
                  "cell rests on one reading")
 
+rail_path = OUT / "istat" / "libya_annuario_railways.csv"
+if rail_path.exists():
+    print("\nRailway traffic 1923-24 to 1935-36, from the yearbook")
+    rl = pd.read_csv(rail_path)
+    rp = pd.read_csv(OUT / "istat" / "libya_annuario_railways_printings.csv")
+    trouble = []
+    k = ["colony", "year", "measure", "freight_heading"]
+    pub = rp[rp.status == "published"].merge(rl[k + ["value"]], on=k,
+                                             suffixes=("", "_series"))
+    if not (pub.value == pub.value_series).all():
+        trouble.append("a published printing differs from the series")
+    fr = rl[rl.measure == "freight_tonnes"]
+    if not set(fr.freight_heading) <= {"goods", "goods and baggage"}:
+        trouble.append("freight without a heading")
+    if trouble:
+        failures.append(f"annuario railways: {trouble}")
+        print(f"  [FAIL] {trouble}")
+    else:
+        print(f"  [ok ] {len(rl)} figures, "
+              f"{int((rl.printings > 1).sum())} confirmed by a second volume")
+    notes.append("annuario railways: Tripolitania's freight is goods only to "
+                 "1932 and goods and baggage from 1933; the two are separate "
+                 "series")
+
 dist_path = OUT / "istat" / "libya_1931_districts.csv"
 if dist_path.exists():
     print("\n1931 census table II, Libya by district")

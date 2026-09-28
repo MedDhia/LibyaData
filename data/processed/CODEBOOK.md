@@ -53,6 +53,7 @@ python3 scripts/check_istat_annuario_trade.py
 python3 scripts/extract_istat_annuario_shipping.py
 python3 scripts/extract_istat_annuario_population.py
 python3 scripts/extract_istat_annuario_market_prices.py
+python3 scripts/extract_istat_annuario_railways.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1882,6 +1883,36 @@ What is checked: 110 lowest prices are at most their highest, each product
 keeps one unit, and every value is its printed cell. Every figure rests on a
 single reading. The 1941 page is not in the yearbook index, which reads that
 volume's chapter heading but not this table's.
+
+#### `libya_annuario_railways.csv`: railway traffic 1923-24 to 1935-36, 61 rows
+
+Published by `scripts/extract_istat_annuario_railways.py` from the `Traffico
+ferroviario` tables of eleven pages in the 1930 to 1938 volumes, transcribed
+into `data/raw/istat/libya_annuario_railways.csv` with the year as printed.
+
+One row per `colony`, `year` (the financial year, July to June), `measure`
+(`passengers`, `freight_tonnes`, `network_km`) and `freight_heading`: `value`,
+`printings`, `volumes`, `agreement` and `note`. The printings file keeps each
+volume's figure with its `status`.
+
+**Freight is two series.** Tripolitania prints goods only up to the 1932
+volume and goods and baggage from 1933, when it restates 1927-28 to 1930-31
+on the wider basis (170,243 tonnes of goods in 1927-28 become 171,000 of goods
+and baggage). Cyrenaica prints goods and baggage throughout. Filter on
+`freight_heading`.
+
+Tripolitania's railway carried 190,769 passengers in 1923-24 and 280,014 in
+1935-36; its freight peaked at 360,473 tonnes in 1930-31 and fell to 171,931
+by 1935-36. The network was 230 km in 1928 and 260 km from 1933, with 176 km
+in Cyrenaica.
+
+**Checks.** The tables print no totals; most years are printed in three to
+five volumes, and 46 of the 61 figures are printed more than once and agree.
+Two exceptions are on record. The 1931 volume labels its last Cyrenaica row
+1929-930, but its figures are those the 1932 and 1933 volumes both print for
+1928-29; the series files them under 1928-29 with a note. And Tripolitania's
+1932-33 freight is 191,698 tonnes in the 1934 volume and 194,037 in the three
+later ones, with no footnote; the later figure is published.
 
 ---
 
