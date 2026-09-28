@@ -1,0 +1,901 @@
+religion,area,activity,sex,persons
+complesso,Provincia di Tripoli,all,MF,241453
+complesso,Provincia di Tripoli,all,M,125646
+complesso,Provincia di Tripoli,all,F,115807
+complesso,Provincia di Tripoli,agricoltura,MF,78535
+complesso,Provincia di Tripoli,agricoltura,M,78259
+complesso,Provincia di Tripoli,agricoltura,F,276
+complesso,Provincia di Tripoli,industria,MF,16602
+complesso,Provincia di Tripoli,industria,M,14651
+complesso,Provincia di Tripoli,industria,F,1951
+complesso,Provincia di Tripoli,trasporti,MF,1206
+complesso,Provincia di Tripoli,trasporti,M,1206
+complesso,Provincia di Tripoli,trasporti,F,0
+complesso,Provincia di Tripoli,commercio,MF,6193
+complesso,Provincia di Tripoli,commercio,M,6084
+complesso,Provincia di Tripoli,commercio,F,109
+complesso,Provincia di Tripoli,libere_culto,MF,501
+complesso,Provincia di Tripoli,libere_culto,M,490
+complesso,Provincia di Tripoli,libere_culto,F,11
+complesso,Provincia di Tripoli,amministrazione,MF,9104
+complesso,Provincia di Tripoli,amministrazione,M,9054
+complesso,Provincia di Tripoli,amministrazione,F,50
+complesso,Provincia di Tripoli,domestica,MF,969
+complesso,Provincia di Tripoli,domestica,M,250
+complesso,Provincia di Tripoli,domestica,F,719
+complesso,Provincia di Tripoli,non_professionali,MF,119273
+complesso,Provincia di Tripoli,non_professionali,M,6779
+complesso,Provincia di Tripoli,non_professionali,F,112494
+complesso,Provincia di Tripoli,senza_indicazione,MF,9070
+complesso,Provincia di Tripoli,senza_indicazione,M,8873
+complesso,Provincia di Tripoli,senza_indicazione,F,197
+complesso,di cui municipio di Tripoli,all,MF,46784
+complesso,di cui municipio di Tripoli,all,M,23697
+complesso,di cui municipio di Tripoli,all,F,23087
+complesso,di cui municipio di Tripoli,agricoltura,MF,1875
+complesso,di cui municipio di Tripoli,agricoltura,M,1866
+complesso,di cui municipio di Tripoli,agricoltura,F,9
+complesso,di cui municipio di Tripoli,industria,MF,9553
+complesso,di cui municipio di Tripoli,industria,M,9266
+complesso,di cui municipio di Tripoli,industria,F,287
+complesso,di cui municipio di Tripoli,trasporti,MF,935
+complesso,di cui municipio di Tripoli,trasporti,M,935
+complesso,di cui municipio di Tripoli,trasporti,F,0
+complesso,di cui municipio di Tripoli,commercio,MF,4019
+complesso,di cui municipio di Tripoli,commercio,M,3926
+complesso,di cui municipio di Tripoli,commercio,F,93
+complesso,di cui municipio di Tripoli,libere_culto,MF,219
+complesso,di cui municipio di Tripoli,libere_culto,M,209
+complesso,di cui municipio di Tripoli,libere_culto,F,10
+complesso,di cui municipio di Tripoli,amministrazione,MF,2988
+complesso,di cui municipio di Tripoli,amministrazione,M,2942
+complesso,di cui municipio di Tripoli,amministrazione,F,46
+complesso,di cui municipio di Tripoli,domestica,MF,779
+complesso,di cui municipio di Tripoli,domestica,M,156
+complesso,di cui municipio di Tripoli,domestica,F,623
+complesso,di cui municipio di Tripoli,non_professionali,MF,25711
+complesso,di cui municipio di Tripoli,non_professionali,M,3756
+complesso,di cui municipio di Tripoli,non_professionali,F,21955
+complesso,di cui municipio di Tripoli,senza_indicazione,MF,705
+complesso,di cui municipio di Tripoli,senza_indicazione,M,641
+complesso,di cui municipio di Tripoli,senza_indicazione,F,64
+complesso,Provincia di Misurata,all,MF,149617
+complesso,Provincia di Misurata,all,M,77374
+complesso,Provincia di Misurata,all,F,72243
+complesso,Provincia di Misurata,agricoltura,MF,68751
+complesso,Provincia di Misurata,agricoltura,M,64806
+complesso,Provincia di Misurata,agricoltura,F,3945
+complesso,Provincia di Misurata,industria,MF,3482
+complesso,Provincia di Misurata,industria,M,2097
+complesso,Provincia di Misurata,industria,F,1385
+complesso,Provincia di Misurata,trasporti,MF,160
+complesso,Provincia di Misurata,trasporti,M,160
+complesso,Provincia di Misurata,trasporti,F,0
+complesso,Provincia di Misurata,commercio,MF,1446
+complesso,Provincia di Misurata,commercio,M,1439
+complesso,Provincia di Misurata,commercio,F,7
+complesso,Provincia di Misurata,libere_culto,MF,205
+complesso,Provincia di Misurata,libere_culto,M,173
+complesso,Provincia di Misurata,libere_culto,F,32
+complesso,Provincia di Misurata,amministrazione,MF,752
+complesso,Provincia di Misurata,amministrazione,M,751
+complesso,Provincia di Misurata,amministrazione,F,1
+complesso,Provincia di Misurata,domestica,MF,139
+complesso,Provincia di Misurata,domestica,M,43
+complesso,Provincia di Misurata,domestica,F,96
+complesso,Provincia di Misurata,non_professionali,MF,67629
+complesso,Provincia di Misurata,non_professionali,M,934
+complesso,Provincia di Misurata,non_professionali,F,66695
+complesso,Provincia di Misurata,senza_indicazione,MF,7053
+complesso,Provincia di Misurata,senza_indicazione,M,6971
+complesso,Provincia di Misurata,senza_indicazione,F,82
+complesso,di cui municipio di Misurata,all,MF,34639
+complesso,di cui municipio di Misurata,all,M,17551
+complesso,di cui municipio di Misurata,all,F,17088
+complesso,di cui municipio di Misurata,agricoltura,MF,15138
+complesso,di cui municipio di Misurata,agricoltura,M,15115
+complesso,di cui municipio di Misurata,agricoltura,F,23
+complesso,di cui municipio di Misurata,industria,MF,427
+complesso,di cui municipio di Misurata,industria,M,426
+complesso,di cui municipio di Misurata,industria,F,1
+complesso,di cui municipio di Misurata,trasporti,MF,73
+complesso,di cui municipio di Misurata,trasporti,M,73
+complesso,di cui municipio di Misurata,trasporti,F,0
+complesso,di cui municipio di Misurata,commercio,MF,510
+complesso,di cui municipio di Misurata,commercio,M,507
+complesso,di cui municipio di Misurata,commercio,F,3
+complesso,di cui municipio di Misurata,libere_culto,MF,49
+complesso,di cui municipio di Misurata,libere_culto,M,49
+complesso,di cui municipio di Misurata,libere_culto,F,0
+complesso,di cui municipio di Misurata,amministrazione,MF,83
+complesso,di cui municipio di Misurata,amministrazione,M,82
+complesso,di cui municipio di Misurata,amministrazione,F,1
+complesso,di cui municipio di Misurata,domestica,MF,23
+complesso,di cui municipio di Misurata,domestica,M,14
+complesso,di cui municipio di Misurata,domestica,F,9
+complesso,di cui municipio di Misurata,non_professionali,MF,17268
+complesso,di cui municipio di Misurata,non_professionali,M,235
+complesso,di cui municipio di Misurata,non_professionali,F,17033
+complesso,di cui municipio di Misurata,senza_indicazione,MF,1068
+complesso,di cui municipio di Misurata,senza_indicazione,M,1050
+complesso,di cui municipio di Misurata,senza_indicazione,F,18
+complesso,Provincia di Bengasi,all,MF,73292
+complesso,Provincia di Bengasi,all,M,38138
+complesso,Provincia di Bengasi,all,F,35154
+complesso,Provincia di Bengasi,agricoltura,MF,16345
+complesso,Provincia di Bengasi,agricoltura,M,16240
+complesso,Provincia di Bengasi,agricoltura,F,105
+complesso,Provincia di Bengasi,industria,MF,7685
+complesso,Provincia di Bengasi,industria,M,7611
+complesso,Provincia di Bengasi,industria,F,74
+complesso,Provincia di Bengasi,trasporti,MF,1324
+complesso,Provincia di Bengasi,trasporti,M,1324
+complesso,Provincia di Bengasi,trasporti,F,0
+complesso,Provincia di Bengasi,commercio,MF,2980
+complesso,Provincia di Bengasi,commercio,M,2958
+complesso,Provincia di Bengasi,commercio,F,22
+complesso,Provincia di Bengasi,libere_culto,MF,145
+complesso,Provincia di Bengasi,libere_culto,M,143
+complesso,Provincia di Bengasi,libere_culto,F,2
+complesso,Provincia di Bengasi,amministrazione,MF,4653
+complesso,Provincia di Bengasi,amministrazione,M,4643
+complesso,Provincia di Bengasi,amministrazione,F,10
+complesso,Provincia di Bengasi,domestica,MF,399
+complesso,Provincia di Bengasi,domestica,M,148
+complesso,Provincia di Bengasi,domestica,F,251
+complesso,Provincia di Bengasi,non_professionali,MF,36803
+complesso,Provincia di Bengasi,non_professionali,M,2136
+complesso,Provincia di Bengasi,non_professionali,F,34667
+complesso,Provincia di Bengasi,senza_indicazione,MF,2958
+complesso,Provincia di Bengasi,senza_indicazione,M,2935
+complesso,Provincia di Bengasi,senza_indicazione,F,23
+complesso,di cui municipio di Bengasi,all,MF,31808
+complesso,di cui municipio di Bengasi,all,M,16042
+complesso,di cui municipio di Bengasi,all,F,15766
+complesso,di cui municipio di Bengasi,agricoltura,MF,3014
+complesso,di cui municipio di Bengasi,agricoltura,M,3008
+complesso,di cui municipio di Bengasi,agricoltura,F,6
+complesso,di cui municipio di Bengasi,industria,MF,5433
+complesso,di cui municipio di Bengasi,industria,M,5385
+complesso,di cui municipio di Bengasi,industria,F,48
+complesso,di cui municipio di Bengasi,trasporti,MF,1144
+complesso,di cui municipio di Bengasi,trasporti,M,1144
+complesso,di cui municipio di Bengasi,trasporti,F,0
+complesso,di cui municipio di Bengasi,commercio,MF,2172
+complesso,di cui municipio di Bengasi,commercio,M,2153
+complesso,di cui municipio di Bengasi,commercio,F,19
+complesso,di cui municipio di Bengasi,libere_culto,MF,90
+complesso,di cui municipio di Bengasi,libere_culto,M,88
+complesso,di cui municipio di Bengasi,libere_culto,F,2
+complesso,di cui municipio di Bengasi,amministrazione,MF,1449
+complesso,di cui municipio di Bengasi,amministrazione,M,1440
+complesso,di cui municipio di Bengasi,amministrazione,F,9
+complesso,di cui municipio di Bengasi,domestica,MF,300
+complesso,di cui municipio di Bengasi,domestica,M,109
+complesso,di cui municipio di Bengasi,domestica,F,191
+complesso,di cui municipio di Bengasi,non_professionali,MF,17077
+complesso,di cui municipio di Bengasi,non_professionali,M,1599
+complesso,di cui municipio di Bengasi,non_professionali,F,15478
+complesso,di cui municipio di Bengasi,senza_indicazione,MF,1129
+complesso,di cui municipio di Bengasi,senza_indicazione,M,1116
+complesso,di cui municipio di Bengasi,senza_indicazione,F,13
+complesso,Provincia di Derna,all,MF,31617
+complesso,Provincia di Derna,all,M,16879
+complesso,Provincia di Derna,all,F,14738
+complesso,Provincia di Derna,agricoltura,MF,6354
+complesso,Provincia di Derna,agricoltura,M,6335
+complesso,Provincia di Derna,agricoltura,F,19
+complesso,Provincia di Derna,industria,MF,5504
+complesso,Provincia di Derna,industria,M,5491
+complesso,Provincia di Derna,industria,F,13
+complesso,Provincia di Derna,trasporti,MF,601
+complesso,Provincia di Derna,trasporti,M,601
+complesso,Provincia di Derna,trasporti,F,0
+complesso,Provincia di Derna,commercio,MF,814
+complesso,Provincia di Derna,commercio,M,811
+complesso,Provincia di Derna,commercio,F,3
+complesso,Provincia di Derna,libere_culto,MF,41
+complesso,Provincia di Derna,libere_culto,M,41
+complesso,Provincia di Derna,libere_culto,F,0
+complesso,Provincia di Derna,amministrazione,MF,1120
+complesso,Provincia di Derna,amministrazione,M,1119
+complesso,Provincia di Derna,amministrazione,F,1
+complesso,Provincia di Derna,domestica,MF,50
+complesso,Provincia di Derna,domestica,M,21
+complesso,Provincia di Derna,domestica,F,29
+complesso,Provincia di Derna,non_professionali,MF,15684
+complesso,Provincia di Derna,non_professionali,M,1022
+complesso,Provincia di Derna,non_professionali,F,14662
+complesso,Provincia di Derna,senza_indicazione,MF,1449
+complesso,Provincia di Derna,senza_indicazione,M,1438
+complesso,Provincia di Derna,senza_indicazione,F,11
+complesso,di cui municipio di Derna,all,MF,11593
+complesso,di cui municipio di Derna,all,M,6074
+complesso,di cui municipio di Derna,all,F,5519
+complesso,di cui municipio di Derna,agricoltura,MF,1784
+complesso,di cui municipio di Derna,agricoltura,M,1778
+complesso,di cui municipio di Derna,agricoltura,F,6
+complesso,di cui municipio di Derna,industria,MF,1874
+complesso,di cui municipio di Derna,industria,M,1869
+complesso,di cui municipio di Derna,industria,F,5
+complesso,di cui municipio di Derna,trasporti,MF,227
+complesso,di cui municipio di Derna,trasporti,M,227
+complesso,di cui municipio di Derna,trasporti,F,0
+complesso,di cui municipio di Derna,commercio,MF,529
+complesso,di cui municipio di Derna,commercio,M,527
+complesso,di cui municipio di Derna,commercio,F,2
+complesso,di cui municipio di Derna,libere_culto,MF,14
+complesso,di cui municipio di Derna,libere_culto,M,14
+complesso,di cui municipio di Derna,libere_culto,F,0
+complesso,di cui municipio di Derna,amministrazione,MF,456
+complesso,di cui municipio di Derna,amministrazione,M,455
+complesso,di cui municipio di Derna,amministrazione,F,1
+complesso,di cui municipio di Derna,domestica,MF,34
+complesso,di cui municipio di Derna,domestica,M,17
+complesso,di cui municipio di Derna,domestica,F,17
+complesso,di cui municipio di Derna,non_professionali,MF,6142
+complesso,di cui municipio di Derna,non_professionali,M,662
+complesso,di cui municipio di Derna,non_professionali,F,5480
+complesso,di cui municipio di Derna,senza_indicazione,MF,533
+complesso,di cui municipio di Derna,senza_indicazione,M,525
+complesso,di cui municipio di Derna,senza_indicazione,F,8
+complesso,Territorio Militare del Sud,all,MF,33934
+complesso,Territorio Militare del Sud,all,M,16341
+complesso,Territorio Militare del Sud,all,F,17593
+complesso,Territorio Militare del Sud,agricoltura,MF,20707
+complesso,Territorio Militare del Sud,agricoltura,M,12788
+complesso,Territorio Militare del Sud,agricoltura,F,7919
+complesso,Territorio Militare del Sud,industria,MF,1590
+complesso,Territorio Militare del Sud,industria,M,710
+complesso,Territorio Militare del Sud,industria,F,880
+complesso,Territorio Militare del Sud,trasporti,MF,229
+complesso,Territorio Militare del Sud,trasporti,M,227
+complesso,Territorio Militare del Sud,trasporti,F,2
+complesso,Territorio Militare del Sud,commercio,MF,302
+complesso,Territorio Militare del Sud,commercio,M,260
+complesso,Territorio Militare del Sud,commercio,F,42
+complesso,Territorio Militare del Sud,libere_culto,MF,43
+complesso,Territorio Militare del Sud,libere_culto,M,43
+complesso,Territorio Militare del Sud,libere_culto,F,0
+complesso,Territorio Militare del Sud,amministrazione,MF,538
+complesso,Territorio Militare del Sud,amministrazione,M,538
+complesso,Territorio Militare del Sud,amministrazione,F,0
+complesso,Territorio Militare del Sud,domestica,MF,238
+complesso,Territorio Militare del Sud,domestica,M,53
+complesso,Territorio Militare del Sud,domestica,F,185
+complesso,Territorio Militare del Sud,non_professionali,MF,9189
+complesso,Territorio Militare del Sud,non_professionali,M,646
+complesso,Territorio Militare del Sud,non_professionali,F,8543
+complesso,Territorio Militare del Sud,senza_indicazione,MF,1098
+complesso,Territorio Militare del Sud,senza_indicazione,M,1076
+complesso,Territorio Militare del Sud,senza_indicazione,F,22
+complesso,Libia,all,MF,529913
+complesso,Libia,all,M,274378
+complesso,Libia,all,F,255535
+complesso,Libia,agricoltura,MF,190692
+complesso,Libia,agricoltura,M,178428
+complesso,Libia,agricoltura,F,12264
+complesso,Libia,industria,MF,34863
+complesso,Libia,industria,M,30560
+complesso,Libia,industria,F,4303
+complesso,Libia,trasporti,MF,3520
+complesso,Libia,trasporti,M,3518
+complesso,Libia,trasporti,F,2
+complesso,Libia,commercio,MF,11735
+complesso,Libia,commercio,M,11552
+complesso,Libia,commercio,F,183
+complesso,Libia,libere_culto,MF,935
+complesso,Libia,libere_culto,M,890
+complesso,Libia,libere_culto,F,45
+complesso,Libia,amministrazione,MF,16167
+complesso,Libia,amministrazione,M,16105
+complesso,Libia,amministrazione,F,62
+complesso,Libia,domestica,MF,1795
+complesso,Libia,domestica,M,515
+complesso,Libia,domestica,F,1280
+complesso,Libia,non_professionali,MF,248578
+complesso,Libia,non_professionali,M,11517
+complesso,Libia,non_professionali,F,237061
+complesso,Libia,senza_indicazione,MF,21628
+complesso,Libia,senza_indicazione,M,21293
+complesso,Libia,senza_indicazione,F,335
+mussulmani,Provincia di Tripoli,all,MF,226302
+mussulmani,Provincia di Tripoli,all,M,118210
+mussulmani,Provincia di Tripoli,all,F,108092
+mussulmani,Provincia di Tripoli,agricoltura,MF,78474
+mussulmani,Provincia di Tripoli,agricoltura,M,78198
+mussulmani,Provincia di Tripoli,agricoltura,F,276
+mussulmani,Provincia di Tripoli,industria,MF,13618
+mussulmani,Provincia di Tripoli,industria,M,11806
+mussulmani,Provincia di Tripoli,industria,F,1812
+mussulmani,Provincia di Tripoli,trasporti,MF,1045
+mussulmani,Provincia di Tripoli,trasporti,M,1045
+mussulmani,Provincia di Tripoli,trasporti,F,0
+mussulmani,Provincia di Tripoli,commercio,MF,3784
+mussulmani,Provincia di Tripoli,commercio,M,3751
+mussulmani,Provincia di Tripoli,commercio,F,33
+mussulmani,Provincia di Tripoli,libere_culto,MF,422
+mussulmani,Provincia di Tripoli,libere_culto,M,412
+mussulmani,Provincia di Tripoli,libere_culto,F,10
+mussulmani,Provincia di Tripoli,amministrazione,MF,8698
+mussulmani,Provincia di Tripoli,amministrazione,M,8683
+mussulmani,Provincia di Tripoli,amministrazione,F,15
+mussulmani,Provincia di Tripoli,domestica,MF,559
+mussulmani,Provincia di Tripoli,domestica,M,229
+mussulmani,Provincia di Tripoli,domestica,F,330
+mussulmani,Provincia di Tripoli,non_professionali,MF,110855
+mussulmani,Provincia di Tripoli,non_professionali,M,5430
+mussulmani,Provincia di Tripoli,non_professionali,F,105425
+mussulmani,Provincia di Tripoli,senza_indicazione,MF,8847
+mussulmani,Provincia di Tripoli,senza_indicazione,M,8656
+mussulmani,Provincia di Tripoli,senza_indicazione,F,191
+mussulmani,di cui municipio di Tripoli,all,MF,34179
+mussulmani,di cui municipio di Tripoli,all,M,17497
+mussulmani,di cui municipio di Tripoli,all,F,16682
+mussulmani,di cui municipio di Tripoli,agricoltura,MF,1826
+mussulmani,di cui municipio di Tripoli,agricoltura,M,1817
+mussulmani,di cui municipio di Tripoli,agricoltura,F,9
+mussulmani,di cui municipio di Tripoli,industria,MF,7022
+mussulmani,di cui municipio di Tripoli,industria,M,6813
+mussulmani,di cui municipio di Tripoli,industria,F,209
+mussulmani,di cui municipio di Tripoli,trasporti,MF,817
+mussulmani,di cui municipio di Tripoli,trasporti,M,817
+mussulmani,di cui municipio di Tripoli,trasporti,F,0
+mussulmani,di cui municipio di Tripoli,commercio,MF,2098
+mussulmani,di cui municipio di Tripoli,commercio,M,2066
+mussulmani,di cui municipio di Tripoli,commercio,F,32
+mussulmani,di cui municipio di Tripoli,libere_culto,MF,151
+mussulmani,di cui municipio di Tripoli,libere_culto,M,142
+mussulmani,di cui municipio di Tripoli,libere_culto,F,9
+mussulmani,di cui municipio di Tripoli,amministrazione,MF,2587
+mussulmani,di cui municipio di Tripoli,amministrazione,M,2575
+mussulmani,di cui municipio di Tripoli,amministrazione,F,12
+mussulmani,di cui municipio di Tripoli,domestica,MF,384
+mussulmani,di cui municipio di Tripoli,domestica,M,136
+mussulmani,di cui municipio di Tripoli,domestica,F,248
+mussulmani,di cui municipio di Tripoli,non_professionali,MF,18715
+mussulmani,di cui municipio di Tripoli,non_professionali,M,2614
+mussulmani,di cui municipio di Tripoli,non_professionali,F,16101
+mussulmani,di cui municipio di Tripoli,senza_indicazione,MF,579
+mussulmani,di cui municipio di Tripoli,senza_indicazione,M,517
+mussulmani,di cui municipio di Tripoli,senza_indicazione,F,62
+mussulmani,Provincia di Misurata,all,MF,147477
+mussulmani,Provincia di Misurata,all,M,76346
+mussulmani,Provincia di Misurata,all,F,71131
+mussulmani,Provincia di Misurata,agricoltura,MF,68740
+mussulmani,Provincia di Misurata,agricoltura,M,64795
+mussulmani,Provincia di Misurata,agricoltura,F,3945
+mussulmani,Provincia di Misurata,industria,MF,3146
+mussulmani,Provincia di Misurata,industria,M,1786
+mussulmani,Provincia di Misurata,industria,F,1360
+mussulmani,Provincia di Misurata,trasporti,MF,155
+mussulmani,Provincia di Misurata,trasporti,M,155
+mussulmani,Provincia di Misurata,trasporti,F,0
+mussulmani,Provincia di Misurata,commercio,MF,1018
+mussulmani,Provincia di Misurata,commercio,M,1018
+mussulmani,Provincia di Misurata,commercio,F,0
+mussulmani,Provincia di Misurata,libere_culto,MF,190
+mussulmani,Provincia di Misurata,libere_culto,M,159
+mussulmani,Provincia di Misurata,libere_culto,F,31
+mussulmani,Provincia di Misurata,amministrazione,MF,738
+mussulmani,Provincia di Misurata,amministrazione,M,737
+mussulmani,Provincia di Misurata,amministrazione,F,1
+mussulmani,Provincia di Misurata,domestica,MF,105
+mussulmani,Provincia di Misurata,domestica,M,41
+mussulmani,Provincia di Misurata,domestica,F,64
+mussulmani,Provincia di Misurata,non_professionali,MF,66444
+mussulmani,Provincia di Misurata,non_professionali,M,792
+mussulmani,Provincia di Misurata,non_professionali,F,65652
+mussulmani,Provincia di Misurata,senza_indicazione,MF,6941
+mussulmani,Provincia di Misurata,senza_indicazione,M,6863
+mussulmani,Provincia di Misurata,senza_indicazione,F,78
+mussulmani,di cui municipio di Misurata,all,MF,34071
+mussulmani,di cui municipio di Misurata,all,M,17281
+mussulmani,di cui municipio di Misurata,all,F,16790
+mussulmani,di cui municipio di Misurata,agricoltura,MF,15138
+mussulmani,di cui municipio di Misurata,agricoltura,M,15115
+mussulmani,di cui municipio di Misurata,agricoltura,F,23
+mussulmani,di cui municipio di Misurata,industria,MF,345
+mussulmani,di cui municipio di Misurata,industria,M,345
+mussulmani,di cui municipio di Misurata,industria,F,0
+mussulmani,di cui municipio di Misurata,trasporti,MF,72
+mussulmani,di cui municipio di Misurata,trasporti,M,72
+mussulmani,di cui municipio di Misurata,trasporti,F,0
+mussulmani,di cui municipio di Misurata,commercio,MF,384
+mussulmani,di cui municipio di Misurata,commercio,M,384
+mussulmani,di cui municipio di Misurata,commercio,F,0
+mussulmani,di cui municipio di Misurata,libere_culto,MF,44
+mussulmani,di cui municipio di Misurata,libere_culto,M,44
+mussulmani,di cui municipio di Misurata,libere_culto,F,0
+mussulmani,di cui municipio di Misurata,amministrazione,MF,73
+mussulmani,di cui municipio di Misurata,amministrazione,M,72
+mussulmani,di cui municipio di Misurata,amministrazione,F,1
+mussulmani,di cui municipio di Misurata,domestica,MF,20
+mussulmani,di cui municipio di Misurata,domestica,M,12
+mussulmani,di cui municipio di Misurata,domestica,F,8
+mussulmani,di cui municipio di Misurata,non_professionali,MF,16933
+mussulmani,di cui municipio di Misurata,non_professionali,M,193
+mussulmani,di cui municipio di Misurata,non_professionali,F,16740
+mussulmani,di cui municipio di Misurata,senza_indicazione,MF,1062
+mussulmani,di cui municipio di Misurata,senza_indicazione,M,1044
+mussulmani,di cui municipio di Misurata,senza_indicazione,F,18
+mussulmani,Provincia di Bengasi,all,MF,70774
+mussulmani,Provincia di Bengasi,all,M,36928
+mussulmani,Provincia di Bengasi,all,F,33846
+mussulmani,Provincia di Bengasi,agricoltura,MF,16342
+mussulmani,Provincia di Bengasi,agricoltura,M,16237
+mussulmani,Provincia di Bengasi,agricoltura,F,105
+mussulmani,Provincia di Bengasi,industria,MF,7341
+mussulmani,Provincia di Bengasi,industria,M,7294
+mussulmani,Provincia di Bengasi,industria,F,47
+mussulmani,Provincia di Bengasi,trasporti,MF,1302
+mussulmani,Provincia di Bengasi,trasporti,M,1302
+mussulmani,Provincia di Bengasi,trasporti,F,0
+mussulmani,Provincia di Bengasi,commercio,MF,2476
+mussulmani,Provincia di Bengasi,commercio,M,2462
+mussulmani,Provincia di Bengasi,commercio,F,14
+mussulmani,Provincia di Bengasi,libere_culto,MF,125
+mussulmani,Provincia di Bengasi,libere_culto,M,124
+mussulmani,Provincia di Bengasi,libere_culto,F,1
+mussulmani,Provincia di Bengasi,amministrazione,MF,4560
+mussulmani,Provincia di Bengasi,amministrazione,M,4553
+mussulmani,Provincia di Bengasi,amministrazione,F,7
+mussulmani,Provincia di Bengasi,domestica,MF,354
+mussulmani,Provincia di Bengasi,domestica,M,143
+mussulmani,Provincia di Bengasi,domestica,F,211
+mussulmani,Provincia di Bengasi,non_professionali,MF,35374
+mussulmani,Provincia di Bengasi,non_professionali,M,1935
+mussulmani,Provincia di Bengasi,non_professionali,F,33439
+mussulmani,Provincia di Bengasi,senza_indicazione,MF,2900
+mussulmani,Provincia di Bengasi,senza_indicazione,M,2878
+mussulmani,Provincia di Bengasi,senza_indicazione,F,22
+mussulmani,di cui municipio di Bengasi,all,MF,29525
+mussulmani,di cui municipio di Bengasi,all,M,14953
+mussulmani,di cui municipio di Bengasi,all,F,14572
+mussulmani,di cui municipio di Bengasi,agricoltura,MF,3011
+mussulmani,di cui municipio di Bengasi,agricoltura,M,3005
+mussulmani,di cui municipio di Bengasi,agricoltura,F,6
+mussulmani,di cui municipio di Bengasi,industria,MF,5125
+mussulmani,di cui municipio di Bengasi,industria,M,5094
+mussulmani,di cui municipio di Bengasi,industria,F,31
+mussulmani,di cui municipio di Bengasi,trasporti,MF,1125
+mussulmani,di cui municipio di Bengasi,trasporti,M,1125
+mussulmani,di cui municipio di Bengasi,trasporti,F,0
+mussulmani,di cui municipio di Bengasi,commercio,MF,1721
+mussulmani,di cui municipio di Bengasi,commercio,M,1710
+mussulmani,di cui municipio di Bengasi,commercio,F,11
+mussulmani,di cui municipio di Bengasi,libere_culto,MF,73
+mussulmani,di cui municipio di Bengasi,libere_culto,M,72
+mussulmani,di cui municipio di Bengasi,libere_culto,F,1
+mussulmani,di cui municipio di Bengasi,amministrazione,MF,1359
+mussulmani,di cui municipio di Bengasi,amministrazione,M,1353
+mussulmani,di cui municipio di Bengasi,amministrazione,F,6
+mussulmani,di cui municipio di Bengasi,domestica,MF,255
+mussulmani,di cui municipio di Bengasi,domestica,M,104
+mussulmani,di cui municipio di Bengasi,domestica,F,151
+mussulmani,di cui municipio di Bengasi,non_professionali,MF,15777
+mussulmani,di cui municipio di Bengasi,non_professionali,M,1423
+mussulmani,di cui municipio di Bengasi,non_professionali,F,14354
+mussulmani,di cui municipio di Bengasi,senza_indicazione,MF,1079
+mussulmani,di cui municipio di Bengasi,senza_indicazione,M,1067
+mussulmani,di cui municipio di Bengasi,senza_indicazione,F,12
+mussulmani,Provincia di Derna,all,MF,31125
+mussulmani,Provincia di Derna,all,M,16618
+mussulmani,Provincia di Derna,all,F,14507
+mussulmani,Provincia di Derna,agricoltura,MF,6354
+mussulmani,Provincia di Derna,agricoltura,M,6335
+mussulmani,Provincia di Derna,agricoltura,F,19
+mussulmani,Provincia di Derna,industria,MF,5437
+mussulmani,Provincia di Derna,industria,M,5424
+mussulmani,Provincia di Derna,industria,F,13
+mussulmani,Provincia di Derna,trasporti,MF,600
+mussulmani,Provincia di Derna,trasporti,M,600
+mussulmani,Provincia di Derna,trasporti,F,0
+mussulmani,Provincia di Derna,commercio,MF,687
+mussulmani,Provincia di Derna,commercio,M,684
+mussulmani,Provincia di Derna,commercio,F,3
+mussulmani,Provincia di Derna,libere_culto,MF,38
+mussulmani,Provincia di Derna,libere_culto,M,38
+mussulmani,Provincia di Derna,libere_culto,F,0
+mussulmani,Provincia di Derna,amministrazione,MF,1107
+mussulmani,Provincia di Derna,amministrazione,M,1106
+mussulmani,Provincia di Derna,amministrazione,F,1
+mussulmani,Provincia di Derna,domestica,MF,49
+mussulmani,Provincia di Derna,domestica,M,20
+mussulmani,Provincia di Derna,domestica,F,29
+mussulmani,Provincia di Derna,non_professionali,MF,15411
+mussulmani,Provincia di Derna,non_professionali,M,980
+mussulmani,Provincia di Derna,non_professionali,F,14431
+mussulmani,Provincia di Derna,senza_indicazione,MF,1442
+mussulmani,Provincia di Derna,senza_indicazione,M,1431
+mussulmani,Provincia di Derna,senza_indicazione,F,11
+mussulmani,di cui municipio di Derna,all,MF,11365
+mussulmani,di cui municipio di Derna,all,M,5964
+mussulmani,di cui municipio di Derna,all,F,5401
+mussulmani,di cui municipio di Derna,agricoltura,MF,1784
+mussulmani,di cui municipio di Derna,agricoltura,M,1778
+mussulmani,di cui municipio di Derna,agricoltura,F,6
+mussulmani,di cui municipio di Derna,industria,MF,1847
+mussulmani,di cui municipio di Derna,industria,M,1842
+mussulmani,di cui municipio di Derna,industria,F,5
+mussulmani,di cui municipio di Derna,trasporti,MF,227
+mussulmani,di cui municipio di Derna,trasporti,M,227
+mussulmani,di cui municipio di Derna,trasporti,F,0
+mussulmani,di cui municipio di Derna,commercio,MF,473
+mussulmani,di cui municipio di Derna,commercio,M,471
+mussulmani,di cui municipio di Derna,commercio,F,2
+mussulmani,di cui municipio di Derna,libere_culto,MF,13
+mussulmani,di cui municipio di Derna,libere_culto,M,13
+mussulmani,di cui municipio di Derna,libere_culto,F,0
+mussulmani,di cui municipio di Derna,amministrazione,MF,453
+mussulmani,di cui municipio di Derna,amministrazione,M,452
+mussulmani,di cui municipio di Derna,amministrazione,F,1
+mussulmani,di cui municipio di Derna,domestica,MF,33
+mussulmani,di cui municipio di Derna,domestica,M,16
+mussulmani,di cui municipio di Derna,domestica,F,17
+mussulmani,di cui municipio di Derna,non_professionali,MF,6007
+mussulmani,di cui municipio di Derna,non_professionali,M,645
+mussulmani,di cui municipio di Derna,non_professionali,F,5362
+mussulmani,di cui municipio di Derna,senza_indicazione,MF,528
+mussulmani,di cui municipio di Derna,senza_indicazione,M,520
+mussulmani,di cui municipio di Derna,senza_indicazione,F,8
+mussulmani,Territorio Militare del Sud,all,MF,33919
+mussulmani,Territorio Militare del Sud,all,M,16330
+mussulmani,Territorio Militare del Sud,all,F,17589
+mussulmani,Territorio Militare del Sud,agricoltura,MF,20707
+mussulmani,Territorio Militare del Sud,agricoltura,M,12788
+mussulmani,Territorio Militare del Sud,agricoltura,F,7919
+mussulmani,Territorio Militare del Sud,industria,MF,1583
+mussulmani,Territorio Militare del Sud,industria,M,704
+mussulmani,Territorio Militare del Sud,industria,F,879
+mussulmani,Territorio Militare del Sud,trasporti,MF,229
+mussulmani,Territorio Militare del Sud,trasporti,M,227
+mussulmani,Territorio Militare del Sud,trasporti,F,2
+mussulmani,Territorio Militare del Sud,commercio,MF,300
+mussulmani,Territorio Militare del Sud,commercio,M,258
+mussulmani,Territorio Militare del Sud,commercio,F,42
+mussulmani,Territorio Militare del Sud,libere_culto,MF,43
+mussulmani,Territorio Militare del Sud,libere_culto,M,43
+mussulmani,Territorio Militare del Sud,libere_culto,F,0
+mussulmani,Territorio Militare del Sud,amministrazione,MF,538
+mussulmani,Territorio Militare del Sud,amministrazione,M,538
+mussulmani,Territorio Militare del Sud,amministrazione,F,0
+mussulmani,Territorio Militare del Sud,domestica,MF,238
+mussulmani,Territorio Militare del Sud,domestica,M,53
+mussulmani,Territorio Militare del Sud,domestica,F,185
+mussulmani,Territorio Militare del Sud,non_professionali,MF,9186
+mussulmani,Territorio Militare del Sud,non_professionali,M,646
+mussulmani,Territorio Militare del Sud,non_professionali,F,8540
+mussulmani,Territorio Militare del Sud,senza_indicazione,MF,1095
+mussulmani,Territorio Militare del Sud,senza_indicazione,M,1073
+mussulmani,Territorio Militare del Sud,senza_indicazione,F,22
+mussulmani,Libia,all,MF,509597
+mussulmani,Libia,all,M,264432
+mussulmani,Libia,all,F,245165
+mussulmani,Libia,agricoltura,MF,190617
+mussulmani,Libia,agricoltura,M,178353
+mussulmani,Libia,agricoltura,F,12264
+mussulmani,Libia,industria,MF,31125
+mussulmani,Libia,industria,M,27014
+mussulmani,Libia,industria,F,4111
+mussulmani,Libia,trasporti,MF,3331
+mussulmani,Libia,trasporti,M,3329
+mussulmani,Libia,trasporti,F,2
+mussulmani,Libia,commercio,MF,8265
+mussulmani,Libia,commercio,M,8173
+mussulmani,Libia,commercio,F,92
+mussulmani,Libia,libere_culto,MF,818
+mussulmani,Libia,libere_culto,M,776
+mussulmani,Libia,libere_culto,F,42
+mussulmani,Libia,amministrazione,MF,15641
+mussulmani,Libia,amministrazione,M,15617
+mussulmani,Libia,amministrazione,F,24
+mussulmani,Libia,domestica,MF,1305
+mussulmani,Libia,domestica,M,486
+mussulmani,Libia,domestica,F,819
+mussulmani,Libia,non_professionali,MF,237270
+mussulmani,Libia,non_professionali,M,9783
+mussulmani,Libia,non_professionali,F,227487
+mussulmani,Libia,senza_indicazione,MF,21225
+mussulmani,Libia,senza_indicazione,M,20901
+mussulmani,Libia,senza_indicazione,F,324
+ebrei,Provincia di Tripoli,all,MF,15131
+ebrei,Provincia di Tripoli,all,M,7429
+ebrei,Provincia di Tripoli,all,F,7702
+ebrei,Provincia di Tripoli,agricoltura,MF,59
+ebrei,Provincia di Tripoli,agricoltura,M,59
+ebrei,Provincia di Tripoli,agricoltura,F,0
+ebrei,Provincia di Tripoli,industria,MF,2983
+ebrei,Provincia di Tripoli,industria,M,2845
+ebrei,Provincia di Tripoli,industria,F,138
+ebrei,Provincia di Tripoli,trasporti,MF,161
+ebrei,Provincia di Tripoli,trasporti,M,161
+ebrei,Provincia di Tripoli,trasporti,F,0
+ebrei,Provincia di Tripoli,commercio,MF,2408
+ebrei,Provincia di Tripoli,commercio,M,2332
+ebrei,Provincia di Tripoli,commercio,F,76
+ebrei,Provincia di Tripoli,libere_culto,MF,79
+ebrei,Provincia di Tripoli,libere_culto,M,78
+ebrei,Provincia di Tripoli,libere_culto,F,1
+ebrei,Provincia di Tripoli,amministrazione,MF,405
+ebrei,Provincia di Tripoli,amministrazione,M,371
+ebrei,Provincia di Tripoli,amministrazione,F,34
+ebrei,Provincia di Tripoli,domestica,MF,405
+ebrei,Provincia di Tripoli,domestica,M,20
+ebrei,Provincia di Tripoli,domestica,F,385
+ebrei,Provincia di Tripoli,non_professionali,MF,8409
+ebrei,Provincia di Tripoli,non_professionali,M,1347
+ebrei,Provincia di Tripoli,non_professionali,F,7062
+ebrei,Provincia di Tripoli,senza_indicazione,MF,222
+ebrei,Provincia di Tripoli,senza_indicazione,M,216
+ebrei,Provincia di Tripoli,senza_indicazione,F,6
+ebrei,di cui municipio di Tripoli,all,MF,12593
+ebrei,di cui municipio di Tripoli,all,M,6196
+ebrei,di cui municipio di Tripoli,all,F,6397
+ebrei,di cui municipio di Tripoli,agricoltura,MF,49
+ebrei,di cui municipio di Tripoli,agricoltura,M,49
+ebrei,di cui municipio di Tripoli,agricoltura,F,0
+ebrei,di cui municipio di Tripoli,industria,MF,2531
+ebrei,di cui municipio di Tripoli,industria,M,2453
+ebrei,di cui municipio di Tripoli,industria,F,78
+ebrei,di cui municipio di Tripoli,trasporti,MF,118
+ebrei,di cui municipio di Tripoli,trasporti,M,118
+ebrei,di cui municipio di Tripoli,trasporti,F,0
+ebrei,di cui municipio di Tripoli,commercio,MF,1920
+ebrei,di cui municipio di Tripoli,commercio,M,1859
+ebrei,di cui municipio di Tripoli,commercio,F,61
+ebrei,di cui municipio di Tripoli,libere_culto,MF,68
+ebrei,di cui municipio di Tripoli,libere_culto,M,67
+ebrei,di cui municipio di Tripoli,libere_culto,F,1
+ebrei,di cui municipio di Tripoli,amministrazione,MF,400
+ebrei,di cui municipio di Tripoli,amministrazione,M,367
+ebrei,di cui municipio di Tripoli,amministrazione,F,33
+ebrei,di cui municipio di Tripoli,domestica,MF,392
+ebrei,di cui municipio di Tripoli,domestica,M,20
+ebrei,di cui municipio di Tripoli,domestica,F,372
+ebrei,di cui municipio di Tripoli,non_professionali,MF,6990
+ebrei,di cui municipio di Tripoli,non_professionali,M,1140
+ebrei,di cui municipio di Tripoli,non_professionali,F,5850
+ebrei,di cui municipio di Tripoli,senza_indicazione,MF,125
+ebrei,di cui municipio di Tripoli,senza_indicazione,M,123
+ebrei,di cui municipio di Tripoli,senza_indicazione,F,2
+ebrei,Provincia di Misurata,all,MF,2133
+ebrei,Provincia di Misurata,all,M,1023
+ebrei,Provincia di Misurata,all,F,1110
+ebrei,Provincia di Misurata,agricoltura,MF,8
+ebrei,Provincia di Misurata,agricoltura,M,8
+ebrei,Provincia di Misurata,agricoltura,F,0
+ebrei,Provincia di Misurata,industria,MF,336
+ebrei,Provincia di Misurata,industria,M,311
+ebrei,Provincia di Misurata,industria,F,25
+ebrei,Provincia di Misurata,trasporti,MF,5
+ebrei,Provincia di Misurata,trasporti,M,5
+ebrei,Provincia di Misurata,trasporti,F,0
+ebrei,Provincia di Misurata,commercio,MF,428
+ebrei,Provincia di Misurata,commercio,M,421
+ebrei,Provincia di Misurata,commercio,F,7
+ebrei,Provincia di Misurata,libere_culto,MF,15
+ebrei,Provincia di Misurata,libere_culto,M,14
+ebrei,Provincia di Misurata,libere_culto,F,1
+ebrei,Provincia di Misurata,amministrazione,MF,13
+ebrei,Provincia di Misurata,amministrazione,M,13
+ebrei,Provincia di Misurata,amministrazione,F,0
+ebrei,Provincia di Misurata,domestica,MF,34
+ebrei,Provincia di Misurata,domestica,M,2
+ebrei,Provincia di Misurata,domestica,F,32
+ebrei,Provincia di Misurata,non_professionali,MF,1183
+ebrei,Provincia di Misurata,non_professionali,M,142
+ebrei,Provincia di Misurata,non_professionali,F,1041
+ebrei,Provincia di Misurata,senza_indicazione,MF,111
+ebrei,Provincia di Misurata,senza_indicazione,M,107
+ebrei,Provincia di Misurata,senza_indicazione,F,4
+ebrei,di cui municipio di Misurata,all,MF,564
+ebrei,di cui municipio di Misurata,all,M,268
+ebrei,di cui municipio di Misurata,all,F,296
+ebrei,di cui municipio di Misurata,agricoltura,MF,0
+ebrei,di cui municipio di Misurata,agricoltura,M,0
+ebrei,di cui municipio di Misurata,agricoltura,F,0
+ebrei,di cui municipio di Misurata,industria,MF,82
+ebrei,di cui municipio di Misurata,industria,M,81
+ebrei,di cui municipio di Misurata,industria,F,1
+ebrei,di cui municipio di Misurata,trasporti,MF,1
+ebrei,di cui municipio di Misurata,trasporti,M,1
+ebrei,di cui municipio di Misurata,trasporti,F,0
+ebrei,di cui municipio di Misurata,commercio,MF,126
+ebrei,di cui municipio di Misurata,commercio,M,123
+ebrei,di cui municipio di Misurata,commercio,F,3
+ebrei,di cui municipio di Misurata,libere_culto,MF,5
+ebrei,di cui municipio di Misurata,libere_culto,M,5
+ebrei,di cui municipio di Misurata,libere_culto,F,0
+ebrei,di cui municipio di Misurata,amministrazione,MF,9
+ebrei,di cui municipio di Misurata,amministrazione,M,9
+ebrei,di cui municipio di Misurata,amministrazione,F,0
+ebrei,di cui municipio di Misurata,domestica,MF,3
+ebrei,di cui municipio di Misurata,domestica,M,2
+ebrei,di cui municipio di Misurata,domestica,F,1
+ebrei,di cui municipio di Misurata,non_professionali,MF,333
+ebrei,di cui municipio di Misurata,non_professionali,M,42
+ebrei,di cui municipio di Misurata,non_professionali,F,291
+ebrei,di cui municipio di Misurata,senza_indicazione,MF,5
+ebrei,di cui municipio di Misurata,senza_indicazione,M,5
+ebrei,di cui municipio di Misurata,senza_indicazione,F,0
+ebrei,Provincia di Bengasi,all,MF,2490
+ebrei,Provincia di Bengasi,all,M,1195
+ebrei,Provincia di Bengasi,all,F,1295
+ebrei,Provincia di Bengasi,agricoltura,MF,3
+ebrei,Provincia di Bengasi,agricoltura,M,3
+ebrei,Provincia di Bengasi,agricoltura,F,0
+ebrei,Provincia di Bengasi,industria,MF,341
+ebrei,Provincia di Bengasi,industria,M,314
+ebrei,Provincia di Bengasi,industria,F,27
+ebrei,Provincia di Bengasi,trasporti,MF,22
+ebrei,Provincia di Bengasi,trasporti,M,22
+ebrei,Provincia di Bengasi,trasporti,F,0
+ebrei,Provincia di Bengasi,commercio,MF,504
+ebrei,Provincia di Bengasi,commercio,M,496
+ebrei,Provincia di Bengasi,commercio,F,8
+ebrei,Provincia di Bengasi,libere_culto,MF,19
+ebrei,Provincia di Bengasi,libere_culto,M,18
+ebrei,Provincia di Bengasi,libere_culto,F,1
+ebrei,Provincia di Bengasi,amministrazione,MF,88
+ebrei,Provincia di Bengasi,amministrazione,M,85
+ebrei,Provincia di Bengasi,amministrazione,F,3
+ebrei,Provincia di Bengasi,domestica,MF,35
+ebrei,Provincia di Bengasi,domestica,M,2
+ebrei,Provincia di Bengasi,domestica,F,33
+ebrei,Provincia di Bengasi,non_professionali,MF,1422
+ebrei,Provincia di Bengasi,non_professionali,M,200
+ebrei,Provincia di Bengasi,non_professionali,F,1222
+ebrei,Provincia di Bengasi,senza_indicazione,MF,56
+ebrei,Provincia di Bengasi,senza_indicazione,M,55
+ebrei,Provincia di Bengasi,senza_indicazione,F,1
+ebrei,di cui municipio di Bengasi,all,MF,2260
+ebrei,di cui municipio di Bengasi,all,M,1078
+ebrei,di cui municipio di Bengasi,all,F,1182
+ebrei,di cui municipio di Bengasi,agricoltura,MF,3
+ebrei,di cui municipio di Bengasi,agricoltura,M,3
+ebrei,di cui municipio di Bengasi,agricoltura,F,0
+ebrei,di cui municipio di Bengasi,industria,MF,305
+ebrei,di cui municipio di Bengasi,industria,M,288
+ebrei,di cui municipio di Bengasi,industria,F,17
+ebrei,di cui municipio di Bengasi,trasporti,MF,19
+ebrei,di cui municipio di Bengasi,trasporti,M,19
+ebrei,di cui municipio di Bengasi,trasporti,F,0
+ebrei,di cui municipio di Bengasi,commercio,MF,451
+ebrei,di cui municipio di Bengasi,commercio,M,443
+ebrei,di cui municipio di Bengasi,commercio,F,8
+ebrei,di cui municipio di Bengasi,libere_culto,MF,17
+ebrei,di cui municipio di Bengasi,libere_culto,M,16
+ebrei,di cui municipio di Bengasi,libere_culto,F,1
+ebrei,di cui municipio di Bengasi,amministrazione,MF,86
+ebrei,di cui municipio di Bengasi,amministrazione,M,83
+ebrei,di cui municipio di Bengasi,amministrazione,F,3
+ebrei,di cui municipio di Bengasi,domestica,MF,35
+ebrei,di cui municipio di Bengasi,domestica,M,2
+ebrei,di cui municipio di Bengasi,domestica,F,33
+ebrei,di cui municipio di Bengasi,non_professionali,MF,1294
+ebrei,di cui municipio di Bengasi,non_professionali,M,175
+ebrei,di cui municipio di Bengasi,non_professionali,F,1119
+ebrei,di cui municipio di Bengasi,senza_indicazione,MF,50
+ebrei,di cui municipio di Bengasi,senza_indicazione,M,49
+ebrei,di cui municipio di Bengasi,senza_indicazione,F,1
+ebrei,Provincia di Derna,all,MF,488
+ebrei,Provincia di Derna,all,M,257
+ebrei,Provincia di Derna,all,F,231
+ebrei,Provincia di Derna,agricoltura,MF,0
+ebrei,Provincia di Derna,agricoltura,M,0
+ebrei,Provincia di Derna,agricoltura,F,0
+ebrei,Provincia di Derna,industria,MF,67
+ebrei,Provincia di Derna,industria,M,67
+ebrei,Provincia di Derna,industria,F,0
+ebrei,Provincia di Derna,trasporti,MF,1
+ebrei,Provincia di Derna,trasporti,M,1
+ebrei,Provincia di Derna,trasporti,F,0
+ebrei,Provincia di Derna,commercio,MF,127
+ebrei,Provincia di Derna,commercio,M,127
+ebrei,Provincia di Derna,commercio,F,0
+ebrei,Provincia di Derna,libere_culto,MF,3
+ebrei,Provincia di Derna,libere_culto,M,3
+ebrei,Provincia di Derna,libere_culto,F,0
+ebrei,Provincia di Derna,amministrazione,MF,9
+ebrei,Provincia di Derna,amministrazione,M,9
+ebrei,Provincia di Derna,amministrazione,F,0
+ebrei,Provincia di Derna,domestica,MF,1
+ebrei,Provincia di Derna,domestica,M,1
+ebrei,Provincia di Derna,domestica,F,0
+ebrei,Provincia di Derna,non_professionali,MF,273
+ebrei,Provincia di Derna,non_professionali,M,42
+ebrei,Provincia di Derna,non_professionali,F,231
+ebrei,Provincia di Derna,senza_indicazione,MF,7
+ebrei,Provincia di Derna,senza_indicazione,M,7
+ebrei,Provincia di Derna,senza_indicazione,F,0
+ebrei,di cui municipio di Derna,all,MF,227
+ebrei,di cui municipio di Derna,all,M,109
+ebrei,di cui municipio di Derna,all,F,118
+ebrei,di cui municipio di Derna,agricoltura,MF,0
+ebrei,di cui municipio di Derna,agricoltura,M,0
+ebrei,di cui municipio di Derna,agricoltura,F,0
+ebrei,di cui municipio di Derna,industria,MF,27
+ebrei,di cui municipio di Derna,industria,M,27
+ebrei,di cui municipio di Derna,industria,F,0
+ebrei,di cui municipio di Derna,trasporti,MF,0
+ebrei,di cui municipio di Derna,trasporti,M,0
+ebrei,di cui municipio di Derna,trasporti,F,0
+ebrei,di cui municipio di Derna,commercio,MF,56
+ebrei,di cui municipio di Derna,commercio,M,56
+ebrei,di cui municipio di Derna,commercio,F,0
+ebrei,di cui municipio di Derna,libere_culto,MF,1
+ebrei,di cui municipio di Derna,libere_culto,M,1
+ebrei,di cui municipio di Derna,libere_culto,F,0
+ebrei,di cui municipio di Derna,amministrazione,MF,2
+ebrei,di cui municipio di Derna,amministrazione,M,2
+ebrei,di cui municipio di Derna,amministrazione,F,0
+ebrei,di cui municipio di Derna,domestica,MF,1
+ebrei,di cui municipio di Derna,domestica,M,1
+ebrei,di cui municipio di Derna,domestica,F,0
+ebrei,di cui municipio di Derna,non_professionali,MF,135
+ebrei,di cui municipio di Derna,non_professionali,M,17
+ebrei,di cui municipio di Derna,non_professionali,F,118
+ebrei,di cui municipio di Derna,senza_indicazione,MF,5
+ebrei,di cui municipio di Derna,senza_indicazione,M,5
+ebrei,di cui municipio di Derna,senza_indicazione,F,0
+ebrei,Territorio Militare del Sud,all,MF,15
+ebrei,Territorio Militare del Sud,all,M,11
+ebrei,Territorio Militare del Sud,all,F,4
+ebrei,Territorio Militare del Sud,agricoltura,MF,0
+ebrei,Territorio Militare del Sud,agricoltura,M,0
+ebrei,Territorio Militare del Sud,agricoltura,F,0
+ebrei,Territorio Militare del Sud,industria,MF,7
+ebrei,Territorio Militare del Sud,industria,M,6
+ebrei,Territorio Militare del Sud,industria,F,1
+ebrei,Territorio Militare del Sud,trasporti,MF,0
+ebrei,Territorio Militare del Sud,trasporti,M,0
+ebrei,Territorio Militare del Sud,trasporti,F,0
+ebrei,Territorio Militare del Sud,commercio,MF,2
+ebrei,Territorio Militare del Sud,commercio,M,2
+ebrei,Territorio Militare del Sud,commercio,F,0
+ebrei,Territorio Militare del Sud,libere_culto,MF,0
+ebrei,Territorio Militare del Sud,libere_culto,M,0
+ebrei,Territorio Militare del Sud,libere_culto,F,0
+ebrei,Territorio Militare del Sud,amministrazione,MF,0
+ebrei,Territorio Militare del Sud,amministrazione,M,0
+ebrei,Territorio Militare del Sud,amministrazione,F,0
+ebrei,Territorio Militare del Sud,domestica,MF,0
+ebrei,Territorio Militare del Sud,domestica,M,0
+ebrei,Territorio Militare del Sud,domestica,F,0
+ebrei,Territorio Militare del Sud,non_professionali,MF,3
+ebrei,Territorio Militare del Sud,non_professionali,M,0
+ebrei,Territorio Militare del Sud,non_professionali,F,3
+ebrei,Territorio Militare del Sud,senza_indicazione,MF,3
+ebrei,Territorio Militare del Sud,senza_indicazione,M,3
+ebrei,Territorio Militare del Sud,senza_indicazione,F,0
+ebrei,Libia,all,MF,20257
+ebrei,Libia,all,M,9915
+ebrei,Libia,all,F,10342
+ebrei,Libia,agricoltura,MF,70
+ebrei,Libia,agricoltura,M,70
+ebrei,Libia,agricoltura,F,0
+ebrei,Libia,industria,MF,3734
+ebrei,Libia,industria,M,3543
+ebrei,Libia,industria,F,191
+ebrei,Libia,trasporti,MF,189
+ebrei,Libia,trasporti,M,189
+ebrei,Libia,trasporti,F,0
+ebrei,Libia,commercio,MF,3469
+ebrei,Libia,commercio,M,3378
+ebrei,Libia,commercio,F,91
+ebrei,Libia,libere_culto,MF,116
+ebrei,Libia,libere_culto,M,113
+ebrei,Libia,libere_culto,F,3
+ebrei,Libia,amministrazione,MF,515
+ebrei,Libia,amministrazione,M,478
+ebrei,Libia,amministrazione,F,37
+ebrei,Libia,domestica,MF,475
+ebrei,Libia,domestica,M,25
+ebrei,Libia,domestica,F,450
+ebrei,Libia,non_professionali,MF,11290
+ebrei,Libia,non_professionali,M,1731
+ebrei,Libia,non_professionali,F,9559
+ebrei,Libia,senza_indicazione,MF,399
+ebrei,Libia,senza_indicazione,M,388
+ebrei,Libia,senza_indicazione,F,11

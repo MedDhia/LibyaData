@@ -197,7 +197,11 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    population by age, sex, civil status and religion, per province. 38% of Libyan women aged 15 to
    19 were married, 2% of men; 35,621 widows against 8,556 widowers.
 
-   The rest of the volume's Libyan tables are being transcribed in batches: XXXI to XXXIV and XXV
+   **Tables XXXI and XXXII are read too**, by `scripts/extract_istat_1936_libyan_activity.py`:
+   the Libyan population by category of economic activity, by sex and religion, and by
+   circumscription and dimora. All 229 lines of XXXII carry table XXII's residents.
+
+   The rest of the volume's Libyan tables are being transcribed in batches: XXXIII, XXXIV and XXV
    for the Libyan population, then V to XIX for the settlers.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which

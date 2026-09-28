@@ -1445,6 +1445,43 @@ The table does not reconcile with the marriage tables XXVI and XXVII, and is not
 expected to: those count heads of family and their wives, this counts every
 married person, including those whose spouse lived elsewhere.
 
+#### Libyans by economic activity — tables XXXI and XXXII, two files
+
+Published by `scripts/extract_istat_1936_libyan_activity.py`, transcribed by
+eye from six pages.
+
+| File | Table | Holds |
+|---|---|---|
+| `libya_1936_libyan_activity.csv` | XXXI | long: `religion` (`complesso`, `mussulmani`, `ebrei`), `area` (provinces, Territorio, Libya, the four municipi as `di cui` lines), `activity` (nine categories or `all`), `sex`, `persons`. Residents aged 10 and over |
+| `libya_1936_libyan_activity_dimora.csv` | XXXII | one row per circumscription and dimora, the same 229 lines as the XXI and XXII files: `residents`, the seven active categories, `active`, `inactive`. All ages |
+
+XXXI's nine categories are those of the census: `agricoltura` (with hunting
+and fishing), `industria`, `trasporti`, `commercio`, `libere_culto` (liberal
+professions and religion), `amministrazione` (public and private
+administration), `domestica` (domestic service), `non_professionali`
+(housewives, students, the dependent) and `senza_indicazione`. XXXII's inactive
+population is the last two plus every child under ten. XXXII's printed
+percentages are derived and not transcribed.
+
+**Of 529,913 Libyans aged 10 and over, 36% worked in agriculture and 47% had no
+profession**; the census recorded 12,264 women in agriculture out of 255,535,
+and 237,061 without a profession, which says as much about how women's work was
+counted as about the work itself. The share of the active population in
+agriculture rises with mobility: 71% of the settled, 85% of the seminomadic,
+87% of the nomadic. The Circondario di Tripoli is the exception to everything:
+9% in agriculture, 51% in industry and transport. The 20,257 Jews aged 10 and
+over counted 70 in agriculture, 3,734 in industry and 3,469 in commerce.
+
+**Checks.** Within each table every printed identity holds. Across tables, four
+crossings: all 229 lines of XXXII carry table XXII's residents for that
+circumscription and dimora; XXXI's population aged 10 and over is table XXX's
+population less the 0-4 and 5-9 classes, by sex and religion (63 figures);
+XXXII's seven active categories per province equal XXXI's; and XXXII's
+inactive equals XXXI's non-professional and unstated plus table XXX's children
+under ten. One cell corrected: the Circondario di Barce's agriculture prints a
+worn bold figure that reads 4,319; its row, its three distretti and its
+province each give 4,819.
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

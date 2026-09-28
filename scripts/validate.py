@@ -1595,6 +1595,50 @@ if age36.exists():
                  f"{libya[('vedovi', 'M')]:,} widowers; "
                  f"{libya[('divorziati', 'F')]:,} divorced women")
 
+act36 = OUT / "istat" / "libya_1936_libyan_activity_dimora.csv"
+if act36.exists():
+    print("\n1936 census tables XXXI and XXXII, Libyans by economic activity")
+    d32 = pd.read_csv(act36)
+    a31 = pd.read_csv(OUT / "istat" / "libya_1936_libyan_activity.csv")
+    active = ["agricoltura", "industria", "trasporti", "commercio",
+              "libere_culto", "amministrazione", "domestica"]
+    trouble = []
+    if not (d32[active].sum(axis=1) == d32.active).all():
+        trouble.append("XXXII categories do not add to the active")
+    if not (d32.active + d32.inactive == d32.residents).all():
+        trouble.append("XXXII active plus inactive")
+    wide = a31.pivot_table(index=["religion", "area", "activity"],
+                           columns="sex", values="persons", aggfunc="sum")
+    if not (wide.M + wide.F).equals(wide.MF):
+        trouble.append("XXXI M + F != MF")
+    parts = a31[a31.activity != "all"].groupby(
+        ["religion", "area", "sex"]).persons.sum()
+    whole = a31[a31.activity == "all"].set_index(
+        ["religion", "area", "sex"]).persons
+    if not parts.sort_index().equals(whole.sort_index()):
+        trouble.append("XXXI categories do not add to the total")
+    res36 = OUT / "istat" / "libya_1936_libyans_resident.csv"
+    checked = 0
+    if res36.exists():
+        res = pd.read_csv(res36)
+        same = (res.name.values == d32.name.values).all() and (
+            res.dimora.values == d32.dimora.values).all()
+        if not same or not (res.mf.values == d32.residents.values).all():
+            trouble.append("XXXII does not carry table XXII's residents")
+        else:
+            checked = len(d32)
+    if trouble:
+        failures.append(f"1936 Libyan activity: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] categories, sexes and active plus inactive reconcile; "
+              f"{checked} lines of XXXII carry table XXII's residents")
+    libya = d32[(d32.name == "LIBIA") & (d32.dimora == "Tot")].iloc[0]
+    notes.append(f"1936 Libyan activity: {int(libya.active):,} active of "
+                 f"{int(libya.residents):,}, {libya.agricoltura / libya.active:.0%} "
+                 f"of them in agriculture")
+
 print()
 for n in notes:
     print(f"note: {n}")
