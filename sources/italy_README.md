@@ -193,7 +193,11 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    husbands, 3.7%; the two polygamy tables agree in every cell, including the wives implied by the
    number each man had.
 
-   The rest of the volume's Libyan tables are being transcribed in batches: XXX to XXXIV and XXV
+   **Table XXX is read too**, by `scripts/extract_istat_1936_libyan_age.py`: the Libyan
+   population by age, sex, civil status and religion, per province. 38% of Libyan women aged 15 to
+   19 were married, 2% of men; 35,621 widows against 8,556 widowers.
+
+   The rest of the volume's Libyan tables are being transcribed in batches: XXXI to XXXIV and XXV
    for the Libyan population, then V to XIX for the settlers.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which

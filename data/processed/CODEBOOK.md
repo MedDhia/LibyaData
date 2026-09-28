@@ -1406,6 +1406,45 @@ tables, families and members per province equal table XXII's family heads and
 residents; XXIV's categories equal XXIII's; and XXVIII equals XXVII as above.
 About 5,100 figures, all passing on the first reading.
 
+#### `libya_1936_libyan_age.csv` — Libyans by age, sex and civil status, 7,182 rows
+
+Table XXX, published by `scripts/extract_istat_1936_libyan_age.py` and
+transcribed by eye from six pages. Long format: one row per area, religion, age
+class, civil status and sex.
+
+| Column | Values |
+|---|---|
+| `area` | `Libia`, the four provinces, the Territorio Militare del Sud, and the four municipi as `di cui municipio di ...` lines (part of their province, not added to it) |
+| `religion` | `complesso` (everyone, including the few of another or unknown religion), `mussulmani`, `ebrei` |
+| `age` | 0-4 to 65-69 in five-year classes, then 70-79, 80-89, `90+`, `ignota`, `Totale` |
+| `civil_status` | `all`, `celibi` (never married), `coniugati`, `vedovi`, `divorziati`, `ignoto` |
+| `sex` | `MF`, `M`, `F` |
+
+Jewish figures are given for Libya and the four provinces. The Territorio
+Militare del Sud prints no Jewish block; its 16 non-Muslims are exactly the
+Jews that Libya's Jewish block has beyond the four provinces, age by age and
+status by status, which the script checks.
+
+**The age at marriage is the first thing this table shows.** Among Libyan
+women aged 15 to 19, **38% were married** (40% of Muslim women, 15% of Jewish
+women); among men of the same age, 2%. By 20 to 24 the figures are 85% and 23%.
+The table records 206 married girls and 44 married boys aged 10 to 14.
+
+**The second is widowhood and divorce, and how unequal both were.** 35,621 widows
+against 8,556 widowers; 4,061 divorced women against 2,780 divorced men. Among
+Libyans aged 70 to 79, 7,458 women were widowed and 2,015 still married.
+
+**Checks.** M + F = MF in every block; the five civil states add to the total;
+the age classes add to the Totale line; the provinces and the Territorio add to
+Libya, for everyone and for Muslims; Muslims and Jews never exceed the whole.
+Against table XXII, a transcription from other pages, the totals by sex and
+religion agree for every province and for Libya. 7,182 figures, all passing on
+the first reading.
+
+The table does not reconcile with the marriage tables XXVI and XXVII, and is not
+expected to: those count heads of family and their wives, this counts every
+married person, including those whose spouse lived elsewhere.
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

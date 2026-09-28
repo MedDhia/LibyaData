@@ -1533,6 +1533,68 @@ if fam36.exists():
                  f"families; {int(mono):,} monogamous Muslim heads and "
                  f"{int(polyn):,} polygamous husbands")
 
+age36 = OUT / "istat" / "libya_1936_libyan_age.csv"
+if age36.exists():
+    print("\n1936 census table XXX, Libyans by age, sex and civil status")
+    a = pd.read_csv(age36)
+    trouble = []
+    wide = a.pivot_table(index=["area", "religion", "age", "civil_status"],
+                         columns="sex", values="persons", aggfunc="sum")
+    if not (wide.M + wide.F).equals(wide.MF):
+        trouble.append("M + F != MF")
+    states = a[a.civil_status != "all"].groupby(
+        ["area", "religion", "age", "sex"]).persons.sum()
+    whole = a[a.civil_status == "all"].set_index(
+        ["area", "religion", "age", "sex"]).persons
+    if not states.sort_index().equals(whole.sort_index()):
+        trouble.append("civil states do not add to the total")
+    ages = a[a.age != "Totale"].groupby(
+        ["area", "religion", "civil_status", "sex"]).persons.sum()
+    tot = a[a.age == "Totale"].set_index(
+        ["area", "religion", "civil_status", "sex"]).persons
+    if not ages.sort_index().equals(tot.sort_index()):
+        trouble.append("ages do not add to the Totale")
+    provinces = ["Provincia di Tripoli", "Provincia di Misurata",
+                 "Provincia di Bengasi", "Provincia di Derna",
+                 "Territorio Militare del Sud"]
+    for religion in ("complesso", "mussulmani"):
+        part = a[(a.religion == religion) & a.area.isin(provinces)].groupby(
+            ["age", "civil_status", "sex"]).persons.sum()
+        top = a[(a.religion == religion) & (a.area == "Libia")].set_index(
+            ["age", "civil_status", "sex"]).persons
+        if not part.sort_index().equals(top.sort_index()):
+            trouble.append(f"{religion}: provinces do not add to Libya")
+    checked = 0
+    res36 = OUT / "istat" / "libya_1936_libyans_resident.csv"
+    if res36.exists():
+        res = pd.read_csv(res36)
+        heads = res[res.dimora.isin(["Tot", "st"])].drop_duplicates("name")
+        heads = heads.set_index("name")
+        for area in provinces + ["Libia"]:
+            name = "LIBIA" if area == "Libia" else area
+            got = a[(a.area == area) & (a.age == "Totale")
+                    & (a.civil_status == "all")].set_index(
+                        ["religion", "sex"]).persons
+            for (religion, sex), col in ((("complesso", "MF"), "mf"),
+                                         (("complesso", "F"), "f"),
+                                         (("mussulmani", "MF"), "muslim")):
+                if got[(religion, sex)] != heads.loc[name, col]:
+                    trouble.append(f"{area} {religion} {sex} vs table XXII")
+                else:
+                    checked += 1
+    if trouble:
+        failures.append(f"1936 Libyan age: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] {len(a)} rows: sexes, civil states, ages and provinces "
+              f"reconcile; {checked} figures agree with table XXII")
+    libya = a[(a.area == "Libia") & (a.religion == "complesso")
+              & (a.age == "Totale")].set_index(["civil_status", "sex"]).persons
+    notes.append(f"1936 Libyan age: {libya[('vedovi', 'F')]:,} widows and "
+                 f"{libya[('vedovi', 'M')]:,} widowers; "
+                 f"{libya[('divorziati', 'F')]:,} divorced women")
+
 print()
 for n in notes:
     print(f"note: {n}")
