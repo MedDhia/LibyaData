@@ -52,6 +52,7 @@ python3 scripts/extract_istat_annuario_index.py
 python3 scripts/check_istat_annuario_trade.py
 python3 scripts/extract_istat_annuario_shipping.py
 python3 scripts/extract_istat_annuario_population.py
+python3 scripts/extract_istat_annuario_market_prices.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1850,6 +1851,37 @@ figure, 811 of them, equals the census volume as already transcribed, and 99
 included. The 1937 movement balances for every province. Figures printed
 once with nothing to add up to, the 1911 text figures, the areas and the
 family counts of 1931, rest on a single reading.
+
+#### `libya_annuario_market_prices.csv`: market quantities and prices, 396 rows
+
+Published by `scripts/extract_istat_annuario_market_prices.py` from three
+pages transcribed by eye into `data/raw/istat/libya_annuario_market_prices.csv`.
+
+One row per `year`, `market` (with its `region`), `product` and `measure`:
+`unit`, `value`, the cell as `printed`, the `volume` and `pdf_page`, and a
+`note`. The measures are `quantity_sold`, `price_min` and `price_max` for the
+markets of Tripoli, Misurata, Bengasi and Derna in 1937 (the 1938 volume, 23
+products from wheat to charcoal), and `average_price_min` and
+`average_price_max`, the lowest and highest monthly average, for the Sahara
+markets of Brach, Cufra, Gat, Hon and Murzuch in 1938 and 1939 (the 1939 and
+1941 volumes, six products). Products are named in English; the units are
+the volume's (quintals, kilograms, litres, pieces, and eggs by the four).
+
+A dash in a quantity column is a zero; a dash in a price column, and every
+question mark, is a blank with a note saying which. One quantity is blank
+because the scan destroyed a digit: Bengasi's firewood, printed `5 4?3`
+quintals. Bengasi's cattle hides are the only quantity in kilograms, as the
+volume's footnote says.
+
+**Wheat cost 151 to 164 lire a quintal at Tripoli in 1937 and 216 to 232 at
+Brach in 1939.** The 1937 table also shows where each market traded: 920,300
+kg of dates and 954,060 eggs at Misurata, 31,142 kg of goat meat at Derna.
+
+**Checks.** The tables print no totals, so no figure can be tied to another.
+What is checked: 110 lowest prices are at most their highest, each product
+keeps one unit, and every value is its printed cell. Every figure rests on a
+single reading. The 1941 page is not in the yearbook index, which reads that
+volume's chapter heading but not this table's.
 
 ---
 

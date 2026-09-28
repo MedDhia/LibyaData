@@ -1,0 +1,397 @@
+volume,pdf_page,year,market,product,measure,unit,printed,value,note
+1938,332,1937,Tripoli,wheat,quantity_sold,q,1708,1708,
+1938,332,1937,Tripoli,barley,quantity_sold,q,9504,9504,
+1938,332,1937,Tripoli,potatoes,quantity_sold,q,4528,4528,
+1938,332,1937,Tripoli,dried peppers,quantity_sold,kg,41880,41880,
+1938,332,1937,Tripoli,onions,quantity_sold,kg,194350,194350,
+1938,332,1937,Tripoli,dates,quantity_sold,kg,231400,231400,
+1938,332,1937,Tripoli,olive oil,quantity_sold,l,1167,1167,
+1938,332,1937,Tripoli,beef,quantity_sold,kg,-,0,
+1938,332,1937,Tripoli,veal,quantity_sold,kg,-,0,
+1938,332,1937,Tripoli,camel meat,quantity_sold,kg,35790,35790,
+1938,332,1937,Tripoli,mutton,quantity_sold,kg,26989,26989,
+1938,332,1937,Misurata,wheat,quantity_sold,q,2836,2836,
+1938,332,1937,Misurata,barley,quantity_sold,q,9165,9165,
+1938,332,1937,Misurata,potatoes,quantity_sold,q,1609,1609,
+1938,332,1937,Misurata,dried peppers,quantity_sold,kg,5308,5308,
+1938,332,1937,Misurata,onions,quantity_sold,kg,103400,103400,
+1938,332,1937,Misurata,dates,quantity_sold,kg,920300,920300,
+1938,332,1937,Misurata,olive oil,quantity_sold,l,124660,124660,
+1938,332,1937,Misurata,beef,quantity_sold,kg,28337,28337,
+1938,332,1937,Misurata,veal,quantity_sold,kg,18720,18720,
+1938,332,1937,Misurata,camel meat,quantity_sold,kg,121380,121380,
+1938,332,1937,Misurata,mutton,quantity_sold,kg,19795,19795,
+1938,332,1937,Bengasi,wheat,quantity_sold,q,773,773,
+1938,332,1937,Bengasi,barley,quantity_sold,q,7908,7908,
+1938,332,1937,Bengasi,potatoes,quantity_sold,q,948,948,
+1938,332,1937,Bengasi,dried peppers,quantity_sold,kg,4240,4240,
+1938,332,1937,Bengasi,onions,quantity_sold,kg,600,600,
+1938,332,1937,Bengasi,dates,quantity_sold,kg,-,0,
+1938,332,1937,Bengasi,olive oil,quantity_sold,l,91660,91660,
+1938,332,1937,Bengasi,beef,quantity_sold,kg,280,280,
+1938,332,1937,Bengasi,veal,quantity_sold,kg,33762,33762,
+1938,332,1937,Bengasi,camel meat,quantity_sold,kg,45,45,
+1938,332,1937,Bengasi,mutton,quantity_sold,kg,90,90,
+1938,332,1937,Derna,wheat,quantity_sold,q,1006,1006,
+1938,332,1937,Derna,barley,quantity_sold,q,4502,4502,
+1938,332,1937,Derna,potatoes,quantity_sold,q,1624,1624,
+1938,332,1937,Derna,dried peppers,quantity_sold,kg,9301,9301,
+1938,332,1937,Derna,onions,quantity_sold,kg,92600,92600,
+1938,332,1937,Derna,dates,quantity_sold,kg,91900,91900,
+1938,332,1937,Derna,olive oil,quantity_sold,l,-,0,
+1938,332,1937,Derna,beef,quantity_sold,kg,48338,48338,
+1938,332,1937,Derna,veal,quantity_sold,kg,20164,20164,
+1938,332,1937,Derna,camel meat,quantity_sold,kg,2370,2370,
+1938,332,1937,Derna,mutton,quantity_sold,kg,47084,47084,
+1938,332,1937,Tripoli,lamb,quantity_sold,kg,1304,1304,
+1938,332,1937,Tripoli,goat meat,quantity_sold,kg,14476,14476,
+1938,332,1937,Tripoli,kid meat,quantity_sold,kg,-,0,
+1938,332,1937,Tripoli,chickens,quantity_sold,number,3095,3095,
+1938,332,1937,Tripoli,eggs,quantity_sold,number,54022,54022,
+1938,332,1937,Tripoli,wool barracans,quantity_sold,number,1525,1525,
+1938,332,1937,Tripoli,cattle hides,quantity_sold,number,341,341,
+1938,332,1937,Tripoli,camel hides,quantity_sold,number,696,696,
+1938,332,1937,Tripoli,sheep skins,quantity_sold,number,5590,5590,
+1938,332,1937,Tripoli,goat skins,quantity_sold,number,6569,6569,
+1938,332,1937,Tripoli,firewood,quantity_sold,q,839,839,
+1938,332,1937,Tripoli,charcoal,quantity_sold,q,5226,5226,
+1938,332,1937,Misurata,lamb,quantity_sold,kg,6908,6908,
+1938,332,1937,Misurata,goat meat,quantity_sold,kg,28078,28078,
+1938,332,1937,Misurata,kid meat,quantity_sold,kg,1338,1338,
+1938,332,1937,Misurata,chickens,quantity_sold,number,9450,9450,
+1938,332,1937,Misurata,eggs,quantity_sold,number,954060,954060,
+1938,332,1937,Misurata,wool barracans,quantity_sold,number,9931,9931,
+1938,332,1937,Misurata,cattle hides,quantity_sold,number,700,700,
+1938,332,1937,Misurata,camel hides,quantity_sold,number,704,704,
+1938,332,1937,Misurata,sheep skins,quantity_sold,number,8181,8181,
+1938,332,1937,Misurata,goat skins,quantity_sold,number,2262,2262,
+1938,332,1937,Misurata,firewood,quantity_sold,q,2535,2535,
+1938,332,1937,Misurata,charcoal,quantity_sold,q,3509,3509,
+1938,332,1937,Bengasi,lamb,quantity_sold,kg,6946,6946,
+1938,332,1937,Bengasi,goat meat,quantity_sold,kg,-,0,
+1938,332,1937,Bengasi,kid meat,quantity_sold,kg,-,0,
+1938,332,1937,Bengasi,chickens,quantity_sold,number,5734,5734,
+1938,332,1937,Bengasi,eggs,quantity_sold,number,105444,105444,
+1938,332,1937,Bengasi,wool barracans,quantity_sold,number,1915,1915,
+1938,332,1937,Bengasi,cattle hides,quantity_sold,kg,31232,31232,the volume gives this cell in kilograms (footnote b)
+1938,332,1937,Bengasi,camel hides,quantity_sold,number,197,197,
+1938,332,1937,Bengasi,sheep skins,quantity_sold,number,9944,9944,
+1938,332,1937,Bengasi,goat skins,quantity_sold,number,1696,1696,
+1938,332,1937,Bengasi,firewood,quantity_sold,q,5 4?3,,middle digit damaged in the scan; printed 5 4?3
+1938,332,1937,Bengasi,charcoal,quantity_sold,q,2964,2964,
+1938,332,1937,Derna,lamb,quantity_sold,kg,24125,24125,
+1938,332,1937,Derna,goat meat,quantity_sold,kg,31142,31142,
+1938,332,1937,Derna,kid meat,quantity_sold,kg,245,245,
+1938,332,1937,Derna,chickens,quantity_sold,number,8555,8555,
+1938,332,1937,Derna,eggs,quantity_sold,number,73750,73750,
+1938,332,1937,Derna,wool barracans,quantity_sold,number,2418,2418,
+1938,332,1937,Derna,cattle hides,quantity_sold,number,932,932,
+1938,332,1937,Derna,camel hides,quantity_sold,number,15,15,
+1938,332,1937,Derna,sheep skins,quantity_sold,number,4470,4470,
+1938,332,1937,Derna,goat skins,quantity_sold,number,2070,2070,
+1938,332,1937,Derna,firewood,quantity_sold,q,13610,13610,
+1938,332,1937,Derna,charcoal,quantity_sold,q,1340,1340,
+1938,332,1937,Tripoli,wheat,price_min,lire per q,"151,00",151.00,
+1938,332,1937,Tripoli,wheat,price_max,lire per q,"164,00",164.00,
+1938,332,1937,Misurata,wheat,price_min,lire per q,"114,00",114.00,
+1938,332,1937,Misurata,wheat,price_max,lire per q,"122,00",122.00,
+1938,332,1937,Bengasi,wheat,price_min,lire per q,?,,not known (printed ?)
+1938,332,1937,Bengasi,wheat,price_max,lire per q,?,,not known (printed ?)
+1938,332,1937,Derna,wheat,price_min,lire per q,?,,not known (printed ?)
+1938,332,1937,Derna,wheat,price_max,lire per q,?,,not known (printed ?)
+1938,332,1937,Tripoli,barley,price_min,lire per q,"92,00",92.00,
+1938,332,1937,Tripoli,barley,price_max,lire per q,"100,00",100.00,
+1938,332,1937,Misurata,barley,price_min,lire per q,"90,00",90.00,
+1938,332,1937,Misurata,barley,price_max,lire per q,"102,00",102.00,
+1938,332,1937,Bengasi,barley,price_min,lire per q,"90,00",90.00,
+1938,332,1937,Bengasi,barley,price_max,lire per q,"93,00",93.00,
+1938,332,1937,Derna,barley,price_min,lire per q,?,,not known (printed ?)
+1938,332,1937,Derna,barley,price_max,lire per q,?,,not known (printed ?)
+1938,332,1937,Tripoli,potatoes,price_min,lire per q,"49,00",49.00,
+1938,332,1937,Tripoli,potatoes,price_max,lire per q,"70,00",70.00,
+1938,332,1937,Misurata,potatoes,price_min,lire per q,"69,00",69.00,
+1938,332,1937,Misurata,potatoes,price_max,lire per q,"78,00",78.00,
+1938,332,1937,Bengasi,potatoes,price_min,lire per q,?,,not known (printed ?)
+1938,332,1937,Bengasi,potatoes,price_max,lire per q,?,,not known (printed ?)
+1938,332,1937,Derna,potatoes,price_min,lire per q,"89,00",89.00,
+1938,332,1937,Derna,potatoes,price_max,lire per q,"116,00",116.00,
+1938,332,1937,Tripoli,dried peppers,price_min,lire per kg,"7,10",7.10,
+1938,332,1937,Tripoli,dried peppers,price_max,lire per kg,"7,90",7.90,
+1938,332,1937,Misurata,dried peppers,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Misurata,dried peppers,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,dried peppers,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,dried peppers,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,dried peppers,price_min,lire per kg,"7,45",7.45,
+1938,332,1937,Derna,dried peppers,price_max,lire per kg,"8,70",8.70,
+1938,332,1937,Tripoli,onions,price_min,lire per kg,"0,50",0.50,
+1938,332,1937,Tripoli,onions,price_max,lire per kg,"0,60",0.60,
+1938,332,1937,Misurata,onions,price_min,lire per kg,"0,65",0.65,
+1938,332,1937,Misurata,onions,price_max,lire per kg,"0,70",0.70,
+1938,332,1937,Bengasi,onions,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,onions,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,onions,price_min,lire per kg,"1,05",1.05,
+1938,332,1937,Derna,onions,price_max,lire per kg,"1,35",1.35,
+1938,332,1937,Tripoli,dates,price_min,lire per kg,"0,60",0.60,
+1938,332,1937,Tripoli,dates,price_max,lire per kg,"0,70",0.70,
+1938,332,1937,Misurata,dates,price_min,lire per kg,"0,60",0.60,
+1938,332,1937,Misurata,dates,price_max,lire per kg,"0,70",0.70,
+1938,332,1937,Bengasi,dates,price_min,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Bengasi,dates,price_max,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Derna,dates,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,dates,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Tripoli,olive oil,price_min,lire per l,?,,not known (printed ?)
+1938,332,1937,Tripoli,olive oil,price_max,lire per l,?,,not known (printed ?)
+1938,332,1937,Misurata,olive oil,price_min,lire per l,"8,20",8.20,
+1938,332,1937,Misurata,olive oil,price_max,lire per l,"8,85",8.85,
+1938,332,1937,Bengasi,olive oil,price_min,lire per l,"8,50",8.50,
+1938,332,1937,Bengasi,olive oil,price_max,lire per l,"8,50",8.50,
+1938,332,1937,Derna,olive oil,price_min,lire per l,-,,not traded (printed a dash)
+1938,332,1937,Derna,olive oil,price_max,lire per l,-,,not traded (printed a dash)
+1938,332,1937,Tripoli,beef,price_min,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Tripoli,beef,price_max,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Misurata,beef,price_min,lire per kg,"3,55",3.55,
+1938,332,1937,Misurata,beef,price_max,lire per kg,"9,55",9.55,
+1938,332,1937,Bengasi,beef,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,beef,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,beef,price_min,lire per kg,"6,00",6.00,
+1938,332,1937,Derna,beef,price_max,lire per kg,"11,50",11.50,
+1938,332,1937,Tripoli,veal,price_min,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Tripoli,veal,price_max,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Misurata,veal,price_min,lire per kg,"5,70",5.70,
+1938,332,1937,Misurata,veal,price_max,lire per kg,"13,60",13.60,
+1938,332,1937,Bengasi,veal,price_min,lire per kg,"4,05",4.05,
+1938,332,1937,Bengasi,veal,price_max,lire per kg,"15,10",15.10,
+1938,332,1937,Derna,veal,price_min,lire per kg,"8,35",8.35,
+1938,332,1937,Derna,veal,price_max,lire per kg,"14,35",14.35,
+1938,332,1937,Tripoli,camel meat,price_min,lire per kg,"4,10",4.10,
+1938,332,1937,Tripoli,camel meat,price_max,lire per kg,"5,20",5.20,
+1938,332,1937,Misurata,camel meat,price_min,lire per kg,"4,10",4.10,
+1938,332,1937,Misurata,camel meat,price_max,lire per kg,"4,30",4.30,
+1938,332,1937,Bengasi,camel meat,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,camel meat,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,camel meat,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,camel meat,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Tripoli,mutton,price_min,lire per kg,"6,00",6.00,
+1938,332,1937,Tripoli,mutton,price_max,lire per kg,"7,00",7.00,
+1938,332,1937,Misurata,mutton,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Misurata,mutton,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,mutton,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,mutton,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,mutton,price_min,lire per kg,"6,70",6.70,
+1938,332,1937,Derna,mutton,price_max,lire per kg,"7,35",7.35,
+1938,332,1937,Tripoli,lamb,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Tripoli,lamb,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Misurata,lamb,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Misurata,lamb,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,lamb,price_min,lire per kg,"6,70",6.70,
+1938,332,1937,Bengasi,lamb,price_max,lire per kg,"8,20",8.20,
+1938,332,1937,Derna,lamb,price_min,lire per kg,"7,60",7.60,
+1938,332,1937,Derna,lamb,price_max,lire per kg,"8,05",8.05,
+1938,332,1937,Tripoli,goat meat,price_min,lire per kg,"4,90",4.90,
+1938,332,1937,Tripoli,goat meat,price_max,lire per kg,"5,90",5.90,
+1938,332,1937,Misurata,goat meat,price_min,lire per kg,"4,25",4.25,
+1938,332,1937,Misurata,goat meat,price_max,lire per kg,"4,75",4.75,
+1938,332,1937,Bengasi,goat meat,price_min,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Bengasi,goat meat,price_max,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Derna,goat meat,price_min,lire per kg,"7,10",7.10,
+1938,332,1937,Derna,goat meat,price_max,lire per kg,"7,60",7.60,
+1938,332,1937,Tripoli,kid meat,price_min,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Tripoli,kid meat,price_max,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Misurata,kid meat,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Misurata,kid meat,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Bengasi,kid meat,price_min,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Bengasi,kid meat,price_max,lire per kg,-,,not traded (printed a dash)
+1938,332,1937,Derna,kid meat,price_min,lire per kg,?,,not known (printed ?)
+1938,332,1937,Derna,kid meat,price_max,lire per kg,?,,not known (printed ?)
+1938,332,1937,Tripoli,chickens,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Tripoli,chickens,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Misurata,chickens,price_min,lire each,"4,55",4.55,
+1938,332,1937,Misurata,chickens,price_max,lire each,"9,20",9.20,
+1938,332,1937,Bengasi,chickens,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Bengasi,chickens,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Derna,chickens,price_min,lire each,"6,70",6.70,
+1938,332,1937,Derna,chickens,price_max,lire each,"14,00",14.00,
+1938,332,1937,Tripoli,eggs,price_min,lire per 4 eggs,?,,not known (printed ?)
+1938,332,1937,Tripoli,eggs,price_max,lire per 4 eggs,?,,not known (printed ?)
+1938,332,1937,Misurata,eggs,price_min,lire per 4 eggs,"0,85",0.85,
+1938,332,1937,Misurata,eggs,price_max,lire per 4 eggs,"0,85",0.85,
+1938,332,1937,Bengasi,eggs,price_min,lire per 4 eggs,?,,not known (printed ?)
+1938,332,1937,Bengasi,eggs,price_max,lire per 4 eggs,?,,not known (printed ?)
+1938,332,1937,Derna,eggs,price_min,lire per 4 eggs,?,,not known (printed ?)
+1938,332,1937,Derna,eggs,price_max,lire per 4 eggs,?,,not known (printed ?)
+1938,332,1937,Tripoli,wool barracans,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Tripoli,wool barracans,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Misurata,wool barracans,price_min,lire each,"65,00",65.00,
+1938,332,1937,Misurata,wool barracans,price_max,lire each,"206,00",206.00,
+1938,332,1937,Bengasi,wool barracans,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Bengasi,wool barracans,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Derna,wool barracans,price_min,lire each,"69,00",69.00,
+1938,332,1937,Derna,wool barracans,price_max,lire each,"215,00",215.00,
+1938,332,1937,Tripoli,cattle hides,price_min,lire each,"31,00",31.00,
+1938,332,1937,Tripoli,cattle hides,price_max,lire each,"46,00",46.00,
+1938,332,1937,Misurata,cattle hides,price_min,lire each,"38,00",38.00,
+1938,332,1937,Misurata,cattle hides,price_max,lire each,"76,00",76.00,
+1938,332,1937,Bengasi,cattle hides,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Bengasi,cattle hides,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Derna,cattle hides,price_min,lire each,"52,00",52.00,
+1938,332,1937,Derna,cattle hides,price_max,lire each,"128,00",128.00,
+1938,332,1937,Tripoli,camel hides,price_min,lire each,"37,00",37.00,
+1938,332,1937,Tripoli,camel hides,price_max,lire each,"50,00",50.00,
+1938,332,1937,Misurata,camel hides,price_min,lire each,"44,00",44.00,
+1938,332,1937,Misurata,camel hides,price_max,lire each,"78,00",78.00,
+1938,332,1937,Bengasi,camel hides,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Bengasi,camel hides,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Derna,camel hides,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Derna,camel hides,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Tripoli,sheep skins,price_min,lire each,"12,00",12.00,
+1938,332,1937,Tripoli,sheep skins,price_max,lire each,"26,50",26.50,
+1938,332,1937,Misurata,sheep skins,price_min,lire each,"13,40",13.40,
+1938,332,1937,Misurata,sheep skins,price_max,lire each,"24,65",24.65,
+1938,332,1937,Bengasi,sheep skins,price_min,lire each,"22,85",22.85,
+1938,332,1937,Bengasi,sheep skins,price_max,lire each,"32,15",32.15,
+1938,332,1937,Derna,sheep skins,price_min,lire each,"10,55",10.55,
+1938,332,1937,Derna,sheep skins,price_max,lire each,"23,55",23.55,
+1938,332,1937,Tripoli,goat skins,price_min,lire each,"6,10",6.10,
+1938,332,1937,Tripoli,goat skins,price_max,lire each,"13,55",13.55,
+1938,332,1937,Misurata,goat skins,price_min,lire each,"10,55",10.55,
+1938,332,1937,Misurata,goat skins,price_max,lire each,"20,75",20.75,
+1938,332,1937,Bengasi,goat skins,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Bengasi,goat skins,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Derna,goat skins,price_min,lire each,?,,not known (printed ?)
+1938,332,1937,Derna,goat skins,price_max,lire each,?,,not known (printed ?)
+1938,332,1937,Tripoli,firewood,price_min,lire per q,?,,not known (printed ?)
+1938,332,1937,Tripoli,firewood,price_max,lire per q,?,,not known (printed ?)
+1938,332,1937,Misurata,firewood,price_min,lire per q,"12,00",12.00,
+1938,332,1937,Misurata,firewood,price_max,lire per q,"16,00",16.00,
+1938,332,1937,Bengasi,firewood,price_min,lire per q,"16,00",16.00,
+1938,332,1937,Bengasi,firewood,price_max,lire per q,"17,00",17.00,
+1938,332,1937,Derna,firewood,price_min,lire per q,"17,00",17.00,
+1938,332,1937,Derna,firewood,price_max,lire per q,"21,00",21.00,
+1938,332,1937,Tripoli,charcoal,price_min,lire per q,"34,00",34.00,
+1938,332,1937,Tripoli,charcoal,price_max,lire per q,"39,00",39.00,
+1938,332,1937,Misurata,charcoal,price_min,lire per q,"24,00",24.00,
+1938,332,1937,Misurata,charcoal,price_max,lire per q,"28,00",28.00,
+1938,332,1937,Bengasi,charcoal,price_min,lire per q,"36,00",36.00,
+1938,332,1937,Bengasi,charcoal,price_max,lire per q,"37,00",37.00,
+1938,332,1937,Derna,charcoal,price_min,lire per q,"37,00",37.00,
+1938,332,1937,Derna,charcoal,price_max,lire per q,"43,00",43.00,
+1939,365,1938,Brach,wheat,average_price_min,lire per q,182,182,
+1939,365,1938,Brach,wheat,average_price_max,lire per q,199,199,
+1939,365,1938,Brach,barley,average_price_min,lire per q,109,109,
+1939,365,1938,Brach,barley,average_price_max,lire per q,116,116,
+1939,365,1938,Brach,dried peppers,average_price_min,lire per kg,"5,10",5.10,
+1939,365,1938,Brach,dried peppers,average_price_max,lire per kg,"6,80",6.80,
+1939,365,1938,Brach,onions,average_price_min,lire per kg,"0,45",0.45,
+1939,365,1938,Brach,onions,average_price_max,lire per kg,"0,60",0.60,
+1939,365,1938,Brach,dates,average_price_min,lire per kg,"0,50",0.50,
+1939,365,1938,Brach,dates,average_price_max,lire per kg,"0,65",0.65,
+1939,365,1938,Brach,olive oil,average_price_min,lire per l,"7,35",7.35,
+1939,365,1938,Brach,olive oil,average_price_max,lire per l,"8,00",8.00,
+1939,365,1938,Cufra,wheat,average_price_min,lire per q,-,,not traded (printed a dash)
+1939,365,1938,Cufra,wheat,average_price_max,lire per q,-,,not traded (printed a dash)
+1939,365,1938,Cufra,barley,average_price_min,lire per q,140,140,
+1939,365,1938,Cufra,barley,average_price_max,lire per q,140,140,
+1939,365,1938,Cufra,dried peppers,average_price_min,lire per kg,"4,00",4.00,
+1939,365,1938,Cufra,dried peppers,average_price_max,lire per kg,"4,00",4.00,
+1939,365,1938,Cufra,onions,average_price_min,lire per kg,"0,60",0.60,
+1939,365,1938,Cufra,onions,average_price_max,lire per kg,"0,90",0.90,
+1939,365,1938,Cufra,dates,average_price_min,lire per kg,"0,30",0.30,
+1939,365,1938,Cufra,dates,average_price_max,lire per kg,"0,60",0.60,
+1939,365,1938,Cufra,olive oil,average_price_min,lire per l,"10,00",10.00,
+1939,365,1938,Cufra,olive oil,average_price_max,lire per l,"11,00",11.00,
+1939,365,1938,Gat,wheat,average_price_min,lire per q,149,149,
+1939,365,1938,Gat,wheat,average_price_max,lire per q,153,153,
+1939,365,1938,Gat,barley,average_price_min,lire per q,98,98,
+1939,365,1938,Gat,barley,average_price_max,lire per q,102,102,
+1939,365,1938,Gat,dried peppers,average_price_min,lire per kg,"6,00",6.00,
+1939,365,1938,Gat,dried peppers,average_price_max,lire per kg,"6,00",6.00,
+1939,365,1938,Gat,onions,average_price_min,lire per kg,"0,80",0.80,
+1939,365,1938,Gat,onions,average_price_max,lire per kg,"0,90",0.90,
+1939,365,1938,Gat,dates,average_price_min,lire per kg,"0,35",0.35,
+1939,365,1938,Gat,dates,average_price_max,lire per kg,"0,45",0.45,
+1939,365,1938,Gat,olive oil,average_price_min,lire per l,"10,00",10.00,
+1939,365,1938,Gat,olive oil,average_price_max,lire per l,"10,35",10.35,
+1939,365,1938,Hon,wheat,average_price_min,lire per q,155,155,
+1939,365,1938,Hon,wheat,average_price_max,lire per q,164,164,
+1939,365,1938,Hon,barley,average_price_min,lire per q,84,84,
+1939,365,1938,Hon,barley,average_price_max,lire per q,94,94,
+1939,365,1938,Hon,dried peppers,average_price_min,lire per kg,"7,00",7.00,
+1939,365,1938,Hon,dried peppers,average_price_max,lire per kg,"8,00",8.00,
+1939,365,1938,Hon,onions,average_price_min,lire per kg,"0,50",0.50,
+1939,365,1938,Hon,onions,average_price_max,lire per kg,"0,55",0.55,
+1939,365,1938,Hon,dates,average_price_min,lire per kg,"0,45",0.45,
+1939,365,1938,Hon,dates,average_price_max,lire per kg,"0,55",0.55,
+1939,365,1938,Hon,olive oil,average_price_min,lire per l,"7,80",7.80,
+1939,365,1938,Hon,olive oil,average_price_max,lire per l,"8,45",8.45,
+1939,365,1938,Murzuch,wheat,average_price_min,lire per q,131,131,
+1939,365,1938,Murzuch,wheat,average_price_max,lire per q,131,131,
+1939,365,1938,Murzuch,barley,average_price_min,lire per q,73,73,
+1939,365,1938,Murzuch,barley,average_price_max,lire per q,73,73,
+1939,365,1938,Murzuch,dried peppers,average_price_min,lire per kg,"5,50",5.50,
+1939,365,1938,Murzuch,dried peppers,average_price_max,lire per kg,"5,50",5.50,
+1939,365,1938,Murzuch,onions,average_price_min,lire per kg,"0,40",0.40,
+1939,365,1938,Murzuch,onions,average_price_max,lire per kg,"0,40",0.40,
+1939,365,1938,Murzuch,dates,average_price_min,lire per kg,"0,15",0.15,
+1939,365,1938,Murzuch,dates,average_price_max,lire per kg,"0,15",0.15,
+1939,365,1938,Murzuch,olive oil,average_price_min,lire per l,"7,60",7.60,
+1939,365,1938,Murzuch,olive oil,average_price_max,lire per l,"8,45",8.45,
+1941,353,1939,Brach,wheat,average_price_min,lire per q,216,216,
+1941,353,1939,Brach,wheat,average_price_max,lire per q,232,232,
+1941,353,1939,Brach,barley,average_price_min,lire per q,129,129,
+1941,353,1939,Brach,barley,average_price_max,lire per q,136,136,
+1941,353,1939,Brach,dried peppers,average_price_min,lire per kg,"6,40",6.40,
+1941,353,1939,Brach,dried peppers,average_price_max,lire per kg,"6,80",6.80,
+1941,353,1939,Brach,onions,average_price_min,lire per kg,"0,55",0.55,
+1941,353,1939,Brach,onions,average_price_max,lire per kg,"0,65",0.65,
+1941,353,1939,Brach,dates,average_price_min,lire per kg,"0,25",0.25,
+1941,353,1939,Brach,dates,average_price_max,lire per kg,"0,30",0.30,
+1941,353,1939,Brach,olive oil,average_price_min,lire per l,"8,75",8.75,
+1941,353,1939,Brach,olive oil,average_price_max,lire per l,"8,80",8.80,
+1941,353,1939,Cufra,wheat,average_price_min,lire per q,179,179,
+1941,353,1939,Cufra,wheat,average_price_max,lire per q,205,205,
+1941,353,1939,Cufra,barley,average_price_min,lire per q,149,149,
+1941,353,1939,Cufra,barley,average_price_max,lire per q,163,163,
+1941,353,1939,Cufra,dried peppers,average_price_min,lire per kg,-,,not traded (printed a dash)
+1941,353,1939,Cufra,dried peppers,average_price_max,lire per kg,-,,not traded (printed a dash)
+1941,353,1939,Cufra,onions,average_price_min,lire per kg,"0,80",0.80,
+1941,353,1939,Cufra,onions,average_price_max,lire per kg,"1,05",1.05,
+1941,353,1939,Cufra,dates,average_price_min,lire per kg,"0,15",0.15,
+1941,353,1939,Cufra,dates,average_price_max,lire per kg,"0,45",0.45,
+1941,353,1939,Cufra,olive oil,average_price_min,lire per l,"7,90",7.90,
+1941,353,1939,Cufra,olive oil,average_price_max,lire per l,"8,90",8.90,
+1941,353,1939,Gat,wheat,average_price_min,lire per q,159,159,
+1941,353,1939,Gat,wheat,average_price_max,lire per q,171,171,
+1941,353,1939,Gat,barley,average_price_min,lire per q,115,115,
+1941,353,1939,Gat,barley,average_price_max,lire per q,120,120,
+1941,353,1939,Gat,dried peppers,average_price_min,lire per kg,-,,not traded (printed a dash)
+1941,353,1939,Gat,dried peppers,average_price_max,lire per kg,-,,not traded (printed a dash)
+1941,353,1939,Gat,onions,average_price_min,lire per kg,"0,95",0.95,
+1941,353,1939,Gat,onions,average_price_max,lire per kg,"0,95",0.95,
+1941,353,1939,Gat,dates,average_price_min,lire per kg,"0,25",0.25,
+1941,353,1939,Gat,dates,average_price_max,lire per kg,"0,25",0.25,
+1941,353,1939,Gat,olive oil,average_price_min,lire per l,"9,05",9.05,
+1941,353,1939,Gat,olive oil,average_price_max,lire per l,"9,65",9.65,
+1941,353,1939,Hon,wheat,average_price_min,lire per q,171,171,
+1941,353,1939,Hon,wheat,average_price_max,lire per q,183,183,
+1941,353,1939,Hon,barley,average_price_min,lire per q,102,102,
+1941,353,1939,Hon,barley,average_price_max,lire per q,111,111,
+1941,353,1939,Hon,dried peppers,average_price_min,lire per kg,"6,80",6.80,
+1941,353,1939,Hon,dried peppers,average_price_max,lire per kg,"7,00",7.00,
+1941,353,1939,Hon,onions,average_price_min,lire per kg,"1,15",1.15,
+1941,353,1939,Hon,onions,average_price_max,lire per kg,"1,25",1.25,
+1941,353,1939,Hon,dates,average_price_min,lire per kg,"0,55",0.55,
+1941,353,1939,Hon,dates,average_price_max,lire per kg,"0,65",0.65,
+1941,353,1939,Hon,olive oil,average_price_min,lire per l,"8,45",8.45,
+1941,353,1939,Hon,olive oil,average_price_max,lire per l,"8,95",8.95,
+1941,353,1939,Murzuch,wheat,average_price_min,lire per q,144,144,
+1941,353,1939,Murzuch,wheat,average_price_max,lire per q,144,144,
+1941,353,1939,Murzuch,barley,average_price_min,lire per q,85,85,
+1941,353,1939,Murzuch,barley,average_price_max,lire per q,85,85,
+1941,353,1939,Murzuch,dried peppers,average_price_min,lire per kg,"6,55",6.55,
+1941,353,1939,Murzuch,dried peppers,average_price_max,lire per kg,"6,65",6.65,
+1941,353,1939,Murzuch,onions,average_price_min,lire per kg,"0,45",0.45,
+1941,353,1939,Murzuch,onions,average_price_max,lire per kg,"0,50",0.50,
+1941,353,1939,Murzuch,dates,average_price_min,lire per kg,"0,15",0.15,
+1941,353,1939,Murzuch,dates,average_price_max,lire per kg,"0,15",0.15,
+1941,353,1939,Murzuch,olive oil,average_price_min,lire per l,-,,not traded (printed a dash)
+1941,353,1939,Murzuch,olive oil,average_price_max,lire per l,-,,not traded (printed a dash)

@@ -1134,6 +1134,29 @@ if apop_path.exists():
                  "of 772,999 Libyans is not the census's 750,851; both are "
                  "kept, told apart by `reference`")
 
+mkt_path = OUT / "istat" / "libya_annuario_market_prices.csv"
+if mkt_path.exists():
+    print("\nMarket quantities and prices, 1937-1939, from the yearbook")
+    mk = pd.read_csv(mkt_path)
+    trouble = []
+    pr = mk[mk.measure != "quantity_sold"].dropna(subset=["value"]).copy()
+    pr["kind"] = pr.measure.str.rsplit("_", n=1).str[0]
+    pr["end"] = pr.measure.str.rsplit("_", n=1).str[1]
+    wide = pr.pivot_table(index=["year", "market", "product", "kind"],
+                          columns="end", values="value").dropna()
+    if (wide["min"] > wide["max"]).any():
+        trouble.append("a lowest price above its highest")
+    if not set(mk.year) <= {1937, 1938, 1939}:
+        trouble.append("years outside 1937-1939")
+    if trouble:
+        failures.append(f"annuario market prices: {trouble}")
+        print(f"  [FAIL] {trouble}")
+    else:
+        print(f"  [ok ] {len(wide)} price ranges in order across "
+              f"{mk.market.nunique()} markets")
+    notes.append("annuario market prices: no totals to check against; every "
+                 "cell rests on one reading")
+
 dist_path = OUT / "istat" / "libya_1931_districts.csv"
 if dist_path.exists():
     print("\n1931 census table II, Libya by district")

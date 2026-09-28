@@ -162,7 +162,12 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    1931 census tables transcribed here do not: 26% of Tripolitania's Libyans were counted
    seminomadic or nomadic. Its reprints of the 1936 census agree with the census volume in all 811
    figures. The provisional 1936 count of 772,999 Libyans, printed in 1937 and 1938, is kept apart
-   from the census's 750,851. Market prices by city, credit and schools come next.
+   from the census's 750,851.
+
+   **Market prices** are the fourth, in `data/processed/istat/libya_annuario_market_prices.csv`:
+   quantities sold and lowest and highest prices of 23 products in Tripoli, Misurata, Bengasi and
+   Derna in 1937, and average prices in five Sahara markets in 1938 and 1939. No other volume in
+   the run prints market prices for Libya. Credit, schools and the smaller series come next.
 
 5. ~~The 1931 volume's table II, the district detail, is not machine-readable from this scan.~~
    **Done**, by transcription rather than by re-OCR. `scripts/extract_istat_1931_districts.py`
