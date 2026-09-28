@@ -73,6 +73,7 @@ Libyan sources, with a validation suite. See
 | Libyan population in the yearbooks 1911–1943 | 1931 census by commissariato with religion, race and dwelling; provisional and final 1936; settler movement 1937 | 942 |
 | Market quantities and prices 1937–1939 | Tripoli, Misurata, Bengasi, Derna and five Sahara markets | 396 |
 | Railway traffic 1923–1936 | passengers, freight and network length, Tripolitania and Cyrenaica | 61 |
+| Schools 1934–1940 | pupils by type of school, region, nationality and religion; the Sahara Libico | 36 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
 | Libyan designations, from OpenSanctions | 44 authorities | 2,286 |

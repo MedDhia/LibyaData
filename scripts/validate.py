@@ -1181,6 +1181,23 @@ if rail_path.exists():
                  "1932 and goods and baggage from 1933; the two are separate "
                  "series")
 
+sch_path = OUT / "istat" / "libya_annuario_schools.csv"
+if sch_path.exists():
+    print("\nSchools 1934-35 to 1939-40, from the yearbook")
+    sc = pd.read_csv(sch_path)
+    trouble = []
+    nat = sc[["italian", "libyan", "foreign"]].fillna(0).sum(axis=1)
+    rel = sc[["catholic", "muslim", "jewish", "other_religion"]].fillna(0).sum(
+        axis=1)
+    if not (nat == sc.pupils_mf).all() or not (rel == sc.pupils_mf).all():
+        trouble.append("nationality or religion does not add to the pupils")
+    if trouble:
+        failures.append(f"annuario schools: {trouble}")
+        print(f"  [FAIL] {trouble}")
+    else:
+        print(f"  [ok ] {len(sc)} lines; nationality and religion add to "
+              f"the pupils on every one")
+
 dist_path = OUT / "istat" / "libya_1931_districts.csv"
 if dist_path.exists():
     print("\n1931 census table II, Libya by district")

@@ -1,0 +1,37 @@
+area,school_year,level,line_kind,line,schools,classes,pupils_mf,pupils_m,pupils_f,italian,libyan,foreign,catholic,muslim,jewish,other_religion,teachers,volumes,pdf_page
+Libia,1936-37,elementary,type,Scuole pubbliche: di tipo metropolitano,56,304,8009,4498,,6298,1586,125,6322,146,1539,2,,1937 1938,318
+Libia,1936-37,elementary,type,Scuole pubbliche: per israeliti,3,43,1813,1048,,74,1602,137,0,0,1813,0,,1937 1938,318
+Libia,1936-37,elementary,type,Scuole pubbliche: per mussulmani,102,365,10251,9315,,229,10003,19,225,9922,104,0,,1937 1938,318
+Libia,1936-37,elementary,typetot,Scuole pubbliche: Totale,161,712,20073,14861,,6601,13191,281,6547,10068,3456,2,,1937 1938,318
+Libia,1936-37,elementary,single,Scuole parificate,10,56,1853,828,,1647,133,73,1577,152,124,0,,1937 1938,318
+Libia,1936-37,elementary,type,Scuole private: per europei,11,11,320,95,,169,125,26,317,0,1,2,,1937 1938,318
+Libia,1936-37,elementary,type,Scuole private: per israeliti,22,87,2499,2385,,17,2404,78,0,0,2499,0,,1937 1938,318
+Libia,1936-37,elementary,type,Scuole private: per mussulmani,578,580,11256,11231,,0,11256,0,0,11256,0,0,,1937 1938,318
+Libia,1936-37,elementary,typetot,Scuole private: Totale,611,678,14075,13711,,186,13785,104,317,11256,2500,2,,1937 1938,318
+Libia,1936-37,elementary,type,Asili d'infanzia: pubblici,11,27,1577,745,,969,539,69,1000,89,488,0,,1937 1938,318
+Libia,1936-37,elementary,type,Asili d'infanzia: privati,8,13,656,309,,524,99,33,566,22,68,0,,1937 1938,318
+Libia,1936-37,elementary,typetot,Asili d'infanzia: Totale,19,40,2233,1054,,1493,638,102,1566,111,556,0,,1937 1938,318
+Libia,1936-37,elementary,total,In complesso,801,1486,38234,30454,,9927,27747,560,10007,21587,6636,4,,1937 1938,318
+Libia,1936-37,elementary,region,Libia occidentale,612,1098,27950,22545,,6494,21071,385,6729,15866,5353,2,,1937 1938,318
+Libia,1936-37,elementary,region,Libia orientale,112,292,8389,6053,,3430,4784,175,3275,3832,1280,2,,1937 1938,318
+Libia,1936-37,elementary,region,Territorio militare del Sud,77,96,1895,1856,,3,1892,0,3,1889,3,0,,1937 1938,318
+Libia,1936-37,elementary,total,Totale,801,1486,38234,30454,,9927,27747,560,10007,21587,6636,4,,1937 1938,318
+Libia,1935-36,elementary,total,Totale,794,1326,34110,27277,,8756,24944,410,9087,21287,3731,5,,1937 1938,318
+Libia,1934-35,elementary,total,Totale,715,1157,28155,23004,,5946,21807,402,6088,17409,4658,0,,1937 1938,318
+Libia,1936-37,secondary,type,Ginnasi,2,20,638,445,,618,10,10,621,6,11,0,,1937 1938,318
+Libia,1936-37,secondary,type,Licei,1,3,65,50,,62,2,1,63,1,1,0,,1937 1938,318
+Libia,1936-37,secondary,type,Istituti magistrali inferiori,1,11,426,136,,401,18,7,400,11,15,0,,1937 1938,318
+Libia,1936-37,secondary,type,Istituti magistrali superiori,1,3,84,29,,82,1,1,82,0,2,0,,1937 1938,318
+Libia,1936-37,secondary,type,Istituti tecnici inferiori,2,14,452,346,,396,33,23,413,13,26,0,,1937 1938,318
+Libia,1936-37,secondary,type,Istituti tecnici superiori,2,12,109,90,,98,7,4,102,4,3,0,,1937 1938,318
+Libia,1936-37,secondary,type,Licei scientifici,1,3,40,24,,38,2,0,36,2,2,0,,1937 1938,318
+Libia,1936-37,secondary,type,Scuole d'avviamento professionale,2,23,523,360,,468,36,19,474,15,34,0,,1937 1938,318
+Libia,1936-37,secondary,total,Totale,12,89,2337,1480,,2163,109,65,2191,52,94,0,,1937 1938,318
+Libia,1935-36,secondary,total,Totale,11,85,2073,1368,,1828,176,69,1855,136,81,1,,1937 1938,318
+Libia,1934-35,secondary,total,Totale,11,80,1809,1184,,1586,160,63,1618,102,85,4,,1937 1938,318
+Sahara Libico,1938-39,elementary,type,Scuole pubbliche,12,38,811,800,11,13,798,,13,798,,,26,1939,365
+Sahara Libico,1938-39,elementary,type,Scuole private,52,52,1024,1024,0,0,1024,,0,1024,,,52,1939,365
+Sahara Libico,1938-39,elementary,total,Totale,64,90,1835,1824,11,13,1822,,13,1822,,,78,1939,365
+Sahara Libico,1939-40,elementary,type,Scuole pubbliche,12,38,692,683,9,20,672,,20,672,,,26,1940 1941,114
+Sahara Libico,1939-40,elementary,type,Scuole private,52,52,972,972,0,0,972,,0,972,,,52,1940 1941,114
+Sahara Libico,1939-40,elementary,total,Totale,64,90,1664,1655,9,20,1644,,20,1644,,,78,1940 1941,114

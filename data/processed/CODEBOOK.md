@@ -54,6 +54,7 @@ python3 scripts/extract_istat_annuario_shipping.py
 python3 scripts/extract_istat_annuario_population.py
 python3 scripts/extract_istat_annuario_market_prices.py
 python3 scripts/extract_istat_annuario_railways.py
+python3 scripts/extract_istat_annuario_schools.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1913,6 +1914,36 @@ Two exceptions are on record. The 1931 volume labels its last Cyrenaica row
 1928-29; the series files them under 1928-29 with a note. And Tripolitania's
 1932-33 freight is 191,698 tonnes in the 1934 volume and 194,037 in the three
 later ones, with no footnote; the later figure is published.
+
+#### `libya_annuario_schools.csv`: schools 1934-35 to 1939-40, 36 rows
+
+Published by `scripts/extract_istat_annuario_schools.py` from the `Istruzione`
+tables, transcribed into `data/raw/istat/libya_annuario_schools.csv`. The
+1936-37 table (1937 volume, reprinted unchanged in 1938) covers elementary and
+secondary schools across Libya, by type of school and by region, with the
+totals of the two years before; the 1939 to 1941 volumes cover the elementary
+schools of the Sahara Libico in 1938-39 and 1939-40.
+
+One row per `area`, `school_year`, `level` (`elementary`, `secondary`),
+`line_kind` (`type`, `typetot` for a group subtotal, `single` for a type
+printed alone, `region`, `total`) and `line`: `schools`, `classes`,
+`pupils_mf`, `pupils_m`, `pupils_f` (Sahara only), pupils by nationality
+(`italian`, `libyan`, `foreign`) and by religion (`catholic`, `muslim`,
+`jewish`, `other_religion`), and `teachers` (Sahara only). Add only lines of
+one `line_kind`: types, subtotals, regions and totals overlap.
+
+The school system was segregated by design: public schools of Italian type,
+for Jews and for Muslims, and private schools for Europeans, Jews and Muslims.
+Of 38,234 elementary pupils in 1936-37, 27,747 were Libyan; 11,256 of the
+Muslim pupils were in 578 private schools for Muslims with 580 classes, nearly
+one class each, against 10,251 in the 102 public schools for Muslims.
+Secondary schooling was Italian: 2,163 of its 2,337 pupils. Elementary
+enrolment rose from 28,155 in 1934-35 to 38,234 in 1936-37.
+
+**Checks.** On every line nationality and religion each add to the pupils;
+types add to their group, groups to the whole, and the three regions to the
+same whole, in every column; public and private give the Sahara total; 331
+sums. The 33 lines printed in two volumes agree.
 
 ---
 
