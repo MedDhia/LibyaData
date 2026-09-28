@@ -70,6 +70,7 @@ Libyan sources, with a validation suite. See
 | Italian yearbook, Libyan tables 1911–1943 | a finding aid over 26 volumes, not the tables | 292 |
 | **Libyan seaborne trade 1922–1936** | Tripolitania and Cirenaica, transcribed by hand from 17 pages | 30 |
 | Libyan shipping 1921–1937 | vessels, tonnage, cargo and passengers by port, flag and propulsion | 884 |
+| Libyan population in the yearbooks 1911–1943 | 1931 census by commissariato with religion, race and dwelling; provisional and final 1936; settler movement 1937 | 942 |
 | OpenSanctions Libyan subgraph (CC BY-NC) | 393 people, 78 Libyan officials | 702 |
 | Libyan office spells, from OpenSanctions | 78 offices, 1988–2026 | 156 |
 | Libyan designations, from OpenSanctions | 44 authorities | 2,286 |

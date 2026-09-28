@@ -1100,6 +1100,40 @@ if ship_path.exists():
                  f"later volume; the Cyrenaican port lines of 1921 and "
                  f"1929-1932 rest on a single reading")
 
+apop_path = OUT / "istat" / "libya_annuario_population.csv"
+if apop_path.exists():
+    print("\nPopulation of Libya in the yearbooks, 1911-1943")
+    ap = pd.read_csv(apop_path)
+    mv = pd.read_csv(OUT / "istat" / "libya_annuario_population_movement.csv")
+    trouble = []
+    t22 = pd.read_csv(OUT.parent / "raw" / "istat" / "libya_1936_table22.csv")
+    lib = t22[(t22.name == "LIBIA") & (t22.dimora == "Tot")].iloc[0]
+    got = ap[(ap.reference == "census 1936 final") & (ap.area == "LIBIA")
+             & (ap.group == "libyan") & (ap.dimension == "dimora")
+             & (ap.category == "all") & (ap.sex == "MF")].value
+    if list(got) != [lib.mf]:
+        trouble.append("final 1936 Libyans differ from table XXII")
+    if not ((mv.live_births - mv.deaths == mv.natural_increase)
+            & (mv.immigrants - mv.emigrants == mv.net_migration)
+            & (mv.present_start + mv.net_increase == mv.present_end)).all():
+        trouble.append("1937 movement identities fail")
+    refs = set(ap.reference)
+    expected = {"census 1931 final", "census 1931 provisional",
+                "census 1936 provisional", "census 1936 final",
+                "Ottoman census of 3 July 1911", "planimetric estimate"}
+    if refs != expected:
+        trouble.append(f"references {refs ^ expected}")
+    if trouble:
+        failures.append(f"annuario population: {trouble}")
+        print(f"  [FAIL] {trouble}")
+    else:
+        print(f"  [ok ] {len(ap)} figures in {len(refs)} references; the final "
+              f"1936 Libyan total equals table XXII; the 1937 movement "
+              f"balances")
+    notes.append("annuario population: the yearbooks' 1936 provisional count "
+                 "of 772,999 Libyans is not the census's 750,851; both are "
+                 "kept, told apart by `reference`")
+
 dist_path = OUT / "istat" / "libya_1931_districts.csv"
 if dist_path.exists():
     print("\n1931 census table II, Libya by district")

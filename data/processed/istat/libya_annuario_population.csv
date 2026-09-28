@@ -1,0 +1,943 @@
+reference,population,area,group,dimension,category,sex,value,table,volumes,pdf_page
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,all,MF,351774,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,all,F,169509,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,stabile,MF,287601,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,stabile,F,139423,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,seminomade,MF,35559,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,seminomade,F,16720,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,nomade,MF,28614,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,nomade,F,13366,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,dimora,all,M,182265,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,all,MF,213486,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,all,F,102256,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,stabile,MF,177589,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,stabile,F,85451,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,seminomade,MF,35693,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,seminomade,F,16715,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,nomade,MF,204,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,nomade,F,90,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,dimora,all,M,111230,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,all,MF,96193,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,all,F,46129,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,stabile,MF,87452,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,stabile,F,42191,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,seminomade,MF,8741,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,seminomade,F,3938,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,nomade,MF,0,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,nomade,F,0,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,dimora,all,M,50064,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,all,MF,41233,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,all,F,19389,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,stabile,MF,34463,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,stabile,F,16326,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,seminomade,MF,6673,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,seminomade,F,3022,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,nomade,MF,97,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,nomade,F,41,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,dimora,all,M,21844,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,all,MF,702686,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,all,F,337283,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,stabile,MF,587105,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,stabile,F,283391,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,seminomade,MF,86666,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,seminomade,F,40395,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,nomade,MF,28915,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,nomade,F,13497,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,dimora,all,M,365403,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,all,MF,48165,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,all,F,24620,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,stabile,MF,42840,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,stabile,F,22055,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,seminomade,MF,2024,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,seminomade,F,960,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,nomade,MF,3301,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,nomade,F,1605,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora,all,M,23545,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,all,MF,750851,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,all,F,361903,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,stabile,MF,629945,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,stabile,F,305446,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,seminomade,MF,88690,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,seminomade,F,41355,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,nomade,MF,32216,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,nomade,F,15102,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,dimora,all,M,388948,Popolazione libica residente secondo il tipo della dimora e il sesso,1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,religion,muslim,MF,330744,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,religion,jewish,MF,21005,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,religion,other,MF,25,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,race,arab and arab-berber,MF,278312,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,race,berber,MF,34639,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,race,cologhli,MF,5848,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,race,negro,MF,11831,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,race,other,MF,21144,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,language,arabic,MF,319810,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,language,berber,MF,31888,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,language,other,MF,76,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,speaks_italian,yes,MF,24947,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,religion,muslim,MF,210383,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,religion,jewish,MF,3096,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,religion,other,MF,7,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,race,arab and arab-berber,MF,149725,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,race,berber,MF,28651,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,race,cologhli,MF,24820,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,race,negro,MF,7166,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,race,other,MF,3124,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,language,arabic,MF,213447,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,language,berber,MF,37,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,language,other,MF,2,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Misurata,libyan,speaks_italian,yes,MF,4094,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,religion,muslim,MF,92688,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,religion,jewish,MF,3468,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,religion,other,MF,37,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,race,arab and arab-berber,MF,92108,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,race,berber,MF,9,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,race,cologhli,MF,323,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,race,negro,MF,284,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,race,other,MF,3469,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,language,arabic,MF,94743,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,language,berber,MF,1447,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,language,other,MF,3,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Bengasi,libyan,speaks_italian,yes,MF,12121,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,religion,muslim,MF,40515,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,religion,jewish,MF,714,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,religion,other,MF,4,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,race,arab and arab-berber,MF,38911,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,race,berber,MF,106,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,race,cologhli,MF,730,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,race,negro,MF,304,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,race,other,MF,1182,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,language,arabic,MF,40889,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,language,berber,MF,0,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,language,other,MF,344,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Derna,libyan,speaks_italian,yes,MF,6489,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,religion,muslim,MF,674330,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,religion,jewish,MF,28283,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,religion,other,MF,73,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,race,arab and arab-berber,MF,559056,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,race,berber,MF,63405,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,race,cologhli,MF,31721,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,race,negro,MF,19585,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,race,other,MF,28919,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,language,arabic,MF,668889,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,language,berber,MF,33372,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,language,other,MF,425,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,speaks_italian,yes,MF,47651,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,religion,muslim,MF,48149,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,religion,jewish,MF,16,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,religion,other,MF,0,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,race,arab and arab-berber,MF,26846,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,race,berber,MF,6769,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,race,cologhli,MF,3341,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,race,negro,MF,10494,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,race,other,MF,715,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,language,arabic,MF,43019,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,language,berber,MF,4396,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,language,other,MF,750,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,libyan,speaks_italian,yes,MF,909,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,religion,muslim,MF,722479,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,religion,jewish,MF,28299,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,religion,other,MF,73,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,race,arab and arab-berber,MF,585902,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,race,berber,MF,70174,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,race,cologhli,MF,35062,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,race,negro,MF,30079,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,race,other,MF,29634,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,language,arabic,MF,711908,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,language,berber,MF,37768,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,language,other,MF,1175,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,LIBIA,libyan,speaks_italian,yes,MF,48560,"Popolazione libica residente secondo la religione, la razza e la lingua",1939 1940 1943,360
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,single,MF,180397,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,single,F,77247,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,married,MF,150962,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,married,F,76653,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,widowed,MF,18600,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,widowed,F,14576,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,divorced,MF,1796,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,divorced,F,1024,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,unknown,MF,19,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Tripoli,libyan,civil_status,unknown,F,9,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,single,MF,105291,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,single,F,43283,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,married,MF,95499,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,married,F,48611,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,widowed,MF,11643,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,widowed,F,9833,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,divorced,MF,1044,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,divorced,F,522,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,unknown,MF,9,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Misurata,libyan,civil_status,unknown,F,7,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,single,MF,45752,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,single,F,18494,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,married,MF,41295,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,married,F,20961,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,widowed,MF,7043,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,widowed,F,5425,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,divorced,MF,2098,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,divorced,F,1246,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,unknown,MF,5,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Bengasi,libyan,civil_status,unknown,F,3,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,single,MF,20079,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,single,F,7889,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,married,MF,17155,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,married,F,8716,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,widowed,MF,3084,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,widowed,F,2304,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,divorced,MF,914,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,divorced,F,480,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,unknown,MF,1,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincia di Derna,libyan,civil_status,unknown,F,0,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,single,MF,351519,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,single,F,146913,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,married,MF,304911,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,married,F,154941,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,widowed,MF,40370,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,widowed,F,32138,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,divorced,MF,5852,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,divorced,F,3272,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,unknown,MF,34,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Provincie italiane della Libia,libyan,civil_status,unknown,F,19,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,single,MF,24492,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,single,F,10519,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,married,MF,18874,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,married,F,9826,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,widowed,MF,3807,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,widowed,F,3483,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,divorced,MF,989,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,divorced,F,789,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,unknown,MF,3,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Territorio Militare del Sud,libyan,civil_status,unknown,F,3,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,single,MF,376011,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,single,F,157432,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,married,MF,323785,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,married,F,164767,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,widowed,MF,44177,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,widowed,F,35621,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,divorced,MF,6841,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,divorced,F,4061,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,unknown,MF,37,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,LIBIA,libyan,civil_status,unknown,F,22,Popolazione libica residente secondo il sesso e lo stato civile,1940 1943,112
+census 1936 final,resident,Sottozona militare di Brach,all,total,all,MF,17145,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,national,total,all,MF,45,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,national,total,all,M,45,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,national,total,all,F,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,foreign,total,all,MF,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,foreign,total,all,M,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,foreign,total,all,F,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,total,all,MF,17100,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,total,all,M,8576,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,total,all,F,8524,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,all,total,all,MF,9358,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,national,total,all,MF,34,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,national,total,all,M,33,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,national,total,all,F,1,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,foreign,total,all,MF,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,foreign,total,all,M,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,foreign,total,all,F,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,total,all,MF,9324,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,total,all,M,4439,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,total,all,F,4885,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,all,total,all,MF,9299,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,national,total,all,MF,40,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,national,total,all,M,40,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,national,total,all,F,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,foreign,total,all,MF,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,foreign,total,all,M,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,foreign,total,all,F,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,total,all,MF,9259,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,total,all,M,4207,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,total,all,F,5052,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,all,total,all,MF,7346,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,national,total,all,MF,100,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,national,total,all,M,90,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,national,total,all,F,10,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,foreign,total,all,MF,1,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,foreign,total,all,M,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,foreign,total,all,F,1,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,total,all,MF,7245,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,total,all,M,3793,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,total,all,F,3452,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,all,total,all,MF,5255,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,national,total,all,MF,18,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,national,total,all,M,18,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,national,total,all,F,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,foreign,total,all,MF,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,foreign,total,all,M,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,foreign,total,all,F,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,total,all,MF,5237,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,total,all,M,2530,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,total,all,F,2707,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,all,total,all,MF,48403,Sahara Libico: popolazione residente in complesso,1939 1940 1943,364
+census 1936 final,resident,Territorio Militare del Sud,national,total,all,MF,237,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,national,total,all,M,226,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,national,total,all,F,11,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,foreign,total,all,MF,1,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,foreign,total,all,M,0,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,foreign,total,all,F,1,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,total,all,MF,48165,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,total,all,M,23545,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,total,all,F,24620,Sahara Libico: popolazione residente in complesso,1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile,all,MF,15354,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile,family heads,MF,3841,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;religion,muslim,MF,15352,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;religion,jewish,MF,2,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;race,arab and arab-berber,MF,10619,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;race,berber,MF,656,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;race,negro,MF,4075,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;race,other,MF,4,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;language,arabic,MF,15343,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;language,berber,MF,8,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;language,other,MF,3,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=stabile;speaks_italian,yes,MF,378,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade,all,MF,1079,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade,family heads,MF,262,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;religion,muslim,MF,1079,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;race,arab and arab-berber,MF,907,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;race,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;race,negro,MF,172,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;race,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;language,arabic,MF,1079,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;language,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;language,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=seminomade;speaks_italian,yes,MF,35,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade,all,MF,667,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade,family heads,MF,165,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;religion,muslim,MF,667,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;race,arab and arab-berber,MF,664,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;race,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;race,negro,MF,3,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;race,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;language,arabic,MF,667,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;language,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;language,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=nomade;speaks_italian,yes,MF,3,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all,all,MF,17100,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all,family heads,MF,4268,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;religion,muslim,MF,17098,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;religion,jewish,MF,2,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;race,arab and arab-berber,MF,12190,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;race,berber,MF,656,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;race,negro,MF,4250,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;race,other,MF,4,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;language,arabic,MF,17089,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;language,berber,MF,8,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;language,other,MF,3,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Brach,libyan,dimora=all;speaks_italian,yes,MF,416,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile,all,MF,7420,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile,family heads,MF,1960,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;religion,muslim,MF,7420,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;race,arab and arab-berber,MF,1674,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;race,berber,MF,478,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;race,cologhli,MF,3331,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;race,negro,MF,1937,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;race,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;language,arabic,MF,5752,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;language,berber,MF,1666,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;language,other,MF,2,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=stabile;speaks_italian,yes,MF,32,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade,all,MF,1904,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade,family heads,MF,421,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;religion,muslim,MF,1904,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;race,arab and arab-berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;race,berber,MF,1649,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;race,negro,MF,255,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;race,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;language,arabic,MF,11,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;language,berber,MF,1893,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;language,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=nomade;speaks_italian,yes,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all,all,MF,9324,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all,family heads,MF,2381,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;religion,muslim,MF,9324,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;race,arab and arab-berber,MF,1674,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;race,berber,MF,2127,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;race,cologhli,MF,3331,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;race,negro,MF,2192,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;race,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;language,arabic,MF,5763,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;language,berber,MF,3559,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;language,other,MF,2,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Gat,libyan,dimora=all;speaks_italian,yes,MF,32,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile,all,MF,8538,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile,family heads,MF,2073,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;religion,muslim,MF,8538,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;race,arab and arab-berber,MF,2359,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;race,berber,MF,3121,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;race,cologhli,MF,10,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;race,negro,MF,3014,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;race,other,MF,34,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;language,arabic,MF,8392,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;language,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;language,other,MF,146,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=stabile;speaks_italian,yes,MF,80,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade,all,MF,721,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade,family heads,MF,152,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;religion,muslim,MF,721,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;race,arab and arab-berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;race,berber,MF,221,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;race,negro,MF,92,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;race,other,MF,408,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;language,arabic,MF,7,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;language,berber,MF,306,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;language,other,MF,408,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=seminomade;speaks_italian,yes,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all,all,MF,9259,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all,family heads,MF,2225,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;religion,muslim,MF,9259,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;race,arab and arab-berber,MF,2359,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;race,berber,MF,3342,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;race,cologhli,MF,10,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;race,negro,MF,3106,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;race,other,MF,442,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;language,arabic,MF,8399,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;language,berber,MF,306,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;language,other,MF,554,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Murzuch,libyan,dimora=all;speaks_italian,yes,MF,80,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile,all,MF,6291,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile,family heads,MF,1562,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;religion,muslim,MF,6277,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;religion,jewish,MF,14,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;race,arab and arab-berber,MF,5116,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;race,berber,MF,643,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;race,negro,MF,496,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;race,other,MF,36,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;language,arabic,MF,5756,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;language,berber,MF,523,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;language,other,MF,12,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=stabile;speaks_italian,yes,MF,267,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade,all,MF,224,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade,family heads,MF,50,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;religion,muslim,MF,224,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;race,arab and arab-berber,MF,221,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;race,berber,MF,1,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;race,negro,MF,2,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;race,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;language,arabic,MF,224,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;language,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;language,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=seminomade;speaks_italian,yes,MF,4,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade,all,MF,730,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade,family heads,MF,172,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;religion,muslim,MF,730,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;race,arab and arab-berber,MF,729,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;race,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;race,negro,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;race,other,MF,1,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;language,arabic,MF,730,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;language,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;language,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=nomade;speaks_italian,yes,MF,5,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all,all,MF,7245,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all,family heads,MF,1784,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;religion,muslim,MF,7231,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;religion,jewish,MF,14,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;race,arab and arab-berber,MF,6066,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;race,berber,MF,644,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;race,negro,MF,498,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;race,other,MF,37,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;language,arabic,MF,6710,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;language,berber,MF,523,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;language,other,MF,12,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di Hon,libyan,dimora=all;speaks_italian,yes,MF,276,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile,all,MF,5237,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile,family heads,MF,1361,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;religion,muslim,MF,5237,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;race,arab and arab-berber,MF,4557,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;race,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;race,negro,MF,448,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;race,other,MF,232,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;language,arabic,MF,5058,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;language,berber,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;language,other,MF,179,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Sottozona militare di el-Giof,libyan,dimora=stabile;speaks_italian,yes,MF,105,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile,all,MF,42840,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile,family heads,MF,10797,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;religion,muslim,MF,42824,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;religion,jewish,MF,16,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;race,arab and arab-berber,MF,24325,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;race,berber,MF,4898,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;race,cologhli,MF,3341,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;race,negro,MF,9970,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;race,other,MF,306,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;language,arabic,MF,40301,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;language,berber,MF,2197,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;language,other,MF,342,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=stabile;speaks_italian,yes,MF,862,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade,all,MF,2024,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade,family heads,MF,464,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;religion,muslim,MF,2024,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;race,arab and arab-berber,MF,1128,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;race,berber,MF,222,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;race,negro,MF,266,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;race,other,MF,408,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;language,arabic,MF,1310,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;language,berber,MF,306,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;language,other,MF,408,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=seminomade;speaks_italian,yes,MF,39,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade,all,MF,3301,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade,family heads,MF,758,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;religion,muslim,MF,3301,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;religion,jewish,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;race,arab and arab-berber,MF,1393,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;race,berber,MF,1649,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;race,cologhli,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;race,negro,MF,258,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;race,other,MF,1,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;language,arabic,MF,1408,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;language,berber,MF,1893,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;language,other,MF,0,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=nomade;speaks_italian,yes,MF,8,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all,all,MF,48165,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all,family heads,MF,12019,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;religion,muslim,MF,48149,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;religion,jewish,MF,16,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;race,arab and arab-berber,MF,26846,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;race,berber,MF,6769,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;race,cologhli,MF,3341,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;race,negro,MF,10494,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;race,other,MF,715,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;language,arabic,MF,43019,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;language,berber,MF,4396,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;language,other,MF,750,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 final,resident,Territorio Militare del Sud,libyan,dimora=all;speaks_italian,yes,MF,909,"Sahara Libico: popolazione libica residente secondo il tipo della dimora, il sesso, la religione, la razza e la lingua",1939,364
+census 1936 provisional,present (heading),Provincia di Tripoli,all,total,all,MF,398250,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,settlers,total,all,MF,40790,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,settlers,total,all,M,21533,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,settlers,total,all,F,19257,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,libyan,dimora,all,MF,357460,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,libyan,dimora,stabile,MF,292396,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,libyan,dimora,seminomade,MF,36022,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,libyan,dimora,nomade,MF,29042,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,libyan,religion,muslim,MF,336509,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,libyan,religion,jewish,MF,20703,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Tripoli,libyan,religion,other,MF,248,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,all,total,all,MF,218611,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,settlers,total,all,MF,2391,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,settlers,total,all,M,1563,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,settlers,total,all,F,828,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,libyan,dimora,all,MF,216220,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,libyan,dimora,stabile,MF,180232,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,libyan,dimora,seminomade,MF,35735,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,libyan,dimora,nomade,MF,253,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,libyan,religion,muslim,MF,213292,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,libyan,religion,jewish,MF,2920,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Misurata,libyan,religion,other,MF,8,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,all,total,all,MF,116899,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,settlers,total,all,MF,17551,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,settlers,total,all,M,9621,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,settlers,total,all,F,7930,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,libyan,dimora,all,MF,99348,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,libyan,dimora,stabile,MF,90554,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,libyan,dimora,seminomade,MF,8793,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,libyan,dimora,nomade,MF,1,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,libyan,religion,muslim,MF,95025,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,libyan,religion,jewish,MF,3423,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Bengasi,libyan,religion,other,MF,900,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,all,total,all,MF,56406,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,settlers,total,all,MF,5555,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,settlers,total,all,M,3490,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,settlers,total,all,F,2065,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,libyan,dimora,all,MF,50851,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,libyan,dimora,stabile,MF,44052,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,libyan,dimora,seminomade,MF,6704,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,libyan,dimora,nomade,MF,95,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,libyan,religion,muslim,MF,43081,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,libyan,religion,jewish,MF,678,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Provincia di Derna,libyan,religion,other,MF,7092,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,all,total,all,MF,49358,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,settlers,total,all,MF,238,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,settlers,total,all,M,226,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,settlers,total,all,F,12,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,libyan,dimora,all,MF,49120,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,libyan,dimora,stabile,MF,43775,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,libyan,dimora,seminomade,MF,2044,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,libyan,dimora,nomade,MF,3301,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,libyan,religion,muslim,MF,48746,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,libyan,religion,jewish,MF,16,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),Territorio Militare del Sud,libyan,religion,other,MF,358,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,all,total,all,MF,839524,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,settlers,total,all,MF,66525,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,settlers,total,all,M,36433,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,settlers,total,all,F,30092,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,libyan,dimora,all,MF,772999,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,libyan,dimora,stabile,MF,651009,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,libyan,dimora,seminomade,MF,89298,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,libyan,dimora,nomade,MF,32692,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,libyan,religion,muslim,MF,736653,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,libyan,religion,jewish,MF,27740,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,present (heading),LIBIA,libyan,religion,other,MF,8606,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1937,311
+census 1936 provisional,resident (heading),Provincia di Tripoli,all,total,all,MF,398250,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,settlers,total,all,MF,40790,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,settlers,total,all,M,21533,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,settlers,total,all,F,19257,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,libyan,dimora,all,MF,357460,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,libyan,dimora,stabile,MF,292396,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,libyan,dimora,seminomade,MF,36022,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,libyan,dimora,nomade,MF,29042,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,libyan,religion,muslim,MF,336509,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,libyan,religion,jewish,MF,20703,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Tripoli,libyan,religion,other,MF,248,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,all,total,all,MF,218611,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,settlers,total,all,MF,2391,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,settlers,total,all,M,1563,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,settlers,total,all,F,828,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,libyan,dimora,all,MF,216220,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,libyan,dimora,stabile,MF,180232,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,libyan,dimora,seminomade,MF,35735,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,libyan,dimora,nomade,MF,253,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,libyan,religion,muslim,MF,213292,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,libyan,religion,jewish,MF,2920,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Misurata,libyan,religion,other,MF,8,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,all,total,all,MF,116899,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,settlers,total,all,MF,17551,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,settlers,total,all,M,9621,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,settlers,total,all,F,7930,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,libyan,dimora,all,MF,99348,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,libyan,dimora,stabile,MF,90554,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,libyan,dimora,seminomade,MF,8793,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,libyan,dimora,nomade,MF,1,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,libyan,religion,muslim,MF,95025,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,libyan,religion,jewish,MF,3423,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Bengasi,libyan,religion,other,MF,900,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,all,total,all,MF,56406,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,settlers,total,all,MF,5555,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,settlers,total,all,M,3490,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,settlers,total,all,F,2065,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,libyan,dimora,all,MF,50851,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,libyan,dimora,stabile,MF,44052,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,libyan,dimora,seminomade,MF,6704,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,libyan,dimora,nomade,MF,95,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,libyan,religion,muslim,MF,43081,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,libyan,religion,jewish,MF,678,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Provincia di Derna,libyan,religion,other,MF,7092,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,all,total,all,MF,49358,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,settlers,total,all,MF,238,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,settlers,total,all,M,226,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,settlers,total,all,F,12,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,libyan,dimora,all,MF,49120,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,libyan,dimora,stabile,MF,43775,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,libyan,dimora,seminomade,MF,2044,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,libyan,dimora,nomade,MF,3301,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,libyan,religion,muslim,MF,48746,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,libyan,religion,jewish,MF,16,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),Territorio Militare del Sud,libyan,religion,other,MF,358,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,all,total,all,MF,839524,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,settlers,total,all,MF,66525,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,settlers,total,all,M,36433,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,settlers,total,all,F,30092,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,libyan,dimora,all,MF,772999,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,libyan,dimora,stabile,MF,651009,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,libyan,dimora,seminomade,MF,89298,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,libyan,dimora,nomade,MF,32692,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,libyan,religion,muslim,MF,736653,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,libyan,religion,jewish,MF,27740,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1936 provisional,resident (heading),LIBIA,libyan,religion,other,MF,8606,Popolazione: risultati del censimento al 21 aprile 1936 (dati provvisori),1938,325
+census 1931 final,present,Tripolitania: C. R. di Tripoli,all,total,all,MF,81986,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,settlers,total,all,MF,23735,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,settlers,total,all,M,13579,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,total,all,MF,58251,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,total,all,M,29963,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,dimora,stabile,MF,58251,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,dimora,seminomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,dimora,nomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,religion,muslim,MF,42654,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,religion,other or unknown,MF,15597,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,race,"arab, berber and arab-berber",MF,39141,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,race,cologhli,MF,100,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,race,negro,MF,3062,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Tripoli,libyan,race,other or unknown,MF,15948,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,all,total,all,MF,37154,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,settlers,total,all,MF,728,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,settlers,total,all,M,488,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,total,all,MF,36426,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,total,all,M,19282,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,dimora,stabile,MF,29987,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,dimora,seminomade,MF,6439,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,dimora,nomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,religion,muslim,MF,35787,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,religion,other or unknown,MF,639,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,race,"arab, berber and arab-berber",MF,35785,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,race,cologhli,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,race,negro,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Confine Occidentale,libyan,race,other or unknown,MF,641,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,all,total,all,MF,40729,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,settlers,total,all,MF,849,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,settlers,total,all,M,474,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,total,all,MF,39880,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,total,all,M,20711,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,dimora,stabile,MF,38061,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,dimora,seminomade,MF,1819,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,dimora,nomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,religion,muslim,MF,39301,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,religion,other or unknown,MF,579,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,race,"arab, berber and arab-berber",MF,34527,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,race,cologhli,MF,4329,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,race,negro,MF,445,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Zavia,libyan,race,other or unknown,MF,579,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,all,total,all,MF,74161,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,settlers,total,all,MF,2260,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,settlers,total,all,M,1453,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,total,all,MF,71901,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,total,all,M,37572,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,dimora,stabile,MF,41488,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,dimora,seminomade,MF,30413,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,dimora,nomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,religion,muslim,MF,70552,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,religion,other or unknown,MF,1349,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,race,"arab, berber and arab-berber",MF,70551,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,race,cologhli,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,race,negro,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. della Gefara,libyan,race,other or unknown,MF,1350,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,all,total,all,MF,42487,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,settlers,total,all,MF,481,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,settlers,total,all,M,272,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,total,all,MF,42006,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,total,all,M,21652,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,dimora,stabile,MF,36665,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,dimora,seminomade,MF,5341,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,dimora,nomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,religion,muslim,MF,40982,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,religion,other or unknown,MF,1024,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,race,"arab, berber and arab-berber",MF,39000,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,race,cologhli,MF,1969,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,race,negro,MF,5,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Leptis,libyan,race,other or unknown,MF,1032,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,all,total,all,MF,78397,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,settlers,total,all,MF,862,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,settlers,total,all,M,673,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,total,all,MF,77535,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,total,all,M,39506,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,dimora,stabile,MF,70584,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,dimora,seminomade,MF,6815,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,dimora,nomade,MF,136,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,religion,muslim,MF,76300,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,religion,other or unknown,MF,1235,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,race,"arab, berber and arab-berber",MF,57649,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,race,cologhli,MF,18651,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,race,negro,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. di Misurata,libyan,race,other or unknown,MF,1235,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,all,total,all,MF,95897,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,settlers,total,all,MF,567,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,settlers,total,all,M,413,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,total,all,MF,95330,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,total,all,M,49903,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,dimora,stabile,MF,47154,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,dimora,seminomade,MF,35282,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,dimora,nomade,MF,12894,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,religion,muslim,MF,94588,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,religion,other or unknown,MF,742,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,race,"arab, berber and arab-berber",MF,94588,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,race,cologhli,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,race,negro,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. R. del Gebel,libyan,race,other or unknown,MF,742,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,all,total,all,MF,21098,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,settlers,total,all,MF,801,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,settlers,total,all,M,739,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,total,all,MF,20297,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,total,all,M,11123,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,dimora,stabile,MF,13129,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,dimora,seminomade,MF,4807,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,dimora,nomade,MF,2361,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,religion,muslim,MF,19563,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,religion,other or unknown,MF,734,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,race,"arab, berber and arab-berber",MF,19192,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,race,cologhli,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,race,negro,MF,325,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Orientale,libyan,race,other or unknown,MF,780,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,all,total,all,MF,24902,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,settlers,total,all,MF,140,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,settlers,total,all,M,124,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,total,all,MF,24762,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,total,all,M,13222,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,dimora,stabile,MF,2984,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,dimora,seminomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,dimora,nomade,MF,21778,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,religion,muslim,MF,24388,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,religion,other or unknown,MF,374,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,race,"arab, berber and arab-berber",MF,24321,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,race,cologhli,MF,8,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,race,negro,MF,5,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Gebel,libyan,race,other or unknown,MF,428,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,all,total,all,MF,20781,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,settlers,total,all,MF,220,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,settlers,total,all,M,209,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,total,all,MF,20561,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,total,all,M,10958,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,dimora,stabile,MF,14181,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,dimora,seminomade,MF,177,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,dimora,nomade,MF,6203,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,religion,muslim,MF,20555,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,religion,other or unknown,MF,6,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,race,"arab, berber and arab-berber",MF,20533,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,race,cologhli,MF,1,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,race,negro,MF,21,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. Sud Occidentale,libyan,race,other or unknown,MF,6,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,all,total,all,MF,26080,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,settlers,total,all,MF,258,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,settlers,total,all,M,258,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,total,all,MF,25822,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,total,all,M,12841,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,dimora,stabile,MF,24487,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,dimora,seminomade,MF,121,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,dimora,nomade,MF,1214,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,religion,muslim,MF,25707,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,religion,other or unknown,MF,115,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,race,"arab, berber and arab-berber",MF,22902,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,race,cologhli,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,race,negro,MF,2751,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania: C. Z. del Fezzan,libyan,race,other or unknown,MF,169,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,all,total,all,MF,543672,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,settlers,total,all,MF,30901,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,settlers,total,all,M,18682,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,total,all,MF,512771,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,total,all,M,266733,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,dimora,stabile,MF,376971,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,dimora,seminomade,MF,91214,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,dimora,nomade,MF,44586,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,religion,muslim,MF,490377,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,religion,other or unknown,MF,22394,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,race,"arab, berber and arab-berber",MF,458189,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,race,cologhli,MF,25058,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,race,negro,MF,6614,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,libyan,race,other or unknown,MF,22910,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,all,total,all,MF,81961,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,settlers,total,all,MF,12976,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,settlers,total,all,M,7857,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,total,all,MF,68985,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,total,all,M,36472,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,dimora,stabile,MF,50210,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,dimora,seminomade,MF,18775,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,religion,muslim,MF,65779,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,religion,copt,MF,1045,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,religion,jewish,MF,2083,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,religion,other or unknown,MF,78,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,race,"arab, berber and arab-berber",MF,63755,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,race,cologhli,MF,480,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,race,negro,MF,1323,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. di Bengasi,libyan,race,other or unknown,MF,3427,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,all,total,all,MF,35407,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,settlers,total,all,MF,3883,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,settlers,total,all,M,2868,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,total,all,MF,31524,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,total,all,M,16129,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,dimora,stabile,MF,31274,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,dimora,seminomade,MF,250,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,religion,muslim,MF,29617,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,religion,copt,MF,1244,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,religion,jewish,MF,541,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,religion,other or unknown,MF,122,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,race,"arab, berber and arab-berber",MF,27896,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,race,cologhli,MF,1168,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,race,negro,MF,340,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. R. del Gebel,libyan,race,other or unknown,MF,2120,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,all,total,all,MF,6467,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,settlers,total,all,MF,1124,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,settlers,total,all,M,985,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,total,all,MF,5343,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,total,all,M,4090,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,dimora,stabile,MF,5343,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,dimora,seminomade,MF,0,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,religion,muslim,MF,3513,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,religion,copt,MF,1589,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,religion,jewish,MF,220,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,religion,other or unknown,MF,21,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,race,"arab, berber and arab-berber",MF,2041,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,race,cologhli,MF,39,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,race,negro,MF,179,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. della Marmarica,libyan,race,other or unknown,MF,3084,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,all,total,all,MF,36616,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,settlers,total,all,MF,523,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,settlers,total,all,M,499,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,total,all,MF,36093,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,total,all,M,18560,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,dimora,stabile,MF,28572,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,dimora,seminomade,MF,7521,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,religion,muslim,MF,35505,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,religion,copt,MF,533,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,religion,jewish,MF,42,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,religion,other or unknown,MF,13,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,race,"arab, berber and arab-berber",MF,33783,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,race,cologhli,MF,6,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,race,negro,MF,1338,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica: C. Z. di Agedabia,libyan,race,other or unknown,MF,966,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,all,total,all,MF,160451,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,settlers,total,all,MF,18506,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,settlers,total,all,M,12209,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,total,all,MF,141945,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,total,all,M,75251,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,dimora,stabile,MF,115399,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,dimora,seminomade,MF,26546,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,religion,muslim,MF,134414,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,religion,copt,MF,4411,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,religion,jewish,MF,2886,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,religion,other or unknown,MF,234,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,race,"arab, berber and arab-berber",MF,127475,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,race,cologhli,MF,1693,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,race,negro,MF,3180,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Cirenaica,libyan,race,other or unknown,MF,9597,Popolazione: risultati del censimento al 21 aprile 1931,1936,260
+census 1931 final,present,Tripolitania,all,area_km2,all,,912532,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Tripolitania,settlers,families and institutions,all,,6868,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Tripolitania,foreign,total,all,MF,2405,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Tripolitania,foreign,total,all,M,1257,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Tripolitania,libyan,families and institutions,all,,124443,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Cirenaica,all,area_km2,all,,861420,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Cirenaica,settlers,families and institutions,all,,4146,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Cirenaica,foreign,total,all,MF,2402,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Cirenaica,foreign,total,all,M,1523,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Cirenaica,libyan,families and institutions,all,,37799,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 final,present,Cirenaica,libyan,dimora,nomade,MF,0,Superficie e popolazione: risultati del censimento eseguito il 21 aprile 1931,1936,256
+census 1931 provisional,present,Tripolitania,all,area_km2,all,,900000,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,settlers,total,all,MF,30866,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,total,all,MF,512831,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,catholic,MF,97,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,protestant,MF,2,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,greek orthodox,MF,50,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,copt,MF,1093,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,muslim,MF,490173,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,jewish,MF,21117,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,other,MF,0,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Tripolitania,libyan,religion,unknown,MF,299,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,all,area_km2,all,,738000,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,settlers,total,all,MF,18741,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,total,all,MF,141975,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,catholic,MF,117,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,protestant,MF,3,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,greek orthodox,MF,0,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,copt,MF,4440,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,muslim,MF,133562,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,jewish,MF,2887,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,other,MF,0,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1931 provisional,present,Cirenaica,libyan,religion,unknown,MF,966,"Superficie e popolazione presente (Cens. 1931, cifre provvisorie); popolazione indigena secondo la religione",1933,441
+census 1936 provisional,resident,LIBIA,all,area_km2,all,,1754000,Superficie e popolazione,1937 1938,299
+census 1936 provisional,resident,LIBIA,all,total,all,MF,839524,Superficie e popolazione,1937 1938,299
+census 1936 final,resident,Provincie italiane della Libia,all,area_km2,all,,553940,Superficie e popolazione,1939 1940 1943,360
+census 1936 final,resident,Provincie italiane della Libia,libyan,total,all,MF,702686,Superficie e popolazione,1939 1940 1943,360
+census 1936 final,resident,Territorio Militare del Sud,all,area_km2,all,,1205600,Superficie e popolazione,1939 1940 1943,360
+planimetric estimate,,LIBIA,all,area_km2,all,,1484218,Superficie e popolazione (testo),1912,377
+Ottoman census of 3 July 1911,present,"Tripolitania (proper, without the Fezzan)",all,total,all,MF,523176,Superficie e popolazione (testo),1913,449
+Ottoman census of 3 July 1911,present,"Tripolitania (proper, without the Fezzan)",all,religion,muslim,MF,508521,Superficie e popolazione (testo),1913,449
+Ottoman census of 3 July 1911,present,city of Tripoli,all,total,all,MF,29761,Superficie e popolazione (testo),1913,449
+Ottoman census of 3 July 1911,present,city of Tripoli,all,religion,muslim,MF,20802,Superficie e popolazione (testo),1913,449

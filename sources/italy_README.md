@@ -154,8 +154,15 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    tonnage, cargo and passengers by port, flag and propulsion. Steam and sail add to the whole and
    the ports to the colony in 1,586 sums, and the four places where volumes disagree are each a
    revision the later volume's footnote announces. Ships arriving at Tripoli carried 285,842 net
-   tons in 1923 and 1,417,043 in 1937. Population movement, market prices by city, credit and
-   schools come next.
+   tons in 1923 and 1,417,043 in 1937.
+
+   **Population** is the third, in `data/processed/istat/libya_annuario_population.csv`, from
+   `scripts/extract_istat_annuario_population.py`. Its new part is the 1931 census by
+   commissariato with religion, race and dwelling type, which the 1936 yearbook prints and the
+   1931 census tables transcribed here do not: 26% of Tripolitania's Libyans were counted
+   seminomadic or nomadic. Its reprints of the 1936 census agree with the census volume in all 811
+   figures. The provisional 1936 count of 772,999 Libyans, printed in 1937 and 1938, is kept apart
+   from the census's 750,851. Market prices by city, credit and schools come next.
 
 5. ~~The 1931 volume's table II, the district detail, is not machine-readable from this scan.~~
    **Done**, by transcription rather than by re-OCR. `scripts/extract_istat_1931_districts.py`

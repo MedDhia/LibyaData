@@ -51,6 +51,7 @@ python3 scripts/extract_istat_1921_libya.py
 python3 scripts/extract_istat_annuario_index.py
 python3 scripts/check_istat_annuario_trade.py
 python3 scripts/extract_istat_annuario_shipping.py
+python3 scripts/extract_istat_annuario_population.py
 python3 scripts/match_osm_places.py --places data/raw/hdx/hotosm_lby_populated_places.zip
 
 python3 scripts/validate.py
@@ -1794,6 +1795,61 @@ legible digit and, for all flags, with the same volume's summary table.
 About 276 of the 4,898 figures cannot be tested by any of these checks: the
 Cyrenaican port lines of 1921 and 1929 to 1932, printed once and without a
 colony total. They rest on a single reading at high magnification.
+
+#### `libya_annuario_population.csv`: the yearbooks' population figures, 942 rows
+
+Published by `scripts/extract_istat_annuario_population.py` from eleven pages
+in nine volumes (1912 to 1943), transcribed by eye into
+`data/raw/istat/libya_annuario_population.csv`, one row per printed figure.
+
+One row per `reference`, `population` (present or resident), `area`, `group`
+(`all`, `settlers`, `national`, `foreign`, `libyan`), `dimension`, `category`
+and `sex`: `value`, with the `table` it comes from, the `volumes` that print
+it and the first `pdf_page`. `dimension` is `total`, `dimora`, `religion`,
+`race`, `language`, `speaks_italian`, `civil_status`, `area_km2` or `families
+and institutions`; the Sahara tables cross dwelling type with the others, as
+`dimora=stabile;religion`. Filter on one `reference` at a time: the five are
+different counts of the same people and must not be added together.
+
+| `reference` | Volumes | What it is |
+|---|---|---|
+| `census 1931 final` | 1936 | by commissariato and colony: settlers and Libyans by sex, Libyans by dwelling type, religion and "race", families, area |
+| `census 1931 provisional` | 1933 | by colony: settlers, Libyans, Libyans by eight religions |
+| `census 1936 provisional` | 1937, 1938 | 839,524 by province: settlers by sex, Libyans by dwelling type and religion |
+| `census 1936 final` | 1939, 1940, 1943 | Libyan residents by province: dwelling type and sex, religion, race, language, civil status; the Sahara Libico by sottozona |
+| `Ottoman census of 3 July 1911`, `planimetric estimate` | 1913, 1912 | figures from the running text, not from a table |
+
+`libya_annuario_population_movement.csv` gives the settler population
+(national, foreign and assimilated, without the garrison) present on 1 January
+and 31 December 1937 by province, with live births, deaths, immigrants and
+emigrants, from the 1938 volume.
+
+**What is new here and what is a reprint.** The 1931 census by commissariato
+with religion, race and dwelling type is new to the repository: the 1931
+census volume's tables transcribed so far carry none of the three. It puts
+91,214 Tripolitanians in the seminomadic column and 44,586 in the nomadic one,
+26% of the Libyan population of the colony, against 19% of Cyrenaica's. Its
+religion column counts 4,411 Copts in Cyrenaica, and a footnote 1,106 in Tripolitania. The
+final 1936 tables are a reprint of census tables II, XXII and XXX and are
+published as a check on both transcriptions, not as new information.
+
+**The provisional 1936 count is not the census.** The 1937 and 1938 volumes
+print 772,999 Libyans and 839,524 people in all, labelled provisional, under a
+heading of population present in 1937 and resident in 1938, with the same
+figures under both. The census volume gives 750,851 Libyans resident and
+732,973 present. The provisional figures are published as printed and are not
+checked against the final ones.
+
+**Checks.** Each table's arithmetic: dwelling types, religions, races,
+languages and civil states add to the whole, M + F = MF, provinces add to
+their total and the total plus the Sahara Libico to Libya, commissariati add
+to their colony, and settlers plus Libyans give the whole; 533 sums. The 223
+figures printed in more than one volume agree. Every `census 1936 final`
+figure, 811 of them, equals the census volume as already transcribed, and 99
+`census 1931 final` figures equal the 1931 table II transcription, men
+included. The 1937 movement balances for every province. Figures printed
+once with nothing to add up to, the 1911 text figures, the areas and the
+family counts of 1931, rest on a single reading.
 
 ---
 
