@@ -202,8 +202,8 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    circumscription and dimora. All 229 lines of XXXII carry table XXII's residents.
 
    **Tables XXXIII and XXXIV are read too**, by `scripts/extract_istat_1936_libyan_professions.py`:
-   91 professions by province and sex, and by age. They carry the one misprint found so far in the
-   volume, 363 for 263 meat sellers in Bengasi, kept in the raw file and corrected with a note.
+   91 professions by province and sex, and by age. They carry the one misprint in the Libyan
+   tables, 363 for 263 meat sellers in Bengasi, kept in the raw file and corrected with a note.
 
    **Table XXV is read too**, by `scripts/extract_istat_1936_libyan_children.py`: families by the
    number of co-resident children under 6, 15, 21 and of any age. With it every Libyan table of the
@@ -214,7 +214,13 @@ Searching OPAC SBN for those is a job for an ordinary connection.
    population present and resident by single year of age; and foreigners by country. The present
    table counts 30,430 men aged 20 to 24 against 2,946 women.
 
-   The occupational tables XIII to XIX are being transcribed next.
+   **Tables XIII to XIX are read too**, by `scripts/extract_istat_1936_settler_professions.py`:
+   the settler population by category of activity, class, position and individual profession,
+   with their families and ages. 7,943 of the 26,586 settlers at work were in public
+   administration, 4,173 of them in the armed forces. Table XIX carries three misprints, kept in
+   the raw file and corrected with a note where two independent sums agree. With these, every
+   table of the volume's Libyan part is transcribed and cross-checked, and XX keeps its automated
+   extraction.
 
 6. Search OPAC SBN from an unblocked connection for the colonial government's own bulletins, which
    are the administrative record the statistics were drawn from.

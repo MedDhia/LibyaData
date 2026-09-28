@@ -50,6 +50,10 @@ Libyan sources, with a validation suite. See
 | 1936 census settlers by single year of age | present and resident, by sex and civil status | 6,138 |
 | 1936 census settler families and institutions | by social condition of the head, size, children | 2,926 |
 | 1936 census foreigners | by country, and by age, civil status and activity | 676 |
+| 1936 census settlers by activity | by circumscription; by category, class and position, per municipio | 8,916 |
+| 1936 census settler workers and their families | civil status, family heads, members and dependants, per province | 2,190 |
+| 1936 census settler professions | 259 professions by position; padroni; position by age | 3,180 |
+| 1936 census settlers by class and profession | 1,212 lines from category down to individual profession | 3,828 |
 | **1936 census Libyan population, present** | religion, rite, race, language and way of life | 229 |
 | 1936 census Libyan population, resident | the same, with family heads | 229 |
 | **1936 census Muslim marriages** | monogamous and polygamous, by age of husband and wife | 2,604 |

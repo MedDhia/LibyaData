@@ -1,0 +1,147 @@
+seq,level,area,block,line,addetti_mf,addetti_m,addetti_f,celibi_nubili_mf,celibi_nubili_f,coniugati_vedovi_mf,coniugati_vedovi_f,capi_famiglia_mf,capi_famiglia_f,membri_mf,membri_f,improduttivi_mf,improduttivi_f,improduttivi_under15_mf,domestici_mf
+1,category,Libia,I. Agricoltura,Conduttori non coltivatori,171,153,18,48,4,123,14,109,6,509,266,299,230,138,12
+2,category,Libia,I. Agricoltura,Conduttori coltivatori,1259,902,357,359,74,899,282,610,18,3304,1575,1727,1095,1218,12
+3,category,Libia,I. Agricoltura,Coloni parziari,1368,1243,125,658,77,710,48,622,6,3806,1674,2243,1535,1403,0
+4,category,Libia,I. Agricoltura,Figure miste,112,107,5,36,1,76,4,74,0,355,165,237,159,150,0
+5,category,Libia,I. Agricoltura,Dirigenti,39,39,0,8,0,31,0,38,0,137,68,83,56,43,11
+6,category,Libia,I. Agricoltura,Impiegati,57,57,0,23,0,34,0,51,0,133,56,76,51,43,4
+7,category,Libia,I. Agricoltura,Lavoratori,874,827,47,303,29,571,18,565,2,2419,1072,1461,1013,872,0
+8,category,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),46,44,2,24,2,22,0,31,0,74,33,31,25,10,4
+9,category,Libia,I. Agricoltura,H) Operai (professioni non agricole),156,156,0,89,0,67,0,88,0,232,104,137,104,76,1
+10,category,Libia,I. Agricoltura,Totale,4082,3528,554,1548,187,2533,366,2188,32,10969,5013,6294,4268,3953,44
+11,category,Libia,II. Caccia e pesca,A) Padroni,123,122,1,42,0,81,1,79,1,395,171,221,158,120,0
+12,category,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,2,2,0,0,0,2,0,2,0,8,4,4,3,2,0
+13,category,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,6,6,0,1,0,5,0,4,0,9,2,3,2,1,0
+14,category,Libia,II. Caccia e pesca,E) Dirigenti,2,2,0,2,0,0,0,2,0,3,1,1,1,0,1
+15,category,Libia,II. Caccia e pesca,F) Impiegati,1,1,0,0,0,1,0,1,0,4,1,1,1,0,0
+16,category,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,1,1,0,0,0,1,0,1,0,4,1,3,1,2,0
+17,category,Libia,II. Caccia e pesca,H) Operai,228,228,0,79,0,147,0,143,0,592,271,348,249,213,0
+18,category,Libia,II. Caccia e pesca,Totale,363,362,1,124,0,237,1,232,1,1015,451,581,415,338,1
+19,category,Libia,III. Industria,A) Padroni,766,721,45,221,19,545,26,534,9,2437,1161,1485,1045,747,61
+20,category,Libia,III. Industria,B) Artigiani con dipendenti,307,266,41,97,15,210,26,220,14,941,430,565,384,308,2
+21,category,Libia,III. Industria,C) Artigiani senza dipendenti,826,647,179,316,98,509,81,518,49,1966,940,1133,823,595,5
+22,category,Libia,III. Industria,E) Dirigenti,53,51,2,10,2,43,0,47,2,173,80,94,63,46,10
+23,category,Libia,III. Industria,F) Impiegati,504,463,41,185,28,318,12,287,7,985,468,550,406,265,22
+24,category,Libia,III. Industria,G) Personale di servizio e di fatica,38,34,4,8,2,30,2,27,0,120,55,62,45,33,1
+25,category,Libia,III. Industria,H) Operai,5515,5009,506,2750,451,2764,55,2588,35,9831,4517,6134,4311,3559,17
+26,category,Libia,III. Industria,I) Lavoranti a domicilio,52,7,45,33,30,19,15,16,12,43,25,21,13,12,0
+27,category,Libia,III. Industria,Totale,8061,7198,863,3620,645,4438,217,4237,128,16496,7676,10044,7090,5565,118
+28,category,Libia,IV. Trasporti e comunicazioni,A) Padroni,219,217,2,44,0,175,2,199,2,876,405,559,391,306,5
+29,category,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,141,141,0,52,0,89,0,80,0,364,188,244,178,142,0
+30,category,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,20,20,0,3,0,17,0,17,0,63,33,36,24,16,9
+31,category,Libia,IV. Trasporti e comunicazioni,F) Impiegati,449,423,26,172,11,277,15,302,5,1090,532,675,478,351,23
+32,category,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,64,64,0,28,0,36,0,39,0,151,72,89,67,49,0
+33,category,Libia,IV. Trasporti e comunicazioni,H) Operai,666,666,0,270,0,396,0,427,0,1611,765,1051,743,606,1
+34,category,Libia,IV. Trasporti e comunicazioni,Totale,1559,1531,28,569,11,990,17,1064,7,4155,1995,2654,1881,1470,38
+35,category,Libia,V. Commercio,A) Padroni,1739,1304,435,484,115,1255,320,1077,89,4626,2270,2636,1854,1371,109
+36,category,Libia,V. Commercio,E) Dirigenti,46,42,4,14,2,32,2,28,0,99,50,57,41,30,7
+37,category,Libia,V. Commercio,F) Impiegati,595,511,84,316,64,279,20,302,15,1042,484,609,423,310,20
+38,category,Libia,V. Commercio,G) Personale di servizio e di fatica,51,44,7,21,4,30,3,29,2,108,54,72,53,43,0
+39,category,Libia,V. Commercio,H) Operai,404,303,101,198,60,206,41,193,23,618,280,349,242,194,0
+40,category,Libia,V. Commercio,Totale,2835,2204,631,1033,245,1802,386,1629,129,6493,3138,3723,2613,1948,136
+41,category,Libia,VI. Credito e assicurazione,E) Dirigenti,16,16,0,0,0,16,0,15,0,66,41,40,32,9,9
+42,category,Libia,VI. Credito e assicurazione,F) Impiegati,241,229,12,109,12,132,0,158,1,525,274,297,224,144,32
+43,category,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,20,20,0,9,0,11,0,12,0,59,26,40,25,27,0
+44,category,Libia,VI. Credito e assicurazione,H) Operai,5,5,0,2,0,3,0,5,0,19,11,8,7,5,0
+45,category,Libia,VI. Credito e assicurazione,Totale,282,270,12,120,12,162,0,190,1,669,352,385,288,185,41
+46,category,Libia,VII. Attivita ed arti libere,A) Padroni,10,2,8,6,5,4,3,7,5,11,7,2,2,0,0
+47,category,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,184,142,42,50,17,132,23,120,8,420,214,223,156,86,37
+48,category,Libia,VII. Attivita ed arti libere,F) Impiegati,49,34,15,29,8,20,7,20,3,51,22,27,16,11,0
+49,category,Libia,VII. Attivita ed arti libere,H) Operai,12,12,0,8,0,4,0,5,0,21,12,13,10,7,2
+50,category,Libia,VII. Attivita ed arti libere,Totale,255,190,65,93,30,160,33,152,16,503,255,265,184,104,39
+51,category,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,91,90,1,21,1,70,0,73,0,274,146,154,108,65,42
+52,category,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,5325,4732,593,2506,335,2816,257,2631,96,9209,4731,5569,3979,2784,409
+53,category,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,258,236,22,67,4,191,18,205,13,850,426,584,396,345,2
+54,category,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,2269,2257,12,1526,7,743,5,809,2,3123,1443,1989,1382,1155,5
+55,category,Libia,VIII. Amministrazione pubblica,Totale,7943,7315,628,4120,347,3820,280,3718,111,13456,6746,8296,5865,4349,458
+56,category,Libia,IX. Amministrazione privata,E) Dirigenti,3,2,1,3,1,0,0,0,0,0,0,0,0,0,0
+57,category,Libia,IX. Amministrazione privata,F) Impiegati,59,32,27,47,25,12,2,11,0,47,30,27,22,15,4
+58,category,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+59,category,Libia,IX. Amministrazione privata,H) Operai,29,28,1,22,1,7,0,11,0,33,17,20,16,7,3
+60,category,Libia,IX. Amministrazione privata,Totale,92,62,30,72,27,20,3,22,0,80,47,47,38,22,7
+61,category,Libia,X. Culto,F) Impiegati e assimilati,84,65,19,77,19,7,0,16,0,37,10,10,7,4,1
+62,category,Libia,X. Culto,G) Personale di servizio e di fatica,3,3,0,3,0,0,0,0,0,0,0,0,0,0,0
+63,category,Libia,X. Culto,H) Operai e assimilati,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0
+64,category,Libia,X. Culto,Totale,89,70,19,82,19,7,0,16,0,37,10,10,7,4,1
+65,category,Libia,XI. Economia domestica,F) Impiegati,3,0,3,3,3,0,0,0,0,0,0,0,0,0,0
+66,category,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,1000,29,971,891,873,109,98,49,41,124,58,29,13,21,0
+67,category,Libia,XI. Economia domestica,H) Operai,22,22,0,10,0,12,0,11,0,41,22,27,21,14,0
+68,category,Libia,XI. Economia domestica,Totale,1025,51,974,904,876,121,98,60,41,165,80,56,34,35,0
+69,total,Libia,Totale generale,I,4082,3528,554,1548,187,2533,366,2188,32,10969,5013,6294,4268,3953,44
+70,total,Libia,Totale generale,II,363,362,1,124,0,237,1,232,1,1015,451,581,415,338,1
+71,total,Libia,Totale generale,III,8061,7198,863,3620,645,4438,217,4237,128,16496,7676,10044,7090,5565,118
+72,total,Libia,Totale generale,IV,1559,1531,28,569,11,990,17,1064,7,4155,1995,2654,1881,1470,38
+73,total,Libia,Totale generale,V,2835,2204,631,1033,245,1802,386,1629,129,6493,3138,3723,2613,1948,136
+74,total,Libia,Totale generale,VI,282,270,12,120,12,162,0,190,1,669,352,385,288,185,41
+75,total,Libia,Totale generale,VII,255,190,65,93,30,160,33,152,16,503,255,265,184,104,39
+76,total,Libia,Totale generale,VIII,7943,7315,628,4120,347,3820,280,3718,111,13456,6746,8296,5865,4349,458
+77,total,Libia,Totale generale,IX,92,62,30,72,27,20,3,22,0,80,47,47,38,22,7
+78,total,Libia,Totale generale,X,89,70,19,82,19,7,0,16,0,37,10,10,7,4,1
+79,total,Libia,Totale generale,XI,1025,51,974,904,876,121,98,60,41,165,80,56,34,35,0
+80,total,Libia,Totale generale,XII,22395,3856,18539,9733,6339,12658,12197,875,558,3003,1658,1804,1420,455,28
+81,total,Libia,Totale generale,Totale,48981,26637,22344,22018,8738,26948,13598,14383,1024,57041,27421,34159,24103,18428,911
+82,total,Provincia di Tripoli,Totale generale,I,2738,2252,486,935,139,1802,346,1490,31,7299,3401,4155,2760,2671,34
+83,total,Provincia di Tripoli,Totale generale,II,277,276,1,102,0,173,1,169,1,787,356,449,322,259,0
+84,total,Provincia di Tripoli,Totale generale,III,4814,4236,578,2316,452,2495,125,2549,78,10430,4922,6459,4537,3590,74
+85,total,Provincia di Tripoli,Totale generale,IV,903,886,17,315,4,588,13,618,5,2500,1217,1633,1163,906,19
+86,total,Provincia di Tripoli,Totale generale,V,1684,1351,333,616,137,1068,196,964,73,3898,1926,2321,1641,1200,64
+87,total,Provincia di Tripoli,Totale generale,VI,184,173,11,83,11,101,0,113,1,415,224,248,183,122,26
+88,total,Provincia di Tripoli,Totale generale,VII,168,122,46,63,22,103,22,101,13,333,169,178,125,65,21
+89,total,Provincia di Tripoli,Totale generale,VIII,3682,3309,373,1597,194,2082,178,2093,64,8115,4112,5114,3583,2694,277
+90,total,Provincia di Tripoli,Totale generale,IX,77,58,19,59,17,18,2,21,0,76,45,44,36,20,7
+91,total,Provincia di Tripoli,Totale generale,X,47,33,14,40,14,7,0,7,0,25,8,8,5,4,1
+92,total,Provincia di Tripoli,Totale generale,XI,643,38,605,567,547,76,58,46,28,117,64,49,30,31,0
+93,total,Provincia di Tripoli,Totale generale,XII,14483,2592,11891,6416,4148,8063,7740,618,390,2176,1182,1302,1019,341,17
+94,total,Provincia di Tripoli,Totale generale,Totale,29700,15326,14374,13109,5685,16576,8681,8789,684,36171,17626,21960,15404,11903,540
+95,total,Provincia di Misurata,Totale generale,I,178,170,8,52,6,126,2,132,0,532,245,341,234,217,1
+96,total,Provincia di Misurata,Totale generale,II,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+97,total,Provincia di Misurata,Totale generale,III,530,519,11,166,4,364,7,131,3,334,130,169,120,86,1
+98,total,Provincia di Misurata,Totale generale,IV,54,51,3,28,1,26,2,31,2,91,39,54,37,35,0
+99,total,Provincia di Misurata,Totale generale,V,90,67,23,39,7,51,16,49,5,172,80,89,65,46,2
+100,total,Provincia di Misurata,Totale generale,VI,5,5,0,3,0,2,0,5,0,9,3,3,2,1,0
+101,total,Provincia di Misurata,Totale generale,VII,2,2,0,0,0,2,0,2,0,4,1,2,1,1,0
+102,total,Provincia di Misurata,Totale generale,VIII,347,331,16,187,6,160,10,198,4,582,269,348,231,199,16
+103,total,Provincia di Misurata,Totale generale,IX,7,2,5,7,5,0,0,0,0,0,0,0,0,0,0
+104,total,Provincia di Misurata,Totale generale,X,5,4,1,5,1,0,0,2,0,2,0,0,0,0,0
+105,total,Provincia di Misurata,Totale generale,XI,23,3,20,21,20,2,0,0,0,0,0,0,0,0,0
+106,total,Provincia di Misurata,Totale generale,XII,562,96,466,234,151,328,315,8,2,27,14,15,10,4,2
+107,total,Provincia di Misurata,Totale generale,Totale,1803,1250,553,742,201,1061,352,558,16,1753,781,1021,700,589,22
+108,total,Provincia di Bengasi,Totale generale,I,326,305,21,118,7,208,14,217,0,812,367,428,321,235,8
+109,total,Provincia di Bengasi,Totale generale,II,76,76,0,21,0,55,0,55,0,207,88,121,86,72,1
+110,total,Provincia di Bengasi,Totale generale,III,2246,1988,258,942,181,1304,77,1250,43,4906,2292,2985,2115,1650,41
+111,total,Provincia di Bengasi,Totale generale,IV,510,504,6,182,6,328,0,347,0,1372,662,863,611,477,19
+112,total,Provincia di Bengasi,Totale generale,V,848,623,225,302,85,546,140,495,43,1998,959,1098,772,573,63
+113,total,Provincia di Bengasi,Totale generale,VI,80,79,1,27,1,53,0,61,0,216,112,121,93,57,14
+114,total,Provincia di Bengasi,Totale generale,VII,79,61,18,27,8,52,10,48,3,163,83,85,58,38,17
+115,total,Provincia di Bengasi,Totale generale,VIII,2712,2528,184,1497,114,1215,70,1137,33,4063,2062,2478,1787,1267,153
+116,total,Provincia di Bengasi,Totale generale,IX,8,2,6,6,5,2,1,1,0,4,2,3,2,2,0
+117,total,Provincia di Bengasi,Totale generale,X,22,20,2,22,2,0,0,4,0,6,2,2,2,0,0
+118,total,Provincia di Bengasi,Totale generale,XI,334,8,326,296,291,38,35,14,13,48,16,7,4,4,0
+119,total,Provincia di Bengasi,Totale generale,XII,5862,963,4899,2438,1585,3424,3314,227,150,741,431,448,362,102,9
+120,total,Provincia di Bengasi,Totale generale,Totale,13103,7157,5946,5878,2285,7225,3661,3856,285,14536,7076,8639,6213,4477,325
+121,total,Provincia di Derna,Totale generale,I,839,800,39,442,35,397,4,349,1,2326,1000,1370,953,830,1
+122,total,Provincia di Derna,Totale generale,II,10,10,0,1,0,9,0,8,0,21,7,11,7,7,0
+123,total,Provincia di Derna,Totale generale,III,459,443,16,185,8,274,8,307,4,826,332,431,318,239,2
+124,total,Provincia di Derna,Totale generale,IV,88,86,2,41,0,47,2,66,0,189,76,103,69,52,0
+125,total,Provincia di Derna,Totale generale,V,201,153,48,73,16,128,32,115,8,413,170,211,134,126,7
+126,total,Provincia di Derna,Totale generale,VI,13,13,0,7,0,6,0,11,0,29,13,13,10,5,1
+127,total,Provincia di Derna,Totale generale,VII,5,4,1,3,0,2,1,1,0,3,2,0,0,0,1
+128,total,Provincia di Derna,Totale generale,VIII,1026,971,55,681,33,345,22,262,10,656,297,345,258,182,12
+129,total,Provincia di Derna,Totale generale,IX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+130,total,Provincia di Derna,Totale generale,X,15,13,2,15,2,0,0,3,0,4,0,0,0,0,0
+131,total,Provincia di Derna,Totale generale,XI,25,2,23,20,18,5,5,0,0,0,0,0,0,0,0
+132,total,Provincia di Derna,Totale generale,XII,1477,201,1276,638,452,839,824,22,16,59,31,39,29,8,0
+133,total,Provincia di Derna,Totale generale,Totale,4158,2696,1462,2106,564,2052,898,1144,39,4526,1928,2523,1778,1449,24
+134,total,Territorio Militare del Sud,Totale generale,I,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+135,total,Territorio Militare del Sud,Totale generale,II,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+136,total,Territorio Militare del Sud,Totale generale,III,12,12,0,11,0,1,0,0,0,0,0,0,0,0,0
+137,total,Territorio Militare del Sud,Totale generale,IV,4,4,0,3,0,1,0,2,0,3,1,1,1,0,0
+138,total,Territorio Militare del Sud,Totale generale,V,12,10,2,3,0,9,2,6,0,12,3,4,1,3,0
+139,total,Territorio Militare del Sud,Totale generale,VI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+140,total,Territorio Militare del Sud,Totale generale,VII,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+141,total,Territorio Militare del Sud,Totale generale,VIII,176,176,0,158,0,18,0,28,0,40,6,11,6,7,0
+142,total,Territorio Militare del Sud,Totale generale,IX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+143,total,Territorio Militare del Sud,Totale generale,X,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+144,total,Territorio Militare del Sud,Totale generale,XI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+145,total,Territorio Militare del Sud,Totale generale,XII,11,4,7,7,3,4,4,0,0,0,0,0,0,0,0
+146,total,Territorio Militare del Sud,Totale generale,Totale,217,208,9,183,3,34,6,36,0,55,10,16,8,10,0

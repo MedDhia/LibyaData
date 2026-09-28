@@ -1780,6 +1780,64 @@ if set36.exists():
     notes.append("1936 settlers: families, institutions, single-year ages and "
                  "foreigners by country, tied to tables II and IV")
 
+occ36 = OUT / "istat" / "libya_1936_settler_activity_class.csv"
+if occ36.exists():
+    print("\n1936 census tables XIII to XIX, settler activity and profession")
+    trouble = []
+    act = pd.read_csv(OUT / "istat" / "libya_1936_settler_activity.csv")
+    a = act.pivot_table(index="name", columns="measure", values="persons",
+                        aggfunc="sum")
+    cats = ["agriculture_hunting_fishing", "industry",
+            "transport_communications", "commerce", "credit_insurance",
+            "liberal_arts_worship", "public_administration",
+            "private_administration", "domestic_service"]
+    if not a[cats].sum(axis=1).equals(a.active_total):
+        trouble.append("XIII categories != working total")
+    iv = pd.read_csv(OUT.parent / "raw" / "istat" /
+                     "libya_1936_table4.csv").set_index("name")
+    if len(a) != len(iv) or not (a.habitual_mf == iv.habitual_mf.reindex(
+            a.index)).all():
+        trouble.append("XIII != table IV habitual")
+    pos = pd.read_csv(OUT / "istat" /
+                      "libya_1936_settler_activity_position.csv")
+    lib = pos[(pos.area == "Libia") & (pos.level == "category")
+              & (pos.position == "Totale")]
+    x14 = lib.assign(cat=lib.activity.str.split(".").str[0]).set_index(
+        ["cat", "sex"]).persons
+    cls = pd.read_csv(occ36, dtype={"code": str})
+    x19 = cls[(cls.level == "category") & (cls.measure == "persons")
+              & cls.code.notna()].set_index(["code", "sex"]).persons
+    if not x19.sort_index().equals(x14.reindex(x19.index).sort_index()):
+        trouble.append("XIX categories != XIV")
+    age = pd.read_csv(OUT / "istat" / "libya_1936_settler_position_age.csv")
+    p = age[age.measure == "persons"]
+    by = p[p.age != "all"].groupby(["group", "position", "sex"]).persons.sum()
+    al = p[(p.age == "all") & (p.sex != "MF")].set_index(
+        ["group", "position", "sex"]).persons
+    if not by.sort_index().equals(al.sort_index()):
+        trouble.append("XVIII ages != totals")
+    pro = pd.read_csv(OUT / "istat" / "libya_1936_settler_professions.csv")
+    whole = pro[(pro.kind == "total") & (pro.scope == "all")
+                & (pro.measure == "persons") & pro.position.isna()]
+    grand = whole.set_index("sex").persons
+    if grand["MF"] != a.loc["LIBIA", "active_total"]:
+        trouble.append("XVI whole != XIII working total")
+    wide = cls.pivot_table(index=["seq", "measure"], columns="sex",
+                           values="persons", aggfunc="sum")
+    if not (wide.M + wide.F).equals(wide.MF):
+        trouble.append("XIX M + F != MF")
+    fixed = cls[cls.note.notna()].seq.nunique()
+    if trouble:
+        failures.append(f"1936 settler activity: {len(trouble)} checks fail: "
+                        f"{trouble[:3]}")
+        print(f"  [FAIL] {len(trouble)} checks fail: {trouble[:3]}")
+    else:
+        print(f"  [ok ] XIII equals table IV in all {len(a)} rows; XIX's "
+              f"categories equal XIV; XVIII's ages add up; XVI's "
+              f"{int(grand['MF']):,} workers equal XIII's working total")
+    notes.append(f"1936 settler activity: 259 professions and {fixed} "
+                 f"corrected XIX misprints, kept as printed in the raw file")
+
 print()
 for n in notes:
     print(f"note: {n}")

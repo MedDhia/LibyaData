@@ -1,0 +1,2191 @@
+seq,area,category,line,measure,sex,value
+1,Libia,I. Agricoltura,Conduttori non coltivatori,addetti,MF,171
+1,Libia,I. Agricoltura,Conduttori non coltivatori,addetti,M,153
+1,Libia,I. Agricoltura,Conduttori non coltivatori,addetti,F,18
+1,Libia,I. Agricoltura,Conduttori non coltivatori,celibi_nubili,MF,48
+1,Libia,I. Agricoltura,Conduttori non coltivatori,celibi_nubili,F,4
+1,Libia,I. Agricoltura,Conduttori non coltivatori,coniugati_vedovi,MF,123
+1,Libia,I. Agricoltura,Conduttori non coltivatori,coniugati_vedovi,F,14
+1,Libia,I. Agricoltura,Conduttori non coltivatori,capi_famiglia,MF,109
+1,Libia,I. Agricoltura,Conduttori non coltivatori,capi_famiglia,F,6
+1,Libia,I. Agricoltura,Conduttori non coltivatori,membri,MF,509
+1,Libia,I. Agricoltura,Conduttori non coltivatori,membri,F,266
+1,Libia,I. Agricoltura,Conduttori non coltivatori,improduttivi,MF,299
+1,Libia,I. Agricoltura,Conduttori non coltivatori,improduttivi,F,230
+1,Libia,I. Agricoltura,Conduttori non coltivatori,improduttivi_under15,MF,138
+1,Libia,I. Agricoltura,Conduttori non coltivatori,domestici,MF,12
+2,Libia,I. Agricoltura,Conduttori coltivatori,addetti,MF,1259
+2,Libia,I. Agricoltura,Conduttori coltivatori,addetti,M,902
+2,Libia,I. Agricoltura,Conduttori coltivatori,addetti,F,357
+2,Libia,I. Agricoltura,Conduttori coltivatori,celibi_nubili,MF,359
+2,Libia,I. Agricoltura,Conduttori coltivatori,celibi_nubili,F,74
+2,Libia,I. Agricoltura,Conduttori coltivatori,coniugati_vedovi,MF,899
+2,Libia,I. Agricoltura,Conduttori coltivatori,coniugati_vedovi,F,282
+2,Libia,I. Agricoltura,Conduttori coltivatori,capi_famiglia,MF,610
+2,Libia,I. Agricoltura,Conduttori coltivatori,capi_famiglia,F,18
+2,Libia,I. Agricoltura,Conduttori coltivatori,membri,MF,3304
+2,Libia,I. Agricoltura,Conduttori coltivatori,membri,F,1575
+2,Libia,I. Agricoltura,Conduttori coltivatori,improduttivi,MF,1727
+2,Libia,I. Agricoltura,Conduttori coltivatori,improduttivi,F,1095
+2,Libia,I. Agricoltura,Conduttori coltivatori,improduttivi_under15,MF,1218
+2,Libia,I. Agricoltura,Conduttori coltivatori,domestici,MF,12
+3,Libia,I. Agricoltura,Coloni parziari,addetti,MF,1368
+3,Libia,I. Agricoltura,Coloni parziari,addetti,M,1243
+3,Libia,I. Agricoltura,Coloni parziari,addetti,F,125
+3,Libia,I. Agricoltura,Coloni parziari,celibi_nubili,MF,658
+3,Libia,I. Agricoltura,Coloni parziari,celibi_nubili,F,77
+3,Libia,I. Agricoltura,Coloni parziari,coniugati_vedovi,MF,710
+3,Libia,I. Agricoltura,Coloni parziari,coniugati_vedovi,F,48
+3,Libia,I. Agricoltura,Coloni parziari,capi_famiglia,MF,622
+3,Libia,I. Agricoltura,Coloni parziari,capi_famiglia,F,6
+3,Libia,I. Agricoltura,Coloni parziari,membri,MF,3806
+3,Libia,I. Agricoltura,Coloni parziari,membri,F,1674
+3,Libia,I. Agricoltura,Coloni parziari,improduttivi,MF,2243
+3,Libia,I. Agricoltura,Coloni parziari,improduttivi,F,1535
+3,Libia,I. Agricoltura,Coloni parziari,improduttivi_under15,MF,1403
+3,Libia,I. Agricoltura,Coloni parziari,domestici,MF,0
+4,Libia,I. Agricoltura,Figure miste,addetti,MF,112
+4,Libia,I. Agricoltura,Figure miste,addetti,M,107
+4,Libia,I. Agricoltura,Figure miste,addetti,F,5
+4,Libia,I. Agricoltura,Figure miste,celibi_nubili,MF,36
+4,Libia,I. Agricoltura,Figure miste,celibi_nubili,F,1
+4,Libia,I. Agricoltura,Figure miste,coniugati_vedovi,MF,76
+4,Libia,I. Agricoltura,Figure miste,coniugati_vedovi,F,4
+4,Libia,I. Agricoltura,Figure miste,capi_famiglia,MF,74
+4,Libia,I. Agricoltura,Figure miste,capi_famiglia,F,0
+4,Libia,I. Agricoltura,Figure miste,membri,MF,355
+4,Libia,I. Agricoltura,Figure miste,membri,F,165
+4,Libia,I. Agricoltura,Figure miste,improduttivi,MF,237
+4,Libia,I. Agricoltura,Figure miste,improduttivi,F,159
+4,Libia,I. Agricoltura,Figure miste,improduttivi_under15,MF,150
+4,Libia,I. Agricoltura,Figure miste,domestici,MF,0
+5,Libia,I. Agricoltura,Dirigenti,addetti,MF,39
+5,Libia,I. Agricoltura,Dirigenti,addetti,M,39
+5,Libia,I. Agricoltura,Dirigenti,addetti,F,0
+5,Libia,I. Agricoltura,Dirigenti,celibi_nubili,MF,8
+5,Libia,I. Agricoltura,Dirigenti,celibi_nubili,F,0
+5,Libia,I. Agricoltura,Dirigenti,coniugati_vedovi,MF,31
+5,Libia,I. Agricoltura,Dirigenti,coniugati_vedovi,F,0
+5,Libia,I. Agricoltura,Dirigenti,capi_famiglia,MF,38
+5,Libia,I. Agricoltura,Dirigenti,capi_famiglia,F,0
+5,Libia,I. Agricoltura,Dirigenti,membri,MF,137
+5,Libia,I. Agricoltura,Dirigenti,membri,F,68
+5,Libia,I. Agricoltura,Dirigenti,improduttivi,MF,83
+5,Libia,I. Agricoltura,Dirigenti,improduttivi,F,56
+5,Libia,I. Agricoltura,Dirigenti,improduttivi_under15,MF,43
+5,Libia,I. Agricoltura,Dirigenti,domestici,MF,11
+6,Libia,I. Agricoltura,Impiegati,addetti,MF,57
+6,Libia,I. Agricoltura,Impiegati,addetti,M,57
+6,Libia,I. Agricoltura,Impiegati,addetti,F,0
+6,Libia,I. Agricoltura,Impiegati,celibi_nubili,MF,23
+6,Libia,I. Agricoltura,Impiegati,celibi_nubili,F,0
+6,Libia,I. Agricoltura,Impiegati,coniugati_vedovi,MF,34
+6,Libia,I. Agricoltura,Impiegati,coniugati_vedovi,F,0
+6,Libia,I. Agricoltura,Impiegati,capi_famiglia,MF,51
+6,Libia,I. Agricoltura,Impiegati,capi_famiglia,F,0
+6,Libia,I. Agricoltura,Impiegati,membri,MF,133
+6,Libia,I. Agricoltura,Impiegati,membri,F,56
+6,Libia,I. Agricoltura,Impiegati,improduttivi,MF,76
+6,Libia,I. Agricoltura,Impiegati,improduttivi,F,51
+6,Libia,I. Agricoltura,Impiegati,improduttivi_under15,MF,43
+6,Libia,I. Agricoltura,Impiegati,domestici,MF,4
+7,Libia,I. Agricoltura,Lavoratori,addetti,MF,874
+7,Libia,I. Agricoltura,Lavoratori,addetti,M,827
+7,Libia,I. Agricoltura,Lavoratori,addetti,F,47
+7,Libia,I. Agricoltura,Lavoratori,celibi_nubili,MF,303
+7,Libia,I. Agricoltura,Lavoratori,celibi_nubili,F,29
+7,Libia,I. Agricoltura,Lavoratori,coniugati_vedovi,MF,571
+7,Libia,I. Agricoltura,Lavoratori,coniugati_vedovi,F,18
+7,Libia,I. Agricoltura,Lavoratori,capi_famiglia,MF,565
+7,Libia,I. Agricoltura,Lavoratori,capi_famiglia,F,2
+7,Libia,I. Agricoltura,Lavoratori,membri,MF,2419
+7,Libia,I. Agricoltura,Lavoratori,membri,F,1072
+7,Libia,I. Agricoltura,Lavoratori,improduttivi,MF,1461
+7,Libia,I. Agricoltura,Lavoratori,improduttivi,F,1013
+7,Libia,I. Agricoltura,Lavoratori,improduttivi_under15,MF,872
+7,Libia,I. Agricoltura,Lavoratori,domestici,MF,0
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),addetti,MF,46
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),addetti,M,44
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),addetti,F,2
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),celibi_nubili,MF,24
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),celibi_nubili,F,2
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),coniugati_vedovi,MF,22
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),coniugati_vedovi,F,0
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),capi_famiglia,MF,31
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),capi_famiglia,F,0
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),membri,MF,74
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),membri,F,33
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),improduttivi,MF,31
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),improduttivi,F,25
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),improduttivi_under15,MF,10
+8,Libia,I. Agricoltura,F) Impiegati (professioni non agricole),domestici,MF,4
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),addetti,MF,156
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),addetti,M,156
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),addetti,F,0
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),celibi_nubili,MF,89
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),celibi_nubili,F,0
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),coniugati_vedovi,MF,67
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),coniugati_vedovi,F,0
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),capi_famiglia,MF,88
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),capi_famiglia,F,0
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),membri,MF,232
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),membri,F,104
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),improduttivi,MF,137
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),improduttivi,F,104
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),improduttivi_under15,MF,76
+9,Libia,I. Agricoltura,H) Operai (professioni non agricole),domestici,MF,1
+10,Libia,I. Agricoltura,Totale,addetti,MF,4082
+10,Libia,I. Agricoltura,Totale,addetti,M,3528
+10,Libia,I. Agricoltura,Totale,addetti,F,554
+10,Libia,I. Agricoltura,Totale,celibi_nubili,MF,1548
+10,Libia,I. Agricoltura,Totale,celibi_nubili,F,187
+10,Libia,I. Agricoltura,Totale,coniugati_vedovi,MF,2533
+10,Libia,I. Agricoltura,Totale,coniugati_vedovi,F,366
+10,Libia,I. Agricoltura,Totale,capi_famiglia,MF,2188
+10,Libia,I. Agricoltura,Totale,capi_famiglia,F,32
+10,Libia,I. Agricoltura,Totale,membri,MF,10969
+10,Libia,I. Agricoltura,Totale,membri,F,5013
+10,Libia,I. Agricoltura,Totale,improduttivi,MF,6294
+10,Libia,I. Agricoltura,Totale,improduttivi,F,4268
+10,Libia,I. Agricoltura,Totale,improduttivi_under15,MF,3953
+10,Libia,I. Agricoltura,Totale,domestici,MF,44
+11,Libia,II. Caccia e pesca,A) Padroni,addetti,MF,123
+11,Libia,II. Caccia e pesca,A) Padroni,addetti,M,122
+11,Libia,II. Caccia e pesca,A) Padroni,addetti,F,1
+11,Libia,II. Caccia e pesca,A) Padroni,celibi_nubili,MF,42
+11,Libia,II. Caccia e pesca,A) Padroni,celibi_nubili,F,0
+11,Libia,II. Caccia e pesca,A) Padroni,coniugati_vedovi,MF,81
+11,Libia,II. Caccia e pesca,A) Padroni,coniugati_vedovi,F,1
+11,Libia,II. Caccia e pesca,A) Padroni,capi_famiglia,MF,79
+11,Libia,II. Caccia e pesca,A) Padroni,capi_famiglia,F,1
+11,Libia,II. Caccia e pesca,A) Padroni,membri,MF,395
+11,Libia,II. Caccia e pesca,A) Padroni,membri,F,171
+11,Libia,II. Caccia e pesca,A) Padroni,improduttivi,MF,221
+11,Libia,II. Caccia e pesca,A) Padroni,improduttivi,F,158
+11,Libia,II. Caccia e pesca,A) Padroni,improduttivi_under15,MF,120
+11,Libia,II. Caccia e pesca,A) Padroni,domestici,MF,0
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,addetti,MF,2
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,addetti,M,2
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,addetti,F,0
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,celibi_nubili,MF,0
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,celibi_nubili,F,0
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,coniugati_vedovi,MF,2
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,coniugati_vedovi,F,0
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,capi_famiglia,MF,2
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,capi_famiglia,F,0
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,membri,MF,8
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,membri,F,4
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,improduttivi,MF,4
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,improduttivi,F,3
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,improduttivi_under15,MF,2
+12,Libia,II. Caccia e pesca,B) Artigiani con dipendenti,domestici,MF,0
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,addetti,MF,6
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,addetti,M,6
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,addetti,F,0
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,celibi_nubili,MF,1
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,celibi_nubili,F,0
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,coniugati_vedovi,MF,5
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,coniugati_vedovi,F,0
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,capi_famiglia,MF,4
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,capi_famiglia,F,0
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,membri,MF,9
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,membri,F,2
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,improduttivi,MF,3
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,improduttivi,F,2
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,improduttivi_under15,MF,1
+13,Libia,II. Caccia e pesca,C) Artigiani senza dipendenti,domestici,MF,0
+14,Libia,II. Caccia e pesca,E) Dirigenti,addetti,MF,2
+14,Libia,II. Caccia e pesca,E) Dirigenti,addetti,M,2
+14,Libia,II. Caccia e pesca,E) Dirigenti,addetti,F,0
+14,Libia,II. Caccia e pesca,E) Dirigenti,celibi_nubili,MF,2
+14,Libia,II. Caccia e pesca,E) Dirigenti,celibi_nubili,F,0
+14,Libia,II. Caccia e pesca,E) Dirigenti,coniugati_vedovi,MF,0
+14,Libia,II. Caccia e pesca,E) Dirigenti,coniugati_vedovi,F,0
+14,Libia,II. Caccia e pesca,E) Dirigenti,capi_famiglia,MF,2
+14,Libia,II. Caccia e pesca,E) Dirigenti,capi_famiglia,F,0
+14,Libia,II. Caccia e pesca,E) Dirigenti,membri,MF,3
+14,Libia,II. Caccia e pesca,E) Dirigenti,membri,F,1
+14,Libia,II. Caccia e pesca,E) Dirigenti,improduttivi,MF,1
+14,Libia,II. Caccia e pesca,E) Dirigenti,improduttivi,F,1
+14,Libia,II. Caccia e pesca,E) Dirigenti,improduttivi_under15,MF,0
+14,Libia,II. Caccia e pesca,E) Dirigenti,domestici,MF,1
+15,Libia,II. Caccia e pesca,F) Impiegati,addetti,MF,1
+15,Libia,II. Caccia e pesca,F) Impiegati,addetti,M,1
+15,Libia,II. Caccia e pesca,F) Impiegati,addetti,F,0
+15,Libia,II. Caccia e pesca,F) Impiegati,celibi_nubili,MF,0
+15,Libia,II. Caccia e pesca,F) Impiegati,celibi_nubili,F,0
+15,Libia,II. Caccia e pesca,F) Impiegati,coniugati_vedovi,MF,1
+15,Libia,II. Caccia e pesca,F) Impiegati,coniugati_vedovi,F,0
+15,Libia,II. Caccia e pesca,F) Impiegati,capi_famiglia,MF,1
+15,Libia,II. Caccia e pesca,F) Impiegati,capi_famiglia,F,0
+15,Libia,II. Caccia e pesca,F) Impiegati,membri,MF,4
+15,Libia,II. Caccia e pesca,F) Impiegati,membri,F,1
+15,Libia,II. Caccia e pesca,F) Impiegati,improduttivi,MF,1
+15,Libia,II. Caccia e pesca,F) Impiegati,improduttivi,F,1
+15,Libia,II. Caccia e pesca,F) Impiegati,improduttivi_under15,MF,0
+15,Libia,II. Caccia e pesca,F) Impiegati,domestici,MF,0
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,addetti,MF,1
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,addetti,M,1
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,addetti,F,0
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,celibi_nubili,MF,0
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,celibi_nubili,F,0
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,coniugati_vedovi,MF,1
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,coniugati_vedovi,F,0
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,capi_famiglia,MF,1
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,capi_famiglia,F,0
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,membri,MF,4
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,membri,F,1
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,improduttivi,MF,3
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,improduttivi,F,1
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,improduttivi_under15,MF,2
+16,Libia,II. Caccia e pesca,G) Personale di servizio e di fatica,domestici,MF,0
+17,Libia,II. Caccia e pesca,H) Operai,addetti,MF,228
+17,Libia,II. Caccia e pesca,H) Operai,addetti,M,228
+17,Libia,II. Caccia e pesca,H) Operai,addetti,F,0
+17,Libia,II. Caccia e pesca,H) Operai,celibi_nubili,MF,79
+17,Libia,II. Caccia e pesca,H) Operai,celibi_nubili,F,0
+17,Libia,II. Caccia e pesca,H) Operai,coniugati_vedovi,MF,147
+17,Libia,II. Caccia e pesca,H) Operai,coniugati_vedovi,F,0
+17,Libia,II. Caccia e pesca,H) Operai,capi_famiglia,MF,143
+17,Libia,II. Caccia e pesca,H) Operai,capi_famiglia,F,0
+17,Libia,II. Caccia e pesca,H) Operai,membri,MF,592
+17,Libia,II. Caccia e pesca,H) Operai,membri,F,271
+17,Libia,II. Caccia e pesca,H) Operai,improduttivi,MF,348
+17,Libia,II. Caccia e pesca,H) Operai,improduttivi,F,249
+17,Libia,II. Caccia e pesca,H) Operai,improduttivi_under15,MF,213
+17,Libia,II. Caccia e pesca,H) Operai,domestici,MF,0
+18,Libia,II. Caccia e pesca,Totale,addetti,MF,363
+18,Libia,II. Caccia e pesca,Totale,addetti,M,362
+18,Libia,II. Caccia e pesca,Totale,addetti,F,1
+18,Libia,II. Caccia e pesca,Totale,celibi_nubili,MF,124
+18,Libia,II. Caccia e pesca,Totale,celibi_nubili,F,0
+18,Libia,II. Caccia e pesca,Totale,coniugati_vedovi,MF,237
+18,Libia,II. Caccia e pesca,Totale,coniugati_vedovi,F,1
+18,Libia,II. Caccia e pesca,Totale,capi_famiglia,MF,232
+18,Libia,II. Caccia e pesca,Totale,capi_famiglia,F,1
+18,Libia,II. Caccia e pesca,Totale,membri,MF,1015
+18,Libia,II. Caccia e pesca,Totale,membri,F,451
+18,Libia,II. Caccia e pesca,Totale,improduttivi,MF,581
+18,Libia,II. Caccia e pesca,Totale,improduttivi,F,415
+18,Libia,II. Caccia e pesca,Totale,improduttivi_under15,MF,338
+18,Libia,II. Caccia e pesca,Totale,domestici,MF,1
+19,Libia,III. Industria,A) Padroni,addetti,MF,766
+19,Libia,III. Industria,A) Padroni,addetti,M,721
+19,Libia,III. Industria,A) Padroni,addetti,F,45
+19,Libia,III. Industria,A) Padroni,celibi_nubili,MF,221
+19,Libia,III. Industria,A) Padroni,celibi_nubili,F,19
+19,Libia,III. Industria,A) Padroni,coniugati_vedovi,MF,545
+19,Libia,III. Industria,A) Padroni,coniugati_vedovi,F,26
+19,Libia,III. Industria,A) Padroni,capi_famiglia,MF,534
+19,Libia,III. Industria,A) Padroni,capi_famiglia,F,9
+19,Libia,III. Industria,A) Padroni,membri,MF,2437
+19,Libia,III. Industria,A) Padroni,membri,F,1161
+19,Libia,III. Industria,A) Padroni,improduttivi,MF,1485
+19,Libia,III. Industria,A) Padroni,improduttivi,F,1045
+19,Libia,III. Industria,A) Padroni,improduttivi_under15,MF,747
+19,Libia,III. Industria,A) Padroni,domestici,MF,61
+20,Libia,III. Industria,B) Artigiani con dipendenti,addetti,MF,307
+20,Libia,III. Industria,B) Artigiani con dipendenti,addetti,M,266
+20,Libia,III. Industria,B) Artigiani con dipendenti,addetti,F,41
+20,Libia,III. Industria,B) Artigiani con dipendenti,celibi_nubili,MF,97
+20,Libia,III. Industria,B) Artigiani con dipendenti,celibi_nubili,F,15
+20,Libia,III. Industria,B) Artigiani con dipendenti,coniugati_vedovi,MF,210
+20,Libia,III. Industria,B) Artigiani con dipendenti,coniugati_vedovi,F,26
+20,Libia,III. Industria,B) Artigiani con dipendenti,capi_famiglia,MF,220
+20,Libia,III. Industria,B) Artigiani con dipendenti,capi_famiglia,F,14
+20,Libia,III. Industria,B) Artigiani con dipendenti,membri,MF,941
+20,Libia,III. Industria,B) Artigiani con dipendenti,membri,F,430
+20,Libia,III. Industria,B) Artigiani con dipendenti,improduttivi,MF,565
+20,Libia,III. Industria,B) Artigiani con dipendenti,improduttivi,F,384
+20,Libia,III. Industria,B) Artigiani con dipendenti,improduttivi_under15,MF,308
+20,Libia,III. Industria,B) Artigiani con dipendenti,domestici,MF,2
+21,Libia,III. Industria,C) Artigiani senza dipendenti,addetti,MF,826
+21,Libia,III. Industria,C) Artigiani senza dipendenti,addetti,M,647
+21,Libia,III. Industria,C) Artigiani senza dipendenti,addetti,F,179
+21,Libia,III. Industria,C) Artigiani senza dipendenti,celibi_nubili,MF,316
+21,Libia,III. Industria,C) Artigiani senza dipendenti,celibi_nubili,F,98
+21,Libia,III. Industria,C) Artigiani senza dipendenti,coniugati_vedovi,MF,509
+21,Libia,III. Industria,C) Artigiani senza dipendenti,coniugati_vedovi,F,81
+21,Libia,III. Industria,C) Artigiani senza dipendenti,capi_famiglia,MF,518
+21,Libia,III. Industria,C) Artigiani senza dipendenti,capi_famiglia,F,49
+21,Libia,III. Industria,C) Artigiani senza dipendenti,membri,MF,1966
+21,Libia,III. Industria,C) Artigiani senza dipendenti,membri,F,940
+21,Libia,III. Industria,C) Artigiani senza dipendenti,improduttivi,MF,1133
+21,Libia,III. Industria,C) Artigiani senza dipendenti,improduttivi,F,823
+21,Libia,III. Industria,C) Artigiani senza dipendenti,improduttivi_under15,MF,595
+21,Libia,III. Industria,C) Artigiani senza dipendenti,domestici,MF,5
+22,Libia,III. Industria,E) Dirigenti,addetti,MF,53
+22,Libia,III. Industria,E) Dirigenti,addetti,M,51
+22,Libia,III. Industria,E) Dirigenti,addetti,F,2
+22,Libia,III. Industria,E) Dirigenti,celibi_nubili,MF,10
+22,Libia,III. Industria,E) Dirigenti,celibi_nubili,F,2
+22,Libia,III. Industria,E) Dirigenti,coniugati_vedovi,MF,43
+22,Libia,III. Industria,E) Dirigenti,coniugati_vedovi,F,0
+22,Libia,III. Industria,E) Dirigenti,capi_famiglia,MF,47
+22,Libia,III. Industria,E) Dirigenti,capi_famiglia,F,2
+22,Libia,III. Industria,E) Dirigenti,membri,MF,173
+22,Libia,III. Industria,E) Dirigenti,membri,F,80
+22,Libia,III. Industria,E) Dirigenti,improduttivi,MF,94
+22,Libia,III. Industria,E) Dirigenti,improduttivi,F,63
+22,Libia,III. Industria,E) Dirigenti,improduttivi_under15,MF,46
+22,Libia,III. Industria,E) Dirigenti,domestici,MF,10
+23,Libia,III. Industria,F) Impiegati,addetti,MF,504
+23,Libia,III. Industria,F) Impiegati,addetti,M,463
+23,Libia,III. Industria,F) Impiegati,addetti,F,41
+23,Libia,III. Industria,F) Impiegati,celibi_nubili,MF,185
+23,Libia,III. Industria,F) Impiegati,celibi_nubili,F,28
+23,Libia,III. Industria,F) Impiegati,coniugati_vedovi,MF,318
+23,Libia,III. Industria,F) Impiegati,coniugati_vedovi,F,12
+23,Libia,III. Industria,F) Impiegati,capi_famiglia,MF,287
+23,Libia,III. Industria,F) Impiegati,capi_famiglia,F,7
+23,Libia,III. Industria,F) Impiegati,membri,MF,985
+23,Libia,III. Industria,F) Impiegati,membri,F,468
+23,Libia,III. Industria,F) Impiegati,improduttivi,MF,550
+23,Libia,III. Industria,F) Impiegati,improduttivi,F,406
+23,Libia,III. Industria,F) Impiegati,improduttivi_under15,MF,265
+23,Libia,III. Industria,F) Impiegati,domestici,MF,22
+24,Libia,III. Industria,G) Personale di servizio e di fatica,addetti,MF,38
+24,Libia,III. Industria,G) Personale di servizio e di fatica,addetti,M,34
+24,Libia,III. Industria,G) Personale di servizio e di fatica,addetti,F,4
+24,Libia,III. Industria,G) Personale di servizio e di fatica,celibi_nubili,MF,8
+24,Libia,III. Industria,G) Personale di servizio e di fatica,celibi_nubili,F,2
+24,Libia,III. Industria,G) Personale di servizio e di fatica,coniugati_vedovi,MF,30
+24,Libia,III. Industria,G) Personale di servizio e di fatica,coniugati_vedovi,F,2
+24,Libia,III. Industria,G) Personale di servizio e di fatica,capi_famiglia,MF,27
+24,Libia,III. Industria,G) Personale di servizio e di fatica,capi_famiglia,F,0
+24,Libia,III. Industria,G) Personale di servizio e di fatica,membri,MF,120
+24,Libia,III. Industria,G) Personale di servizio e di fatica,membri,F,55
+24,Libia,III. Industria,G) Personale di servizio e di fatica,improduttivi,MF,62
+24,Libia,III. Industria,G) Personale di servizio e di fatica,improduttivi,F,45
+24,Libia,III. Industria,G) Personale di servizio e di fatica,improduttivi_under15,MF,33
+24,Libia,III. Industria,G) Personale di servizio e di fatica,domestici,MF,1
+25,Libia,III. Industria,H) Operai,addetti,MF,5515
+25,Libia,III. Industria,H) Operai,addetti,M,5009
+25,Libia,III. Industria,H) Operai,addetti,F,506
+25,Libia,III. Industria,H) Operai,celibi_nubili,MF,2750
+25,Libia,III. Industria,H) Operai,celibi_nubili,F,451
+25,Libia,III. Industria,H) Operai,coniugati_vedovi,MF,2764
+25,Libia,III. Industria,H) Operai,coniugati_vedovi,F,55
+25,Libia,III. Industria,H) Operai,capi_famiglia,MF,2588
+25,Libia,III. Industria,H) Operai,capi_famiglia,F,35
+25,Libia,III. Industria,H) Operai,membri,MF,9831
+25,Libia,III. Industria,H) Operai,membri,F,4517
+25,Libia,III. Industria,H) Operai,improduttivi,MF,6134
+25,Libia,III. Industria,H) Operai,improduttivi,F,4311
+25,Libia,III. Industria,H) Operai,improduttivi_under15,MF,3559
+25,Libia,III. Industria,H) Operai,domestici,MF,17
+26,Libia,III. Industria,I) Lavoranti a domicilio,addetti,MF,52
+26,Libia,III. Industria,I) Lavoranti a domicilio,addetti,M,7
+26,Libia,III. Industria,I) Lavoranti a domicilio,addetti,F,45
+26,Libia,III. Industria,I) Lavoranti a domicilio,celibi_nubili,MF,33
+26,Libia,III. Industria,I) Lavoranti a domicilio,celibi_nubili,F,30
+26,Libia,III. Industria,I) Lavoranti a domicilio,coniugati_vedovi,MF,19
+26,Libia,III. Industria,I) Lavoranti a domicilio,coniugati_vedovi,F,15
+26,Libia,III. Industria,I) Lavoranti a domicilio,capi_famiglia,MF,16
+26,Libia,III. Industria,I) Lavoranti a domicilio,capi_famiglia,F,12
+26,Libia,III. Industria,I) Lavoranti a domicilio,membri,MF,43
+26,Libia,III. Industria,I) Lavoranti a domicilio,membri,F,25
+26,Libia,III. Industria,I) Lavoranti a domicilio,improduttivi,MF,21
+26,Libia,III. Industria,I) Lavoranti a domicilio,improduttivi,F,13
+26,Libia,III. Industria,I) Lavoranti a domicilio,improduttivi_under15,MF,12
+26,Libia,III. Industria,I) Lavoranti a domicilio,domestici,MF,0
+27,Libia,III. Industria,Totale,addetti,MF,8061
+27,Libia,III. Industria,Totale,addetti,M,7198
+27,Libia,III. Industria,Totale,addetti,F,863
+27,Libia,III. Industria,Totale,celibi_nubili,MF,3620
+27,Libia,III. Industria,Totale,celibi_nubili,F,645
+27,Libia,III. Industria,Totale,coniugati_vedovi,MF,4438
+27,Libia,III. Industria,Totale,coniugati_vedovi,F,217
+27,Libia,III. Industria,Totale,capi_famiglia,MF,4237
+27,Libia,III. Industria,Totale,capi_famiglia,F,128
+27,Libia,III. Industria,Totale,membri,MF,16496
+27,Libia,III. Industria,Totale,membri,F,7676
+27,Libia,III. Industria,Totale,improduttivi,MF,10044
+27,Libia,III. Industria,Totale,improduttivi,F,7090
+27,Libia,III. Industria,Totale,improduttivi_under15,MF,5565
+27,Libia,III. Industria,Totale,domestici,MF,118
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,addetti,MF,219
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,addetti,M,217
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,addetti,F,2
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,celibi_nubili,MF,44
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,celibi_nubili,F,0
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,coniugati_vedovi,MF,175
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,coniugati_vedovi,F,2
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,capi_famiglia,MF,199
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,capi_famiglia,F,2
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,membri,MF,876
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,membri,F,405
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,improduttivi,MF,559
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,improduttivi,F,391
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,improduttivi_under15,MF,306
+28,Libia,IV. Trasporti e comunicazioni,A) Padroni,domestici,MF,5
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,addetti,MF,141
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,addetti,M,141
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,addetti,F,0
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,celibi_nubili,MF,52
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,celibi_nubili,F,0
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,coniugati_vedovi,MF,89
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,coniugati_vedovi,F,0
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,capi_famiglia,MF,80
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,capi_famiglia,F,0
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,membri,MF,364
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,membri,F,188
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,improduttivi,MF,244
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,improduttivi,F,178
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,improduttivi_under15,MF,142
+29,Libia,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,domestici,MF,0
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,addetti,MF,20
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,addetti,M,20
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,addetti,F,0
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,celibi_nubili,MF,3
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,celibi_nubili,F,0
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,coniugati_vedovi,MF,17
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,coniugati_vedovi,F,0
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,capi_famiglia,MF,17
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,capi_famiglia,F,0
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,membri,MF,63
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,membri,F,33
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,improduttivi,MF,36
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,improduttivi,F,24
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,improduttivi_under15,MF,16
+30,Libia,IV. Trasporti e comunicazioni,E) Dirigenti,domestici,MF,9
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,addetti,MF,449
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,addetti,M,423
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,addetti,F,26
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,celibi_nubili,MF,172
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,celibi_nubili,F,11
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,coniugati_vedovi,MF,277
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,coniugati_vedovi,F,15
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,capi_famiglia,MF,302
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,capi_famiglia,F,5
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,membri,MF,1090
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,membri,F,532
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,improduttivi,MF,675
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,improduttivi,F,478
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,improduttivi_under15,MF,351
+31,Libia,IV. Trasporti e comunicazioni,F) Impiegati,domestici,MF,23
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,addetti,MF,64
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,addetti,M,64
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,addetti,F,0
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,celibi_nubili,MF,28
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,celibi_nubili,F,0
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,coniugati_vedovi,MF,36
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,coniugati_vedovi,F,0
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,capi_famiglia,MF,39
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,capi_famiglia,F,0
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,membri,MF,151
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,membri,F,72
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,improduttivi,MF,89
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,improduttivi,F,67
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,improduttivi_under15,MF,49
+32,Libia,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,domestici,MF,0
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,addetti,MF,666
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,addetti,M,666
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,addetti,F,0
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,celibi_nubili,MF,270
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,celibi_nubili,F,0
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,coniugati_vedovi,MF,396
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,coniugati_vedovi,F,0
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,capi_famiglia,MF,427
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,capi_famiglia,F,0
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,membri,MF,1611
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,membri,F,765
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,improduttivi,MF,1051
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,improduttivi,F,743
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,improduttivi_under15,MF,606
+33,Libia,IV. Trasporti e comunicazioni,H) Operai,domestici,MF,1
+34,Libia,IV. Trasporti e comunicazioni,Totale,addetti,MF,1559
+34,Libia,IV. Trasporti e comunicazioni,Totale,addetti,M,1531
+34,Libia,IV. Trasporti e comunicazioni,Totale,addetti,F,28
+34,Libia,IV. Trasporti e comunicazioni,Totale,celibi_nubili,MF,569
+34,Libia,IV. Trasporti e comunicazioni,Totale,celibi_nubili,F,11
+34,Libia,IV. Trasporti e comunicazioni,Totale,coniugati_vedovi,MF,990
+34,Libia,IV. Trasporti e comunicazioni,Totale,coniugati_vedovi,F,17
+34,Libia,IV. Trasporti e comunicazioni,Totale,capi_famiglia,MF,1064
+34,Libia,IV. Trasporti e comunicazioni,Totale,capi_famiglia,F,7
+34,Libia,IV. Trasporti e comunicazioni,Totale,membri,MF,4155
+34,Libia,IV. Trasporti e comunicazioni,Totale,membri,F,1995
+34,Libia,IV. Trasporti e comunicazioni,Totale,improduttivi,MF,2654
+34,Libia,IV. Trasporti e comunicazioni,Totale,improduttivi,F,1881
+34,Libia,IV. Trasporti e comunicazioni,Totale,improduttivi_under15,MF,1470
+34,Libia,IV. Trasporti e comunicazioni,Totale,domestici,MF,38
+35,Libia,V. Commercio,A) Padroni,addetti,MF,1739
+35,Libia,V. Commercio,A) Padroni,addetti,M,1304
+35,Libia,V. Commercio,A) Padroni,addetti,F,435
+35,Libia,V. Commercio,A) Padroni,celibi_nubili,MF,484
+35,Libia,V. Commercio,A) Padroni,celibi_nubili,F,115
+35,Libia,V. Commercio,A) Padroni,coniugati_vedovi,MF,1255
+35,Libia,V. Commercio,A) Padroni,coniugati_vedovi,F,320
+35,Libia,V. Commercio,A) Padroni,capi_famiglia,MF,1077
+35,Libia,V. Commercio,A) Padroni,capi_famiglia,F,89
+35,Libia,V. Commercio,A) Padroni,membri,MF,4626
+35,Libia,V. Commercio,A) Padroni,membri,F,2270
+35,Libia,V. Commercio,A) Padroni,improduttivi,MF,2636
+35,Libia,V. Commercio,A) Padroni,improduttivi,F,1854
+35,Libia,V. Commercio,A) Padroni,improduttivi_under15,MF,1371
+35,Libia,V. Commercio,A) Padroni,domestici,MF,109
+36,Libia,V. Commercio,E) Dirigenti,addetti,MF,46
+36,Libia,V. Commercio,E) Dirigenti,addetti,M,42
+36,Libia,V. Commercio,E) Dirigenti,addetti,F,4
+36,Libia,V. Commercio,E) Dirigenti,celibi_nubili,MF,14
+36,Libia,V. Commercio,E) Dirigenti,celibi_nubili,F,2
+36,Libia,V. Commercio,E) Dirigenti,coniugati_vedovi,MF,32
+36,Libia,V. Commercio,E) Dirigenti,coniugati_vedovi,F,2
+36,Libia,V. Commercio,E) Dirigenti,capi_famiglia,MF,28
+36,Libia,V. Commercio,E) Dirigenti,capi_famiglia,F,0
+36,Libia,V. Commercio,E) Dirigenti,membri,MF,99
+36,Libia,V. Commercio,E) Dirigenti,membri,F,50
+36,Libia,V. Commercio,E) Dirigenti,improduttivi,MF,57
+36,Libia,V. Commercio,E) Dirigenti,improduttivi,F,41
+36,Libia,V. Commercio,E) Dirigenti,improduttivi_under15,MF,30
+36,Libia,V. Commercio,E) Dirigenti,domestici,MF,7
+37,Libia,V. Commercio,F) Impiegati,addetti,MF,595
+37,Libia,V. Commercio,F) Impiegati,addetti,M,511
+37,Libia,V. Commercio,F) Impiegati,addetti,F,84
+37,Libia,V. Commercio,F) Impiegati,celibi_nubili,MF,316
+37,Libia,V. Commercio,F) Impiegati,celibi_nubili,F,64
+37,Libia,V. Commercio,F) Impiegati,coniugati_vedovi,MF,279
+37,Libia,V. Commercio,F) Impiegati,coniugati_vedovi,F,20
+37,Libia,V. Commercio,F) Impiegati,capi_famiglia,MF,302
+37,Libia,V. Commercio,F) Impiegati,capi_famiglia,F,15
+37,Libia,V. Commercio,F) Impiegati,membri,MF,1042
+37,Libia,V. Commercio,F) Impiegati,membri,F,484
+37,Libia,V. Commercio,F) Impiegati,improduttivi,MF,609
+37,Libia,V. Commercio,F) Impiegati,improduttivi,F,423
+37,Libia,V. Commercio,F) Impiegati,improduttivi_under15,MF,310
+37,Libia,V. Commercio,F) Impiegati,domestici,MF,20
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,addetti,MF,51
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,addetti,M,44
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,addetti,F,7
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,celibi_nubili,MF,21
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,celibi_nubili,F,4
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,coniugati_vedovi,MF,30
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,coniugati_vedovi,F,3
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,capi_famiglia,MF,29
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,capi_famiglia,F,2
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,membri,MF,108
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,membri,F,54
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,improduttivi,MF,72
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,improduttivi,F,53
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,improduttivi_under15,MF,43
+38,Libia,V. Commercio,G) Personale di servizio e di fatica,domestici,MF,0
+39,Libia,V. Commercio,H) Operai,addetti,MF,404
+39,Libia,V. Commercio,H) Operai,addetti,M,303
+39,Libia,V. Commercio,H) Operai,addetti,F,101
+39,Libia,V. Commercio,H) Operai,celibi_nubili,MF,198
+39,Libia,V. Commercio,H) Operai,celibi_nubili,F,60
+39,Libia,V. Commercio,H) Operai,coniugati_vedovi,MF,206
+39,Libia,V. Commercio,H) Operai,coniugati_vedovi,F,41
+39,Libia,V. Commercio,H) Operai,capi_famiglia,MF,193
+39,Libia,V. Commercio,H) Operai,capi_famiglia,F,23
+39,Libia,V. Commercio,H) Operai,membri,MF,618
+39,Libia,V. Commercio,H) Operai,membri,F,280
+39,Libia,V. Commercio,H) Operai,improduttivi,MF,349
+39,Libia,V. Commercio,H) Operai,improduttivi,F,242
+39,Libia,V. Commercio,H) Operai,improduttivi_under15,MF,194
+39,Libia,V. Commercio,H) Operai,domestici,MF,0
+40,Libia,V. Commercio,Totale,addetti,MF,2835
+40,Libia,V. Commercio,Totale,addetti,M,2204
+40,Libia,V. Commercio,Totale,addetti,F,631
+40,Libia,V. Commercio,Totale,celibi_nubili,MF,1033
+40,Libia,V. Commercio,Totale,celibi_nubili,F,245
+40,Libia,V. Commercio,Totale,coniugati_vedovi,MF,1802
+40,Libia,V. Commercio,Totale,coniugati_vedovi,F,386
+40,Libia,V. Commercio,Totale,capi_famiglia,MF,1629
+40,Libia,V. Commercio,Totale,capi_famiglia,F,129
+40,Libia,V. Commercio,Totale,membri,MF,6493
+40,Libia,V. Commercio,Totale,membri,F,3138
+40,Libia,V. Commercio,Totale,improduttivi,MF,3723
+40,Libia,V. Commercio,Totale,improduttivi,F,2613
+40,Libia,V. Commercio,Totale,improduttivi_under15,MF,1948
+40,Libia,V. Commercio,Totale,domestici,MF,136
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,addetti,MF,16
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,addetti,M,16
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,addetti,F,0
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,celibi_nubili,MF,0
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,celibi_nubili,F,0
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,coniugati_vedovi,MF,16
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,coniugati_vedovi,F,0
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,capi_famiglia,MF,15
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,capi_famiglia,F,0
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,membri,MF,66
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,membri,F,41
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,improduttivi,MF,40
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,improduttivi,F,32
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,improduttivi_under15,MF,9
+41,Libia,VI. Credito e assicurazione,E) Dirigenti,domestici,MF,9
+42,Libia,VI. Credito e assicurazione,F) Impiegati,addetti,MF,241
+42,Libia,VI. Credito e assicurazione,F) Impiegati,addetti,M,229
+42,Libia,VI. Credito e assicurazione,F) Impiegati,addetti,F,12
+42,Libia,VI. Credito e assicurazione,F) Impiegati,celibi_nubili,MF,109
+42,Libia,VI. Credito e assicurazione,F) Impiegati,celibi_nubili,F,12
+42,Libia,VI. Credito e assicurazione,F) Impiegati,coniugati_vedovi,MF,132
+42,Libia,VI. Credito e assicurazione,F) Impiegati,coniugati_vedovi,F,0
+42,Libia,VI. Credito e assicurazione,F) Impiegati,capi_famiglia,MF,158
+42,Libia,VI. Credito e assicurazione,F) Impiegati,capi_famiglia,F,1
+42,Libia,VI. Credito e assicurazione,F) Impiegati,membri,MF,525
+42,Libia,VI. Credito e assicurazione,F) Impiegati,membri,F,274
+42,Libia,VI. Credito e assicurazione,F) Impiegati,improduttivi,MF,297
+42,Libia,VI. Credito e assicurazione,F) Impiegati,improduttivi,F,224
+42,Libia,VI. Credito e assicurazione,F) Impiegati,improduttivi_under15,MF,144
+42,Libia,VI. Credito e assicurazione,F) Impiegati,domestici,MF,32
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,addetti,MF,20
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,addetti,M,20
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,addetti,F,0
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,celibi_nubili,MF,9
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,celibi_nubili,F,0
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,coniugati_vedovi,MF,11
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,coniugati_vedovi,F,0
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,capi_famiglia,MF,12
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,capi_famiglia,F,0
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,membri,MF,59
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,membri,F,26
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,improduttivi,MF,40
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,improduttivi,F,25
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,improduttivi_under15,MF,27
+43,Libia,VI. Credito e assicurazione,G) Personale di servizio e di fatica,domestici,MF,0
+44,Libia,VI. Credito e assicurazione,H) Operai,addetti,MF,5
+44,Libia,VI. Credito e assicurazione,H) Operai,addetti,M,5
+44,Libia,VI. Credito e assicurazione,H) Operai,addetti,F,0
+44,Libia,VI. Credito e assicurazione,H) Operai,celibi_nubili,MF,2
+44,Libia,VI. Credito e assicurazione,H) Operai,celibi_nubili,F,0
+44,Libia,VI. Credito e assicurazione,H) Operai,coniugati_vedovi,MF,3
+44,Libia,VI. Credito e assicurazione,H) Operai,coniugati_vedovi,F,0
+44,Libia,VI. Credito e assicurazione,H) Operai,capi_famiglia,MF,5
+44,Libia,VI. Credito e assicurazione,H) Operai,capi_famiglia,F,0
+44,Libia,VI. Credito e assicurazione,H) Operai,membri,MF,19
+44,Libia,VI. Credito e assicurazione,H) Operai,membri,F,11
+44,Libia,VI. Credito e assicurazione,H) Operai,improduttivi,MF,8
+44,Libia,VI. Credito e assicurazione,H) Operai,improduttivi,F,7
+44,Libia,VI. Credito e assicurazione,H) Operai,improduttivi_under15,MF,5
+44,Libia,VI. Credito e assicurazione,H) Operai,domestici,MF,0
+45,Libia,VI. Credito e assicurazione,Totale,addetti,MF,282
+45,Libia,VI. Credito e assicurazione,Totale,addetti,M,270
+45,Libia,VI. Credito e assicurazione,Totale,addetti,F,12
+45,Libia,VI. Credito e assicurazione,Totale,celibi_nubili,MF,120
+45,Libia,VI. Credito e assicurazione,Totale,celibi_nubili,F,12
+45,Libia,VI. Credito e assicurazione,Totale,coniugati_vedovi,MF,162
+45,Libia,VI. Credito e assicurazione,Totale,coniugati_vedovi,F,0
+45,Libia,VI. Credito e assicurazione,Totale,capi_famiglia,MF,190
+45,Libia,VI. Credito e assicurazione,Totale,capi_famiglia,F,1
+45,Libia,VI. Credito e assicurazione,Totale,membri,MF,669
+45,Libia,VI. Credito e assicurazione,Totale,membri,F,352
+45,Libia,VI. Credito e assicurazione,Totale,improduttivi,MF,385
+45,Libia,VI. Credito e assicurazione,Totale,improduttivi,F,288
+45,Libia,VI. Credito e assicurazione,Totale,improduttivi_under15,MF,185
+45,Libia,VI. Credito e assicurazione,Totale,domestici,MF,41
+46,Libia,VII. Attivita ed arti libere,A) Padroni,addetti,MF,10
+46,Libia,VII. Attivita ed arti libere,A) Padroni,addetti,M,2
+46,Libia,VII. Attivita ed arti libere,A) Padroni,addetti,F,8
+46,Libia,VII. Attivita ed arti libere,A) Padroni,celibi_nubili,MF,6
+46,Libia,VII. Attivita ed arti libere,A) Padroni,celibi_nubili,F,5
+46,Libia,VII. Attivita ed arti libere,A) Padroni,coniugati_vedovi,MF,4
+46,Libia,VII. Attivita ed arti libere,A) Padroni,coniugati_vedovi,F,3
+46,Libia,VII. Attivita ed arti libere,A) Padroni,capi_famiglia,MF,7
+46,Libia,VII. Attivita ed arti libere,A) Padroni,capi_famiglia,F,5
+46,Libia,VII. Attivita ed arti libere,A) Padroni,membri,MF,11
+46,Libia,VII. Attivita ed arti libere,A) Padroni,membri,F,7
+46,Libia,VII. Attivita ed arti libere,A) Padroni,improduttivi,MF,2
+46,Libia,VII. Attivita ed arti libere,A) Padroni,improduttivi,F,2
+46,Libia,VII. Attivita ed arti libere,A) Padroni,improduttivi_under15,MF,0
+46,Libia,VII. Attivita ed arti libere,A) Padroni,domestici,MF,0
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,addetti,MF,184
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,addetti,M,142
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,addetti,F,42
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,celibi_nubili,MF,50
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,celibi_nubili,F,17
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,coniugati_vedovi,MF,132
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,coniugati_vedovi,F,23
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,capi_famiglia,MF,120
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,capi_famiglia,F,8
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,membri,MF,420
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,membri,F,214
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,improduttivi,MF,223
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,improduttivi,F,156
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,improduttivi_under15,MF,86
+47,Libia,VII. Attivita ed arti libere,D) Liberi professionisti,domestici,MF,37
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,addetti,MF,49
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,addetti,M,34
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,addetti,F,15
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,celibi_nubili,MF,29
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,celibi_nubili,F,8
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,coniugati_vedovi,MF,20
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,coniugati_vedovi,F,7
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,capi_famiglia,MF,20
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,capi_famiglia,F,3
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,membri,MF,51
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,membri,F,22
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,improduttivi,MF,27
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,improduttivi,F,16
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,improduttivi_under15,MF,11
+48,Libia,VII. Attivita ed arti libere,F) Impiegati,domestici,MF,0
+49,Libia,VII. Attivita ed arti libere,H) Operai,addetti,MF,12
+49,Libia,VII. Attivita ed arti libere,H) Operai,addetti,M,12
+49,Libia,VII. Attivita ed arti libere,H) Operai,addetti,F,0
+49,Libia,VII. Attivita ed arti libere,H) Operai,celibi_nubili,MF,8
+49,Libia,VII. Attivita ed arti libere,H) Operai,celibi_nubili,F,0
+49,Libia,VII. Attivita ed arti libere,H) Operai,coniugati_vedovi,MF,4
+49,Libia,VII. Attivita ed arti libere,H) Operai,coniugati_vedovi,F,0
+49,Libia,VII. Attivita ed arti libere,H) Operai,capi_famiglia,MF,5
+49,Libia,VII. Attivita ed arti libere,H) Operai,capi_famiglia,F,0
+49,Libia,VII. Attivita ed arti libere,H) Operai,membri,MF,21
+49,Libia,VII. Attivita ed arti libere,H) Operai,membri,F,12
+49,Libia,VII. Attivita ed arti libere,H) Operai,improduttivi,MF,13
+49,Libia,VII. Attivita ed arti libere,H) Operai,improduttivi,F,10
+49,Libia,VII. Attivita ed arti libere,H) Operai,improduttivi_under15,MF,7
+49,Libia,VII. Attivita ed arti libere,H) Operai,domestici,MF,2
+50,Libia,VII. Attivita ed arti libere,Totale,addetti,MF,255
+50,Libia,VII. Attivita ed arti libere,Totale,addetti,M,190
+50,Libia,VII. Attivita ed arti libere,Totale,addetti,F,65
+50,Libia,VII. Attivita ed arti libere,Totale,celibi_nubili,MF,93
+50,Libia,VII. Attivita ed arti libere,Totale,celibi_nubili,F,30
+50,Libia,VII. Attivita ed arti libere,Totale,coniugati_vedovi,MF,160
+50,Libia,VII. Attivita ed arti libere,Totale,coniugati_vedovi,F,33
+50,Libia,VII. Attivita ed arti libere,Totale,capi_famiglia,MF,152
+50,Libia,VII. Attivita ed arti libere,Totale,capi_famiglia,F,16
+50,Libia,VII. Attivita ed arti libere,Totale,membri,MF,503
+50,Libia,VII. Attivita ed arti libere,Totale,membri,F,255
+50,Libia,VII. Attivita ed arti libere,Totale,improduttivi,MF,265
+50,Libia,VII. Attivita ed arti libere,Totale,improduttivi,F,184
+50,Libia,VII. Attivita ed arti libere,Totale,improduttivi_under15,MF,104
+50,Libia,VII. Attivita ed arti libere,Totale,domestici,MF,39
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,addetti,MF,91
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,addetti,M,90
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,addetti,F,1
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,celibi_nubili,MF,21
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,celibi_nubili,F,1
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,coniugati_vedovi,MF,70
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,coniugati_vedovi,F,0
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,capi_famiglia,MF,73
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,capi_famiglia,F,0
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,membri,MF,274
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,membri,F,146
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,improduttivi,MF,154
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,improduttivi,F,108
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,improduttivi_under15,MF,65
+51,Libia,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,domestici,MF,42
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,addetti,MF,5325
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,addetti,M,4732
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,addetti,F,593
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,celibi_nubili,MF,2506
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,celibi_nubili,F,335
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,coniugati_vedovi,MF,2816
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,coniugati_vedovi,F,257
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,capi_famiglia,MF,2631
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,capi_famiglia,F,96
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,membri,MF,9209
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,membri,F,4731
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,improduttivi,MF,5569
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,improduttivi,F,3979
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,improduttivi_under15,MF,2784
+52,Libia,VIII. Amministrazione pubblica,F) Impiegati e assimilati,domestici,MF,409
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,addetti,MF,258
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,addetti,M,236
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,addetti,F,22
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,celibi_nubili,MF,67
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,celibi_nubili,F,4
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,coniugati_vedovi,MF,191
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,coniugati_vedovi,F,18
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,capi_famiglia,MF,205
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,capi_famiglia,F,13
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,membri,MF,850
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,membri,F,426
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,improduttivi,MF,584
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,improduttivi,F,396
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,improduttivi_under15,MF,345
+53,Libia,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,domestici,MF,2
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,addetti,MF,2269
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,addetti,M,2257
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,addetti,F,12
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,celibi_nubili,MF,1526
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,celibi_nubili,F,7
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,coniugati_vedovi,MF,743
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,coniugati_vedovi,F,5
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,capi_famiglia,MF,809
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,capi_famiglia,F,2
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,membri,MF,3123
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,membri,F,1443
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,improduttivi,MF,1989
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,improduttivi,F,1382
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,improduttivi_under15,MF,1155
+54,Libia,VIII. Amministrazione pubblica,H) Operai e assimilati,domestici,MF,5
+55,Libia,VIII. Amministrazione pubblica,Totale,addetti,MF,7943
+55,Libia,VIII. Amministrazione pubblica,Totale,addetti,M,7315
+55,Libia,VIII. Amministrazione pubblica,Totale,addetti,F,628
+55,Libia,VIII. Amministrazione pubblica,Totale,celibi_nubili,MF,4120
+55,Libia,VIII. Amministrazione pubblica,Totale,celibi_nubili,F,347
+55,Libia,VIII. Amministrazione pubblica,Totale,coniugati_vedovi,MF,3820
+55,Libia,VIII. Amministrazione pubblica,Totale,coniugati_vedovi,F,280
+55,Libia,VIII. Amministrazione pubblica,Totale,capi_famiglia,MF,3718
+55,Libia,VIII. Amministrazione pubblica,Totale,capi_famiglia,F,111
+55,Libia,VIII. Amministrazione pubblica,Totale,membri,MF,13456
+55,Libia,VIII. Amministrazione pubblica,Totale,membri,F,6746
+55,Libia,VIII. Amministrazione pubblica,Totale,improduttivi,MF,8296
+55,Libia,VIII. Amministrazione pubblica,Totale,improduttivi,F,5865
+55,Libia,VIII. Amministrazione pubblica,Totale,improduttivi_under15,MF,4349
+55,Libia,VIII. Amministrazione pubblica,Totale,domestici,MF,458
+56,Libia,IX. Amministrazione privata,E) Dirigenti,addetti,MF,3
+56,Libia,IX. Amministrazione privata,E) Dirigenti,addetti,M,2
+56,Libia,IX. Amministrazione privata,E) Dirigenti,addetti,F,1
+56,Libia,IX. Amministrazione privata,E) Dirigenti,celibi_nubili,MF,3
+56,Libia,IX. Amministrazione privata,E) Dirigenti,celibi_nubili,F,1
+56,Libia,IX. Amministrazione privata,E) Dirigenti,coniugati_vedovi,MF,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,coniugati_vedovi,F,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,capi_famiglia,MF,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,capi_famiglia,F,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,membri,MF,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,membri,F,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,improduttivi,MF,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,improduttivi,F,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,improduttivi_under15,MF,0
+56,Libia,IX. Amministrazione privata,E) Dirigenti,domestici,MF,0
+57,Libia,IX. Amministrazione privata,F) Impiegati,addetti,MF,59
+57,Libia,IX. Amministrazione privata,F) Impiegati,addetti,M,32
+57,Libia,IX. Amministrazione privata,F) Impiegati,addetti,F,27
+57,Libia,IX. Amministrazione privata,F) Impiegati,celibi_nubili,MF,47
+57,Libia,IX. Amministrazione privata,F) Impiegati,celibi_nubili,F,25
+57,Libia,IX. Amministrazione privata,F) Impiegati,coniugati_vedovi,MF,12
+57,Libia,IX. Amministrazione privata,F) Impiegati,coniugati_vedovi,F,2
+57,Libia,IX. Amministrazione privata,F) Impiegati,capi_famiglia,MF,11
+57,Libia,IX. Amministrazione privata,F) Impiegati,capi_famiglia,F,0
+57,Libia,IX. Amministrazione privata,F) Impiegati,membri,MF,47
+57,Libia,IX. Amministrazione privata,F) Impiegati,membri,F,30
+57,Libia,IX. Amministrazione privata,F) Impiegati,improduttivi,MF,27
+57,Libia,IX. Amministrazione privata,F) Impiegati,improduttivi,F,22
+57,Libia,IX. Amministrazione privata,F) Impiegati,improduttivi_under15,MF,15
+57,Libia,IX. Amministrazione privata,F) Impiegati,domestici,MF,4
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,addetti,MF,1
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,addetti,M,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,addetti,F,1
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,celibi_nubili,MF,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,celibi_nubili,F,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,coniugati_vedovi,MF,1
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,coniugati_vedovi,F,1
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,capi_famiglia,MF,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,capi_famiglia,F,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,membri,MF,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,membri,F,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,improduttivi,MF,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,improduttivi,F,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,improduttivi_under15,MF,0
+58,Libia,IX. Amministrazione privata,G) Personale di servizio e di fatica,domestici,MF,0
+59,Libia,IX. Amministrazione privata,H) Operai,addetti,MF,29
+59,Libia,IX. Amministrazione privata,H) Operai,addetti,M,28
+59,Libia,IX. Amministrazione privata,H) Operai,addetti,F,1
+59,Libia,IX. Amministrazione privata,H) Operai,celibi_nubili,MF,22
+59,Libia,IX. Amministrazione privata,H) Operai,celibi_nubili,F,1
+59,Libia,IX. Amministrazione privata,H) Operai,coniugati_vedovi,MF,7
+59,Libia,IX. Amministrazione privata,H) Operai,coniugati_vedovi,F,0
+59,Libia,IX. Amministrazione privata,H) Operai,capi_famiglia,MF,11
+59,Libia,IX. Amministrazione privata,H) Operai,capi_famiglia,F,0
+59,Libia,IX. Amministrazione privata,H) Operai,membri,MF,33
+59,Libia,IX. Amministrazione privata,H) Operai,membri,F,17
+59,Libia,IX. Amministrazione privata,H) Operai,improduttivi,MF,20
+59,Libia,IX. Amministrazione privata,H) Operai,improduttivi,F,16
+59,Libia,IX. Amministrazione privata,H) Operai,improduttivi_under15,MF,7
+59,Libia,IX. Amministrazione privata,H) Operai,domestici,MF,3
+60,Libia,IX. Amministrazione privata,Totale,addetti,MF,92
+60,Libia,IX. Amministrazione privata,Totale,addetti,M,62
+60,Libia,IX. Amministrazione privata,Totale,addetti,F,30
+60,Libia,IX. Amministrazione privata,Totale,celibi_nubili,MF,72
+60,Libia,IX. Amministrazione privata,Totale,celibi_nubili,F,27
+60,Libia,IX. Amministrazione privata,Totale,coniugati_vedovi,MF,20
+60,Libia,IX. Amministrazione privata,Totale,coniugati_vedovi,F,3
+60,Libia,IX. Amministrazione privata,Totale,capi_famiglia,MF,22
+60,Libia,IX. Amministrazione privata,Totale,capi_famiglia,F,0
+60,Libia,IX. Amministrazione privata,Totale,membri,MF,80
+60,Libia,IX. Amministrazione privata,Totale,membri,F,47
+60,Libia,IX. Amministrazione privata,Totale,improduttivi,MF,47
+60,Libia,IX. Amministrazione privata,Totale,improduttivi,F,38
+60,Libia,IX. Amministrazione privata,Totale,improduttivi_under15,MF,22
+60,Libia,IX. Amministrazione privata,Totale,domestici,MF,7
+61,Libia,X. Culto,F) Impiegati e assimilati,addetti,MF,84
+61,Libia,X. Culto,F) Impiegati e assimilati,addetti,M,65
+61,Libia,X. Culto,F) Impiegati e assimilati,addetti,F,19
+61,Libia,X. Culto,F) Impiegati e assimilati,celibi_nubili,MF,77
+61,Libia,X. Culto,F) Impiegati e assimilati,celibi_nubili,F,19
+61,Libia,X. Culto,F) Impiegati e assimilati,coniugati_vedovi,MF,7
+61,Libia,X. Culto,F) Impiegati e assimilati,coniugati_vedovi,F,0
+61,Libia,X. Culto,F) Impiegati e assimilati,capi_famiglia,MF,16
+61,Libia,X. Culto,F) Impiegati e assimilati,capi_famiglia,F,0
+61,Libia,X. Culto,F) Impiegati e assimilati,membri,MF,37
+61,Libia,X. Culto,F) Impiegati e assimilati,membri,F,10
+61,Libia,X. Culto,F) Impiegati e assimilati,improduttivi,MF,10
+61,Libia,X. Culto,F) Impiegati e assimilati,improduttivi,F,7
+61,Libia,X. Culto,F) Impiegati e assimilati,improduttivi_under15,MF,4
+61,Libia,X. Culto,F) Impiegati e assimilati,domestici,MF,1
+62,Libia,X. Culto,G) Personale di servizio e di fatica,addetti,MF,3
+62,Libia,X. Culto,G) Personale di servizio e di fatica,addetti,M,3
+62,Libia,X. Culto,G) Personale di servizio e di fatica,addetti,F,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,celibi_nubili,MF,3
+62,Libia,X. Culto,G) Personale di servizio e di fatica,celibi_nubili,F,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,coniugati_vedovi,MF,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,coniugati_vedovi,F,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,capi_famiglia,MF,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,capi_famiglia,F,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,membri,MF,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,membri,F,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,improduttivi,MF,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,improduttivi,F,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,improduttivi_under15,MF,0
+62,Libia,X. Culto,G) Personale di servizio e di fatica,domestici,MF,0
+63,Libia,X. Culto,H) Operai e assimilati,addetti,MF,2
+63,Libia,X. Culto,H) Operai e assimilati,addetti,M,2
+63,Libia,X. Culto,H) Operai e assimilati,addetti,F,0
+63,Libia,X. Culto,H) Operai e assimilati,celibi_nubili,MF,2
+63,Libia,X. Culto,H) Operai e assimilati,celibi_nubili,F,0
+63,Libia,X. Culto,H) Operai e assimilati,coniugati_vedovi,MF,0
+63,Libia,X. Culto,H) Operai e assimilati,coniugati_vedovi,F,0
+63,Libia,X. Culto,H) Operai e assimilati,capi_famiglia,MF,0
+63,Libia,X. Culto,H) Operai e assimilati,capi_famiglia,F,0
+63,Libia,X. Culto,H) Operai e assimilati,membri,MF,0
+63,Libia,X. Culto,H) Operai e assimilati,membri,F,0
+63,Libia,X. Culto,H) Operai e assimilati,improduttivi,MF,0
+63,Libia,X. Culto,H) Operai e assimilati,improduttivi,F,0
+63,Libia,X. Culto,H) Operai e assimilati,improduttivi_under15,MF,0
+63,Libia,X. Culto,H) Operai e assimilati,domestici,MF,0
+64,Libia,X. Culto,Totale,addetti,MF,89
+64,Libia,X. Culto,Totale,addetti,M,70
+64,Libia,X. Culto,Totale,addetti,F,19
+64,Libia,X. Culto,Totale,celibi_nubili,MF,82
+64,Libia,X. Culto,Totale,celibi_nubili,F,19
+64,Libia,X. Culto,Totale,coniugati_vedovi,MF,7
+64,Libia,X. Culto,Totale,coniugati_vedovi,F,0
+64,Libia,X. Culto,Totale,capi_famiglia,MF,16
+64,Libia,X. Culto,Totale,capi_famiglia,F,0
+64,Libia,X. Culto,Totale,membri,MF,37
+64,Libia,X. Culto,Totale,membri,F,10
+64,Libia,X. Culto,Totale,improduttivi,MF,10
+64,Libia,X. Culto,Totale,improduttivi,F,7
+64,Libia,X. Culto,Totale,improduttivi_under15,MF,4
+64,Libia,X. Culto,Totale,domestici,MF,1
+65,Libia,XI. Economia domestica,F) Impiegati,addetti,MF,3
+65,Libia,XI. Economia domestica,F) Impiegati,addetti,M,0
+65,Libia,XI. Economia domestica,F) Impiegati,addetti,F,3
+65,Libia,XI. Economia domestica,F) Impiegati,celibi_nubili,MF,3
+65,Libia,XI. Economia domestica,F) Impiegati,celibi_nubili,F,3
+65,Libia,XI. Economia domestica,F) Impiegati,coniugati_vedovi,MF,0
+65,Libia,XI. Economia domestica,F) Impiegati,coniugati_vedovi,F,0
+65,Libia,XI. Economia domestica,F) Impiegati,capi_famiglia,MF,0
+65,Libia,XI. Economia domestica,F) Impiegati,capi_famiglia,F,0
+65,Libia,XI. Economia domestica,F) Impiegati,membri,MF,0
+65,Libia,XI. Economia domestica,F) Impiegati,membri,F,0
+65,Libia,XI. Economia domestica,F) Impiegati,improduttivi,MF,0
+65,Libia,XI. Economia domestica,F) Impiegati,improduttivi,F,0
+65,Libia,XI. Economia domestica,F) Impiegati,improduttivi_under15,MF,0
+65,Libia,XI. Economia domestica,F) Impiegati,domestici,MF,0
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,addetti,MF,1000
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,addetti,M,29
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,addetti,F,971
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,celibi_nubili,MF,891
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,celibi_nubili,F,873
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,coniugati_vedovi,MF,109
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,coniugati_vedovi,F,98
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,capi_famiglia,MF,49
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,capi_famiglia,F,41
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,membri,MF,124
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,membri,F,58
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,improduttivi,MF,29
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,improduttivi,F,13
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,improduttivi_under15,MF,21
+66,Libia,XI. Economia domestica,G) Personale di servizio e di fatica,domestici,MF,0
+67,Libia,XI. Economia domestica,H) Operai,addetti,MF,22
+67,Libia,XI. Economia domestica,H) Operai,addetti,M,22
+67,Libia,XI. Economia domestica,H) Operai,addetti,F,0
+67,Libia,XI. Economia domestica,H) Operai,celibi_nubili,MF,10
+67,Libia,XI. Economia domestica,H) Operai,celibi_nubili,F,0
+67,Libia,XI. Economia domestica,H) Operai,coniugati_vedovi,MF,12
+67,Libia,XI. Economia domestica,H) Operai,coniugati_vedovi,F,0
+67,Libia,XI. Economia domestica,H) Operai,capi_famiglia,MF,11
+67,Libia,XI. Economia domestica,H) Operai,capi_famiglia,F,0
+67,Libia,XI. Economia domestica,H) Operai,membri,MF,41
+67,Libia,XI. Economia domestica,H) Operai,membri,F,22
+67,Libia,XI. Economia domestica,H) Operai,improduttivi,MF,27
+67,Libia,XI. Economia domestica,H) Operai,improduttivi,F,21
+67,Libia,XI. Economia domestica,H) Operai,improduttivi_under15,MF,14
+67,Libia,XI. Economia domestica,H) Operai,domestici,MF,0
+68,Libia,XI. Economia domestica,Totale,addetti,MF,1025
+68,Libia,XI. Economia domestica,Totale,addetti,M,51
+68,Libia,XI. Economia domestica,Totale,addetti,F,974
+68,Libia,XI. Economia domestica,Totale,celibi_nubili,MF,904
+68,Libia,XI. Economia domestica,Totale,celibi_nubili,F,876
+68,Libia,XI. Economia domestica,Totale,coniugati_vedovi,MF,121
+68,Libia,XI. Economia domestica,Totale,coniugati_vedovi,F,98
+68,Libia,XI. Economia domestica,Totale,capi_famiglia,MF,60
+68,Libia,XI. Economia domestica,Totale,capi_famiglia,F,41
+68,Libia,XI. Economia domestica,Totale,membri,MF,165
+68,Libia,XI. Economia domestica,Totale,membri,F,80
+68,Libia,XI. Economia domestica,Totale,improduttivi,MF,56
+68,Libia,XI. Economia domestica,Totale,improduttivi,F,34
+68,Libia,XI. Economia domestica,Totale,improduttivi_under15,MF,35
+68,Libia,XI. Economia domestica,Totale,domestici,MF,0
+69,Libia,Totale generale,I,addetti,MF,4082
+69,Libia,Totale generale,I,addetti,M,3528
+69,Libia,Totale generale,I,addetti,F,554
+69,Libia,Totale generale,I,celibi_nubili,MF,1548
+69,Libia,Totale generale,I,celibi_nubili,F,187
+69,Libia,Totale generale,I,coniugati_vedovi,MF,2533
+69,Libia,Totale generale,I,coniugati_vedovi,F,366
+69,Libia,Totale generale,I,capi_famiglia,MF,2188
+69,Libia,Totale generale,I,capi_famiglia,F,32
+69,Libia,Totale generale,I,membri,MF,10969
+69,Libia,Totale generale,I,membri,F,5013
+69,Libia,Totale generale,I,improduttivi,MF,6294
+69,Libia,Totale generale,I,improduttivi,F,4268
+69,Libia,Totale generale,I,improduttivi_under15,MF,3953
+69,Libia,Totale generale,I,domestici,MF,44
+70,Libia,Totale generale,II,addetti,MF,363
+70,Libia,Totale generale,II,addetti,M,362
+70,Libia,Totale generale,II,addetti,F,1
+70,Libia,Totale generale,II,celibi_nubili,MF,124
+70,Libia,Totale generale,II,celibi_nubili,F,0
+70,Libia,Totale generale,II,coniugati_vedovi,MF,237
+70,Libia,Totale generale,II,coniugati_vedovi,F,1
+70,Libia,Totale generale,II,capi_famiglia,MF,232
+70,Libia,Totale generale,II,capi_famiglia,F,1
+70,Libia,Totale generale,II,membri,MF,1015
+70,Libia,Totale generale,II,membri,F,451
+70,Libia,Totale generale,II,improduttivi,MF,581
+70,Libia,Totale generale,II,improduttivi,F,415
+70,Libia,Totale generale,II,improduttivi_under15,MF,338
+70,Libia,Totale generale,II,domestici,MF,1
+71,Libia,Totale generale,III,addetti,MF,8061
+71,Libia,Totale generale,III,addetti,M,7198
+71,Libia,Totale generale,III,addetti,F,863
+71,Libia,Totale generale,III,celibi_nubili,MF,3620
+71,Libia,Totale generale,III,celibi_nubili,F,645
+71,Libia,Totale generale,III,coniugati_vedovi,MF,4438
+71,Libia,Totale generale,III,coniugati_vedovi,F,217
+71,Libia,Totale generale,III,capi_famiglia,MF,4237
+71,Libia,Totale generale,III,capi_famiglia,F,128
+71,Libia,Totale generale,III,membri,MF,16496
+71,Libia,Totale generale,III,membri,F,7676
+71,Libia,Totale generale,III,improduttivi,MF,10044
+71,Libia,Totale generale,III,improduttivi,F,7090
+71,Libia,Totale generale,III,improduttivi_under15,MF,5565
+71,Libia,Totale generale,III,domestici,MF,118
+72,Libia,Totale generale,IV,addetti,MF,1559
+72,Libia,Totale generale,IV,addetti,M,1531
+72,Libia,Totale generale,IV,addetti,F,28
+72,Libia,Totale generale,IV,celibi_nubili,MF,569
+72,Libia,Totale generale,IV,celibi_nubili,F,11
+72,Libia,Totale generale,IV,coniugati_vedovi,MF,990
+72,Libia,Totale generale,IV,coniugati_vedovi,F,17
+72,Libia,Totale generale,IV,capi_famiglia,MF,1064
+72,Libia,Totale generale,IV,capi_famiglia,F,7
+72,Libia,Totale generale,IV,membri,MF,4155
+72,Libia,Totale generale,IV,membri,F,1995
+72,Libia,Totale generale,IV,improduttivi,MF,2654
+72,Libia,Totale generale,IV,improduttivi,F,1881
+72,Libia,Totale generale,IV,improduttivi_under15,MF,1470
+72,Libia,Totale generale,IV,domestici,MF,38
+73,Libia,Totale generale,V,addetti,MF,2835
+73,Libia,Totale generale,V,addetti,M,2204
+73,Libia,Totale generale,V,addetti,F,631
+73,Libia,Totale generale,V,celibi_nubili,MF,1033
+73,Libia,Totale generale,V,celibi_nubili,F,245
+73,Libia,Totale generale,V,coniugati_vedovi,MF,1802
+73,Libia,Totale generale,V,coniugati_vedovi,F,386
+73,Libia,Totale generale,V,capi_famiglia,MF,1629
+73,Libia,Totale generale,V,capi_famiglia,F,129
+73,Libia,Totale generale,V,membri,MF,6493
+73,Libia,Totale generale,V,membri,F,3138
+73,Libia,Totale generale,V,improduttivi,MF,3723
+73,Libia,Totale generale,V,improduttivi,F,2613
+73,Libia,Totale generale,V,improduttivi_under15,MF,1948
+73,Libia,Totale generale,V,domestici,MF,136
+74,Libia,Totale generale,VI,addetti,MF,282
+74,Libia,Totale generale,VI,addetti,M,270
+74,Libia,Totale generale,VI,addetti,F,12
+74,Libia,Totale generale,VI,celibi_nubili,MF,120
+74,Libia,Totale generale,VI,celibi_nubili,F,12
+74,Libia,Totale generale,VI,coniugati_vedovi,MF,162
+74,Libia,Totale generale,VI,coniugati_vedovi,F,0
+74,Libia,Totale generale,VI,capi_famiglia,MF,190
+74,Libia,Totale generale,VI,capi_famiglia,F,1
+74,Libia,Totale generale,VI,membri,MF,669
+74,Libia,Totale generale,VI,membri,F,352
+74,Libia,Totale generale,VI,improduttivi,MF,385
+74,Libia,Totale generale,VI,improduttivi,F,288
+74,Libia,Totale generale,VI,improduttivi_under15,MF,185
+74,Libia,Totale generale,VI,domestici,MF,41
+75,Libia,Totale generale,VII,addetti,MF,255
+75,Libia,Totale generale,VII,addetti,M,190
+75,Libia,Totale generale,VII,addetti,F,65
+75,Libia,Totale generale,VII,celibi_nubili,MF,93
+75,Libia,Totale generale,VII,celibi_nubili,F,30
+75,Libia,Totale generale,VII,coniugati_vedovi,MF,160
+75,Libia,Totale generale,VII,coniugati_vedovi,F,33
+75,Libia,Totale generale,VII,capi_famiglia,MF,152
+75,Libia,Totale generale,VII,capi_famiglia,F,16
+75,Libia,Totale generale,VII,membri,MF,503
+75,Libia,Totale generale,VII,membri,F,255
+75,Libia,Totale generale,VII,improduttivi,MF,265
+75,Libia,Totale generale,VII,improduttivi,F,184
+75,Libia,Totale generale,VII,improduttivi_under15,MF,104
+75,Libia,Totale generale,VII,domestici,MF,39
+76,Libia,Totale generale,VIII,addetti,MF,7943
+76,Libia,Totale generale,VIII,addetti,M,7315
+76,Libia,Totale generale,VIII,addetti,F,628
+76,Libia,Totale generale,VIII,celibi_nubili,MF,4120
+76,Libia,Totale generale,VIII,celibi_nubili,F,347
+76,Libia,Totale generale,VIII,coniugati_vedovi,MF,3820
+76,Libia,Totale generale,VIII,coniugati_vedovi,F,280
+76,Libia,Totale generale,VIII,capi_famiglia,MF,3718
+76,Libia,Totale generale,VIII,capi_famiglia,F,111
+76,Libia,Totale generale,VIII,membri,MF,13456
+76,Libia,Totale generale,VIII,membri,F,6746
+76,Libia,Totale generale,VIII,improduttivi,MF,8296
+76,Libia,Totale generale,VIII,improduttivi,F,5865
+76,Libia,Totale generale,VIII,improduttivi_under15,MF,4349
+76,Libia,Totale generale,VIII,domestici,MF,458
+77,Libia,Totale generale,IX,addetti,MF,92
+77,Libia,Totale generale,IX,addetti,M,62
+77,Libia,Totale generale,IX,addetti,F,30
+77,Libia,Totale generale,IX,celibi_nubili,MF,72
+77,Libia,Totale generale,IX,celibi_nubili,F,27
+77,Libia,Totale generale,IX,coniugati_vedovi,MF,20
+77,Libia,Totale generale,IX,coniugati_vedovi,F,3
+77,Libia,Totale generale,IX,capi_famiglia,MF,22
+77,Libia,Totale generale,IX,capi_famiglia,F,0
+77,Libia,Totale generale,IX,membri,MF,80
+77,Libia,Totale generale,IX,membri,F,47
+77,Libia,Totale generale,IX,improduttivi,MF,47
+77,Libia,Totale generale,IX,improduttivi,F,38
+77,Libia,Totale generale,IX,improduttivi_under15,MF,22
+77,Libia,Totale generale,IX,domestici,MF,7
+78,Libia,Totale generale,X,addetti,MF,89
+78,Libia,Totale generale,X,addetti,M,70
+78,Libia,Totale generale,X,addetti,F,19
+78,Libia,Totale generale,X,celibi_nubili,MF,82
+78,Libia,Totale generale,X,celibi_nubili,F,19
+78,Libia,Totale generale,X,coniugati_vedovi,MF,7
+78,Libia,Totale generale,X,coniugati_vedovi,F,0
+78,Libia,Totale generale,X,capi_famiglia,MF,16
+78,Libia,Totale generale,X,capi_famiglia,F,0
+78,Libia,Totale generale,X,membri,MF,37
+78,Libia,Totale generale,X,membri,F,10
+78,Libia,Totale generale,X,improduttivi,MF,10
+78,Libia,Totale generale,X,improduttivi,F,7
+78,Libia,Totale generale,X,improduttivi_under15,MF,4
+78,Libia,Totale generale,X,domestici,MF,1
+79,Libia,Totale generale,XI,addetti,MF,1025
+79,Libia,Totale generale,XI,addetti,M,51
+79,Libia,Totale generale,XI,addetti,F,974
+79,Libia,Totale generale,XI,celibi_nubili,MF,904
+79,Libia,Totale generale,XI,celibi_nubili,F,876
+79,Libia,Totale generale,XI,coniugati_vedovi,MF,121
+79,Libia,Totale generale,XI,coniugati_vedovi,F,98
+79,Libia,Totale generale,XI,capi_famiglia,MF,60
+79,Libia,Totale generale,XI,capi_famiglia,F,41
+79,Libia,Totale generale,XI,membri,MF,165
+79,Libia,Totale generale,XI,membri,F,80
+79,Libia,Totale generale,XI,improduttivi,MF,56
+79,Libia,Totale generale,XI,improduttivi,F,34
+79,Libia,Totale generale,XI,improduttivi_under15,MF,35
+79,Libia,Totale generale,XI,domestici,MF,0
+80,Libia,Totale generale,XII,addetti,MF,22395
+80,Libia,Totale generale,XII,addetti,M,3856
+80,Libia,Totale generale,XII,addetti,F,18539
+80,Libia,Totale generale,XII,celibi_nubili,MF,9733
+80,Libia,Totale generale,XII,celibi_nubili,F,6339
+80,Libia,Totale generale,XII,coniugati_vedovi,MF,12658
+80,Libia,Totale generale,XII,coniugati_vedovi,F,12197
+80,Libia,Totale generale,XII,capi_famiglia,MF,875
+80,Libia,Totale generale,XII,capi_famiglia,F,558
+80,Libia,Totale generale,XII,membri,MF,3003
+80,Libia,Totale generale,XII,membri,F,1658
+80,Libia,Totale generale,XII,improduttivi,MF,1804
+80,Libia,Totale generale,XII,improduttivi,F,1420
+80,Libia,Totale generale,XII,improduttivi_under15,MF,455
+80,Libia,Totale generale,XII,domestici,MF,28
+81,Libia,Totale generale,Totale,addetti,MF,48981
+81,Libia,Totale generale,Totale,addetti,M,26637
+81,Libia,Totale generale,Totale,addetti,F,22344
+81,Libia,Totale generale,Totale,celibi_nubili,MF,22018
+81,Libia,Totale generale,Totale,celibi_nubili,F,8738
+81,Libia,Totale generale,Totale,coniugati_vedovi,MF,26948
+81,Libia,Totale generale,Totale,coniugati_vedovi,F,13598
+81,Libia,Totale generale,Totale,capi_famiglia,MF,14383
+81,Libia,Totale generale,Totale,capi_famiglia,F,1024
+81,Libia,Totale generale,Totale,membri,MF,57041
+81,Libia,Totale generale,Totale,membri,F,27421
+81,Libia,Totale generale,Totale,improduttivi,MF,34159
+81,Libia,Totale generale,Totale,improduttivi,F,24103
+81,Libia,Totale generale,Totale,improduttivi_under15,MF,18428
+81,Libia,Totale generale,Totale,domestici,MF,911
+82,Provincia di Tripoli,Totale generale,I,addetti,MF,2738
+82,Provincia di Tripoli,Totale generale,I,addetti,M,2252
+82,Provincia di Tripoli,Totale generale,I,addetti,F,486
+82,Provincia di Tripoli,Totale generale,I,celibi_nubili,MF,935
+82,Provincia di Tripoli,Totale generale,I,celibi_nubili,F,139
+82,Provincia di Tripoli,Totale generale,I,coniugati_vedovi,MF,1802
+82,Provincia di Tripoli,Totale generale,I,coniugati_vedovi,F,346
+82,Provincia di Tripoli,Totale generale,I,capi_famiglia,MF,1490
+82,Provincia di Tripoli,Totale generale,I,capi_famiglia,F,31
+82,Provincia di Tripoli,Totale generale,I,membri,MF,7299
+82,Provincia di Tripoli,Totale generale,I,membri,F,3401
+82,Provincia di Tripoli,Totale generale,I,improduttivi,MF,4155
+82,Provincia di Tripoli,Totale generale,I,improduttivi,F,2760
+82,Provincia di Tripoli,Totale generale,I,improduttivi_under15,MF,2671
+82,Provincia di Tripoli,Totale generale,I,domestici,MF,34
+83,Provincia di Tripoli,Totale generale,II,addetti,MF,277
+83,Provincia di Tripoli,Totale generale,II,addetti,M,276
+83,Provincia di Tripoli,Totale generale,II,addetti,F,1
+83,Provincia di Tripoli,Totale generale,II,celibi_nubili,MF,102
+83,Provincia di Tripoli,Totale generale,II,celibi_nubili,F,0
+83,Provincia di Tripoli,Totale generale,II,coniugati_vedovi,MF,173
+83,Provincia di Tripoli,Totale generale,II,coniugati_vedovi,F,1
+83,Provincia di Tripoli,Totale generale,II,capi_famiglia,MF,169
+83,Provincia di Tripoli,Totale generale,II,capi_famiglia,F,1
+83,Provincia di Tripoli,Totale generale,II,membri,MF,787
+83,Provincia di Tripoli,Totale generale,II,membri,F,356
+83,Provincia di Tripoli,Totale generale,II,improduttivi,MF,449
+83,Provincia di Tripoli,Totale generale,II,improduttivi,F,322
+83,Provincia di Tripoli,Totale generale,II,improduttivi_under15,MF,259
+83,Provincia di Tripoli,Totale generale,II,domestici,MF,0
+84,Provincia di Tripoli,Totale generale,III,addetti,MF,4814
+84,Provincia di Tripoli,Totale generale,III,addetti,M,4236
+84,Provincia di Tripoli,Totale generale,III,addetti,F,578
+84,Provincia di Tripoli,Totale generale,III,celibi_nubili,MF,2316
+84,Provincia di Tripoli,Totale generale,III,celibi_nubili,F,452
+84,Provincia di Tripoli,Totale generale,III,coniugati_vedovi,MF,2495
+84,Provincia di Tripoli,Totale generale,III,coniugati_vedovi,F,125
+84,Provincia di Tripoli,Totale generale,III,capi_famiglia,MF,2549
+84,Provincia di Tripoli,Totale generale,III,capi_famiglia,F,78
+84,Provincia di Tripoli,Totale generale,III,membri,MF,10430
+84,Provincia di Tripoli,Totale generale,III,membri,F,4922
+84,Provincia di Tripoli,Totale generale,III,improduttivi,MF,6459
+84,Provincia di Tripoli,Totale generale,III,improduttivi,F,4537
+84,Provincia di Tripoli,Totale generale,III,improduttivi_under15,MF,3590
+84,Provincia di Tripoli,Totale generale,III,domestici,MF,74
+85,Provincia di Tripoli,Totale generale,IV,addetti,MF,903
+85,Provincia di Tripoli,Totale generale,IV,addetti,M,886
+85,Provincia di Tripoli,Totale generale,IV,addetti,F,17
+85,Provincia di Tripoli,Totale generale,IV,celibi_nubili,MF,315
+85,Provincia di Tripoli,Totale generale,IV,celibi_nubili,F,4
+85,Provincia di Tripoli,Totale generale,IV,coniugati_vedovi,MF,588
+85,Provincia di Tripoli,Totale generale,IV,coniugati_vedovi,F,13
+85,Provincia di Tripoli,Totale generale,IV,capi_famiglia,MF,618
+85,Provincia di Tripoli,Totale generale,IV,capi_famiglia,F,5
+85,Provincia di Tripoli,Totale generale,IV,membri,MF,2500
+85,Provincia di Tripoli,Totale generale,IV,membri,F,1217
+85,Provincia di Tripoli,Totale generale,IV,improduttivi,MF,1633
+85,Provincia di Tripoli,Totale generale,IV,improduttivi,F,1163
+85,Provincia di Tripoli,Totale generale,IV,improduttivi_under15,MF,906
+85,Provincia di Tripoli,Totale generale,IV,domestici,MF,19
+86,Provincia di Tripoli,Totale generale,V,addetti,MF,1684
+86,Provincia di Tripoli,Totale generale,V,addetti,M,1351
+86,Provincia di Tripoli,Totale generale,V,addetti,F,333
+86,Provincia di Tripoli,Totale generale,V,celibi_nubili,MF,616
+86,Provincia di Tripoli,Totale generale,V,celibi_nubili,F,137
+86,Provincia di Tripoli,Totale generale,V,coniugati_vedovi,MF,1068
+86,Provincia di Tripoli,Totale generale,V,coniugati_vedovi,F,196
+86,Provincia di Tripoli,Totale generale,V,capi_famiglia,MF,964
+86,Provincia di Tripoli,Totale generale,V,capi_famiglia,F,73
+86,Provincia di Tripoli,Totale generale,V,membri,MF,3898
+86,Provincia di Tripoli,Totale generale,V,membri,F,1926
+86,Provincia di Tripoli,Totale generale,V,improduttivi,MF,2321
+86,Provincia di Tripoli,Totale generale,V,improduttivi,F,1641
+86,Provincia di Tripoli,Totale generale,V,improduttivi_under15,MF,1200
+86,Provincia di Tripoli,Totale generale,V,domestici,MF,64
+87,Provincia di Tripoli,Totale generale,VI,addetti,MF,184
+87,Provincia di Tripoli,Totale generale,VI,addetti,M,173
+87,Provincia di Tripoli,Totale generale,VI,addetti,F,11
+87,Provincia di Tripoli,Totale generale,VI,celibi_nubili,MF,83
+87,Provincia di Tripoli,Totale generale,VI,celibi_nubili,F,11
+87,Provincia di Tripoli,Totale generale,VI,coniugati_vedovi,MF,101
+87,Provincia di Tripoli,Totale generale,VI,coniugati_vedovi,F,0
+87,Provincia di Tripoli,Totale generale,VI,capi_famiglia,MF,113
+87,Provincia di Tripoli,Totale generale,VI,capi_famiglia,F,1
+87,Provincia di Tripoli,Totale generale,VI,membri,MF,415
+87,Provincia di Tripoli,Totale generale,VI,membri,F,224
+87,Provincia di Tripoli,Totale generale,VI,improduttivi,MF,248
+87,Provincia di Tripoli,Totale generale,VI,improduttivi,F,183
+87,Provincia di Tripoli,Totale generale,VI,improduttivi_under15,MF,122
+87,Provincia di Tripoli,Totale generale,VI,domestici,MF,26
+88,Provincia di Tripoli,Totale generale,VII,addetti,MF,168
+88,Provincia di Tripoli,Totale generale,VII,addetti,M,122
+88,Provincia di Tripoli,Totale generale,VII,addetti,F,46
+88,Provincia di Tripoli,Totale generale,VII,celibi_nubili,MF,63
+88,Provincia di Tripoli,Totale generale,VII,celibi_nubili,F,22
+88,Provincia di Tripoli,Totale generale,VII,coniugati_vedovi,MF,103
+88,Provincia di Tripoli,Totale generale,VII,coniugati_vedovi,F,22
+88,Provincia di Tripoli,Totale generale,VII,capi_famiglia,MF,101
+88,Provincia di Tripoli,Totale generale,VII,capi_famiglia,F,13
+88,Provincia di Tripoli,Totale generale,VII,membri,MF,333
+88,Provincia di Tripoli,Totale generale,VII,membri,F,169
+88,Provincia di Tripoli,Totale generale,VII,improduttivi,MF,178
+88,Provincia di Tripoli,Totale generale,VII,improduttivi,F,125
+88,Provincia di Tripoli,Totale generale,VII,improduttivi_under15,MF,65
+88,Provincia di Tripoli,Totale generale,VII,domestici,MF,21
+89,Provincia di Tripoli,Totale generale,VIII,addetti,MF,3682
+89,Provincia di Tripoli,Totale generale,VIII,addetti,M,3309
+89,Provincia di Tripoli,Totale generale,VIII,addetti,F,373
+89,Provincia di Tripoli,Totale generale,VIII,celibi_nubili,MF,1597
+89,Provincia di Tripoli,Totale generale,VIII,celibi_nubili,F,194
+89,Provincia di Tripoli,Totale generale,VIII,coniugati_vedovi,MF,2082
+89,Provincia di Tripoli,Totale generale,VIII,coniugati_vedovi,F,178
+89,Provincia di Tripoli,Totale generale,VIII,capi_famiglia,MF,2093
+89,Provincia di Tripoli,Totale generale,VIII,capi_famiglia,F,64
+89,Provincia di Tripoli,Totale generale,VIII,membri,MF,8115
+89,Provincia di Tripoli,Totale generale,VIII,membri,F,4112
+89,Provincia di Tripoli,Totale generale,VIII,improduttivi,MF,5114
+89,Provincia di Tripoli,Totale generale,VIII,improduttivi,F,3583
+89,Provincia di Tripoli,Totale generale,VIII,improduttivi_under15,MF,2694
+89,Provincia di Tripoli,Totale generale,VIII,domestici,MF,277
+90,Provincia di Tripoli,Totale generale,IX,addetti,MF,77
+90,Provincia di Tripoli,Totale generale,IX,addetti,M,58
+90,Provincia di Tripoli,Totale generale,IX,addetti,F,19
+90,Provincia di Tripoli,Totale generale,IX,celibi_nubili,MF,59
+90,Provincia di Tripoli,Totale generale,IX,celibi_nubili,F,17
+90,Provincia di Tripoli,Totale generale,IX,coniugati_vedovi,MF,18
+90,Provincia di Tripoli,Totale generale,IX,coniugati_vedovi,F,2
+90,Provincia di Tripoli,Totale generale,IX,capi_famiglia,MF,21
+90,Provincia di Tripoli,Totale generale,IX,capi_famiglia,F,0
+90,Provincia di Tripoli,Totale generale,IX,membri,MF,76
+90,Provincia di Tripoli,Totale generale,IX,membri,F,45
+90,Provincia di Tripoli,Totale generale,IX,improduttivi,MF,44
+90,Provincia di Tripoli,Totale generale,IX,improduttivi,F,36
+90,Provincia di Tripoli,Totale generale,IX,improduttivi_under15,MF,20
+90,Provincia di Tripoli,Totale generale,IX,domestici,MF,7
+91,Provincia di Tripoli,Totale generale,X,addetti,MF,47
+91,Provincia di Tripoli,Totale generale,X,addetti,M,33
+91,Provincia di Tripoli,Totale generale,X,addetti,F,14
+91,Provincia di Tripoli,Totale generale,X,celibi_nubili,MF,40
+91,Provincia di Tripoli,Totale generale,X,celibi_nubili,F,14
+91,Provincia di Tripoli,Totale generale,X,coniugati_vedovi,MF,7
+91,Provincia di Tripoli,Totale generale,X,coniugati_vedovi,F,0
+91,Provincia di Tripoli,Totale generale,X,capi_famiglia,MF,7
+91,Provincia di Tripoli,Totale generale,X,capi_famiglia,F,0
+91,Provincia di Tripoli,Totale generale,X,membri,MF,25
+91,Provincia di Tripoli,Totale generale,X,membri,F,8
+91,Provincia di Tripoli,Totale generale,X,improduttivi,MF,8
+91,Provincia di Tripoli,Totale generale,X,improduttivi,F,5
+91,Provincia di Tripoli,Totale generale,X,improduttivi_under15,MF,4
+91,Provincia di Tripoli,Totale generale,X,domestici,MF,1
+92,Provincia di Tripoli,Totale generale,XI,addetti,MF,643
+92,Provincia di Tripoli,Totale generale,XI,addetti,M,38
+92,Provincia di Tripoli,Totale generale,XI,addetti,F,605
+92,Provincia di Tripoli,Totale generale,XI,celibi_nubili,MF,567
+92,Provincia di Tripoli,Totale generale,XI,celibi_nubili,F,547
+92,Provincia di Tripoli,Totale generale,XI,coniugati_vedovi,MF,76
+92,Provincia di Tripoli,Totale generale,XI,coniugati_vedovi,F,58
+92,Provincia di Tripoli,Totale generale,XI,capi_famiglia,MF,46
+92,Provincia di Tripoli,Totale generale,XI,capi_famiglia,F,28
+92,Provincia di Tripoli,Totale generale,XI,membri,MF,117
+92,Provincia di Tripoli,Totale generale,XI,membri,F,64
+92,Provincia di Tripoli,Totale generale,XI,improduttivi,MF,49
+92,Provincia di Tripoli,Totale generale,XI,improduttivi,F,30
+92,Provincia di Tripoli,Totale generale,XI,improduttivi_under15,MF,31
+92,Provincia di Tripoli,Totale generale,XI,domestici,MF,0
+93,Provincia di Tripoli,Totale generale,XII,addetti,MF,14483
+93,Provincia di Tripoli,Totale generale,XII,addetti,M,2592
+93,Provincia di Tripoli,Totale generale,XII,addetti,F,11891
+93,Provincia di Tripoli,Totale generale,XII,celibi_nubili,MF,6416
+93,Provincia di Tripoli,Totale generale,XII,celibi_nubili,F,4148
+93,Provincia di Tripoli,Totale generale,XII,coniugati_vedovi,MF,8063
+93,Provincia di Tripoli,Totale generale,XII,coniugati_vedovi,F,7740
+93,Provincia di Tripoli,Totale generale,XII,capi_famiglia,MF,618
+93,Provincia di Tripoli,Totale generale,XII,capi_famiglia,F,390
+93,Provincia di Tripoli,Totale generale,XII,membri,MF,2176
+93,Provincia di Tripoli,Totale generale,XII,membri,F,1182
+93,Provincia di Tripoli,Totale generale,XII,improduttivi,MF,1302
+93,Provincia di Tripoli,Totale generale,XII,improduttivi,F,1019
+93,Provincia di Tripoli,Totale generale,XII,improduttivi_under15,MF,341
+93,Provincia di Tripoli,Totale generale,XII,domestici,MF,17
+94,Provincia di Tripoli,Totale generale,Totale,addetti,MF,29700
+94,Provincia di Tripoli,Totale generale,Totale,addetti,M,15326
+94,Provincia di Tripoli,Totale generale,Totale,addetti,F,14374
+94,Provincia di Tripoli,Totale generale,Totale,celibi_nubili,MF,13109
+94,Provincia di Tripoli,Totale generale,Totale,celibi_nubili,F,5685
+94,Provincia di Tripoli,Totale generale,Totale,coniugati_vedovi,MF,16576
+94,Provincia di Tripoli,Totale generale,Totale,coniugati_vedovi,F,8681
+94,Provincia di Tripoli,Totale generale,Totale,capi_famiglia,MF,8789
+94,Provincia di Tripoli,Totale generale,Totale,capi_famiglia,F,684
+94,Provincia di Tripoli,Totale generale,Totale,membri,MF,36171
+94,Provincia di Tripoli,Totale generale,Totale,membri,F,17626
+94,Provincia di Tripoli,Totale generale,Totale,improduttivi,MF,21960
+94,Provincia di Tripoli,Totale generale,Totale,improduttivi,F,15404
+94,Provincia di Tripoli,Totale generale,Totale,improduttivi_under15,MF,11903
+94,Provincia di Tripoli,Totale generale,Totale,domestici,MF,540
+95,Provincia di Misurata,Totale generale,I,addetti,MF,178
+95,Provincia di Misurata,Totale generale,I,addetti,M,170
+95,Provincia di Misurata,Totale generale,I,addetti,F,8
+95,Provincia di Misurata,Totale generale,I,celibi_nubili,MF,52
+95,Provincia di Misurata,Totale generale,I,celibi_nubili,F,6
+95,Provincia di Misurata,Totale generale,I,coniugati_vedovi,MF,126
+95,Provincia di Misurata,Totale generale,I,coniugati_vedovi,F,2
+95,Provincia di Misurata,Totale generale,I,capi_famiglia,MF,132
+95,Provincia di Misurata,Totale generale,I,capi_famiglia,F,0
+95,Provincia di Misurata,Totale generale,I,membri,MF,532
+95,Provincia di Misurata,Totale generale,I,membri,F,245
+95,Provincia di Misurata,Totale generale,I,improduttivi,MF,341
+95,Provincia di Misurata,Totale generale,I,improduttivi,F,234
+95,Provincia di Misurata,Totale generale,I,improduttivi_under15,MF,217
+95,Provincia di Misurata,Totale generale,I,domestici,MF,1
+96,Provincia di Misurata,Totale generale,II,addetti,MF,0
+96,Provincia di Misurata,Totale generale,II,addetti,M,0
+96,Provincia di Misurata,Totale generale,II,addetti,F,0
+96,Provincia di Misurata,Totale generale,II,celibi_nubili,MF,0
+96,Provincia di Misurata,Totale generale,II,celibi_nubili,F,0
+96,Provincia di Misurata,Totale generale,II,coniugati_vedovi,MF,0
+96,Provincia di Misurata,Totale generale,II,coniugati_vedovi,F,0
+96,Provincia di Misurata,Totale generale,II,capi_famiglia,MF,0
+96,Provincia di Misurata,Totale generale,II,capi_famiglia,F,0
+96,Provincia di Misurata,Totale generale,II,membri,MF,0
+96,Provincia di Misurata,Totale generale,II,membri,F,0
+96,Provincia di Misurata,Totale generale,II,improduttivi,MF,0
+96,Provincia di Misurata,Totale generale,II,improduttivi,F,0
+96,Provincia di Misurata,Totale generale,II,improduttivi_under15,MF,0
+96,Provincia di Misurata,Totale generale,II,domestici,MF,0
+97,Provincia di Misurata,Totale generale,III,addetti,MF,530
+97,Provincia di Misurata,Totale generale,III,addetti,M,519
+97,Provincia di Misurata,Totale generale,III,addetti,F,11
+97,Provincia di Misurata,Totale generale,III,celibi_nubili,MF,166
+97,Provincia di Misurata,Totale generale,III,celibi_nubili,F,4
+97,Provincia di Misurata,Totale generale,III,coniugati_vedovi,MF,364
+97,Provincia di Misurata,Totale generale,III,coniugati_vedovi,F,7
+97,Provincia di Misurata,Totale generale,III,capi_famiglia,MF,131
+97,Provincia di Misurata,Totale generale,III,capi_famiglia,F,3
+97,Provincia di Misurata,Totale generale,III,membri,MF,334
+97,Provincia di Misurata,Totale generale,III,membri,F,130
+97,Provincia di Misurata,Totale generale,III,improduttivi,MF,169
+97,Provincia di Misurata,Totale generale,III,improduttivi,F,120
+97,Provincia di Misurata,Totale generale,III,improduttivi_under15,MF,86
+97,Provincia di Misurata,Totale generale,III,domestici,MF,1
+98,Provincia di Misurata,Totale generale,IV,addetti,MF,54
+98,Provincia di Misurata,Totale generale,IV,addetti,M,51
+98,Provincia di Misurata,Totale generale,IV,addetti,F,3
+98,Provincia di Misurata,Totale generale,IV,celibi_nubili,MF,28
+98,Provincia di Misurata,Totale generale,IV,celibi_nubili,F,1
+98,Provincia di Misurata,Totale generale,IV,coniugati_vedovi,MF,26
+98,Provincia di Misurata,Totale generale,IV,coniugati_vedovi,F,2
+98,Provincia di Misurata,Totale generale,IV,capi_famiglia,MF,31
+98,Provincia di Misurata,Totale generale,IV,capi_famiglia,F,2
+98,Provincia di Misurata,Totale generale,IV,membri,MF,91
+98,Provincia di Misurata,Totale generale,IV,membri,F,39
+98,Provincia di Misurata,Totale generale,IV,improduttivi,MF,54
+98,Provincia di Misurata,Totale generale,IV,improduttivi,F,37
+98,Provincia di Misurata,Totale generale,IV,improduttivi_under15,MF,35
+98,Provincia di Misurata,Totale generale,IV,domestici,MF,0
+99,Provincia di Misurata,Totale generale,V,addetti,MF,90
+99,Provincia di Misurata,Totale generale,V,addetti,M,67
+99,Provincia di Misurata,Totale generale,V,addetti,F,23
+99,Provincia di Misurata,Totale generale,V,celibi_nubili,MF,39
+99,Provincia di Misurata,Totale generale,V,celibi_nubili,F,7
+99,Provincia di Misurata,Totale generale,V,coniugati_vedovi,MF,51
+99,Provincia di Misurata,Totale generale,V,coniugati_vedovi,F,16
+99,Provincia di Misurata,Totale generale,V,capi_famiglia,MF,49
+99,Provincia di Misurata,Totale generale,V,capi_famiglia,F,5
+99,Provincia di Misurata,Totale generale,V,membri,MF,172
+99,Provincia di Misurata,Totale generale,V,membri,F,80
+99,Provincia di Misurata,Totale generale,V,improduttivi,MF,89
+99,Provincia di Misurata,Totale generale,V,improduttivi,F,65
+99,Provincia di Misurata,Totale generale,V,improduttivi_under15,MF,46
+99,Provincia di Misurata,Totale generale,V,domestici,MF,2
+100,Provincia di Misurata,Totale generale,VI,addetti,MF,5
+100,Provincia di Misurata,Totale generale,VI,addetti,M,5
+100,Provincia di Misurata,Totale generale,VI,addetti,F,0
+100,Provincia di Misurata,Totale generale,VI,celibi_nubili,MF,3
+100,Provincia di Misurata,Totale generale,VI,celibi_nubili,F,0
+100,Provincia di Misurata,Totale generale,VI,coniugati_vedovi,MF,2
+100,Provincia di Misurata,Totale generale,VI,coniugati_vedovi,F,0
+100,Provincia di Misurata,Totale generale,VI,capi_famiglia,MF,5
+100,Provincia di Misurata,Totale generale,VI,capi_famiglia,F,0
+100,Provincia di Misurata,Totale generale,VI,membri,MF,9
+100,Provincia di Misurata,Totale generale,VI,membri,F,3
+100,Provincia di Misurata,Totale generale,VI,improduttivi,MF,3
+100,Provincia di Misurata,Totale generale,VI,improduttivi,F,2
+100,Provincia di Misurata,Totale generale,VI,improduttivi_under15,MF,1
+100,Provincia di Misurata,Totale generale,VI,domestici,MF,0
+101,Provincia di Misurata,Totale generale,VII,addetti,MF,2
+101,Provincia di Misurata,Totale generale,VII,addetti,M,2
+101,Provincia di Misurata,Totale generale,VII,addetti,F,0
+101,Provincia di Misurata,Totale generale,VII,celibi_nubili,MF,0
+101,Provincia di Misurata,Totale generale,VII,celibi_nubili,F,0
+101,Provincia di Misurata,Totale generale,VII,coniugati_vedovi,MF,2
+101,Provincia di Misurata,Totale generale,VII,coniugati_vedovi,F,0
+101,Provincia di Misurata,Totale generale,VII,capi_famiglia,MF,2
+101,Provincia di Misurata,Totale generale,VII,capi_famiglia,F,0
+101,Provincia di Misurata,Totale generale,VII,membri,MF,4
+101,Provincia di Misurata,Totale generale,VII,membri,F,1
+101,Provincia di Misurata,Totale generale,VII,improduttivi,MF,2
+101,Provincia di Misurata,Totale generale,VII,improduttivi,F,1
+101,Provincia di Misurata,Totale generale,VII,improduttivi_under15,MF,1
+101,Provincia di Misurata,Totale generale,VII,domestici,MF,0
+102,Provincia di Misurata,Totale generale,VIII,addetti,MF,347
+102,Provincia di Misurata,Totale generale,VIII,addetti,M,331
+102,Provincia di Misurata,Totale generale,VIII,addetti,F,16
+102,Provincia di Misurata,Totale generale,VIII,celibi_nubili,MF,187
+102,Provincia di Misurata,Totale generale,VIII,celibi_nubili,F,6
+102,Provincia di Misurata,Totale generale,VIII,coniugati_vedovi,MF,160
+102,Provincia di Misurata,Totale generale,VIII,coniugati_vedovi,F,10
+102,Provincia di Misurata,Totale generale,VIII,capi_famiglia,MF,198
+102,Provincia di Misurata,Totale generale,VIII,capi_famiglia,F,4
+102,Provincia di Misurata,Totale generale,VIII,membri,MF,582
+102,Provincia di Misurata,Totale generale,VIII,membri,F,269
+102,Provincia di Misurata,Totale generale,VIII,improduttivi,MF,348
+102,Provincia di Misurata,Totale generale,VIII,improduttivi,F,231
+102,Provincia di Misurata,Totale generale,VIII,improduttivi_under15,MF,199
+102,Provincia di Misurata,Totale generale,VIII,domestici,MF,16
+103,Provincia di Misurata,Totale generale,IX,addetti,MF,7
+103,Provincia di Misurata,Totale generale,IX,addetti,M,2
+103,Provincia di Misurata,Totale generale,IX,addetti,F,5
+103,Provincia di Misurata,Totale generale,IX,celibi_nubili,MF,7
+103,Provincia di Misurata,Totale generale,IX,celibi_nubili,F,5
+103,Provincia di Misurata,Totale generale,IX,coniugati_vedovi,MF,0
+103,Provincia di Misurata,Totale generale,IX,coniugati_vedovi,F,0
+103,Provincia di Misurata,Totale generale,IX,capi_famiglia,MF,0
+103,Provincia di Misurata,Totale generale,IX,capi_famiglia,F,0
+103,Provincia di Misurata,Totale generale,IX,membri,MF,0
+103,Provincia di Misurata,Totale generale,IX,membri,F,0
+103,Provincia di Misurata,Totale generale,IX,improduttivi,MF,0
+103,Provincia di Misurata,Totale generale,IX,improduttivi,F,0
+103,Provincia di Misurata,Totale generale,IX,improduttivi_under15,MF,0
+103,Provincia di Misurata,Totale generale,IX,domestici,MF,0
+104,Provincia di Misurata,Totale generale,X,addetti,MF,5
+104,Provincia di Misurata,Totale generale,X,addetti,M,4
+104,Provincia di Misurata,Totale generale,X,addetti,F,1
+104,Provincia di Misurata,Totale generale,X,celibi_nubili,MF,5
+104,Provincia di Misurata,Totale generale,X,celibi_nubili,F,1
+104,Provincia di Misurata,Totale generale,X,coniugati_vedovi,MF,0
+104,Provincia di Misurata,Totale generale,X,coniugati_vedovi,F,0
+104,Provincia di Misurata,Totale generale,X,capi_famiglia,MF,2
+104,Provincia di Misurata,Totale generale,X,capi_famiglia,F,0
+104,Provincia di Misurata,Totale generale,X,membri,MF,2
+104,Provincia di Misurata,Totale generale,X,membri,F,0
+104,Provincia di Misurata,Totale generale,X,improduttivi,MF,0
+104,Provincia di Misurata,Totale generale,X,improduttivi,F,0
+104,Provincia di Misurata,Totale generale,X,improduttivi_under15,MF,0
+104,Provincia di Misurata,Totale generale,X,domestici,MF,0
+105,Provincia di Misurata,Totale generale,XI,addetti,MF,23
+105,Provincia di Misurata,Totale generale,XI,addetti,M,3
+105,Provincia di Misurata,Totale generale,XI,addetti,F,20
+105,Provincia di Misurata,Totale generale,XI,celibi_nubili,MF,21
+105,Provincia di Misurata,Totale generale,XI,celibi_nubili,F,20
+105,Provincia di Misurata,Totale generale,XI,coniugati_vedovi,MF,2
+105,Provincia di Misurata,Totale generale,XI,coniugati_vedovi,F,0
+105,Provincia di Misurata,Totale generale,XI,capi_famiglia,MF,0
+105,Provincia di Misurata,Totale generale,XI,capi_famiglia,F,0
+105,Provincia di Misurata,Totale generale,XI,membri,MF,0
+105,Provincia di Misurata,Totale generale,XI,membri,F,0
+105,Provincia di Misurata,Totale generale,XI,improduttivi,MF,0
+105,Provincia di Misurata,Totale generale,XI,improduttivi,F,0
+105,Provincia di Misurata,Totale generale,XI,improduttivi_under15,MF,0
+105,Provincia di Misurata,Totale generale,XI,domestici,MF,0
+106,Provincia di Misurata,Totale generale,XII,addetti,MF,562
+106,Provincia di Misurata,Totale generale,XII,addetti,M,96
+106,Provincia di Misurata,Totale generale,XII,addetti,F,466
+106,Provincia di Misurata,Totale generale,XII,celibi_nubili,MF,234
+106,Provincia di Misurata,Totale generale,XII,celibi_nubili,F,151
+106,Provincia di Misurata,Totale generale,XII,coniugati_vedovi,MF,328
+106,Provincia di Misurata,Totale generale,XII,coniugati_vedovi,F,315
+106,Provincia di Misurata,Totale generale,XII,capi_famiglia,MF,8
+106,Provincia di Misurata,Totale generale,XII,capi_famiglia,F,2
+106,Provincia di Misurata,Totale generale,XII,membri,MF,27
+106,Provincia di Misurata,Totale generale,XII,membri,F,14
+106,Provincia di Misurata,Totale generale,XII,improduttivi,MF,15
+106,Provincia di Misurata,Totale generale,XII,improduttivi,F,10
+106,Provincia di Misurata,Totale generale,XII,improduttivi_under15,MF,4
+106,Provincia di Misurata,Totale generale,XII,domestici,MF,2
+107,Provincia di Misurata,Totale generale,Totale,addetti,MF,1803
+107,Provincia di Misurata,Totale generale,Totale,addetti,M,1250
+107,Provincia di Misurata,Totale generale,Totale,addetti,F,553
+107,Provincia di Misurata,Totale generale,Totale,celibi_nubili,MF,742
+107,Provincia di Misurata,Totale generale,Totale,celibi_nubili,F,201
+107,Provincia di Misurata,Totale generale,Totale,coniugati_vedovi,MF,1061
+107,Provincia di Misurata,Totale generale,Totale,coniugati_vedovi,F,352
+107,Provincia di Misurata,Totale generale,Totale,capi_famiglia,MF,558
+107,Provincia di Misurata,Totale generale,Totale,capi_famiglia,F,16
+107,Provincia di Misurata,Totale generale,Totale,membri,MF,1753
+107,Provincia di Misurata,Totale generale,Totale,membri,F,781
+107,Provincia di Misurata,Totale generale,Totale,improduttivi,MF,1021
+107,Provincia di Misurata,Totale generale,Totale,improduttivi,F,700
+107,Provincia di Misurata,Totale generale,Totale,improduttivi_under15,MF,589
+107,Provincia di Misurata,Totale generale,Totale,domestici,MF,22
+108,Provincia di Bengasi,Totale generale,I,addetti,MF,326
+108,Provincia di Bengasi,Totale generale,I,addetti,M,305
+108,Provincia di Bengasi,Totale generale,I,addetti,F,21
+108,Provincia di Bengasi,Totale generale,I,celibi_nubili,MF,118
+108,Provincia di Bengasi,Totale generale,I,celibi_nubili,F,7
+108,Provincia di Bengasi,Totale generale,I,coniugati_vedovi,MF,208
+108,Provincia di Bengasi,Totale generale,I,coniugati_vedovi,F,14
+108,Provincia di Bengasi,Totale generale,I,capi_famiglia,MF,217
+108,Provincia di Bengasi,Totale generale,I,capi_famiglia,F,0
+108,Provincia di Bengasi,Totale generale,I,membri,MF,812
+108,Provincia di Bengasi,Totale generale,I,membri,F,367
+108,Provincia di Bengasi,Totale generale,I,improduttivi,MF,428
+108,Provincia di Bengasi,Totale generale,I,improduttivi,F,321
+108,Provincia di Bengasi,Totale generale,I,improduttivi_under15,MF,235
+108,Provincia di Bengasi,Totale generale,I,domestici,MF,8
+109,Provincia di Bengasi,Totale generale,II,addetti,MF,76
+109,Provincia di Bengasi,Totale generale,II,addetti,M,76
+109,Provincia di Bengasi,Totale generale,II,addetti,F,0
+109,Provincia di Bengasi,Totale generale,II,celibi_nubili,MF,21
+109,Provincia di Bengasi,Totale generale,II,celibi_nubili,F,0
+109,Provincia di Bengasi,Totale generale,II,coniugati_vedovi,MF,55
+109,Provincia di Bengasi,Totale generale,II,coniugati_vedovi,F,0
+109,Provincia di Bengasi,Totale generale,II,capi_famiglia,MF,55
+109,Provincia di Bengasi,Totale generale,II,capi_famiglia,F,0
+109,Provincia di Bengasi,Totale generale,II,membri,MF,207
+109,Provincia di Bengasi,Totale generale,II,membri,F,88
+109,Provincia di Bengasi,Totale generale,II,improduttivi,MF,121
+109,Provincia di Bengasi,Totale generale,II,improduttivi,F,86
+109,Provincia di Bengasi,Totale generale,II,improduttivi_under15,MF,72
+109,Provincia di Bengasi,Totale generale,II,domestici,MF,1
+110,Provincia di Bengasi,Totale generale,III,addetti,MF,2246
+110,Provincia di Bengasi,Totale generale,III,addetti,M,1988
+110,Provincia di Bengasi,Totale generale,III,addetti,F,258
+110,Provincia di Bengasi,Totale generale,III,celibi_nubili,MF,942
+110,Provincia di Bengasi,Totale generale,III,celibi_nubili,F,181
+110,Provincia di Bengasi,Totale generale,III,coniugati_vedovi,MF,1304
+110,Provincia di Bengasi,Totale generale,III,coniugati_vedovi,F,77
+110,Provincia di Bengasi,Totale generale,III,capi_famiglia,MF,1250
+110,Provincia di Bengasi,Totale generale,III,capi_famiglia,F,43
+110,Provincia di Bengasi,Totale generale,III,membri,MF,4906
+110,Provincia di Bengasi,Totale generale,III,membri,F,2292
+110,Provincia di Bengasi,Totale generale,III,improduttivi,MF,2985
+110,Provincia di Bengasi,Totale generale,III,improduttivi,F,2115
+110,Provincia di Bengasi,Totale generale,III,improduttivi_under15,MF,1650
+110,Provincia di Bengasi,Totale generale,III,domestici,MF,41
+111,Provincia di Bengasi,Totale generale,IV,addetti,MF,510
+111,Provincia di Bengasi,Totale generale,IV,addetti,M,504
+111,Provincia di Bengasi,Totale generale,IV,addetti,F,6
+111,Provincia di Bengasi,Totale generale,IV,celibi_nubili,MF,182
+111,Provincia di Bengasi,Totale generale,IV,celibi_nubili,F,6
+111,Provincia di Bengasi,Totale generale,IV,coniugati_vedovi,MF,328
+111,Provincia di Bengasi,Totale generale,IV,coniugati_vedovi,F,0
+111,Provincia di Bengasi,Totale generale,IV,capi_famiglia,MF,347
+111,Provincia di Bengasi,Totale generale,IV,capi_famiglia,F,0
+111,Provincia di Bengasi,Totale generale,IV,membri,MF,1372
+111,Provincia di Bengasi,Totale generale,IV,membri,F,662
+111,Provincia di Bengasi,Totale generale,IV,improduttivi,MF,863
+111,Provincia di Bengasi,Totale generale,IV,improduttivi,F,611
+111,Provincia di Bengasi,Totale generale,IV,improduttivi_under15,MF,477
+111,Provincia di Bengasi,Totale generale,IV,domestici,MF,19
+112,Provincia di Bengasi,Totale generale,V,addetti,MF,848
+112,Provincia di Bengasi,Totale generale,V,addetti,M,623
+112,Provincia di Bengasi,Totale generale,V,addetti,F,225
+112,Provincia di Bengasi,Totale generale,V,celibi_nubili,MF,302
+112,Provincia di Bengasi,Totale generale,V,celibi_nubili,F,85
+112,Provincia di Bengasi,Totale generale,V,coniugati_vedovi,MF,546
+112,Provincia di Bengasi,Totale generale,V,coniugati_vedovi,F,140
+112,Provincia di Bengasi,Totale generale,V,capi_famiglia,MF,495
+112,Provincia di Bengasi,Totale generale,V,capi_famiglia,F,43
+112,Provincia di Bengasi,Totale generale,V,membri,MF,1998
+112,Provincia di Bengasi,Totale generale,V,membri,F,959
+112,Provincia di Bengasi,Totale generale,V,improduttivi,MF,1098
+112,Provincia di Bengasi,Totale generale,V,improduttivi,F,772
+112,Provincia di Bengasi,Totale generale,V,improduttivi_under15,MF,573
+112,Provincia di Bengasi,Totale generale,V,domestici,MF,63
+113,Provincia di Bengasi,Totale generale,VI,addetti,MF,80
+113,Provincia di Bengasi,Totale generale,VI,addetti,M,79
+113,Provincia di Bengasi,Totale generale,VI,addetti,F,1
+113,Provincia di Bengasi,Totale generale,VI,celibi_nubili,MF,27
+113,Provincia di Bengasi,Totale generale,VI,celibi_nubili,F,1
+113,Provincia di Bengasi,Totale generale,VI,coniugati_vedovi,MF,53
+113,Provincia di Bengasi,Totale generale,VI,coniugati_vedovi,F,0
+113,Provincia di Bengasi,Totale generale,VI,capi_famiglia,MF,61
+113,Provincia di Bengasi,Totale generale,VI,capi_famiglia,F,0
+113,Provincia di Bengasi,Totale generale,VI,membri,MF,216
+113,Provincia di Bengasi,Totale generale,VI,membri,F,112
+113,Provincia di Bengasi,Totale generale,VI,improduttivi,MF,121
+113,Provincia di Bengasi,Totale generale,VI,improduttivi,F,93
+113,Provincia di Bengasi,Totale generale,VI,improduttivi_under15,MF,57
+113,Provincia di Bengasi,Totale generale,VI,domestici,MF,14
+114,Provincia di Bengasi,Totale generale,VII,addetti,MF,79
+114,Provincia di Bengasi,Totale generale,VII,addetti,M,61
+114,Provincia di Bengasi,Totale generale,VII,addetti,F,18
+114,Provincia di Bengasi,Totale generale,VII,celibi_nubili,MF,27
+114,Provincia di Bengasi,Totale generale,VII,celibi_nubili,F,8
+114,Provincia di Bengasi,Totale generale,VII,coniugati_vedovi,MF,52
+114,Provincia di Bengasi,Totale generale,VII,coniugati_vedovi,F,10
+114,Provincia di Bengasi,Totale generale,VII,capi_famiglia,MF,48
+114,Provincia di Bengasi,Totale generale,VII,capi_famiglia,F,3
+114,Provincia di Bengasi,Totale generale,VII,membri,MF,163
+114,Provincia di Bengasi,Totale generale,VII,membri,F,83
+114,Provincia di Bengasi,Totale generale,VII,improduttivi,MF,85
+114,Provincia di Bengasi,Totale generale,VII,improduttivi,F,58
+114,Provincia di Bengasi,Totale generale,VII,improduttivi_under15,MF,38
+114,Provincia di Bengasi,Totale generale,VII,domestici,MF,17
+115,Provincia di Bengasi,Totale generale,VIII,addetti,MF,2712
+115,Provincia di Bengasi,Totale generale,VIII,addetti,M,2528
+115,Provincia di Bengasi,Totale generale,VIII,addetti,F,184
+115,Provincia di Bengasi,Totale generale,VIII,celibi_nubili,MF,1497
+115,Provincia di Bengasi,Totale generale,VIII,celibi_nubili,F,114
+115,Provincia di Bengasi,Totale generale,VIII,coniugati_vedovi,MF,1215
+115,Provincia di Bengasi,Totale generale,VIII,coniugati_vedovi,F,70
+115,Provincia di Bengasi,Totale generale,VIII,capi_famiglia,MF,1137
+115,Provincia di Bengasi,Totale generale,VIII,capi_famiglia,F,33
+115,Provincia di Bengasi,Totale generale,VIII,membri,MF,4063
+115,Provincia di Bengasi,Totale generale,VIII,membri,F,2062
+115,Provincia di Bengasi,Totale generale,VIII,improduttivi,MF,2478
+115,Provincia di Bengasi,Totale generale,VIII,improduttivi,F,1787
+115,Provincia di Bengasi,Totale generale,VIII,improduttivi_under15,MF,1267
+115,Provincia di Bengasi,Totale generale,VIII,domestici,MF,153
+116,Provincia di Bengasi,Totale generale,IX,addetti,MF,8
+116,Provincia di Bengasi,Totale generale,IX,addetti,M,2
+116,Provincia di Bengasi,Totale generale,IX,addetti,F,6
+116,Provincia di Bengasi,Totale generale,IX,celibi_nubili,MF,6
+116,Provincia di Bengasi,Totale generale,IX,celibi_nubili,F,5
+116,Provincia di Bengasi,Totale generale,IX,coniugati_vedovi,MF,2
+116,Provincia di Bengasi,Totale generale,IX,coniugati_vedovi,F,1
+116,Provincia di Bengasi,Totale generale,IX,capi_famiglia,MF,1
+116,Provincia di Bengasi,Totale generale,IX,capi_famiglia,F,0
+116,Provincia di Bengasi,Totale generale,IX,membri,MF,4
+116,Provincia di Bengasi,Totale generale,IX,membri,F,2
+116,Provincia di Bengasi,Totale generale,IX,improduttivi,MF,3
+116,Provincia di Bengasi,Totale generale,IX,improduttivi,F,2
+116,Provincia di Bengasi,Totale generale,IX,improduttivi_under15,MF,2
+116,Provincia di Bengasi,Totale generale,IX,domestici,MF,0
+117,Provincia di Bengasi,Totale generale,X,addetti,MF,22
+117,Provincia di Bengasi,Totale generale,X,addetti,M,20
+117,Provincia di Bengasi,Totale generale,X,addetti,F,2
+117,Provincia di Bengasi,Totale generale,X,celibi_nubili,MF,22
+117,Provincia di Bengasi,Totale generale,X,celibi_nubili,F,2
+117,Provincia di Bengasi,Totale generale,X,coniugati_vedovi,MF,0
+117,Provincia di Bengasi,Totale generale,X,coniugati_vedovi,F,0
+117,Provincia di Bengasi,Totale generale,X,capi_famiglia,MF,4
+117,Provincia di Bengasi,Totale generale,X,capi_famiglia,F,0
+117,Provincia di Bengasi,Totale generale,X,membri,MF,6
+117,Provincia di Bengasi,Totale generale,X,membri,F,2
+117,Provincia di Bengasi,Totale generale,X,improduttivi,MF,2
+117,Provincia di Bengasi,Totale generale,X,improduttivi,F,2
+117,Provincia di Bengasi,Totale generale,X,improduttivi_under15,MF,0
+117,Provincia di Bengasi,Totale generale,X,domestici,MF,0
+118,Provincia di Bengasi,Totale generale,XI,addetti,MF,334
+118,Provincia di Bengasi,Totale generale,XI,addetti,M,8
+118,Provincia di Bengasi,Totale generale,XI,addetti,F,326
+118,Provincia di Bengasi,Totale generale,XI,celibi_nubili,MF,296
+118,Provincia di Bengasi,Totale generale,XI,celibi_nubili,F,291
+118,Provincia di Bengasi,Totale generale,XI,coniugati_vedovi,MF,38
+118,Provincia di Bengasi,Totale generale,XI,coniugati_vedovi,F,35
+118,Provincia di Bengasi,Totale generale,XI,capi_famiglia,MF,14
+118,Provincia di Bengasi,Totale generale,XI,capi_famiglia,F,13
+118,Provincia di Bengasi,Totale generale,XI,membri,MF,48
+118,Provincia di Bengasi,Totale generale,XI,membri,F,16
+118,Provincia di Bengasi,Totale generale,XI,improduttivi,MF,7
+118,Provincia di Bengasi,Totale generale,XI,improduttivi,F,4
+118,Provincia di Bengasi,Totale generale,XI,improduttivi_under15,MF,4
+118,Provincia di Bengasi,Totale generale,XI,domestici,MF,0
+119,Provincia di Bengasi,Totale generale,XII,addetti,MF,5862
+119,Provincia di Bengasi,Totale generale,XII,addetti,M,963
+119,Provincia di Bengasi,Totale generale,XII,addetti,F,4899
+119,Provincia di Bengasi,Totale generale,XII,celibi_nubili,MF,2438
+119,Provincia di Bengasi,Totale generale,XII,celibi_nubili,F,1585
+119,Provincia di Bengasi,Totale generale,XII,coniugati_vedovi,MF,3424
+119,Provincia di Bengasi,Totale generale,XII,coniugati_vedovi,F,3314
+119,Provincia di Bengasi,Totale generale,XII,capi_famiglia,MF,227
+119,Provincia di Bengasi,Totale generale,XII,capi_famiglia,F,150
+119,Provincia di Bengasi,Totale generale,XII,membri,MF,741
+119,Provincia di Bengasi,Totale generale,XII,membri,F,431
+119,Provincia di Bengasi,Totale generale,XII,improduttivi,MF,448
+119,Provincia di Bengasi,Totale generale,XII,improduttivi,F,362
+119,Provincia di Bengasi,Totale generale,XII,improduttivi_under15,MF,102
+119,Provincia di Bengasi,Totale generale,XII,domestici,MF,9
+120,Provincia di Bengasi,Totale generale,Totale,addetti,MF,13103
+120,Provincia di Bengasi,Totale generale,Totale,addetti,M,7157
+120,Provincia di Bengasi,Totale generale,Totale,addetti,F,5946
+120,Provincia di Bengasi,Totale generale,Totale,celibi_nubili,MF,5878
+120,Provincia di Bengasi,Totale generale,Totale,celibi_nubili,F,2285
+120,Provincia di Bengasi,Totale generale,Totale,coniugati_vedovi,MF,7225
+120,Provincia di Bengasi,Totale generale,Totale,coniugati_vedovi,F,3661
+120,Provincia di Bengasi,Totale generale,Totale,capi_famiglia,MF,3856
+120,Provincia di Bengasi,Totale generale,Totale,capi_famiglia,F,285
+120,Provincia di Bengasi,Totale generale,Totale,membri,MF,14536
+120,Provincia di Bengasi,Totale generale,Totale,membri,F,7076
+120,Provincia di Bengasi,Totale generale,Totale,improduttivi,MF,8639
+120,Provincia di Bengasi,Totale generale,Totale,improduttivi,F,6213
+120,Provincia di Bengasi,Totale generale,Totale,improduttivi_under15,MF,4477
+120,Provincia di Bengasi,Totale generale,Totale,domestici,MF,325
+121,Provincia di Derna,Totale generale,I,addetti,MF,839
+121,Provincia di Derna,Totale generale,I,addetti,M,800
+121,Provincia di Derna,Totale generale,I,addetti,F,39
+121,Provincia di Derna,Totale generale,I,celibi_nubili,MF,442
+121,Provincia di Derna,Totale generale,I,celibi_nubili,F,35
+121,Provincia di Derna,Totale generale,I,coniugati_vedovi,MF,397
+121,Provincia di Derna,Totale generale,I,coniugati_vedovi,F,4
+121,Provincia di Derna,Totale generale,I,capi_famiglia,MF,349
+121,Provincia di Derna,Totale generale,I,capi_famiglia,F,1
+121,Provincia di Derna,Totale generale,I,membri,MF,2326
+121,Provincia di Derna,Totale generale,I,membri,F,1000
+121,Provincia di Derna,Totale generale,I,improduttivi,MF,1370
+121,Provincia di Derna,Totale generale,I,improduttivi,F,953
+121,Provincia di Derna,Totale generale,I,improduttivi_under15,MF,830
+121,Provincia di Derna,Totale generale,I,domestici,MF,1
+122,Provincia di Derna,Totale generale,II,addetti,MF,10
+122,Provincia di Derna,Totale generale,II,addetti,M,10
+122,Provincia di Derna,Totale generale,II,addetti,F,0
+122,Provincia di Derna,Totale generale,II,celibi_nubili,MF,1
+122,Provincia di Derna,Totale generale,II,celibi_nubili,F,0
+122,Provincia di Derna,Totale generale,II,coniugati_vedovi,MF,9
+122,Provincia di Derna,Totale generale,II,coniugati_vedovi,F,0
+122,Provincia di Derna,Totale generale,II,capi_famiglia,MF,8
+122,Provincia di Derna,Totale generale,II,capi_famiglia,F,0
+122,Provincia di Derna,Totale generale,II,membri,MF,21
+122,Provincia di Derna,Totale generale,II,membri,F,7
+122,Provincia di Derna,Totale generale,II,improduttivi,MF,11
+122,Provincia di Derna,Totale generale,II,improduttivi,F,7
+122,Provincia di Derna,Totale generale,II,improduttivi_under15,MF,7
+122,Provincia di Derna,Totale generale,II,domestici,MF,0
+123,Provincia di Derna,Totale generale,III,addetti,MF,459
+123,Provincia di Derna,Totale generale,III,addetti,M,443
+123,Provincia di Derna,Totale generale,III,addetti,F,16
+123,Provincia di Derna,Totale generale,III,celibi_nubili,MF,185
+123,Provincia di Derna,Totale generale,III,celibi_nubili,F,8
+123,Provincia di Derna,Totale generale,III,coniugati_vedovi,MF,274
+123,Provincia di Derna,Totale generale,III,coniugati_vedovi,F,8
+123,Provincia di Derna,Totale generale,III,capi_famiglia,MF,307
+123,Provincia di Derna,Totale generale,III,capi_famiglia,F,4
+123,Provincia di Derna,Totale generale,III,membri,MF,826
+123,Provincia di Derna,Totale generale,III,membri,F,332
+123,Provincia di Derna,Totale generale,III,improduttivi,MF,431
+123,Provincia di Derna,Totale generale,III,improduttivi,F,318
+123,Provincia di Derna,Totale generale,III,improduttivi_under15,MF,239
+123,Provincia di Derna,Totale generale,III,domestici,MF,2
+124,Provincia di Derna,Totale generale,IV,addetti,MF,88
+124,Provincia di Derna,Totale generale,IV,addetti,M,86
+124,Provincia di Derna,Totale generale,IV,addetti,F,2
+124,Provincia di Derna,Totale generale,IV,celibi_nubili,MF,41
+124,Provincia di Derna,Totale generale,IV,celibi_nubili,F,0
+124,Provincia di Derna,Totale generale,IV,coniugati_vedovi,MF,47
+124,Provincia di Derna,Totale generale,IV,coniugati_vedovi,F,2
+124,Provincia di Derna,Totale generale,IV,capi_famiglia,MF,66
+124,Provincia di Derna,Totale generale,IV,capi_famiglia,F,0
+124,Provincia di Derna,Totale generale,IV,membri,MF,189
+124,Provincia di Derna,Totale generale,IV,membri,F,76
+124,Provincia di Derna,Totale generale,IV,improduttivi,MF,103
+124,Provincia di Derna,Totale generale,IV,improduttivi,F,69
+124,Provincia di Derna,Totale generale,IV,improduttivi_under15,MF,52
+124,Provincia di Derna,Totale generale,IV,domestici,MF,0
+125,Provincia di Derna,Totale generale,V,addetti,MF,201
+125,Provincia di Derna,Totale generale,V,addetti,M,153
+125,Provincia di Derna,Totale generale,V,addetti,F,48
+125,Provincia di Derna,Totale generale,V,celibi_nubili,MF,73
+125,Provincia di Derna,Totale generale,V,celibi_nubili,F,16
+125,Provincia di Derna,Totale generale,V,coniugati_vedovi,MF,128
+125,Provincia di Derna,Totale generale,V,coniugati_vedovi,F,32
+125,Provincia di Derna,Totale generale,V,capi_famiglia,MF,115
+125,Provincia di Derna,Totale generale,V,capi_famiglia,F,8
+125,Provincia di Derna,Totale generale,V,membri,MF,413
+125,Provincia di Derna,Totale generale,V,membri,F,170
+125,Provincia di Derna,Totale generale,V,improduttivi,MF,211
+125,Provincia di Derna,Totale generale,V,improduttivi,F,134
+125,Provincia di Derna,Totale generale,V,improduttivi_under15,MF,126
+125,Provincia di Derna,Totale generale,V,domestici,MF,7
+126,Provincia di Derna,Totale generale,VI,addetti,MF,13
+126,Provincia di Derna,Totale generale,VI,addetti,M,13
+126,Provincia di Derna,Totale generale,VI,addetti,F,0
+126,Provincia di Derna,Totale generale,VI,celibi_nubili,MF,7
+126,Provincia di Derna,Totale generale,VI,celibi_nubili,F,0
+126,Provincia di Derna,Totale generale,VI,coniugati_vedovi,MF,6
+126,Provincia di Derna,Totale generale,VI,coniugati_vedovi,F,0
+126,Provincia di Derna,Totale generale,VI,capi_famiglia,MF,11
+126,Provincia di Derna,Totale generale,VI,capi_famiglia,F,0
+126,Provincia di Derna,Totale generale,VI,membri,MF,29
+126,Provincia di Derna,Totale generale,VI,membri,F,13
+126,Provincia di Derna,Totale generale,VI,improduttivi,MF,13
+126,Provincia di Derna,Totale generale,VI,improduttivi,F,10
+126,Provincia di Derna,Totale generale,VI,improduttivi_under15,MF,5
+126,Provincia di Derna,Totale generale,VI,domestici,MF,1
+127,Provincia di Derna,Totale generale,VII,addetti,MF,5
+127,Provincia di Derna,Totale generale,VII,addetti,M,4
+127,Provincia di Derna,Totale generale,VII,addetti,F,1
+127,Provincia di Derna,Totale generale,VII,celibi_nubili,MF,3
+127,Provincia di Derna,Totale generale,VII,celibi_nubili,F,0
+127,Provincia di Derna,Totale generale,VII,coniugati_vedovi,MF,2
+127,Provincia di Derna,Totale generale,VII,coniugati_vedovi,F,1
+127,Provincia di Derna,Totale generale,VII,capi_famiglia,MF,1
+127,Provincia di Derna,Totale generale,VII,capi_famiglia,F,0
+127,Provincia di Derna,Totale generale,VII,membri,MF,3
+127,Provincia di Derna,Totale generale,VII,membri,F,2
+127,Provincia di Derna,Totale generale,VII,improduttivi,MF,0
+127,Provincia di Derna,Totale generale,VII,improduttivi,F,0
+127,Provincia di Derna,Totale generale,VII,improduttivi_under15,MF,0
+127,Provincia di Derna,Totale generale,VII,domestici,MF,1
+128,Provincia di Derna,Totale generale,VIII,addetti,MF,1026
+128,Provincia di Derna,Totale generale,VIII,addetti,M,971
+128,Provincia di Derna,Totale generale,VIII,addetti,F,55
+128,Provincia di Derna,Totale generale,VIII,celibi_nubili,MF,681
+128,Provincia di Derna,Totale generale,VIII,celibi_nubili,F,33
+128,Provincia di Derna,Totale generale,VIII,coniugati_vedovi,MF,345
+128,Provincia di Derna,Totale generale,VIII,coniugati_vedovi,F,22
+128,Provincia di Derna,Totale generale,VIII,capi_famiglia,MF,262
+128,Provincia di Derna,Totale generale,VIII,capi_famiglia,F,10
+128,Provincia di Derna,Totale generale,VIII,membri,MF,656
+128,Provincia di Derna,Totale generale,VIII,membri,F,297
+128,Provincia di Derna,Totale generale,VIII,improduttivi,MF,345
+128,Provincia di Derna,Totale generale,VIII,improduttivi,F,258
+128,Provincia di Derna,Totale generale,VIII,improduttivi_under15,MF,182
+128,Provincia di Derna,Totale generale,VIII,domestici,MF,12
+129,Provincia di Derna,Totale generale,IX,addetti,MF,0
+129,Provincia di Derna,Totale generale,IX,addetti,M,0
+129,Provincia di Derna,Totale generale,IX,addetti,F,0
+129,Provincia di Derna,Totale generale,IX,celibi_nubili,MF,0
+129,Provincia di Derna,Totale generale,IX,celibi_nubili,F,0
+129,Provincia di Derna,Totale generale,IX,coniugati_vedovi,MF,0
+129,Provincia di Derna,Totale generale,IX,coniugati_vedovi,F,0
+129,Provincia di Derna,Totale generale,IX,capi_famiglia,MF,0
+129,Provincia di Derna,Totale generale,IX,capi_famiglia,F,0
+129,Provincia di Derna,Totale generale,IX,membri,MF,0
+129,Provincia di Derna,Totale generale,IX,membri,F,0
+129,Provincia di Derna,Totale generale,IX,improduttivi,MF,0
+129,Provincia di Derna,Totale generale,IX,improduttivi,F,0
+129,Provincia di Derna,Totale generale,IX,improduttivi_under15,MF,0
+129,Provincia di Derna,Totale generale,IX,domestici,MF,0
+130,Provincia di Derna,Totale generale,X,addetti,MF,15
+130,Provincia di Derna,Totale generale,X,addetti,M,13
+130,Provincia di Derna,Totale generale,X,addetti,F,2
+130,Provincia di Derna,Totale generale,X,celibi_nubili,MF,15
+130,Provincia di Derna,Totale generale,X,celibi_nubili,F,2
+130,Provincia di Derna,Totale generale,X,coniugati_vedovi,MF,0
+130,Provincia di Derna,Totale generale,X,coniugati_vedovi,F,0
+130,Provincia di Derna,Totale generale,X,capi_famiglia,MF,3
+130,Provincia di Derna,Totale generale,X,capi_famiglia,F,0
+130,Provincia di Derna,Totale generale,X,membri,MF,4
+130,Provincia di Derna,Totale generale,X,membri,F,0
+130,Provincia di Derna,Totale generale,X,improduttivi,MF,0
+130,Provincia di Derna,Totale generale,X,improduttivi,F,0
+130,Provincia di Derna,Totale generale,X,improduttivi_under15,MF,0
+130,Provincia di Derna,Totale generale,X,domestici,MF,0
+131,Provincia di Derna,Totale generale,XI,addetti,MF,25
+131,Provincia di Derna,Totale generale,XI,addetti,M,2
+131,Provincia di Derna,Totale generale,XI,addetti,F,23
+131,Provincia di Derna,Totale generale,XI,celibi_nubili,MF,20
+131,Provincia di Derna,Totale generale,XI,celibi_nubili,F,18
+131,Provincia di Derna,Totale generale,XI,coniugati_vedovi,MF,5
+131,Provincia di Derna,Totale generale,XI,coniugati_vedovi,F,5
+131,Provincia di Derna,Totale generale,XI,capi_famiglia,MF,0
+131,Provincia di Derna,Totale generale,XI,capi_famiglia,F,0
+131,Provincia di Derna,Totale generale,XI,membri,MF,0
+131,Provincia di Derna,Totale generale,XI,membri,F,0
+131,Provincia di Derna,Totale generale,XI,improduttivi,MF,0
+131,Provincia di Derna,Totale generale,XI,improduttivi,F,0
+131,Provincia di Derna,Totale generale,XI,improduttivi_under15,MF,0
+131,Provincia di Derna,Totale generale,XI,domestici,MF,0
+132,Provincia di Derna,Totale generale,XII,addetti,MF,1477
+132,Provincia di Derna,Totale generale,XII,addetti,M,201
+132,Provincia di Derna,Totale generale,XII,addetti,F,1276
+132,Provincia di Derna,Totale generale,XII,celibi_nubili,MF,638
+132,Provincia di Derna,Totale generale,XII,celibi_nubili,F,452
+132,Provincia di Derna,Totale generale,XII,coniugati_vedovi,MF,839
+132,Provincia di Derna,Totale generale,XII,coniugati_vedovi,F,824
+132,Provincia di Derna,Totale generale,XII,capi_famiglia,MF,22
+132,Provincia di Derna,Totale generale,XII,capi_famiglia,F,16
+132,Provincia di Derna,Totale generale,XII,membri,MF,59
+132,Provincia di Derna,Totale generale,XII,membri,F,31
+132,Provincia di Derna,Totale generale,XII,improduttivi,MF,39
+132,Provincia di Derna,Totale generale,XII,improduttivi,F,29
+132,Provincia di Derna,Totale generale,XII,improduttivi_under15,MF,8
+132,Provincia di Derna,Totale generale,XII,domestici,MF,0
+133,Provincia di Derna,Totale generale,Totale,addetti,MF,4158
+133,Provincia di Derna,Totale generale,Totale,addetti,M,2696
+133,Provincia di Derna,Totale generale,Totale,addetti,F,1462
+133,Provincia di Derna,Totale generale,Totale,celibi_nubili,MF,2106
+133,Provincia di Derna,Totale generale,Totale,celibi_nubili,F,564
+133,Provincia di Derna,Totale generale,Totale,coniugati_vedovi,MF,2052
+133,Provincia di Derna,Totale generale,Totale,coniugati_vedovi,F,898
+133,Provincia di Derna,Totale generale,Totale,capi_famiglia,MF,1144
+133,Provincia di Derna,Totale generale,Totale,capi_famiglia,F,39
+133,Provincia di Derna,Totale generale,Totale,membri,MF,4526
+133,Provincia di Derna,Totale generale,Totale,membri,F,1928
+133,Provincia di Derna,Totale generale,Totale,improduttivi,MF,2523
+133,Provincia di Derna,Totale generale,Totale,improduttivi,F,1778
+133,Provincia di Derna,Totale generale,Totale,improduttivi_under15,MF,1449
+133,Provincia di Derna,Totale generale,Totale,domestici,MF,24
+134,Territorio Militare del Sud,Totale generale,I,addetti,MF,1
+134,Territorio Militare del Sud,Totale generale,I,addetti,M,1
+134,Territorio Militare del Sud,Totale generale,I,addetti,F,0
+134,Territorio Militare del Sud,Totale generale,I,celibi_nubili,MF,1
+134,Territorio Militare del Sud,Totale generale,I,celibi_nubili,F,0
+134,Territorio Militare del Sud,Totale generale,I,coniugati_vedovi,MF,0
+134,Territorio Militare del Sud,Totale generale,I,coniugati_vedovi,F,0
+134,Territorio Militare del Sud,Totale generale,I,capi_famiglia,MF,0
+134,Territorio Militare del Sud,Totale generale,I,capi_famiglia,F,0
+134,Territorio Militare del Sud,Totale generale,I,membri,MF,0
+134,Territorio Militare del Sud,Totale generale,I,membri,F,0
+134,Territorio Militare del Sud,Totale generale,I,improduttivi,MF,0
+134,Territorio Militare del Sud,Totale generale,I,improduttivi,F,0
+134,Territorio Militare del Sud,Totale generale,I,improduttivi_under15,MF,0
+134,Territorio Militare del Sud,Totale generale,I,domestici,MF,0
+135,Territorio Militare del Sud,Totale generale,II,addetti,MF,0
+135,Territorio Militare del Sud,Totale generale,II,addetti,M,0
+135,Territorio Militare del Sud,Totale generale,II,addetti,F,0
+135,Territorio Militare del Sud,Totale generale,II,celibi_nubili,MF,0
+135,Territorio Militare del Sud,Totale generale,II,celibi_nubili,F,0
+135,Territorio Militare del Sud,Totale generale,II,coniugati_vedovi,MF,0
+135,Territorio Militare del Sud,Totale generale,II,coniugati_vedovi,F,0
+135,Territorio Militare del Sud,Totale generale,II,capi_famiglia,MF,0
+135,Territorio Militare del Sud,Totale generale,II,capi_famiglia,F,0
+135,Territorio Militare del Sud,Totale generale,II,membri,MF,0
+135,Territorio Militare del Sud,Totale generale,II,membri,F,0
+135,Territorio Militare del Sud,Totale generale,II,improduttivi,MF,0
+135,Territorio Militare del Sud,Totale generale,II,improduttivi,F,0
+135,Territorio Militare del Sud,Totale generale,II,improduttivi_under15,MF,0
+135,Territorio Militare del Sud,Totale generale,II,domestici,MF,0
+136,Territorio Militare del Sud,Totale generale,III,addetti,MF,12
+136,Territorio Militare del Sud,Totale generale,III,addetti,M,12
+136,Territorio Militare del Sud,Totale generale,III,addetti,F,0
+136,Territorio Militare del Sud,Totale generale,III,celibi_nubili,MF,11
+136,Territorio Militare del Sud,Totale generale,III,celibi_nubili,F,0
+136,Territorio Militare del Sud,Totale generale,III,coniugati_vedovi,MF,1
+136,Territorio Militare del Sud,Totale generale,III,coniugati_vedovi,F,0
+136,Territorio Militare del Sud,Totale generale,III,capi_famiglia,MF,0
+136,Territorio Militare del Sud,Totale generale,III,capi_famiglia,F,0
+136,Territorio Militare del Sud,Totale generale,III,membri,MF,0
+136,Territorio Militare del Sud,Totale generale,III,membri,F,0
+136,Territorio Militare del Sud,Totale generale,III,improduttivi,MF,0
+136,Territorio Militare del Sud,Totale generale,III,improduttivi,F,0
+136,Territorio Militare del Sud,Totale generale,III,improduttivi_under15,MF,0
+136,Territorio Militare del Sud,Totale generale,III,domestici,MF,0
+137,Territorio Militare del Sud,Totale generale,IV,addetti,MF,4
+137,Territorio Militare del Sud,Totale generale,IV,addetti,M,4
+137,Territorio Militare del Sud,Totale generale,IV,addetti,F,0
+137,Territorio Militare del Sud,Totale generale,IV,celibi_nubili,MF,3
+137,Territorio Militare del Sud,Totale generale,IV,celibi_nubili,F,0
+137,Territorio Militare del Sud,Totale generale,IV,coniugati_vedovi,MF,1
+137,Territorio Militare del Sud,Totale generale,IV,coniugati_vedovi,F,0
+137,Territorio Militare del Sud,Totale generale,IV,capi_famiglia,MF,2
+137,Territorio Militare del Sud,Totale generale,IV,capi_famiglia,F,0
+137,Territorio Militare del Sud,Totale generale,IV,membri,MF,3
+137,Territorio Militare del Sud,Totale generale,IV,membri,F,1
+137,Territorio Militare del Sud,Totale generale,IV,improduttivi,MF,1
+137,Territorio Militare del Sud,Totale generale,IV,improduttivi,F,1
+137,Territorio Militare del Sud,Totale generale,IV,improduttivi_under15,MF,0
+137,Territorio Militare del Sud,Totale generale,IV,domestici,MF,0
+138,Territorio Militare del Sud,Totale generale,V,addetti,MF,12
+138,Territorio Militare del Sud,Totale generale,V,addetti,M,10
+138,Territorio Militare del Sud,Totale generale,V,addetti,F,2
+138,Territorio Militare del Sud,Totale generale,V,celibi_nubili,MF,3
+138,Territorio Militare del Sud,Totale generale,V,celibi_nubili,F,0
+138,Territorio Militare del Sud,Totale generale,V,coniugati_vedovi,MF,9
+138,Territorio Militare del Sud,Totale generale,V,coniugati_vedovi,F,2
+138,Territorio Militare del Sud,Totale generale,V,capi_famiglia,MF,6
+138,Territorio Militare del Sud,Totale generale,V,capi_famiglia,F,0
+138,Territorio Militare del Sud,Totale generale,V,membri,MF,12
+138,Territorio Militare del Sud,Totale generale,V,membri,F,3
+138,Territorio Militare del Sud,Totale generale,V,improduttivi,MF,4
+138,Territorio Militare del Sud,Totale generale,V,improduttivi,F,1
+138,Territorio Militare del Sud,Totale generale,V,improduttivi_under15,MF,3
+138,Territorio Militare del Sud,Totale generale,V,domestici,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,addetti,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,addetti,M,0
+139,Territorio Militare del Sud,Totale generale,VI,addetti,F,0
+139,Territorio Militare del Sud,Totale generale,VI,celibi_nubili,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,celibi_nubili,F,0
+139,Territorio Militare del Sud,Totale generale,VI,coniugati_vedovi,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,coniugati_vedovi,F,0
+139,Territorio Militare del Sud,Totale generale,VI,capi_famiglia,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,capi_famiglia,F,0
+139,Territorio Militare del Sud,Totale generale,VI,membri,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,membri,F,0
+139,Territorio Militare del Sud,Totale generale,VI,improduttivi,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,improduttivi,F,0
+139,Territorio Militare del Sud,Totale generale,VI,improduttivi_under15,MF,0
+139,Territorio Militare del Sud,Totale generale,VI,domestici,MF,0
+140,Territorio Militare del Sud,Totale generale,VII,addetti,MF,1
+140,Territorio Militare del Sud,Totale generale,VII,addetti,M,1
+140,Territorio Militare del Sud,Totale generale,VII,addetti,F,0
+140,Territorio Militare del Sud,Totale generale,VII,celibi_nubili,MF,0
+140,Territorio Militare del Sud,Totale generale,VII,celibi_nubili,F,0
+140,Territorio Militare del Sud,Totale generale,VII,coniugati_vedovi,MF,1
+140,Territorio Militare del Sud,Totale generale,VII,coniugati_vedovi,F,0
+140,Territorio Militare del Sud,Totale generale,VII,capi_famiglia,MF,0
+140,Territorio Militare del Sud,Totale generale,VII,capi_famiglia,F,0
+140,Territorio Militare del Sud,Totale generale,VII,membri,MF,0
+140,Territorio Militare del Sud,Totale generale,VII,membri,F,0
+140,Territorio Militare del Sud,Totale generale,VII,improduttivi,MF,0
+140,Territorio Militare del Sud,Totale generale,VII,improduttivi,F,0
+140,Territorio Militare del Sud,Totale generale,VII,improduttivi_under15,MF,0
+140,Territorio Militare del Sud,Totale generale,VII,domestici,MF,0
+141,Territorio Militare del Sud,Totale generale,VIII,addetti,MF,176
+141,Territorio Militare del Sud,Totale generale,VIII,addetti,M,176
+141,Territorio Militare del Sud,Totale generale,VIII,addetti,F,0
+141,Territorio Militare del Sud,Totale generale,VIII,celibi_nubili,MF,158
+141,Territorio Militare del Sud,Totale generale,VIII,celibi_nubili,F,0
+141,Territorio Militare del Sud,Totale generale,VIII,coniugati_vedovi,MF,18
+141,Territorio Militare del Sud,Totale generale,VIII,coniugati_vedovi,F,0
+141,Territorio Militare del Sud,Totale generale,VIII,capi_famiglia,MF,28
+141,Territorio Militare del Sud,Totale generale,VIII,capi_famiglia,F,0
+141,Territorio Militare del Sud,Totale generale,VIII,membri,MF,40
+141,Territorio Militare del Sud,Totale generale,VIII,membri,F,6
+141,Territorio Militare del Sud,Totale generale,VIII,improduttivi,MF,11
+141,Territorio Militare del Sud,Totale generale,VIII,improduttivi,F,6
+141,Territorio Militare del Sud,Totale generale,VIII,improduttivi_under15,MF,7
+141,Territorio Militare del Sud,Totale generale,VIII,domestici,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,addetti,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,addetti,M,0
+142,Territorio Militare del Sud,Totale generale,IX,addetti,F,0
+142,Territorio Militare del Sud,Totale generale,IX,celibi_nubili,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,celibi_nubili,F,0
+142,Territorio Militare del Sud,Totale generale,IX,coniugati_vedovi,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,coniugati_vedovi,F,0
+142,Territorio Militare del Sud,Totale generale,IX,capi_famiglia,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,capi_famiglia,F,0
+142,Territorio Militare del Sud,Totale generale,IX,membri,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,membri,F,0
+142,Territorio Militare del Sud,Totale generale,IX,improduttivi,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,improduttivi,F,0
+142,Territorio Militare del Sud,Totale generale,IX,improduttivi_under15,MF,0
+142,Territorio Militare del Sud,Totale generale,IX,domestici,MF,0
+143,Territorio Militare del Sud,Totale generale,X,addetti,MF,0
+143,Territorio Militare del Sud,Totale generale,X,addetti,M,0
+143,Territorio Militare del Sud,Totale generale,X,addetti,F,0
+143,Territorio Militare del Sud,Totale generale,X,celibi_nubili,MF,0
+143,Territorio Militare del Sud,Totale generale,X,celibi_nubili,F,0
+143,Territorio Militare del Sud,Totale generale,X,coniugati_vedovi,MF,0
+143,Territorio Militare del Sud,Totale generale,X,coniugati_vedovi,F,0
+143,Territorio Militare del Sud,Totale generale,X,capi_famiglia,MF,0
+143,Territorio Militare del Sud,Totale generale,X,capi_famiglia,F,0
+143,Territorio Militare del Sud,Totale generale,X,membri,MF,0
+143,Territorio Militare del Sud,Totale generale,X,membri,F,0
+143,Territorio Militare del Sud,Totale generale,X,improduttivi,MF,0
+143,Territorio Militare del Sud,Totale generale,X,improduttivi,F,0
+143,Territorio Militare del Sud,Totale generale,X,improduttivi_under15,MF,0
+143,Territorio Militare del Sud,Totale generale,X,domestici,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,addetti,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,addetti,M,0
+144,Territorio Militare del Sud,Totale generale,XI,addetti,F,0
+144,Territorio Militare del Sud,Totale generale,XI,celibi_nubili,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,celibi_nubili,F,0
+144,Territorio Militare del Sud,Totale generale,XI,coniugati_vedovi,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,coniugati_vedovi,F,0
+144,Territorio Militare del Sud,Totale generale,XI,capi_famiglia,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,capi_famiglia,F,0
+144,Territorio Militare del Sud,Totale generale,XI,membri,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,membri,F,0
+144,Territorio Militare del Sud,Totale generale,XI,improduttivi,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,improduttivi,F,0
+144,Territorio Militare del Sud,Totale generale,XI,improduttivi_under15,MF,0
+144,Territorio Militare del Sud,Totale generale,XI,domestici,MF,0
+145,Territorio Militare del Sud,Totale generale,XII,addetti,MF,11
+145,Territorio Militare del Sud,Totale generale,XII,addetti,M,4
+145,Territorio Militare del Sud,Totale generale,XII,addetti,F,7
+145,Territorio Militare del Sud,Totale generale,XII,celibi_nubili,MF,7
+145,Territorio Militare del Sud,Totale generale,XII,celibi_nubili,F,3
+145,Territorio Militare del Sud,Totale generale,XII,coniugati_vedovi,MF,4
+145,Territorio Militare del Sud,Totale generale,XII,coniugati_vedovi,F,4
+145,Territorio Militare del Sud,Totale generale,XII,capi_famiglia,MF,0
+145,Territorio Militare del Sud,Totale generale,XII,capi_famiglia,F,0
+145,Territorio Militare del Sud,Totale generale,XII,membri,MF,0
+145,Territorio Militare del Sud,Totale generale,XII,membri,F,0
+145,Territorio Militare del Sud,Totale generale,XII,improduttivi,MF,0
+145,Territorio Militare del Sud,Totale generale,XII,improduttivi,F,0
+145,Territorio Militare del Sud,Totale generale,XII,improduttivi_under15,MF,0
+145,Territorio Militare del Sud,Totale generale,XII,domestici,MF,0
+146,Territorio Militare del Sud,Totale generale,Totale,addetti,MF,217
+146,Territorio Militare del Sud,Totale generale,Totale,addetti,M,208
+146,Territorio Militare del Sud,Totale generale,Totale,addetti,F,9
+146,Territorio Militare del Sud,Totale generale,Totale,celibi_nubili,MF,183
+146,Territorio Militare del Sud,Totale generale,Totale,celibi_nubili,F,3
+146,Territorio Militare del Sud,Totale generale,Totale,coniugati_vedovi,MF,34
+146,Territorio Militare del Sud,Totale generale,Totale,coniugati_vedovi,F,6
+146,Territorio Militare del Sud,Totale generale,Totale,capi_famiglia,MF,36
+146,Territorio Militare del Sud,Totale generale,Totale,capi_famiglia,F,0
+146,Territorio Militare del Sud,Totale generale,Totale,membri,MF,55
+146,Territorio Militare del Sud,Totale generale,Totale,membri,F,10
+146,Territorio Militare del Sud,Totale generale,Totale,improduttivi,MF,16
+146,Territorio Militare del Sud,Totale generale,Totale,improduttivi,F,8
+146,Territorio Militare del Sud,Totale generale,Totale,improduttivi_under15,MF,10
+146,Territorio Militare del Sud,Totale generale,Totale,domestici,MF,0

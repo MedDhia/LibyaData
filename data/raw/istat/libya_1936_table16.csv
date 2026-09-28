@@ -1,0 +1,665 @@
+seq,kind,scope,section,number,code,profession,position,measure,mf,m,f
+1,profession,agri,Professioni agricole,1,9.0.0,Conduttori in proprio,,persons,149,135,14
+2,profession,agri,Professioni agricole,2,6.0.1,Conduttori in proprio coltivatori,,persons,441,396,45
+3,profession,agri,Professioni agricole,3,9.1.1,Usufruttuari coltivatori,,persons,4,4,0
+4,profession,agri,Professioni agricole,4,9.2.1,Enfiteuti coltivatori,,persons,15,10,5
+5,profession,agri,Professioni agricole,5,9.3.0,Affittuari,,persons,17,14,3
+6,profession,agri,Professioni agricole,6,5.3.2,Affittuari coltivatori,,persons,737,439,298
+7,profession,agri,Professioni agricole,7,9.4.0,Conduttori a piu titoli,,persons,5,4,1
+8,profession,agri,Professioni agricole,8,9.4.1,Conduttori in proprio ed affittuari coltivatori,,persons,25,23,2
+9,profession,agri,Professioni agricole,9,9.4.2,Conduttori in proprio ed enfiteuti coltivatori,,persons,22,21,1
+10,profession,agri,Professioni agricole,10,9.4.4,Affittuari coltivatori e coloni parziari,,persons,3,2,1
+11,profession,agri,Professioni agricole,11,9.4.5,Altri conduttori a piu titoli coltivatori,,persons,12,7,5
+12,profession,agri,Professioni agricole,12,7.5.0,Coloni parziari,,persons,1368,1243,125
+13,profession,agri,Professioni agricole,13,9.6.3,Conduttori e lavoratori a contratto annuo,,persons,80,76,4
+14,profession,agri,Professioni agricole,14,9.6.4,Conduttori e compartecipanti,,persons,32,31,1
+15,profession,agri,Professioni agricole,15,9.7.2,"Dirigenti di aziende agricole, forestali e zootecniche",,persons,39,39,0
+16,profession,agri,Professioni agricole,16,9.7.1,"Agenti fattori, sorveglianti agricoli e simili",,persons,57,57,0
+17,profession,agri,Professioni agricole,17,9.7.0,Compartecipanti,,persons,299,275,24
+18,profession,agri,Professioni agricole,18,9.8.2,Addetti alla lavorazione del latte a contratto annuo,,persons,3,3,0
+19,profession,agri,Professioni agricole,19,9.8.4,Addetti alla cura di ovini e caprini a contratto annuo,,persons,7,7,0
+20,profession,agri,Professioni agricole,20,9.8.5,Addetti all'uso del bestiame da lavoro a contratto annuo,,persons,8,6,2
+21,profession,agri,Professioni agricole,21,9.8.6,Floricoltori a contratto annuo,,persons,5,5,0
+22,profession,agri,Professioni agricole,22,9.8.7,Ortolani a contratto annuo,,persons,2,2,0
+23,profession,agri,Professioni agricole,23,9.8.8,Altri lavoratori qualificati a contratto annuo,,persons,19,17,2
+24,profession,agri,Professioni agricole,24,9.9.2,Addetti alla lavorazione del latte a giornata,,persons,1,1,0
+25,profession,agri,Professioni agricole,25,9.9.4,Addetti alla cura di ovini e caprini a giornata,,persons,4,4,0
+26,profession,agri,Professioni agricole,26,9.9.6,Floricoltori a giornata,,persons,20,20,0
+27,profession,agri,Professioni agricole,27,9.9.7,Ortolani a giornata,,persons,3,3,0
+28,profession,agri,Professioni agricole,28,9.9.8,Altri lavoratori qualificati a giornata,,persons,17,17,0
+29,profession,agri,Professioni agricole,29,9.8.9,Lavoratori non qualificati a contratto annuo,,persons,82,73,9
+30,profession,agri,Professioni agricole,30,9.8.0,Braccianti fissi a contratto annuo,,persons,166,158,8
+31,profession,agri,Professioni agricole,31,8.9.9,Lavoratori non qualificati a giornata,,persons,238,236,2
+32,total,agri,,,,Totale professioni agricole,,persons,3880,3328,552
+33,total,agri,,,,Totale professioni agricole,A,persons,171,153,18
+34,total,agri,,,,Totale professioni agricole,C,persons,2739,2252,487
+35,total,agri,,,,Totale professioni agricole,E,persons,39,39,0
+36,total,agri,,,,Totale professioni agricole,F,persons,57,57,0
+37,total,agri,,,,Totale professioni agricole,H,persons,874,827,47
+38,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,32,0.6.7,Cavatori,,persons,100,100,0
+39,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,32,0.6.7,Cavatori,H,persons,100,100,0
+40,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,33,1.3.9,Frantumatori di pietre da costruzione,,persons,54,54,0
+41,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,33,1.3.9,Frantumatori di pietre da costruzione,H,persons,54,54,0
+42,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,34,2.1.6,"Minatori, picconieri e perforatori",,persons,123,123,0
+43,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,34,2.1.6,"Minatori, picconieri e perforatori",H,persons,123,123,0
+44,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,35,2.2.0,Modellatori di marmi e pietre,,persons,35,35,0
+45,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,35,2.2.0,Modellatori di marmi e pietre,B,persons,3,3,0
+46,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,35,2.2.0,Modellatori di marmi e pietre,C,persons,3,3,0
+47,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,35,2.2.0,Modellatori di marmi e pietre,H,persons,29,29,0
+48,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,36,2.2.5,Mosaicisti,,persons,5,5,0
+49,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,36,2.2.5,Mosaicisti,H,persons,5,5,0
+50,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,37,2.9.9,Scalpellini,,persons,66,66,0
+51,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,37,2.9.9,Scalpellini,H,persons,66,66,0
+52,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,38,3.1.4,"Squadratori, segatori, tagliatori di pietre",,persons,12,12,0
+53,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,38,3.1.4,"Squadratori, segatori, tagliatori di pietre",H,persons,12,12,0
+54,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,39,3.3.9,Tornitori in pietra,,persons,1,1,0
+55,profession,nonagri,Professioni delle miniere e cave e della lavorazione della pietra,39,3.3.9,Tornitori in pietra,H,persons,1,1,0
+56,profession,nonagri,Professioni edili e lavori stradali,40,0.1.3,Architetti,,persons,7,7,0
+57,profession,nonagri,Professioni edili e lavori stradali,40,0.1.3,Architetti,D,persons,2,2,0
+58,profession,nonagri,Professioni edili e lavori stradali,40,0.1.3,Architetti,F,persons,5,5,0
+59,profession,nonagri,Professioni edili e lavori stradali,41,0.2.0,"Asfaltisti e bitumatori stradali, selciatori, lastricatori",,persons,5,5,0
+60,profession,nonagri,Professioni edili e lavori stradali,41,0.2.0,"Asfaltisti e bitumatori stradali, selciatori, lastricatori",H,persons,5,5,0
+61,profession,nonagri,Professioni edili e lavori stradali,42,0.2.1,Asfaltisti per edifici,,persons,3,3,0
+62,profession,nonagri,Professioni edili e lavori stradali,42,0.2.1,Asfaltisti per edifici,H,persons,3,3,0
+63,profession,nonagri,Professioni edili e lavori stradali,43,0.5.0,Assistenti edili,,persons,218,218,0
+64,profession,nonagri,Professioni edili e lavori stradali,43,0.5.0,Assistenti edili,F,persons,218,218,0
+65,profession,nonagri,Professioni edili e lavori stradali,44,0.9.9,Decoratori edili,,persons,213,211,2
+66,profession,nonagri,Professioni edili e lavori stradali,44,0.9.9,Decoratori edili,B,persons,10,9,1
+67,profession,nonagri,Professioni edili e lavori stradali,44,0.9.9,Decoratori edili,C,persons,19,19,0
+68,profession,nonagri,Professioni edili e lavori stradali,44,0.9.9,Decoratori edili,H,persons,184,183,1
+69,profession,nonagri,Professioni edili e lavori stradali,45,1.1.5,"Draghisti, arganisti, verricellisti, gruisti",,persons,1,1,0
+70,profession,nonagri,Professioni edili e lavori stradali,45,1.1.5,"Draghisti, arganisti, verricellisti, gruisti",H,persons,1,1,0
+71,profession,nonagri,Professioni edili e lavori stradali,46,2.0.5,Manovali edili,,persons,205,205,0
+72,profession,nonagri,Professioni edili e lavori stradali,46,2.0.5,Manovali edili,H,persons,205,205,0
+73,profession,nonagri,Professioni edili e lavori stradali,47,0.12.0,"Muratori, cementisti, stuccatori",,persons,1578,1571,7
+74,profession,nonagri,Professioni edili e lavori stradali,47,0.12.0,"Muratori, cementisti, stuccatori",B,persons,3,3,0
+75,profession,nonagri,Professioni edili e lavori stradali,47,0.12.0,"Muratori, cementisti, stuccatori",C,persons,15,15,0
+76,profession,nonagri,Professioni edili e lavori stradali,47,0.12.0,"Muratori, cementisti, stuccatori",H,persons,1560,1553,7
+77,profession,nonagri,Professioni edili e lavori stradali,48,3.1.8,Sterratori,,persons,32,32,0
+78,profession,nonagri,Professioni edili e lavori stradali,48,3.1.8,Sterratori,H,persons,32,32,0
+79,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",49,0.6.8,Ceramisti e terracottai,,persons,4,4,0
+80,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",49,0.6.8,Ceramisti e terracottai,C,persons,1,1,0
+81,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",49,0.6.8,Ceramisti e terracottai,H,persons,3,3,0
+82,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",50,1.3.4,Fornaciai,,persons,7,7,0
+83,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",50,1.3.4,Fornaciai,H,persons,7,7,0
+84,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",51,2.2.1,"Modellatori, formatori e gettatori di cemento, gesso, gres",,persons,11,11,0
+85,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",51,2.2.1,"Modellatori, formatori e gettatori di cemento, gesso, gres",B,persons,1,1,0
+86,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",51,2.2.1,"Modellatori, formatori e gettatori di cemento, gesso, gres",H,persons,10,10,0
+87,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",52,3.5.4,Vetrai,,persons,3,3,0
+88,profession,nonagri,"Professioni dell'industria del vetro, dei laterizi e delle ceramiche",52,3.5.4,Vetrai,H,persons,3,3,0
+89,profession,nonagri,"Professioni delle installazioni impianti acqua, luce, calore",53,3.1.5,"Stagnini, idraulici, gasisti",,persons,123,123,0
+90,profession,nonagri,"Professioni delle installazioni impianti acqua, luce, calore",53,3.1.5,"Stagnini, idraulici, gasisti",B,persons,4,4,0
+91,profession,nonagri,"Professioni delle installazioni impianti acqua, luce, calore",53,3.1.5,"Stagnini, idraulici, gasisti",C,persons,23,23,0
+92,profession,nonagri,"Professioni delle installazioni impianti acqua, luce, calore",53,3.1.5,"Stagnini, idraulici, gasisti",H,persons,96,96,0
+93,profession,nonagri,"Professioni delle installazioni impianti acqua, luce, calore",54,3.4.2,Tubisti,,persons,4,4,0
+94,profession,nonagri,"Professioni delle installazioni impianti acqua, luce, calore",54,3.4.2,Tubisti,H,persons,4,4,0
+95,profession,nonagri,Professioni delle industrie metallurgiche,55,1.2.1,"Fabbri ferrai, forgiatori, fucinatori",,persons,337,337,0
+96,profession,nonagri,Professioni delle industrie metallurgiche,55,1.2.1,"Fabbri ferrai, forgiatori, fucinatori",B,persons,18,18,0
+97,profession,nonagri,Professioni delle industrie metallurgiche,55,1.2.1,"Fabbri ferrai, forgiatori, fucinatori",C,persons,40,40,0
+98,profession,nonagri,Professioni delle industrie metallurgiche,55,1.2.1,"Fabbri ferrai, forgiatori, fucinatori",H,persons,279,279,0
+99,profession,nonagri,Professioni delle industrie metallurgiche,56,1.3.3,Fonditori,,persons,41,41,0
+100,profession,nonagri,Professioni delle industrie metallurgiche,56,1.3.3,Fonditori,C,persons,1,1,0
+101,profession,nonagri,Professioni delle industrie metallurgiche,56,1.3.3,Fonditori,H,persons,40,40,0
+102,profession,nonagri,Professioni delle industrie metallurgiche,57,1.4.1,Fuochisti,,persons,13,13,0
+103,profession,nonagri,Professioni delle industrie metallurgiche,57,1.4.1,Fuochisti,H,persons,13,13,0
+104,profession,nonagri,Professioni delle industrie metallurgiche,58,2.4.0,Orefici,,persons,8,8,0
+105,profession,nonagri,Professioni delle industrie metallurgiche,58,2.4.0,Orefici,C,persons,7,7,0
+106,profession,nonagri,Professioni delle industrie metallurgiche,58,2.4.0,Orefici,H,persons,1,1,0
+107,profession,nonagri,Professioni delle industrie metallurgiche,59,2.8.6,"Ramai, ottonai",,persons,7,7,0
+108,profession,nonagri,Professioni delle industrie metallurgiche,59,2.8.6,"Ramai, ottonai",B,persons,3,3,0
+109,profession,nonagri,Professioni delle industrie metallurgiche,59,2.8.6,"Ramai, ottonai",C,persons,2,2,0
+110,profession,nonagri,Professioni delle industrie metallurgiche,59,2.8.6,"Ramai, ottonai",H,persons,2,2,0
+111,profession,nonagri,Professioni delle industrie metallurgiche,60,2.9.5,Saldatori e tagliatori di metalli,,persons,14,14,0
+112,profession,nonagri,Professioni delle industrie metallurgiche,60,2.9.5,Saldatori e tagliatori di metalli,B,persons,2,2,0
+113,profession,nonagri,Professioni delle industrie metallurgiche,60,2.9.5,Saldatori e tagliatori di metalli,C,persons,1,1,0
+114,profession,nonagri,Professioni delle industrie metallurgiche,60,2.9.5,Saldatori e tagliatori di metalli,H,persons,11,11,0
+115,profession,nonagri,Professioni delle industrie metallurgiche,61,3.4.1,"Tranciatori, sbavatori, pressatori",,persons,1,1,0
+116,profession,nonagri,Professioni delle industrie metallurgiche,61,3.4.1,"Tranciatori, sbavatori, pressatori",H,persons,1,1,0
+117,profession,nonagri,Professioni delle industrie meccaniche,62,0.0.6,"Alesatori, fresatori e tornitori di metalli",,persons,94,94,0
+118,profession,nonagri,Professioni delle industrie meccaniche,62,0.0.6,"Alesatori, fresatori e tornitori di metalli",C,persons,2,2,0
+119,profession,nonagri,Professioni delle industrie meccaniche,62,0.0.6,"Alesatori, fresatori e tornitori di metalli",H,persons,92,92,0
+120,profession,nonagri,Professioni delle industrie meccaniche,63,0.3.3,"Battiferro, battirame",,persons,9,9,0
+121,profession,nonagri,Professioni delle industrie meccaniche,63,0.3.3,"Battiferro, battirame",B,persons,1,1,0
+122,profession,nonagri,Professioni delle industrie meccaniche,63,0.3.3,"Battiferro, battirame",H,persons,8,8,0
+123,profession,nonagri,Professioni delle industrie meccaniche,64,0.7.9,"Coltellinai, arrotini, specialisti di tempera",,persons,7,7,0
+124,profession,nonagri,Professioni delle industrie meccaniche,64,0.7.9,"Coltellinai, arrotini, specialisti di tempera",C,persons,6,6,0
+125,profession,nonagri,Professioni delle industrie meccaniche,64,0.7.9,"Coltellinai, arrotini, specialisti di tempera",H,persons,1,1,0
+126,profession,nonagri,Professioni delle industrie meccaniche,65,1.7.0,Incisori in metallo,,persons,7,7,0
+127,profession,nonagri,Professioni delle industrie meccaniche,65,1.7.0,Incisori in metallo,C,persons,3,3,0
+128,profession,nonagri,Professioni delle industrie meccaniche,65,1.7.0,Incisori in metallo,H,persons,4,4,0
+129,profession,nonagri,Professioni delle industrie meccaniche,66,1.9.8,Macchinisti e motoristi,,persons,82,82,0
+130,profession,nonagri,Professioni delle industrie meccaniche,66,1.9.8,Macchinisti e motoristi,H,persons,82,82,0
+131,profession,nonagri,Professioni delle industrie meccaniche,67,2.1.0,Meccanici,,persons,1039,1038,1
+132,profession,nonagri,Professioni delle industrie meccaniche,67,2.1.0,Meccanici,B,persons,14,14,0
+133,profession,nonagri,Professioni delle industrie meccaniche,67,2.1.0,Meccanici,C,persons,25,25,0
+134,profession,nonagri,Professioni delle industrie meccaniche,67,2.1.0,Meccanici,H,persons,1000,999,1
+135,profession,nonagri,Professioni delle industrie meccaniche,68,2.1.1,Meccanici di precisione ed orologiai,,persons,40,40,0
+136,profession,nonagri,Professioni delle industrie meccaniche,68,2.1.1,Meccanici di precisione ed orologiai,B,persons,2,2,0
+137,profession,nonagri,Professioni delle industrie meccaniche,68,2.1.1,Meccanici di precisione ed orologiai,C,persons,18,18,0
+138,profession,nonagri,Professioni delle industrie meccaniche,68,2.1.1,Meccanici di precisione ed orologiai,H,persons,20,20,0
+139,profession,nonagri,Professioni delle industrie meccaniche,69,3.4.6,"Utensilisti, trapanisti, sbozzatori",,persons,30,30,0
+140,profession,nonagri,Professioni delle industrie meccaniche,69,3.4.6,"Utensilisti, trapanisti, sbozzatori",C,persons,5,5,0
+141,profession,nonagri,Professioni delle industrie meccaniche,69,3.4.6,"Utensilisti, trapanisti, sbozzatori",H,persons,25,25,0
+142,profession,nonagri,Professioni delle industrie meccaniche,70,3.5.2,Verniciatori e smaltatori di metalli,,persons,19,19,0
+143,profession,nonagri,Professioni delle industrie meccaniche,70,3.5.2,Verniciatori e smaltatori di metalli,B,persons,2,2,0
+144,profession,nonagri,Professioni delle industrie meccaniche,70,3.5.2,Verniciatori e smaltatori di metalli,C,persons,1,1,0
+145,profession,nonagri,Professioni delle industrie meccaniche,70,3.5.2,Verniciatori e smaltatori di metalli,H,persons,16,16,0
+146,profession,nonagri,Professioni delle industrie elettriche,71,0.4.9,Capi di centrali elettriche e cabinisti,,persons,3,3,0
+147,profession,nonagri,Professioni delle industrie elettriche,71,0.4.9,Capi di centrali elettriche e cabinisti,F,persons,1,1,0
+148,profession,nonagri,Professioni delle industrie elettriche,71,0.4.9,Capi di centrali elettriche e cabinisti,H,persons,2,2,0
+149,profession,nonagri,Professioni delle industrie elettriche,72,1.1.7,Elettricisti,,persons,138,138,0
+150,profession,nonagri,Professioni delle industrie elettriche,72,1.1.7,Elettricisti,B,persons,1,1,0
+151,profession,nonagri,Professioni delle industrie elettriche,72,1.1.7,Elettricisti,C,persons,5,5,0
+152,profession,nonagri,Professioni delle industrie elettriche,72,1.1.7,Elettricisti,H,persons,132,132,0
+153,profession,nonagri,Professioni delle industrie elettriche,73,1.1.8,Elettrotecnici e montatori elettricisti,,persons,74,74,0
+154,profession,nonagri,Professioni delle industrie elettriche,73,1.1.8,Elettrotecnici e montatori elettricisti,C,persons,2,2,0
+155,profession,nonagri,Professioni delle industrie elettriche,73,1.1.8,Elettrotecnici e montatori elettricisti,E,persons,2,2,0
+156,profession,nonagri,Professioni delle industrie elettriche,73,1.1.8,Elettrotecnici e montatori elettricisti,F,persons,6,6,0
+157,profession,nonagri,Professioni delle industrie elettriche,73,1.1.8,Elettrotecnici e montatori elettricisti,H,persons,64,64,0
+158,profession,nonagri,Professioni delle industrie elettriche,74,1.4.3,Galvanoplastieri,,persons,6,6,0
+159,profession,nonagri,Professioni delle industrie elettriche,74,1.4.3,Galvanoplastieri,C,persons,2,2,0
+160,profession,nonagri,Professioni delle industrie elettriche,74,1.4.3,Galvanoplastieri,H,persons,4,4,0
+161,profession,nonagri,Professioni delle industrie elettriche,75,2.8.3,"Radiotecnici, tecnici del suono",,persons,5,5,0
+162,profession,nonagri,Professioni delle industrie elettriche,75,2.8.3,"Radiotecnici, tecnici del suono",F,persons,2,2,0
+163,profession,nonagri,Professioni delle industrie elettriche,75,2.8.3,"Radiotecnici, tecnici del suono",H,persons,3,3,0
+164,profession,nonagri,Professioni delle industrie chimiche,76,0.7.5,Chimici,,persons,15,14,1
+165,profession,nonagri,Professioni delle industrie chimiche,76,0.7.5,Chimici,D,persons,2,1,1
+166,profession,nonagri,Professioni delle industrie chimiche,76,0.7.5,Chimici,F,persons,13,13,0
+167,profession,nonagri,Professioni delle industrie chimiche,77,0.8.4,Condizionatori e confezionatori del tabacco,,persons,159,2,157
+168,profession,nonagri,Professioni delle industrie chimiche,77,0.8.4,Condizionatori e confezionatori del tabacco,H,persons,159,2,157
+169,profession,nonagri,Professioni delle industrie chimiche,78,1.1.0,"Distillatori, filtratori",,persons,2,2,0
+170,profession,nonagri,Professioni delle industrie chimiche,78,1.1.0,"Distillatori, filtratori",H,persons,2,2,0
+171,profession,nonagri,Professioni delle industrie chimiche,79,1.2.5,Farmacisti,,persons,10,10,0
+172,profession,nonagri,Professioni delle industrie chimiche,79,1.2.5,Farmacisti,F,persons,10,10,0
+173,profession,nonagri,Professioni delle industrie chimiche,80,2.7.5,"Preparatori, centrifugatori",,persons,1,0,1
+174,profession,nonagri,Professioni delle industrie chimiche,80,2.7.5,"Preparatori, centrifugatori",H,persons,1,0,1
+175,profession,nonagri,Professioni delle industrie chimiche,81,2.9.7,Saponieri e candelai,,persons,11,1,10
+176,profession,nonagri,Professioni delle industrie chimiche,81,2.9.7,Saponieri e candelai,H,persons,11,1,10
+177,profession,nonagri,Professioni delle industrie chimiche,82,3.5.9,Vulcanizzatori e altri lavoranti della gomma,,persons,5,5,0
+178,profession,nonagri,Professioni delle industrie chimiche,82,3.5.9,Vulcanizzatori e altri lavoranti della gomma,H,persons,5,5,0
+179,profession,nonagri,Professioni delle industrie del legno e delle materie affini,83,0.3.9,"Bottai, barilai",,persons,6,6,0
+180,profession,nonagri,Professioni delle industrie del legno e delle materie affini,83,0.3.9,"Bottai, barilai",H,persons,6,6,0
+181,profession,nonagri,Professioni delle industrie del legno e delle materie affini,84,0.6.0,Carpentieri,,persons,174,174,0
+182,profession,nonagri,Professioni delle industrie del legno e delle materie affini,84,0.6.0,Carpentieri,B,persons,2,2,0
+183,profession,nonagri,Professioni delle industrie del legno e delle materie affini,84,0.6.0,Carpentieri,C,persons,6,6,0
+184,profession,nonagri,Professioni delle industrie del legno e delle materie affini,84,0.6.0,Carpentieri,H,persons,166,166,0
+185,profession,nonagri,Professioni delle industrie del legno e delle materie affini,85,0.6.1,Carpentieri navali,,persons,29,29,0
+186,profession,nonagri,Professioni delle industrie del legno e delle materie affini,85,0.6.1,Carpentieri navali,C,persons,1,1,0
+187,profession,nonagri,Professioni delle industrie del legno e delle materie affini,85,0.6.1,Carpentieri navali,H,persons,28,28,0
+188,profession,nonagri,Professioni delle industrie del legno e delle materie affini,86,0.6.2,Carradori,,persons,48,48,0
+189,profession,nonagri,Professioni delle industrie del legno e delle materie affini,86,0.6.2,Carradori,B,persons,2,2,0
+190,profession,nonagri,Professioni delle industrie del legno e delle materie affini,86,0.6.2,Carradori,C,persons,18,18,0
+191,profession,nonagri,Professioni delle industrie del legno e delle materie affini,86,0.6.2,Carradori,H,persons,28,28,0
+192,profession,nonagri,Professioni delle industrie del legno e delle materie affini,87,1.2.3,Falegnami ed ebanisti,,persons,621,621,0
+193,profession,nonagri,Professioni delle industrie del legno e delle materie affini,87,1.2.3,Falegnami ed ebanisti,B,persons,34,34,0
+194,profession,nonagri,Professioni delle industrie del legno e delle materie affini,87,1.2.3,Falegnami ed ebanisti,C,persons,113,113,0
+195,profession,nonagri,Professioni delle industrie del legno e delle materie affini,87,1.2.3,Falegnami ed ebanisti,H,persons,474,474,0
+196,profession,nonagri,Professioni delle industrie del legno e delle materie affini,88,1.8.0,"Intagliatori, incisori, intarsiatori in legno",,persons,5,5,0
+197,profession,nonagri,Professioni delle industrie del legno e delle materie affini,88,1.8.0,"Intagliatori, incisori, intarsiatori in legno",B,persons,1,1,0
+198,profession,nonagri,Professioni delle industrie del legno e delle materie affini,88,1.8.0,"Intagliatori, incisori, intarsiatori in legno",C,persons,2,2,0
+199,profession,nonagri,Professioni delle industrie del legno e delle materie affini,88,1.8.0,"Intagliatori, incisori, intarsiatori in legno",H,persons,2,2,0
+200,profession,nonagri,Professioni delle industrie del legno e delle materie affini,89,1.9.4,Liutai,,persons,2,2,0
+201,profession,nonagri,Professioni delle industrie del legno e delle materie affini,89,1.9.4,Liutai,C,persons,1,1,0
+202,profession,nonagri,Professioni delle industrie del legno e delle materie affini,89,1.9.4,Liutai,H,persons,1,1,0
+203,profession,nonagri,Professioni delle industrie del legno e delle materie affini,90,2.1.8,"Mobilieri in canne, giunchi, vimini",,persons,1,1,0
+204,profession,nonagri,Professioni delle industrie del legno e delle materie affini,90,2.1.8,"Mobilieri in canne, giunchi, vimini",C,persons,1,1,0
+205,profession,nonagri,Professioni delle industrie del legno e delle materie affini,91,2.1.9,Mobilieri in legno,,persons,165,165,0
+206,profession,nonagri,Professioni delle industrie del legno e delle materie affini,91,2.1.9,Mobilieri in legno,B,persons,16,16,0
+207,profession,nonagri,Professioni delle industrie del legno e delle materie affini,91,2.1.9,Mobilieri in legno,C,persons,11,11,0
+208,profession,nonagri,Professioni delle industrie del legno e delle materie affini,91,2.1.9,Mobilieri in legno,H,persons,138,138,0
+209,profession,nonagri,Professioni delle industrie del legno e delle materie affini,92,3.0.2,Sediai,,persons,9,9,0
+210,profession,nonagri,Professioni delle industrie del legno e delle materie affini,92,3.0.2,Sediai,B,persons,3,3,0
+211,profession,nonagri,Professioni delle industrie del legno e delle materie affini,92,3.0.2,Sediai,C,persons,4,4,0
+212,profession,nonagri,Professioni delle industrie del legno e delle materie affini,92,3.0.2,Sediai,H,persons,2,2,0
+213,profession,nonagri,Professioni delle industrie del legno e delle materie affini,93,3.0.3,Segatori e piallatori a macchina del legname,,persons,6,6,0
+214,profession,nonagri,Professioni delle industrie del legno e delle materie affini,93,3.0.3,Segatori e piallatori a macchina del legname,C,persons,1,1,0
+215,profession,nonagri,Professioni delle industrie del legno e delle materie affini,93,3.0.3,Segatori e piallatori a macchina del legname,H,persons,5,5,0
+216,profession,nonagri,Professioni delle industrie del legno e delle materie affini,94,3.2.5,Sugherai,,persons,3,3,0
+217,profession,nonagri,Professioni delle industrie del legno e delle materie affini,94,3.2.5,Sugherai,B,persons,3,3,0
+218,profession,nonagri,Professioni delle industrie del legno e delle materie affini,95,3.3.8,Tornitori in legno,,persons,8,8,0
+219,profession,nonagri,Professioni delle industrie del legno e delle materie affini,95,3.3.8,Tornitori in legno,C,persons,4,4,0
+220,profession,nonagri,Professioni delle industrie del legno e delle materie affini,95,3.3.8,Tornitori in legno,H,persons,4,4,0
+221,profession,nonagri,Professioni delle industrie tessili,96,3.1.3,"Spolatori, orditori",,persons,1,1,0
+222,profession,nonagri,Professioni delle industrie tessili,96,3.1.3,"Spolatori, orditori",H,persons,1,1,0
+223,profession,nonagri,Professioni delle industrie tessili,97,3.3.2,Tessitori,,persons,42,5,37
+224,profession,nonagri,Professioni delle industrie tessili,97,3.3.2,Tessitori,C,persons,6,2,4
+225,profession,nonagri,Professioni delle industrie tessili,97,3.3.2,Tessitori,H,persons,36,3,33
+226,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",98,1.8.7,"Lavandai, bucatai",,persons,46,7,39
+227,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",98,1.8.7,"Lavandai, bucatai",B,persons,11,5,6
+228,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",98,1.8.7,"Lavandai, bucatai",C,persons,23,1,22
+229,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",98,1.8.7,"Lavandai, bucatai",H,persons,11,1,10
+230,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",98,1.8.7,"Lavandai, bucatai",I,persons,1,0,1
+231,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",99,3.2.0,Stiratrici,,persons,43,2,41
+232,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",99,3.2.0,Stiratrici,B,persons,2,0,2
+233,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",99,3.2.0,Stiratrici,C,persons,14,1,13
+234,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",99,3.2.0,Stiratrici,H,persons,25,1,24
+235,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",99,3.2.0,Stiratrici,I,persons,2,0,2
+236,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",100,3.3.3,"Tintori di abiti, smacchiatori",,persons,3,2,1
+237,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",100,3.3.3,"Tintori di abiti, smacchiatori",H,persons,3,2,1
+238,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",101,3.5.1,"Verniciatori e doratori di legno, paglia e affini",,persons,12,12,0
+239,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",101,3.5.1,"Verniciatori e doratori di legno, paglia e affini",C,persons,3,3,0
+240,profession,nonagri,"Professioni delle industrie della tintoria, candeggio, smacchiatoria, lavanderia",101,3.5.1,"Verniciatori e doratori di legno, paglia e affini",H,persons,9,9,0
+241,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",102,0.5.6,Cappellai e berrettai,,persons,7,5,2
+242,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",102,0.5.6,Cappellai e berrettai,B,persons,4,3,1
+243,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",102,0.5.6,Cappellai e berrettai,C,persons,2,1,1
+244,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",102,0.5.6,Cappellai e berrettai,H,persons,1,1,0
+245,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",103,0.9.2,Cucitrici in bianco,,persons,18,0,18
+246,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",103,0.9.2,Cucitrici in bianco,C,persons,1,0,1
+247,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",103,0.9.2,Cucitrici in bianco,H,persons,13,0,13
+248,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",103,0.9.2,Cucitrici in bianco,I,persons,4,0,4
+249,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",104,2.0.4,"Magliai, calzettai, guantai",,persons,15,0,15
+250,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",104,2.0.4,"Magliai, calzettai, guantai",B,persons,1,0,1
+251,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",104,2.0.4,"Magliai, calzettai, guantai",C,persons,6,0,6
+252,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",104,2.0.4,"Magliai, calzettai, guantai",H,persons,8,0,8
+253,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",105,2.2.3,Modiste,,persons,31,2,29
+254,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",105,2.2.3,Modiste,B,persons,7,2,5
+255,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",105,2.2.3,Modiste,C,persons,4,0,4
+256,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",105,2.2.3,Modiste,H,persons,19,0,19
+257,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",105,2.2.3,Modiste,I,persons,1,0,1
+258,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",106,2.4.3,"Pantalonaie, gilettaie",,persons,18,0,18
+259,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",106,2.4.3,"Pantalonaie, gilettaie",H,persons,14,0,14
+260,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",106,2.4.3,"Pantalonaie, gilettaie",I,persons,4,0,4
+261,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",107,2.9.0,"Ricamatrici, rammendatrici e pieghettatrici",,persons,26,0,26
+262,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",107,2.9.0,"Ricamatrici, rammendatrici e pieghettatrici",C,persons,6,0,6
+263,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",107,2.9.0,"Ricamatrici, rammendatrici e pieghettatrici",H,persons,11,0,11
+264,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",107,2.9.0,"Ricamatrici, rammendatrici e pieghettatrici",I,persons,9,0,9
+265,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",108,0.11.0,Sarti e tagliatori,,persons,535,186,349
+266,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",108,0.11.0,Sarti e tagliatori,B,persons,57,36,21
+267,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",108,0.11.0,Sarti e tagliatori,C,persons,177,60,117
+268,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",108,0.11.0,Sarti e tagliatori,H,persons,276,88,188
+269,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",108,0.11.0,Sarti e tagliatori,I,persons,25,2,23
+270,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",109,3.2.8,Tappezzieri in cuoio,,persons,10,9,1
+271,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",109,3.2.8,Tappezzieri in cuoio,C,persons,1,1,0
+272,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",109,3.2.8,Tappezzieri in cuoio,H,persons,9,8,1
+273,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",110,3.2.9,Tappezzieri in stoffa e materassai,,persons,19,17,2
+274,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",110,3.2.9,Tappezzieri in stoffa e materassai,B,persons,2,1,1
+275,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",110,3.2.9,Tappezzieri in stoffa e materassai,C,persons,2,2,0
+276,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",110,3.2.9,Tappezzieri in stoffa e materassai,H,persons,14,13,1
+277,profession,nonagri,"Professioni dell'industria del vestiario, abbigliamento e arredamento",110,3.2.9,Tappezzieri in stoffa e materassai,I,persons,1,1,0
+278,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,111,0.4.0,"Bottonieri, corallai, pettinai, spazzolai",,persons,2,2,0
+279,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,111,0.4.0,"Bottonieri, corallai, pettinai, spazzolai",H,persons,2,2,0
+280,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,112,0.4.3,Calzolai,,persons,289,281,8
+281,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,112,0.4.3,Calzolai,B,persons,13,13,0
+282,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,112,0.4.3,Calzolai,C,persons,113,113,0
+283,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,112,0.4.3,Calzolai,H,persons,160,153,7
+284,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,112,0.4.3,Calzolai,I,persons,3,2,1
+285,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,113,0.8.3,Conciatori e imbalsamatori,,persons,17,17,0
+286,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,113,0.8.3,Conciatori e imbalsamatori,B,persons,1,1,0
+287,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,113,0.8.3,Conciatori e imbalsamatori,C,persons,1,1,0
+288,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,113,0.8.3,Conciatori e imbalsamatori,H,persons,14,14,0
+289,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,113,0.8.3,Conciatori e imbalsamatori,I,persons,1,1,0
+290,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,114,2.4.9,Pellettieri,,persons,3,3,0
+291,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,114,2.4.9,Pellettieri,B,persons,2,2,0
+292,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,114,2.4.9,Pellettieri,H,persons,1,1,0
+293,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,115,3.0.4,Sellai,,persons,61,60,1
+294,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,115,3.0.4,Sellai,B,persons,5,4,1
+295,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,115,3.0.4,Sellai,C,persons,1,1,0
+296,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,115,3.0.4,Sellai,H,persons,54,54,0
+297,profession,nonagri,Professioni delle industrie che utilizzano spoglie animali,115,3.0.4,Sellai,I,persons,1,1,0
+298,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",116,0.6.3,"Cartai, cartonai, filogranisti",,persons,5,3,2
+299,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",116,0.6.3,"Cartai, cartonai, filogranisti",H,persons,5,3,2
+300,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",117,1.0.5,Direttori di aziende editoriali,,persons,1,1,0
+301,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",117,1.0.5,Direttori di aziende editoriali,E,persons,1,1,0
+302,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",118,1.0.8,"Disegnatori, tracciatori e calligrafi",,persons,51,51,0
+303,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",118,1.0.8,"Disegnatori, tracciatori e calligrafi",D,persons,2,2,0
+304,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",118,1.0.8,"Disegnatori, tracciatori e calligrafi",F,persons,48,48,0
+305,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",118,1.0.8,"Disegnatori, tracciatori e calligrafi",H,persons,1,1,0
+306,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",119,1.3.7,Fotografi,,persons,39,32,7
+307,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",119,1.3.7,Fotografi,B,persons,3,3,0
+308,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",119,1.3.7,Fotografi,C,persons,16,14,2
+309,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",119,1.3.7,Fotografi,F,persons,3,1,2
+310,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",119,1.3.7,Fotografi,H,persons,17,14,3
+311,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",120,1.4.9,Giornalisti,,persons,6,5,1
+312,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",120,1.4.9,Giornalisti,D,persons,1,1,0
+313,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",120,1.4.9,Giornalisti,F,persons,5,4,1
+314,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",121,1.8.9,Legatori e confezionatori di oggetti in carta e cartone,,persons,13,12,1
+315,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",121,1.8.9,Legatori e confezionatori di oggetti in carta e cartone,B,persons,2,2,0
+316,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",121,1.8.9,Legatori e confezionatori di oggetti in carta e cartone,C,persons,1,1,0
+317,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",121,1.8.9,Legatori e confezionatori di oggetti in carta e cartone,H,persons,10,9,1
+318,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",122,1.9.2,Linotipisti ed altri compositori tipografi a macchina,,persons,83,83,0
+319,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",122,1.9.2,Linotipisti ed altri compositori tipografi a macchina,C,persons,1,1,0
+320,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",122,1.9.2,Linotipisti ed altri compositori tipografi a macchina,H,persons,82,82,0
+321,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",123,3.3.6,Tipografi,,persons,16,15,1
+322,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",123,3.3.6,Tipografi,B,persons,1,1,0
+323,profession,nonagri,"Professioni delle industrie della carta, grafiche ed editoriali",123,3.3.6,Tipografi,H,persons,15,14,1
+324,profession,nonagri,Professioni delle industrie alimentari,124,0.3.8,Biscottieri e pasticcieri,,persons,22,18,4
+325,profession,nonagri,Professioni delle industrie alimentari,124,0.3.8,Biscottieri e pasticcieri,H,persons,22,18,4
+326,profession,nonagri,Professioni delle industrie alimentari,125,0.5.7,"Caramellisti, cioccolatai, confettieri",,persons,7,7,0
+327,profession,nonagri,Professioni delle industrie alimentari,125,0.5.7,"Caramellisti, cioccolatai, confettieri",H,persons,7,7,0
+328,profession,nonagri,Professioni delle industrie alimentari,126,0.6.4,Casari,,persons,1,1,0
+329,profession,nonagri,Professioni delle industrie alimentari,126,0.6.4,Casari,H,persons,1,1,0
+330,profession,nonagri,Professioni delle industrie alimentari,127,0.7.0,"Cernitori di cereali, legumi, foraggi, verdure",,persons,1,0,1
+331,profession,nonagri,Professioni delle industrie alimentari,127,0.7.0,"Cernitori di cereali, legumi, foraggi, verdure",H,persons,1,0,1
+332,profession,nonagri,Professioni delle industrie alimentari,128,0.9.4,"Cuocitori, confezionatori di conserve e altri prodotti alimentari",,persons,53,53,0
+333,profession,nonagri,Professioni delle industrie alimentari,128,0.9.4,"Cuocitori, confezionatori di conserve e altri prodotti alimentari",B,persons,1,1,0
+334,profession,nonagri,Professioni delle industrie alimentari,128,0.9.4,"Cuocitori, confezionatori di conserve e altri prodotti alimentari",C,persons,5,5,0
+335,profession,nonagri,Professioni delle industrie alimentari,128,0.9.4,"Cuocitori, confezionatori di conserve e altri prodotti alimentari",H,persons,47,47,0
+336,profession,nonagri,Professioni delle industrie alimentari,130,1.1.9,"Enotecnici, condizionatori di vini, alcool",,persons,6,6,0
+337,profession,nonagri,Professioni delle industrie alimentari,130,1.1.9,"Enotecnici, condizionatori di vini, alcool",D,persons,1,1,0
+338,profession,nonagri,Professioni delle industrie alimentari,130,1.1.9,"Enotecnici, condizionatori di vini, alcool",E,persons,2,2,0
+339,profession,nonagri,Professioni delle industrie alimentari,130,1.1.9,"Enotecnici, condizionatori di vini, alcool",H,persons,3,3,0
+340,profession,nonagri,Professioni delle industrie alimentari,131,1.3.8,"Frantoiai, oliai",,persons,1,1,0
+341,profession,nonagri,Professioni delle industrie alimentari,131,1.3.8,"Frantoiai, oliai",H,persons,1,1,0
+342,profession,nonagri,Professioni delle industrie alimentari,132,1.7.4,"Insaccatori, salatori, affumicatori di carni",,persons,1,1,0
+343,profession,nonagri,Professioni delle industrie alimentari,132,1.7.4,"Insaccatori, salatori, affumicatori di carni",H,persons,1,1,0
+344,profession,nonagri,Professioni delle industrie alimentari,133,1.9.9,Macellai (macellazione animali),,persons,1,1,0
+345,profession,nonagri,Professioni delle industrie alimentari,133,1.9.9,Macellai (macellazione animali),H,persons,1,1,0
+346,profession,nonagri,Professioni delle industrie alimentari,134,2.2.9,Mugnai,,persons,5,5,0
+347,profession,nonagri,Professioni delle industrie alimentari,134,2.2.9,Mugnai,C,persons,3,3,0
+348,profession,nonagri,Professioni delle industrie alimentari,134,2.2.9,Mugnai,H,persons,2,2,0
+349,profession,nonagri,Professioni delle industrie alimentari,135,2.4.7,Pastai,,persons,25,25,0
+350,profession,nonagri,Professioni delle industrie alimentari,135,2.4.7,Pastai,H,persons,25,25,0
+351,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",136,0.0.1,Accordatori di strumenti musicali,,persons,3,3,0
+352,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",136,0.0.1,Accordatori di strumenti musicali,C,persons,1,1,0
+353,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",136,0.0.1,Accordatori di strumenti musicali,H,persons,2,2,0
+354,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",137,0.1.7,Artisti drammatici,,persons,2,2,0
+355,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",137,0.1.7,Artisti drammatici,D,persons,1,1,0
+356,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",137,0.1.7,Artisti drammatici,F,persons,1,1,0
+357,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",138,0.2.4,"Atleti, calciatori, corridori",,persons,2,2,0
+358,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",138,0.2.4,"Atleti, calciatori, corridori",D,persons,2,2,0
+359,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",139,0.6.5,Cassieri e bigliettai di pubblici locali,,persons,18,10,8
+360,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",139,0.6.5,Cassieri e bigliettai di pubblici locali,F,persons,18,10,8
+361,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",140,1.9.7,Macchinisti ed attrezzisti teatrali,,persons,5,5,0
+362,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",140,1.9.7,Macchinisti ed attrezzisti teatrali,H,persons,5,5,0
+363,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",141,2.0.9,Maschere ed inservienti di pubblici locali,,persons,6,5,1
+364,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",141,2.0.9,Maschere ed inservienti di pubblici locali,G,persons,6,5,1
+365,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",142,2.3.9,Operatori cinematografici,,persons,12,12,0
+366,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",142,2.3.9,Operatori cinematografici,H,persons,12,12,0
+367,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",143,2.8.8,"Registi, direttori di scena, coreografi",,persons,2,2,0
+368,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",143,2.8.8,"Registi, direttori di scena, coreografi",F,persons,2,2,0
+369,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",144,3.2.7,Suonatori di strumenti musicali,,persons,11,10,1
+370,profession,nonagri,"Professioni delle industrie dello spettacolo, sport",144,3.2.7,Suonatori di strumenti musicali,F,persons,11,10,1
+371,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",145,0.3.4,"Becchini, vespilloni",,persons,6,6,0
+372,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",145,0.3.4,"Becchini, vespilloni",H,persons,6,6,0
+373,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",146,1.0.9,"Disinfettatori, sardignoli",,persons,3,3,0
+374,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",146,1.0.9,"Disinfettatori, sardignoli",H,persons,3,3,0
+375,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",147,1.7.2,Infermieri,,persons,182,87,95
+376,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",147,1.7.2,Infermieri,F,persons,182,87,95
+377,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",148,2.4.6,"Parrucchieri, barbieri ed affini",,persons,357,340,17
+378,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",148,2.4.6,"Parrucchieri, barbieri ed affini",B,persons,70,68,2
+379,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",148,2.4.6,"Parrucchieri, barbieri ed affini",C,persons,96,93,3
+380,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",148,2.4.6,"Parrucchieri, barbieri ed affini",H,persons,191,179,12
+381,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",149,3.1.1,"Spazzaturai, spazzacamini, fognaioli",,persons,1,1,0
+382,profession,nonagri,"Professioni dei servizi sanitari ed igienici, cura estetica della persona",149,3.1.1,"Spazzaturai, spazzacamini, fognaioli",H,persons,1,1,0
+383,profession,nonagri,"Pesatori, imballatori, imbottigliatori",150,1.6.1,"Imballatori, impaccatori, inscatolatori, etichettatori",,persons,7,2,5
+384,profession,nonagri,"Pesatori, imballatori, imbottigliatori",150,1.6.1,"Imballatori, impaccatori, inscatolatori, etichettatori",H,persons,7,2,5
+385,profession,nonagri,"Pesatori, imballatori, imbottigliatori",151,1.6.3,"Imbottigliatori, riempitori di fiale",,persons,2,2,0
+386,profession,nonagri,"Pesatori, imballatori, imbottigliatori",151,1.6.3,"Imbottigliatori, riempitori di fiale",H,persons,2,2,0
+387,profession,nonagri,"Pesatori, imballatori, imbottigliatori",152,2.5.6,Pesatori e misuratori,,persons,2,2,0
+388,profession,nonagri,"Pesatori, imballatori, imbottigliatori",152,2.5.6,Pesatori e misuratori,F,persons,2,2,0
+389,profession,nonagri,Impiegati di amministrazioni pubbliche e private,153,0.1.0,"Applicati, alunni d'ordine, archivisti, economi",,persons,749,688,61
+390,profession,nonagri,Impiegati di amministrazioni pubbliche e private,153,0.1.0,"Applicati, alunni d'ordine, archivisti, economi",F,persons,749,688,61
+391,profession,nonagri,Impiegati di amministrazioni pubbliche e private,154,0.3.6,Bibliotecari,,persons,1,1,0
+392,profession,nonagri,Impiegati di amministrazioni pubbliche e private,154,0.3.6,Bibliotecari,F,persons,1,1,0
+393,profession,nonagri,Impiegati di amministrazioni pubbliche e private,155,0.5.1,"Capi reparto, capi divisione, capi sezione, capi servizio",,persons,26,26,0
+394,profession,nonagri,Impiegati di amministrazioni pubbliche e private,155,0.5.1,"Capi reparto, capi divisione, capi sezione, capi servizio",E,persons,1,1,0
+395,profession,nonagri,Impiegati di amministrazioni pubbliche e private,155,0.5.1,"Capi reparto, capi divisione, capi sezione, capi servizio",F,persons,25,25,0
+396,profession,nonagri,Impiegati di amministrazioni pubbliche e private,156,0.5.4,"Capi ufficio, segretari, ispettori",,persons,247,242,5
+397,profession,nonagri,Impiegati di amministrazioni pubbliche e private,156,0.5.4,"Capi ufficio, segretari, ispettori",F,persons,247,242,5
+398,profession,nonagri,Impiegati di amministrazioni pubbliche e private,157,0.9.7,Dattilografi e stenografi,,persons,154,86,68
+399,profession,nonagri,Impiegati di amministrazioni pubbliche e private,157,0.9.7,Dattilografi e stenografi,F,persons,154,86,68
+400,profession,nonagri,Impiegati di amministrazioni pubbliche e private,158,1.5.0,"Direttori generali, direttori",,persons,123,119,4
+401,profession,nonagri,Impiegati di amministrazioni pubbliche e private,158,1.5.0,"Direttori generali, direttori",E,persons,123,119,4
+402,profession,nonagri,Impiegati di amministrazioni pubbliche e private,159,1.0.7,Direttori tecnici,,persons,22,22,0
+403,profession,nonagri,Impiegati di amministrazioni pubbliche e private,159,1.0.7,Direttori tecnici,E,persons,22,22,0
+404,profession,nonagri,Impiegati di amministrazioni pubbliche e private,160,1.6.7,Impiegati tecnici,,persons,126,123,3
+405,profession,nonagri,Impiegati di amministrazioni pubbliche e private,160,1.6.7,Impiegati tecnici,F,persons,126,123,3
+406,profession,nonagri,Impiegati di amministrazioni pubbliche e private,161,1.8.1,Interpreti e traduttori,,persons,33,33,0
+407,profession,nonagri,Impiegati di amministrazioni pubbliche e private,161,1.8.1,Interpreti e traduttori,F,persons,33,33,0
+408,profession,nonagri,Impiegati di amministrazioni pubbliche e private,162,3.4.5,"Uscieri, inservienti e bidelli di uffici pubblici e privati",,persons,159,135,24
+409,profession,nonagri,Impiegati di amministrazioni pubbliche e private,162,3.4.5,"Uscieri, inservienti e bidelli di uffici pubblici e privati",G,persons,159,135,24
+410,profession,nonagri,Corpo diplomatico e consolare,163,0.8.6,"Consiglieri di legazione, segretari di legazione",,persons,1,1,0
+411,profession,nonagri,Corpo diplomatico e consolare,163,0.8.6,"Consiglieri di legazione, segretari di legazione",F,persons,1,1,0
+412,profession,nonagri,Corpo diplomatico e consolare,164,0.8.7,"Consoli, addetti consolari, commerciali, militari",,persons,9,9,0
+413,profession,nonagri,Corpo diplomatico e consolare,164,0.8.7,"Consoli, addetti consolari, commerciali, militari",E,persons,6,6,0
+414,profession,nonagri,Corpo diplomatico e consolare,164,0.8.7,"Consoli, addetti consolari, commerciali, militari",F,persons,3,3,0
+415,profession,nonagri,Professioni dell'insegnamento,165,1.7.5,"Insegnanti di educazione fisica, di ballo, di scherma",,persons,3,3,0
+416,profession,nonagri,Professioni dell'insegnamento,165,1.7.5,"Insegnanti di educazione fisica, di ballo, di scherma",D,persons,1,1,0
+417,profession,nonagri,Professioni dell'insegnamento,165,1.7.5,"Insegnanti di educazione fisica, di ballo, di scherma",F,persons,2,2,0
+418,profession,nonagri,Professioni dell'insegnamento,166,1.7.6,"Insegnanti di materie scientifiche, letterarie e tecnico-professionali",,persons,605,250,355
+419,profession,nonagri,Professioni dell'insegnamento,166,1.7.6,"Insegnanti di materie scientifiche, letterarie e tecnico-professionali",D,persons,8,3,5
+420,profession,nonagri,Professioni dell'insegnamento,166,1.7.6,"Insegnanti di materie scientifiche, letterarie e tecnico-professionali",F,persons,597,247,350
+421,profession,nonagri,Professioni dell'insegnamento,167,1.7.7,Insegnanti di musica vocale e strumentale e di recitazione,,persons,32,11,21
+422,profession,nonagri,Professioni dell'insegnamento,167,1.7.7,Insegnanti di musica vocale e strumentale e di recitazione,D,persons,26,8,18
+423,profession,nonagri,Professioni dell'insegnamento,167,1.7.7,Insegnanti di musica vocale e strumentale e di recitazione,F,persons,6,3,3
+424,profession,nonagri,Professioni dell'insegnamento,168,1.8.5,"Istitutori, censori, prefetti di camerata",,persons,5,0,5
+425,profession,nonagri,Professioni dell'insegnamento,168,1.8.5,"Istitutori, censori, prefetti di camerata",F,persons,5,0,5
+426,profession,nonagri,Professioni dell'insegnamento,169,2.7.6,Presidi e direttori di istituti di istruzione,,persons,6,5,1
+427,profession,nonagri,Professioni dell'insegnamento,169,2.7.6,Presidi e direttori di istituti di istruzione,E,persons,6,5,1
+428,profession,nonagri,Forze armate,170,1.5.1,Graduati e militari di truppa,,persons,1272,1272,0
+429,profession,nonagri,Forze armate,170,1.5.1,Graduati e militari di truppa,H,persons,1272,1272,0
+430,profession,nonagri,Forze armate,171,3.1.0,Sottufficiali,,persons,1874,1874,0
+431,profession,nonagri,Forze armate,171,3.1.0,Sottufficiali,F,persons,1874,1874,0
+432,profession,nonagri,Forze armate,172,3.4.3,Ufficiali delle forze armate,,persons,891,891,0
+433,profession,nonagri,Forze armate,172,3.4.3,Ufficiali delle forze armate,E,persons,28,28,0
+434,profession,nonagri,Forze armate,172,3.4.3,Ufficiali delle forze armate,F,persons,863,863,0
+435,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",173,0.0.5,"Agenti di pubblica sicurezza, metropolitani, vigili comunali, guardie carcerarie",,persons,123,123,0
+436,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",173,0.0.5,"Agenti di pubblica sicurezza, metropolitani, vigili comunali, guardie carcerarie",G,persons,123,123,0
+437,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",174,0.4.8,"Cantonieri stradali e ferroviari, guardabarriere",,persons,190,189,1
+438,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",174,0.4.8,"Cantonieri stradali e ferroviari, guardabarriere",H,persons,190,189,1
+439,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",175,1.5.4,Guardacaccia e guardaboschi,,persons,7,7,0
+440,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",175,1.5.4,Guardacaccia e guardaboschi,G,persons,7,7,0
+441,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",176,3.5.7,Vigili del fuoco,,persons,6,6,0
+442,profession,nonagri,"Personale di pubblica sicurezza, di vigilanza",176,3.5.7,Vigili del fuoco,G,persons,6,6,0
+443,profession,nonagri,Giardinieri e guardiani del bestiame,177,1.4.7,"Giardinieri, classificatori di piante, potatori",,persons,60,60,0
+444,profession,nonagri,Giardinieri e guardiani del bestiame,177,1.4.7,"Giardinieri, classificatori di piante, potatori",H,persons,60,60,0
+445,profession,nonagri,Giardinieri e guardiani del bestiame,178,3.1.6,"Stallieri, palafrenieri, cavallanti",,persons,2,2,0
+446,profession,nonagri,Giardinieri e guardiani del bestiame,178,3.1.6,"Stallieri, palafrenieri, cavallanti",G,persons,2,2,0
+447,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,179,0.3.1,"Banconieri, baristi",,persons,22,16,6
+448,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,179,0.3.1,"Banconieri, baristi",H,persons,22,16,6
+449,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,180,0.6.6,Cassieri e tesorieri,,persons,81,68,13
+450,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,180,0.6.6,Cassieri e tesorieri,F,persons,81,68,13
+451,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,181,0.8.0,Commessi di vendita,,persons,199,160,39
+452,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,181,0.8.0,Commessi di vendita,F,persons,199,160,39
+453,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,182,0.9.0,Corrispondenti,,persons,1,1,0
+454,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,182,0.9.0,Corrispondenti,F,persons,1,1,0
+455,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,183,1.2.0,"Esattori, riscuotitori",,persons,37,37,0
+456,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,183,1.2.0,"Esattori, riscuotitori",F,persons,37,37,0
+457,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,184,1.2.6,"Fattorini, cascherini, ecc.",,persons,28,27,1
+458,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,184,1.2.6,"Fattorini, cascherini, ecc.",G,persons,28,27,1
+459,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,185,1.4.6,"Gerenti, agenti di pubblicita e di viaggio",,persons,46,36,10
+460,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,185,1.4.6,"Gerenti, agenti di pubblicita e di viaggio",F,persons,46,36,10
+461,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,186,1.6.6,Impiegati senz'altra specificazione,,persons,69,63,6
+462,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,186,1.6.6,Impiegati senz'altra specificazione,F,persons,69,63,6
+463,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,187,1.8.3,"Ispettori, controllori di grandi magazzini",,persons,1,1,0
+464,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,187,1.8.3,"Ispettori, controllori di grandi magazzini",F,persons,1,1,0
+465,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,188,2.8.5,Ragionieri e contabili,,persons,646,599,47
+466,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,188,2.8.5,Ragionieri e contabili,D,persons,16,16,0
+467,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,188,2.8.5,Ragionieri e contabili,F,persons,630,583,47
+468,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,189,3.0.0,"Scritturali, amanuensi, copisti, giovani di studio, scrivani",,persons,178,168,10
+469,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,189,3.0.0,"Scritturali, amanuensi, copisti, giovani di studio, scrivani",F,persons,178,168,10
+470,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,190,3.1.9,Stimatori,,persons,1,1,0
+471,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,190,3.1.9,Stimatori,F,persons,1,1,0
+472,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,191,3.4.8,Venditori ambulanti (non padroni),,persons,2,2,0
+473,profession,nonagri,Personale di negozi di vendita e di pubblici esercizi,191,3.4.8,Venditori ambulanti (non padroni),F,persons,2,2,0
+474,profession,nonagri,Personale alberghiero,192,1.0.4,Direttori di alberghi e pensioni,,persons,21,18,3
+475,profession,nonagri,Personale alberghiero,192,1.0.4,Direttori di alberghi e pensioni,E,persons,21,18,3
+476,profession,nonagri,Personale alberghiero,193,1.1.6,"Economi di alberghi e pensioni, segretari di alberghi e pensioni, capi accettazione di alberghi e pensioni",,persons,5,4,1
+477,profession,nonagri,Personale alberghiero,193,1.1.6,"Economi di alberghi e pensioni, segretari di alberghi e pensioni, capi accettazione di alberghi e pensioni",F,persons,5,4,1
+478,profession,nonagri,Personale alberghiero,194,2.7.2,Portieri d'albergo,,persons,7,7,0
+479,profession,nonagri,Personale alberghiero,194,2.7.2,Portieri d'albergo,G,persons,7,7,0
+480,profession,nonagri,Ausiliari del commercio,195,0.0.3,"Agenti di cambio, commissionari di banca, ecc.",,persons,1,1,0
+481,profession,nonagri,Ausiliari del commercio,195,0.0.3,"Agenti di cambio, commissionari di banca, ecc.",F,persons,1,1,0
+482,profession,nonagri,Ausiliari del commercio,196,0.8.9,"Corrieri, spedizionieri, ecc.",,persons,36,36,0
+483,profession,nonagri,Ausiliari del commercio,196,0.8.9,"Corrieri, spedizionieri, ecc.",F,persons,35,35,0
+484,profession,nonagri,Ausiliari del commercio,196,0.8.9,"Corrieri, spedizionieri, ecc.",H,persons,1,1,0
+485,profession,nonagri,Ausiliari del commercio,197,2.1.2,"Mediatori, piazzisti, procacciatori, ecc.",,persons,18,17,1
+486,profession,nonagri,Ausiliari del commercio,197,2.1.2,"Mediatori, piazzisti, procacciatori, ecc.",F,persons,18,17,1
+487,profession,nonagri,Ausiliari del commercio,198,2.8.7,"Rappresentanti, agenti e viaggiatori di commercio",,persons,124,122,2
+488,profession,nonagri,Ausiliari del commercio,198,2.8.7,"Rappresentanti, agenti e viaggiatori di commercio",F,persons,124,122,2
+489,profession,nonagri,Ausiliari del turismo,199,1.6.0,Guide e ciceroni,,persons,1,1,0
+490,profession,nonagri,Ausiliari del turismo,199,1.6.0,Guide e ciceroni,F,persons,1,1,0
+491,profession,nonagri,Professioni dei trasporti e comunicazioni,200,0.2.7,Autisti,,persons,464,464,0
+492,profession,nonagri,Professioni dei trasporti e comunicazioni,200,0.2.7,Autisti,C,persons,66,66,0
+493,profession,nonagri,Professioni dei trasporti e comunicazioni,200,0.2.7,Autisti,H,persons,398,398,0
+494,profession,nonagri,Professioni dei trasporti e comunicazioni,201,0.3.2,Barrocciai e carrettieri,,persons,71,71,0
+495,profession,nonagri,Professioni dei trasporti e comunicazioni,201,0.3.2,Barrocciai e carrettieri,C,persons,26,26,0
+496,profession,nonagri,Professioni dei trasporti e comunicazioni,201,0.3.2,Barrocciai e carrettieri,H,persons,45,45,0
+497,profession,nonagri,Professioni dei trasporti e comunicazioni,202,0.3.7,Bigliettai di aziende di trasporto,,persons,20,20,0
+498,profession,nonagri,Professioni dei trasporti e comunicazioni,202,0.3.7,Bigliettai di aziende di trasporto,G,persons,20,20,0
+499,profession,nonagri,Professioni dei trasporti e comunicazioni,203,0.5.2,Capi stazione e sottocapi,,persons,5,5,0
+500,profession,nonagri,Professioni dei trasporti e comunicazioni,203,0.5.2,Capi stazione e sottocapi,F,persons,5,5,0
+501,profession,nonagri,Professioni dei trasporti e comunicazioni,204,0.5.3,"Capitreno, conduttori e controllori viaggianti",,persons,9,9,0
+502,profession,nonagri,Professioni dei trasporti e comunicazioni,204,0.5.3,"Capitreno, conduttori e controllori viaggianti",F,persons,9,9,0
+503,profession,nonagri,Professioni dei trasporti e comunicazioni,205,1.0.2,"Deviatori, manovratori, guardafreni, frenatori",,persons,7,7,0
+504,profession,nonagri,Professioni dei trasporti e comunicazioni,205,1.0.2,"Deviatori, manovratori, guardafreni, frenatori",H,persons,7,7,0
+505,profession,nonagri,Professioni dei trasporti e comunicazioni,206,1.2.4,Fanalisti,,persons,8,8,0
+506,profession,nonagri,Professioni dei trasporti e comunicazioni,206,1.2.4,Fanalisti,H,persons,8,8,0
+507,profession,nonagri,Professioni dei trasporti e comunicazioni,207,1.4.2,Fuochisti (addetti alle aziende di trasporto),,persons,20,20,0
+508,profession,nonagri,Professioni dei trasporti e comunicazioni,207,1.4.2,Fuochisti (addetti alle aziende di trasporto),H,persons,20,20,0
+509,profession,nonagri,Professioni dei trasporti e comunicazioni,208,1.5.6,"Guarda merci, guarda sala",,persons,1,1,0
+510,profession,nonagri,Professioni dei trasporti e comunicazioni,208,1.5.6,"Guarda merci, guarda sala",G,persons,1,1,0
+511,profession,nonagri,Professioni dei trasporti e comunicazioni,209,1.8.4,Ispettori e controllori di linee tramviarie e automobilistiche,,persons,4,4,0
+512,profession,nonagri,Professioni dei trasporti e comunicazioni,209,1.8.4,Ispettori e controllori di linee tramviarie e automobilistiche,F,persons,4,4,0
+513,profession,nonagri,Professioni dei trasporti e comunicazioni,210,1.9.6,Macchinisti (addetti alle aziende di trasporto e alle macchine agricole),,persons,86,86,0
+514,profession,nonagri,Professioni dei trasporti e comunicazioni,210,1.9.6,Macchinisti (addetti alle aziende di trasporto e alle macchine agricole),H,persons,86,86,0
+515,profession,nonagri,Professioni dei trasporti e comunicazioni,211,2.0.8,Marinai (marina mercantile) e barcaioli,,persons,51,51,0
+516,profession,nonagri,Professioni dei trasporti e comunicazioni,211,2.0.8,Marinai (marina mercantile) e barcaioli,H,persons,51,51,0
+517,profession,nonagri,Professioni dei trasporti e comunicazioni,212,2.2.6,Motoristi di aviazione (compresi i motoristi a terra),,persons,9,9,0
+518,profession,nonagri,Professioni dei trasporti e comunicazioni,212,2.2.6,Motoristi di aviazione (compresi i motoristi a terra),H,persons,9,9,0
+519,profession,nonagri,Professioni dei trasporti e comunicazioni,213,2.2.7,"Motoristi di navi, di barche a motore, di motoscafi, ecc.",,persons,12,12,0
+520,profession,nonagri,Professioni dei trasporti e comunicazioni,213,2.2.7,"Motoristi di navi, di barche a motore, di motoscafi, ecc.",H,persons,12,12,0
+521,profession,nonagri,Professioni dei trasporti e comunicazioni,214,2.2.8,Mozzi e giovanotti,,persons,2,2,0
+522,profession,nonagri,Professioni dei trasporti e comunicazioni,214,2.2.8,Mozzi e giovanotti,H,persons,2,2,0
+523,profession,nonagri,Professioni dei trasporti e comunicazioni,215,2.3.4,"Nostromi, caporali di macchina, capitani di armi",,persons,7,7,0
+524,profession,nonagri,Professioni dei trasporti e comunicazioni,215,2.3.4,"Nostromi, caporali di macchina, capitani di armi",H,persons,7,7,0
+525,profession,nonagri,Professioni dei trasporti e comunicazioni,216,2.4.2,Palombari,,persons,15,15,0
+526,profession,nonagri,Professioni dei trasporti e comunicazioni,216,2.4.2,Palombari,H,persons,15,15,0
+527,profession,nonagri,Professioni dei trasporti e comunicazioni,217,2.6.4,Piloti di aviazione,,persons,15,15,0
+528,profession,nonagri,Professioni dei trasporti e comunicazioni,217,2.6.4,Piloti di aviazione,F,persons,15,15,0
+529,profession,nonagri,Professioni dei trasporti e comunicazioni,218,2.6.5,"Piloti marittimi, padroni e marinai autorizzati",,persons,11,11,0
+530,profession,nonagri,Professioni dei trasporti e comunicazioni,218,2.6.5,"Piloti marittimi, padroni e marinai autorizzati",F,persons,10,10,0
+531,profession,nonagri,Professioni dei trasporti e comunicazioni,218,2.6.5,"Piloti marittimi, padroni e marinai autorizzati",H,persons,1,1,0
+532,profession,nonagri,Professioni dei trasporti e comunicazioni,219,2.7.1,"Portalettere, fattorini postali e telegrafici",,persons,33,33,0
+533,profession,nonagri,Professioni dei trasporti e comunicazioni,219,2.7.1,"Portalettere, fattorini postali e telegrafici",G,persons,33,33,0
+534,profession,nonagri,Professioni dei trasporti e comunicazioni,220,2.8.4,Radiotelegrafisti,,persons,16,16,0
+535,profession,nonagri,Professioni dei trasporti e comunicazioni,220,2.8.4,Radiotelegrafisti,F,persons,16,16,0
+536,profession,nonagri,Professioni dei trasporti e comunicazioni,221,3.3.0,Telefonisti,,persons,35,31,4
+537,profession,nonagri,Professioni dei trasporti e comunicazioni,221,3.3.0,Telefonisti,F,persons,29,25,4
+538,profession,nonagri,Professioni dei trasporti e comunicazioni,221,3.3.0,Telefonisti,H,persons,6,6,0
+539,profession,nonagri,Professioni dei trasporti e comunicazioni,222,3.3.1,Telegrafisti,,persons,6,6,0
+540,profession,nonagri,Professioni dei trasporti e comunicazioni,222,3.3.1,Telegrafisti,F,persons,6,6,0
+541,profession,nonagri,Professioni dei trasporti e comunicazioni,223,3.3.7,"Tirafili, guardafili, ecc.",,persons,22,22,0
+542,profession,nonagri,Professioni dei trasporti e comunicazioni,223,3.3.7,"Tirafili, guardafili, ecc.",H,persons,22,22,0
+543,profession,nonagri,Professioni dei trasporti e comunicazioni,224,3.4.4,"Ufficiali di coperta, di macchina, ecc., della marina mercantile (esclusi gli ufficiali medici e gli ufficiali radiotelegrafisti o marconisti)",,persons,10,10,0
+544,profession,nonagri,Professioni dei trasporti e comunicazioni,224,3.4.4,"Ufficiali di coperta, di macchina, ecc., della marina mercantile (esclusi gli ufficiali medici e gli ufficiali radiotelegrafisti o marconisti)",F,persons,10,10,0
+545,profession,nonagri,Professioni dei trasporti e comunicazioni,225,3.5.6,Vetturini e cocchieri,,persons,55,55,0
+546,profession,nonagri,Professioni dei trasporti e comunicazioni,225,3.5.6,Vetturini e cocchieri,C,persons,49,49,0
+547,profession,nonagri,Professioni dei trasporti e comunicazioni,225,3.5.6,Vetturini e cocchieri,H,persons,6,6,0
+548,profession,nonagri,Ausiliari dei trasporti,226,1.4.4,Garagisti e lavaggiatori di veicoli,,persons,1,1,0
+549,profession,nonagri,Ausiliari dei trasporti,226,1.4.4,Garagisti e lavaggiatori di veicoli,H,persons,1,1,0
+550,profession,nonagri,Personale di custodia,227,1.5.8,Guardiani e custodi di aziende,,persons,31,29,2
+551,profession,nonagri,Personale di custodia,227,1.5.8,Guardiani e custodi di aziende,G,persons,31,29,2
+552,profession,nonagri,Personale di custodia,228,2.0.2,Magazzinieri,,persons,132,132,0
+553,profession,nonagri,Personale di custodia,228,2.0.2,Magazzinieri,F,persons,131,131,0
+554,profession,nonagri,Personale di custodia,228,2.0.2,Magazzinieri,H,persons,1,1,0
+555,profession,nonagri,Personale di custodia,229,2.7.3,Portieri di case di abitazione,,persons,3,3,0
+556,profession,nonagri,Personale di custodia,229,2.7.3,Portieri di case di abitazione,G,persons,3,3,0
+557,profession,nonagri,Personale di fatica,230,1.2.2,"Facchini, caricatori, scaricatori",,persons,17,17,0
+558,profession,nonagri,Personale di fatica,230,1.2.2,"Facchini, caricatori, scaricatori",H,persons,17,17,0
+559,profession,nonagri,Personale di fatica,231,2.0.6,Manovali (esclusi gli edili) e uomini di fatica in genere,,persons,94,94,0
+560,profession,nonagri,Personale di fatica,231,2.0.6,Manovali (esclusi gli edili) e uomini di fatica in genere,H,persons,94,94,0
+561,profession,nonagri,Professioni della caccia e pesca,232,2.5.7,Pescatori (senz'altra specificazione),,persons,93,93,0
+562,profession,nonagri,Professioni della caccia e pesca,232,2.5.7,Pescatori (senz'altra specificazione),B,persons,2,2,0
+563,profession,nonagri,Professioni della caccia e pesca,232,2.5.7,Pescatori (senz'altra specificazione),C,persons,6,6,0
+564,profession,nonagri,Professioni della caccia e pesca,232,2.5.7,Pescatori (senz'altra specificazione),H,persons,85,85,0
+565,profession,nonagri,Professioni della caccia e pesca,233,2.5.9,Pescatori d'alto mare,,persons,91,91,0
+566,profession,nonagri,Professioni della caccia e pesca,233,2.5.9,Pescatori d'alto mare,H,persons,91,91,0
+567,profession,nonagri,Professioni della caccia e pesca,234,2.6.0,"Pescatori di coralli, spugne, crostacei, molluschi",,persons,17,17,0
+568,profession,nonagri,Professioni della caccia e pesca,234,2.6.0,"Pescatori di coralli, spugne, crostacei, molluschi",H,persons,17,17,0
+569,profession,nonagri,Professioni della caccia e pesca,235,2.6.1,Pescatori di tonno e pesce spada,,persons,1,1,0
+570,profession,nonagri,Professioni della caccia e pesca,235,2.6.1,Pescatori di tonno e pesce spada,H,persons,1,1,0
+571,profession,nonagri,Culto,236,2.1.7,Ministri di culti non cattolici,,persons,6,6,0
+572,profession,nonagri,Culto,236,2.1.7,Ministri di culti non cattolici,F,persons,6,6,0
+573,profession,nonagri,Culto,237,2.7.8,"Preti, curati, parroci, regolari, suore ecc.",,persons,124,63,61
+574,profession,nonagri,Culto,237,2.7.8,"Preti, curati, parroci, regolari, suore ecc.",F,persons,124,63,61
+575,profession,nonagri,Culto,238,2.9.3,"Sagrestani, scaccini, campanari",,persons,3,3,0
+576,profession,nonagri,Culto,238,2.9.3,"Sagrestani, scaccini, campanari",G,persons,3,3,0
+577,profession,nonagri,Attivita ed arti libere,239,0.2.9,Avvocati e procuratori,,persons,46,45,1
+578,profession,nonagri,Attivita ed arti libere,239,0.2.9,Avvocati e procuratori,D,persons,32,32,0
+579,profession,nonagri,Attivita ed arti libere,239,0.2.9,Avvocati e procuratori,E,persons,1,1,0
+580,profession,nonagri,Attivita ed arti libere,239,0.2.9,Avvocati e procuratori,F,persons,13,12,1
+581,profession,nonagri,Attivita ed arti libere,240,1.0.0,Dentisti,,persons,3,2,1
+582,profession,nonagri,Attivita ed arti libere,240,1.0.0,Dentisti,D,persons,3,2,1
+583,profession,nonagri,Attivita ed arti libere,241,1.1.3,"Dottori in scienze agrarie, agronomi",,persons,33,33,0
+584,profession,nonagri,Attivita ed arti libere,241,1.1.3,"Dottori in scienze agrarie, agronomi",F,persons,33,33,0
+585,profession,nonagri,Attivita ed arti libere,242,1.1.4,Dottori in scienze economiche e commerciali,,persons,5,5,0
+586,profession,nonagri,Attivita ed arti libere,242,1.1.4,Dottori in scienze economiche e commerciali,D,persons,1,1,0
+587,profession,nonagri,Attivita ed arti libere,242,1.1.4,Dottori in scienze economiche e commerciali,F,persons,4,4,0
+588,profession,nonagri,Attivita ed arti libere,243,1.3.2,"Fisici, geologi, geografi, ecc.",,persons,3,3,0
+589,profession,nonagri,Attivita ed arti libere,243,1.3.2,"Fisici, geologi, geografi, ecc.",E,persons,1,1,0
+590,profession,nonagri,Attivita ed arti libere,243,1.3.2,"Fisici, geologi, geografi, ecc.",F,persons,2,2,0
+591,profession,nonagri,Attivita ed arti libere,244,1.7.3,Ingegneri,,persons,79,79,0
+592,profession,nonagri,Attivita ed arti libere,244,1.7.3,Ingegneri,D,persons,15,15,0
+593,profession,nonagri,Attivita ed arti libere,244,1.7.3,Ingegneri,E,persons,12,12,0
+594,profession,nonagri,Attivita ed arti libere,244,1.7.3,Ingegneri,F,persons,52,52,0
+595,profession,nonagri,Attivita ed arti libere,245,1.9.0,Levatrici,,persons,34,0,34
+596,profession,nonagri,Attivita ed arti libere,245,1.9.0,Levatrici,D,persons,14,0,14
+597,profession,nonagri,Attivita ed arti libere,245,1.9.0,Levatrici,F,persons,20,0,20
+598,profession,nonagri,Attivita ed arti libere,246,2.1.3,"Medici, batteriologi, ecc.",,persons,100,94,6
+599,profession,nonagri,Attivita ed arti libere,246,2.1.3,"Medici, batteriologi, ecc.",D,persons,26,24,2
+600,profession,nonagri,Attivita ed arti libere,246,2.1.3,"Medici, batteriologi, ecc.",E,persons,5,5,0
+601,profession,nonagri,Attivita ed arti libere,246,2.1.3,"Medici, batteriologi, ecc.",F,persons,69,65,4
+602,profession,nonagri,Attivita ed arti libere,247,2.3.0,Musicisti,,persons,2,2,0
+603,profession,nonagri,Attivita ed arti libere,247,2.3.0,Musicisti,D,persons,2,2,0
+604,profession,nonagri,Attivita ed arti libere,248,2.3.5,Notai,,persons,6,6,0
+605,profession,nonagri,Attivita ed arti libere,248,2.3.5,Notai,D,persons,6,6,0
+606,profession,nonagri,Attivita ed arti libere,249,2.5.3,Periti,,persons,152,151,1
+607,profession,nonagri,Attivita ed arti libere,249,2.5.3,Periti,D,persons,13,13,0
+608,profession,nonagri,Attivita ed arti libere,249,2.5.3,Periti,F,persons,139,138,1
+609,profession,nonagri,Attivita ed arti libere,250,2.6.8,Pittori,,persons,6,5,1
+610,profession,nonagri,Attivita ed arti libere,250,2.6.8,Pittori,D,persons,6,5,1
+611,profession,nonagri,Attivita ed arti libere,251,3.0.1,Scultori,,persons,4,4,0
+612,profession,nonagri,Attivita ed arti libere,251,3.0.1,Scultori,D,persons,3,3,0
+613,profession,nonagri,Attivita ed arti libere,251,3.0.1,Scultori,F,persons,1,1,0
+614,profession,nonagri,Attivita ed arti libere,252,3.5.3,Veterinari,,persons,14,14,0
+615,profession,nonagri,Attivita ed arti libere,252,3.5.3,Veterinari,D,persons,1,1,0
+616,profession,nonagri,Attivita ed arti libere,252,3.5.3,Veterinari,F,persons,13,13,0
+617,profession,nonagri,Attivita ed arti libere,253,3.6.0,Zoologi e botanici,,persons,1,1,0
+618,profession,nonagri,Attivita ed arti libere,253,3.6.0,Zoologi e botanici,F,persons,1,1,0
+619,profession,nonagri,Personale di servizio,254,0.1.9,"Ascensoristi, grooms, ecc.",,persons,1,1,0
+620,profession,nonagri,Personale di servizio,254,0.1.9,"Ascensoristi, grooms, ecc.",G,persons,1,1,0
+621,profession,nonagri,Personale di servizio,255,0.4.4,Camerieri,,persons,209,144,65
+622,profession,nonagri,Personale di servizio,255,0.4.4,Camerieri,H,persons,209,144,65
+623,profession,nonagri,Personale di servizio,256,0.9.3,Cuochi,,persons,89,61,28
+624,profession,nonagri,Personale di servizio,256,0.9.3,Cuochi,G,persons,25,8,17
+625,profession,nonagri,Personale di servizio,256,0.9.3,Cuochi,H,persons,64,53,11
+626,profession,nonagri,Personale di servizio,257,1.1.1,Domestici,,persons,970,17,953
+627,profession,nonagri,Personale di servizio,257,1.1.1,Domestici,G,persons,970,17,953
+628,profession,nonagri,Personale di servizio,258,1.5.7,"Guardarobieri, dispensieri, ecc.",,persons,10,3,7
+629,profession,nonagri,Personale di servizio,258,1.5.7,"Guardarobieri, dispensieri, ecc.",G,persons,10,3,7
+630,profession,nonagri,Personale di servizio,259,2.0.3,"Maggiordomi, cerimonieri, maestri di casa",,persons,2,2,0
+631,profession,nonagri,Personale di servizio,259,2.0.3,"Maggiordomi, cerimonieri, maestri di casa",F,persons,2,2,0
+632,profession,nonagri,Personale di servizio,260,3.0.5,Sguatteri e basso personale di cucina,,persons,3,2,1
+633,profession,nonagri,Personale di servizio,260,3.0.5,Sguatteri e basso personale di cucina,G,persons,1,1,0
+634,profession,nonagri,Personale di servizio,260,3.0.5,Sguatteri e basso personale di cucina,H,persons,2,1,1
+635,padroni,nonagri,,,,Padroni (non ripartiti per professione),A,persons,2857,2366,491
+636,padroni,nonagri,,,,Padroni (non ripartiti per professione),A,coadiuvanti,563,368,195
+637,total,nonagri,,,,Totale professioni non agricole,,persons,22706,19453,3253
+638,total,nonagri,,,,Totale professioni non agricole,,coadiuvanti,720,486,234
+639,total,nonagri,,,,Totale professioni non agricole,A,persons,2857,2366,491
+640,total,nonagri,,,,Totale professioni non agricole,B,persons,309,268,41
+641,total,nonagri,,,,Totale professioni non agricole,C,persons,973,794,179
+642,total,nonagri,,,,Totale professioni non agricole,D,persons,184,142,42
+643,total,nonagri,,,,Totale professioni non agricole,E,persons,231,223,8
+644,total,nonagri,,,,Totale professioni non agricole,F,persons,7356,6534,822
+645,total,nonagri,,,,Totale professioni non agricole,G,persons,1436,431,1005
+646,total,nonagri,,,,Totale professioni non agricole,H,persons,9308,8688,620
+647,total,nonagri,,,,Totale professioni non agricole,I,persons,52,7,45
+648,total,nonagri,,,,Totale professioni non agricole,A,coadiuvanti,563,368,195
+649,total,nonagri,,,,Totale professioni non agricole,B,coadiuvanti,48,38,10
+650,total,nonagri,,,,Totale professioni non agricole,C,coadiuvanti,109,80,29
+651,total,all,,,,Totale,A,persons,3028,2519,509
+652,total,all,,,,Totale,B,persons,309,268,41
+653,total,all,,,,Totale,C,persons,3712,3046,666
+654,total,all,,,,Totale,D,persons,184,142,42
+655,total,all,,,,Totale,E,persons,270,262,8
+656,total,all,,,,Totale,F,persons,7413,6591,822
+657,total,all,,,,Totale,G,persons,1436,431,1005
+658,total,all,,,,Totale,H,persons,10182,9515,667
+659,total,all,,,,Totale,I,persons,52,7,45
+660,total,all,,,,Totale,A,coadiuvanti,606,405,201
+661,total,all,,,,Totale,B,coadiuvanti,48,38,10
+662,total,all,,,,Totale,C,coadiuvanti,1459,994,465
+663,total,all,,,,Totale,,persons,26586,22781,3805
+664,total,all,,,,Totale,,coadiuvanti,2113,1437,676

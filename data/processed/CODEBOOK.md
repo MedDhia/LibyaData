@@ -1597,6 +1597,74 @@ IV's present population and X's its resident population, for Libya and
 Tripoli, and XI's total is table II's `straniera`. Every figure passed on the
 first reading.
 
+#### Settler activity and profession: tables XIII to XIX, seven files
+
+Published by `scripts/extract_istat_1936_settler_professions.py`, transcribed
+by eye from 39 pages. Every table except XIII covers the settlers present with a
+habitual dwelling and aged 10 or over: 48,981 people, 26,586 of them in work.
+XIII covers the same dwelling group at all ages, 63,216. The 52,421 settlers
+present without a habitual dwelling, 806 of them women, are outside all seven
+tables. All seven files are long.
+
+| File | Table | One row per |
+|---|---|---|
+| `libya_1936_settler_activity.csv` | XIII | circumscription (`order`, `level`, `parent`, `name`, as table IV), `measure` (the whole, nine categories, the working total, the artisans among them, the inactive): `persons` |
+| `libya_1936_settler_activity_position.csv` | XIV | `level` (category, class, subclass, group), `activity`, `position` (or `Totale`, or the `familiari coadiuvanti`), `area` (Libya, municipio di Tripoli, municipio di Bengasi), sex: `persons` |
+| `libya_1936_settler_activity_families.csv` | XV | `area` (Libya or a province), `category`, `line` (a position, a category numeral, or `Totale`), `measure`, sex: `value` |
+| `libya_1936_settler_professions.csv` | XVI | `kind` (profession, padroni, total), `scope` (agricultural, non-agricultural, all), `section`, profession `number` and ISTAT `code`, `position`, `measure` (persons or coadiuvanti), sex: `persons` |
+| `libya_1936_settler_padroni.csv` | XVII | `level`, `class`, `label`, `measure` (padroni or coadiuvanti), sex: `persons` |
+| `libya_1936_settler_position_age.csv` | XVIII | `group` (agricultural or other professions, non-professional, unspecified, all), `position`, `age` (ten groups or `all`), `measure`, sex: `persons` |
+| `libya_1936_settler_activity_class.csv` | XIX | `seq`, `level` (category, class, dependence, position, group, subgroup, profession, di_cui, di_cui_detail), `category`, `class`, `code`, `convention_number`, `label`, `measure`, sex: `persons`, `note` |
+
+The positions are the census's own: A padroni (owners who employ others), B
+artisans with employees, C artisans without employees and the like (the
+agricultural `coloni parziari` among them), D liberal professions, E dirigenti,
+F impiegati, G service staff, H operai, I home workers. `coadiuvanti` are the
+family members helping a padrone or artisan without pay, printed in italics
+under their line and counted within it. XV's `measure` values are `addetti`
+(the workers), `celibi_nubili` and `coniugati_vedovi` (their civil status; the
+two fall short of the workers by the few of unknown status), `capi_famiglia`
+(the workers who head a family), and for those families `membri`,
+`improduttivi` (members without work), `improduttivi_under15` and `domestici`.
+`di_cui` lines in XIX are subsets of the line above and do not add to its
+parent; `di_cui_detail` lines break a `di_cui` line down.
+
+**The settler economy of 1936 was an administration.** 7,943 of the 26,586
+settlers at work, 30%, were in public administration, 4,173 of them in the
+armed forces; 4,445 were in agriculture and fishing, 17%. The Circondario di
+Tripoli held 11,302 of them. Among those aged 10 and over, 16,128 women were
+`attendenti alle cure domestiche`, and 953 of the 970 domestic servants were
+women. The agricultural settlement schemes show as 1,368 coloni parziari; the
+2,188 agricultural workers who headed a family had 10,969 people in those
+families.
+
+XVI numbers the professions from 1 to 260 but prints no profession 129: the
+number stands against a line of positions, and profession 130 follows 128. The
+file keeps the printed numbers.
+
+**Checks.** XIII: the nine categories add to the working total, which with the
+inactive gives the whole; circumscriptions add to their parents and provinces
+to Libya; the whole equals table IV's habitual population in all 69 rows. XIV:
+M + F in each of the three areas; positions add to each block and classes to
+their category; the categories equal XIII's Libya line, with agriculture and
+fishing merged and the liberal arts and worship merged as XIII prints them. XV:
+positions add to each block; the five provinces add to Libya in every cell; its
+categories equal XIV's. XVI: positions add to each profession, professions to
+the agricultural and non-agricultural totals, and the position totals equal
+XIV's. XVII: classes add to categories and categories to the padroni, which
+equal XVI's. XVIII: ages add to each sex and position, and agricultural plus
+other professions give the whole, equal to XIV and XVI. XIX: all 1,212 lines of
+its tree equal the sum of their parts, coadiuvanti included; its categories
+equal XIV's, its positions XVIII's, and each class's padroni and their
+coadiuvanti equal XVII's.
+
+XIX misprints three figures, each kept as printed in the raw file and corrected
+in the output with a `note`, only where two independent sums agree: the
+coadiuvanti of the padroni in class 9 (printed 8 6 1; M + F and XVII both give
+8 6 2) and in class 15 (MF printed as a dash; M + F and XVII both give 6), and
+the `Addetti agli uffici` line of class 24, printed as dashes, which its
+professions and its parent both give as 197 178 19.
+
 #### `libya_1931_districts.csv` — table II, Libya by district, 106 rows
 
 Table II of the same two pages, published by

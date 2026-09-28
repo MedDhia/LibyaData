@@ -1,0 +1,409 @@
+seq,level,class,label,measure,sex,persons
+1,section,,A) Padroni,padroni,MF,2857
+1,section,,A) Padroni,padroni,M,2366
+1,section,,A) Padroni,padroni,F,491
+1,section,,A) Padroni,coadiuvanti,MF,563
+1,section,,A) Padroni,coadiuvanti,M,368
+1,section,,A) Padroni,coadiuvanti,F,195
+2,category,,Caccia e pesca,padroni,MF,123
+2,category,,Caccia e pesca,padroni,M,122
+2,category,,Caccia e pesca,padroni,F,1
+2,category,,Caccia e pesca,coadiuvanti,MF,38
+2,category,,Caccia e pesca,coadiuvanti,M,38
+2,category,,Caccia e pesca,coadiuvanti,F,0
+3,class,3,Pesca,padroni,MF,123
+3,class,3,Pesca,padroni,M,122
+3,class,3,Pesca,padroni,F,1
+3,class,3,Pesca,coadiuvanti,MF,38
+3,class,3,Pesca,coadiuvanti,M,38
+3,class,3,Pesca,coadiuvanti,F,0
+4,category,,Industria,padroni,MF,766
+4,category,,Industria,padroni,M,721
+4,category,,Industria,padroni,F,45
+4,category,,Industria,coadiuvanti,MF,139
+4,category,,Industria,coadiuvanti,M,119
+4,category,,Industria,coadiuvanti,F,20
+5,class,4,Industrie estrattive,padroni,MF,18
+5,class,4,Industrie estrattive,padroni,M,18
+5,class,4,Industrie estrattive,padroni,F,0
+5,class,4,Industrie estrattive,coadiuvanti,MF,6
+5,class,4,Industrie estrattive,coadiuvanti,M,6
+5,class,4,Industrie estrattive,coadiuvanti,F,0
+6,class,5,Industrie del legno ed affini,padroni,MF,70
+6,class,5,Industrie del legno ed affini,padroni,M,70
+6,class,5,Industrie del legno ed affini,padroni,F,0
+6,class,5,Industrie del legno ed affini,coadiuvanti,MF,21
+6,class,5,Industrie del legno ed affini,coadiuvanti,M,21
+6,class,5,Industrie del legno ed affini,coadiuvanti,F,0
+7,class,6,Industrie alimentari,padroni,MF,165
+7,class,6,Industrie alimentari,padroni,M,144
+7,class,6,Industrie alimentari,padroni,F,21
+7,class,6,Industrie alimentari,coadiuvanti,MF,34
+7,class,6,Industrie alimentari,coadiuvanti,M,21
+7,class,6,Industrie alimentari,coadiuvanti,F,13
+8,class,7,Industrie che utilizzano spoglie animali,padroni,MF,5
+8,class,7,Industrie che utilizzano spoglie animali,padroni,M,5
+8,class,7,Industrie che utilizzano spoglie animali,padroni,F,0
+8,class,7,Industrie che utilizzano spoglie animali,coadiuvanti,MF,1
+8,class,7,Industrie che utilizzano spoglie animali,coadiuvanti,M,1
+8,class,7,Industrie che utilizzano spoglie animali,coadiuvanti,F,0
+9,class,8,Industria della carta,padroni,MF,2
+9,class,8,Industria della carta,padroni,M,2
+9,class,8,Industria della carta,padroni,F,0
+9,class,8,Industria della carta,coadiuvanti,MF,0
+9,class,8,Industria della carta,coadiuvanti,M,0
+9,class,8,Industria della carta,coadiuvanti,F,0
+10,class,9,Industrie poligrafiche,padroni,MF,33
+10,class,9,Industrie poligrafiche,padroni,M,31
+10,class,9,Industrie poligrafiche,padroni,F,2
+10,class,9,Industrie poligrafiche,coadiuvanti,MF,8
+10,class,9,Industrie poligrafiche,coadiuvanti,M,6
+10,class,9,Industrie poligrafiche,coadiuvanti,F,2
+11,class,10,Industrie metallurgiche,padroni,MF,1
+11,class,10,Industrie metallurgiche,padroni,M,1
+11,class,10,Industrie metallurgiche,padroni,F,0
+11,class,10,Industrie metallurgiche,coadiuvanti,MF,0
+11,class,10,Industrie metallurgiche,coadiuvanti,M,0
+11,class,10,Industrie metallurgiche,coadiuvanti,F,0
+12,class,11,Industrie meccaniche,padroni,MF,90
+12,class,11,Industrie meccaniche,padroni,M,88
+12,class,11,Industrie meccaniche,padroni,F,2
+12,class,11,Industrie meccaniche,coadiuvanti,MF,19
+12,class,11,Industrie meccaniche,coadiuvanti,M,19
+12,class,11,Industrie meccaniche,coadiuvanti,F,0
+13,class,12,Industrie che lavorano i minerali non metallici,padroni,MF,34
+13,class,12,Industrie che lavorano i minerali non metallici,padroni,M,34
+13,class,12,Industrie che lavorano i minerali non metallici,padroni,F,0
+13,class,12,Industrie che lavorano i minerali non metallici,coadiuvanti,MF,5
+13,class,12,Industrie che lavorano i minerali non metallici,coadiuvanti,M,5
+13,class,12,Industrie che lavorano i minerali non metallici,coadiuvanti,F,0
+14,class,13,Industrie edilizie,padroni,MF,265
+14,class,13,Industrie edilizie,padroni,M,265
+14,class,13,Industrie edilizie,padroni,F,0
+14,class,13,Industrie edilizie,coadiuvanti,MF,29
+14,class,13,Industrie edilizie,coadiuvanti,M,29
+14,class,13,Industrie edilizie,coadiuvanti,F,0
+15,class,14,Industrie tessili,padroni,MF,9
+15,class,14,Industrie tessili,padroni,M,9
+15,class,14,Industrie tessili,padroni,F,0
+15,class,14,Industrie tessili,coadiuvanti,MF,3
+15,class,14,Industrie tessili,coadiuvanti,M,3
+15,class,14,Industrie tessili,coadiuvanti,F,0
+16,class,15,"Industrie del vestiario, abbigliamento e arredamento",padroni,MF,31
+16,class,15,"Industrie del vestiario, abbigliamento e arredamento",padroni,M,14
+16,class,15,"Industrie del vestiario, abbigliamento e arredamento",padroni,F,17
+16,class,15,"Industrie del vestiario, abbigliamento e arredamento",coadiuvanti,MF,6
+16,class,15,"Industrie del vestiario, abbigliamento e arredamento",coadiuvanti,M,2
+16,class,15,"Industrie del vestiario, abbigliamento e arredamento",coadiuvanti,F,4
+17,class,16,Servizi igienici e sanitari,padroni,MF,2
+17,class,16,Servizi igienici e sanitari,padroni,M,1
+17,class,16,Servizi igienici e sanitari,padroni,F,1
+17,class,16,Servizi igienici e sanitari,coadiuvanti,MF,0
+17,class,16,Servizi igienici e sanitari,coadiuvanti,M,0
+17,class,16,Servizi igienici e sanitari,coadiuvanti,F,0
+18,class,17,Servizi privati di pulizia e disinfezione,padroni,MF,5
+18,class,17,Servizi privati di pulizia e disinfezione,padroni,M,5
+18,class,17,Servizi privati di pulizia e disinfezione,padroni,F,0
+18,class,17,Servizi privati di pulizia e disinfezione,coadiuvanti,MF,0
+18,class,17,Servizi privati di pulizia e disinfezione,coadiuvanti,M,0
+18,class,17,Servizi privati di pulizia e disinfezione,coadiuvanti,F,0
+19,class,18,Industrie chimiche,padroni,MF,26
+19,class,18,Industrie chimiche,padroni,M,24
+19,class,18,Industrie chimiche,padroni,F,2
+19,class,18,Industrie chimiche,coadiuvanti,MF,7
+19,class,18,Industrie chimiche,coadiuvanti,M,6
+19,class,18,Industrie chimiche,coadiuvanti,F,1
+20,class,19,"Produz. e distribuz. di forza motrice, luce, ecc.",padroni,MF,4
+20,class,19,"Produz. e distribuz. di forza motrice, luce, ecc.",padroni,M,4
+20,class,19,"Produz. e distribuz. di forza motrice, luce, ecc.",padroni,F,0
+20,class,19,"Produz. e distribuz. di forza motrice, luce, ecc.",coadiuvanti,MF,0
+20,class,19,"Produz. e distribuz. di forza motrice, luce, ecc.",coadiuvanti,M,0
+20,class,19,"Produz. e distribuz. di forza motrice, luce, ecc.",coadiuvanti,F,0
+21,class,21,Industria dello spettacolo,padroni,MF,4
+21,class,21,Industria dello spettacolo,padroni,M,4
+21,class,21,Industria dello spettacolo,padroni,F,0
+21,class,21,Industria dello spettacolo,coadiuvanti,MF,0
+21,class,21,Industria dello spettacolo,coadiuvanti,M,0
+21,class,21,Industria dello spettacolo,coadiuvanti,F,0
+22,dicui,21,Piccoli professionisti dello spettacolo,padroni,MF,1
+22,dicui,21,Piccoli professionisti dello spettacolo,padroni,M,1
+22,dicui,21,Piccoli professionisti dello spettacolo,padroni,F,0
+22,dicui,21,Piccoli professionisti dello spettacolo,coadiuvanti,MF,0
+22,dicui,21,Piccoli professionisti dello spettacolo,coadiuvanti,M,0
+22,dicui,21,Piccoli professionisti dello spettacolo,coadiuvanti,F,0
+23,class,22,Industrie non altrimenti specificate,padroni,MF,2
+23,class,22,Industrie non altrimenti specificate,padroni,M,2
+23,class,22,Industrie non altrimenti specificate,padroni,F,0
+23,class,22,Industrie non altrimenti specificate,coadiuvanti,MF,0
+23,class,22,Industrie non altrimenti specificate,coadiuvanti,M,0
+23,class,22,Industrie non altrimenti specificate,coadiuvanti,F,0
+24,category,,Trasporti e comunicazioni,padroni,MF,219
+24,category,,Trasporti e comunicazioni,padroni,M,217
+24,category,,Trasporti e comunicazioni,padroni,F,2
+24,category,,Trasporti e comunicazioni,coadiuvanti,MF,23
+24,category,,Trasporti e comunicazioni,coadiuvanti,M,23
+24,category,,Trasporti e comunicazioni,coadiuvanti,F,0
+25,class,23,Trasporti,padroni,MF,218
+25,class,23,Trasporti,padroni,M,216
+25,class,23,Trasporti,padroni,F,2
+25,class,23,Trasporti,coadiuvanti,MF,23
+25,class,23,Trasporti,coadiuvanti,M,23
+25,class,23,Trasporti,coadiuvanti,F,0
+26,dicui,23,"Esercenti di mezzi di trasporto marittimi, fluviali e lacuali con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani)",padroni,MF,1
+26,dicui,23,"Esercenti di mezzi di trasporto marittimi, fluviali e lacuali con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani)",padroni,M,1
+26,dicui,23,"Esercenti di mezzi di trasporto marittimi, fluviali e lacuali con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani)",padroni,F,0
+26,dicui,23,"Esercenti di mezzi di trasporto marittimi, fluviali e lacuali con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani)",coadiuvanti,MF,0
+26,dicui,23,"Esercenti di mezzi di trasporto marittimi, fluviali e lacuali con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani)",coadiuvanti,M,0
+26,dicui,23,"Esercenti di mezzi di trasporto marittimi, fluviali e lacuali con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani)",coadiuvanti,F,0
+27,dicui,23,Esercenti di mezzi di trasporto terrestri (esclusi autisti e camionisti) con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani),padroni,MF,66
+27,dicui,23,Esercenti di mezzi di trasporto terrestri (esclusi autisti e camionisti) con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani),padroni,M,65
+27,dicui,23,Esercenti di mezzi di trasporto terrestri (esclusi autisti e camionisti) con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani),padroni,F,1
+27,dicui,23,Esercenti di mezzi di trasporto terrestri (esclusi autisti e camionisti) con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani),coadiuvanti,MF,6
+27,dicui,23,Esercenti di mezzi di trasporto terrestri (esclusi autisti e camionisti) con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani),coadiuvanti,M,6
+27,dicui,23,Esercenti di mezzi di trasporto terrestri (esclusi autisti e camionisti) con l'aiuto di uno o piu dipendenti estranei (esclusi percio gli artigiani),coadiuvanti,F,0
+28,dicui,23,Facchini e prestatori pubblici di servizi vari,padroni,MF,4
+28,dicui,23,Facchini e prestatori pubblici di servizi vari,padroni,M,4
+28,dicui,23,Facchini e prestatori pubblici di servizi vari,padroni,F,0
+28,dicui,23,Facchini e prestatori pubblici di servizi vari,coadiuvanti,MF,0
+28,dicui,23,Facchini e prestatori pubblici di servizi vari,coadiuvanti,M,0
+28,dicui,23,Facchini e prestatori pubblici di servizi vari,coadiuvanti,F,0
+29,dicui,23,Noleggiatori di carrettini a mano,padroni,MF,2
+29,dicui,23,Noleggiatori di carrettini a mano,padroni,M,2
+29,dicui,23,Noleggiatori di carrettini a mano,padroni,F,0
+29,dicui,23,Noleggiatori di carrettini a mano,coadiuvanti,MF,1
+29,dicui,23,Noleggiatori di carrettini a mano,coadiuvanti,M,1
+29,dicui,23,Noleggiatori di carrettini a mano,coadiuvanti,F,0
+30,class,24,Comunicazioni,padroni,MF,1
+30,class,24,Comunicazioni,padroni,M,1
+30,class,24,Comunicazioni,padroni,F,0
+30,class,24,Comunicazioni,coadiuvanti,MF,0
+30,class,24,Comunicazioni,coadiuvanti,M,0
+30,class,24,Comunicazioni,coadiuvanti,F,0
+31,category,,Commercio,padroni,MF,1739
+31,category,,Commercio,padroni,M,1304
+31,category,,Commercio,padroni,F,435
+31,category,,Commercio,coadiuvanti,MF,363
+31,category,,Commercio,coadiuvanti,M,188
+31,category,,Commercio,coadiuvanti,F,175
+32,subcategory,,Commercio all'ingrosso,padroni,MF,229
+32,subcategory,,Commercio all'ingrosso,padroni,M,217
+32,subcategory,,Commercio all'ingrosso,padroni,F,12
+32,subcategory,,Commercio all'ingrosso,coadiuvanti,MF,33
+32,subcategory,,Commercio all'ingrosso,coadiuvanti,M,25
+32,subcategory,,Commercio all'ingrosso,coadiuvanti,F,8
+33,class,25,Commercio di generi alimentari,padroni,MF,128
+33,class,25,Commercio di generi alimentari,padroni,M,120
+33,class,25,Commercio di generi alimentari,padroni,F,8
+33,class,25,Commercio di generi alimentari,coadiuvanti,MF,21
+33,class,25,Commercio di generi alimentari,coadiuvanti,M,16
+33,class,25,Commercio di generi alimentari,coadiuvanti,F,5
+34,class,26,Commercio di generi non alimentari (esclusi gli animali vivi e le materie prime non preziose),padroni,MF,35
+34,class,26,Commercio di generi non alimentari (esclusi gli animali vivi e le materie prime non preziose),padroni,M,34
+34,class,26,Commercio di generi non alimentari (esclusi gli animali vivi e le materie prime non preziose),padroni,F,1
+34,class,26,Commercio di generi non alimentari (esclusi gli animali vivi e le materie prime non preziose),coadiuvanti,MF,5
+34,class,26,Commercio di generi non alimentari (esclusi gli animali vivi e le materie prime non preziose),coadiuvanti,M,5
+34,class,26,Commercio di generi non alimentari (esclusi gli animali vivi e le materie prime non preziose),coadiuvanti,F,0
+35,class,27,Commercio di animali vivi e di materie prime non preziose,padroni,MF,51
+35,class,27,Commercio di animali vivi e di materie prime non preziose,padroni,M,51
+35,class,27,Commercio di animali vivi e di materie prime non preziose,padroni,F,0
+35,class,27,Commercio di animali vivi e di materie prime non preziose,coadiuvanti,MF,3
+35,class,27,Commercio di animali vivi e di materie prime non preziose,coadiuvanti,M,3
+35,class,27,Commercio di animali vivi e di materie prime non preziose,coadiuvanti,F,0
+36,class,28,Commercio di generi diversi (alimentari e non alimentari),padroni,MF,15
+36,class,28,Commercio di generi diversi (alimentari e non alimentari),padroni,M,12
+36,class,28,Commercio di generi diversi (alimentari e non alimentari),padroni,F,3
+36,class,28,Commercio di generi diversi (alimentari e non alimentari),coadiuvanti,MF,4
+36,class,28,Commercio di generi diversi (alimentari e non alimentari),coadiuvanti,M,1
+36,class,28,Commercio di generi diversi (alimentari e non alimentari),coadiuvanti,F,3
+37,subcategory,,Commercio al minuto,padroni,MF,873
+37,subcategory,,Commercio al minuto,padroni,M,690
+37,subcategory,,Commercio al minuto,padroni,F,183
+37,subcategory,,Commercio al minuto,coadiuvanti,MF,183
+37,subcategory,,Commercio al minuto,coadiuvanti,M,105
+37,subcategory,,Commercio al minuto,coadiuvanti,F,78
+38,class,29,Commercio di generi alimentari,padroni,MF,567
+38,class,29,Commercio di generi alimentari,padroni,M,433
+38,class,29,Commercio di generi alimentari,padroni,F,134
+38,class,29,Commercio di generi alimentari,coadiuvanti,MF,130
+38,class,29,Commercio di generi alimentari,coadiuvanti,M,70
+38,class,29,Commercio di generi alimentari,coadiuvanti,F,60
+39,class,30,"Commercio di metalli, di macchine, ecc.",padroni,MF,65
+39,class,30,"Commercio di metalli, di macchine, ecc.",padroni,M,61
+39,class,30,"Commercio di metalli, di macchine, ecc.",padroni,F,4
+39,class,30,"Commercio di metalli, di macchine, ecc.",coadiuvanti,MF,8
+39,class,30,"Commercio di metalli, di macchine, ecc.",coadiuvanti,M,6
+39,class,30,"Commercio di metalli, di macchine, ecc.",coadiuvanti,F,2
+40,class,31,Commercio di materie prime per edilizia e agric.,padroni,MF,1
+40,class,31,Commercio di materie prime per edilizia e agric.,padroni,M,1
+40,class,31,Commercio di materie prime per edilizia e agric.,padroni,F,0
+40,class,31,Commercio di materie prime per edilizia e agric.,coadiuvanti,MF,0
+40,class,31,Commercio di materie prime per edilizia e agric.,coadiuvanti,M,0
+40,class,31,Commercio di materie prime per edilizia e agric.,coadiuvanti,F,0
+41,class,32,"Commercio di filati, tessuti, vestiario, ecc.",padroni,MF,107
+41,class,32,"Commercio di filati, tessuti, vestiario, ecc.",padroni,M,81
+41,class,32,"Commercio di filati, tessuti, vestiario, ecc.",padroni,F,26
+41,class,32,"Commercio di filati, tessuti, vestiario, ecc.",coadiuvanti,MF,19
+41,class,32,"Commercio di filati, tessuti, vestiario, ecc.",coadiuvanti,M,11
+41,class,32,"Commercio di filati, tessuti, vestiario, ecc.",coadiuvanti,F,8
+42,class,33,Commercio di oggetti di arredamento (esclusi gli oggetti d'arte e di lusso),padroni,MF,26
+42,class,33,Commercio di oggetti di arredamento (esclusi gli oggetti d'arte e di lusso),padroni,M,22
+42,class,33,Commercio di oggetti di arredamento (esclusi gli oggetti d'arte e di lusso),padroni,F,4
+42,class,33,Commercio di oggetti di arredamento (esclusi gli oggetti d'arte e di lusso),coadiuvanti,MF,5
+42,class,33,Commercio di oggetti di arredamento (esclusi gli oggetti d'arte e di lusso),coadiuvanti,M,4
+42,class,33,Commercio di oggetti di arredamento (esclusi gli oggetti d'arte e di lusso),coadiuvanti,F,1
+43,class,34,"Commercio oggetti d'arte, lusso e orologerie",padroni,MF,22
+43,class,34,"Commercio oggetti d'arte, lusso e orologerie",padroni,M,20
+43,class,34,"Commercio oggetti d'arte, lusso e orologerie",padroni,F,2
+43,class,34,"Commercio oggetti d'arte, lusso e orologerie",coadiuvanti,MF,6
+43,class,34,"Commercio oggetti d'arte, lusso e orologerie",coadiuvanti,M,5
+43,class,34,"Commercio oggetti d'arte, lusso e orologerie",coadiuvanti,F,1
+44,class,35,Commercio di prodotti chimici e farmaceutici e di articoli d'igiene personale,padroni,MF,34
+44,class,35,Commercio di prodotti chimici e farmaceutici e di articoli d'igiene personale,padroni,M,30
+44,class,35,Commercio di prodotti chimici e farmaceutici e di articoli d'igiene personale,padroni,F,4
+44,class,35,Commercio di prodotti chimici e farmaceutici e di articoli d'igiene personale,coadiuvanti,MF,6
+44,class,35,Commercio di prodotti chimici e farmaceutici e di articoli d'igiene personale,coadiuvanti,M,4
+44,class,35,Commercio di prodotti chimici e farmaceutici e di articoli d'igiene personale,coadiuvanti,F,2
+45,class,36,"Commercio cartoleria, cancelleria, pubblic. musicali, ecc. - Biblioteche circolanti",padroni,MF,26
+45,class,36,"Commercio cartoleria, cancelleria, pubblic. musicali, ecc. - Biblioteche circolanti",padroni,M,23
+45,class,36,"Commercio cartoleria, cancelleria, pubblic. musicali, ecc. - Biblioteche circolanti",padroni,F,3
+45,class,36,"Commercio cartoleria, cancelleria, pubblic. musicali, ecc. - Biblioteche circolanti",coadiuvanti,MF,3
+45,class,36,"Commercio cartoleria, cancelleria, pubblic. musicali, ecc. - Biblioteche circolanti",coadiuvanti,M,2
+45,class,36,"Commercio cartoleria, cancelleria, pubblic. musicali, ecc. - Biblioteche circolanti",coadiuvanti,F,1
+46,class,39,Commercio di generi diversi,padroni,MF,25
+46,class,39,Commercio di generi diversi,padroni,M,19
+46,class,39,Commercio di generi diversi,padroni,F,6
+46,class,39,Commercio di generi diversi,coadiuvanti,MF,6
+46,class,39,Commercio di generi diversi,coadiuvanti,M,3
+46,class,39,Commercio di generi diversi,coadiuvanti,F,3
+47,class,40,Gestioni diverse,padroni,MF,3
+47,class,40,Gestioni diverse,padroni,M,3
+47,class,40,Gestioni diverse,padroni,F,0
+47,class,40,Gestioni diverse,coadiuvanti,MF,0
+47,class,40,Gestioni diverse,coadiuvanti,M,0
+47,class,40,Gestioni diverse,coadiuvanti,F,0
+48,class,41,Commercio ambulante ed attivita affini,padroni,MF,29
+48,class,41,Commercio ambulante ed attivita affini,padroni,M,29
+48,class,41,Commercio ambulante ed attivita affini,padroni,F,0
+48,class,41,Commercio ambulante ed attivita affini,coadiuvanti,MF,2
+48,class,41,Commercio ambulante ed attivita affini,coadiuvanti,M,2
+48,class,41,Commercio ambulante ed attivita affini,coadiuvanti,F,0
+49,dicui,41,Venditori ambulanti di generi alimentari (esclusi i posteggianti fissi nei mercati),padroni,MF,22
+49,dicui,41,Venditori ambulanti di generi alimentari (esclusi i posteggianti fissi nei mercati),padroni,M,22
+49,dicui,41,Venditori ambulanti di generi alimentari (esclusi i posteggianti fissi nei mercati),padroni,F,0
+49,dicui,41,Venditori ambulanti di generi alimentari (esclusi i posteggianti fissi nei mercati),coadiuvanti,MF,2
+49,dicui,41,Venditori ambulanti di generi alimentari (esclusi i posteggianti fissi nei mercati),coadiuvanti,M,2
+49,dicui,41,Venditori ambulanti di generi alimentari (esclusi i posteggianti fissi nei mercati),coadiuvanti,F,0
+50,dicui,41,Venditori ambulanti di generi non alimentari (esclusi i posteggiatori fissi nei mercati),padroni,MF,7
+50,dicui,41,Venditori ambulanti di generi non alimentari (esclusi i posteggiatori fissi nei mercati),padroni,M,7
+50,dicui,41,Venditori ambulanti di generi non alimentari (esclusi i posteggiatori fissi nei mercati),padroni,F,0
+50,dicui,41,Venditori ambulanti di generi non alimentari (esclusi i posteggiatori fissi nei mercati),coadiuvanti,MF,0
+50,dicui,41,Venditori ambulanti di generi non alimentari (esclusi i posteggiatori fissi nei mercati),coadiuvanti,M,0
+50,dicui,41,Venditori ambulanti di generi non alimentari (esclusi i posteggiatori fissi nei mercati),coadiuvanti,F,0
+51,class,43,"Alberghi, trattorie, ecc.",padroni,MF,584
+51,class,43,"Alberghi, trattorie, ecc.",padroni,M,344
+51,class,43,"Alberghi, trattorie, ecc.",padroni,F,240
+51,class,43,"Alberghi, trattorie, ecc.",coadiuvanti,MF,144
+51,class,43,"Alberghi, trattorie, ecc.",coadiuvanti,M,55
+51,class,43,"Alberghi, trattorie, ecc.",coadiuvanti,F,89
+52,dicui,43,Affittacamere e affittaletti,padroni,MF,52
+52,dicui,43,Affittacamere e affittaletti,padroni,M,1
+52,dicui,43,Affittacamere e affittaletti,padroni,F,51
+52,dicui,43,Affittacamere e affittaletti,coadiuvanti,MF,3
+52,dicui,43,Affittacamere e affittaletti,coadiuvanti,M,0
+52,dicui,43,Affittacamere e affittaletti,coadiuvanti,F,3
+53,class,44,Attivita ausiliarie del commercio e traffici,padroni,MF,21
+53,class,44,Attivita ausiliarie del commercio e traffici,padroni,M,21
+53,class,44,Attivita ausiliarie del commercio e traffici,padroni,F,0
+53,class,44,Attivita ausiliarie del commercio e traffici,coadiuvanti,MF,1
+53,class,44,Attivita ausiliarie del commercio e traffici,coadiuvanti,M,1
+53,class,44,Attivita ausiliarie del commercio e traffici,coadiuvanti,F,0
+54,category,,Attivita ed arti libere,padroni,MF,10
+54,category,,Attivita ed arti libere,padroni,M,2
+54,category,,Attivita ed arti libere,padroni,F,8
+54,category,,Attivita ed arti libere,coadiuvanti,MF,0
+54,category,,Attivita ed arti libere,coadiuvanti,M,0
+54,category,,Attivita ed arti libere,coadiuvanti,F,0
+55,class,49,Attivita sanitarie,padroni,MF,10
+55,class,49,Attivita sanitarie,padroni,M,2
+55,class,49,Attivita sanitarie,padroni,F,8
+55,class,49,Attivita sanitarie,coadiuvanti,MF,0
+55,class,49,Attivita sanitarie,coadiuvanti,M,0
+55,class,49,Attivita sanitarie,coadiuvanti,F,0
+56,dicui,49,Infermieri e massaggiatori,padroni,MF,10
+56,dicui,49,Infermieri e massaggiatori,padroni,M,2
+56,dicui,49,Infermieri e massaggiatori,padroni,F,8
+56,dicui,49,Infermieri e massaggiatori,coadiuvanti,MF,0
+56,dicui,49,Infermieri e massaggiatori,coadiuvanti,M,0
+56,dicui,49,Infermieri e massaggiatori,coadiuvanti,F,0
+57,section,,B) Condizioni non professionali,padroni,MF,22194
+57,section,,B) Condizioni non professionali,padroni,M,3722
+57,section,,B) Condizioni non professionali,padroni,F,18472
+57,section,,B) Condizioni non professionali,coadiuvanti,MF,0
+57,section,,B) Condizioni non professionali,coadiuvanti,M,0
+57,section,,B) Condizioni non professionali,coadiuvanti,F,0
+58,class,69,Proprietari e benestanti,padroni,MF,145
+58,class,69,Proprietari e benestanti,padroni,M,106
+58,class,69,Proprietari e benestanti,padroni,F,39
+58,class,69,Proprietari e benestanti,coadiuvanti,MF,0
+58,class,69,Proprietari e benestanti,coadiuvanti,M,0
+58,class,69,Proprietari e benestanti,coadiuvanti,F,0
+59,class,70,Pensionati,padroni,MF,173
+59,class,70,Pensionati,padroni,M,151
+59,class,70,Pensionati,padroni,F,22
+59,class,70,Pensionati,coadiuvanti,MF,0
+59,class,70,Pensionati,coadiuvanti,M,0
+59,class,70,Pensionati,coadiuvanti,F,0
+60,class,71,"Studenti, seminaristi, collegiali",padroni,MF,5197
+60,class,71,"Studenti, seminaristi, collegiali",padroni,M,3073
+60,class,71,"Studenti, seminaristi, collegiali",padroni,F,2124
+60,class,71,"Studenti, seminaristi, collegiali",coadiuvanti,MF,0
+60,class,71,"Studenti, seminaristi, collegiali",coadiuvanti,M,0
+60,class,71,"Studenti, seminaristi, collegiali",coadiuvanti,F,0
+61,class,72,Attendenti alle cure domestiche,padroni,MF,16128
+61,class,72,Attendenti alle cure domestiche,padroni,M,0
+61,class,72,Attendenti alle cure domestiche,padroni,F,16128
+61,class,72,Attendenti alle cure domestiche,coadiuvanti,MF,0
+61,class,72,Attendenti alle cure domestiche,coadiuvanti,M,0
+61,class,72,Attendenti alle cure domestiche,coadiuvanti,F,0
+62,class,73,Altre condizioni non professionali,padroni,MF,551
+62,class,73,Altre condizioni non professionali,padroni,M,392
+62,class,73,Altre condizioni non professionali,padroni,F,159
+62,class,73,Altre condizioni non professionali,coadiuvanti,MF,0
+62,class,73,Altre condizioni non professionali,coadiuvanti,M,0
+62,class,73,Altre condizioni non professionali,coadiuvanti,F,0
+63,dicui,73,"Inabili, infermi, ricoverati",padroni,MF,386
+63,dicui,73,"Inabili, infermi, ricoverati",padroni,M,266
+63,dicui,73,"Inabili, infermi, ricoverati",padroni,F,120
+63,dicui,73,"Inabili, infermi, ricoverati",coadiuvanti,MF,0
+63,dicui,73,"Inabili, infermi, ricoverati",coadiuvanti,M,0
+63,dicui,73,"Inabili, infermi, ricoverati",coadiuvanti,F,0
+64,dicui,73,Mendicanti,padroni,MF,1
+64,dicui,73,Mendicanti,padroni,M,1
+64,dicui,73,Mendicanti,padroni,F,0
+64,dicui,73,Mendicanti,coadiuvanti,MF,0
+64,dicui,73,Mendicanti,coadiuvanti,M,0
+64,dicui,73,Mendicanti,coadiuvanti,F,0
+65,dicui,73,Persone in attesa di prima occupazione,padroni,MF,108
+65,dicui,73,Persone in attesa di prima occupazione,padroni,M,99
+65,dicui,73,Persone in attesa di prima occupazione,padroni,F,9
+65,dicui,73,Persone in attesa di prima occupazione,coadiuvanti,MF,0
+65,dicui,73,Persone in attesa di prima occupazione,coadiuvanti,M,0
+65,dicui,73,Persone in attesa di prima occupazione,coadiuvanti,F,0
+66,dicui,73,"Persone senza professione, a carico dei familiari, a carico della pubblica beneficenza, ecc.",padroni,MF,26
+66,dicui,73,"Persone senza professione, a carico dei familiari, a carico della pubblica beneficenza, ecc.",padroni,M,26
+66,dicui,73,"Persone senza professione, a carico dei familiari, a carico della pubblica beneficenza, ecc.",padroni,F,0
+66,dicui,73,"Persone senza professione, a carico dei familiari, a carico della pubblica beneficenza, ecc.",coadiuvanti,MF,0
+66,dicui,73,"Persone senza professione, a carico dei familiari, a carico della pubblica beneficenza, ecc.",coadiuvanti,M,0
+66,dicui,73,"Persone senza professione, a carico dei familiari, a carico della pubblica beneficenza, ecc.",coadiuvanti,F,0
+67,dicui,73,Prostitute,padroni,MF,30
+67,dicui,73,Prostitute,padroni,M,0
+67,dicui,73,Prostitute,padroni,F,30
+67,dicui,73,Prostitute,coadiuvanti,MF,0
+67,dicui,73,Prostitute,coadiuvanti,M,0
+67,dicui,73,Prostitute,coadiuvanti,F,0
+68,section,,C) Senza indicazione di professione o condizione,padroni,MF,201
+68,section,,C) Senza indicazione di professione o condizione,padroni,M,134
+68,section,,C) Senza indicazione di professione o condizione,padroni,F,67
+68,section,,C) Senza indicazione di professione o condizione,coadiuvanti,MF,0
+68,section,,C) Senza indicazione di professione o condizione,coadiuvanti,M,0
+68,section,,C) Senza indicazione di professione o condizione,coadiuvanti,F,0

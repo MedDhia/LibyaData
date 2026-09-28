@@ -1,0 +1,892 @@
+seq,level,block,line,libia_mf,libia_m,libia_f,tripoli_mf,tripoli_m,tripoli_f,bengasi_mf,bengasi_m,bengasi_f
+1,category,I. Agricoltura,Conduttori non coltivatori,171,153,18,79,71,8,9,9,0
+2,category,I. Agricoltura,Conduttori coltivatori,1259,902,357,70,68,2,65,56,9
+3,category,I. Agricoltura,Coloni parziari,1368,1243,125,36,36,0,14,9,5
+4,category,I. Agricoltura,Figure miste,112,107,5,0,0,0,1,1,0
+5,category,I. Agricoltura,Dirigenti,39,39,0,6,6,0,2,2,0
+6,category,I. Agricoltura,Impiegati,57,57,0,8,8,0,2,2,0
+7,category,I. Agricoltura,Lavoratori,874,827,47,97,95,2,43,40,3
+8,category,I. Agricoltura,F) Impiegati (professioni non agricole),46,44,2,6,5,1,5,5,0
+9,category,I. Agricoltura,H) Operai (professioni non agricole),156,156,0,22,22,0,7,7,0
+10,category,I. Agricoltura,Totale,4082,3528,554,324,311,13,148,131,17
+11,category,I. Agricoltura,di cui familiari coadiuvanti,1393,951,442,34,30,4,34,20,14
+12,class,1. Agricoltura,Conduttori non coltivatori,171,153,18,79,71,8,9,9,0
+13,class,1. Agricoltura,Conduttori coltivatori,1259,902,357,70,68,2,65,56,9
+14,class,1. Agricoltura,Coloni parziari,1368,1243,125,36,36,0,14,9,5
+15,class,1. Agricoltura,Figure miste,112,107,5,0,0,0,1,1,0
+16,class,1. Agricoltura,Dirigenti,39,39,0,6,6,0,2,2,0
+17,class,1. Agricoltura,Impiegati,57,57,0,8,8,0,2,2,0
+18,class,1. Agricoltura,Lavoratori,874,827,47,97,95,2,43,40,3
+19,class,1. Agricoltura,F) Impiegati (professioni non agricole),46,44,2,6,5,1,5,5,0
+20,class,1. Agricoltura,H) Operai (professioni non agricole),156,156,0,22,22,0,7,7,0
+21,class,1. Agricoltura,Totale,4082,3528,554,324,311,13,148,131,17
+22,class,1. Agricoltura,di cui familiari coadiuvanti,1393,951,442,34,30,4,34,20,14
+23,subclass,1.1 Aziende agricole,Conduttori non coltivatori,165,147,18,78,70,8,6,6,0
+24,subclass,1.1 Aziende agricole,Conduttori coltivatori,1254,897,357,67,65,2,64,55,9
+25,subclass,1.1 Aziende agricole,Coloni parziari,1368,1243,125,36,36,0,14,9,5
+26,subclass,1.1 Aziende agricole,Figure miste,112,107,5,0,0,0,1,1,0
+27,subclass,1.1 Aziende agricole,Dirigenti,37,37,0,6,6,0,1,1,0
+28,subclass,1.1 Aziende agricole,Impiegati,56,56,0,8,8,0,2,2,0
+29,subclass,1.1 Aziende agricole,Lavoratori,866,819,47,96,94,2,42,39,3
+30,subclass,1.1 Aziende agricole,F) Impiegati (professioni non agricole),44,42,2,6,5,1,5,5,0
+31,subclass,1.1 Aziende agricole,H) Operai (professioni non agricole),152,152,0,21,21,0,4,4,0
+32,subclass,1.1 Aziende agricole,Totale,4054,3500,554,318,305,13,139,122,17
+33,subclass,1.1 Aziende agricole,di cui familiari coadiuvanti,1392,950,442,33,29,4,34,20,14
+34,category,II. Caccia e pesca,A) Padroni,123,122,1,96,96,0,4,4,0
+35,category,II. Caccia e pesca,B) Artigiani con dipendenti,2,2,0,0,0,0,2,2,0
+36,category,II. Caccia e pesca,C) Artigiani senza dipendenti,6,6,0,0,0,0,0,0,0
+37,category,II. Caccia e pesca,E) Dirigenti,2,2,0,0,0,0,2,2,0
+38,category,II. Caccia e pesca,F) Impiegati,1,1,0,1,1,0,0,0,0
+39,category,II. Caccia e pesca,G) Personale di servizio e di fatica,1,1,0,0,0,0,0,0,0
+40,category,II. Caccia e pesca,H) Operai,228,228,0,148,148,0,68,68,0
+41,category,II. Caccia e pesca,Totale,363,362,1,245,245,0,76,76,0
+42,category,II. Caccia e pesca,di cui familiari coadiuvanti,40,40,0,29,29,0,2,2,0
+43,class,2. Caccia,Totale,0,0,0,0,0,0,0,0,0
+44,class,3. Pesca,A) Padroni,123,122,1,96,96,0,4,4,0
+45,class,3. Pesca,B) Artigiani con dipendenti,2,2,0,0,0,0,2,2,0
+46,class,3. Pesca,C) Artigiani senza dipendenti,6,6,0,0,0,0,0,0,0
+47,class,3. Pesca,E) Dirigenti,2,2,0,0,0,0,2,2,0
+48,class,3. Pesca,F) Impiegati,1,1,0,1,1,0,0,0,0
+49,class,3. Pesca,G) Personale di servizio e di fatica,1,1,0,0,0,0,0,0,0
+50,class,3. Pesca,H) Operai,228,228,0,148,148,0,68,68,0
+51,class,3. Pesca,Totale,363,362,1,245,245,0,76,76,0
+52,class,3. Pesca,di cui familiari coadiuvanti,40,40,0,29,29,0,2,2,0
+53,subclass,3.5 Pesca in acque marine,A) Padroni,102,102,0,91,91,0,4,4,0
+54,subclass,3.5 Pesca in acque marine,B) Artigiani con dipendenti,2,2,0,0,0,0,2,2,0
+55,subclass,3.5 Pesca in acque marine,C) Artigiani senza dipendenti,6,6,0,0,0,0,0,0,0
+56,subclass,3.5 Pesca in acque marine,H) Operai,185,185,0,119,119,0,62,62,0
+57,subclass,3.5 Pesca in acque marine,Totale,295,295,0,210,210,0,68,68,0
+58,subclass,3.5 Pesca in acque marine,di cui familiari coadiuvanti,35,35,0,29,29,0,2,2,0
+59,subclass,3.6 Pesca del corallo e delle spugne,A) Padroni,21,20,1,5,5,0,0,0,0
+60,subclass,3.6 Pesca del corallo e delle spugne,E) Dirigenti,1,1,0,0,0,0,1,1,0
+61,subclass,3.6 Pesca del corallo e delle spugne,F) Impiegati,1,1,0,1,1,0,0,0,0
+62,subclass,3.6 Pesca del corallo e delle spugne,H) Operai,36,36,0,28,28,0,1,1,0
+63,subclass,3.6 Pesca del corallo e delle spugne,Totale,59,58,1,34,34,0,2,2,0
+64,subclass,3.6 Pesca del corallo e delle spugne,di cui familiari coadiuvanti,5,5,0,0,0,0,0,0,0
+65,category,III. Industria,A) Padroni,766,721,45,475,447,28,171,162,9
+66,category,III. Industria,B) Artigiani con dipendenti,307,266,41,192,168,24,82,67,15
+67,category,III. Industria,C) Artigiani senza dipendenti,826,647,179,439,344,95,206,152,54
+68,category,III. Industria,E) Dirigenti,53,51,2,25,24,1,17,16,1
+69,category,III. Industria,F) Impiegati,504,463,41,228,203,25,134,120,14
+70,category,III. Industria,G) Personale di servizio e di fatica,38,34,4,26,23,3,10,9,1
+71,category,III. Industria,H) Operai,5515,5009,506,2946,2689,257,1452,1311,141
+72,category,III. Industria,I) Lavoranti a domicilio,52,7,45,35,7,28,17,0,17
+73,category,III. Industria,Totale,8061,7198,863,4366,3905,461,2089,1837,252
+74,category,III. Industria,di cui familiari coadiuvanti,293,234,59,179,139,40,71,57,14
+75,class,4. Industrie estrattive,A) Padroni,18,18,0,10,10,0,3,3,0
+76,class,4. Industrie estrattive,E) Dirigenti,2,2,0,1,1,0,0,0,0
+77,class,4. Industrie estrattive,F) Impiegati,4,4,0,2,2,0,1,1,0
+78,class,4. Industrie estrattive,H) Operai,61,61,0,29,29,0,10,10,0
+79,class,4. Industrie estrattive,Totale,85,85,0,42,42,0,14,14,0
+80,class,4. Industrie estrattive,di cui familiari coadiuvanti,6,6,0,2,2,0,2,2,0
+81,subclass,"4.17 Cave di marmo, pietra da taglio",A) Padroni,15,15,0,10,10,0,0,0,0
+82,subclass,"4.17 Cave di marmo, pietra da taglio",F) Impiegati,3,3,0,2,2,0,0,0,0
+83,subclass,"4.17 Cave di marmo, pietra da taglio",H) Operai,51,51,0,26,26,0,8,8,0
+84,subclass,"4.17 Cave di marmo, pietra da taglio",Totale,69,69,0,38,38,0,8,8,0
+85,subclass,"4.17 Cave di marmo, pietra da taglio",di cui familiari coadiuvanti,4,4,0,2,2,0,0,0,0
+86,class,5. Industrie del legno ed affini,A) Padroni,70,70,0,42,42,0,24,24,0
+87,class,5. Industrie del legno ed affini,B) Artigiani con dipendenti,61,61,0,36,36,0,14,14,0
+88,class,5. Industrie del legno ed affini,C) Artigiani senza dipendenti,166,166,0,98,98,0,34,34,0
+89,class,5. Industrie del legno ed affini,F) Impiegati,6,6,0,4,4,0,1,1,0
+90,class,5. Industrie del legno ed affini,H) Operai,521,521,0,329,329,0,157,157,0
+91,class,5. Industrie del legno ed affini,Totale,824,824,0,509,509,0,230,230,0
+92,class,5. Industrie del legno ed affini,di cui familiari coadiuvanti,55,55,0,30,30,0,18,18,0
+93,subclass,5.25 Laboratori da falegnami e carpentieri in legno,A) Padroni,24,24,0,13,13,0,8,8,0
+94,subclass,5.25 Laboratori da falegnami e carpentieri in legno,B) Artigiani con dipendenti,35,35,0,16,16,0,9,9,0
+95,subclass,5.25 Laboratori da falegnami e carpentieri in legno,C) Artigiani senza dipendenti,120,120,0,68,68,0,24,24,0
+96,subclass,5.25 Laboratori da falegnami e carpentieri in legno,F) Impiegati,2,2,0,1,1,0,1,1,0
+97,subclass,5.25 Laboratori da falegnami e carpentieri in legno,H) Operai,320,320,0,222,222,0,70,70,0
+98,subclass,5.25 Laboratori da falegnami e carpentieri in legno,Totale,501,501,0,320,320,0,112,112,0
+99,subclass,5.25 Laboratori da falegnami e carpentieri in legno,di cui familiari coadiuvanti,30,30,0,15,15,0,10,10,0
+100,subclass,5.26 Costruzione di veicoli in legno,A) Padroni,11,11,0,8,8,0,3,3,0
+101,subclass,5.26 Costruzione di veicoli in legno,B) Artigiani con dipendenti,2,2,0,2,2,0,0,0,0
+102,subclass,5.26 Costruzione di veicoli in legno,C) Artigiani senza dipendenti,19,19,0,8,8,0,7,7,0
+103,subclass,5.26 Costruzione di veicoli in legno,H) Operai,17,17,0,11,11,0,6,6,0
+104,subclass,5.26 Costruzione di veicoli in legno,Totale,49,49,0,29,29,0,16,16,0
+105,subclass,5.26 Costruzione di veicoli in legno,di cui familiari coadiuvanti,8,8,0,6,6,0,2,2,0
+106,subclass,5.28 Fabbricazione di mobili ed oggetti artistici in legno,A) Padroni,20,20,0,11,11,0,8,8,0
+107,subclass,5.28 Fabbricazione di mobili ed oggetti artistici in legno,B) Artigiani con dipendenti,20,20,0,15,15,0,4,4,0
+108,subclass,5.28 Fabbricazione di mobili ed oggetti artistici in legno,C) Artigiani senza dipendenti,20,20,0,16,16,0,3,3,0
+109,subclass,5.28 Fabbricazione di mobili ed oggetti artistici in legno,F) Impiegati,1,1,0,1,1,0,0,0,0
+110,subclass,5.28 Fabbricazione di mobili ed oggetti artistici in legno,H) Operai,158,158,0,79,79,0,73,73,0
+111,subclass,5.28 Fabbricazione di mobili ed oggetti artistici in legno,Totale,219,219,0,122,122,0,88,88,0
+112,subclass,5.28 Fabbricazione di mobili ed oggetti artistici in legno,di cui familiari coadiuvanti,7,7,0,3,3,0,4,4,0
+113,class,6. Industrie alimentari,A) Padroni,165,144,21,85,75,10,38,32,6
+114,class,6. Industrie alimentari,B) Artigiani con dipendenti,1,1,0,1,1,0,0,0,0
+115,class,6. Industrie alimentari,C) Artigiani senza dipendenti,8,8,0,1,1,0,0,0,0
+116,class,6. Industrie alimentari,E) Dirigenti,8,7,1,5,4,1,3,3,0
+117,class,6. Industrie alimentari,F) Impiegati,41,34,7,21,18,3,17,13,4
+118,class,6. Industrie alimentari,G) Personale di servizio e di fatica,4,4,0,3,3,0,0,0,0
+119,class,6. Industrie alimentari,H) Operai,130,125,5,84,79,5,37,37,0
+120,class,6. Industrie alimentari,Totale,357,323,34,200,181,19,95,85,10
+121,class,6. Industrie alimentari,di cui familiari coadiuvanti,35,22,13,19,9,10,7,5,2
+122,subclass,6.40 Forni e panifici,A) Padroni,68,59,9,27,22,5,14,13,1
+123,subclass,6.40 Forni e panifici,B) Artigiani con dipendenti,1,1,0,1,1,0,0,0,0
+124,subclass,6.40 Forni e panifici,C) Artigiani senza dipendenti,5,5,0,1,1,0,0,0,0
+125,subclass,6.40 Forni e panifici,F) Impiegati,7,6,1,1,1,0,5,4,1
+126,subclass,6.40 Forni e panifici,H) Operai,41,41,0,24,24,0,11,11,0
+127,subclass,6.40 Forni e panifici,Totale,122,112,10,54,49,5,30,28,2
+128,subclass,6.40 Forni e panifici,di cui familiari coadiuvanti,17,12,5,8,3,5,3,3,0
+129,subclass,6.41 Pastifici,A) Padroni,23,21,2,16,15,1,5,5,0
+130,subclass,6.41 Pastifici,F) Impiegati,2,2,0,1,1,0,1,1,0
+131,subclass,6.41 Pastifici,H) Operai,27,27,0,18,18,0,8,8,0
+132,subclass,6.41 Pastifici,Totale,52,50,2,35,34,1,14,14,0
+133,subclass,6.41 Pastifici,di cui familiari coadiuvanti,5,3,2,4,3,1,0,0,0
+134,subclass,"6.42 Fabbricazione di biscotti, gallette",A) Padroni,13,9,4,5,5,0,5,2,3
+135,subclass,"6.42 Fabbricazione di biscotti, gallette",E) Dirigenti,1,1,0,0,0,0,1,1,0
+136,subclass,"6.42 Fabbricazione di biscotti, gallette",F) Impiegati,3,0,3,2,0,2,1,0,1
+137,subclass,"6.42 Fabbricazione di biscotti, gallette",H) Operai,18,13,5,14,9,5,4,4,0
+138,subclass,"6.42 Fabbricazione di biscotti, gallette",Totale,35,23,12,21,14,7,11,7,4
+139,subclass,"6.42 Fabbricazione di biscotti, gallette",di cui familiari coadiuvanti,2,0,2,0,0,0,2,0,2
+140,subclass,6.51 Distillerie di alcool e liquori,A) Padroni,13,12,1,9,8,1,3,3,0
+141,subclass,6.51 Distillerie di alcool e liquori,E) Dirigenti,2,2,0,1,1,0,1,1,0
+142,subclass,6.51 Distillerie di alcool e liquori,F) Impiegati,8,8,0,5,5,0,3,3,0
+143,subclass,6.51 Distillerie di alcool e liquori,H) Operai,7,7,0,7,7,0,0,0,0
+144,subclass,6.51 Distillerie di alcool e liquori,Totale,30,29,1,22,21,1,7,7,0
+145,subclass,6.51 Distillerie di alcool e liquori,di cui familiari coadiuvanti,5,4,1,3,2,1,2,2,0
+146,subclass,6.52 Prodotti della fermentazione e di malto,A) Padroni,1,1,0,0,0,0,1,1,0
+147,subclass,6.52 Prodotti della fermentazione e di malto,E) Dirigenti,2,2,0,1,1,0,1,1,0
+148,subclass,6.52 Prodotti della fermentazione e di malto,F) Impiegati,9,8,1,5,4,1,4,4,0
+149,subclass,6.52 Prodotti della fermentazione e di malto,G) Personale di servizio e di fatica,2,2,0,2,2,0,0,0,0
+150,subclass,6.52 Prodotti della fermentazione e di malto,H) Operai,14,14,0,6,6,0,8,8,0
+151,subclass,6.52 Prodotti della fermentazione e di malto,Totale,28,27,1,14,13,1,14,14,0
+152,subclass,"6.54 Bevande gassate, seltz",A) Padroni,15,14,1,9,9,0,4,3,1
+153,subclass,"6.54 Bevande gassate, seltz",F) Impiegati,1,1,0,0,0,0,0,0,0
+154,subclass,"6.54 Bevande gassate, seltz",H) Operai,4,4,0,1,1,0,3,3,0
+155,subclass,"6.54 Bevande gassate, seltz",Totale,20,19,1,10,10,0,7,6,1
+156,subclass,"6.54 Bevande gassate, seltz",di cui familiari coadiuvanti,1,1,0,0,0,0,0,0,0
+157,subclass,6.55 Industria del freddo,A) Padroni,3,2,1,2,1,1,0,0,0
+158,subclass,6.55 Industria del freddo,E) Dirigenti,1,0,1,1,0,1,0,0,0
+159,subclass,6.55 Industria del freddo,F) Impiegati,3,3,0,3,3,0,0,0,0
+160,subclass,6.55 Industria del freddo,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+161,subclass,6.55 Industria del freddo,H) Operai,9,9,0,7,7,0,1,1,0
+162,subclass,6.55 Industria del freddo,Totale,17,15,2,14,12,2,1,1,0
+163,subclass,6.55 Industria del freddo,di cui familiari coadiuvanti,1,0,1,1,0,1,0,0,0
+164,class,7. Industrie che utilizzano spoglie animali,A) Padroni,5,5,0,3,3,0,2,2,0
+165,class,7. Industrie che utilizzano spoglie animali,B) Artigiani con dipendenti,8,7,1,3,3,0,3,2,1
+166,class,7. Industrie che utilizzano spoglie animali,C) Artigiani senza dipendenti,2,2,0,2,2,0,0,0,0
+167,class,7. Industrie che utilizzano spoglie animali,E) Dirigenti,3,3,0,1,1,0,2,2,0
+168,class,7. Industrie che utilizzano spoglie animali,F) Impiegati,1,1,0,0,0,0,1,1,0
+169,class,7. Industrie che utilizzano spoglie animali,H) Operai,31,31,0,18,18,0,12,12,0
+170,class,7. Industrie che utilizzano spoglie animali,I) Lavoranti a domicilio,2,2,0,2,2,0,0,0,0
+171,class,7. Industrie che utilizzano spoglie animali,Totale,52,51,1,29,29,0,20,19,1
+172,class,7. Industrie che utilizzano spoglie animali,di cui familiari coadiuvanti,3,2,1,0,0,0,2,1,1
+173,subclass,7.57 Concerie comuni,A) Padroni,1,1,0,1,1,0,0,0,0
+174,subclass,7.57 Concerie comuni,B) Artigiani con dipendenti,1,1,0,1,1,0,0,0,0
+175,subclass,7.57 Concerie comuni,C) Artigiani senza dipendenti,1,1,0,1,1,0,0,0,0
+176,subclass,7.57 Concerie comuni,E) Dirigenti,3,3,0,1,1,0,2,2,0
+177,subclass,7.57 Concerie comuni,F) Impiegati,1,1,0,0,0,0,1,1,0
+178,subclass,7.57 Concerie comuni,H) Operai,15,15,0,5,5,0,10,10,0
+179,subclass,7.57 Concerie comuni,Totale,22,22,0,9,9,0,13,13,0
+180,subclass,"7.59 Cinghie, articoli di selleria",A) Padroni,2,2,0,2,2,0,0,0,0
+181,subclass,"7.59 Cinghie, articoli di selleria",B) Artigiani con dipendenti,5,4,1,2,2,0,3,2,1
+182,subclass,"7.59 Cinghie, articoli di selleria",C) Artigiani senza dipendenti,1,1,0,1,1,0,0,0,0
+183,subclass,"7.59 Cinghie, articoli di selleria",H) Operai,13,13,0,11,11,0,2,2,0
+184,subclass,"7.59 Cinghie, articoli di selleria",I) Lavoranti a domicilio,1,1,0,1,1,0,0,0,0
+185,subclass,"7.59 Cinghie, articoli di selleria",Totale,22,21,1,17,17,0,5,4,1
+186,subclass,"7.59 Cinghie, articoli di selleria",di cui familiari coadiuvanti,1,0,1,0,0,0,1,0,1
+187,class,8. Industria della carta,A) Padroni,2,2,0,1,1,0,1,1,0
+188,class,8. Industria della carta,E) Dirigenti,2,2,0,2,2,0,0,0,0
+189,class,8. Industria della carta,F) Impiegati,1,1,0,1,1,0,0,0,0
+190,class,8. Industria della carta,H) Operai,10,8,2,10,8,2,0,0,0
+191,class,8. Industria della carta,Totale,15,13,2,14,12,2,1,1,0
+192,class,9. Industrie poligrafiche,A) Padroni,33,31,2,19,17,2,14,14,0
+193,class,9. Industrie poligrafiche,B) Artigiani con dipendenti,6,6,0,3,3,0,2,2,0
+194,class,9. Industrie poligrafiche,C) Artigiani senza dipendenti,18,16,2,5,5,0,4,3,1
+195,class,9. Industrie poligrafiche,E) Dirigenti,1,1,0,0,0,0,1,1,0
+196,class,9. Industrie poligrafiche,F) Impiegati,15,7,8,10,5,5,5,2,3
+197,class,9. Industrie poligrafiche,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+198,class,9. Industrie poligrafiche,H) Operai,121,116,5,82,78,4,37,36,1
+199,class,9. Industrie poligrafiche,Totale,195,178,17,120,109,11,63,58,5
+200,class,9. Industrie poligrafiche,di cui familiari coadiuvanti,11,8,3,5,3,2,4,3,1
+201,subclass,9.72 Stabilimenti di arti grafiche,A) Padroni,16,16,0,11,11,0,5,5,0
+202,subclass,9.72 Stabilimenti di arti grafiche,B) Artigiani con dipendenti,1,1,0,0,0,0,0,0,0
+203,subclass,9.72 Stabilimenti di arti grafiche,C) Artigiani senza dipendenti,1,1,0,1,1,0,0,0,0
+204,subclass,9.72 Stabilimenti di arti grafiche,E) Dirigenti,1,1,0,0,0,0,1,1,0
+205,subclass,9.72 Stabilimenti di arti grafiche,F) Impiegati,7,5,2,5,4,1,2,1,1
+206,subclass,9.72 Stabilimenti di arti grafiche,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+207,subclass,9.72 Stabilimenti di arti grafiche,H) Operai,102,100,2,70,68,2,30,30,0
+208,subclass,9.72 Stabilimenti di arti grafiche,Totale,129,125,4,88,85,3,38,37,1
+209,subclass,9.72 Stabilimenti di arti grafiche,di cui familiari coadiuvanti,2,2,0,2,2,0,0,0,0
+210,subclass,9.74 Stabilimenti e studi fotografici,A) Padroni,14,12,2,7,5,2,7,7,0
+211,subclass,9.74 Stabilimenti e studi fotografici,B) Artigiani con dipendenti,3,3,0,1,1,0,2,2,0
+212,subclass,9.74 Stabilimenti e studi fotografici,C) Artigiani senza dipendenti,16,14,2,4,4,0,4,3,1
+213,subclass,9.74 Stabilimenti e studi fotografici,F) Impiegati,7,2,5,4,1,3,3,1,2
+214,subclass,9.74 Stabilimenti e studi fotografici,H) Operai,17,14,3,11,9,2,6,5,1
+215,subclass,9.74 Stabilimenti e studi fotografici,Totale,57,45,12,27,20,7,22,18,4
+216,subclass,9.74 Stabilimenti e studi fotografici,di cui familiari coadiuvanti,8,5,3,3,1,2,3,2,1
+217,class,10. Industrie metallurgiche,A) Padroni,1,1,0,1,1,0,0,0,0
+218,class,10. Industrie metallurgiche,E) Dirigenti,1,1,0,1,1,0,0,0,0
+219,class,10. Industrie metallurgiche,F) Impiegati,1,1,0,1,1,0,0,0,0
+220,class,10. Industrie metallurgiche,H) Operai,6,6,0,4,4,0,2,2,0
+221,class,10. Industrie metallurgiche,Totale,9,9,0,7,7,0,2,2,0
+222,class,11. Industrie meccaniche,A) Padroni,90,88,2,75,73,2,11,11,0
+223,class,11. Industrie meccaniche,B) Artigiani con dipendenti,47,47,0,29,29,0,14,14,0
+224,class,11. Industrie meccaniche,C) Artigiani senza dipendenti,139,139,0,78,78,0,39,39,0
+225,class,11. Industrie meccaniche,E) Dirigenti,3,3,0,2,2,0,1,1,0
+226,class,11. Industrie meccaniche,F) Impiegati,40,36,4,23,19,4,13,13,0
+227,class,11. Industrie meccaniche,G) Personale di servizio e di fatica,2,2,0,2,2,0,0,0,0
+228,class,11. Industrie meccaniche,H) Operai,864,864,0,569,569,0,213,213,0
+229,class,11. Industrie meccaniche,Totale,1185,1179,6,778,772,6,291,291,0
+230,class,11. Industrie meccaniche,di cui familiari coadiuvanti,53,53,0,36,36,0,12,12,0
+231,subclass,11.84 Industria dell'automobile,A) Padroni,5,5,0,4,4,0,1,1,0
+232,subclass,11.84 Industria dell'automobile,B) Artigiani con dipendenti,2,2,0,0,0,0,2,2,0
+233,subclass,11.84 Industria dell'automobile,C) Artigiani senza dipendenti,2,2,0,0,0,0,2,2,0
+234,subclass,11.84 Industria dell'automobile,F) Impiegati,12,12,0,6,6,0,6,6,0
+235,subclass,11.84 Industria dell'automobile,H) Operai,74,74,0,37,37,0,29,29,0
+236,subclass,11.84 Industria dell'automobile,Totale,95,95,0,47,47,0,40,40,0
+237,subclass,11.84 Industria dell'automobile,di cui familiari coadiuvanti,1,1,0,1,1,0,0,0,0
+238,subclass,11.85 Industria del ciclo e del motociclo,A) Padroni,5,5,0,5,5,0,0,0,0
+239,subclass,11.85 Industria del ciclo e del motociclo,B) Artigiani con dipendenti,3,3,0,0,0,0,3,3,0
+240,subclass,11.85 Industria del ciclo e del motociclo,C) Artigiani senza dipendenti,8,8,0,6,6,0,2,2,0
+241,subclass,11.85 Industria del ciclo e del motociclo,F) Impiegati,1,0,1,1,0,1,0,0,0
+242,subclass,11.85 Industria del ciclo e del motociclo,H) Operai,7,7,0,7,7,0,0,0,0
+243,subclass,11.85 Industria del ciclo e del motociclo,Totale,24,23,1,19,18,1,5,5,0
+244,subclass,11.85 Industria del ciclo e del motociclo,di cui familiari coadiuvanti,1,1,0,1,1,0,0,0,0
+245,subclass,11.93 Macchine ed apparecchi elettrici,A) Padroni,7,6,1,6,5,1,1,1,0
+246,subclass,11.93 Macchine ed apparecchi elettrici,B) Artigiani con dipendenti,1,1,0,1,1,0,0,0,0
+247,subclass,11.93 Macchine ed apparecchi elettrici,C) Artigiani senza dipendenti,3,3,0,1,1,0,1,1,0
+248,subclass,11.93 Macchine ed apparecchi elettrici,F) Impiegati,2,1,1,2,1,1,0,0,0
+249,subclass,11.93 Macchine ed apparecchi elettrici,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+250,subclass,11.93 Macchine ed apparecchi elettrici,H) Operai,41,41,0,28,28,0,6,6,0
+251,subclass,11.93 Macchine ed apparecchi elettrici,Totale,55,53,2,39,37,2,8,8,0
+252,subclass,11.93 Macchine ed apparecchi elettrici,di cui familiari coadiuvanti,1,1,0,1,1,0,0,0,0
+253,subclass,11.94 Strumenti ottici,A) Padroni,1,1,0,1,1,0,0,0,0
+254,subclass,11.94 Strumenti ottici,B) Artigiani con dipendenti,2,2,0,1,1,0,1,1,0
+255,subclass,11.94 Strumenti ottici,C) Artigiani senza dipendenti,15,15,0,7,7,0,5,5,0
+256,subclass,11.94 Strumenti ottici,H) Operai,8,8,0,5,5,0,2,2,0
+257,subclass,11.94 Strumenti ottici,Totale,26,26,0,14,14,0,8,8,0
+258,subclass,11.94 Strumenti ottici,di cui familiari coadiuvanti,3,3,0,2,2,0,0,0,0
+259,subclass,11.95 Impianti termici,A) Padroni,12,12,0,10,10,0,2,2,0
+260,subclass,11.95 Impianti termici,B) Artigiani con dipendenti,4,4,0,4,4,0,0,0,0
+261,subclass,11.95 Impianti termici,C) Artigiani senza dipendenti,10,10,0,1,1,0,4,4,0
+262,subclass,11.95 Impianti termici,E) Dirigenti,2,2,0,1,1,0,1,1,0
+263,subclass,11.95 Impianti termici,F) Impiegati,6,6,0,4,4,0,1,1,0
+264,subclass,11.95 Impianti termici,H) Operai,42,42,0,29,29,0,7,7,0
+265,subclass,11.95 Impianti termici,Totale,76,76,0,49,49,0,15,15,0
+266,subclass,11.95 Impianti termici,di cui familiari coadiuvanti,5,5,0,3,3,0,1,1,0
+267,class,12. Industrie che lavorano i minerali non metallici,A) Padroni,34,34,0,21,21,0,10,10,0
+268,class,12. Industrie che lavorano i minerali non metallici,B) Artigiani con dipendenti,4,4,0,2,2,0,0,0,0
+269,class,12. Industrie che lavorano i minerali non metallici,C) Artigiani senza dipendenti,4,4,0,2,2,0,2,2,0
+270,class,12. Industrie che lavorano i minerali non metallici,E) Dirigenti,4,4,0,3,3,0,1,1,0
+271,class,12. Industrie che lavorano i minerali non metallici,F) Impiegati,10,10,0,5,5,0,4,4,0
+272,class,12. Industrie che lavorano i minerali non metallici,G) Personale di servizio e di fatica,3,3,0,1,1,0,2,2,0
+273,class,12. Industrie che lavorano i minerali non metallici,H) Operai,92,92,0,73,73,0,16,16,0
+274,class,12. Industrie che lavorano i minerali non metallici,Totale,151,151,0,107,107,0,35,35,0
+275,class,12. Industrie che lavorano i minerali non metallici,di cui familiari coadiuvanti,6,6,0,6,6,0,0,0,0
+276,subclass,12.102 Cantieri da scalpellino,A) Padroni,2,2,0,1,1,0,1,1,0
+277,subclass,12.102 Cantieri da scalpellino,B) Artigiani con dipendenti,3,3,0,2,2,0,0,0,0
+278,subclass,12.102 Cantieri da scalpellino,C) Artigiani senza dipendenti,3,3,0,2,2,0,1,1,0
+279,subclass,12.102 Cantieri da scalpellino,E) Dirigenti,2,2,0,1,1,0,1,1,0
+280,subclass,12.102 Cantieri da scalpellino,H) Operai,48,48,0,40,40,0,6,6,0
+281,subclass,12.102 Cantieri da scalpellino,Totale,58,58,0,46,46,0,9,9,0
+282,subclass,12.102 Cantieri da scalpellino,di cui familiari coadiuvanti,1,1,0,1,1,0,0,0,0
+283,subclass,12.106 Fornaci da laterizi,A) Padroni,8,8,0,6,6,0,0,0,0
+284,subclass,12.106 Fornaci da laterizi,E) Dirigenti,1,1,0,1,1,0,0,0,0
+285,subclass,12.106 Fornaci da laterizi,F) Impiegati,7,7,0,2,2,0,4,4,0
+286,subclass,12.106 Fornaci da laterizi,G) Personale di servizio e di fatica,2,2,0,1,1,0,1,1,0
+287,subclass,12.106 Fornaci da laterizi,H) Operai,23,23,0,16,16,0,7,7,0
+288,subclass,12.106 Fornaci da laterizi,Totale,41,41,0,26,26,0,12,12,0
+289,class,13. Industrie edilizie,A) Padroni,265,265,0,156,156,0,52,52,0
+290,class,13. Industrie edilizie,B) Artigiani con dipendenti,13,12,1,7,6,1,2,2,0
+291,class,13. Industrie edilizie,C) Artigiani senza dipendenti,39,39,0,28,28,0,3,3,0
+292,class,13. Industrie edilizie,E) Dirigenti,12,12,0,6,6,0,3,3,0
+293,class,13. Industrie edilizie,F) Impiegati,255,249,6,89,86,3,53,50,3
+294,class,13. Industrie edilizie,G) Personale di servizio e di fatica,5,4,1,1,0,1,4,4,0
+295,class,13. Industrie edilizie,H) Operai,2579,2570,9,1147,1140,7,648,648,0
+296,class,13. Industrie edilizie,Totale,3168,3151,17,1434,1422,12,765,762,3
+297,class,13. Industrie edilizie,di cui familiari coadiuvanti,32,31,1,19,18,1,4,4,0
+298,class,14. Industrie tessili,A) Padroni,9,9,0,4,4,0,5,5,0
+299,class,14. Industrie tessili,C) Artigiani senza dipendenti,11,2,9,7,2,5,2,0,2
+300,class,14. Industrie tessili,E) Dirigenti,1,1,0,0,0,0,0,0,0
+301,class,14. Industrie tessili,F) Impiegati,4,4,0,0,0,0,2,2,0
+302,class,14. Industrie tessili,H) Operai,44,4,40,4,1,3,40,3,37
+303,class,14. Industrie tessili,I) Lavoranti a domicilio,8,0,8,3,0,3,5,0,5
+304,class,14. Industrie tessili,Totale,77,20,57,18,7,11,54,10,44
+305,class,14. Industrie tessili,di cui familiari coadiuvanti,6,4,2,4,2,2,2,2,0
+306,subclass,14.116 Tessitura di seta,A) Padroni,1,1,0,0,0,0,1,1,0
+307,subclass,14.116 Tessitura di seta,C) Artigiani senza dipendenti,2,2,0,2,2,0,0,0,0
+308,subclass,14.116 Tessitura di seta,E) Dirigenti,1,1,0,0,0,0,0,0,0
+309,subclass,14.116 Tessitura di seta,F) Impiegati,1,1,0,0,0,0,1,1,0
+310,subclass,14.116 Tessitura di seta,H) Operai,21,1,20,0,0,0,21,1,20
+311,subclass,14.116 Tessitura di seta,Totale,26,6,20,2,2,0,23,3,20
+312,subclass,14.116 Tessitura di seta,di cui familiari coadiuvanti,1,1,0,1,1,0,0,0,0
+313,subclass,"14.126 Tulli, merletti",C) Artigiani senza dipendenti,5,0,5,1,0,1,2,0,2
+314,subclass,"14.126 Tulli, merletti",H) Operai,7,0,7,1,0,1,6,0,6
+315,subclass,"14.126 Tulli, merletti",I) Lavoranti a domicilio,8,0,8,3,0,3,5,0,5
+316,subclass,"14.126 Tulli, merletti",Totale,20,0,20,5,0,5,13,0,13
+317,class,"15. Industrie del vestiario, abbigliamento e arredamento",A) Padroni,31,14,17,23,11,12,5,3,2
+318,class,"15. Industrie del vestiario, abbigliamento e arredamento",B) Artigiani con dipendenti,97,60,37,68,45,23,24,12,12
+319,class,"15. Industrie del vestiario, abbigliamento e arredamento",C) Artigiani senza dipendenti,343,178,165,180,91,89,90,41,49
+320,class,"15. Industrie del vestiario, abbigliamento e arredamento",E) Dirigenti,1,0,1,0,0,0,1,0,1
+321,class,"15. Industrie del vestiario, abbigliamento e arredamento",F) Impiegati,3,2,1,0,0,0,3,2,1
+322,class,"15. Industrie del vestiario, abbigliamento e arredamento",G) Personale di servizio e di fatica,1,0,1,0,0,0,1,0,1
+323,class,"15. Industrie del vestiario, abbigliamento e arredamento",H) Operai,479,222,257,273,121,152,185,85,100
+324,class,"15. Industrie del vestiario, abbigliamento e arredamento",I) Lavoranti a domicilio,42,5,37,30,5,25,12,0,12
+325,class,"15. Industrie del vestiario, abbigliamento e arredamento",Totale,997,481,516,574,273,301,321,143,178
+326,class,"15. Industrie del vestiario, abbigliamento e arredamento",di cui familiari coadiuvanti,60,22,38,40,15,25,13,4,9
+327,subclass,15.135 Modisterie,A) Padroni,5,0,5,3,0,3,2,0,2
+328,subclass,15.135 Modisterie,B) Artigiani con dipendenti,7,2,5,6,2,4,1,0,1
+329,subclass,15.135 Modisterie,C) Artigiani senza dipendenti,4,0,4,2,0,2,1,0,1
+330,subclass,15.135 Modisterie,H) Operai,19,0,19,17,0,17,2,0,2
+331,subclass,15.135 Modisterie,I) Lavoranti a domicilio,1,0,1,1,0,1,0,0,0
+332,subclass,15.135 Modisterie,Totale,36,2,34,29,2,27,6,0,6
+333,subclass,15.135 Modisterie,di cui familiari coadiuvanti,2,0,2,1,0,1,1,0,1
+334,subclass,15.136 Confezione di abiti,A) Padroni,2,1,1,2,1,1,0,0,0
+335,subclass,15.136 Confezione di abiti,B) Artigiani con dipendenti,57,36,21,42,29,13,14,6,8
+336,subclass,15.136 Confezione di abiti,C) Artigiani senza dipendenti,177,60,117,96,32,64,52,17,35
+337,subclass,15.136 Confezione di abiti,E) Dirigenti,1,0,1,0,0,0,1,0,1
+338,subclass,15.136 Confezione di abiti,F) Impiegati,1,0,1,0,0,0,1,0,1
+339,subclass,15.136 Confezione di abiti,H) Operai,258,71,187,155,42,113,93,23,70
+340,subclass,15.136 Confezione di abiti,I) Lavoranti a domicilio,29,2,27,22,2,20,7,0,7
+341,subclass,15.136 Confezione di abiti,Totale,525,170,355,317,106,211,168,46,122
+342,subclass,15.136 Confezione di abiti,di cui familiari coadiuvanti,31,10,21,20,7,13,6,2,4
+343,subclass,15.137 Fabbricazione di calzature,A) Padroni,10,10,0,7,7,0,3,3,0
+344,subclass,15.137 Fabbricazione di calzature,B) Artigiani con dipendenti,13,13,0,8,8,0,5,5,0
+345,subclass,15.137 Fabbricazione di calzature,C) Artigiani senza dipendenti,113,113,0,56,56,0,22,22,0
+346,subclass,15.137 Fabbricazione di calzature,F) Impiegati,2,2,0,0,0,0,2,2,0
+347,subclass,15.137 Fabbricazione di calzature,H) Operai,151,144,7,81,76,5,60,58,2
+348,subclass,15.137 Fabbricazione di calzature,I) Lavoranti a domicilio,3,2,1,2,2,0,1,0,1
+349,subclass,15.137 Fabbricazione di calzature,Totale,292,284,8,154,149,5,93,90,3
+350,subclass,15.137 Fabbricazione di calzature,di cui familiari coadiuvanti,8,8,0,5,5,0,2,2,0
+351,subclass,"15.149 Lavanderie, stirerie",A) Padroni,14,3,11,11,3,8,0,0,0
+352,subclass,"15.149 Lavanderie, stirerie",B) Artigiani con dipendenti,13,5,8,7,3,4,2,0,2
+353,subclass,"15.149 Lavanderie, stirerie",C) Artigiani senza dipendenti,38,2,36,20,2,18,11,0,11
+354,subclass,"15.149 Lavanderie, stirerie",G) Personale di servizio e di fatica,1,0,1,0,0,0,1,0,1
+355,subclass,"15.149 Lavanderie, stirerie",H) Operai,34,3,31,15,1,14,18,2,16
+356,subclass,"15.149 Lavanderie, stirerie",I) Lavoranti a domicilio,4,0,4,1,0,1,3,0,3
+357,subclass,"15.149 Lavanderie, stirerie",Totale,104,13,91,54,9,45,35,2,33
+358,subclass,"15.149 Lavanderie, stirerie",di cui familiari coadiuvanti,16,4,12,13,3,10,2,0,2
+359,class,16. Servizi igienici e sanitari,A) Padroni,2,1,1,2,1,1,0,0,0
+360,class,16. Servizi igienici e sanitari,B) Artigiani con dipendenti,70,68,2,43,43,0,23,21,2
+361,class,16. Servizi igienici e sanitari,C) Artigiani senza dipendenti,96,93,3,38,37,1,32,30,2
+362,class,16. Servizi igienici e sanitari,F) Impiegati,3,1,2,3,1,2,0,0,0
+363,class,16. Servizi igienici e sanitari,G) Personale di servizio e di fatica,2,1,1,2,1,1,0,0,0
+364,class,16. Servizi igienici e sanitari,H) Operai,192,179,13,123,113,10,57,54,3
+365,class,16. Servizi igienici e sanitari,Totale,365,343,22,211,196,15,112,105,7
+366,class,16. Servizi igienici e sanitari,di cui familiari coadiuvanti,19,19,0,12,12,0,6,6,0
+367,subclass,16.152 Igiene ed estetica della persona,B) Artigiani con dipendenti,70,68,2,43,43,0,23,21,2
+368,subclass,16.152 Igiene ed estetica della persona,C) Artigiani senza dipendenti,96,93,3,38,37,1,32,30,2
+369,subclass,16.152 Igiene ed estetica della persona,F) Impiegati,1,0,1,1,0,1,0,0,0
+370,subclass,16.152 Igiene ed estetica della persona,G) Personale di servizio e di fatica,1,0,1,1,0,1,0,0,0
+371,subclass,16.152 Igiene ed estetica della persona,H) Operai,191,179,12,122,113,9,57,54,3
+372,subclass,16.152 Igiene ed estetica della persona,Totale,359,340,19,205,193,12,112,105,7
+373,subclass,16.152 Igiene ed estetica della persona,di cui familiari coadiuvanti,19,19,0,12,12,0,6,6,0
+374,class,17. Servizi privati di pulizia e disinfezione,A) Padroni,5,5,0,2,2,0,3,3,0
+375,class,17. Servizi privati di pulizia e disinfezione,F) Impiegati,2,2,0,2,2,0,0,0,0
+376,class,17. Servizi privati di pulizia e disinfezione,H) Operai,4,4,0,4,4,0,0,0,0
+377,class,17. Servizi privati di pulizia e disinfezione,Totale,11,11,0,8,8,0,3,3,0
+378,class,18. Industrie chimiche,A) Padroni,26,24,2,23,22,1,3,2,1
+379,class,18. Industrie chimiche,E) Dirigenti,3,3,0,1,1,0,1,1,0
+380,class,18. Industrie chimiche,F) Impiegati,24,19,5,16,11,5,4,4,0
+381,class,18. Industrie chimiche,G) Personale di servizio e di fatica,10,9,1,9,8,1,0,0,0
+382,class,18. Industrie chimiche,H) Operai,208,33,175,100,26,74,4,4,0
+383,class,18. Industrie chimiche,Totale,271,88,183,149,68,81,12,11,1
+384,class,18. Industrie chimiche,di cui familiari coadiuvanti,7,6,1,6,6,0,1,0,1
+385,subclass,18.186 Lavorazione e confezione dei tabacchi,F) Impiegati,11,6,5,8,3,5,0,0,0
+386,subclass,18.186 Lavorazione e confezione dei tabacchi,G) Personale di servizio e di fatica,9,8,1,8,7,1,0,0,0
+387,subclass,18.186 Lavorazione e confezione dei tabacchi,H) Operai,184,19,165,80,16,64,0,0,0
+388,subclass,18.186 Lavorazione e confezione dei tabacchi,Totale,204,33,171,96,26,70,0,0,0
+389,class,"19. Forza motrice, luce, calore ed acqua",A) Padroni,4,4,0,2,2,0,0,0,0
+390,class,"19. Forza motrice, luce, calore ed acqua",E) Dirigenti,6,6,0,1,1,0,1,1,0
+391,class,"19. Forza motrice, luce, calore ed acqua",F) Impiegati,54,50,4,30,28,2,19,18,1
+392,class,"19. Forza motrice, luce, calore ed acqua",G) Personale di servizio e di fatica,3,3,0,2,2,0,1,1,0
+393,class,"19. Forza motrice, luce, calore ed acqua",H) Operai,155,155,0,91,91,0,32,32,0
+394,class,"19. Forza motrice, luce, calore ed acqua",Totale,222,218,4,126,124,2,53,52,1
+395,subclass,19.187 Energia elettrica,A) Padroni,4,4,0,2,2,0,0,0,0
+396,subclass,19.187 Energia elettrica,E) Dirigenti,5,5,0,0,0,0,1,1,0
+397,subclass,19.187 Energia elettrica,F) Impiegati,46,42,4,25,23,2,17,16,1
+398,subclass,19.187 Energia elettrica,G) Personale di servizio e di fatica,3,3,0,2,2,0,1,1,0
+399,subclass,19.187 Energia elettrica,H) Operai,120,120,0,59,59,0,31,31,0
+400,subclass,19.187 Energia elettrica,Totale,178,174,4,88,86,2,50,49,1
+401,class,20. Industria editoriale,E) Dirigenti,1,1,0,1,1,0,0,0,0
+402,class,20. Industria editoriale,F) Impiegati,10,7,3,5,4,1,4,3,1
+403,class,20. Industria editoriale,Totale,11,8,3,6,5,1,4,3,1
+404,class,21. Industria dello spettacolo,A) Padroni,4,4,0,4,4,0,0,0,0
+405,class,21. Industria dello spettacolo,E) Dirigenti,5,5,0,1,1,0,3,3,0
+406,class,21. Industria dello spettacolo,F) Impiegati,21,20,1,9,9,0,7,6,1
+407,class,21. Industria dello spettacolo,G) Personale di servizio e di fatica,7,7,0,5,5,0,2,2,0
+408,class,21. Industria dello spettacolo,H) Operai,17,17,0,6,6,0,2,2,0
+409,class,21. Industria dello spettacolo,Totale,54,53,1,25,25,0,14,13,1
+410,class,22. Industrie non altrimenti specificate,A) Padroni,2,2,0,2,2,0,0,0,0
+411,class,22. Industrie non altrimenti specificate,F) Impiegati,9,9,0,7,7,0,0,0,0
+412,class,22. Industrie non altrimenti specificate,H) Operai,1,1,0,0,0,0,0,0,0
+413,class,22. Industrie non altrimenti specificate,Totale,12,12,0,9,9,0,0,0,0
+414,category,IV. Trasporti e comunicazioni,A) Padroni,219,217,2,127,126,1,59,59,0
+415,category,IV. Trasporti e comunicazioni,C) Artigiani senza dipendenti,141,141,0,92,92,0,40,40,0
+416,category,IV. Trasporti e comunicazioni,E) Dirigenti,20,20,0,7,7,0,7,7,0
+417,category,IV. Trasporti e comunicazioni,F) Impiegati,449,423,26,204,197,7,147,141,6
+418,category,IV. Trasporti e comunicazioni,G) Personale di servizio e di fatica,64,64,0,38,38,0,20,20,0
+419,category,IV. Trasporti e comunicazioni,H) Operai,666,666,0,363,363,0,210,210,0
+420,category,IV. Trasporti e comunicazioni,Totale,1559,1531,28,831,823,8,483,477,6
+421,category,IV. Trasporti e comunicazioni,di cui familiari coadiuvanti,24,24,0,15,15,0,8,8,0
+422,class,23. Trasporti,A) Padroni,218,216,2,127,126,1,59,59,0
+423,class,23. Trasporti,C) Artigiani senza dipendenti,141,141,0,92,92,0,40,40,0
+424,class,23. Trasporti,E) Dirigenti,19,19,0,7,7,0,6,6,0
+425,class,23. Trasporti,F) Impiegati,227,223,4,117,116,1,88,85,3
+426,class,23. Trasporti,G) Personale di servizio e di fatica,29,29,0,21,21,0,7,7,0
+427,class,23. Trasporti,H) Operai,631,631,0,344,344,0,198,198,0
+428,class,23. Trasporti,Totale,1265,1259,6,708,706,2,398,395,3
+429,class,23. Trasporti,di cui familiari coadiuvanti,24,24,0,15,15,0,8,8,0
+430,subclass,23.199 Trasporti automobilistici,A) Padroni,76,76,0,49,49,0,13,13,0
+431,subclass,23.199 Trasporti automobilistici,C) Artigiani senza dipendenti,66,66,0,49,49,0,14,14,0
+432,subclass,23.199 Trasporti automobilistici,E) Dirigenti,8,8,0,2,2,0,1,1,0
+433,subclass,23.199 Trasporti automobilistici,F) Impiegati,31,29,2,15,15,0,7,5,2
+434,subclass,23.199 Trasporti automobilistici,G) Personale di servizio e di fatica,9,9,0,8,8,0,1,1,0
+435,subclass,23.199 Trasporti automobilistici,H) Operai,344,344,0,199,199,0,88,88,0
+436,subclass,23.199 Trasporti automobilistici,Totale,534,532,2,322,322,0,124,122,2
+437,subclass,23.199 Trasporti automobilistici,di cui familiari coadiuvanti,8,8,0,7,7,0,1,1,0
+438,subclass,23.200 Trasporti a trazione animale,A) Padroni,70,69,1,39,38,1,28,28,0
+439,subclass,23.200 Trasporti a trazione animale,C) Artigiani senza dipendenti,75,75,0,43,43,0,26,26,0
+440,subclass,23.200 Trasporti a trazione animale,F) Impiegati,2,2,0,2,2,0,0,0,0
+441,subclass,23.200 Trasporti a trazione animale,H) Operai,40,40,0,34,34,0,5,5,0
+442,subclass,23.200 Trasporti a trazione animale,Totale,187,186,1,118,117,1,59,59,0
+443,subclass,23.200 Trasporti a trazione animale,di cui familiari coadiuvanti,7,7,0,3,3,0,4,4,0
+444,subclass,23.202 Corrieri e agenzie di citta,A) Padroni,31,30,1,14,14,0,6,6,0
+445,subclass,23.202 Corrieri e agenzie di citta,E) Dirigenti,1,1,0,0,0,0,0,0,0
+446,subclass,23.202 Corrieri e agenzie di citta,F) Impiegati,44,44,0,39,39,0,4,4,0
+447,subclass,23.202 Corrieri e agenzie di citta,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+448,subclass,23.202 Corrieri e agenzie di citta,H) Operai,2,2,0,2,2,0,0,0,0
+449,subclass,23.202 Corrieri e agenzie di citta,Totale,79,78,1,56,56,0,10,10,0
+450,subclass,23.202 Corrieri e agenzie di citta,di cui familiari coadiuvanti,4,4,0,1,1,0,2,2,0
+451,subclass,23.203 Ferrovie esercitate dallo Stato,E) Dirigenti,3,3,0,2,2,0,1,1,0
+452,subclass,23.203 Ferrovie esercitate dallo Stato,F) Impiegati,46,46,0,24,24,0,17,17,0
+453,subclass,23.203 Ferrovie esercitate dallo Stato,G) Personale di servizio e di fatica,6,6,0,5,5,0,0,0,0
+454,subclass,23.203 Ferrovie esercitate dallo Stato,H) Operai,140,140,0,75,75,0,40,40,0
+455,subclass,23.203 Ferrovie esercitate dallo Stato,Totale,195,195,0,106,106,0,58,58,0
+456,subclass,23.206 Trasporti marittimi,A) Padroni,14,14,0,7,7,0,5,5,0
+457,subclass,23.206 Trasporti marittimi,E) Dirigenti,5,5,0,2,2,0,3,3,0
+458,subclass,23.206 Trasporti marittimi,F) Impiegati,46,45,1,24,23,1,16,16,0
+459,subclass,23.206 Trasporti marittimi,H) Operai,51,51,0,13,13,0,33,33,0
+460,subclass,23.206 Trasporti marittimi,Totale,116,115,1,46,45,1,57,57,0
+461,subclass,23.206 Trasporti marittimi,di cui familiari coadiuvanti,2,2,0,2,2,0,0,0,0
+462,subclass,23.207 Trasporti aerei,E) Dirigenti,1,1,0,0,0,0,1,1,0
+463,subclass,23.207 Trasporti aerei,F) Impiegati,39,39,0,7,7,0,31,31,0
+464,subclass,23.207 Trasporti aerei,H) Operai,29,29,0,9,9,0,20,20,0
+465,subclass,23.207 Trasporti aerei,Totale,69,69,0,16,16,0,52,52,0
+466,class,24. Comunicazioni,A) Padroni,1,1,0,0,0,0,0,0,0
+467,class,24. Comunicazioni,E) Dirigenti,1,1,0,0,0,0,1,1,0
+468,class,24. Comunicazioni,F) Impiegati,222,200,22,87,81,6,59,56,3
+469,class,24. Comunicazioni,G) Personale di servizio e di fatica,35,35,0,17,17,0,13,13,0
+470,class,24. Comunicazioni,H) Operai,35,35,0,19,19,0,12,12,0
+471,class,24. Comunicazioni,Totale,294,272,22,123,117,6,85,82,3
+472,subclass,24.212 Servizi postali e telegrafici,F) Impiegati,209,190,19,87,81,6,49,49,0
+473,subclass,24.212 Servizi postali e telegrafici,G) Personale di servizio e di fatica,34,34,0,17,17,0,12,12,0
+474,subclass,24.212 Servizi postali e telegrafici,H) Operai,26,26,0,14,14,0,8,8,0
+475,subclass,24.212 Servizi postali e telegrafici,Totale,269,250,19,118,112,6,69,69,0
+476,category,V. Commercio,A) Padroni,1739,1304,435,811,630,181,508,357,151
+477,category,V. Commercio,E) Dirigenti,46,42,4,14,12,2,20,18,2
+478,category,V. Commercio,F) Impiegati,595,511,84,430,380,50,122,94,28
+479,category,V. Commercio,G) Personale di servizio e di fatica,51,44,7,48,42,6,3,2,1
+480,category,V. Commercio,H) Operai,404,303,101,262,200,62,71,50,21
+481,category,V. Commercio,Totale,2835,2204,631,1565,1264,301,724,521,203
+482,category,V. Commercio,di cui familiari coadiuvanti,363,188,175,148,76,72,103,51,52
+483,class,25. Commercio all'ingrosso di generi alimentari,A) Padroni,128,120,8,79,74,5,34,32,2
+484,class,25. Commercio all'ingrosso di generi alimentari,E) Dirigenti,3,3,0,1,1,0,1,1,0
+485,class,25. Commercio all'ingrosso di generi alimentari,F) Impiegati,50,49,1,36,35,1,14,14,0
+486,class,25. Commercio all'ingrosso di generi alimentari,H) Operai,4,4,0,4,4,0,0,0,0
+487,class,25. Commercio all'ingrosso di generi alimentari,Totale,185,176,9,120,114,6,49,47,2
+488,class,25. Commercio all'ingrosso di generi alimentari,di cui familiari coadiuvanti,21,16,5,10,9,1,6,5,1
+489,subclass,25.224 Commercio di vino ed altre bevande,A) Padroni,44,40,4,27,24,3,10,9,1
+490,subclass,25.224 Commercio di vino ed altre bevande,F) Impiegati,7,7,0,5,5,0,2,2,0
+491,subclass,25.224 Commercio di vino ed altre bevande,H) Operai,3,3,0,3,3,0,0,0,0
+492,subclass,25.224 Commercio di vino ed altre bevande,Totale,54,50,4,35,32,3,12,11,1
+493,subclass,25.224 Commercio di vino ed altre bevande,di cui familiari coadiuvanti,8,6,2,2,2,0,2,2,0
+494,class,26. Commercio all'ingrosso di generi non alimentari,A) Padroni,35,34,1,16,16,0,15,14,1
+495,class,26. Commercio all'ingrosso di generi non alimentari,E) Dirigenti,4,4,0,0,0,0,4,4,0
+496,class,26. Commercio all'ingrosso di generi non alimentari,F) Impiegati,75,66,9,51,44,7,21,19,2
+497,class,26. Commercio all'ingrosso di generi non alimentari,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+498,class,26. Commercio all'ingrosso di generi non alimentari,H) Operai,7,7,0,6,6,0,1,1,0
+499,class,26. Commercio all'ingrosso di generi non alimentari,Totale,122,112,10,74,67,7,41,38,3
+500,class,26. Commercio all'ingrosso di generi non alimentari,di cui familiari coadiuvanti,5,5,0,2,2,0,2,2,0
+501,subclass,"26.228 Tessuti, filati e passamanerie",A) Padroni,10,10,0,8,8,0,1,1,0
+502,subclass,"26.228 Tessuti, filati e passamanerie",F) Impiegati,18,17,1,15,14,1,2,2,0
+503,subclass,"26.228 Tessuti, filati e passamanerie",Totale,28,27,1,23,22,1,3,3,0
+504,subclass,"26.228 Tessuti, filati e passamanerie",di cui familiari coadiuvanti,2,2,0,2,2,0,0,0,0
+505,subclass,26.236 Combustibili solidi,A) Padroni,9,9,0,4,4,0,3,3,0
+506,subclass,26.236 Combustibili solidi,E) Dirigenti,1,1,0,0,0,0,1,1,0
+507,subclass,26.236 Combustibili solidi,F) Impiegati,9,7,2,3,3,0,6,4,2
+508,subclass,26.236 Combustibili solidi,Totale,19,17,2,7,7,0,10,8,2
+509,subclass,26.236 Combustibili solidi,di cui familiari coadiuvanti,1,1,0,0,0,0,0,0,0
+510,subclass,"26.237 Olii minerali, carburanti",A) Padroni,3,3,0,0,0,0,3,3,0
+511,subclass,"26.237 Olii minerali, carburanti",E) Dirigenti,2,2,0,0,0,0,2,2,0
+512,subclass,"26.237 Olii minerali, carburanti",F) Impiegati,24,23,1,14,13,1,9,9,0
+513,subclass,"26.237 Olii minerali, carburanti",G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+514,subclass,"26.237 Olii minerali, carburanti",H) Operai,7,7,0,6,6,0,1,1,0
+515,subclass,"26.237 Olii minerali, carburanti",Totale,37,36,1,21,20,1,15,15,0
+516,class,27. Commercio all'ingrosso di animali vivi e materie prime non preziose,A) Padroni,51,51,0,31,31,0,15,15,0
+517,class,27. Commercio all'ingrosso di animali vivi e materie prime non preziose,E) Dirigenti,3,3,0,0,0,0,2,2,0
+518,class,27. Commercio all'ingrosso di animali vivi e materie prime non preziose,F) Impiegati,26,22,4,14,12,2,8,6,2
+519,class,27. Commercio all'ingrosso di animali vivi e materie prime non preziose,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+520,class,27. Commercio all'ingrosso di animali vivi e materie prime non preziose,H) Operai,1,1,0,1,1,0,0,0,0
+521,class,27. Commercio all'ingrosso di animali vivi e materie prime non preziose,Totale,82,78,4,47,45,2,25,23,2
+522,class,27. Commercio all'ingrosso di animali vivi e materie prime non preziose,di cui familiari coadiuvanti,3,3,0,2,2,0,1,1,0
+523,subclass,27.250 Materiali da costruzione,A) Padroni,9,9,0,6,6,0,2,2,0
+524,subclass,27.250 Materiali da costruzione,E) Dirigenti,3,3,0,0,0,0,2,2,0
+525,subclass,27.250 Materiali da costruzione,F) Impiegati,15,14,1,9,8,1,5,5,0
+526,subclass,27.250 Materiali da costruzione,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+527,subclass,27.250 Materiali da costruzione,H) Operai,1,1,0,1,1,0,0,0,0
+528,subclass,27.250 Materiali da costruzione,Totale,29,28,1,17,16,1,9,9,0
+529,class,28. Commercio all'ingrosso di generi diversi,A) Padroni,15,12,3,7,7,0,4,2,2
+530,class,28. Commercio all'ingrosso di generi diversi,F) Impiegati,28,27,1,28,27,1,0,0,0
+531,class,28. Commercio all'ingrosso di generi diversi,Totale,43,39,4,35,34,1,4,2,2
+532,class,28. Commercio all'ingrosso di generi diversi,di cui familiari coadiuvanti,4,1,3,0,0,0,3,1,2
+533,group,Complesso commercio all'ingrosso,A) Padroni,229,217,12,133,128,5,68,63,5
+534,group,Complesso commercio all'ingrosso,E) Dirigenti,10,10,0,1,1,0,7,7,0
+535,group,Complesso commercio all'ingrosso,F) Impiegati,179,164,15,129,118,11,43,39,4
+536,group,Complesso commercio all'ingrosso,G) Personale di servizio e di fatica,2,2,0,2,2,0,0,0,0
+537,group,Complesso commercio all'ingrosso,H) Operai,12,12,0,11,11,0,1,1,0
+538,group,Complesso commercio all'ingrosso,Totale,432,405,27,276,260,16,119,110,9
+539,group,Complesso commercio all'ingrosso,di cui familiari coadiuvanti,33,25,8,14,13,1,12,9,3
+540,class,29. Commercio al minuto di generi alimentari,A) Padroni,567,433,134,242,184,58,152,109,43
+541,class,29. Commercio al minuto di generi alimentari,F) Impiegati,74,63,11,44,38,6,12,9,3
+542,class,29. Commercio al minuto di generi alimentari,G) Personale di servizio e di fatica,4,4,0,3,3,0,1,1,0
+543,class,29. Commercio al minuto di generi alimentari,Totale,645,500,145,289,225,64,165,119,46
+544,class,29. Commercio al minuto di generi alimentari,di cui familiari coadiuvanti,130,70,60,48,23,25,36,19,17
+545,subclass,"29.254 Macellerie, pollerie, pescherie",A) Padroni,100,91,9,63,60,3,29,24,5
+546,subclass,"29.254 Macellerie, pollerie, pescherie",F) Impiegati,12,12,0,9,9,0,2,2,0
+547,subclass,"29.254 Macellerie, pollerie, pescherie",G) Personale di servizio e di fatica,3,3,0,2,2,0,1,1,0
+548,subclass,"29.254 Macellerie, pollerie, pescherie",Totale,115,106,9,74,71,3,32,27,5
+549,subclass,"29.254 Macellerie, pollerie, pescherie",di cui familiari coadiuvanti,22,16,6,12,10,2,9,6,3
+550,subclass,"29.258 Rivendite di sali, tabacchi",A) Padroni,59,28,31,23,12,11,20,6,14
+551,subclass,"29.258 Rivendite di sali, tabacchi",F) Impiegati,5,4,1,2,2,0,2,1,1
+552,subclass,"29.258 Rivendite di sali, tabacchi",Totale,64,32,32,25,14,11,22,7,15
+553,subclass,"29.258 Rivendite di sali, tabacchi",di cui familiari coadiuvanti,13,3,10,5,2,3,5,1,4
+554,subclass,29.259 Drogherie e torrefazione del caffe,A) Padroni,22,18,4,9,8,1,7,5,2
+555,subclass,29.259 Drogherie e torrefazione del caffe,F) Impiegati,3,3,0,1,1,0,0,0,0
+556,subclass,29.259 Drogherie e torrefazione del caffe,Totale,25,21,4,10,9,1,7,5,2
+557,subclass,29.259 Drogherie e torrefazione del caffe,di cui familiari coadiuvanti,7,3,4,1,0,1,4,2,2
+558,subclass,"29.260 Negozi di vino, birra, olio",A) Padroni,28,23,5,16,13,3,7,5,2
+559,subclass,"29.260 Negozi di vino, birra, olio",F) Impiegati,3,2,1,1,1,0,2,1,1
+560,subclass,"29.260 Negozi di vino, birra, olio",Totale,31,25,6,17,14,3,9,6,3
+561,subclass,"29.260 Negozi di vino, birra, olio",di cui familiari coadiuvanti,4,2,2,3,1,2,0,0,0
+562,class,"30. Commercio al minuto di metalli, macchine, utensili",A) Padroni,65,61,4,36,34,2,22,20,2
+563,class,"30. Commercio al minuto di metalli, macchine, utensili",E) Dirigenti,2,2,0,1,1,0,1,1,0
+564,class,"30. Commercio al minuto di metalli, macchine, utensili",F) Impiegati,51,41,10,35,29,6,14,10,4
+565,class,"30. Commercio al minuto di metalli, macchine, utensili",H) Operai,23,23,0,3,3,0,2,2,0
+566,class,"30. Commercio al minuto di metalli, macchine, utensili",Totale,141,127,14,75,67,8,39,33,6
+567,class,"30. Commercio al minuto di metalli, macchine, utensili",di cui familiari coadiuvanti,8,6,2,4,3,1,3,2,1
+568,subclass,"30.263 Ferramenta, ottonami",A) Padroni,19,19,0,11,11,0,6,6,0
+569,subclass,"30.263 Ferramenta, ottonami",E) Dirigenti,1,1,0,0,0,0,1,1,0
+570,subclass,"30.263 Ferramenta, ottonami",F) Impiegati,13,12,1,4,4,0,8,7,1
+571,subclass,"30.263 Ferramenta, ottonami",Totale,33,32,1,15,15,0,15,14,1
+572,subclass,"30.263 Ferramenta, ottonami",di cui familiari coadiuvanti,2,2,0,0,0,0,1,1,0
+573,subclass,30.268 Veicoli ed accessori,A) Padroni,26,23,3,16,14,2,8,7,1
+574,subclass,30.268 Veicoli ed accessori,E) Dirigenti,1,1,0,1,1,0,0,0,0
+575,subclass,30.268 Veicoli ed accessori,F) Impiegati,16,14,2,14,13,1,2,1,1
+576,subclass,30.268 Veicoli ed accessori,Totale,43,38,5,31,28,3,10,8,2
+577,subclass,30.268 Veicoli ed accessori,di cui familiari coadiuvanti,5,4,1,4,3,1,1,1,0
+578,class,31. Commercio al minuto di materie prime per edilizia e agricoltura,A) Padroni,1,1,0,0,0,0,1,1,0
+579,class,31. Commercio al minuto di materie prime per edilizia e agricoltura,E) Dirigenti,2,2,0,0,0,0,1,1,0
+580,class,31. Commercio al minuto di materie prime per edilizia e agricoltura,F) Impiegati,16,16,0,11,11,0,3,3,0
+581,class,31. Commercio al minuto di materie prime per edilizia e agricoltura,H) Operai,4,4,0,1,1,0,3,3,0
+582,class,31. Commercio al minuto di materie prime per edilizia e agricoltura,Totale,23,23,0,12,12,0,8,8,0
+583,class,"32. Commercio al minuto di filati, tessuti, vestiario",A) Padroni,107,81,26,52,39,13,46,35,11
+584,class,"32. Commercio al minuto di filati, tessuti, vestiario",E) Dirigenti,2,2,0,1,1,0,1,1,0
+585,class,"32. Commercio al minuto di filati, tessuti, vestiario",F) Impiegati,25,19,6,21,17,4,4,2,2
+586,class,"32. Commercio al minuto di filati, tessuti, vestiario",Totale,134,102,32,74,57,17,51,38,13
+587,class,"32. Commercio al minuto di filati, tessuti, vestiario",di cui familiari coadiuvanti,19,11,8,11,6,5,7,5,2
+588,subclass,32.274 Filati e tessuti,A) Padroni,40,37,3,19,17,2,17,16,1
+589,subclass,32.274 Filati e tessuti,F) Impiegati,8,5,3,8,5,3,0,0,0
+590,subclass,32.274 Filati e tessuti,Totale,48,42,6,27,22,5,17,16,1
+591,subclass,32.274 Filati e tessuti,di cui familiari coadiuvanti,10,10,0,6,6,0,4,4,0
+592,subclass,"32.275 Mercerie, passamanerie, ricami",A) Padroni,21,11,10,5,4,1,16,7,9
+593,subclass,"32.275 Mercerie, passamanerie, ricami",F) Impiegati,2,2,0,2,2,0,0,0,0
+594,subclass,"32.275 Mercerie, passamanerie, ricami",Totale,23,13,10,7,6,1,16,7,9
+595,subclass,"32.275 Mercerie, passamanerie, ricami",di cui familiari coadiuvanti,2,0,2,0,0,0,2,0,2
+596,subclass,32.278 Calzature,A) Padroni,19,18,1,10,9,1,7,7,0
+597,subclass,32.278 Calzature,E) Dirigenti,1,1,0,1,1,0,0,0,0
+598,subclass,32.278 Calzature,F) Impiegati,8,7,1,8,7,1,0,0,0
+599,subclass,32.278 Calzature,Totale,28,26,2,19,17,2,7,7,0
+600,subclass,32.278 Calzature,di cui familiari coadiuvanti,2,1,1,1,0,1,1,1,0
+601,class,33. Commercio al minuto di oggetti di arredamento,A) Padroni,26,22,4,13,13,0,8,4,4
+602,class,33. Commercio al minuto di oggetti di arredamento,E) Dirigenti,1,1,0,0,0,0,1,1,0
+603,class,33. Commercio al minuto di oggetti di arredamento,F) Impiegati,10,8,2,8,7,1,1,1,0
+604,class,33. Commercio al minuto di oggetti di arredamento,Totale,37,31,6,21,20,1,10,6,4
+605,class,33. Commercio al minuto di oggetti di arredamento,di cui familiari coadiuvanti,5,4,1,2,2,0,1,0,1
+606,class,"34. Commercio di oggetti d'arte, di lusso e di orologerie",A) Padroni,22,20,2,15,14,1,6,5,1
+607,class,"34. Commercio di oggetti d'arte, di lusso e di orologerie",E) Dirigenti,3,3,0,2,2,0,1,1,0
+608,class,"34. Commercio di oggetti d'arte, di lusso e di orologerie",F) Impiegati,23,22,1,13,13,0,9,8,1
+609,class,"34. Commercio di oggetti d'arte, di lusso e di orologerie",H) Operai,2,2,0,1,1,0,1,1,0
+610,class,"34. Commercio di oggetti d'arte, di lusso e di orologerie",Totale,50,47,3,31,30,1,17,15,2
+611,class,"34. Commercio di oggetti d'arte, di lusso e di orologerie",di cui familiari coadiuvanti,6,5,1,4,3,1,2,2,0
+612,subclass,"34.296 Quadri, bronzi",A) Padroni,8,8,0,7,7,0,0,0,0
+613,subclass,"34.296 Quadri, bronzi",E) Dirigenti,3,3,0,2,2,0,1,1,0
+614,subclass,"34.296 Quadri, bronzi",F) Impiegati,19,18,1,9,9,0,9,8,1
+615,subclass,"34.296 Quadri, bronzi",Totale,30,29,1,18,18,0,10,9,1
+616,subclass,"34.296 Quadri, bronzi",di cui familiari coadiuvanti,2,2,0,2,2,0,0,0,0
+617,class,"35. Commercio di prodotti chimici, farmaceutici e igiene personale",A) Padroni,34,30,4,11,10,1,17,14,3
+618,class,"35. Commercio di prodotti chimici, farmaceutici e igiene personale",E) Dirigenti,1,1,0,0,0,0,1,1,0
+619,class,"35. Commercio di prodotti chimici, farmaceutici e igiene personale",F) Impiegati,27,21,6,17,15,2,8,4,4
+620,class,"35. Commercio di prodotti chimici, farmaceutici e igiene personale",Totale,62,52,10,28,25,3,26,19,7
+621,class,"35. Commercio di prodotti chimici, farmaceutici e igiene personale",di cui familiari coadiuvanti,6,4,2,0,0,0,5,3,2
+622,subclass,"35.299 Prodotti medicinali, farmacie",A) Padroni,15,13,2,5,5,0,8,6,2
+623,subclass,"35.299 Prodotti medicinali, farmacie",E) Dirigenti,1,1,0,0,0,0,1,1,0
+624,subclass,"35.299 Prodotti medicinali, farmacie",F) Impiegati,12,10,2,9,9,0,3,1,2
+625,subclass,"35.299 Prodotti medicinali, farmacie",Totale,28,24,4,14,14,0,12,8,4
+626,subclass,"35.299 Prodotti medicinali, farmacie",di cui familiari coadiuvanti,3,1,2,0,0,0,3,1,2
+627,class,"36. Cartoleria, pubblicazioni, giornali",A) Padroni,26,23,3,18,15,3,4,4,0
+628,class,"36. Cartoleria, pubblicazioni, giornali",F) Impiegati,9,6,3,3,2,1,5,3,2
+629,class,"36. Cartoleria, pubblicazioni, giornali",Totale,35,29,6,21,17,4,9,7,2
+630,class,"36. Cartoleria, pubblicazioni, giornali",di cui familiari coadiuvanti,3,2,1,2,1,1,0,0,0
+631,subclass,36.304 Cartoleria e cancelleria,A) Padroni,19,18,1,12,11,1,3,3,0
+632,subclass,36.304 Cartoleria e cancelleria,F) Impiegati,7,4,3,2,1,1,4,2,2
+633,subclass,36.304 Cartoleria e cancelleria,Totale,26,22,4,14,12,2,7,5,2
+634,subclass,36.304 Cartoleria e cancelleria,di cui familiari coadiuvanti,2,2,0,1,1,0,0,0,0
+635,class,37. Commercio di oggetti usati,Totale,0,0,0,0,0,0,0,0,0
+636,class,38. Grandi magazzini,F) Impiegati,5,5,0,4,4,0,0,0,0
+637,class,38. Grandi magazzini,G) Personale di servizio e di fatica,6,6,0,6,6,0,0,0,0
+638,class,38. Grandi magazzini,Totale,11,11,0,10,10,0,0,0,0
+639,class,39. Commercio al minuto di generi diversi,A) Padroni,25,19,6,16,11,5,1,1,0
+640,class,39. Commercio al minuto di generi diversi,F) Impiegati,7,7,0,2,2,0,3,3,0
+641,class,39. Commercio al minuto di generi diversi,Totale,32,26,6,18,13,5,4,4,0
+642,class,39. Commercio al minuto di generi diversi,di cui familiari coadiuvanti,6,3,3,4,1,3,0,0,0
+643,group,Complesso commercio al minuto,A) Padroni,873,690,183,403,320,83,257,193,64
+644,group,Complesso commercio al minuto,E) Dirigenti,11,11,0,4,4,0,6,6,0
+645,group,Complesso commercio al minuto,F) Impiegati,247,208,39,158,138,20,59,43,16
+646,group,Complesso commercio al minuto,G) Personale di servizio e di fatica,10,10,0,9,9,0,1,1,0
+647,group,Complesso commercio al minuto,H) Operai,29,29,0,5,5,0,6,6,0
+648,group,Complesso commercio al minuto,Totale,1170,948,222,579,476,103,329,249,80
+649,group,Complesso commercio al minuto,di cui familiari coadiuvanti,183,105,78,75,39,36,54,31,23
+650,class,40. Gestioni diverse,A) Padroni,3,3,0,3,3,0,0,0,0
+651,class,40. Gestioni diverse,F) Impiegati,8,8,0,7,7,0,1,1,0
+652,class,40. Gestioni diverse,H) Operai,48,26,22,32,15,17,14,10,4
+653,class,40. Gestioni diverse,Totale,59,37,22,42,25,17,15,11,4
+654,subclass,"40.316 Appalti di forniture militari, navali",A) Padroni,1,1,0,1,1,0,0,0,0
+655,subclass,"40.316 Appalti di forniture militari, navali",F) Impiegati,5,5,0,4,4,0,1,1,0
+656,subclass,"40.316 Appalti di forniture militari, navali",H) Operai,48,26,22,32,15,17,14,10,4
+657,subclass,"40.316 Appalti di forniture militari, navali",Totale,54,32,22,37,20,17,15,11,4
+658,class,41. Commercio ambulante ed attivita affini,A) Padroni,29,29,0,19,19,0,6,6,0
+659,class,41. Commercio ambulante ed attivita affini,F) Impiegati,2,2,0,2,2,0,0,0,0
+660,class,41. Commercio ambulante ed attivita affini,Totale,31,31,0,21,21,0,6,6,0
+661,class,41. Commercio ambulante ed attivita affini,di cui familiari coadiuvanti,2,2,0,1,1,0,1,1,0
+662,class,42. Aziende commerciali non altrimenti specificate,E) Dirigenti,1,0,1,1,0,1,0,0,0
+663,class,42. Aziende commerciali non altrimenti specificate,F) Impiegati,49,42,7,41,35,6,6,6,0
+664,class,42. Aziende commerciali non altrimenti specificate,G) Personale di servizio e di fatica,3,3,0,3,3,0,0,0,0
+665,class,42. Aziende commerciali non altrimenti specificate,Totale,53,45,8,45,38,7,6,6,0
+666,class,"43. Alberghi, trattorie",A) Padroni,584,344,240,245,152,93,167,85,82
+667,class,"43. Alberghi, trattorie",E) Dirigenti,22,19,3,7,6,1,6,4,2
+668,class,"43. Alberghi, trattorie",F) Impiegati,35,23,12,27,22,5,7,0,7
+669,class,"43. Alberghi, trattorie",G) Personale di servizio e di fatica,17,11,6,16,11,5,1,0,1
+670,class,"43. Alberghi, trattorie",H) Operai,296,217,79,195,150,45,50,33,17
+671,class,"43. Alberghi, trattorie",Totale,954,614,340,490,341,149,231,122,109
+672,class,"43. Alberghi, trattorie",di cui familiari coadiuvanti,144,55,89,58,23,35,35,9,26
+673,subclass,"43.322 Alberghi, pensioni, affittacamere",A) Padroni,125,45,80,46,17,29,40,6,34
+674,subclass,"43.322 Alberghi, pensioni, affittacamere",E) Dirigenti,21,18,3,7,6,1,5,3,2
+675,subclass,"43.322 Alberghi, pensioni, affittacamere",F) Impiegati,18,12,6,13,12,1,5,0,5
+676,subclass,"43.322 Alberghi, pensioni, affittacamere",G) Personale di servizio e di fatica,14,10,4,13,10,3,1,0,1
+677,subclass,"43.322 Alberghi, pensioni, affittacamere",H) Operai,128,84,44,77,52,25,22,13,9
+678,subclass,"43.322 Alberghi, pensioni, affittacamere",Totale,306,169,137,156,97,59,73,22,51
+679,subclass,"43.322 Alberghi, pensioni, affittacamere",di cui familiari coadiuvanti,33,10,23,10,1,9,6,1,5
+680,subclass,"43.323 Ristoranti, trattorie",A) Padroni,193,132,61,75,59,16,53,32,21
+681,subclass,"43.323 Ristoranti, trattorie",F) Impiegati,2,2,0,2,2,0,0,0,0
+682,subclass,"43.323 Ristoranti, trattorie",G) Personale di servizio e di fatica,2,0,2,2,0,2,0,0,0
+683,subclass,"43.323 Ristoranti, trattorie",H) Operai,54,44,10,33,27,6,10,8,2
+684,subclass,"43.323 Ristoranti, trattorie",Totale,251,178,73,112,88,24,63,40,23
+685,subclass,"43.323 Ristoranti, trattorie",di cui familiari coadiuvanti,49,19,30,14,7,7,15,3,12
+686,subclass,"43.324 Caffe, gelaterie, bar, birrerie",A) Padroni,232,166,66,111,75,36,63,47,16
+687,subclass,"43.324 Caffe, gelaterie, bar, birrerie",E) Dirigenti,1,1,0,0,0,0,1,1,0
+688,subclass,"43.324 Caffe, gelaterie, bar, birrerie",F) Impiegati,8,2,6,5,1,4,2,0,2
+689,subclass,"43.324 Caffe, gelaterie, bar, birrerie",G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+690,subclass,"43.324 Caffe, gelaterie, bar, birrerie",H) Operai,99,87,12,81,70,11,12,12,0
+691,subclass,"43.324 Caffe, gelaterie, bar, birrerie",Totale,341,257,84,198,147,51,78,60,18
+692,subclass,"43.324 Caffe, gelaterie, bar, birrerie",di cui familiari coadiuvanti,61,26,35,34,15,19,13,5,8
+693,class,44. Attivita ausiliarie del commercio e dei traffici,A) Padroni,21,21,0,8,8,0,10,10,0
+694,class,44. Attivita ausiliarie del commercio e dei traffici,E) Dirigenti,2,2,0,1,1,0,1,1,0
+695,class,44. Attivita ausiliarie del commercio e dei traffici,F) Impiegati,75,64,11,66,58,8,6,5,1
+696,class,44. Attivita ausiliarie del commercio e dei traffici,G) Personale di servizio e di fatica,19,18,1,18,17,1,1,1,0
+697,class,44. Attivita ausiliarie del commercio e dei traffici,H) Operai,19,19,0,19,19,0,0,0,0
+698,class,44. Attivita ausiliarie del commercio e dei traffici,Totale,136,124,12,112,103,9,18,17,1
+699,class,44. Attivita ausiliarie del commercio e dei traffici,di cui familiari coadiuvanti,1,1,0,0,0,0,1,1,0
+700,subclass,"44.326 Agenzie di commercio, di commissioni",A) Padroni,10,10,0,1,1,0,7,7,0
+701,subclass,"44.326 Agenzie di commercio, di commissioni",E) Dirigenti,2,2,0,1,1,0,1,1,0
+702,subclass,"44.326 Agenzie di commercio, di commissioni",F) Impiegati,21,13,8,15,9,6,5,4,1
+703,subclass,"44.326 Agenzie di commercio, di commissioni",Totale,33,25,8,17,11,6,13,12,1
+704,subclass,"44.331 Magazzini generali, di custodia e deposito",A) Padroni,1,1,0,1,1,0,0,0,0
+705,subclass,"44.331 Magazzini generali, di custodia e deposito",F) Impiegati,44,43,1,44,43,1,0,0,0
+706,subclass,"44.331 Magazzini generali, di custodia e deposito",G) Personale di servizio e di fatica,19,18,1,18,17,1,1,1,0
+707,subclass,"44.331 Magazzini generali, di custodia e deposito",H) Operai,19,19,0,19,19,0,0,0,0
+708,subclass,"44.331 Magazzini generali, di custodia e deposito",Totale,83,81,2,82,80,2,1,1,0
+709,category,VI. Credito ed assicurazione,E) Dirigenti,16,16,0,11,11,0,4,4,0
+710,category,VI. Credito ed assicurazione,F) Impiegati,241,229,12,149,138,11,66,65,1
+711,category,VI. Credito ed assicurazione,G) Personale di servizio e di fatica,20,20,0,16,16,0,4,4,0
+712,category,VI. Credito ed assicurazione,H) Operai,5,5,0,4,4,0,1,1,0
+713,category,VI. Credito ed assicurazione,Totale,282,270,12,180,169,11,75,74,1
+714,class,"45. Banche, casse di risparmio, istituti finanziari",E) Dirigenti,13,13,0,9,9,0,3,3,0
+715,class,"45. Banche, casse di risparmio, istituti finanziari",F) Impiegati,205,198,7,121,115,6,58,57,1
+716,class,"45. Banche, casse di risparmio, istituti finanziari",G) Personale di servizio e di fatica,19,19,0,16,16,0,3,3,0
+717,class,"45. Banche, casse di risparmio, istituti finanziari",H) Operai,3,3,0,3,3,0,0,0,0
+718,class,"45. Banche, casse di risparmio, istituti finanziari",Totale,240,233,7,149,143,6,64,63,1
+719,subclass,45.333 Istituto di emissione e istituti di credito,E) Dirigenti,12,12,0,9,9,0,3,3,0
+720,subclass,45.333 Istituto di emissione e istituti di credito,F) Impiegati,119,113,6,90,84,6,27,27,0
+721,subclass,45.333 Istituto di emissione e istituti di credito,G) Personale di servizio e di fatica,12,12,0,11,11,0,1,1,0
+722,subclass,45.333 Istituto di emissione e istituti di credito,H) Operai,2,2,0,2,2,0,0,0,0
+723,subclass,45.333 Istituto di emissione e istituti di credito,Totale,145,139,6,112,106,6,31,31,0
+724,class,"46. Borse, stanze di compensazione, cambiavalute",Totale,0,0,0,0,0,0,0,0,0
+725,class,47. Assicurazione e previdenza,E) Dirigenti,3,3,0,2,2,0,1,1,0
+726,class,47. Assicurazione e previdenza,F) Impiegati,36,31,5,28,23,5,8,8,0
+727,class,47. Assicurazione e previdenza,G) Personale di servizio e di fatica,1,1,0,0,0,0,1,1,0
+728,class,47. Assicurazione e previdenza,H) Operai,2,2,0,1,1,0,1,1,0
+729,class,47. Assicurazione e previdenza,Totale,42,37,5,31,26,5,11,11,0
+730,subclass,47.339 Istituti di assicurazione,E) Dirigenti,2,2,0,1,1,0,1,1,0
+731,subclass,47.339 Istituti di assicurazione,F) Impiegati,30,25,5,23,18,5,7,7,0
+732,subclass,47.339 Istituti di assicurazione,H) Operai,2,2,0,1,1,0,1,1,0
+733,subclass,47.339 Istituti di assicurazione,Totale,34,29,5,25,20,5,9,9,0
+734,category,VII. Attivita ed arti libere,A) Padroni,10,2,8,9,1,8,1,1,0
+735,category,VII. Attivita ed arti libere,D) Liberi professionisti,184,142,42,118,90,28,52,40,12
+736,category,VII. Attivita ed arti libere,F) Impiegati,49,34,15,30,20,10,18,13,5
+737,category,VII. Attivita ed arti libere,H) Operai,12,12,0,7,7,0,4,4,0
+738,category,VII. Attivita ed arti libere,Totale,255,190,65,164,118,46,75,58,17
+739,class,48. Attivita educative,D) Liberi professionisti,35,12,23,25,7,18,10,5,5
+740,class,48. Attivita educative,Totale,35,12,23,25,7,18,10,5,5
+741,class,49. Attivita sanitarie,A) Padroni,10,2,8,9,1,8,1,1,0
+742,class,49. Attivita sanitarie,D) Liberi professionisti,44,27,17,26,18,8,13,6,7
+743,class,49. Attivita sanitarie,F) Impiegati,7,5,2,1,0,1,6,5,1
+744,class,49. Attivita sanitarie,H) Operai,11,11,0,7,7,0,3,3,0
+745,class,49. Attivita sanitarie,Totale,72,45,27,43,26,17,23,15,8
+746,subclass,"49.344 Attivita mediche, chirurgiche",D) Liberi professionisti,29,26,3,19,18,1,8,6,2
+747,subclass,"49.344 Attivita mediche, chirurgiche",F) Impiegati,7,5,2,1,0,1,6,5,1
+748,subclass,"49.344 Attivita mediche, chirurgiche",H) Operai,11,11,0,7,7,0,3,3,0
+749,subclass,"49.344 Attivita mediche, chirurgiche",Totale,47,42,5,27,25,2,17,14,3
+750,subclass,49.345 Attivita ostetrica,D) Liberi professionisti,14,0,14,7,0,7,5,0,5
+751,subclass,49.345 Attivita ostetrica,Totale,14,0,14,7,0,7,5,0,5
+752,class,50. Attivita legali,D) Liberi professionisti,38,38,0,21,21,0,13,13,0
+753,class,50. Attivita legali,F) Impiegati,25,18,7,16,11,5,8,6,2
+754,class,50. Attivita legali,Totale,63,56,7,37,32,5,21,19,2
+755,subclass,50.348 Studi legali,D) Liberi professionisti,32,32,0,18,18,0,10,10,0
+756,subclass,50.348 Studi legali,F) Impiegati,15,13,2,9,8,1,5,4,1
+757,subclass,50.348 Studi legali,Totale,47,45,2,27,26,1,15,14,1
+758,class,51. Attivita letterarie e scientifiche,D) Liberi professionisti,3,2,1,2,1,1,1,1,0
+759,class,51. Attivita letterarie e scientifiche,Totale,3,2,1,2,1,1,1,1,0
+760,class,52. Attivita tecniche,D) Liberi professionisti,31,31,0,21,21,0,8,8,0
+761,class,52. Attivita tecniche,F) Impiegati,4,3,1,3,2,1,1,1,0
+762,class,52. Attivita tecniche,Totale,35,34,1,24,23,1,9,9,0
+763,class,53. Attivita commerciali,D) Liberi professionisti,17,17,0,10,10,0,5,5,0
+764,class,53. Attivita commerciali,F) Impiegati,11,6,5,8,5,3,3,1,2
+765,class,53. Attivita commerciali,Totale,28,23,5,18,15,3,8,6,2
+766,subclass,53.357 Studi di ragioneria e contabilita,D) Liberi professionisti,10,10,0,6,6,0,4,4,0
+767,subclass,53.357 Studi di ragioneria e contabilita,F) Impiegati,4,4,0,4,4,0,0,0,0
+768,subclass,53.357 Studi di ragioneria e contabilita,Totale,14,14,0,10,10,0,4,4,0
+769,class,54. Attivita artistiche,D) Liberi professionisti,14,13,1,11,10,1,2,2,0
+770,class,54. Attivita artistiche,F) Impiegati,2,2,0,2,2,0,0,0,0
+771,class,54. Attivita artistiche,H) Operai,1,1,0,0,0,0,1,1,0
+772,class,54. Attivita artistiche,Totale,17,16,1,13,12,1,3,3,0
+773,class,55. Attivita sportive,D) Liberi professionisti,2,2,0,2,2,0,0,0,0
+774,class,55. Attivita sportive,Totale,2,2,0,2,2,0,0,0,0
+775,class,56. Attivita varie,Totale,0,0,0,0,0,0,0,0,0
+776,category,VIII. Amministrazione pubblica,E) Dirigenti e assimilati,91,90,1,43,43,0,27,26,1
+777,category,VIII. Amministrazione pubblica,F) Impiegati e assimilati,5325,4732,593,2063,1757,306,1364,1202,162
+778,category,VIII. Amministrazione pubblica,G) Personale di servizio e di fatica,258,236,22,152,137,15,54,52,2
+779,category,VIII. Amministrazione pubblica,H) Operai e assimilati,2269,2257,12,684,673,11,596,595,1
+780,category,VIII. Amministrazione pubblica,Totale,7943,7315,628,2942,2610,332,2041,1875,166
+781,class,57. Amministrazione statale,E) Dirigenti,41,41,0,24,24,0,13,13,0
+782,class,57. Amministrazione statale,F) Impiegati,1459,1391,68,747,711,36,414,390,24
+783,class,57. Amministrazione statale,G) Personale di servizio e di fatica,44,41,3,29,26,3,6,6,0
+784,class,57. Amministrazione statale,H) Operai,796,794,2,398,397,1,204,203,1
+785,class,57. Amministrazione statale,Totale,2340,2267,73,1198,1158,40,637,612,25
+786,class,58. Amministrazione parastatale,E) Dirigenti,2,2,0,1,1,0,1,1,0
+787,class,58. Amministrazione parastatale,F) Impiegati,21,18,3,12,11,1,5,3,2
+788,class,58. Amministrazione parastatale,G) Personale di servizio e di fatica,2,2,0,0,0,0,0,0,0
+789,class,58. Amministrazione parastatale,H) Operai,41,40,1,3,2,1,3,3,0
+790,class,58. Amministrazione parastatale,Totale,66,62,4,16,14,2,9,7,2
+791,class,59. Amministrazione autarchica,E) Dirigenti,17,16,1,9,9,0,3,2,1
+792,class,59. Amministrazione autarchica,F) Impiegati,542,343,199,263,160,103,165,108,57
+793,class,59. Amministrazione autarchica,G) Personale di servizio e di fatica,54,52,2,34,33,1,11,11,0
+794,class,59. Amministrazione autarchica,H) Operai,154,145,9,91,82,9,38,38,0
+795,class,59. Amministrazione autarchica,Totale,767,556,211,397,284,113,217,159,58
+796,subclass,59.371 Amministrazioni comunali,F) Impiegati,222,186,36,102,88,14,54,45,9
+797,subclass,59.371 Amministrazioni comunali,G) Personale di servizio e di fatica,30,30,0,14,14,0,9,9,0
+798,subclass,59.371 Amministrazioni comunali,H) Operai,93,93,0,49,49,0,24,24,0
+799,subclass,59.371 Amministrazioni comunali,Totale,345,309,36,165,151,14,87,78,9
+800,subclass,59.372 Istituti di beneficenza ed altri enti morali,E) Dirigenti,17,16,1,9,9,0,3,2,1
+801,subclass,59.372 Istituti di beneficenza ed altri enti morali,F) Impiegati,289,130,159,160,71,89,83,37,46
+802,subclass,59.372 Istituti di beneficenza ed altri enti morali,G) Personale di servizio e di fatica,24,22,2,20,19,1,2,2,0
+803,subclass,59.372 Istituti di beneficenza ed altri enti morali,H) Operai,56,47,9,42,33,9,9,9,0
+804,subclass,59.372 Istituti di beneficenza ed altri enti morali,Totale,386,215,171,231,132,99,97,50,47
+805,class,60. Insegnamento pubblico,E) Dirigenti,3,3,0,1,1,0,2,2,0
+806,class,60. Insegnamento pubblico,F) Impiegati,542,222,320,252,87,165,126,49,77
+807,class,60. Insegnamento pubblico,G) Personale di servizio e di fatica,17,0,17,11,0,11,2,0,2
+808,class,60. Insegnamento pubblico,H) Operai,5,5,0,2,2,0,3,3,0
+809,class,60. Insegnamento pubblico,Totale,567,230,337,266,90,176,133,54,79
+810,class,61. Difesa del Paese,E) Dirigenti e assimilati,28,28,0,8,8,0,8,8,0
+811,class,61. Difesa del Paese,F) Impiegati e assimilati,2737,2737,0,775,775,0,646,646,0
+812,class,61. Difesa del Paese,G) Personale di servizio e di fatica,136,136,0,74,74,0,35,35,0
+813,class,61. Difesa del Paese,H) Operai e assimilati,1272,1272,0,190,190,0,347,347,0
+814,class,61. Difesa del Paese,Totale,4173,4173,0,1047,1047,0,1036,1036,0
+815,class,62. Organizzazione sindacale,F) Impiegati,13,12,1,9,8,1,2,2,0
+816,class,62. Organizzazione sindacale,G) Personale di servizio e di fatica,1,1,0,1,1,0,0,0,0
+817,class,62. Organizzazione sindacale,Totale,14,13,1,10,9,1,2,2,0
+818,class,63. Organizzazione politica,F) Impiegati,11,9,2,5,5,0,6,4,2
+819,class,63. Organizzazione politica,G) Personale di servizio e di fatica,4,4,0,3,3,0,0,0,0
+820,class,63. Organizzazione politica,H) Operai,1,1,0,0,0,0,1,1,0
+821,class,63. Organizzazione politica,Totale,16,14,2,8,8,0,7,5,2
+822,category,IX. Amministrazione privata,E) Dirigenti,3,2,1,2,1,1,1,1,0
+823,category,IX. Amministrazione privata,F) Impiegati,59,32,27,44,28,16,3,1,2
+824,category,IX. Amministrazione privata,G) Personale di servizio e di fatica,1,0,1,1,0,1,0,0,0
+825,category,IX. Amministrazione privata,H) Operai,29,28,1,29,28,1,0,0,0
+826,category,IX. Amministrazione privata,Totale,92,62,30,76,57,19,4,2,2
+827,class,64. Insegnamento privato,E) Dirigenti,2,1,1,1,0,1,1,1,0
+828,class,64. Insegnamento privato,F) Impiegati,57,30,27,43,27,16,2,0,2
+829,class,64. Insegnamento privato,G) Personale di servizio e di fatica,1,0,1,1,0,1,0,0,0
+830,class,64. Insegnamento privato,H) Operai,29,28,1,29,28,1,0,0,0
+831,class,64. Insegnamento privato,Totale,89,59,30,74,55,19,3,1,2
+832,class,65. Altre amministrazioni private,E) Dirigenti,1,1,0,1,1,0,0,0,0
+833,class,65. Altre amministrazioni private,F) Impiegati,2,2,0,1,1,0,1,1,0
+834,class,65. Altre amministrazioni private,Totale,3,3,0,2,2,0,1,1,0
+835,category,X. Culto,F) Impiegati e assimilati,84,65,19,33,23,10,16,14,2
+836,category,X. Culto,G) Personale di servizio e di fatica,3,3,0,3,3,0,0,0,0
+837,category,X. Culto,H) Operai e assimilati,2,2,0,1,1,0,1,1,0
+838,category,X. Culto,Totale,89,70,19,37,27,10,17,15,2
+839,class,66. Culto cattolico,F) Impiegati e assimilati,77,58,19,27,17,10,15,13,2
+840,class,66. Culto cattolico,G) Personale di servizio e di fatica,3,3,0,3,3,0,0,0,0
+841,class,66. Culto cattolico,H) Operai e assimilati,2,2,0,1,1,0,1,1,0
+842,class,66. Culto cattolico,Totale,82,63,19,31,21,10,16,14,2
+843,subclass,"66.391 Abbazie, conventi, eremitaggi",F) Impiegati e assimilati,38,20,18,25,16,9,3,1,2
+844,subclass,"66.391 Abbazie, conventi, eremitaggi",G) Personale di servizio e di fatica,3,3,0,3,3,0,0,0,0
+845,subclass,"66.391 Abbazie, conventi, eremitaggi",H) Operai e assimilati,1,1,0,1,1,0,0,0,0
+846,subclass,"66.391 Abbazie, conventi, eremitaggi",Totale,42,24,18,29,20,9,3,1,2
+847,class,67. Culto non cattolico,F) Impiegati e assimilati,7,7,0,6,6,0,1,1,0
+848,class,67. Culto non cattolico,Totale,7,7,0,6,6,0,1,1,0
+849,category,XI. Economia domestica,F) Impiegati,3,0,3,1,0,1,2,0,2
+850,category,XI. Economia domestica,G) Personale di servizio e di fatica,1000,29,971,554,15,539,302,4,298
+851,category,XI. Economia domestica,H) Operai,22,22,0,17,17,0,3,3,0
+852,category,XI. Economia domestica,Totale,1025,51,974,572,32,540,307,7,300
+853,class,68. Economia domestica,F) Impiegati,3,0,3,1,0,1,2,0,2
+854,class,68. Economia domestica,G) Personale di servizio e di fatica,1000,29,971,554,15,539,302,4,298
+855,class,68. Economia domestica,H) Operai,22,22,0,17,17,0,3,3,0
+856,class,68. Economia domestica,Totale,1025,51,974,572,32,540,307,7,300
+857,category,XII. Condizioni non professionali,69. Proprietari e benestanti,145,106,39,86,61,25,45,36,9
+858,category,XII. Condizioni non professionali,70. Pensionati,173,151,22,125,110,15,32,28,4
+859,category,XII. Condizioni non professionali,"71. Studenti, seminaristi, collegiali",5197,3073,2124,2774,1652,1122,1251,737,514
+860,category,XII. Condizioni non professionali,72. Attendenti alle cure domestiche,16128,0,16128,8510,0,8510,3878,0,3878
+861,category,XII. Condizioni non professionali,73. Altre condizioni non professionali,551,392,159,336,215,121,70,60,10
+862,category,XII. Condizioni non professionali,Totale,22194,3722,18472,11831,2038,9793,5276,861,4415
+863,subclass,73.401 Persone in attesa di prima occupazione,Totale,108,99,9,49,42,7,0,0,0
+864,subclass,"73.402 Ricoverati, invalidi, infermi",Totale,386,266,120,264,159,105,69,60,9
+865,category,Senza indicazione di attivita professionale,Totale,201,134,67,53,28,25,38,17,21
+866,group,"In complesso, per posizione",A) Padroni e assimilati,3028,2519,509,1597,1371,226,752,592,160
+867,group,"In complesso, per posizione",B) Artigiani con dipendenti,309,268,41,192,168,24,84,69,15
+868,group,"In complesso, per posizione",C) Artigiani senza dipendenti e assimilati,3712,3046,666,637,540,97,326,258,68
+869,group,"In complesso, per posizione",D) Liberi professionisti,184,142,42,118,90,28,52,40,12
+870,group,"In complesso, per posizione",E) Dirigenti e assimilati,270,262,8,108,104,4,80,76,4
+871,group,"In complesso, per posizione",F) Impiegati e assimilati,7413,6591,822,3197,2760,437,1879,1657,222
+872,group,"In complesso, per posizione",G) Personale di servizio e di fatica,1436,431,1005,838,274,564,393,91,302
+873,group,"In complesso, per posizione",H) Operai e assimilati,10182,9515,667,4580,4247,333,2456,2290,166
+874,group,"In complesso, per posizione",I) Lavoranti a domicilio,52,7,45,35,7,28,17,0,17
+875,group,"In complesso, per posizione",Condizioni non professionali,22194,3722,18472,11831,2038,9793,5276,861,4415
+876,group,"In complesso, per posizione",Senza indicazione di posizione,201,134,67,53,28,25,38,17,21
+877,group,"In complesso, per posizione",Totale,48981,26637,22344,23186,11627,11559,11353,5951,5402
+878,group,"In complesso, per posizione",di cui familiari coadiuvanti,2113,1437,676,405,289,116,218,138,80
+879,group,"Esclusa l'agricoltura, per posizione",A) Padroni,2857,2366,491,1518,1300,218,743,583,160
+880,group,"Esclusa l'agricoltura, per posizione",B) Artigiani con dipendenti,309,268,41,192,168,24,84,69,15
+881,group,"Esclusa l'agricoltura, per posizione",C) Artigiani senza dipendenti,973,794,179,531,436,95,246,192,54
+882,group,"Esclusa l'agricoltura, per posizione",D) Liberi professionisti,184,142,42,118,90,28,52,40,12
+883,group,"Esclusa l'agricoltura, per posizione",E) Dirigenti e assimilati,231,223,8,102,98,4,78,74,4
+884,group,"Esclusa l'agricoltura, per posizione",F) Impiegati e assimilati,7310,6490,820,3183,2747,436,1872,1650,222
+885,group,"Esclusa l'agricoltura, per posizione",G) Personale di servizio e di fatica,1436,431,1005,838,274,564,393,91,302
+886,group,"Esclusa l'agricoltura, per posizione",H) Operai e assimilati,9152,8532,620,4461,4130,331,2406,2243,163
+887,group,"Esclusa l'agricoltura, per posizione",I) Lavoranti a domicilio,52,7,45,35,7,28,17,0,17
+888,group,"Esclusa l'agricoltura, per posizione",Condizioni non professionali,22194,3722,18472,11831,2038,9793,5276,861,4415
+889,group,"Esclusa l'agricoltura, per posizione",Senza indicazione di posizione,201,134,67,53,28,25,38,17,21
+890,group,"Esclusa l'agricoltura, per posizione",Totale,44899,23109,21790,22862,11316,11546,11205,5820,5385
+891,group,"Esclusa l'agricoltura, per posizione",di cui familiari coadiuvanti,720,486,234,371,259,112,184,118,66

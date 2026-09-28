@@ -1,0 +1,781 @@
+group,position,age,measure,sex,persons
+Professioni agricole,A) Padroni,all,persons,MF,171
+Professioni agricole,A) Padroni,all,coadiuvanti,MF,43
+Professioni agricole,A) Padroni,all,persons,M,153
+Professioni agricole,A) Padroni,all,coadiuvanti,M,37
+Professioni agricole,A) Padroni,all,persons,F,18
+Professioni agricole,A) Padroni,all,coadiuvanti,F,6
+Professioni agricole,A) Padroni,10-14,persons,M,0
+Professioni agricole,A) Padroni,10-14,persons,F,1
+Professioni agricole,A) Padroni,15-17,persons,M,5
+Professioni agricole,A) Padroni,15-17,persons,F,1
+Professioni agricole,A) Padroni,18-20,persons,M,5
+Professioni agricole,A) Padroni,18-20,persons,F,0
+Professioni agricole,A) Padroni,21-24,persons,M,7
+Professioni agricole,A) Padroni,21-24,persons,F,1
+Professioni agricole,A) Padroni,25-34,persons,M,33
+Professioni agricole,A) Padroni,25-34,persons,F,3
+Professioni agricole,A) Padroni,35-44,persons,M,31
+Professioni agricole,A) Padroni,35-44,persons,F,4
+Professioni agricole,A) Padroni,45-54,persons,M,30
+Professioni agricole,A) Padroni,45-54,persons,F,5
+Professioni agricole,A) Padroni,55-64,persons,M,20
+Professioni agricole,A) Padroni,55-64,persons,F,3
+Professioni agricole,A) Padroni,65+,persons,M,22
+Professioni agricole,A) Padroni,65+,persons,F,0
+Professioni agricole,A) Padroni,unknown,persons,M,0
+Professioni agricole,A) Padroni,unknown,persons,F,0
+Professioni agricole,C) Artigiani senza dipendenti,all,persons,MF,2739
+Professioni agricole,C) Artigiani senza dipendenti,all,coadiuvanti,MF,1350
+Professioni agricole,C) Artigiani senza dipendenti,all,persons,M,2252
+Professioni agricole,C) Artigiani senza dipendenti,all,coadiuvanti,M,914
+Professioni agricole,C) Artigiani senza dipendenti,all,persons,F,487
+Professioni agricole,C) Artigiani senza dipendenti,all,coadiuvanti,F,436
+Professioni agricole,C) Artigiani senza dipendenti,10-14,persons,M,165
+Professioni agricole,C) Artigiani senza dipendenti,10-14,persons,F,41
+Professioni agricole,C) Artigiani senza dipendenti,15-17,persons,M,255
+Professioni agricole,C) Artigiani senza dipendenti,15-17,persons,F,45
+Professioni agricole,C) Artigiani senza dipendenti,18-20,persons,M,167
+Professioni agricole,C) Artigiani senza dipendenti,18-20,persons,F,42
+Professioni agricole,C) Artigiani senza dipendenti,21-24,persons,M,202
+Professioni agricole,C) Artigiani senza dipendenti,21-24,persons,F,40
+Professioni agricole,C) Artigiani senza dipendenti,25-34,persons,M,423
+Professioni agricole,C) Artigiani senza dipendenti,25-34,persons,F,104
+Professioni agricole,C) Artigiani senza dipendenti,35-44,persons,M,336
+Professioni agricole,C) Artigiani senza dipendenti,35-44,persons,F,97
+Professioni agricole,C) Artigiani senza dipendenti,45-54,persons,M,413
+Professioni agricole,C) Artigiani senza dipendenti,45-54,persons,F,84
+Professioni agricole,C) Artigiani senza dipendenti,55-64,persons,M,212
+Professioni agricole,C) Artigiani senza dipendenti,55-64,persons,F,27
+Professioni agricole,C) Artigiani senza dipendenti,65+,persons,M,79
+Professioni agricole,C) Artigiani senza dipendenti,65+,persons,F,7
+Professioni agricole,C) Artigiani senza dipendenti,unknown,persons,M,0
+Professioni agricole,C) Artigiani senza dipendenti,unknown,persons,F,0
+Professioni agricole,E) Dirigenti,all,persons,MF,39
+Professioni agricole,E) Dirigenti,all,coadiuvanti,MF,0
+Professioni agricole,E) Dirigenti,all,persons,M,39
+Professioni agricole,E) Dirigenti,all,coadiuvanti,M,0
+Professioni agricole,E) Dirigenti,all,persons,F,0
+Professioni agricole,E) Dirigenti,all,coadiuvanti,F,0
+Professioni agricole,E) Dirigenti,10-14,persons,M,0
+Professioni agricole,E) Dirigenti,10-14,persons,F,0
+Professioni agricole,E) Dirigenti,15-17,persons,M,0
+Professioni agricole,E) Dirigenti,15-17,persons,F,0
+Professioni agricole,E) Dirigenti,18-20,persons,M,0
+Professioni agricole,E) Dirigenti,18-20,persons,F,0
+Professioni agricole,E) Dirigenti,21-24,persons,M,0
+Professioni agricole,E) Dirigenti,21-24,persons,F,0
+Professioni agricole,E) Dirigenti,25-34,persons,M,14
+Professioni agricole,E) Dirigenti,25-34,persons,F,0
+Professioni agricole,E) Dirigenti,35-44,persons,M,11
+Professioni agricole,E) Dirigenti,35-44,persons,F,0
+Professioni agricole,E) Dirigenti,45-54,persons,M,9
+Professioni agricole,E) Dirigenti,45-54,persons,F,0
+Professioni agricole,E) Dirigenti,55-64,persons,M,5
+Professioni agricole,E) Dirigenti,55-64,persons,F,0
+Professioni agricole,E) Dirigenti,65+,persons,M,0
+Professioni agricole,E) Dirigenti,65+,persons,F,0
+Professioni agricole,E) Dirigenti,unknown,persons,M,0
+Professioni agricole,E) Dirigenti,unknown,persons,F,0
+Professioni agricole,F) Impiegati,all,persons,MF,57
+Professioni agricole,F) Impiegati,all,coadiuvanti,MF,0
+Professioni agricole,F) Impiegati,all,persons,M,57
+Professioni agricole,F) Impiegati,all,coadiuvanti,M,0
+Professioni agricole,F) Impiegati,all,persons,F,0
+Professioni agricole,F) Impiegati,all,coadiuvanti,F,0
+Professioni agricole,F) Impiegati,10-14,persons,M,0
+Professioni agricole,F) Impiegati,10-14,persons,F,0
+Professioni agricole,F) Impiegati,15-17,persons,M,0
+Professioni agricole,F) Impiegati,15-17,persons,F,0
+Professioni agricole,F) Impiegati,18-20,persons,M,0
+Professioni agricole,F) Impiegati,18-20,persons,F,0
+Professioni agricole,F) Impiegati,21-24,persons,M,4
+Professioni agricole,F) Impiegati,21-24,persons,F,0
+Professioni agricole,F) Impiegati,25-34,persons,M,25
+Professioni agricole,F) Impiegati,25-34,persons,F,0
+Professioni agricole,F) Impiegati,35-44,persons,M,14
+Professioni agricole,F) Impiegati,35-44,persons,F,0
+Professioni agricole,F) Impiegati,45-54,persons,M,7
+Professioni agricole,F) Impiegati,45-54,persons,F,0
+Professioni agricole,F) Impiegati,55-64,persons,M,7
+Professioni agricole,F) Impiegati,55-64,persons,F,0
+Professioni agricole,F) Impiegati,65+,persons,M,0
+Professioni agricole,F) Impiegati,65+,persons,F,0
+Professioni agricole,F) Impiegati,unknown,persons,M,0
+Professioni agricole,F) Impiegati,unknown,persons,F,0
+Professioni agricole,H) Operai,all,persons,MF,874
+Professioni agricole,H) Operai,all,coadiuvanti,MF,0
+Professioni agricole,H) Operai,all,persons,M,827
+Professioni agricole,H) Operai,all,coadiuvanti,M,0
+Professioni agricole,H) Operai,all,persons,F,47
+Professioni agricole,H) Operai,all,coadiuvanti,F,0
+Professioni agricole,H) Operai,10-14,persons,M,40
+Professioni agricole,H) Operai,10-14,persons,F,9
+Professioni agricole,H) Operai,15-17,persons,M,67
+Professioni agricole,H) Operai,15-17,persons,F,8
+Professioni agricole,H) Operai,18-20,persons,M,31
+Professioni agricole,H) Operai,18-20,persons,F,4
+Professioni agricole,H) Operai,21-24,persons,M,47
+Professioni agricole,H) Operai,21-24,persons,F,9
+Professioni agricole,H) Operai,25-34,persons,M,265
+Professioni agricole,H) Operai,25-34,persons,F,9
+Professioni agricole,H) Operai,35-44,persons,M,144
+Professioni agricole,H) Operai,35-44,persons,F,5
+Professioni agricole,H) Operai,45-54,persons,M,121
+Professioni agricole,H) Operai,45-54,persons,F,1
+Professioni agricole,H) Operai,55-64,persons,M,85
+Professioni agricole,H) Operai,55-64,persons,F,1
+Professioni agricole,H) Operai,65+,persons,M,27
+Professioni agricole,H) Operai,65+,persons,F,1
+Professioni agricole,H) Operai,unknown,persons,M,0
+Professioni agricole,H) Operai,unknown,persons,F,0
+Professioni agricole,Totale,all,persons,MF,3880
+Professioni agricole,Totale,all,coadiuvanti,MF,1393
+Professioni agricole,Totale,all,persons,M,3328
+Professioni agricole,Totale,all,coadiuvanti,M,951
+Professioni agricole,Totale,all,persons,F,552
+Professioni agricole,Totale,all,coadiuvanti,F,442
+Professioni agricole,Totale,10-14,persons,M,205
+Professioni agricole,Totale,10-14,persons,F,51
+Professioni agricole,Totale,15-17,persons,M,327
+Professioni agricole,Totale,15-17,persons,F,54
+Professioni agricole,Totale,18-20,persons,M,203
+Professioni agricole,Totale,18-20,persons,F,46
+Professioni agricole,Totale,21-24,persons,M,260
+Professioni agricole,Totale,21-24,persons,F,50
+Professioni agricole,Totale,25-34,persons,M,760
+Professioni agricole,Totale,25-34,persons,F,116
+Professioni agricole,Totale,35-44,persons,M,536
+Professioni agricole,Totale,35-44,persons,F,106
+Professioni agricole,Totale,45-54,persons,M,580
+Professioni agricole,Totale,45-54,persons,F,90
+Professioni agricole,Totale,55-64,persons,M,329
+Professioni agricole,Totale,55-64,persons,F,31
+Professioni agricole,Totale,65+,persons,M,128
+Professioni agricole,Totale,65+,persons,F,8
+Professioni agricole,Totale,unknown,persons,M,0
+Professioni agricole,Totale,unknown,persons,F,0
+Professioni non agricole,A) Padroni,all,persons,MF,2857
+Professioni non agricole,A) Padroni,all,coadiuvanti,MF,563
+Professioni non agricole,A) Padroni,all,persons,M,2366
+Professioni non agricole,A) Padroni,all,coadiuvanti,M,368
+Professioni non agricole,A) Padroni,all,persons,F,491
+Professioni non agricole,A) Padroni,all,coadiuvanti,F,195
+Professioni non agricole,A) Padroni,10-14,persons,M,37
+Professioni non agricole,A) Padroni,10-14,persons,F,7
+Professioni non agricole,A) Padroni,15-17,persons,M,65
+Professioni non agricole,A) Padroni,15-17,persons,F,13
+Professioni non agricole,A) Padroni,18-20,persons,M,71
+Professioni non agricole,A) Padroni,18-20,persons,F,13
+Professioni non agricole,A) Padroni,21-24,persons,M,115
+Professioni non agricole,A) Padroni,21-24,persons,F,20
+Professioni non agricole,A) Padroni,25-34,persons,M,517
+Professioni non agricole,A) Padroni,25-34,persons,F,94
+Professioni non agricole,A) Padroni,35-44,persons,M,587
+Professioni non agricole,A) Padroni,35-44,persons,F,163
+Professioni non agricole,A) Padroni,45-54,persons,M,544
+Professioni non agricole,A) Padroni,45-54,persons,F,110
+Professioni non agricole,A) Padroni,55-64,persons,M,313
+Professioni non agricole,A) Padroni,55-64,persons,F,55
+Professioni non agricole,A) Padroni,65+,persons,M,116
+Professioni non agricole,A) Padroni,65+,persons,F,16
+Professioni non agricole,A) Padroni,unknown,persons,M,1
+Professioni non agricole,A) Padroni,unknown,persons,F,0
+Professioni non agricole,B) Artigiani con dipendenti,all,persons,MF,309
+Professioni non agricole,B) Artigiani con dipendenti,all,coadiuvanti,MF,48
+Professioni non agricole,B) Artigiani con dipendenti,all,persons,M,268
+Professioni non agricole,B) Artigiani con dipendenti,all,coadiuvanti,M,38
+Professioni non agricole,B) Artigiani con dipendenti,all,persons,F,41
+Professioni non agricole,B) Artigiani con dipendenti,all,coadiuvanti,F,10
+Professioni non agricole,B) Artigiani con dipendenti,10-14,persons,M,4
+Professioni non agricole,B) Artigiani con dipendenti,10-14,persons,F,1
+Professioni non agricole,B) Artigiani con dipendenti,15-17,persons,M,6
+Professioni non agricole,B) Artigiani con dipendenti,15-17,persons,F,1
+Professioni non agricole,B) Artigiani con dipendenti,18-20,persons,M,9
+Professioni non agricole,B) Artigiani con dipendenti,18-20,persons,F,0
+Professioni non agricole,B) Artigiani con dipendenti,21-24,persons,M,16
+Professioni non agricole,B) Artigiani con dipendenti,21-24,persons,F,2
+Professioni non agricole,B) Artigiani con dipendenti,25-34,persons,M,88
+Professioni non agricole,B) Artigiani con dipendenti,25-34,persons,F,14
+Professioni non agricole,B) Artigiani con dipendenti,35-44,persons,M,71
+Professioni non agricole,B) Artigiani con dipendenti,35-44,persons,F,10
+Professioni non agricole,B) Artigiani con dipendenti,45-54,persons,M,39
+Professioni non agricole,B) Artigiani con dipendenti,45-54,persons,F,10
+Professioni non agricole,B) Artigiani con dipendenti,55-64,persons,M,28
+Professioni non agricole,B) Artigiani con dipendenti,55-64,persons,F,3
+Professioni non agricole,B) Artigiani con dipendenti,65+,persons,M,7
+Professioni non agricole,B) Artigiani con dipendenti,65+,persons,F,0
+Professioni non agricole,B) Artigiani con dipendenti,unknown,persons,M,0
+Professioni non agricole,B) Artigiani con dipendenti,unknown,persons,F,0
+Professioni non agricole,C) Artigiani senza dipendenti,all,persons,MF,973
+Professioni non agricole,C) Artigiani senza dipendenti,all,coadiuvanti,MF,109
+Professioni non agricole,C) Artigiani senza dipendenti,all,persons,M,794
+Professioni non agricole,C) Artigiani senza dipendenti,all,coadiuvanti,M,80
+Professioni non agricole,C) Artigiani senza dipendenti,all,persons,F,179
+Professioni non agricole,C) Artigiani senza dipendenti,all,coadiuvanti,F,29
+Professioni non agricole,C) Artigiani senza dipendenti,10-14,persons,M,9
+Professioni non agricole,C) Artigiani senza dipendenti,10-14,persons,F,4
+Professioni non agricole,C) Artigiani senza dipendenti,15-17,persons,M,19
+Professioni non agricole,C) Artigiani senza dipendenti,15-17,persons,F,12
+Professioni non agricole,C) Artigiani senza dipendenti,18-20,persons,M,31
+Professioni non agricole,C) Artigiani senza dipendenti,18-20,persons,F,18
+Professioni non agricole,C) Artigiani senza dipendenti,21-24,persons,M,53
+Professioni non agricole,C) Artigiani senza dipendenti,21-24,persons,F,24
+Professioni non agricole,C) Artigiani senza dipendenti,25-34,persons,M,229
+Professioni non agricole,C) Artigiani senza dipendenti,25-34,persons,F,53
+Professioni non agricole,C) Artigiani senza dipendenti,35-44,persons,M,216
+Professioni non agricole,C) Artigiani senza dipendenti,35-44,persons,F,38
+Professioni non agricole,C) Artigiani senza dipendenti,45-54,persons,M,137
+Professioni non agricole,C) Artigiani senza dipendenti,45-54,persons,F,20
+Professioni non agricole,C) Artigiani senza dipendenti,55-64,persons,M,75
+Professioni non agricole,C) Artigiani senza dipendenti,55-64,persons,F,10
+Professioni non agricole,C) Artigiani senza dipendenti,65+,persons,M,25
+Professioni non agricole,C) Artigiani senza dipendenti,65+,persons,F,0
+Professioni non agricole,C) Artigiani senza dipendenti,unknown,persons,M,0
+Professioni non agricole,C) Artigiani senza dipendenti,unknown,persons,F,0
+Professioni non agricole,D) Liberi professionisti,all,persons,MF,184
+Professioni non agricole,D) Liberi professionisti,all,coadiuvanti,MF,0
+Professioni non agricole,D) Liberi professionisti,all,persons,M,142
+Professioni non agricole,D) Liberi professionisti,all,coadiuvanti,M,0
+Professioni non agricole,D) Liberi professionisti,all,persons,F,42
+Professioni non agricole,D) Liberi professionisti,all,coadiuvanti,F,0
+Professioni non agricole,D) Liberi professionisti,10-14,persons,M,0
+Professioni non agricole,D) Liberi professionisti,10-14,persons,F,0
+Professioni non agricole,D) Liberi professionisti,15-17,persons,M,0
+Professioni non agricole,D) Liberi professionisti,15-17,persons,F,1
+Professioni non agricole,D) Liberi professionisti,18-20,persons,M,3
+Professioni non agricole,D) Liberi professionisti,18-20,persons,F,2
+Professioni non agricole,D) Liberi professionisti,21-24,persons,M,10
+Professioni non agricole,D) Liberi professionisti,21-24,persons,F,2
+Professioni non agricole,D) Liberi professionisti,25-34,persons,M,20
+Professioni non agricole,D) Liberi professionisti,25-34,persons,F,6
+Professioni non agricole,D) Liberi professionisti,35-44,persons,M,41
+Professioni non agricole,D) Liberi professionisti,35-44,persons,F,18
+Professioni non agricole,D) Liberi professionisti,45-54,persons,M,33
+Professioni non agricole,D) Liberi professionisti,45-54,persons,F,5
+Professioni non agricole,D) Liberi professionisti,55-64,persons,M,26
+Professioni non agricole,D) Liberi professionisti,55-64,persons,F,5
+Professioni non agricole,D) Liberi professionisti,65+,persons,M,9
+Professioni non agricole,D) Liberi professionisti,65+,persons,F,3
+Professioni non agricole,D) Liberi professionisti,unknown,persons,M,0
+Professioni non agricole,D) Liberi professionisti,unknown,persons,F,0
+Professioni non agricole,E) Dirigenti,all,persons,MF,231
+Professioni non agricole,E) Dirigenti,all,coadiuvanti,MF,0
+Professioni non agricole,E) Dirigenti,all,persons,M,223
+Professioni non agricole,E) Dirigenti,all,coadiuvanti,M,0
+Professioni non agricole,E) Dirigenti,all,persons,F,8
+Professioni non agricole,E) Dirigenti,all,coadiuvanti,F,0
+Professioni non agricole,E) Dirigenti,10-14,persons,M,0
+Professioni non agricole,E) Dirigenti,10-14,persons,F,0
+Professioni non agricole,E) Dirigenti,15-17,persons,M,0
+Professioni non agricole,E) Dirigenti,15-17,persons,F,0
+Professioni non agricole,E) Dirigenti,18-20,persons,M,0
+Professioni non agricole,E) Dirigenti,18-20,persons,F,0
+Professioni non agricole,E) Dirigenti,21-24,persons,M,2
+Professioni non agricole,E) Dirigenti,21-24,persons,F,0
+Professioni non agricole,E) Dirigenti,25-34,persons,M,43
+Professioni non agricole,E) Dirigenti,25-34,persons,F,3
+Professioni non agricole,E) Dirigenti,35-44,persons,M,77
+Professioni non agricole,E) Dirigenti,35-44,persons,F,3
+Professioni non agricole,E) Dirigenti,45-54,persons,M,79
+Professioni non agricole,E) Dirigenti,45-54,persons,F,1
+Professioni non agricole,E) Dirigenti,55-64,persons,M,21
+Professioni non agricole,E) Dirigenti,55-64,persons,F,1
+Professioni non agricole,E) Dirigenti,65+,persons,M,1
+Professioni non agricole,E) Dirigenti,65+,persons,F,0
+Professioni non agricole,E) Dirigenti,unknown,persons,M,0
+Professioni non agricole,E) Dirigenti,unknown,persons,F,0
+Professioni non agricole,F) Impiegati,all,persons,MF,7356
+Professioni non agricole,F) Impiegati,all,coadiuvanti,MF,0
+Professioni non agricole,F) Impiegati,all,persons,M,6534
+Professioni non agricole,F) Impiegati,all,coadiuvanti,M,0
+Professioni non agricole,F) Impiegati,all,persons,F,822
+Professioni non agricole,F) Impiegati,all,coadiuvanti,F,0
+Professioni non agricole,F) Impiegati,10-14,persons,M,13
+Professioni non agricole,F) Impiegati,10-14,persons,F,4
+Professioni non agricole,F) Impiegati,15-17,persons,M,59
+Professioni non agricole,F) Impiegati,15-17,persons,F,10
+Professioni non agricole,F) Impiegati,18-20,persons,M,143
+Professioni non agricole,F) Impiegati,18-20,persons,F,40
+Professioni non agricole,F) Impiegati,21-24,persons,M,488
+Professioni non agricole,F) Impiegati,21-24,persons,F,70
+Professioni non agricole,F) Impiegati,25-34,persons,M,3022
+Professioni non agricole,F) Impiegati,25-34,persons,F,304
+Professioni non agricole,F) Impiegati,35-44,persons,M,1882
+Professioni non agricole,F) Impiegati,35-44,persons,F,274
+Professioni non agricole,F) Impiegati,45-54,persons,M,642
+Professioni non agricole,F) Impiegati,45-54,persons,F,82
+Professioni non agricole,F) Impiegati,55-64,persons,M,225
+Professioni non agricole,F) Impiegati,55-64,persons,F,25
+Professioni non agricole,F) Impiegati,65+,persons,M,54
+Professioni non agricole,F) Impiegati,65+,persons,F,13
+Professioni non agricole,F) Impiegati,unknown,persons,M,6
+Professioni non agricole,F) Impiegati,unknown,persons,F,0
+Professioni non agricole,G) Personale di servizio e di fatica,all,persons,MF,1436
+Professioni non agricole,G) Personale di servizio e di fatica,all,coadiuvanti,MF,0
+Professioni non agricole,G) Personale di servizio e di fatica,all,persons,M,431
+Professioni non agricole,G) Personale di servizio e di fatica,all,coadiuvanti,M,0
+Professioni non agricole,G) Personale di servizio e di fatica,all,persons,F,1005
+Professioni non agricole,G) Personale di servizio e di fatica,all,coadiuvanti,F,0
+Professioni non agricole,G) Personale di servizio e di fatica,10-14,persons,M,3
+Professioni non agricole,G) Personale di servizio e di fatica,10-14,persons,F,82
+Professioni non agricole,G) Personale di servizio e di fatica,15-17,persons,M,15
+Professioni non agricole,G) Personale di servizio e di fatica,15-17,persons,F,104
+Professioni non agricole,G) Personale di servizio e di fatica,18-20,persons,M,15
+Professioni non agricole,G) Personale di servizio e di fatica,18-20,persons,F,131
+Professioni non agricole,G) Personale di servizio e di fatica,21-24,persons,M,17
+Professioni non agricole,G) Personale di servizio e di fatica,21-24,persons,F,203
+Professioni non agricole,G) Personale di servizio e di fatica,25-34,persons,M,169
+Professioni non agricole,G) Personale di servizio e di fatica,25-34,persons,F,263
+Professioni non agricole,G) Personale di servizio e di fatica,35-44,persons,M,120
+Professioni non agricole,G) Personale di servizio e di fatica,35-44,persons,F,117
+Professioni non agricole,G) Personale di servizio e di fatica,45-54,persons,M,51
+Professioni non agricole,G) Personale di servizio e di fatica,45-54,persons,F,64
+Professioni non agricole,G) Personale di servizio e di fatica,55-64,persons,M,27
+Professioni non agricole,G) Personale di servizio e di fatica,55-64,persons,F,34
+Professioni non agricole,G) Personale di servizio e di fatica,65+,persons,M,14
+Professioni non agricole,G) Personale di servizio e di fatica,65+,persons,F,5
+Professioni non agricole,G) Personale di servizio e di fatica,unknown,persons,M,0
+Professioni non agricole,G) Personale di servizio e di fatica,unknown,persons,F,2
+Professioni non agricole,H) Operai,all,persons,MF,9308
+Professioni non agricole,H) Operai,all,coadiuvanti,MF,0
+Professioni non agricole,H) Operai,all,persons,M,8688
+Professioni non agricole,H) Operai,all,coadiuvanti,M,0
+Professioni non agricole,H) Operai,all,persons,F,620
+Professioni non agricole,H) Operai,all,coadiuvanti,F,0
+Professioni non agricole,H) Operai,10-14,persons,M,283
+Professioni non agricole,H) Operai,10-14,persons,F,117
+Professioni non agricole,H) Operai,15-17,persons,M,519
+Professioni non agricole,H) Operai,15-17,persons,F,141
+Professioni non agricole,H) Operai,18-20,persons,M,615
+Professioni non agricole,H) Operai,18-20,persons,F,70
+Professioni non agricole,H) Operai,21-24,persons,M,1028
+Professioni non agricole,H) Operai,21-24,persons,F,81
+Professioni non agricole,H) Operai,25-34,persons,M,3381
+Professioni non agricole,H) Operai,25-34,persons,F,101
+Professioni non agricole,H) Operai,35-44,persons,M,1594
+Professioni non agricole,H) Operai,35-44,persons,F,58
+Professioni non agricole,H) Operai,45-54,persons,M,796
+Professioni non agricole,H) Operai,45-54,persons,F,41
+Professioni non agricole,H) Operai,55-64,persons,M,366
+Professioni non agricole,H) Operai,55-64,persons,F,8
+Professioni non agricole,H) Operai,65+,persons,M,104
+Professioni non agricole,H) Operai,65+,persons,F,3
+Professioni non agricole,H) Operai,unknown,persons,M,2
+Professioni non agricole,H) Operai,unknown,persons,F,0
+Professioni non agricole,I) Lavoranti a domicilio,all,persons,MF,52
+Professioni non agricole,I) Lavoranti a domicilio,all,coadiuvanti,MF,0
+Professioni non agricole,I) Lavoranti a domicilio,all,persons,M,7
+Professioni non agricole,I) Lavoranti a domicilio,all,coadiuvanti,M,0
+Professioni non agricole,I) Lavoranti a domicilio,all,persons,F,45
+Professioni non agricole,I) Lavoranti a domicilio,all,coadiuvanti,F,0
+Professioni non agricole,I) Lavoranti a domicilio,10-14,persons,M,0
+Professioni non agricole,I) Lavoranti a domicilio,10-14,persons,F,2
+Professioni non agricole,I) Lavoranti a domicilio,15-17,persons,M,0
+Professioni non agricole,I) Lavoranti a domicilio,15-17,persons,F,3
+Professioni non agricole,I) Lavoranti a domicilio,18-20,persons,M,0
+Professioni non agricole,I) Lavoranti a domicilio,18-20,persons,F,5
+Professioni non agricole,I) Lavoranti a domicilio,21-24,persons,M,0
+Professioni non agricole,I) Lavoranti a domicilio,21-24,persons,F,12
+Professioni non agricole,I) Lavoranti a domicilio,25-34,persons,M,3
+Professioni non agricole,I) Lavoranti a domicilio,25-34,persons,F,8
+Professioni non agricole,I) Lavoranti a domicilio,35-44,persons,M,1
+Professioni non agricole,I) Lavoranti a domicilio,35-44,persons,F,12
+Professioni non agricole,I) Lavoranti a domicilio,45-54,persons,M,0
+Professioni non agricole,I) Lavoranti a domicilio,45-54,persons,F,1
+Professioni non agricole,I) Lavoranti a domicilio,55-64,persons,M,1
+Professioni non agricole,I) Lavoranti a domicilio,55-64,persons,F,0
+Professioni non agricole,I) Lavoranti a domicilio,65+,persons,M,2
+Professioni non agricole,I) Lavoranti a domicilio,65+,persons,F,2
+Professioni non agricole,I) Lavoranti a domicilio,unknown,persons,M,0
+Professioni non agricole,I) Lavoranti a domicilio,unknown,persons,F,0
+Professioni non agricole,Totale,all,persons,MF,22706
+Professioni non agricole,Totale,all,coadiuvanti,MF,720
+Professioni non agricole,Totale,all,persons,M,19453
+Professioni non agricole,Totale,all,coadiuvanti,M,486
+Professioni non agricole,Totale,all,persons,F,3253
+Professioni non agricole,Totale,all,coadiuvanti,F,234
+Professioni non agricole,Totale,10-14,persons,M,349
+Professioni non agricole,Totale,10-14,persons,F,217
+Professioni non agricole,Totale,15-17,persons,M,683
+Professioni non agricole,Totale,15-17,persons,F,285
+Professioni non agricole,Totale,18-20,persons,M,887
+Professioni non agricole,Totale,18-20,persons,F,279
+Professioni non agricole,Totale,21-24,persons,M,1729
+Professioni non agricole,Totale,21-24,persons,F,414
+Professioni non agricole,Totale,25-34,persons,M,7472
+Professioni non agricole,Totale,25-34,persons,F,846
+Professioni non agricole,Totale,35-44,persons,M,4589
+Professioni non agricole,Totale,35-44,persons,F,693
+Professioni non agricole,Totale,45-54,persons,M,2321
+Professioni non agricole,Totale,45-54,persons,F,334
+Professioni non agricole,Totale,55-64,persons,M,1082
+Professioni non agricole,Totale,55-64,persons,F,141
+Professioni non agricole,Totale,65+,persons,M,332
+Professioni non agricole,Totale,65+,persons,F,42
+Professioni non agricole,Totale,unknown,persons,M,9
+Professioni non agricole,Totale,unknown,persons,F,2
+Condizioni non professionali,Totale,all,persons,MF,22194
+Condizioni non professionali,Totale,all,coadiuvanti,MF,0
+Condizioni non professionali,Totale,all,persons,M,3722
+Condizioni non professionali,Totale,all,coadiuvanti,M,0
+Condizioni non professionali,Totale,all,persons,F,18472
+Condizioni non professionali,Totale,all,coadiuvanti,F,0
+Condizioni non professionali,Totale,10-14,persons,M,2564
+Condizioni non professionali,Totale,10-14,persons,F,2787
+Condizioni non professionali,Totale,15-17,persons,M,385
+Condizioni non professionali,Totale,15-17,persons,F,1098
+Condizioni non professionali,Totale,18-20,persons,M,157
+Condizioni non professionali,Totale,18-20,persons,F,1035
+Condizioni non professionali,Totale,21-24,persons,M,89
+Condizioni non professionali,Totale,21-24,persons,F,1846
+Condizioni non professionali,Totale,25-34,persons,M,38
+Condizioni non professionali,Totale,25-34,persons,F,4617
+Condizioni non professionali,Totale,35-44,persons,M,38
+Condizioni non professionali,Totale,35-44,persons,F,3210
+Condizioni non professionali,Totale,45-54,persons,M,63
+Condizioni non professionali,Totale,45-54,persons,F,2014
+Condizioni non professionali,Totale,55-64,persons,M,109
+Condizioni non professionali,Totale,55-64,persons,F,1106
+Condizioni non professionali,Totale,65+,persons,M,278
+Condizioni non professionali,Totale,65+,persons,F,754
+Condizioni non professionali,Totale,unknown,persons,M,1
+Condizioni non professionali,Totale,unknown,persons,F,5
+Senza indicazione,Totale,all,persons,MF,201
+Senza indicazione,Totale,all,coadiuvanti,MF,0
+Senza indicazione,Totale,all,persons,M,134
+Senza indicazione,Totale,all,coadiuvanti,M,0
+Senza indicazione,Totale,all,persons,F,67
+Senza indicazione,Totale,all,coadiuvanti,F,0
+Senza indicazione,Totale,10-14,persons,M,43
+Senza indicazione,Totale,10-14,persons,F,38
+Senza indicazione,Totale,15-17,persons,M,3
+Senza indicazione,Totale,15-17,persons,F,3
+Senza indicazione,Totale,18-20,persons,M,16
+Senza indicazione,Totale,18-20,persons,F,0
+Senza indicazione,Totale,21-24,persons,M,28
+Senza indicazione,Totale,21-24,persons,F,4
+Senza indicazione,Totale,25-34,persons,M,28
+Senza indicazione,Totale,25-34,persons,F,4
+Senza indicazione,Totale,35-44,persons,M,7
+Senza indicazione,Totale,35-44,persons,F,5
+Senza indicazione,Totale,45-54,persons,M,7
+Senza indicazione,Totale,45-54,persons,F,5
+Senza indicazione,Totale,55-64,persons,M,0
+Senza indicazione,Totale,55-64,persons,F,5
+Senza indicazione,Totale,65+,persons,M,2
+Senza indicazione,Totale,65+,persons,F,3
+Senza indicazione,Totale,unknown,persons,M,0
+Senza indicazione,Totale,unknown,persons,F,0
+In complesso,A) Padroni,all,persons,MF,3028
+In complesso,A) Padroni,all,coadiuvanti,MF,606
+In complesso,A) Padroni,all,persons,M,2519
+In complesso,A) Padroni,all,coadiuvanti,M,405
+In complesso,A) Padroni,all,persons,F,509
+In complesso,A) Padroni,all,coadiuvanti,F,201
+In complesso,A) Padroni,10-14,persons,M,37
+In complesso,A) Padroni,10-14,persons,F,8
+In complesso,A) Padroni,15-17,persons,M,70
+In complesso,A) Padroni,15-17,persons,F,14
+In complesso,A) Padroni,18-20,persons,M,76
+In complesso,A) Padroni,18-20,persons,F,13
+In complesso,A) Padroni,21-24,persons,M,122
+In complesso,A) Padroni,21-24,persons,F,21
+In complesso,A) Padroni,25-34,persons,M,550
+In complesso,A) Padroni,25-34,persons,F,97
+In complesso,A) Padroni,35-44,persons,M,618
+In complesso,A) Padroni,35-44,persons,F,167
+In complesso,A) Padroni,45-54,persons,M,574
+In complesso,A) Padroni,45-54,persons,F,115
+In complesso,A) Padroni,55-64,persons,M,333
+In complesso,A) Padroni,55-64,persons,F,58
+In complesso,A) Padroni,65+,persons,M,138
+In complesso,A) Padroni,65+,persons,F,16
+In complesso,A) Padroni,unknown,persons,M,1
+In complesso,A) Padroni,unknown,persons,F,0
+In complesso,B) Artigiani con dipendenti,all,persons,MF,309
+In complesso,B) Artigiani con dipendenti,all,coadiuvanti,MF,48
+In complesso,B) Artigiani con dipendenti,all,persons,M,268
+In complesso,B) Artigiani con dipendenti,all,coadiuvanti,M,38
+In complesso,B) Artigiani con dipendenti,all,persons,F,41
+In complesso,B) Artigiani con dipendenti,all,coadiuvanti,F,10
+In complesso,B) Artigiani con dipendenti,10-14,persons,M,4
+In complesso,B) Artigiani con dipendenti,10-14,persons,F,1
+In complesso,B) Artigiani con dipendenti,15-17,persons,M,6
+In complesso,B) Artigiani con dipendenti,15-17,persons,F,1
+In complesso,B) Artigiani con dipendenti,18-20,persons,M,9
+In complesso,B) Artigiani con dipendenti,18-20,persons,F,0
+In complesso,B) Artigiani con dipendenti,21-24,persons,M,16
+In complesso,B) Artigiani con dipendenti,21-24,persons,F,2
+In complesso,B) Artigiani con dipendenti,25-34,persons,M,88
+In complesso,B) Artigiani con dipendenti,25-34,persons,F,14
+In complesso,B) Artigiani con dipendenti,35-44,persons,M,71
+In complesso,B) Artigiani con dipendenti,35-44,persons,F,10
+In complesso,B) Artigiani con dipendenti,45-54,persons,M,39
+In complesso,B) Artigiani con dipendenti,45-54,persons,F,10
+In complesso,B) Artigiani con dipendenti,55-64,persons,M,28
+In complesso,B) Artigiani con dipendenti,55-64,persons,F,3
+In complesso,B) Artigiani con dipendenti,65+,persons,M,7
+In complesso,B) Artigiani con dipendenti,65+,persons,F,0
+In complesso,B) Artigiani con dipendenti,unknown,persons,M,0
+In complesso,B) Artigiani con dipendenti,unknown,persons,F,0
+In complesso,C) Artigiani senza dipendenti,all,persons,MF,3712
+In complesso,C) Artigiani senza dipendenti,all,coadiuvanti,MF,1459
+In complesso,C) Artigiani senza dipendenti,all,persons,M,3046
+In complesso,C) Artigiani senza dipendenti,all,coadiuvanti,M,994
+In complesso,C) Artigiani senza dipendenti,all,persons,F,666
+In complesso,C) Artigiani senza dipendenti,all,coadiuvanti,F,465
+In complesso,C) Artigiani senza dipendenti,10-14,persons,M,174
+In complesso,C) Artigiani senza dipendenti,10-14,persons,F,45
+In complesso,C) Artigiani senza dipendenti,15-17,persons,M,274
+In complesso,C) Artigiani senza dipendenti,15-17,persons,F,57
+In complesso,C) Artigiani senza dipendenti,18-20,persons,M,198
+In complesso,C) Artigiani senza dipendenti,18-20,persons,F,60
+In complesso,C) Artigiani senza dipendenti,21-24,persons,M,255
+In complesso,C) Artigiani senza dipendenti,21-24,persons,F,64
+In complesso,C) Artigiani senza dipendenti,25-34,persons,M,652
+In complesso,C) Artigiani senza dipendenti,25-34,persons,F,157
+In complesso,C) Artigiani senza dipendenti,35-44,persons,M,552
+In complesso,C) Artigiani senza dipendenti,35-44,persons,F,135
+In complesso,C) Artigiani senza dipendenti,45-54,persons,M,550
+In complesso,C) Artigiani senza dipendenti,45-54,persons,F,104
+In complesso,C) Artigiani senza dipendenti,55-64,persons,M,287
+In complesso,C) Artigiani senza dipendenti,55-64,persons,F,37
+In complesso,C) Artigiani senza dipendenti,65+,persons,M,104
+In complesso,C) Artigiani senza dipendenti,65+,persons,F,7
+In complesso,C) Artigiani senza dipendenti,unknown,persons,M,0
+In complesso,C) Artigiani senza dipendenti,unknown,persons,F,0
+In complesso,D) Liberi professionisti,all,persons,MF,184
+In complesso,D) Liberi professionisti,all,coadiuvanti,MF,0
+In complesso,D) Liberi professionisti,all,persons,M,142
+In complesso,D) Liberi professionisti,all,coadiuvanti,M,0
+In complesso,D) Liberi professionisti,all,persons,F,42
+In complesso,D) Liberi professionisti,all,coadiuvanti,F,0
+In complesso,D) Liberi professionisti,10-14,persons,M,0
+In complesso,D) Liberi professionisti,10-14,persons,F,0
+In complesso,D) Liberi professionisti,15-17,persons,M,0
+In complesso,D) Liberi professionisti,15-17,persons,F,1
+In complesso,D) Liberi professionisti,18-20,persons,M,3
+In complesso,D) Liberi professionisti,18-20,persons,F,2
+In complesso,D) Liberi professionisti,21-24,persons,M,10
+In complesso,D) Liberi professionisti,21-24,persons,F,2
+In complesso,D) Liberi professionisti,25-34,persons,M,20
+In complesso,D) Liberi professionisti,25-34,persons,F,6
+In complesso,D) Liberi professionisti,35-44,persons,M,41
+In complesso,D) Liberi professionisti,35-44,persons,F,18
+In complesso,D) Liberi professionisti,45-54,persons,M,33
+In complesso,D) Liberi professionisti,45-54,persons,F,5
+In complesso,D) Liberi professionisti,55-64,persons,M,26
+In complesso,D) Liberi professionisti,55-64,persons,F,5
+In complesso,D) Liberi professionisti,65+,persons,M,9
+In complesso,D) Liberi professionisti,65+,persons,F,3
+In complesso,D) Liberi professionisti,unknown,persons,M,0
+In complesso,D) Liberi professionisti,unknown,persons,F,0
+In complesso,E) Dirigenti,all,persons,MF,270
+In complesso,E) Dirigenti,all,coadiuvanti,MF,0
+In complesso,E) Dirigenti,all,persons,M,262
+In complesso,E) Dirigenti,all,coadiuvanti,M,0
+In complesso,E) Dirigenti,all,persons,F,8
+In complesso,E) Dirigenti,all,coadiuvanti,F,0
+In complesso,E) Dirigenti,10-14,persons,M,0
+In complesso,E) Dirigenti,10-14,persons,F,0
+In complesso,E) Dirigenti,15-17,persons,M,0
+In complesso,E) Dirigenti,15-17,persons,F,0
+In complesso,E) Dirigenti,18-20,persons,M,0
+In complesso,E) Dirigenti,18-20,persons,F,0
+In complesso,E) Dirigenti,21-24,persons,M,2
+In complesso,E) Dirigenti,21-24,persons,F,0
+In complesso,E) Dirigenti,25-34,persons,M,57
+In complesso,E) Dirigenti,25-34,persons,F,3
+In complesso,E) Dirigenti,35-44,persons,M,88
+In complesso,E) Dirigenti,35-44,persons,F,3
+In complesso,E) Dirigenti,45-54,persons,M,88
+In complesso,E) Dirigenti,45-54,persons,F,1
+In complesso,E) Dirigenti,55-64,persons,M,26
+In complesso,E) Dirigenti,55-64,persons,F,1
+In complesso,E) Dirigenti,65+,persons,M,1
+In complesso,E) Dirigenti,65+,persons,F,0
+In complesso,E) Dirigenti,unknown,persons,M,0
+In complesso,E) Dirigenti,unknown,persons,F,0
+In complesso,F) Impiegati,all,persons,MF,7413
+In complesso,F) Impiegati,all,coadiuvanti,MF,0
+In complesso,F) Impiegati,all,persons,M,6591
+In complesso,F) Impiegati,all,coadiuvanti,M,0
+In complesso,F) Impiegati,all,persons,F,822
+In complesso,F) Impiegati,all,coadiuvanti,F,0
+In complesso,F) Impiegati,10-14,persons,M,13
+In complesso,F) Impiegati,10-14,persons,F,4
+In complesso,F) Impiegati,15-17,persons,M,59
+In complesso,F) Impiegati,15-17,persons,F,10
+In complesso,F) Impiegati,18-20,persons,M,143
+In complesso,F) Impiegati,18-20,persons,F,40
+In complesso,F) Impiegati,21-24,persons,M,492
+In complesso,F) Impiegati,21-24,persons,F,70
+In complesso,F) Impiegati,25-34,persons,M,3047
+In complesso,F) Impiegati,25-34,persons,F,304
+In complesso,F) Impiegati,35-44,persons,M,1896
+In complesso,F) Impiegati,35-44,persons,F,274
+In complesso,F) Impiegati,45-54,persons,M,649
+In complesso,F) Impiegati,45-54,persons,F,82
+In complesso,F) Impiegati,55-64,persons,M,232
+In complesso,F) Impiegati,55-64,persons,F,25
+In complesso,F) Impiegati,65+,persons,M,54
+In complesso,F) Impiegati,65+,persons,F,13
+In complesso,F) Impiegati,unknown,persons,M,6
+In complesso,F) Impiegati,unknown,persons,F,0
+In complesso,G) Personale di servizio e di fatica,all,persons,MF,1436
+In complesso,G) Personale di servizio e di fatica,all,coadiuvanti,MF,0
+In complesso,G) Personale di servizio e di fatica,all,persons,M,431
+In complesso,G) Personale di servizio e di fatica,all,coadiuvanti,M,0
+In complesso,G) Personale di servizio e di fatica,all,persons,F,1005
+In complesso,G) Personale di servizio e di fatica,all,coadiuvanti,F,0
+In complesso,G) Personale di servizio e di fatica,10-14,persons,M,3
+In complesso,G) Personale di servizio e di fatica,10-14,persons,F,82
+In complesso,G) Personale di servizio e di fatica,15-17,persons,M,15
+In complesso,G) Personale di servizio e di fatica,15-17,persons,F,104
+In complesso,G) Personale di servizio e di fatica,18-20,persons,M,15
+In complesso,G) Personale di servizio e di fatica,18-20,persons,F,131
+In complesso,G) Personale di servizio e di fatica,21-24,persons,M,17
+In complesso,G) Personale di servizio e di fatica,21-24,persons,F,203
+In complesso,G) Personale di servizio e di fatica,25-34,persons,M,169
+In complesso,G) Personale di servizio e di fatica,25-34,persons,F,263
+In complesso,G) Personale di servizio e di fatica,35-44,persons,M,120
+In complesso,G) Personale di servizio e di fatica,35-44,persons,F,117
+In complesso,G) Personale di servizio e di fatica,45-54,persons,M,51
+In complesso,G) Personale di servizio e di fatica,45-54,persons,F,64
+In complesso,G) Personale di servizio e di fatica,55-64,persons,M,27
+In complesso,G) Personale di servizio e di fatica,55-64,persons,F,34
+In complesso,G) Personale di servizio e di fatica,65+,persons,M,14
+In complesso,G) Personale di servizio e di fatica,65+,persons,F,5
+In complesso,G) Personale di servizio e di fatica,unknown,persons,M,0
+In complesso,G) Personale di servizio e di fatica,unknown,persons,F,2
+In complesso,H) Operai,all,persons,MF,10182
+In complesso,H) Operai,all,coadiuvanti,MF,0
+In complesso,H) Operai,all,persons,M,9515
+In complesso,H) Operai,all,coadiuvanti,M,0
+In complesso,H) Operai,all,persons,F,667
+In complesso,H) Operai,all,coadiuvanti,F,0
+In complesso,H) Operai,10-14,persons,M,323
+In complesso,H) Operai,10-14,persons,F,126
+In complesso,H) Operai,15-17,persons,M,586
+In complesso,H) Operai,15-17,persons,F,149
+In complesso,H) Operai,18-20,persons,M,646
+In complesso,H) Operai,18-20,persons,F,74
+In complesso,H) Operai,21-24,persons,M,1075
+In complesso,H) Operai,21-24,persons,F,90
+In complesso,H) Operai,25-34,persons,M,3646
+In complesso,H) Operai,25-34,persons,F,110
+In complesso,H) Operai,35-44,persons,M,1738
+In complesso,H) Operai,35-44,persons,F,63
+In complesso,H) Operai,45-54,persons,M,917
+In complesso,H) Operai,45-54,persons,F,42
+In complesso,H) Operai,55-64,persons,M,451
+In complesso,H) Operai,55-64,persons,F,9
+In complesso,H) Operai,65+,persons,M,131
+In complesso,H) Operai,65+,persons,F,4
+In complesso,H) Operai,unknown,persons,M,2
+In complesso,H) Operai,unknown,persons,F,0
+In complesso,I) Lavoranti a domicilio,all,persons,MF,52
+In complesso,I) Lavoranti a domicilio,all,coadiuvanti,MF,0
+In complesso,I) Lavoranti a domicilio,all,persons,M,7
+In complesso,I) Lavoranti a domicilio,all,coadiuvanti,M,0
+In complesso,I) Lavoranti a domicilio,all,persons,F,45
+In complesso,I) Lavoranti a domicilio,all,coadiuvanti,F,0
+In complesso,I) Lavoranti a domicilio,10-14,persons,M,0
+In complesso,I) Lavoranti a domicilio,10-14,persons,F,2
+In complesso,I) Lavoranti a domicilio,15-17,persons,M,0
+In complesso,I) Lavoranti a domicilio,15-17,persons,F,3
+In complesso,I) Lavoranti a domicilio,18-20,persons,M,0
+In complesso,I) Lavoranti a domicilio,18-20,persons,F,5
+In complesso,I) Lavoranti a domicilio,21-24,persons,M,0
+In complesso,I) Lavoranti a domicilio,21-24,persons,F,12
+In complesso,I) Lavoranti a domicilio,25-34,persons,M,3
+In complesso,I) Lavoranti a domicilio,25-34,persons,F,8
+In complesso,I) Lavoranti a domicilio,35-44,persons,M,1
+In complesso,I) Lavoranti a domicilio,35-44,persons,F,12
+In complesso,I) Lavoranti a domicilio,45-54,persons,M,0
+In complesso,I) Lavoranti a domicilio,45-54,persons,F,1
+In complesso,I) Lavoranti a domicilio,55-64,persons,M,1
+In complesso,I) Lavoranti a domicilio,55-64,persons,F,0
+In complesso,I) Lavoranti a domicilio,65+,persons,M,2
+In complesso,I) Lavoranti a domicilio,65+,persons,F,2
+In complesso,I) Lavoranti a domicilio,unknown,persons,M,0
+In complesso,I) Lavoranti a domicilio,unknown,persons,F,0
+In complesso,Condizioni non professionali,all,persons,MF,22194
+In complesso,Condizioni non professionali,all,coadiuvanti,MF,0
+In complesso,Condizioni non professionali,all,persons,M,3722
+In complesso,Condizioni non professionali,all,coadiuvanti,M,0
+In complesso,Condizioni non professionali,all,persons,F,18472
+In complesso,Condizioni non professionali,all,coadiuvanti,F,0
+In complesso,Condizioni non professionali,10-14,persons,M,2564
+In complesso,Condizioni non professionali,10-14,persons,F,2787
+In complesso,Condizioni non professionali,15-17,persons,M,385
+In complesso,Condizioni non professionali,15-17,persons,F,1098
+In complesso,Condizioni non professionali,18-20,persons,M,157
+In complesso,Condizioni non professionali,18-20,persons,F,1035
+In complesso,Condizioni non professionali,21-24,persons,M,89
+In complesso,Condizioni non professionali,21-24,persons,F,1846
+In complesso,Condizioni non professionali,25-34,persons,M,38
+In complesso,Condizioni non professionali,25-34,persons,F,4617
+In complesso,Condizioni non professionali,35-44,persons,M,38
+In complesso,Condizioni non professionali,35-44,persons,F,3210
+In complesso,Condizioni non professionali,45-54,persons,M,63
+In complesso,Condizioni non professionali,45-54,persons,F,2014
+In complesso,Condizioni non professionali,55-64,persons,M,109
+In complesso,Condizioni non professionali,55-64,persons,F,1106
+In complesso,Condizioni non professionali,65+,persons,M,278
+In complesso,Condizioni non professionali,65+,persons,F,754
+In complesso,Condizioni non professionali,unknown,persons,M,1
+In complesso,Condizioni non professionali,unknown,persons,F,5
+In complesso,Senza indicazione di professione o condizione,all,persons,MF,201
+In complesso,Senza indicazione di professione o condizione,all,coadiuvanti,MF,0
+In complesso,Senza indicazione di professione o condizione,all,persons,M,134
+In complesso,Senza indicazione di professione o condizione,all,coadiuvanti,M,0
+In complesso,Senza indicazione di professione o condizione,all,persons,F,67
+In complesso,Senza indicazione di professione o condizione,all,coadiuvanti,F,0
+In complesso,Senza indicazione di professione o condizione,10-14,persons,M,43
+In complesso,Senza indicazione di professione o condizione,10-14,persons,F,38
+In complesso,Senza indicazione di professione o condizione,15-17,persons,M,3
+In complesso,Senza indicazione di professione o condizione,15-17,persons,F,3
+In complesso,Senza indicazione di professione o condizione,18-20,persons,M,16
+In complesso,Senza indicazione di professione o condizione,18-20,persons,F,0
+In complesso,Senza indicazione di professione o condizione,21-24,persons,M,28
+In complesso,Senza indicazione di professione o condizione,21-24,persons,F,4
+In complesso,Senza indicazione di professione o condizione,25-34,persons,M,28
+In complesso,Senza indicazione di professione o condizione,25-34,persons,F,4
+In complesso,Senza indicazione di professione o condizione,35-44,persons,M,7
+In complesso,Senza indicazione di professione o condizione,35-44,persons,F,5
+In complesso,Senza indicazione di professione o condizione,45-54,persons,M,7
+In complesso,Senza indicazione di professione o condizione,45-54,persons,F,5
+In complesso,Senza indicazione di professione o condizione,55-64,persons,M,0
+In complesso,Senza indicazione di professione o condizione,55-64,persons,F,5
+In complesso,Senza indicazione di professione o condizione,65+,persons,M,2
+In complesso,Senza indicazione di professione o condizione,65+,persons,F,3
+In complesso,Senza indicazione di professione o condizione,unknown,persons,M,0
+In complesso,Senza indicazione di professione o condizione,unknown,persons,F,0
+In complesso,Totale,all,persons,MF,48981
+In complesso,Totale,all,coadiuvanti,MF,2113
+In complesso,Totale,all,persons,M,26637
+In complesso,Totale,all,coadiuvanti,M,1437
+In complesso,Totale,all,persons,F,22344
+In complesso,Totale,all,coadiuvanti,F,676
+In complesso,Totale,10-14,persons,M,3161
+In complesso,Totale,10-14,persons,F,3093
+In complesso,Totale,15-17,persons,M,1398
+In complesso,Totale,15-17,persons,F,1440
+In complesso,Totale,18-20,persons,M,1263
+In complesso,Totale,18-20,persons,F,1360
+In complesso,Totale,21-24,persons,M,2106
+In complesso,Totale,21-24,persons,F,2314
+In complesso,Totale,25-34,persons,M,8298
+In complesso,Totale,25-34,persons,F,5583
+In complesso,Totale,35-44,persons,M,5170
+In complesso,Totale,35-44,persons,F,4014
+In complesso,Totale,45-54,persons,M,2971
+In complesso,Totale,45-54,persons,F,2443
+In complesso,Totale,55-64,persons,M,1520
+In complesso,Totale,55-64,persons,F,1283
+In complesso,Totale,65+,persons,M,740
+In complesso,Totale,65+,persons,F,807
+In complesso,Totale,unknown,persons,M,10
+In complesso,Totale,unknown,persons,F,7

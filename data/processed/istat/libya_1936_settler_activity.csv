@@ -1,0 +1,898 @@
+order,level,parent,name,measure,persons
+1,provincia,,Provincia di Tripoli,habitual_mf,38856
+1,provincia,,Provincia di Tripoli,agriculture_hunting_fishing,3015
+1,provincia,,Provincia di Tripoli,industry,4814
+1,provincia,,Provincia di Tripoli,transport_communications,903
+1,provincia,,Provincia di Tripoli,commerce,1684
+1,provincia,,Provincia di Tripoli,credit_insurance,184
+1,provincia,,Provincia di Tripoli,liberal_arts_worship,215
+1,provincia,,Provincia di Tripoli,public_administration,3682
+1,provincia,,Provincia di Tripoli,private_administration,77
+1,provincia,,Provincia di Tripoli,domestic_service,643
+1,provincia,,Provincia di Tripoli,active_total,15217
+1,provincia,,Provincia di Tripoli,active_artisans,1364
+1,provincia,,Provincia di Tripoli,inactive,23639
+2,circondario,Provincia di Tripoli,Circondario di Zuara,habitual_mf,879
+2,circondario,Provincia di Tripoli,Circondario di Zuara,agriculture_hunting_fishing,123
+2,circondario,Provincia di Tripoli,Circondario di Zuara,industry,91
+2,circondario,Provincia di Tripoli,Circondario di Zuara,transport_communications,19
+2,circondario,Provincia di Tripoli,Circondario di Zuara,commerce,17
+2,circondario,Provincia di Tripoli,Circondario di Zuara,credit_insurance,1
+2,circondario,Provincia di Tripoli,Circondario di Zuara,liberal_arts_worship,4
+2,circondario,Provincia di Tripoli,Circondario di Zuara,public_administration,111
+2,circondario,Provincia di Tripoli,Circondario di Zuara,private_administration,1
+2,circondario,Provincia di Tripoli,Circondario di Zuara,domestic_service,8
+2,circondario,Provincia di Tripoli,Circondario di Zuara,active_total,375
+2,circondario,Provincia di Tripoli,Circondario di Zuara,active_artisans,16
+2,circondario,Provincia di Tripoli,Circondario di Zuara,inactive,504
+3,distretto,Circondario di Zuara,Distretto di Zuara,habitual_mf,556
+3,distretto,Circondario di Zuara,Distretto di Zuara,agriculture_hunting_fishing,53
+3,distretto,Circondario di Zuara,Distretto di Zuara,industry,85
+3,distretto,Circondario di Zuara,Distretto di Zuara,transport_communications,11
+3,distretto,Circondario di Zuara,Distretto di Zuara,commerce,13
+3,distretto,Circondario di Zuara,Distretto di Zuara,credit_insurance,1
+3,distretto,Circondario di Zuara,Distretto di Zuara,liberal_arts_worship,4
+3,distretto,Circondario di Zuara,Distretto di Zuara,public_administration,69
+3,distretto,Circondario di Zuara,Distretto di Zuara,private_administration,1
+3,distretto,Circondario di Zuara,Distretto di Zuara,domestic_service,4
+3,distretto,Circondario di Zuara,Distretto di Zuara,active_total,241
+3,distretto,Circondario di Zuara,Distretto di Zuara,active_artisans,14
+3,distretto,Circondario di Zuara,Distretto di Zuara,inactive,315
+4,distretto,Circondario di Zuara,Distretto di Sabratha,habitual_mf,323
+4,distretto,Circondario di Zuara,Distretto di Sabratha,agriculture_hunting_fishing,70
+4,distretto,Circondario di Zuara,Distretto di Sabratha,industry,6
+4,distretto,Circondario di Zuara,Distretto di Sabratha,transport_communications,8
+4,distretto,Circondario di Zuara,Distretto di Sabratha,commerce,4
+4,distretto,Circondario di Zuara,Distretto di Sabratha,credit_insurance,0
+4,distretto,Circondario di Zuara,Distretto di Sabratha,liberal_arts_worship,0
+4,distretto,Circondario di Zuara,Distretto di Sabratha,public_administration,42
+4,distretto,Circondario di Zuara,Distretto di Sabratha,private_administration,0
+4,distretto,Circondario di Zuara,Distretto di Sabratha,domestic_service,4
+4,distretto,Circondario di Zuara,Distretto di Sabratha,active_total,134
+4,distretto,Circondario di Zuara,Distretto di Sabratha,active_artisans,2
+4,distretto,Circondario di Zuara,Distretto di Sabratha,inactive,189
+5,circondario,Provincia di Tripoli,Circondario di Zavia,habitual_mf,1275
+5,circondario,Provincia di Tripoli,Circondario di Zavia,agriculture_hunting_fishing,369
+5,circondario,Provincia di Tripoli,Circondario di Zavia,industry,35
+5,circondario,Provincia di Tripoli,Circondario di Zavia,transport_communications,9
+5,circondario,Provincia di Tripoli,Circondario di Zavia,commerce,13
+5,circondario,Provincia di Tripoli,Circondario di Zavia,credit_insurance,1
+5,circondario,Provincia di Tripoli,Circondario di Zavia,liberal_arts_worship,0
+5,circondario,Provincia di Tripoli,Circondario di Zavia,public_administration,51
+5,circondario,Provincia di Tripoli,Circondario di Zavia,private_administration,0
+5,circondario,Provincia di Tripoli,Circondario di Zavia,domestic_service,14
+5,circondario,Provincia di Tripoli,Circondario di Zavia,active_total,492
+5,circondario,Provincia di Tripoli,Circondario di Zavia,active_artisans,11
+5,circondario,Provincia di Tripoli,Circondario di Zavia,inactive,783
+6,distretto,Circondario di Zavia,Distretto di Sorman,habitual_mf,243
+6,distretto,Circondario di Zavia,Distretto di Sorman,agriculture_hunting_fishing,65
+6,distretto,Circondario di Zavia,Distretto di Sorman,industry,2
+6,distretto,Circondario di Zavia,Distretto di Sorman,transport_communications,1
+6,distretto,Circondario di Zavia,Distretto di Sorman,commerce,3
+6,distretto,Circondario di Zavia,Distretto di Sorman,credit_insurance,0
+6,distretto,Circondario di Zavia,Distretto di Sorman,liberal_arts_worship,0
+6,distretto,Circondario di Zavia,Distretto di Sorman,public_administration,9
+6,distretto,Circondario di Zavia,Distretto di Sorman,private_administration,0
+6,distretto,Circondario di Zavia,Distretto di Sorman,domestic_service,1
+6,distretto,Circondario di Zavia,Distretto di Sorman,active_total,81
+6,distretto,Circondario di Zavia,Distretto di Sorman,active_artisans,0
+6,distretto,Circondario di Zavia,Distretto di Sorman,inactive,162
+7,distretto,Circondario di Zavia,Distretto di Zavia,habitual_mf,513
+7,distretto,Circondario di Zavia,Distretto di Zavia,agriculture_hunting_fishing,125
+7,distretto,Circondario di Zavia,Distretto di Zavia,industry,18
+7,distretto,Circondario di Zavia,Distretto di Zavia,transport_communications,4
+7,distretto,Circondario di Zavia,Distretto di Zavia,commerce,7
+7,distretto,Circondario di Zavia,Distretto di Zavia,credit_insurance,1
+7,distretto,Circondario di Zavia,Distretto di Zavia,liberal_arts_worship,0
+7,distretto,Circondario di Zavia,Distretto di Zavia,public_administration,26
+7,distretto,Circondario di Zavia,Distretto di Zavia,private_administration,0
+7,distretto,Circondario di Zavia,Distretto di Zavia,domestic_service,8
+7,distretto,Circondario di Zavia,Distretto di Zavia,active_total,189
+7,distretto,Circondario di Zavia,Distretto di Zavia,active_artisans,10
+7,distretto,Circondario di Zavia,Distretto di Zavia,inactive,324
+8,distretto,Circondario di Zavia,Distretto di Zanzur,habitual_mf,519
+8,distretto,Circondario di Zavia,Distretto di Zanzur,agriculture_hunting_fishing,179
+8,distretto,Circondario di Zavia,Distretto di Zanzur,industry,15
+8,distretto,Circondario di Zavia,Distretto di Zanzur,transport_communications,4
+8,distretto,Circondario di Zavia,Distretto di Zanzur,commerce,3
+8,distretto,Circondario di Zavia,Distretto di Zanzur,credit_insurance,0
+8,distretto,Circondario di Zavia,Distretto di Zanzur,liberal_arts_worship,0
+8,distretto,Circondario di Zavia,Distretto di Zanzur,public_administration,16
+8,distretto,Circondario di Zavia,Distretto di Zanzur,private_administration,0
+8,distretto,Circondario di Zavia,Distretto di Zanzur,domestic_service,5
+8,distretto,Circondario di Zavia,Distretto di Zanzur,active_total,222
+8,distretto,Circondario di Zavia,Distretto di Zanzur,active_artisans,1
+8,distretto,Circondario di Zavia,Distretto di Zanzur,inactive,297
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,habitual_mf,30044
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,agriculture_hunting_fishing,569
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,industry,4366
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,transport_communications,831
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,commerce,1565
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,credit_insurance,180
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,liberal_arts_worship,201
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,public_administration,2942
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,private_administration,76
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,domestic_service,572
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,active_total,11302
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,active_artisans,1286
+9,circondario,Provincia di Tripoli,Circondario di Tripoli,inactive,18742
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,habitual_mf,4052
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,agriculture_hunting_fishing,1199
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,industry,96
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,transport_communications,22
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,commerce,47
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,credit_insurance,0
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,liberal_arts_worship,9
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,public_administration,325
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,private_administration,0
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,domestic_service,38
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,active_total,1736
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,active_artisans,27
+10,circondario,Provincia di Tripoli,Circondario di Sugh el-Giumaa,inactive,2316
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,habitual_mf,1891
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,agriculture_hunting_fishing,520
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,industry,38
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,transport_communications,11
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,commerce,24
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,credit_insurance,0
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,liberal_arts_worship,8
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,public_administration,249
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,private_administration,0
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,domestic_service,18
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,active_total,868
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,active_artisans,7
+11,residenza,Circondario di Sugh el-Giumaa,Residenza di Sugh el-Giumaa,inactive,1023
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,habitual_mf,913
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,agriculture_hunting_fishing,278
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,industry,24
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,transport_communications,7
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,commerce,9
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,credit_insurance,0
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,liberal_arts_worship,1
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,public_administration,20
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,private_administration,0
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,domestic_service,3
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,active_total,342
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,active_artisans,1
+12,residenza,Circondario di Sugh el-Giumaa,Residenza di el-Azizia,inactive,571
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,habitual_mf,452
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,agriculture_hunting_fishing,118
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,industry,18
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,transport_communications,7
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,commerce,4
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,credit_insurance,0
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,liberal_arts_worship,1
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,public_administration,10
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,private_administration,0
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,domestic_service,2
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,active_total,160
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,active_artisans,0
+13,distretto,Residenza di el-Azizia,Distretto di el-Azizia,inactive,292
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,habitual_mf,461
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,agriculture_hunting_fishing,160
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,industry,6
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,transport_communications,0
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,commerce,5
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,credit_insurance,0
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,liberal_arts_worship,0
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,public_administration,10
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,private_administration,0
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,domestic_service,1
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,active_total,182
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,active_artisans,1
+14,distretto,Residenza di el-Azizia,Distretto di Suani ben Adem,inactive,279
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,habitual_mf,1248
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,agriculture_hunting_fishing,401
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,industry,34
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,transport_communications,4
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,commerce,14
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,credit_insurance,0
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,liberal_arts_worship,0
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,public_administration,56
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,private_administration,0
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,domestic_service,17
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,active_total,526
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,active_artisans,19
+15,residenza,Circondario di Sugh el-Giumaa,Residenza di Tagiura,inactive,722
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,habitual_mf,486
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,agriculture_hunting_fishing,143
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,industry,10
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,transport_communications,1
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,commerce,3
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,credit_insurance,0
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,liberal_arts_worship,0
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,public_administration,18
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,private_administration,0
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,domestic_service,5
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,active_total,180
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,active_artisans,6
+16,distretto,Residenza di Tagiura,Distretto di Castel Benito,inactive,306
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,habitual_mf,561
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,agriculture_hunting_fishing,195
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,industry,22
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,transport_communications,2
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,commerce,8
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,credit_insurance,0
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,liberal_arts_worship,0
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,public_administration,28
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,private_administration,0
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,domestic_service,11
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,active_total,266
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,active_artisans,12
+17,distretto,Residenza di Tagiura,Distretto di Tagiura,inactive,295
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,habitual_mf,201
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,agriculture_hunting_fishing,63
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,industry,2
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,transport_communications,1
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,commerce,3
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,credit_insurance,0
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,liberal_arts_worship,0
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,public_administration,10
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,private_administration,0
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,domestic_service,1
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,active_total,80
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,active_artisans,1
+18,distretto,Residenza di Tagiura,Distretto di Gasr el-Garabulli,inactive,121
+19,circondario,Provincia di Tripoli,Circondario di Nalut,habitual_mf,232
+19,circondario,Provincia di Tripoli,Circondario di Nalut,agriculture_hunting_fishing,2
+19,circondario,Provincia di Tripoli,Circondario di Nalut,industry,29
+19,circondario,Provincia di Tripoli,Circondario di Nalut,transport_communications,7
+19,circondario,Provincia di Tripoli,Circondario di Nalut,commerce,15
+19,circondario,Provincia di Tripoli,Circondario di Nalut,credit_insurance,0
+19,circondario,Provincia di Tripoli,Circondario di Nalut,liberal_arts_worship,0
+19,circondario,Provincia di Tripoli,Circondario di Nalut,public_administration,80
+19,circondario,Provincia di Tripoli,Circondario di Nalut,private_administration,0
+19,circondario,Provincia di Tripoli,Circondario di Nalut,domestic_service,1
+19,circondario,Provincia di Tripoli,Circondario di Nalut,active_total,134
+19,circondario,Provincia di Tripoli,Circondario di Nalut,active_artisans,5
+19,circondario,Provincia di Tripoli,Circondario di Nalut,inactive,98
+20,residenza,Circondario di Nalut,Residenza di Nalut,habitual_mf,190
+20,residenza,Circondario di Nalut,Residenza di Nalut,agriculture_hunting_fishing,2
+20,residenza,Circondario di Nalut,Residenza di Nalut,industry,28
+20,residenza,Circondario di Nalut,Residenza di Nalut,transport_communications,5
+20,residenza,Circondario di Nalut,Residenza di Nalut,commerce,13
+20,residenza,Circondario di Nalut,Residenza di Nalut,credit_insurance,0
+20,residenza,Circondario di Nalut,Residenza di Nalut,liberal_arts_worship,0
+20,residenza,Circondario di Nalut,Residenza di Nalut,public_administration,59
+20,residenza,Circondario di Nalut,Residenza di Nalut,private_administration,0
+20,residenza,Circondario di Nalut,Residenza di Nalut,domestic_service,1
+20,residenza,Circondario di Nalut,Residenza di Nalut,active_total,108
+20,residenza,Circondario di Nalut,Residenza di Nalut,active_artisans,5
+20,residenza,Circondario di Nalut,Residenza di Nalut,inactive,82
+21,residenza,Circondario di Nalut,Residenza di Gadames,habitual_mf,42
+21,residenza,Circondario di Nalut,Residenza di Gadames,agriculture_hunting_fishing,0
+21,residenza,Circondario di Nalut,Residenza di Gadames,industry,1
+21,residenza,Circondario di Nalut,Residenza di Gadames,transport_communications,2
+21,residenza,Circondario di Nalut,Residenza di Gadames,commerce,2
+21,residenza,Circondario di Nalut,Residenza di Gadames,credit_insurance,0
+21,residenza,Circondario di Nalut,Residenza di Gadames,liberal_arts_worship,0
+21,residenza,Circondario di Nalut,Residenza di Gadames,public_administration,21
+21,residenza,Circondario di Nalut,Residenza di Gadames,private_administration,0
+21,residenza,Circondario di Nalut,Residenza di Gadames,domestic_service,0
+21,residenza,Circondario di Nalut,Residenza di Gadames,active_total,26
+21,residenza,Circondario di Nalut,Residenza di Gadames,active_artisans,0
+21,residenza,Circondario di Nalut,Residenza di Gadames,inactive,16
+22,circondario,Provincia di Tripoli,Circondario di Garian,habitual_mf,2374
+22,circondario,Provincia di Tripoli,Circondario di Garian,agriculture_hunting_fishing,753
+22,circondario,Provincia di Tripoli,Circondario di Garian,industry,197
+22,circondario,Provincia di Tripoli,Circondario di Garian,transport_communications,15
+22,circondario,Provincia di Tripoli,Circondario di Garian,commerce,27
+22,circondario,Provincia di Tripoli,Circondario di Garian,credit_insurance,2
+22,circondario,Provincia di Tripoli,Circondario di Garian,liberal_arts_worship,1
+22,circondario,Provincia di Tripoli,Circondario di Garian,public_administration,173
+22,circondario,Provincia di Tripoli,Circondario di Garian,private_administration,0
+22,circondario,Provincia di Tripoli,Circondario di Garian,domestic_service,10
+22,circondario,Provincia di Tripoli,Circondario di Garian,active_total,1178
+22,circondario,Provincia di Tripoli,Circondario di Garian,active_artisans,19
+22,circondario,Provincia di Tripoli,Circondario di Garian,inactive,1196
+23,residenza,Circondario di Garian,Residenza di Garian,habitual_mf,2240
+23,residenza,Circondario di Garian,Residenza di Garian,agriculture_hunting_fishing,753
+23,residenza,Circondario di Garian,Residenza di Garian,industry,183
+23,residenza,Circondario di Garian,Residenza di Garian,transport_communications,11
+23,residenza,Circondario di Garian,Residenza di Garian,commerce,21
+23,residenza,Circondario di Garian,Residenza di Garian,credit_insurance,2
+23,residenza,Circondario di Garian,Residenza di Garian,liberal_arts_worship,1
+23,residenza,Circondario di Garian,Residenza di Garian,public_administration,102
+23,residenza,Circondario di Garian,Residenza di Garian,private_administration,0
+23,residenza,Circondario di Garian,Residenza di Garian,domestic_service,10
+23,residenza,Circondario di Garian,Residenza di Garian,active_total,1083
+23,residenza,Circondario di Garian,Residenza di Garian,active_artisans,17
+23,residenza,Circondario di Garian,Residenza di Garian,inactive,1157
+24,residenza,Circondario di Garian,Residenza di Iefren,habitual_mf,96
+24,residenza,Circondario di Garian,Residenza di Iefren,agriculture_hunting_fishing,0
+24,residenza,Circondario di Garian,Residenza di Iefren,industry,12
+24,residenza,Circondario di Garian,Residenza di Iefren,transport_communications,3
+24,residenza,Circondario di Garian,Residenza di Iefren,commerce,4
+24,residenza,Circondario di Garian,Residenza di Iefren,credit_insurance,0
+24,residenza,Circondario di Garian,Residenza di Iefren,liberal_arts_worship,0
+24,residenza,Circondario di Garian,Residenza di Iefren,public_administration,50
+24,residenza,Circondario di Garian,Residenza di Iefren,private_administration,0
+24,residenza,Circondario di Garian,Residenza di Iefren,domestic_service,0
+24,residenza,Circondario di Garian,Residenza di Iefren,active_total,69
+24,residenza,Circondario di Garian,Residenza di Iefren,active_artisans,2
+24,residenza,Circondario di Garian,Residenza di Iefren,inactive,27
+25,distretto,Residenza di Iefren,Distretto di Giado,habitual_mf,21
+25,distretto,Residenza di Iefren,Distretto di Giado,agriculture_hunting_fishing,0
+25,distretto,Residenza di Iefren,Distretto di Giado,industry,0
+25,distretto,Residenza di Iefren,Distretto di Giado,transport_communications,1
+25,distretto,Residenza di Iefren,Distretto di Giado,commerce,1
+25,distretto,Residenza di Iefren,Distretto di Giado,credit_insurance,0
+25,distretto,Residenza di Iefren,Distretto di Giado,liberal_arts_worship,0
+25,distretto,Residenza di Iefren,Distretto di Giado,public_administration,16
+25,distretto,Residenza di Iefren,Distretto di Giado,private_administration,0
+25,distretto,Residenza di Iefren,Distretto di Giado,domestic_service,0
+25,distretto,Residenza di Iefren,Distretto di Giado,active_total,18
+25,distretto,Residenza di Iefren,Distretto di Giado,active_artisans,0
+25,distretto,Residenza di Iefren,Distretto di Giado,inactive,3
+26,distretto,Residenza di Iefren,Distretto di Iefren,habitual_mf,75
+26,distretto,Residenza di Iefren,Distretto di Iefren,agriculture_hunting_fishing,0
+26,distretto,Residenza di Iefren,Distretto di Iefren,industry,12
+26,distretto,Residenza di Iefren,Distretto di Iefren,transport_communications,2
+26,distretto,Residenza di Iefren,Distretto di Iefren,commerce,3
+26,distretto,Residenza di Iefren,Distretto di Iefren,credit_insurance,0
+26,distretto,Residenza di Iefren,Distretto di Iefren,liberal_arts_worship,0
+26,distretto,Residenza di Iefren,Distretto di Iefren,public_administration,34
+26,distretto,Residenza di Iefren,Distretto di Iefren,private_administration,0
+26,distretto,Residenza di Iefren,Distretto di Iefren,domestic_service,0
+26,distretto,Residenza di Iefren,Distretto di Iefren,active_total,51
+26,distretto,Residenza di Iefren,Distretto di Iefren,active_artisans,2
+26,distretto,Residenza di Iefren,Distretto di Iefren,inactive,24
+27,residenza,Circondario di Garian,Residenza di Mizda,habitual_mf,38
+27,residenza,Circondario di Garian,Residenza di Mizda,agriculture_hunting_fishing,0
+27,residenza,Circondario di Garian,Residenza di Mizda,industry,2
+27,residenza,Circondario di Garian,Residenza di Mizda,transport_communications,1
+27,residenza,Circondario di Garian,Residenza di Mizda,commerce,2
+27,residenza,Circondario di Garian,Residenza di Mizda,credit_insurance,0
+27,residenza,Circondario di Garian,Residenza di Mizda,liberal_arts_worship,0
+27,residenza,Circondario di Garian,Residenza di Mizda,public_administration,21
+27,residenza,Circondario di Garian,Residenza di Mizda,private_administration,0
+27,residenza,Circondario di Garian,Residenza di Mizda,domestic_service,0
+27,residenza,Circondario di Garian,Residenza di Mizda,active_total,26
+27,residenza,Circondario di Garian,Residenza di Mizda,active_artisans,0
+27,residenza,Circondario di Garian,Residenza di Mizda,inactive,12
+28,provincia,,Provincia di Misurata,habitual_mf,2234
+28,provincia,,Provincia di Misurata,agriculture_hunting_fishing,178
+28,provincia,,Provincia di Misurata,industry,530
+28,provincia,,Provincia di Misurata,transport_communications,54
+28,provincia,,Provincia di Misurata,commerce,90
+28,provincia,,Provincia di Misurata,credit_insurance,5
+28,provincia,,Provincia di Misurata,liberal_arts_worship,7
+28,provincia,,Provincia di Misurata,public_administration,347
+28,provincia,,Provincia di Misurata,private_administration,7
+28,provincia,,Provincia di Misurata,domestic_service,23
+28,provincia,,Provincia di Misurata,active_total,1241
+28,provincia,,Provincia di Misurata,active_artisans,45
+28,provincia,,Provincia di Misurata,inactive,993
+29,circondario,Provincia di Misurata,Circondario di Homs,habitual_mf,929
+29,circondario,Provincia di Misurata,Circondario di Homs,agriculture_hunting_fishing,129
+29,circondario,Provincia di Misurata,Circondario di Homs,industry,47
+29,circondario,Provincia di Misurata,Circondario di Homs,transport_communications,13
+29,circondario,Provincia di Misurata,Circondario di Homs,commerce,33
+29,circondario,Provincia di Misurata,Circondario di Homs,credit_insurance,1
+29,circondario,Provincia di Misurata,Circondario di Homs,liberal_arts_worship,4
+29,circondario,Provincia di Misurata,Circondario di Homs,public_administration,120
+29,circondario,Provincia di Misurata,Circondario di Homs,private_administration,5
+29,circondario,Provincia di Misurata,Circondario di Homs,domestic_service,3
+29,circondario,Provincia di Misurata,Circondario di Homs,active_total,355
+29,circondario,Provincia di Misurata,Circondario di Homs,active_artisans,14
+29,circondario,Provincia di Misurata,Circondario di Homs,inactive,574
+30,residenza,Circondario di Homs,Residenza di Homs,habitual_mf,507
+30,residenza,Circondario di Homs,Residenza di Homs,agriculture_hunting_fishing,37
+30,residenza,Circondario di Homs,Residenza di Homs,industry,24
+30,residenza,Circondario di Homs,Residenza di Homs,transport_communications,10
+30,residenza,Circondario di Homs,Residenza di Homs,commerce,23
+30,residenza,Circondario di Homs,Residenza di Homs,credit_insurance,1
+30,residenza,Circondario di Homs,Residenza di Homs,liberal_arts_worship,4
+30,residenza,Circondario di Homs,Residenza di Homs,public_administration,80
+30,residenza,Circondario di Homs,Residenza di Homs,private_administration,5
+30,residenza,Circondario di Homs,Residenza di Homs,domestic_service,1
+30,residenza,Circondario di Homs,Residenza di Homs,active_total,185
+30,residenza,Circondario di Homs,Residenza di Homs,active_artisans,7
+30,residenza,Circondario di Homs,Residenza di Homs,inactive,322
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,habitual_mf,54
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,agriculture_hunting_fishing,10
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,industry,2
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,transport_communications,1
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,commerce,3
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,credit_insurance,0
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,liberal_arts_worship,0
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,public_administration,13
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,private_administration,0
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,domestic_service,0
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,active_total,29
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,active_artisans,0
+31,residenza,Circondario di Homs,Residenza di el-Gusbat,inactive,25
+32,residenza,Circondario di Homs,Residenza di Tarhuna,habitual_mf,368
+32,residenza,Circondario di Homs,Residenza di Tarhuna,agriculture_hunting_fishing,82
+32,residenza,Circondario di Homs,Residenza di Tarhuna,industry,21
+32,residenza,Circondario di Homs,Residenza di Tarhuna,transport_communications,2
+32,residenza,Circondario di Homs,Residenza di Tarhuna,commerce,7
+32,residenza,Circondario di Homs,Residenza di Tarhuna,credit_insurance,0
+32,residenza,Circondario di Homs,Residenza di Tarhuna,liberal_arts_worship,0
+32,residenza,Circondario di Homs,Residenza di Tarhuna,public_administration,27
+32,residenza,Circondario di Homs,Residenza di Tarhuna,private_administration,0
+32,residenza,Circondario di Homs,Residenza di Tarhuna,domestic_service,2
+32,residenza,Circondario di Homs,Residenza di Tarhuna,active_total,141
+32,residenza,Circondario di Homs,Residenza di Tarhuna,active_artisans,7
+32,residenza,Circondario di Homs,Residenza di Tarhuna,inactive,227
+33,circondario,Provincia di Misurata,Circondario di Zliten,habitual_mf,79
+33,circondario,Provincia di Misurata,Circondario di Zliten,agriculture_hunting_fishing,0
+33,circondario,Provincia di Misurata,Circondario di Zliten,industry,5
+33,circondario,Provincia di Misurata,Circondario di Zliten,transport_communications,2
+33,circondario,Provincia di Misurata,Circondario di Zliten,commerce,7
+33,circondario,Provincia di Misurata,Circondario di Zliten,credit_insurance,0
+33,circondario,Provincia di Misurata,Circondario di Zliten,liberal_arts_worship,0
+33,circondario,Provincia di Misurata,Circondario di Zliten,public_administration,26
+33,circondario,Provincia di Misurata,Circondario di Zliten,private_administration,0
+33,circondario,Provincia di Misurata,Circondario di Zliten,domestic_service,1
+33,circondario,Provincia di Misurata,Circondario di Zliten,active_total,41
+33,circondario,Provincia di Misurata,Circondario di Zliten,active_artisans,1
+33,circondario,Provincia di Misurata,Circondario di Zliten,inactive,38
+34,circondario,Provincia di Misurata,Circondario di Misurata,habitual_mf,1226
+34,circondario,Provincia di Misurata,Circondario di Misurata,agriculture_hunting_fishing,49
+34,circondario,Provincia di Misurata,Circondario di Misurata,industry,478
+34,circondario,Provincia di Misurata,Circondario di Misurata,transport_communications,39
+34,circondario,Provincia di Misurata,Circondario di Misurata,commerce,50
+34,circondario,Provincia di Misurata,Circondario di Misurata,credit_insurance,4
+34,circondario,Provincia di Misurata,Circondario di Misurata,liberal_arts_worship,3
+34,circondario,Provincia di Misurata,Circondario di Misurata,public_administration,201
+34,circondario,Provincia di Misurata,Circondario di Misurata,private_administration,2
+34,circondario,Provincia di Misurata,Circondario di Misurata,domestic_service,19
+34,circondario,Provincia di Misurata,Circondario di Misurata,active_total,845
+34,circondario,Provincia di Misurata,Circondario di Misurata,active_artisans,30
+34,circondario,Provincia di Misurata,Circondario di Misurata,inactive,381
+35,residenza,Circondario di Misurata,Residenza di Misurata,habitual_mf,616
+35,residenza,Circondario di Misurata,Residenza di Misurata,agriculture_hunting_fishing,49
+35,residenza,Circondario di Misurata,Residenza di Misurata,industry,62
+35,residenza,Circondario di Misurata,Residenza di Misurata,transport_communications,17
+35,residenza,Circondario di Misurata,Residenza di Misurata,commerce,31
+35,residenza,Circondario di Misurata,Residenza di Misurata,credit_insurance,3
+35,residenza,Circondario di Misurata,Residenza di Misurata,liberal_arts_worship,1
+35,residenza,Circondario di Misurata,Residenza di Misurata,public_administration,125
+35,residenza,Circondario di Misurata,Residenza di Misurata,private_administration,2
+35,residenza,Circondario di Misurata,Residenza di Misurata,domestic_service,12
+35,residenza,Circondario di Misurata,Residenza di Misurata,active_total,302
+35,residenza,Circondario di Misurata,Residenza di Misurata,active_artisans,25
+35,residenza,Circondario di Misurata,Residenza di Misurata,inactive,314
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,habitual_mf,29
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,agriculture_hunting_fishing,0
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,industry,1
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,transport_communications,3
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,commerce,0
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,credit_insurance,0
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,liberal_arts_worship,0
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,public_administration,13
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,private_administration,0
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,domestic_service,1
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,active_total,18
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,active_artisans,0
+36,residenza,Circondario di Misurata,Residenza di Beni Ulid,inactive,11
+37,residenza,Circondario di Misurata,Residenza di Sirte,habitual_mf,487
+37,residenza,Circondario di Misurata,Residenza di Sirte,agriculture_hunting_fishing,0
+37,residenza,Circondario di Misurata,Residenza di Sirte,industry,345
+37,residenza,Circondario di Misurata,Residenza di Sirte,transport_communications,7
+37,residenza,Circondario di Misurata,Residenza di Sirte,commerce,15
+37,residenza,Circondario di Misurata,Residenza di Sirte,credit_insurance,1
+37,residenza,Circondario di Misurata,Residenza di Sirte,liberal_arts_worship,2
+37,residenza,Circondario di Misurata,Residenza di Sirte,public_administration,55
+37,residenza,Circondario di Misurata,Residenza di Sirte,private_administration,0
+37,residenza,Circondario di Misurata,Residenza di Sirte,domestic_service,6
+37,residenza,Circondario di Misurata,Residenza di Sirte,active_total,431
+37,residenza,Circondario di Misurata,Residenza di Sirte,active_artisans,5
+37,residenza,Circondario di Misurata,Residenza di Sirte,inactive,56
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,habitual_mf,94
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,agriculture_hunting_fishing,0
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,industry,70
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,transport_communications,12
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,commerce,4
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,credit_insurance,0
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,liberal_arts_worship,0
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,public_administration,8
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,private_administration,0
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,domestic_service,0
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,active_total,94
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,active_artisans,0
+38,residenza,Circondario di Misurata,Residenza di en-Nofilia,inactive,0
+39,provincia,,Provincia di Bengasi,habitual_mf,16677
+39,provincia,,Provincia di Bengasi,agriculture_hunting_fishing,402
+39,provincia,,Provincia di Bengasi,industry,2246
+39,provincia,,Provincia di Bengasi,transport_communications,510
+39,provincia,,Provincia di Bengasi,commerce,848
+39,provincia,,Provincia di Bengasi,credit_insurance,80
+39,provincia,,Provincia di Bengasi,liberal_arts_worship,101
+39,provincia,,Provincia di Bengasi,public_administration,2712
+39,provincia,,Provincia di Bengasi,private_administration,8
+39,provincia,,Provincia di Bengasi,domestic_service,334
+39,provincia,,Provincia di Bengasi,active_total,7241
+39,provincia,,Provincia di Bengasi,active_artisans,658
+39,provincia,,Provincia di Bengasi,inactive,9436
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,habitual_mf,172
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,agriculture_hunting_fishing,1
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,industry,18
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,transport_communications,2
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,commerce,15
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,credit_insurance,1
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,liberal_arts_worship,1
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,public_administration,69
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,private_administration,0
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,domestic_service,2
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,active_total,109
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,active_artisans,6
+40,circondario,Provincia di Bengasi,Circondario di Agedabia,inactive,63
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,habitual_mf,34
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,agriculture_hunting_fishing,0
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,industry,4
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,transport_communications,0
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,commerce,0
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,credit_insurance,0
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,liberal_arts_worship,0
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,public_administration,20
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,private_administration,0
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,domestic_service,1
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,active_total,25
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,active_artisans,2
+41,distretto,Circondario di Agedabia,Distretto di el-Agheila,inactive,9
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,habitual_mf,138
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,agriculture_hunting_fishing,1
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,industry,14
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,transport_communications,2
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,commerce,15
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,credit_insurance,1
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,liberal_arts_worship,1
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,public_administration,49
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,private_administration,0
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,domestic_service,1
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,active_total,84
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,active_artisans,4
+42,distretto,Circondario di Agedabia,Distretto di Agedabia,inactive,54
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,habitual_mf,14743
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,agriculture_hunting_fishing,230
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,industry,2094
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,transport_communications,486
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,commerce,730
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,credit_insurance,75
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,liberal_arts_worship,93
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,public_administration,2074
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,private_administration,4
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,domestic_service,307
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,active_total,6093
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,active_artisans,604
+43,circondario,Provincia di Bengasi,Circondario di Bengasi,inactive,8650
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,habitual_mf,14548
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,agriculture_hunting_fishing,219
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,industry,2059
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,transport_communications,480
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,commerce,714
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,credit_insurance,75
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,liberal_arts_worship,92
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,public_administration,2026
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,private_administration,4
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,domestic_service,306
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,active_total,5975
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,active_artisans,601
+44,residenza,Circondario di Bengasi,Residenza di Bengasi,inactive,8573
+45,residenza,Circondario di Bengasi,Residenza di Soluch,habitual_mf,85
+45,residenza,Circondario di Bengasi,Residenza di Soluch,agriculture_hunting_fishing,6
+45,residenza,Circondario di Bengasi,Residenza di Soluch,industry,5
+45,residenza,Circondario di Bengasi,Residenza di Soluch,transport_communications,3
+45,residenza,Circondario di Bengasi,Residenza di Soluch,commerce,6
+45,residenza,Circondario di Bengasi,Residenza di Soluch,credit_insurance,0
+45,residenza,Circondario di Bengasi,Residenza di Soluch,liberal_arts_worship,1
+45,residenza,Circondario di Bengasi,Residenza di Soluch,public_administration,33
+45,residenza,Circondario di Bengasi,Residenza di Soluch,private_administration,0
+45,residenza,Circondario di Bengasi,Residenza di Soluch,domestic_service,0
+45,residenza,Circondario di Bengasi,Residenza di Soluch,active_total,54
+45,residenza,Circondario di Bengasi,Residenza di Soluch,active_artisans,2
+45,residenza,Circondario di Bengasi,Residenza di Soluch,inactive,31
+46,residenza,Circondario di Bengasi,Residenza di Tocra,habitual_mf,110
+46,residenza,Circondario di Bengasi,Residenza di Tocra,agriculture_hunting_fishing,5
+46,residenza,Circondario di Bengasi,Residenza di Tocra,industry,30
+46,residenza,Circondario di Bengasi,Residenza di Tocra,transport_communications,3
+46,residenza,Circondario di Bengasi,Residenza di Tocra,commerce,10
+46,residenza,Circondario di Bengasi,Residenza di Tocra,credit_insurance,0
+46,residenza,Circondario di Bengasi,Residenza di Tocra,liberal_arts_worship,0
+46,residenza,Circondario di Bengasi,Residenza di Tocra,public_administration,15
+46,residenza,Circondario di Bengasi,Residenza di Tocra,private_administration,0
+46,residenza,Circondario di Bengasi,Residenza di Tocra,domestic_service,1
+46,residenza,Circondario di Bengasi,Residenza di Tocra,active_total,64
+46,residenza,Circondario di Bengasi,Residenza di Tocra,active_artisans,1
+46,residenza,Circondario di Bengasi,Residenza di Tocra,inactive,46
+47,circondario,Provincia di Bengasi,Circondario di Barce,habitual_mf,1762
+47,circondario,Provincia di Bengasi,Circondario di Barce,agriculture_hunting_fishing,171
+47,circondario,Provincia di Bengasi,Circondario di Barce,industry,134
+47,circondario,Provincia di Bengasi,Circondario di Barce,transport_communications,22
+47,circondario,Provincia di Bengasi,Circondario di Barce,commerce,103
+47,circondario,Provincia di Bengasi,Circondario di Barce,credit_insurance,4
+47,circondario,Provincia di Bengasi,Circondario di Barce,liberal_arts_worship,7
+47,circondario,Provincia di Bengasi,Circondario di Barce,public_administration,569
+47,circondario,Provincia di Bengasi,Circondario di Barce,private_administration,4
+47,circondario,Provincia di Bengasi,Circondario di Barce,domestic_service,25
+47,circondario,Provincia di Bengasi,Circondario di Barce,active_total,1039
+47,circondario,Provincia di Bengasi,Circondario di Barce,active_artisans,48
+47,circondario,Provincia di Bengasi,Circondario di Barce,inactive,723
+48,distretto,Circondario di Barce,Distretto di el-Abiar,habitual_mf,175
+48,distretto,Circondario di Barce,Distretto di el-Abiar,agriculture_hunting_fishing,27
+48,distretto,Circondario di Barce,Distretto di el-Abiar,industry,4
+48,distretto,Circondario di Barce,Distretto di el-Abiar,transport_communications,5
+48,distretto,Circondario di Barce,Distretto di el-Abiar,commerce,9
+48,distretto,Circondario di Barce,Distretto di el-Abiar,credit_insurance,0
+48,distretto,Circondario di Barce,Distretto di el-Abiar,liberal_arts_worship,1
+48,distretto,Circondario di Barce,Distretto di el-Abiar,public_administration,57
+48,distretto,Circondario di Barce,Distretto di el-Abiar,private_administration,0
+48,distretto,Circondario di Barce,Distretto di el-Abiar,domestic_service,3
+48,distretto,Circondario di Barce,Distretto di el-Abiar,active_total,106
+48,distretto,Circondario di Barce,Distretto di el-Abiar,active_artisans,1
+48,distretto,Circondario di Barce,Distretto di el-Abiar,inactive,69
+49,distretto,Circondario di Barce,Distretto di Barce,habitual_mf,1519
+49,distretto,Circondario di Barce,Distretto di Barce,agriculture_hunting_fishing,140
+49,distretto,Circondario di Barce,Distretto di Barce,industry,128
+49,distretto,Circondario di Barce,Distretto di Barce,transport_communications,17
+49,distretto,Circondario di Barce,Distretto di Barce,commerce,91
+49,distretto,Circondario di Barce,Distretto di Barce,credit_insurance,4
+49,distretto,Circondario di Barce,Distretto di Barce,liberal_arts_worship,6
+49,distretto,Circondario di Barce,Distretto di Barce,public_administration,490
+49,distretto,Circondario di Barce,Distretto di Barce,private_administration,4
+49,distretto,Circondario di Barce,Distretto di Barce,domestic_service,22
+49,distretto,Circondario di Barce,Distretto di Barce,active_total,902
+49,distretto,Circondario di Barce,Distretto di Barce,active_artisans,47
+49,distretto,Circondario di Barce,Distretto di Barce,inactive,617
+50,distretto,Circondario di Barce,Distretto di Tolmeta,habitual_mf,68
+50,distretto,Circondario di Barce,Distretto di Tolmeta,agriculture_hunting_fishing,4
+50,distretto,Circondario di Barce,Distretto di Tolmeta,industry,2
+50,distretto,Circondario di Barce,Distretto di Tolmeta,transport_communications,0
+50,distretto,Circondario di Barce,Distretto di Tolmeta,commerce,3
+50,distretto,Circondario di Barce,Distretto di Tolmeta,credit_insurance,0
+50,distretto,Circondario di Barce,Distretto di Tolmeta,liberal_arts_worship,0
+50,distretto,Circondario di Barce,Distretto di Tolmeta,public_administration,22
+50,distretto,Circondario di Barce,Distretto di Tolmeta,private_administration,0
+50,distretto,Circondario di Barce,Distretto di Tolmeta,domestic_service,0
+50,distretto,Circondario di Barce,Distretto di Tolmeta,active_total,31
+50,distretto,Circondario di Barce,Distretto di Tolmeta,active_artisans,0
+50,distretto,Circondario di Barce,Distretto di Tolmeta,inactive,37
+51,provincia,,Provincia di Derna,habitual_mf,5224
+51,provincia,,Provincia di Derna,agriculture_hunting_fishing,849
+51,provincia,,Provincia di Derna,industry,459
+51,provincia,,Provincia di Derna,transport_communications,88
+51,provincia,,Provincia di Derna,commerce,201
+51,provincia,,Provincia di Derna,credit_insurance,13
+51,provincia,,Provincia di Derna,liberal_arts_worship,20
+51,provincia,,Provincia di Derna,public_administration,1026
+51,provincia,,Provincia di Derna,private_administration,0
+51,provincia,,Provincia di Derna,domestic_service,25
+51,provincia,,Provincia di Derna,active_total,2681
+51,provincia,,Provincia di Derna,active_artisans,130
+51,provincia,,Provincia di Derna,inactive,2543
+52,circondario,Provincia di Derna,Circondario di Apollonia,habitual_mf,2324
+52,circondario,Provincia di Derna,Circondario di Apollonia,agriculture_hunting_fishing,639
+52,circondario,Provincia di Derna,Circondario di Apollonia,industry,64
+52,circondario,Provincia di Derna,Circondario di Apollonia,transport_communications,13
+52,circondario,Provincia di Derna,Circondario di Apollonia,commerce,48
+52,circondario,Provincia di Derna,Circondario di Apollonia,credit_insurance,2
+52,circondario,Provincia di Derna,Circondario di Apollonia,liberal_arts_worship,6
+52,circondario,Provincia di Derna,Circondario di Apollonia,public_administration,197
+52,circondario,Provincia di Derna,Circondario di Apollonia,private_administration,0
+52,circondario,Provincia di Derna,Circondario di Apollonia,domestic_service,6
+52,circondario,Provincia di Derna,Circondario di Apollonia,active_total,975
+52,circondario,Provincia di Derna,Circondario di Apollonia,active_artisans,21
+52,circondario,Provincia di Derna,Circondario di Apollonia,inactive,1349
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,habitual_mf,1231
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,agriculture_hunting_fishing,433
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,industry,10
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,transport_communications,2
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,commerce,6
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,credit_insurance,0
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,liberal_arts_worship,2
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,public_administration,28
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,private_administration,0
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,domestic_service,0
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,active_total,481
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,active_artisans,2
+53,distretto,Circondario di Apollonia,Distretto di Beda Littoria,inactive,750
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,habitual_mf,32
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,agriculture_hunting_fishing,1
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,industry,2
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,transport_communications,0
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,commerce,4
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,credit_insurance,0
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,liberal_arts_worship,0
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,public_administration,19
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,private_administration,0
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,domestic_service,0
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,active_total,26
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,active_artisans,0
+54,distretto,Circondario di Apollonia,Distretto di Gerdes Gerrari,inactive,6
+55,distretto,Circondario di Apollonia,Distretto di Cirene,habitual_mf,712
+55,distretto,Circondario di Apollonia,Distretto di Cirene,agriculture_hunting_fishing,198
+55,distretto,Circondario di Apollonia,Distretto di Cirene,industry,20
+55,distretto,Circondario di Apollonia,Distretto di Cirene,transport_communications,4
+55,distretto,Circondario di Apollonia,Distretto di Cirene,commerce,19
+55,distretto,Circondario di Apollonia,Distretto di Cirene,credit_insurance,0
+55,distretto,Circondario di Apollonia,Distretto di Cirene,liberal_arts_worship,2
+55,distretto,Circondario di Apollonia,Distretto di Cirene,public_administration,29
+55,distretto,Circondario di Apollonia,Distretto di Cirene,private_administration,0
+55,distretto,Circondario di Apollonia,Distretto di Cirene,domestic_service,0
+55,distretto,Circondario di Apollonia,Distretto di Cirene,active_total,272
+55,distretto,Circondario di Apollonia,Distretto di Cirene,active_artisans,7
+55,distretto,Circondario di Apollonia,Distretto di Cirene,inactive,440
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,habitual_mf,349
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,agriculture_hunting_fishing,7
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,industry,32
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,transport_communications,7
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,commerce,19
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,credit_insurance,2
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,liberal_arts_worship,2
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,public_administration,121
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,private_administration,0
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,domestic_service,6
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,active_total,196
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,active_artisans,12
+56,distretto,Circondario di Apollonia,Distretto di Apollonia,inactive,153
+57,circondario,Provincia di Derna,Circondario di Derna,habitual_mf,1925
+57,circondario,Provincia di Derna,Circondario di Derna,agriculture_hunting_fishing,201
+57,circondario,Provincia di Derna,Circondario di Derna,industry,223
+57,circondario,Provincia di Derna,Circondario di Derna,transport_communications,40
+57,circondario,Provincia di Derna,Circondario di Derna,commerce,91
+57,circondario,Provincia di Derna,Circondario di Derna,credit_insurance,6
+57,circondario,Provincia di Derna,Circondario di Derna,liberal_arts_worship,11
+57,circondario,Provincia di Derna,Circondario di Derna,public_administration,388
+57,circondario,Provincia di Derna,Circondario di Derna,private_administration,0
+57,circondario,Provincia di Derna,Circondario di Derna,domestic_service,16
+57,circondario,Provincia di Derna,Circondario di Derna,active_total,976
+57,circondario,Provincia di Derna,Circondario di Derna,active_artisans,80
+57,circondario,Provincia di Derna,Circondario di Derna,inactive,949
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,habitual_mf,516
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,agriculture_hunting_fishing,179
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,industry,14
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,transport_communications,4
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,commerce,8
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,credit_insurance,0
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,liberal_arts_worship,3
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,public_administration,31
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,private_administration,0
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,domestic_service,1
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,active_total,240
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,active_artisans,2
+58,distretto,Circondario di Derna,Distretto di Giovanni Berta,inactive,276
+59,distretto,Circondario di Derna,Distretto di Derna,habitual_mf,1409
+59,distretto,Circondario di Derna,Distretto di Derna,agriculture_hunting_fishing,22
+59,distretto,Circondario di Derna,Distretto di Derna,industry,209
+59,distretto,Circondario di Derna,Distretto di Derna,transport_communications,36
+59,distretto,Circondario di Derna,Distretto di Derna,commerce,83
+59,distretto,Circondario di Derna,Distretto di Derna,credit_insurance,6
+59,distretto,Circondario di Derna,Distretto di Derna,liberal_arts_worship,8
+59,distretto,Circondario di Derna,Distretto di Derna,public_administration,357
+59,distretto,Circondario di Derna,Distretto di Derna,private_administration,0
+59,distretto,Circondario di Derna,Distretto di Derna,domestic_service,15
+59,distretto,Circondario di Derna,Distretto di Derna,active_total,736
+59,distretto,Circondario di Derna,Distretto di Derna,active_artisans,78
+59,distretto,Circondario di Derna,Distretto di Derna,inactive,673
+60,circondario,Provincia di Derna,Circondario di Tobruch,habitual_mf,975
+60,circondario,Provincia di Derna,Circondario di Tobruch,agriculture_hunting_fishing,9
+60,circondario,Provincia di Derna,Circondario di Tobruch,industry,172
+60,circondario,Provincia di Derna,Circondario di Tobruch,transport_communications,35
+60,circondario,Provincia di Derna,Circondario di Tobruch,commerce,62
+60,circondario,Provincia di Derna,Circondario di Tobruch,credit_insurance,5
+60,circondario,Provincia di Derna,Circondario di Tobruch,liberal_arts_worship,3
+60,circondario,Provincia di Derna,Circondario di Tobruch,public_administration,441
+60,circondario,Provincia di Derna,Circondario di Tobruch,private_administration,0
+60,circondario,Provincia di Derna,Circondario di Tobruch,domestic_service,3
+60,circondario,Provincia di Derna,Circondario di Tobruch,active_total,730
+60,circondario,Provincia di Derna,Circondario di Tobruch,active_artisans,29
+60,circondario,Provincia di Derna,Circondario di Tobruch,inactive,245
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,habitual_mf,673
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,agriculture_hunting_fishing,6
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,industry,129
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,transport_communications,27
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,commerce,40
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,credit_insurance,3
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,liberal_arts_worship,2
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,public_administration,249
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,private_administration,0
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,domestic_service,3
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,active_total,459
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,active_artisans,22
+61,residenza,Circondario di Tobruch,Residenza di Tobruch,inactive,214
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,habitual_mf,302
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,agriculture_hunting_fishing,3
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,industry,43
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,transport_communications,8
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,commerce,22
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,credit_insurance,2
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,liberal_arts_worship,1
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,public_administration,192
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,private_administration,0
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,domestic_service,0
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,active_total,271
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,active_artisans,7
+62,residenza,Circondario di Tobruch,Residenza di Porto Bardia,inactive,31
+63,provincia,,Territorio Militare del Sud,habitual_mf,225
+63,provincia,,Territorio Militare del Sud,agriculture_hunting_fishing,1
+63,provincia,,Territorio Militare del Sud,industry,12
+63,provincia,,Territorio Militare del Sud,transport_communications,4
+63,provincia,,Territorio Militare del Sud,commerce,12
+63,provincia,,Territorio Militare del Sud,credit_insurance,0
+63,provincia,,Territorio Militare del Sud,liberal_arts_worship,1
+63,provincia,,Territorio Militare del Sud,public_administration,176
+63,provincia,,Territorio Militare del Sud,private_administration,0
+63,provincia,,Territorio Militare del Sud,domestic_service,0
+63,provincia,,Territorio Militare del Sud,active_total,206
+63,provincia,,Territorio Militare del Sud,active_artisans,1
+63,provincia,,Territorio Militare del Sud,inactive,19
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,habitual_mf,41
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,agriculture_hunting_fishing,1
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,industry,2
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,transport_communications,1
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,commerce,4
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,credit_insurance,0
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,liberal_arts_worship,0
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,public_administration,33
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,private_administration,0
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,domestic_service,0
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,active_total,41
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,active_artisans,0
+64,sottozona,Territorio Militare del Sud,Sottozona militare di Brach,inactive,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,habitual_mf,31
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,agriculture_hunting_fishing,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,industry,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,transport_communications,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,commerce,1
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,credit_insurance,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,liberal_arts_worship,1
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,public_administration,29
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,private_administration,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,domestic_service,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,active_total,31
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,active_artisans,0
+65,sottozona,Territorio Militare del Sud,Sottozona militare di Gat,inactive,0
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,habitual_mf,37
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,agriculture_hunting_fishing,0
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,industry,4
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,transport_communications,2
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,commerce,2
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,credit_insurance,0
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,liberal_arts_worship,0
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,public_administration,28
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,private_administration,0
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,domestic_service,0
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,active_total,36
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,active_artisans,0
+66,sottozona,Territorio Militare del Sud,Sottozona militare di Murzuch,inactive,1
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,habitual_mf,98
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,agriculture_hunting_fishing,0
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,industry,6
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,transport_communications,1
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,commerce,5
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,credit_insurance,0
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,liberal_arts_worship,0
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,public_administration,68
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,private_administration,0
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,domestic_service,0
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,active_total,80
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,active_artisans,1
+67,sottozona,Territorio Militare del Sud,Sottozona militare di Hon,inactive,18
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,habitual_mf,18
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,agriculture_hunting_fishing,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,industry,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,transport_communications,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,commerce,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,credit_insurance,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,liberal_arts_worship,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,public_administration,18
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,private_administration,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,domestic_service,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,active_total,18
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,active_artisans,0
+68,sottozona,Territorio Militare del Sud,Sottozona militare di el-Giof,inactive,0
+0,colony,,LIBIA,habitual_mf,63216
+0,colony,,LIBIA,agriculture_hunting_fishing,4445
+0,colony,,LIBIA,industry,8061
+0,colony,,LIBIA,transport_communications,1559
+0,colony,,LIBIA,commerce,2835
+0,colony,,LIBIA,credit_insurance,282
+0,colony,,LIBIA,liberal_arts_worship,344
+0,colony,,LIBIA,public_administration,7943
+0,colony,,LIBIA,private_administration,92
+0,colony,,LIBIA,domestic_service,1025
+0,colony,,LIBIA,active_total,26586
+0,colony,,LIBIA,active_artisans,2198
+0,colony,,LIBIA,inactive,36630
